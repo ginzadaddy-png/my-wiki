@@ -19,6 +19,7 @@
 | [fromsoftware-300-devs](sources/fromsoftware-300-devs.md) | FromSoftware, 직원 300명으로 엘든링+AC6 동시 제작 | 2023-07-26 |
 | [re2023-re-engine-philosophy](sources/re2023-re-engine-philosophy.md) | RE:2023 RE ENGINE Philosophy | 2023-10-27 |
 | [embark-soderlund-quarter-budget](sources/embark-soderlund-quarter-budget.md) | Embark 수더룬드 — 'AAA 예산의 1/4로 AAA 퀄리티' | 2026-03-14 |
+| [gdc24-zelda-tears-of-kingdom](sources/gdc24-zelda-tears-of-kingdom.md) | [GDC24] 젤다 TotK — 만들었지만 만들지 않은 '미친' 자유도 | 2024-03-21 |
 
 ## 엔티티 (entities/)
 ### 스튜디오
@@ -33,6 +34,7 @@
 | [capcom](entities/capcom.md) | 일본 대형 퍼블리셔, RE ENGINE, 2500명 전략 |
 | [fromsoftware](entities/fromsoftware.md) | 소울 시리즈, 300명 개발 인력, 유동적 팀 배치 |
 | [naughty-dog](entities/naughty-dog.md) | 소니 퍼스트 파티, 언차티드·TLOU, 멀티 개발 고민 |
+| [nintendo](entities/nintendo.md) | 일본 교토, 젤다·마리오, 창발적 시스템 설계 |
 
 ### 게임
 | 파일 | 설명 |
@@ -62,6 +64,7 @@
 | [data-driven-development](concepts/data-driven-development.md) | 데이터 기반 개발 의사결정 (3일 버스트·바구니 시스템) |
 | [multi-project-development](concepts/multi-project-development.md) | 멀티 프로젝트 동시 개발 전략과 위험 |
 | [proprietary-engine-strategy](concepts/proprietary-engine-strategy.md) | 독자 엔진 전략 (RE ENGINE vs 서드파티 무수정) |
+| [emergent-systems-design](concepts/emergent-systems-design.md) | 창발적 시스템 설계 — 규칙이 자유를 만든다 (닌텐도 TotK) |
 
 ## 비교 (comparisons/)
 | 파일 | 비교 축 | 대상 스튜디오 |

@@ -1,5 +1,15 @@
 # 활동 로그
 
+## [2026-04-14] ingest | 젤다 TotK GDC24 강연 + 중복 파일 확인
+- Source: raw/articles/2026-04-13T181649+0900-GDC24 젤다의 전설, 만들었지만 만들지 않은 '미친' 자유도.md
+- 중복 파일 확인 (ingested 처리 없음): 2026-04-14T181252+0900-The Risks of Multi Game Development.md (2026-04-14T160336 파일과 동일 소스)
+- 생성:
+  - sources/gdc24-zelda-tears-of-kingdom.md
+  - entities/nintendo.md
+  - concepts/emergent-systems-design.md (신규: 창발적 시스템 설계, 규칙이 자유를 만든다)
+- 업데이트: index.md
+- 모순: 없음
+
 ## [2026-04-14] ingest | 7개 아티클 — 개발 전략·멀티 프로젝트·엔진·애자일
 - Sources: raw/articles/ (7개 파일)
   - Capcom Integrated Report 2021 (개발 전략)
