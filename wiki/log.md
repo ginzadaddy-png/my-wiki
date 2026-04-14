@@ -1,5 +1,47 @@
 # 활동 로그
 
+## [2026-04-14] ingest | 7개 아티클 — 개발 전략·멀티 프로젝트·엔진·애자일
+- Sources: raw/articles/ (7개 파일)
+  - Capcom Integrated Report 2021 (개발 전략)
+  - The Risks of Multi Game Development (2014)
+  - Agile Game Development With Scrum: Teams (2010)
+  - Naughty Dog Still Falling Just Short of Simultaneous Development (2021)
+  - FromSoftware made Elden Ring and Armored Core 6 with 300 developers (2023)
+  - RE:2023 RE ENGINE Philosophy (2023)
+  - Embark Studios Söderlund — Quarter of AAA Budget (2026)
+- 생성:
+  - sources/capcom-ir2021-dev-strategy.md
+  - sources/risks-multi-game-development.md
+  - sources/agile-scrum-teams.md
+  - sources/naughty-dog-multi-project.md
+  - sources/fromsoftware-300-devs.md
+  - sources/re2023-re-engine-philosophy.md
+  - sources/embark-soderlund-quarter-budget.md
+  - entities/capcom.md
+  - entities/fromsoftware.md
+  - entities/naughty-dog.md
+  - concepts/multi-project-development.md (신규)
+  - concepts/proprietary-engine-strategy.md (신규)
+- 업데이트:
+  - entities/embark-studios.md (인원·판매 수치·효율화 철학 추가)
+  - index.md
+- 모순:
+  - 독자 엔진 전략: 캡콤(독자 엔진 강점) vs 샌드폴(서드파티 무수정 강점) — 스튜디오 규모에 따른 합리적 분기로 해소, proprietary-engine-strategy.md에 병기
+
+## [2026-04-13] ingest | GDC26 강연 — 아크 레이더스 리셋 성공 신화
+- Source: raw/articles/gdc26-arc-raiders-reset.md
+- 생성:
+  - sources/gdc26-arc-raiders-reset.md
+  - entities/embark-studios.md
+  - entities/arc-raiders.md
+  - concepts/data-driven-development.md (신규: 3일 버스트·바구니 시스템·UXR 활용)
+- 업데이트:
+  - concepts/small-team-development.md (강제된 집중 — 팀 리셋 추가)
+  - concepts/playtesting.md (엠바크 UXR 기반 테스트 추가)
+  - concepts/vision-statement.md (기둥 기반 의도 소통 — 엠바크 방식 추가)
+  - index.md
+- 모순: 없음
+
 ## [2026-04-13] 비교 페이지 생성
 - 생성:
   - comparisons/iteration-cycles.md (반복 개발 주기 비교)

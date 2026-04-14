@@ -1,0 +1,26 @@
+name: Update Quartz
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.QUARTZ_TOKEN }}
+          repository: ginzadaddy-png/quartz
+          ref: v4
+          submodules: recursive
+
+      - name: Update submodule
+        run: |
+          git submodule update --remote content
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add .
+          git diff --staged --quiet || git commit -m "auto: my-wiki 업데이트"
+          git push
