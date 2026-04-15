@@ -1,5 +1,56 @@
 # 활동 로그
 
+## [2026-04-15] ingest | 대량 배치 — 레벨 디자인·오픈월드·전투·인디 비즈니스 (30개 파일)
+- Sources: raw/articles/ (2026-04-15 추가 파일 중 신규 27개, 중복 6개 제외)
+- 생성 (sources/):
+  - gdc2013-ten-principles-level-design.md
+  - gdc2016-architecture-level-design.md
+  - gdc2016-hitman-nonlinear-sandbox.md
+  - gdc2017-narrative-level-design.md
+  - gdc2019-nonlinear-level-design.md
+  - gdc2019-god-of-war-combat.md
+  - gdc2019-god-of-war-axe.md
+  - gdc2019-spiderman-animation.md
+  - gdc2021-level-design-studio-wide.md
+  - gdc2021-got-master-katana.md
+  - gdc2021-got-honoring-blade.md
+  - gdc2021-death-stranding-ai.md
+  - gdc2022-tlou2-museum-flashback.md
+  - gdc2023-cyberpunk-nonlinear-level-design.md
+  - gdc2023-quest-design-lessons-cdpr.md
+  - gdc2023-indie-starter-kit.md
+  - gdc2023-no-budget-marketing.md
+  - gdc2024-hifi-rush-backwards.md
+  - gdc2024-skyrim-starfield-design-collab.md
+  - gdc2024-valheim-early-access.md
+  - gdc2014-tlou-melee-system.md
+  - open-world-linearization-gta5.md
+  - skyrim-not-perfect-mda.md
+  - zelda-vs-ubisoft-open-world.md
+  - botw-eldenring-visual-guidance.md
+  - gmtk-world-design-elden-ring.md
+  - gmtk-world-design-dark-souls.md
+  - dark-souls-world-hides-lore.md
+  - dark-souls-lordran-layout.md
+- 생성 (concepts/):
+  - level-design-principles.md (신규: 공간 문법·건축 원리·비선형 패턴·샌드박스 가이던스)
+  - open-world-design.md (신규: 선형화·SDT이론·필드삼각형법칙·아코디언구조·MDA)
+  - combat-design.md (신규: 치명성계약·HP인플레이션·카메라-전투관계·Unsynced)
+  - quest-narrative-design.md (신규: 6요소프레임워크·CDPR교훈·공간내러티브·팀협업)
+- 생성 (entities/):
+  - cd-projekt-red.md (신규: 폴란드 바르샤바, 위처·사이버펑크)
+- 업데이트:
+  - index.md (소스 29개·컨셉 4개·엔티티 1개 추가)
+- 중복 처리 (ingest 제외):
+  - Tunes of Kingdom ×2 (이미 처리됨)
+  - Skyrim-Starfield Collab ×2 (중복)
+  - Evolving Combat GoW ×2 (중복)
+  - GDC26 Arc Raiders 한국어 버전 (이미 처리됨)
+- 저가치 항목 스킵:
+  - "7 Open-World Games That Allow You To Enter Most Buildings" (목록 기사)
+  - "Sink or Swim" (암호화폐 게임 전환, 무관)
+- 모순: 없음
+
 ## [2026-04-14] ingest | 젤다 TotK GDC24 강연 + 중복 파일 확인
 - Source: raw/articles/2026-04-13T181649+0900-GDC24 젤다의 전설, 만들었지만 만들지 않은 '미친' 자유도.md
 - 중복 파일 확인 (ingested 처리 없음): 2026-04-14T181252+0900-The Risks of Multi Game Development.md (2026-04-14T160336 파일과 동일 소스)

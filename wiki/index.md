@@ -20,6 +20,35 @@
 | [re2023-re-engine-philosophy](sources/re2023-re-engine-philosophy.md) | RE:2023 RE ENGINE Philosophy | 2023-10-27 |
 | [embark-soderlund-quarter-budget](sources/embark-soderlund-quarter-budget.md) | Embark 수더룬드 — 'AAA 예산의 1/4로 AAA 퀄리티' | 2026-03-14 |
 | [gdc24-zelda-tears-of-kingdom](sources/gdc24-zelda-tears-of-kingdom.md) | [GDC24] 젤다 TotK — 만들었지만 만들지 않은 '미친' 자유도 | 2024-03-21 |
+| [gdc2013-ten-principles-level-design](sources/gdc2013-ten-principles-level-design.md) | [GDC13] 좋은 레벨 디자인의 10가지 원칙 | 2013 |
+| [gdc2016-architecture-level-design](sources/gdc2016-architecture-level-design.md) | [GDC16] 건축학으로 보는 레벨 디자인 | 2016 |
+| [gdc2017-narrative-level-design](sources/gdc2017-narrative-level-design.md) | [GDC17] 내러티브 접근법으로 보는 레벨 디자인 | 2017 |
+| [gdc2019-nonlinear-level-design](sources/gdc2019-nonlinear-level-design.md) | [GDC19] 급진적 비선형 싱글플레이어 레벨 설계 | 2019 |
+| [gdc2016-hitman-nonlinear-sandbox](sources/gdc2016-hitman-nonlinear-sandbox.md) | [GDC16 EU] 히트맨 — 비선형 샌드박스에서 플레이어 유도 | 2016 |
+| [gdc2021-level-design-studio-wide](sources/gdc2021-level-design-studio-wide.md) | [GDC21] 레벨 디자인은 스튜디오 전체의 노력 | 2021 |
+| [gdc2022-tlou2-museum-flashback](sources/gdc2022-tlou2-museum-flashback.md) | [GDC22] TLOU2 박물관 회상씬 설계 | 2022 |
+| [gdc2023-cyberpunk-nonlinear-level-design](sources/gdc2023-cyberpunk-nonlinear-level-design.md) | [GDC23] 사이버펑크 2077 비선형 레벨 디자인 | 2023 |
+| [gdc2023-quest-design-lessons-cdpr](sources/gdc2023-quest-design-lessons-cdpr.md) | [GDC23] CDPR 퀘스트 디자인 10가지 교훈 | 2023 |
+| [gdc2024-skyrim-starfield-design-collab](sources/gdc2024-skyrim-starfield-design-collab.md) | [GDC24] 스카이림→스타필드 레벨·퀘스트 협업 발전 | 2024 |
+| [gdc2024-valheim-early-access](sources/gdc2024-valheim-early-access.md) | [GDC24] 발하임 얼리 액세스 — 바이킹·로드맵·말 | 2024 |
+| [open-world-linearization-gta5](sources/open-world-linearization-gta5.md) | 오픈월드를 선형화하는 법 — GTA5 | 2026-04-15 |
+| [skyrim-not-perfect-mda](sources/skyrim-not-perfect-mda.md) | 게임은 반드시 완벽해야 할까 — 스카이림 MDA | 2026-04-15 |
+| [zelda-vs-ubisoft-open-world](sources/zelda-vs-ubisoft-open-world.md) | 젤다는 재미있고 유비식 오픈월드는 재미없는 이유 | 2026-04-15 |
+| [botw-eldenring-visual-guidance](sources/botw-eldenring-visual-guidance.md) | 야숨과 엘든링의 시선유도 법칙 | 2026-04-15 |
+| [gmtk-world-design-elden-ring](sources/gmtk-world-design-elden-ring.md) | GMTK — 엘든 링의 월드 디자인 | 2026-04-15 |
+| [gmtk-world-design-dark-souls](sources/gmtk-world-design-dark-souls.md) | GMTK — 다크소울의 월드 디자인 | 2026-04-15 |
+| [dark-souls-world-hides-lore](sources/dark-souls-world-hides-lore.md) | 다크소울 — 세계가 로어를 숨기는 방법 | 2026-04-15 |
+| [dark-souls-lordran-layout](sources/dark-souls-lordran-layout.md) | 다크소울 로드란 3D 공간 배치 분석 | 2026-04-15 |
+| [gdc2024-hifi-rush-backwards](sources/gdc2024-hifi-rush-backwards.md) | [GDC24] Hi-Fi RUSH 역방향 개발 | 2024 |
+| [gdc2021-got-master-katana](sources/gdc2021-got-master-katana.md) | [GDC21] 고스트 오브 쓰시마 — 카타나의 달인 | 2021 |
+| [gdc2021-got-honoring-blade](sources/gdc2021-got-honoring-blade.md) | [GDC21] 고스트 오브 쓰시마 — 칼날을 존중하며 | 2021 |
+| [gdc2019-god-of-war-combat](sources/gdc2019-god-of-war-combat.md) | [GDC19] 갓 오브 워 전투 시스템 진화 | 2019 |
+| [gdc2019-god-of-war-axe](sources/gdc2019-god-of-war-axe.md) | [GDC19] 갓 오브 워 — 도끼 게임플레이 설계 | 2019 |
+| [gdc2014-tlou-melee-system](sources/gdc2014-tlou-melee-system.md) | [GDC14] TLOU 근접 전투 시스템 (Unsynced) | 2014 |
+| [gdc2021-death-stranding-ai](sources/gdc2021-death-stranding-ai.md) | [GDC21] 데스 스트랜딩 AI 포스트모템 | 2021 |
+| [gdc2019-spiderman-animation](sources/gdc2019-spiderman-animation.md) | [GDC19] 마블 스파이더맨 시네마틱 개발 일지 | 2019 |
+| [gdc2023-indie-starter-kit](sources/gdc2023-indie-starter-kit.md) | [GDC23] 인디 스타터 킷 — 게임 회사 창업 기초 | 2023 |
+| [gdc2023-no-budget-marketing](sources/gdc2023-no-budget-marketing.md) | [GDC23] 예산 없는 DIY 인디 마케팅 | 2023 |
 
 ## 엔티티 (entities/)
 ### 스튜디오
@@ -35,6 +64,7 @@
 | [fromsoftware](entities/fromsoftware.md) | 소울 시리즈, 300명 개발 인력, 유동적 팀 배치 |
 | [naughty-dog](entities/naughty-dog.md) | 소니 퍼스트 파티, 언차티드·TLOU, 멀티 개발 고민 |
 | [nintendo](entities/nintendo.md) | 일본 교토, 젤다·마리오, 창발적 시스템 설계 |
+| [cd-projekt-red](entities/cd-projekt-red.md) | 폴란드 바르샤바, 위처·사이버펑크, RPG 퀘스트 설계 |
 
 ### 게임
 | 파일 | 설명 |
@@ -65,6 +95,15 @@
 | [multi-project-development](concepts/multi-project-development.md) | 멀티 프로젝트 동시 개발 전략과 위험 |
 | [proprietary-engine-strategy](concepts/proprietary-engine-strategy.md) | 독자 엔진 전략 (RE ENGINE vs 서드파티 무수정) |
 | [emergent-systems-design](concepts/emergent-systems-design.md) | 창발적 시스템 설계 — 규칙이 자유를 만든다 (닌텐도 TotK) |
+
+### 게임 디자인
+| 파일 | 설명 |
+|------|------|
+| [level-design-principles](concepts/level-design-principles.md) | 레벨 디자인 원칙 — 공간 문법, 내러티브, 비선형 패턴 |
+| [open-world-design](concepts/open-world-design.md) | 오픈월드 설계 — 자유와 방향, 시각적 유도, 세계 구조 |
+| [combat-design](concepts/combat-design.md) | 전투 디자인 — 판타지 계약, HP 인플레이션, 애니메이션 철학 |
+| [quest-narrative-design](concepts/quest-narrative-design.md) | 퀘스트·내러티브 디자인 — 스토리 상수, 감정 목표, 팀 협업 |
+
 
 ## 비교 (comparisons/)
 | 파일 | 비교 축 | 대상 스튜디오 |

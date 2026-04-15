@@ -50,7 +50,10 @@
       "Bash(powershell -Command ':*)",
       "Bash(cmd /c \"dir /b \\\\\"C:\\\\Vault\\\\Ginza\\\\my-wiki\\\\raw\\\\articles\\\\\" | findstr 122718\")",
       "Bash(cmd /c \"dir /b \\\\\"C:\\\\Vault\\\\Ginza\\\\my-wiki\\\\raw\\\\articles\\\\\"\")",
-      "Bash(python3 -c \"import sys; data=sys.stdin.buffer.read\\(\\); sys.stdout.buffer.write\\(data\\)\")"
+      "Bash(python3 -c \"import sys; data=sys.stdin.buffer.read\\(\\); sys.stdout.buffer.write\\(data\\)\")",
+      "Bash(powershell -Command \"Get-Content 'C:\\\\Vault\\\\Ginza\\\\my-wiki\\\\raw\\\\articles\\\\2026-04-15T122746+0900-No-Budget DIY Marketing for Indie Games.md' -TotalCount 100 | Out-String\")",
+      "Bash(powershell -Command \"Get-Content 'C:\\\\Vault\\\\Ginza\\\\my-wiki\\\\raw\\\\articles\\\\2026-04-15T122753+0900-Master of the Katana Melee Combat in Ghost of Tsushima.md' -TotalCount 100 | Out-String\")",
+      "mcp__scheduled-tasks__create_scheduled_task"
     ]
   }
 }
