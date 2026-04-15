@@ -47,7 +47,10 @@
       "WebFetch(domain:www.inven.co.kr)",
       "Bash(powershell -Command \"Get-Content 'C:\\\\Vault\\\\Ginza\\\\my-wiki\\\\raw\\\\articles\\\\2026-04-14T160343+0900-Naughty Dog Still Falling \\\\\"Just Short of\\\\\" Simultaneous Development of Multiple Projects, Studio President Says.md' -TotalCount 80\")",
       "Bash(powershell -Command \"Get-Content 'C:\\\\Vault\\\\Ginza\\\\my-wiki\\\\raw\\\\articles\\\\2026-04-14T160408+0900-RE2023 RE ENGINE Philosophy.md'\")",
-      "Bash(powershell -Command ':*)"
+      "Bash(powershell -Command ':*)",
+      "Bash(cmd /c \"dir /b \\\\\"C:\\\\Vault\\\\Ginza\\\\my-wiki\\\\raw\\\\articles\\\\\" | findstr 122718\")",
+      "Bash(cmd /c \"dir /b \\\\\"C:\\\\Vault\\\\Ginza\\\\my-wiki\\\\raw\\\\articles\\\\\"\")",
+      "Bash(python3 -c \"import sys; data=sys.stdin.buffer.read\\(\\); sys.stdout.buffer.write\\(data\\)\")"
     ]
   }
 }
