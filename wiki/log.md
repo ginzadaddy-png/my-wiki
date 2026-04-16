@@ -1,5 +1,43 @@
 # 활동 로그
 
+## [2026-04-16] concept+comparison-fill | 개념·비교 페이지 6개 신규 생성
+- 생성 (concepts/ — 3개):
+  - environmental-storytelling.md (다크소울·TLOU2·건축 원리·내러티브 레벨)
+  - player-guidance-design.md (SDT·필드 삼각형·히트맨 3층·CP2077 3원칙)
+  - dev-org-structure.md (스크럼·프롬소프트웨어 유동 배치·캡콤 파이프라인)
+- 생성 (comparisons/ — 3개):
+  - combat-philosophy.md (GoT vs GoW vs TLOU vs 히트맨)
+  - open-world-guidance.md (BotW vs 엘든링 vs GTA5 vs 유비식)
+  - studio-org-structure.md (프롬소프트웨어 vs 캡콤 vs 베데스다 vs Scrum)
+- 업데이트: index.md (개념 21개·비교 6개 반영)
+
+## [2026-04-16] entity-fill | 소스에서 언급된 게임·스튜디오 엔티티 생성
+- 생성 (entities/games — 13개):
+  - dark-souls.md, elden-ring.md, breath-of-the-wild.md, skyrim.md
+  - cyberpunk-2077.md, witcher-3.md, god-of-war-2018.md
+  - ghost-of-tsushima.md, the-last-of-us.md, valheim.md
+  - gta5.md, hifi-rush.md, hitman-2016.md
+- 생성 (entities/studios — 5개):
+  - sony-santa-monica.md, bethesda-game-studios.md, tango-gameworks.md
+  - iron-gate-studio.md, rockstar-games.md
+- 업데이트: index.md (게임 19개·스튜디오 19개 전체 반영)
+
+## [2026-04-16] lint | 위키 연결성 개선
+- 모순: 기존 2개 유지, 신규 없음
+- 고립 소스 5개 연결, 깨진 wikilink 7개 수정
+- 생성:
+  - concepts/indie-business-strategy.md
+  - concepts/ai-navigation.md
+  - concepts/cinematic-production.md
+  - entities/kojima-productions.md
+  - entities/insomniac-games.md
+  - entities/io-interactive.md
+- 업데이트:
+  - sources/gdc2023-indie-starter-kit.md (비전 설계 → 비전 선언문)
+  - concepts/steam-marketing.md (no-budget-marketing 소스·인디 비즈니스 링크 추가)
+  - concepts/level-design-principles.md (Hi-Fi RUSH 역방향 설계 섹션 추가)
+  - index.md
+
 ## [2026-04-15] ingest | 대량 배치 — 레벨 디자인·오픈월드·전투·인디 비즈니스 (30개 파일)
 - Sources: raw/articles/ (2026-04-15 추가 파일 중 신규 27개, 중복 6개 제외)
 - 생성 (sources/):

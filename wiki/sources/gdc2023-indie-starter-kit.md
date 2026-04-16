@@ -2,7 +2,7 @@
 title: "Indie Starter Kit: The Basics of Founding a Successful Games Company (GDC 2023)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T122739+0900-Indie Starter Kit The Basics of Founding a Successful Games Company.md"]
-related: ["[[인디 비즈니스 전략]]", "[[비전 설계]]"]
+related: ["[[인디 비즈니스 전략]]", "[[비전 선언문]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

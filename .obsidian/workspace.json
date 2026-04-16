@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/comparisons/iteration-cycles.md",
+                "file": "wiki/log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "iteration-cycles"
+              "title": "log"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 745.5
   },
   "right": {
     "id": "1ae45d1999f4e138",
@@ -185,41 +185,42 @@
   },
   "active": "3fe76bcb6a95c484",
   "lastOpenFiles": [
-    "wiki/log.md.tmp.29288.1776247592599",
-    "wiki/index.md.tmp.29288.1776247573738",
-    "wiki/index.md.tmp.29288.1776247561737",
-    "wiki/index.md.tmp.29288.1776247557555",
-    "wiki/entities/cd-projekt-red.md",
-    "wiki/concepts/quest-narrative-design.md",
-    "wiki/concepts/quest-narrative-design.md.tmp.29288.1776247520522",
-    "wiki/concepts/combat-design.md",
-    "wiki/concepts/combat-design.md.tmp.29288.1776247505537",
-    "wiki/concepts/open-world-design.md",
-    "wiki/concepts/open-world-design.md.tmp.29288.1776247483627",
-    "wiki/concepts/level-design-principles.md",
-    "wiki/comparisons/player-feedback.md",
-    "wiki/comparisons/small-studio-goty.md",
-    "wiki/concepts/proprietary-engine-strategy.md",
-    "wiki/concepts/playtesting.md",
-    "wiki/concepts/steam-marketing.md",
-    "wiki/entities/baldurs-gate-3.md",
-    "wiki/entities/capcom.md",
-    "wiki/entities/clair-obscur-expedition-33.md",
-    "wiki/entities/nintendo.md",
-    "wiki/entities/sandfall-interactive.md",
-    "wiki/entities/sucker-punch-productions.md",
-    "wiki/entities/team-asobi.md",
+    "wiki/comparisons/studio-org-structure.md",
+    "wiki/comparisons/open-world-guidance.md",
+    "wiki/comparisons/open-world-guidance.md.tmp.5432.1776301327326",
+    "wiki/comparisons/combat-philosophy.md",
+    "wiki/concepts/dev-org-structure.md",
+    "wiki/concepts/player-guidance-design.md",
+    "wiki/log.md",
+    "wiki/concepts/environmental-storytelling.md",
+    "wiki/index.md",
     "CLAUDE.md",
-    "wiki/sources/gdc2016-hitman-nonlinear-sandbox.md",
-    "wiki/sources/gdc2019-spiderman-animation.md",
-    "wiki/sources/gdc2021-death-stranding-ai.md",
-    "wiki/sources/gdc2014-tlou-melee-system.md",
-    "wiki/sources/gdc2019-god-of-war-axe.md",
-    "wiki/sources/gdc2019-god-of-war-combat.md",
-    "wiki/sources/gdc2021-got-honoring-blade.md",
-    "wiki/sources/gdc2023-no-budget-marketing.md.tmp.29288.1776230968099",
-    "무제.canvas",
-    "무제.base",
-    "raw/articles/새 텍스트 문서.txt"
+    "wiki/index.md.tmp.5432.1776300817352",
+    "wiki/entities/rockstar-games.md",
+    "wiki/entities/iron-gate-studio.md",
+    "wiki/entities/tango-gameworks.md",
+    "wiki/entities/bethesda-game-studios.md",
+    "wiki/entities/sony-santa-monica.md",
+    "wiki/entities/sony-santa-monica.md.tmp.5432.1776300780524",
+    "README.md",
+    "raw/articles/2026-04-13T114733+0900-GDC25 아스트로봇의 성공, 마법은 없었다.md",
+    "wiki/entities/hitman-2016.md",
+    "wiki/entities/hifi-rush.md",
+    "wiki/entities/gta5.md",
+    "wiki/entities/valheim.md",
+    "wiki/entities/valheim.md.tmp.5432.1776300751222",
+    "wiki/entities/the-last-of-us.md",
+    "wiki/entities/ghost-of-tsushima.md",
+    "wiki/entities/god-of-war-2018.md",
+    "wiki/entities/witcher-3.md",
+    "wiki/entities/cyberpunk-2077.md",
+    "wiki/entities/skyrim.md",
+    "wiki/entities/skyrim.md.tmp.5432.1776300703945",
+    "wiki/index.md.tmp.5432.1776300241859",
+    "wiki/index.md.tmp.5432.1776300045250",
+    "wiki/concepts/ai-navigation.md.tmp.5432.1776300009090",
+    "wiki/concepts/indie-business-strategy.md.tmp.5432.1776299973891",
+    "wiki/log.md.tmp.29288.1776247592599",
+    "무제.canvas"
   ]
 }

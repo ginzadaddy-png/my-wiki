@@ -59,6 +59,13 @@ confidence: high
 - **배타성(Exclusivity)**: 들어갈 수 없는 공간의 욕망 유발
 - **유일성(Uniqueness)**: 각 공간만의 고유한 정체성
 
+## 경험 우선 설계
+
+**역방향 개발** ([[gdc2024-hifi-rush-backwards]]):
+- Hi-Fi RUSH: 뮤지컬 임팩트 포인트(박자)를 먼저 결정 → 레벨·적 배치를 역설계
+- 장르의 핵심 경험(리듬감)을 먼저 확정하면, 그 경험이 레벨 전체에 일관되게 스며든다
+- 원칙: "제약 조건(음악 비트)이 설계 자유보다 앞선다"
+
 ## 스튜디오 협업
 
 **레벨 디자인은 팀 스포츠** ([[gdc2021-level-design-studio-wide]], [[gdc2024-skyrim-starfield-design-collab]]):

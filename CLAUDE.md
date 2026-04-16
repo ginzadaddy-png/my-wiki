@@ -81,3 +81,8 @@ confidence: high | medium | low
 - 긴 파일(5000자 이상)은 앞부분만 읽고 판단
 - 전체 내용이 필요한 경우에만 추가로 읽기
 - 불필요한 확인 요청 금지
+
+## index.md 업데이트 규칙
+- 소스 섹션은 최신 10개만 표시
+- 전체 목록은 wiki/sources/all.md에 관리
+- ingest 후 index.md 상위 10개 갱신 + all.md에 전체 행 추가
