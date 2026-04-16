@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "wiki/log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "log"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "3fe76bcb6a95c484",
   "lastOpenFiles": [
+    "CLAUDE.md",
     "CLAUDE.md.tmp.38272.1776322563696",
     "wiki/log.md",
     "wiki/comparisons/combat-philosophy.md",
@@ -194,7 +195,6 @@
     "wiki/comparisons/player-feedback.md",
     "wiki/comparisons/small-studio-goty.md",
     "wiki/comparisons/studio-org-structure.md",
-    "CLAUDE.md",
     "wiki/index.md",
     "wiki/comparisons/open-world-guidance.md.tmp.5432.1776301327326",
     "wiki/concepts/dev-org-structure.md",
@@ -220,7 +220,6 @@
     "wiki/index.md.tmp.5432.1776300241859",
     "wiki/index.md.tmp.5432.1776300045250",
     "wiki/concepts/ai-navigation.md.tmp.5432.1776300009090",
-    "wiki/concepts/indie-business-strategy.md.tmp.5432.1776299973891",
     "무제.canvas"
   ]
 }
