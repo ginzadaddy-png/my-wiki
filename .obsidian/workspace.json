@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "wiki/comparisons/combat-philosophy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "combat-philosophy"
             }
           }
         ]
@@ -185,16 +185,20 @@
   },
   "active": "3fe76bcb6a95c484",
   "lastOpenFiles": [
+    "wiki/comparisons/small-studio-goty.md.tmp.38272.1776321738966",
+    "wiki/comparisons/iteration-cycles.md",
+    "wiki/comparisons/open-world-guidance.md",
+    "wiki/comparisons/player-feedback.md",
+    "wiki/comparisons/small-studio-goty.md",
+    "wiki/comparisons/studio-org-structure.md",
+    "CLAUDE.md",
     "wiki/log.md",
     "wiki/index.md",
-    "wiki/comparisons/studio-org-structure.md",
-    "wiki/comparisons/open-world-guidance.md",
     "wiki/comparisons/open-world-guidance.md.tmp.5432.1776301327326",
     "wiki/comparisons/combat-philosophy.md",
     "wiki/concepts/dev-org-structure.md",
     "wiki/concepts/player-guidance-design.md",
     "wiki/concepts/environmental-storytelling.md",
-    "CLAUDE.md",
     "wiki/index.md.tmp.5432.1776300817352",
     "wiki/entities/rockstar-games.md",
     "wiki/entities/iron-gate-studio.md",
@@ -211,10 +215,6 @@
     "wiki/entities/valheim.md.tmp.5432.1776300751222",
     "wiki/entities/the-last-of-us.md",
     "wiki/entities/ghost-of-tsushima.md",
-    "wiki/entities/god-of-war-2018.md",
-    "wiki/entities/witcher-3.md",
-    "wiki/entities/cyberpunk-2077.md",
-    "wiki/entities/skyrim.md",
     "wiki/entities/skyrim.md.tmp.5432.1776300703945",
     "wiki/index.md.tmp.5432.1776300241859",
     "wiki/index.md.tmp.5432.1776300045250",
