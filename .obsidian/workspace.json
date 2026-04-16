@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/comparisons/combat-philosophy.md",
+                "file": "wiki/log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "combat-philosophy"
+              "title": "log"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "3fe76bcb6a95c484",
   "lastOpenFiles": [
+    "wiki/comparisons/combat-philosophy.md",
     "wiki/comparisons/small-studio-goty.md.tmp.38272.1776321738966",
     "wiki/comparisons/iteration-cycles.md",
     "wiki/comparisons/open-world-guidance.md",
@@ -195,7 +196,6 @@
     "wiki/log.md",
     "wiki/index.md",
     "wiki/comparisons/open-world-guidance.md.tmp.5432.1776301327326",
-    "wiki/comparisons/combat-philosophy.md",
     "wiki/concepts/dev-org-structure.md",
     "wiki/concepts/player-guidance-design.md",
     "wiki/concepts/environmental-storytelling.md",
@@ -220,7 +220,6 @@
     "wiki/index.md.tmp.5432.1776300045250",
     "wiki/concepts/ai-navigation.md.tmp.5432.1776300009090",
     "wiki/concepts/indie-business-strategy.md.tmp.5432.1776299973891",
-    "wiki/log.md.tmp.29288.1776247592599",
     "무제.canvas"
   ]
 }
