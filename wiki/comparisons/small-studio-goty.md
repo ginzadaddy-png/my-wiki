@@ -12,7 +12,7 @@ confidence: high
 
 ## 비교표
 
-| | 팀 아소비 | 샌드폴 인터랙티브 | 민트로켓 |
+| | [[team-asobi]] | [[sandfall-interactive]] | [[mint-rocket]] |
 |--|--|--|--|
 | **규모** | ~65명 | ~40명 | 소규모 |
 | **게임** | [[astro-bot]] | [[clair-obscur-expedition-33]] | [[dave-the-diver]] |
