@@ -2,7 +2,7 @@
 title: "Benefits of Missing Out: Cyberpunk 2077가 알려준 비선형 레벨 디자인 (GDC 2023)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T115627+0900-Benefits of Missing Out What 'Cyberpunk 2077' Taught Us About Non-Linear Level Design.md"]
-related: ["[[레벨 디자인 원칙]]", "[[CD 프로젝트 레드]]", "[[사이버펑크 2077]]"]
+related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[cyberpunk-2077|사이버펑크 2077]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

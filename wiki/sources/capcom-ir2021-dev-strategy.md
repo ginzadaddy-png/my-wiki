@@ -2,7 +2,7 @@
 title: "Capcom 개발 전략 — Integrated Report 2021"
 type: source-summary
 sources: ["raw/articles/2026-04-14T160324+0900-The Head of Development Discusses Strategy ONLINE INTEGRATED REPORT 2021.md"]
-related: ["[[캡콤]]", "[[RE ENGINE]]", "[[소규모 팀 개발]]", "[[독자 엔진 전략]]", "[[멀티 프로젝트 개발]]"]
+related: ["[[capcom|캡콤]]", "[[RE ENGINE]]", "[[small-team-development|소규모 팀 개발]]", "[[proprietary-engine-strategy|독자 엔진 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: high

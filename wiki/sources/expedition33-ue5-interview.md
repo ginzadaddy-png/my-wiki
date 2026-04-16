@@ -2,7 +2,7 @@
 title: "Clair Obscur: Expedition 33 개발 과정 — 언리얼 공식 인터뷰"
 type: source-summary
 sources: ["raw/articles/2026-04-13T114818+0900-'Clair Obscur Expedition 33' 개발 과정 들여다보기.md"]
-related: ["[[샌드폴 인터랙티브]]", "[[클레르 옵스퀴르: 33원정대]]", "[[언리얼 엔진 5]]", "[[디자이너 도구화]]"]
+related: ["[[sandfall-interactive|샌드폴 인터랙티브]]", "[[clair-obscur-expedition-33|클레르 옵스퀴르: 33원정대]]", "[[unreal-engine-5|언리얼 엔진 5]]", "[[designer-empowerment|디자이너 도구화]]"]
 created: 2026-04-13
 updated: 2026-04-13
 confidence: high

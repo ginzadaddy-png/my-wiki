@@ -2,7 +2,7 @@
 title: "젤다는 재미있고 유비식 오픈월드는 재미없는 이유 (루돌로지)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T121254+0900-젤다는 재미있고 유비식 오픈월드는 재미없는 이유.md"]
-related: ["[[오픈월드 설계]]", "[[창발적 시스템 설계]]"]
+related: ["[[open-world-design|오픈월드 설계]]", "[[emergent-systems-design|창발적 시스템 설계]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

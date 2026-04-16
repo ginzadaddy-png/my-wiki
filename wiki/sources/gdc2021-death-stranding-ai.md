@@ -2,7 +2,7 @@
 title: "'Death Stranding': An AI Postmortem (GDC 2021)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T122811+0900-'Death Stranding' An AI Postmortem.md"]
-related: ["[[AI 내비게이션]]", "[[코지마 프로덕션]]"]
+related: ["[[ai-navigation|AI 내비게이션]]", "[[kojima-productions|코지마 프로덕션]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

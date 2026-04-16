@@ -13,7 +13,7 @@ sources: [
   "[[gdc2024-skyrim-starfield-design-collab]]",
   "[[gdc2024-valheim-early-access]]"
 ]
-related: ["[[레벨 디자인 원칙]]", "[[창발적 시스템 설계]]"]
+related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[emergent-systems-design|창발적 시스템 설계]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

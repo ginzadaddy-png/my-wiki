@@ -2,13 +2,13 @@
 title: "[GDC24] 발더스 게이트3, 시작부터 출시까지"
 type: source-summary
 sources: ["raw/articles/2026-04-13T114810+0900-GDC24 스벤 빈케가 말아주는 '발더스 게이트3', 시작부터 출시까지.md"]
-related: ["[[라리안 스튜디오]]", "[[발더스 게이트3]]", "[[얼리 액세스 전략]]", "[[시네마틱 파이프라인]]"]
+related: ["[[larian-studios|라리안 스튜디오]]", "[[baldurs-gate-3|발더스 게이트3]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[cinematic-pipeline|시네마틱 파이프라인]]"]
 created: 2026-04-13
 updated: 2026-04-13
 confidence: high
 ---
 
-[[라리안 스튜디오]] 스벤 빈케 대표가 GDC 2024에서 BG3의 6년 개발 과정을 공개한 강연.
+[[larian-studios|라리안 스튜디오]] 스벤 빈케 대표가 GDC 2024에서 BG3의 6년 개발 과정을 공개한 강연.
 
 **핵심 내용:**
 - **개발 시작(2018)**: D:OS2 기술 기반 → 엔진 개선, 모션캡처 스튜디오 자체 구축, 포르투갈 현지 촬영

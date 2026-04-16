@@ -2,7 +2,7 @@
 title: "Hi-Fi RUSH"
 type: entity
 sources: ["[[gdc2024-hifi-rush-backwards]]"]
-related: ["[[탱고 게임웍스]]", "[[레벨 디자인 원칙]]"]
+related: ["[[tango-gameworks|탱고 게임웍스]]", "[[level-design-principles|레벨 디자인 원칙]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

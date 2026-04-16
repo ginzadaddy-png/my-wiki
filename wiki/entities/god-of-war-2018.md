@@ -2,7 +2,7 @@
 title: "갓 오브 워 (2018)"
 type: entity
 sources: ["[[gdc2019-god-of-war-combat]]", "[[gdc2019-god-of-war-axe]]"]
-related: ["[[소니 산타모니카 스튜디오]]", "[[전투 디자인]]"]
+related: ["[[sony-santa-monica|소니 산타모니카 스튜디오]]", "[[combat-design|전투 디자인]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

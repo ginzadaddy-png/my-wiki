@@ -2,13 +2,13 @@
 title: "[GDC26] 33원정대, 단 4명뿐이던 프로그래머의 역할"
 type: source-summary
 sources: ["raw/articles/2026-04-13T114815+0900-GDC26 33 원정대, 단 4명 뿐이던 프로그래머의 역할은.md"]
-related: ["[[샌드폴 인터랙티브]]", "[[클레르 옵스퀴르: 33원정대]]", "[[디자이너 도구화]]", "[[소규모 팀 개발]]"]
+related: ["[[sandfall-interactive|샌드폴 인터랙티브]]", "[[clair-obscur-expedition-33|클레르 옵스퀴르: 33원정대]]", "[[designer-empowerment|디자이너 도구화]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-13
 updated: 2026-04-13
 confidence: high
 ---
 
-GDC 2026에서 [[샌드폴 인터랙티브]] Tom Guillermin(공동창업자)과 Florian Torres(시니어 프로그래머)가 공개한 4인 프로그래머 팀의 개발 방식.
+GDC 2026에서 [[sandfall-interactive|샌드폴 인터랙티브]] Tom Guillermin(공동창업자)과 Florian Torres(시니어 프로그래머)가 공개한 4인 프로그래머 팀의 개발 방식.
 
 **핵심 내용:**
 - **프로그래머 4명**으로 대형 RPG 완성 (총 ~40명 스튜디오)

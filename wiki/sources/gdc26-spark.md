@@ -2,13 +2,13 @@
 title: "[GDC26] 관객들이 찾는 게임에는 '반짝임'이 있다"
 type: source-summary
 sources: ["raw/articles/2026-04-13T123342+0900-GDC26 관객들이 찾는 게임에는 '반짝임'이 있다.md"]
-related: ["[[서커펀치 프로덕션]]", "[[비전 선언문]]", "[[빠른 프로토타이핑]]", "[[플레이테스팅]]"]
+related: ["[[sucker-punch-productions|서커펀치 프로덕션]]", "[[vision-statement|비전 선언문]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[playtesting|플레이테스팅]]"]
 created: 2026-04-13
 updated: 2026-04-13
 confidence: high
 ---
 
-[[서커펀치 프로덕션]] 공동창립자 크리스 짐머만이 GDC 2026에서 30년 개발 철학을 정리한 강연.
+[[sucker-punch-productions|서커펀치 프로덕션]] 공동창립자 크리스 짐머만이 GDC 2026에서 30년 개발 철학을 정리한 강연.
 
 **핵심 내용:**
 - **레시피 1 — 반짝임(스파크)**: 게임을 특별하게 만드는 한 가지 아이디어. 만트라로 압축 ("사무라이처럼 느껴지는가?")

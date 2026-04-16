@@ -2,7 +2,7 @@
 title: "코지마 프로덕션"
 type: entity
 sources: ["[[gdc2021-death-stranding-ai]]"]
-related: ["[[AI 내비게이션]]", "[[데스 스트랜딩]]"]
+related: ["[[ai-navigation|AI 내비게이션]]", "[[death-stranding|데스 스트랜딩]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

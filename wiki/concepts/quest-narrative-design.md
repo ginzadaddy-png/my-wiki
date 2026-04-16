@@ -7,7 +7,7 @@ sources: [
   "[[gdc2022-tlou2-museum-flashback]]",
   "[[gdc2024-skyrim-starfield-design-collab]]"
 ]
-related: ["[[레벨 디자인 원칙]]", "[[오픈월드 설계]]"]
+related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[open-world-design|오픈월드 설계]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

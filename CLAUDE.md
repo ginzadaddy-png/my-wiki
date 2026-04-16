@@ -86,3 +86,8 @@ confidence: high | medium | low
 - 소스 섹션은 최신 10개만 표시
 - 전체 목록은 wiki/sources/all.md에 관리
 - ingest 후 index.md 상위 10개 갱신 + all.md에 전체 행 추가
+
+## wikilink 작성 규칙
+- 항상 [[영문-슬러그|표시명]] 형식 사용
+- 예: [[astro-bot|아스트로봇]], [[sucker-punch|Sucker Punch]]
+- 한글만 단독으로 쓰는 [[한글]] 형식 금지

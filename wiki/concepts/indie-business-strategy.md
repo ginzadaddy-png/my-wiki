@@ -8,7 +8,7 @@ sources: [
   "[[sgc-steam-survival]]",
   "[[gdc2024-valheim-early-access]]"
 ]
-related: ["[[스팀 마케팅 전략]]", "[[얼리 액세스 전략]]", "[[비전 선언문]]", "[[플레이테스팅]]"]
+related: ["[[steam-marketing|스팀 마케팅 전략]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[vision-statement|비전 선언문]]", "[[playtesting|플레이테스팅]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

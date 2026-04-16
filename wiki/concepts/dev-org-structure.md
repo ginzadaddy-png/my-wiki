@@ -7,7 +7,7 @@ sources: [
   "[[gdc2021-level-design-studio-wide]]",
   "[[capcom-ir2021-dev-strategy]]"
 ]
-related: ["[[소규모 팀 개발]]", "[[멀티 프로젝트 개발]]", "[[빠른 프로토타이핑]]"]
+related: ["[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[rapid-prototyping|빠른 프로토타이핑]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

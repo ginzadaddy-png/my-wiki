@@ -2,7 +2,7 @@
 title: "샌드폴 인터랙티브"
 type: entity
 sources: ["[[GDC26 33원정대 프로그래머 강연]]", "[[Expedition 33 UE5 인터뷰]]"]
-related: ["[[클레르 옵스퀴르: 33원정대]]", "[[디자이너 도구화]]", "[[소규모 팀 개발]]", "[[언리얼 엔진 5]]"]
+related: ["[[clair-obscur-expedition-33|클레르 옵스퀴르: 33원정대]]", "[[designer-empowerment|디자이너 도구화]]", "[[small-team-development|소규모 팀 개발]]", "[[unreal-engine-5|언리얼 엔진 5]]"]
 created: 2026-04-13
 updated: 2026-04-13
 confidence: high
@@ -11,7 +11,7 @@ confidence: high
 프랑스 소재 인디 게임 스튜디오 (~40명).
 
 - **공동창업자**: 기욤 브로슈(Guillaume Broche, 크리에이티브 디렉터), Tom Guillermin
-- **대표작**: [[클레르 옵스퀴르: 33원정대]] (2025 GOTY 최다 수상)
+- **대표작**: [[clair-obscur-expedition-33|클레르 옵스퀴르: 33원정대]] (2025 GOTY 최다 수상)
 - **엔진**: 언리얼 엔진 5
-- **특징**: 프로그래머 4명으로 대형 RPG 완성, 블루프린트 95% 활용, [[디자이너 도구화]] 구조
+- **특징**: 프로그래머 4명으로 대형 RPG 완성, 블루프린트 95% 활용, [[designer-empowerment|디자이너 도구화]] 구조
 - **시작**: 기욤 브로슈의 개인 프로젝트 → Tom Guillermin 합류 → 퍼블리셔 계약 후 팀 확장 → 5년 개발

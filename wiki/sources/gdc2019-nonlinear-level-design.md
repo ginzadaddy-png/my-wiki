@@ -2,7 +2,7 @@
 title: "Designing Radically Non-Linear Single Player Levels (GDC 2019)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T122817+0900-Designing Radically Non-Linear Single Player Levels.md"]
-related: ["[[레벨 디자인 원칙]]"]
+related: ["[[level-design-principles|레벨 디자인 원칙]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

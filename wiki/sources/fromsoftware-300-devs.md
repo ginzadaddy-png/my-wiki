@@ -2,7 +2,7 @@
 title: "FromSoftware, 직원 300명으로 엘든링+AC6 동시 제작"
 type: source-summary
 sources: ["raw/articles/2026-04-14T160349+0900-FromSoftware made Elden Ring and Armored Core 6 with a staff of just 300 developers.md"]
-related: ["[[프롬소프트웨어]]", "[[멀티 프로젝트 개발]]", "[[소규모 팀 개발]]"]
+related: ["[[fromsoftware|프롬소프트웨어]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: high

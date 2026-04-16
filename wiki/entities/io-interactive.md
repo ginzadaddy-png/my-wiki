@@ -2,7 +2,7 @@
 title: "IO 인터랙티브"
 type: entity
 sources: ["[[gdc2016-hitman-nonlinear-sandbox]]"]
-related: ["[[레벨 디자인 원칙]]", "[[히트맨 시리즈]]"]
+related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[hitman-2016|히트맨 시리즈]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

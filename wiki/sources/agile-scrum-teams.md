@@ -2,7 +2,7 @@
 title: "Agile Game Development With Scrum: Teams (2010)"
 type: source-summary
 sources: ["raw/articles/2026-04-14T160339+0900-Agile Game Development With Scrum Teams.md"]
-related: ["[[애자일·스크럼]]", "[[소규모 팀 개발]]", "[[빠른 프로토타이핑]]"]
+related: ["[[agile-scrum-teams|애자일·스크럼]]", "[[small-team-development|소규모 팀 개발]]", "[[rapid-prototyping|빠른 프로토타이핑]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: medium

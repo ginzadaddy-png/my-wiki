@@ -2,7 +2,7 @@
 title: "탱고 게임웍스"
 type: entity
 sources: ["[[gdc2024-hifi-rush-backwards]]"]
-related: ["[[Hi-Fi RUSH]]", "[[레벨 디자인 원칙]]"]
+related: ["[[Hi-Fi RUSH]]", "[[level-design-principles|레벨 디자인 원칙]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

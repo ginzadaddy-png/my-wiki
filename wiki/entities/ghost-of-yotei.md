@@ -2,13 +2,13 @@
 title: "고스트 오브 요테이"
 type: entity
 sources: ["[[GDC26 고스트 오브 요테이 강연]]", "[[GDC26 반짝임 강연]]"]
-related: ["[[서커펀치 프로덕션]]", "[[비전 선언문]]", "[[플레이테스팅]]"]
+related: ["[[sucker-punch-productions|서커펀치 프로덕션]]", "[[vision-statement|비전 선언문]]", "[[playtesting|플레이테스팅]]"]
 created: 2026-04-13
 updated: 2026-04-13
 confidence: high
 ---
 
-[[서커펀치 프로덕션]]이 개발한 오픈월드 액션 어드벤처. 고스트 오브 쓰시마의 후속작.
+[[sucker-punch-productions|서커펀치 프로덕션]]이 개발한 오픈월드 액션 어드벤처. 고스트 오브 쓰시마의 후속작.
 
 - **배경**: 홋카이도(에조). 전작보다 광활한 오픈월드
 - **주인공**: 아츠 — 현상 수배 낭인, 가족을 잃고 복수를 위해 싸움

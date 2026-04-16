@@ -2,7 +2,7 @@
 title: "Level and Quest Design Collaboration from Skyrim to Starfield (GDC 2024)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T122709+0900-Level and Quest Design Collaboration from 'Skyrim' to 'Starfield'.md"]
-related: ["[[레벨 디자인 원칙]]", "[[퀘스트·내러티브 디자인]]", "[[오픈월드 설계]]"]
+related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]", "[[open-world-design|오픈월드 설계]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

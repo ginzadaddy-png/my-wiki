@@ -2,7 +2,7 @@
 title: "Level Design Workshop: A Narrative Approach to Level Design (GDC 2017)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T122842+0900-Level Design Workshop A Narrative Approach to Level Design.md"]
-related: ["[[레벨 디자인 원칙]]", "[[퀘스트·내러티브 디자인]]"]
+related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

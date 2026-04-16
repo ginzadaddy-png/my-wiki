@@ -2,7 +2,7 @@
 title: "다크소울"
 type: entity
 sources: ["[[gmtk-world-design-dark-souls]]", "[[dark-souls-world-hides-lore]]", "[[dark-souls-lordran-layout]]"]
-related: ["[[프롬소프트웨어]]", "[[엘든링]]", "[[오픈월드 설계]]", "[[레벨 디자인 원칙]]"]
+related: ["[[fromsoftware|프롬소프트웨어]]", "[[elden-ring|엘든링]]", "[[open-world-design|오픈월드 설계]]", "[[level-design-principles|레벨 디자인 원칙]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

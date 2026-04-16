@@ -2,7 +2,7 @@
 title: "Dark Souls: how the world hides its lore (Hawkshaw)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T122226+0900-Dark Souls how the world hides its lore.md"]
-related: ["[[오픈월드 설계]]", "[[레벨 디자인 원칙]]", "[[프롬소프트웨어]]"]
+related: ["[[open-world-design|오픈월드 설계]]", "[[level-design-principles|레벨 디자인 원칙]]", "[[fromsoftware|프롬소프트웨어]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

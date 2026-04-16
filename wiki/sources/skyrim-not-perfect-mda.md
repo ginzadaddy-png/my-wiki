@@ -2,7 +2,7 @@
 title: "【보고서】 게임은 반드시 완벽해야 할까 — 스카이림 (얼음병정)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T121248+0900-【보고서】 게임은 반드시 완벽해야 할까 - 『엘더스크롤5 스카이림』.md"]
-related: ["[[오픈월드 설계]]", "[[플레이테스팅]]"]
+related: ["[[open-world-design|오픈월드 설계]]", "[[playtesting|플레이테스팅]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

@@ -9,7 +9,7 @@ sources: [
   "[[gdc2014-tlou-melee-system]]",
   "[[gdc2016-hitman-nonlinear-sandbox]]"
 ]
-related: ["[[전투 디자인]]", "[[레벨 디자인 원칙]]"]
+related: ["[[combat-design|전투 디자인]]", "[[level-design-principles|레벨 디자인 원칙]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

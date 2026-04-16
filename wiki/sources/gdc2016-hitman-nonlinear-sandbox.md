@@ -2,7 +2,7 @@
 title: "Level Design in Hitman: Guiding Players in a Non-Linear Sandbox (GDC Europe 2016)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T122853+0900-Level Design in Hitman Guiding Players in a Non-Linear Sandbox.md"]
-related: ["[[레벨 디자인 원칙]]", "[[IO 인터랙티브]]"]
+related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[IO 인터랙티브]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

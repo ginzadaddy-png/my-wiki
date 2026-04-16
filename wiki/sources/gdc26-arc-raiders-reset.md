@@ -2,13 +2,13 @@
 title: "[GDC26] 120명에서 25명으로 — 아크 레이더스의 '리셋' 성공 신화"
 type: source-summary
 sources: ["raw/articles/gdc26-arc-raiders-reset.md"]
-related: ["[[엠바크 스튜디오]]", "[[아크 레이더스]]", "[[소규모 팀 개발]]", "[[데이터 기반 개발]]", "[[플레이테스팅]]", "[[비전 선언문]]"]
+related: ["[[embark-studios|엠바크 스튜디오]]", "[[arc-raiders|아크 레이더스]]", "[[small-team-development|소규모 팀 개발]]", "[[data-driven-development|데이터 기반 개발]]", "[[playtesting|플레이테스팅]]", "[[vision-statement|비전 선언문]]"]
 created: 2026-04-13
 updated: 2026-04-13
 confidence: high
 ---
 
-GDC 2026. 엠바크 스튜디오 프로덕션 디렉터 카이오 브라가. 7년간 개발한 [[아크 레이더스]]가 기술적으로 완성됐지만 재미가 없었던 상황에서, 팀을 120명에서 25명으로 줄이고 게임을 살려낸 과정.
+GDC 2026. 엠바크 스튜디오 프로덕션 디렉터 카이오 브라가. 7년간 개발한 [[arc-raiders|아크 레이더스]]가 기술적으로 완성됐지만 재미가 없었던 상황에서, 팀을 120명에서 25명으로 줄이고 게임을 살려낸 과정.
 
 ## 핵심 요약
 

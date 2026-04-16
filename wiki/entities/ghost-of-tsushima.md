@@ -2,7 +2,7 @@
 title: "고스트 오브 쓰시마"
 type: entity
 sources: ["[[gdc2021-got-honoring-blade]]", "[[gdc2021-got-master-katana]]"]
-related: ["[[서커펀치 프로덕션]]", "[[전투 디자인]]"]
+related: ["[[sucker-punch-productions|서커펀치 프로덕션]]", "[[combat-design|전투 디자인]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high
@@ -16,4 +16,4 @@ Sucker Punch Productions, 2020. 13세기 몽골 침략기 쓰시마를 배경으
 - **치명 난이도(Lethal Mode)**: 플레이어도 1~2타 사망, 적도 1~2타 사망 → 판타지 극대화
 
 ## 위키 맥락
-"HP를 올리지 않고 어떻게 적을 강하게 만드는가"의 모범 답안. [[전투 디자인]] 페이지의 핵심 사례.
+"HP를 올리지 않고 어떻게 적을 강하게 만드는가"의 모범 답안. [[combat-design|전투 디자인]] 페이지의 핵심 사례.

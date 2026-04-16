@@ -2,7 +2,7 @@
 title: "더 라스트 오브 어스"
 type: entity
 sources: ["[[gdc2014-tlou-melee-system]]", "[[gdc2022-tlou2-museum-flashback]]"]
-related: ["[[너티독]]", "[[전투 디자인]]", "[[시네마틱 제작]]", "[[레벨 디자인 원칙]]"]
+related: ["[[naughty-dog|너티독]]", "[[combat-design|전투 디자인]]", "[[cinematic-production|시네마틱 제작]]", "[[level-design-principles|레벨 디자인 원칙]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

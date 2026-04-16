@@ -2,7 +2,7 @@
 title: "【보고서】 오픈월드를 선형화하는 법 — GTA5 (얼음병정)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T121241+0900-【보고서】 오픈월드를 선형화하는 법 - 『Grand Theft Auto 5』.md"]
-related: ["[[오픈월드 설계]]"]
+related: ["[[open-world-design|오픈월드 설계]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

@@ -7,7 +7,7 @@ sources: [
   "[[gmtk-world-design-elden-ring]]",
   "[[open-world-linearization-gta5]]"
 ]
-related: ["[[오픈월드 설계]]", "[[플레이어 유도 설계]]", "[[창발적 시스템 설계]]"]
+related: ["[[open-world-design|오픈월드 설계]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[emergent-systems-design|창발적 시스템 설계]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

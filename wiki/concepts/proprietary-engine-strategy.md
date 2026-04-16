@@ -2,7 +2,7 @@
 title: "독자 엔진 전략"
 type: concept
 sources: ["[[Capcom IR2021 개발 전략]]", "[[RE2023 RE ENGINE Philosophy]]", "[[Expedition 33 UE5 인터뷰]]"]
-related: ["[[캡콤]]", "[[샌드폴 인터랙티브]]", "[[소규모 팀 개발]]"]
+related: ["[[capcom|캡콤]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: high
@@ -27,7 +27,7 @@ confidence: high
 
 ## 서드파티 엔진 활용 (샌드폴 모델 — 대안)
 
-[[샌드폴 인터랙티브]](~40명)는 반대 전략을 택했다:
+[[sandfall-interactive|샌드폴 인터랙티브]](~40명)는 반대 전략을 택했다:
 - UE5를 수정하지 않고 그대로 사용 → 버전 업 비용 방지, 최신 버그 수정 자동 획득
 - "엔진에 손대지 않기"가 원칙 → 루멘·나나이트 등 UE5 고수준 기능을 한계까지 활용
 - 마켓플레이스·서드파티 플러그인 적극 활용으로 개발 속도 확보

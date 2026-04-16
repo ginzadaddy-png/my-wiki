@@ -2,7 +2,7 @@
 title: "The World Design of Dark Souls | Boss Keys (GMTK)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T122219+0900-The World Design of Dark Souls  Boss Keys.md"]
-related: ["[[오픈월드 설계]]", "[[프롬소프트웨어]]", "[[창발적 시스템 설계]]"]
+related: ["[[open-world-design|오픈월드 설계]]", "[[fromsoftware|프롬소프트웨어]]", "[[emergent-systems-design|창발적 시스템 설계]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

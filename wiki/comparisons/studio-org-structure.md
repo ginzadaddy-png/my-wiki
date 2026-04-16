@@ -8,7 +8,7 @@ sources: [
   "[[gdc2021-level-design-studio-wide]]",
   "[[gdc2024-skyrim-starfield-design-collab]]"
 ]
-related: ["[[개발 조직 구조]]", "[[소규모 팀 개발]]", "[[멀티 프로젝트 개발]]", "[[독자 엔진 전략]]"]
+related: ["[[dev-org-structure|개발 조직 구조]]", "[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[proprietary-engine-strategy|독자 엔진 전략]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

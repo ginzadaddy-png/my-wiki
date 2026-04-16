@@ -2,7 +2,7 @@
 title: "발하임"
 type: entity
 sources: ["[[gdc2024-valheim-early-access]]"]
-related: ["[[아이언 게이트 스튜디오]]", "[[얼리 액세스 전략]]"]
+related: ["[[iron-gate-studio|아이언 게이트 스튜디오]]", "[[early-access-strategy|얼리 액세스 전략]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high
@@ -17,4 +17,4 @@ Iron Gate Studio, 2021 (얼리 액세스). 북유럽 신화 기반 오픈월드 
 - 말 구입 일화: 예상치 못한 성공이 팀의 일상에 가져온 변화
 
 ## 위키 맥락
-소규모 팀 얼리 액세스의 장기 성공 사례. [[얼리 액세스 전략]] 페이지 참조.
+소규모 팀 얼리 액세스의 장기 성공 사례. [[early-access-strategy|얼리 액세스 전략]] 페이지 참조.

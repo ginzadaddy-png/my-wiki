@@ -2,7 +2,7 @@
 title: "젤다의 전설: 브레스 오브 더 와일드"
 type: entity
 sources: ["[[botw-eldenring-visual-guidance]]", "[[zelda-vs-ubisoft-open-world]]"]
-related: ["[[닌텐도]]", "[[엘든링]]", "[[오픈월드 설계]]", "[[창발적 시스템 설계]]"]
+related: ["[[nintendo|닌텐도]]", "[[elden-ring|엘든링]]", "[[open-world-design|오픈월드 설계]]", "[[emergent-systems-design|창발적 시스템 설계]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high
@@ -16,4 +16,4 @@ Nintendo, 2017. 젤다 시리즈의 오픈월드 전환점. 2017년 GOTY. 유비
 - **필드 삼각형 법칙**: 랜드마크 계층 구조로 항상 다음 목표가 눈에 보이도록 설계
 
 ## 위키 맥락
-유비소프트식 "체크리스트 오픈월드"와의 대비가 [[오픈월드 설계]] 개념의 핵심 축.
+유비소프트식 "체크리스트 오픈월드"와의 대비가 [[open-world-design|오픈월드 설계]] 개념의 핵심 축.

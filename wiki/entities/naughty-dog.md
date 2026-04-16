@@ -2,7 +2,7 @@
 title: "너티독 (Naughty Dog)"
 type: entity
 sources: ["[[너티독 멀티 프로젝트 개발 실패]]"]
-related: ["[[멀티 프로젝트 개발]]", "[[소규모 팀 개발]]"]
+related: ["[[multi-project-development|멀티 프로젝트 개발]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: high
@@ -25,4 +25,4 @@ confidence: high
 - **현재도 "아슬아슬하게 미달"**: 항상 수백 명이 붙는 메인 프로젝트 1개 + 프리프로덕션 여러 개
 - **구조적 현실**: "두 프로젝트가 각각 수백 명을 가진 상황은 없다"
 
-> 산업 최고 수준의 AAA 스튜디오도 진정한 동시 풀 프로덕션은 달성하지 못한다는 증거 사례. → [[멀티 프로젝트 개발]] 참고
+> 산업 최고 수준의 AAA 스튜디오도 진정한 동시 풀 프로덕션은 달성하지 못한다는 증거 사례. → [[multi-project-development|멀티 프로젝트 개발]] 참고

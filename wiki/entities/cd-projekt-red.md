@@ -5,7 +5,7 @@ sources: [
   "[[gdc2023-quest-design-lessons-cdpr]]",
   "[[gdc2023-cyberpunk-nonlinear-level-design]]"
 ]
-related: ["[[퀘스트·내러티브 디자인]]", "[[레벨 디자인 원칙]]"]
+related: ["[[quest-narrative-design|퀘스트·내러티브 디자인]]", "[[level-design-principles|레벨 디자인 원칙]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

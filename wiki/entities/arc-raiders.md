@@ -2,17 +2,17 @@
 title: "아크 레이더스 (ARC Raiders)"
 type: entity
 sources: ["[[GDC26 아크 레이더스 리셋 강연]]"]
-related: ["[[엠바크 스튜디오]]", "[[데이터 기반 개발]]", "[[소규모 팀 개발]]", "[[플레이테스팅]]"]
+related: ["[[embark-studios|엠바크 스튜디오]]", "[[data-driven-development|데이터 기반 개발]]", "[[small-team-development|소규모 팀 개발]]", "[[playtesting|플레이테스팅]]"]
 created: 2026-04-13
 updated: 2026-04-13
 confidence: high
 ---
 
-[[엠바크 스튜디오]]의 익스트랙션 슈터. PVP+PVE 혼합, 무료 플레이. 7년간의 개발 끝에 120→25명 리셋을 거쳐 출시.
+[[embark-studios|엠바크 스튜디오]]의 익스트랙션 슈터. PVP+PVE 혼합, 무료 플레이. 7년간의 개발 끝에 120→25명 리셋을 거쳐 출시.
 
 | 항목 | 내용 |
 |------|------|
-| 개발사 | [[엠바크 스튜디오]] |
+| 개발사 | [[embark-studios|엠바크 스튜디오]] |
 | 장르 | 익스트랙션 슈터 (PVP+PVE) |
 | 플랫폼 | PC |
 | 모델 | 무료 플레이 |

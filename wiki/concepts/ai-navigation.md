@@ -2,7 +2,7 @@
 title: "AI 내비게이션"
 type: concept
 sources: ["[[gdc2021-death-stranding-ai]]"]
-related: ["[[코지마 프로덕션]]", "[[창발적 시스템 설계]]"]
+related: ["[[kojima-productions|코지마 프로덕션]]", "[[emergent-systems-design|창발적 시스템 설계]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

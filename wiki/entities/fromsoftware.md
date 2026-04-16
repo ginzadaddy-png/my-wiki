@@ -2,7 +2,7 @@
 title: "프롬소프트웨어 (FromSoftware)"
 type: entity
 sources: ["[[FromSoftware 300명으로 엘든링+AC6 동시 제작]]"]
-related: ["[[멀티 프로젝트 개발]]", "[[소규모 팀 개발]]"]
+related: ["[[multi-project-development|멀티 프로젝트 개발]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: high
@@ -26,4 +26,4 @@ confidence: high
 
 **성장**: AC5(2012) ~80명 → AC6(2023) ~200명. 10년 동안 AAA 기준에 맞게 규모를 현실적으로 키움.
 
-> 비교: [[너티독]]이 동시 풀 프로덕션을 "아직도 달성 못 했다"고 하는 반면, 프롬소프트웨어는 규모 조절과 일정 조율로 현실적인 멀티 프로젝트 운용을 달성.
+> 비교: [[naughty-dog|너티독]]이 동시 풀 프로덕션을 "아직도 달성 못 했다"고 하는 반면, 프롬소프트웨어는 규모 조절과 일정 조율로 현실적인 멀티 프로젝트 운용을 달성.

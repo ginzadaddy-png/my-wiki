@@ -2,13 +2,13 @@
 title: "[GDC26] '덜어냄'으로써 완성되는 미학 — 고스트 오브 요테이"
 type: source-summary
 sources: ["raw/articles/2026-04-13T123338+0900-GDC26 '덜어냄'으로써 완성되는 미학 - 고스트 오브 요테이.md"]
-related: ["[[서커펀치 프로덕션]]", "[[고스트 오브 요테이]]", "[[비전 선언문]]", "[[플레이테스팅]]", "[[소규모 팀 개발]]"]
+related: ["[[sucker-punch-productions|서커펀치 프로덕션]]", "[[ghost-of-yotei|고스트 오브 요테이]]", "[[vision-statement|비전 선언문]]", "[[playtesting|플레이테스팅]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-13
 updated: 2026-04-13
 confidence: high
 ---
 
-[[서커펀치 프로덕션]] 네이트 폭스 + 제이슨 코넬이 GDC 2026에서 고스트 오브 요테이의 개발 철학을 공개한 강연.
+[[sucker-punch-productions|서커펀치 프로덕션]] 네이트 폭스 + 제이슨 코넬이 GDC 2026에서 고스트 오브 요테이의 개발 철학을 공개한 강연.
 
 **핵심 내용:**
 - **비전 선언문**: "방랑 낭인이 된 느낌을 주는가?" — 개발 내내 모든 결정의 단일 기준

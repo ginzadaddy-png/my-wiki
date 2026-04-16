@@ -2,7 +2,7 @@
 title: "Level Design Workshop: Architecture in Level Design (GDC 2016)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T122849+0900-Level Design Workshop Architecture in Level Design.md"]
-related: ["[[레벨 디자인 원칙]]"]
+related: ["[[level-design-principles|레벨 디자인 원칙]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

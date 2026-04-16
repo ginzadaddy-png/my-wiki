@@ -2,7 +2,7 @@
 title: "Unsynced: The Last of Us Melee System (GDC 2014)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T122900+0900-Unsynced The Last of Us Melee System.md"]
-related: ["[[전투 디자인]]"]
+related: ["[[combat-design|전투 디자인]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

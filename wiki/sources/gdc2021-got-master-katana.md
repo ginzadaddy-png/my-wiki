@@ -2,7 +2,7 @@
 title: "Master of the Katana: Melee Combat in 'Ghost of Tsushima' (GDC 2021)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T122753+0900-Master of the Katana Melee Combat in 'Ghost of Tsushima'.md"]
-related: ["[[전투 디자인]]", "[[서커펀치 프로덕션]]"]
+related: ["[[combat-design|전투 디자인]]", "[[sucker-punch-productions|서커펀치 프로덕션]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: medium

@@ -2,7 +2,7 @@
 title: "너티독, 멀티 프로젝트 개발에 여전히 '아슬아슬하게' 실패 중"
 type: source-summary
 sources: ["raw/articles/2026-04-14T160343+0900-Naughty Dog Still Falling Just Short of Simultaneous Development.md"]
-related: ["[[너티독]]", "[[멀티 프로젝트 개발]]", "[[소규모 팀 개발]]"]
+related: ["[[naughty-dog|너티독]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: high

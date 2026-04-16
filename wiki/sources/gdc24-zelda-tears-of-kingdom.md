@@ -2,7 +2,7 @@
 title: "[GDC24] 젤다의 전설: 티어스 오브 더 킹덤 — 만들었지만 만들지 않은 '미친' 자유도"
 type: source-summary
 sources: ["raw/articles/2026-04-13T181649+0900-GDC24 젤다의 전설, 만들었지만 만들지 않은 '미친' 자유도.md"]
-related: ["[[닌텐도]]", "[[창발적 시스템 설계]]", "[[디자이너 도구화]]", "[[빠른 프로토타이핑]]"]
+related: ["[[nintendo|닌텐도]]", "[[emergent-systems-design|창발적 시스템 설계]]", "[[designer-empowerment|디자이너 도구화]]", "[[rapid-prototyping|빠른 프로토타이핑]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: high

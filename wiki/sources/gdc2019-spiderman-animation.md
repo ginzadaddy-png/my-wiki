@@ -2,7 +2,7 @@
 title: "Animation Bootcamp: Script to Screen — The Development Diary of Marvel's Spider-Man (GDC 2019)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T122824+0900-Animation Bootcamp Script to Screen The Development Diary of Marvel's Spider-Man.md"]
-related: ["[[시네마틱 제작]]", "[[인소믹 게임즈]]"]
+related: ["[[cinematic-production|시네마틱 제작]]", "[[insomniac-games|인소믹 게임즈]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

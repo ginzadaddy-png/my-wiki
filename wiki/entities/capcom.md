@@ -2,7 +2,7 @@
 title: "캡콤 (Capcom)"
 type: entity
 sources: ["[[Capcom IR2021 개발 전략]]", "[[RE2023 RE ENGINE Philosophy]]"]
-related: ["[[RE ENGINE]]", "[[독자 엔진 전략]]", "[[멀티 프로젝트 개발]]"]
+related: ["[[RE ENGINE]]", "[[proprietary-engine-strategy|독자 엔진 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: high
@@ -22,8 +22,8 @@ confidence: high
 
 **80/20 IP 전략**: 예산 80%를 기존 인기 IP에 집중, 20%를 신규 IP에 투자. 안정적 수익 기반 위에서 혁신 추구.
 
-**RE ENGINE 경쟁력**: RE7(2017) 데뷔 이후 대부분의 메인 타이틀에 적용. R&D 기반기술부가 개발, 타이틀 팀과 분리된 구조에서 지속 진화. → [[독자 엔진 전략]] 참고
+**RE ENGINE 경쟁력**: RE7(2017) 데뷔 이후 대부분의 메인 타이틀에 적용. R&D 기반기술부가 개발, 타이틀 팀과 분리된 구조에서 지속 진화. → [[proprietary-engine-strategy|독자 엔진 전략]] 참고
 
 **인재 파이프라인**: 2013년부터 연간 100명 전략 채용 → 실무 즉시 투입 → 다음 타이틀 핵심 멤버 성장. "게임 개발은 인재 개발"
 
-**규모**: 대형 타이틀 개발 시 팀 300명 이상. [[멀티 프로젝트 개발]] 환경에서 RE ENGINE을 통한 기술 공유로 효율 확보.
+**규모**: 대형 타이틀 개발 시 팀 300명 이상. [[multi-project-development|멀티 프로젝트 개발]] 환경에서 RE ENGINE을 통한 기술 공유로 효율 확보.

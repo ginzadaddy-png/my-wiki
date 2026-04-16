@@ -2,7 +2,7 @@
 title: "The Risks of Multi Game Development (2014)"
 type: source-summary
 sources: ["raw/articles/2026-04-14T160336+0900-The Risks of Multi Game Development.md"]
-related: ["[[멀티 프로젝트 개발]]", "[[너티독]]", "[[프롬소프트웨어]]"]
+related: ["[[multi-project-development|멀티 프로젝트 개발]]", "[[naughty-dog|너티독]]", "[[fromsoftware|프롬소프트웨어]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: high

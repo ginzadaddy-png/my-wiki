@@ -8,7 +8,7 @@ sources: [
   "[[gdc2019-nonlinear-level-design]]",
   "[[gdc2023-cyberpunk-nonlinear-level-design]]"
 ]
-related: ["[[오픈월드 설계]]", "[[레벨 디자인 원칙]]", "[[창발적 시스템 설계]]"]
+related: ["[[open-world-design|오픈월드 설계]]", "[[level-design-principles|레벨 디자인 원칙]]", "[[emergent-systems-design|창발적 시스템 설계]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

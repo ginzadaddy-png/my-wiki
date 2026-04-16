@@ -2,7 +2,7 @@
 title: "히트맨 (2016)"
 type: entity
 sources: ["[[gdc2016-hitman-nonlinear-sandbox]]"]
-related: ["[[IO 인터랙티브]]", "[[레벨 디자인 원칙]]"]
+related: ["[[IO 인터랙티브]]", "[[level-design-principles|레벨 디자인 원칙]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

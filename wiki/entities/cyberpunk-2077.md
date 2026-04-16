@@ -2,7 +2,7 @@
 title: "사이버펑크 2077"
 type: entity
 sources: ["[[gdc2023-cyberpunk-nonlinear-level-design]]", "[[gdc2023-quest-design-lessons-cdpr]]"]
-related: ["[[CD 프로젝트 레드]]", "[[레벨 디자인 원칙]]", "[[퀘스트·내러티브 디자인]]"]
+related: ["[[cd-projekt-red|CD 프로젝트 레드]]", "[[level-design-principles|레벨 디자인 원칙]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

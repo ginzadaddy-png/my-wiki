@@ -2,7 +2,7 @@
 title: "Developing 'Hi-Fi RUSH' Backwards and Finding Our Positive Gameplay Loop (GDC 2024)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T122726+0900-Developing 'Hi-Fi RUSH' Backwards and Finding Our Positive Gameplay Loop.md"]
-related: ["[[레벨 디자인 원칙]]", "[[전투 디자인]]"]
+related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[combat-design|전투 디자인]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

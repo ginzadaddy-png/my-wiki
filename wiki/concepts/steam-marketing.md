@@ -2,7 +2,7 @@
 title: "스팀 마케팅 전략"
 type: concept
 sources: ["[[CGDC 황재호 대표 강연]]", "[[SGC 스팀 살아남기 패널]]", "[[gdc2023-no-budget-marketing]]"]
-related: ["[[민트로켓]]", "[[데이브 더 다이버]]", "[[얼리 액세스 전략]]", "[[인디 비즈니스 전략]]"]
+related: ["[[mint-rocket|민트로켓]]", "[[dave-the-diver|데이브 더 다이버]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]"]
 created: 2026-04-13
 updated: 2026-04-13
 confidence: high

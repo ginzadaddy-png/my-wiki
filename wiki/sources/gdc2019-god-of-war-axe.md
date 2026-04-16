@@ -2,7 +2,7 @@
 title: "Taking an Axe to God of War Gameplay (GDC 2019)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T122834+0900-Taking an Axe to God of War Gameplay.md"]
-related: ["[[전투 디자인]]"]
+related: ["[[combat-design|전투 디자인]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

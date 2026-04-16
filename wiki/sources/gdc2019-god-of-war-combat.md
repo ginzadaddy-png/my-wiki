@@ -2,7 +2,7 @@
 title: "Evolving Combat in 'God of War' for a New Perspective (GDC 2019)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T122806+0900-Evolving Combat in 'God of War' for a New Perspective.md"]
-related: ["[[전투 디자인]]"]
+related: ["[[combat-design|전투 디자인]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

@@ -2,7 +2,7 @@
 title: "위쳐 3: 와일드 헌트"
 type: entity
 sources: ["[[gdc2023-quest-design-lessons-cdpr]]"]
-related: ["[[CD 프로젝트 레드]]", "[[사이버펑크 2077]]", "[[퀘스트·내러티브 디자인]]"]
+related: ["[[cd-projekt-red|CD 프로젝트 레드]]", "[[cyberpunk-2077|사이버펑크 2077]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

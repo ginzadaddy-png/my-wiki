@@ -2,7 +2,7 @@
 title: "RE:2023 RE ENGINE Philosophy (Capcom Open Conference)"
 type: source-summary
 sources: ["raw/articles/2026-04-14T160408+0900-RE2023 RE ENGINE Philosophy.md"]
-related: ["[[캡콤]]", "[[독자 엔진 전략]]", "[[RE ENGINE]]"]
+related: ["[[capcom|캡콤]]", "[[proprietary-engine-strategy|독자 엔진 전략]]", "[[RE ENGINE]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: medium

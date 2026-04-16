@@ -2,7 +2,7 @@
 title: "시네마틱 제작"
 type: concept
 sources: ["[[gdc2019-spiderman-animation]]", "[[gdc2022-tlou2-museum-flashback]]"]
-related: ["[[인소믹 게임즈]]", "[[레벨 디자인 원칙]]", "[[퀘스트·내러티브 디자인]]"]
+related: ["[[insomniac-games|인소믹 게임즈]]", "[[level-design-principles|레벨 디자인 원칙]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

@@ -2,13 +2,13 @@
 title: "아스트로봇"
 type: entity
 sources: ["[[GDC25 아스트로봇 강연]]"]
-related: ["[[팀 아소비]]", "[[빠른 프로토타이핑]]", "[[소규모 팀 개발]]"]
+related: ["[[team-asobi|팀 아소비]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-13
 updated: 2026-04-13
 confidence: high
 ---
 
-[[팀 아소비]]가 개발한 PS5 독점 플랫포머. 2024년 출시.
+[[team-asobi|팀 아소비]]가 개발한 PS5 독점 플랫포머. 2024년 출시.
 
 - **수상**: TGA 올해의 게임 포함 4관왕, D.I.C.E 어워드 올해의 게임 등
 - **개발 기간**: 3.5년 + 플레이테스트용 6개월 추가

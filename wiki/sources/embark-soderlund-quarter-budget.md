@@ -2,7 +2,7 @@
 title: "Embark 패트릭 수더룬드 — 'AAA 예산의 1/4로 AAA 퀄리티'"
 type: source-summary
 sources: ["raw/articles/2026-04-14T160417+0900-Embark Studios head Patrick Söderlund explains how Arc Raiders was made on a quarter of the budget of a AAA title.md"]
-related: ["[[엠바크 스튜디오]]", "[[아크 레이더스]]", "[[소규모 팀 개발]]", "[[멀티 프로젝트 개발]]"]
+related: ["[[embark-studios|엠바크 스튜디오]]", "[[arc-raiders|아크 레이더스]]", "[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: high

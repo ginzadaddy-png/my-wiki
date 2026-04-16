@@ -2,7 +2,7 @@
 title: "아이언 게이트 스튜디오"
 type: entity
 sources: ["[[gdc2024-valheim-early-access]]"]
-related: ["[[발하임]]", "[[얼리 액세스 전략]]", "[[소규모 팀 개발]]"]
+related: ["[[valheim|발하임]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

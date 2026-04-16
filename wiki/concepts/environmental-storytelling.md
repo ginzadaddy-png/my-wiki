@@ -7,7 +7,7 @@ sources: [
   "[[gdc2017-narrative-level-design]]",
   "[[gdc2016-architecture-level-design]]"
 ]
-related: ["[[레벨 디자인 원칙]]", "[[퀘스트·내러티브 디자인]]", "[[오픈월드 설계]]"]
+related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]", "[[open-world-design|오픈월드 설계]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

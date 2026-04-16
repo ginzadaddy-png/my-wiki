@@ -2,7 +2,7 @@
 title: "베데스다 게임 스튜디오"
 type: entity
 sources: ["[[skyrim-not-perfect-mda]]", "[[gdc2024-skyrim-starfield-design-collab]]"]
-related: ["[[엘더스크롤 5: 스카이림]]", "[[오픈월드 설계]]", "[[퀘스트·내러티브 디자인]]"]
+related: ["[[skyrim|엘더스크롤 5: 스카이림]]", "[[open-world-design|오픈월드 설계]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

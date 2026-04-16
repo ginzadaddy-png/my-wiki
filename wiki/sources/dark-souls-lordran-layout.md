@@ -2,7 +2,7 @@
 title: "Dark Souls Dissected #9 - Lordran's Layout Explained (illusory wall)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T122231+0900-Dark Souls Dissected 9 - Lordran's Layout Explained.md"]
-related: ["[[오픈월드 설계]]", "[[프롬소프트웨어]]"]
+related: ["[[open-world-design|오픈월드 설계]]", "[[fromsoftware|프롬소프트웨어]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high
