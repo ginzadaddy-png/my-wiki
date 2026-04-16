@@ -12,7 +12,7 @@ confidence: high
 
 | 항목 | 내용 |
 |------|------|
-| 개발사 | [[embark-studios|엠바크 스튜디오]] |
+| 개발사 | [[embark-studios]] |
 | 장르 | 익스트랙션 슈터 (PVP+PVE) |
 | 플랫폼 | PC |
 | 모델 | 무료 플레이 |

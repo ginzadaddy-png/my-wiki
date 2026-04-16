@@ -91,3 +91,9 @@ confidence: high | medium | low
 - 항상 [[영문-슬러그|표시명]] 형식 사용
 - 예: [[astro-bot|아스트로봇]], [[sucker-punch|Sucker Punch]]
 - 한글만 단독으로 쓰는 [[한글]] 형식 금지
+- **테이블 셀 내부에서는 [[slug]] 형식만 사용** (표시명 없이 슬러그만)
+  - 이유: Quartz 렌더러가 마크다운 테이블 파싱 전에 wikilink를 처리하지 않아 [[slug|표시명]]의 | 가 셀 구분자로 인식됨
+  - 본문 텍스트: [[astro-bot|아스트로봇]] ✓
+  - 테이블 셀: [[astro-bot]] ✓ / [[astro-bot|아스트로봇]] ✗
+- **테이블 헤더 행에는 wikilink 사용 금지** (plain text만 사용)
+  - 이유: 헤더의 | 충돌이 컬럼 수 불일치를 유발해 테이블 전체가 깨짐
