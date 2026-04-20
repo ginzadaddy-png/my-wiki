@@ -6,11 +6,13 @@ sources: [
   "[[gdc2021-got-master-katana]]",
   "[[gdc2019-god-of-war-combat]]",
   "[[gdc2019-god-of-war-axe]]",
-  "[[gdc2014-tlou-melee-system]]"
+  "[[gdc2014-tlou-melee-system]]",
+  "[[gmtk-combat-system]]",
+  "[[adam-millard-sword-fighting]]"
 ]
-related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[emergent-systems-design|창발적 시스템 설계]]", "[[ghost-of-tsushima|고스트 오브 쓰시마]]", "[[god-of-war-2018|갓 오브 워 2018]]", "[[the-last-of-us|더 라스트 오브 어스]]", "[[hitman-2016|히트맨 2016]]", "[[combat-philosophy|전투 철학 비교]]"]
+related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[emergent-systems-design|창발적 시스템 설계]]", "[[ghost-of-tsushima|고스트 오브 쓰시마]]", "[[god-of-war-2018|갓 오브 워 2018]]", "[[the-last-of-us|더 라스트 오브 어스]]", "[[hitman-2016|히트맨 2016]]", "[[combat-philosophy|전투 철학 비교]]", "[[game-balance|게임 밸런싱]]", "[[mda-framework|MDA 프레임워크]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-20
 confidence: high
 ---
 
@@ -59,4 +61,21 @@ confidence: high
 | 스태거 저항 | 방어 내구도 | HP 대체재 |
 | 이동 패턴 | 새로운 무브셋 | 버라이어티 핵심 |
 
-> **핵심 인사이트:** 전투 밸런스는 수치가 아니라 **판타지와의 계약**이다. "이 전투가 이 캐릭터답게 느껴지는가"를 먼저 정의하고, 모든 수치 결정을 그 기준으로 평가하라.
+## 공격 애니메이션 구조 (GMTK)
+
+**3단계 프레임 분석** ([[gmtk-combat-system]]):
+- **예비동작(Anticipation)** → **접촉(Contact)** → **회복(Recovery)**
+- 예비동작 중 공격자는 취약 — 이것이 공격의 "무게"를 결정
+- **애니메이션 캔슬 여부**: 다크소울(불가 → 신중·묵직) vs 베요네타(가능 → 즉흥·자유)
+- **스티키니스**: 아캄(자동 추적) vs 블러드본(수동 위치 확인) — 위치 인식 요구도 결정
+
+## 치명감과 긴장감 (Adam Millard)
+
+**치명성 역설** ([[adam-millard-sword-fighting]]):
+- 치명감 높일수록 매 결정이 무거워짐 → 그러나 즉사 연속 = 데모랄라이징
+- **페이즈 분리**로 해결:
+  - Nidhogg: 단판 아닌 맵 줄다리기 → 개별 패배 부담 완화
+  - Furi: 보스 다중 페이즈 + 플레이어 여러 생명 → 안전망 속 고강도
+  - 세키로: 일반 적 한 방 / 보스 데스블로우 2~3회 → 계층적 치명감
+
+> **핵심 인사이트:** 전투 밸런스는 수치가 아니라 **판타지와의 계약**이다. "이 전투가 이 캐릭터답게 느껴지는가"를 먼저 정의하고, 모든 수치 결정을 그 기준으로 평가하라. 매 순간 "지금 어떤 행동이 최선인가"를 플레이어에게 묻는 시스템이 깊이 있는 전투를 만든다.

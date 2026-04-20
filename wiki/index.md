@@ -4,18 +4,18 @@
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [ex-rockstar-ben-hinchliffe-interview](sources/ex-rockstar-ben-hinchliffe-interview.md) | 前 록스타 디자이너 Ben Hinchliffe 인터뷰 | 2024 |
+| [gmtk-10-lessons](sources/gmtk-10-lessons.md) | GMTK 10주년 — 게임 디자인 10대 교훈 | 2024 |
+| [gmtk-combat-system](sources/gmtk-combat-system.md) | 좋은 전투 시스템의 조건 (GMTK) | 2018 |
+| [adam-millard-sword-fighting](sources/adam-millard-sword-fighting.md) | 전설적인 검투 게임 만들기 (Adam Millard) | 2021 |
+| [gmtk-mda-framework](sources/gmtk-mda-framework.md) | 게임 디자이너처럼 생각하는 법 — MDA 프레임워크 (GMTK) | 2023 |
+| [gmtk-game-balancing](sources/gmtk-game-balancing.md) | 게임 밸런싱 방법론 (GMTK) | 2019 |
+| [rdr2-story-behind-the-story](sources/rdr2-story-behind-the-story.md) | 레드 데드 리뎀션 2의 스토리 뒷이야기 (Variety) | 2018 |
 | [airbridge-steam-marketing-playbook](sources/airbridge-steam-marketing-playbook.md) | 중견 게임 스튜디오를 위한 스팀 마케팅 완전정복 (Airbridge × Liquid) | 2025 |
 | [firstlook-signals-of-success](sources/firstlook-signals-of-success.md) | 퍼스트룩: 게임사 93%가 속는 가짜 흥행 신호 | 2026 |
 | [arc-raiders-extraction-genre](sources/arc-raiders-extraction-genre.md) | 진입 장벽 완화, 익스트랙션 장르의 대중화 이끄는 아크 레이더스 | 2025 |
-| [gdc26-newzoo-market-analysis](sources/gdc26-newzoo-market-analysis.md) | [GDC26] 뉴주: 무료 게임 정체와 프리미엄의 약진 | 2026 |
-| [gdc25-schell-studio-principles](sources/gdc25-schell-studio-principles.md) | [GDC25] 게임 스튜디오를 위한 원칙 (제시 셸) | 2025 |
-| [gdc25-balatro-marketing](sources/gdc25-balatro-marketing.md) | [GDC25] 안 이쁜 게임 마케팅으로 극복하기 - 발라트로 | 2025 |
-| [gdc25-steam-new-rules](sources/gdc25-steam-new-rules.md) | [GDC25] 새로운 스팀 규칙 아래 게임 마케팅하기 | 2025 |
-| [gdc24-hogwarts-legacy-design](sources/gdc24-hogwarts-legacy-design.md) | [GDC24] 팬과 게이머 모두 만족시킨 호그와트 레거시 | 2024 |
-| [gdc24-cdpr-dlc-design](sources/gdc24-cdpr-dlc-design.md) | [GDC24] CDPR이 알려주는 역대급 확장팩 만드는 비결 | 2024 |
-| [gdc24-spiderman2-open-world](sources/gdc24-spiderman2-open-world.md) | [GDC24] 마블 스파이더맨2의 오픈 월드는 어떻게 또 진화했나 | 2024 |
 
-전체 목록: [sources/all.md](sources/all.md) (총 63개)
+전체 목록: [sources/all.md](sources/all.md) (총 70개)
 
 ## 엔티티 (entities/)
 ### 스튜디오
@@ -68,6 +68,8 @@
 | [hitman-2016](entities/hitman-2016.md) | IO 인터랙티브, 2016, 비선형 샌드박스 가이던스 |
 | [balatro](entities/balatro.md) | 1인 개발 로그라이크, 2024 GDC 4관왕, 데모 전략 사례 |
 | [hogwarts-legacy](entities/hogwarts-legacy.md) | 아발란체, 해리포터 IP RPG, 팬/게이머 이중 설계 |
+| [red-dead-redemption-2](entities/red-dead-redemption-2.md) | 록스타, 2018, 23명 앙상블·살아있는 캠프·아너 시스템 |
+| [sekiro](entities/sekiro.md) | 프롬소프트웨어, 2019, 자세 시스템·계층적 치명감·패리 중심 전투 |
 
 ## 개념 (concepts/)
 ### 개발 방법론
@@ -84,6 +86,8 @@
 ### 출시·마케팅
 | 파일 | 설명 |
 |------|------|
+| [mda-framework](concepts/mda-framework.md) | MDA 프레임워크 — 메카닉→다이나믹→에스테틱 인과 연쇄 |
+| [game-balance](concepts/game-balance.md) | 게임 밸런싱 — 트레이드오프·카운터·패리 밸런싱 |
 | [steam-marketing](concepts/steam-marketing.md) | 스팀 마케팅 전략 (스토어·태그·커뮤니티·플랫폼) |
 | [data-driven-development](concepts/data-driven-development.md) | 데이터 기반 개발 의사결정 (3일 버스트·바구니 시스템) |
 | [multi-project-development](concepts/multi-project-development.md) | 멀티 프로젝트 동시 개발 전략과 위험 |

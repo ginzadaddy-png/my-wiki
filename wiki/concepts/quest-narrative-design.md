@@ -5,11 +5,12 @@ sources: [
   "[[gdc2023-quest-design-lessons-cdpr]]",
   "[[gdc2017-narrative-level-design]]",
   "[[gdc2022-tlou2-museum-flashback]]",
-  "[[gdc2024-skyrim-starfield-design-collab]]"
+  "[[gdc2024-skyrim-starfield-design-collab]]",
+  "[[rdr2-story-behind-the-story]]"
 ]
-related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[open-world-design|오픈월드 설계]]"]
+related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[open-world-design|오픈월드 설계]]", "[[red-dead-redemption-2|레드 데드 리뎀션 2]]", "[[rockstar-games|록스타 게임즈]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-20
 confidence: high
 ---
 
@@ -46,4 +47,13 @@ confidence: high
 - 두 관점이 충돌하는 지점을 통합하는 방법론이 핵심
 - 오픈월드가 클수록 두 팀 간 의사소통 비용이 기하급수적으로 증가
 
-> **핵심 인사이트:** 퀘스트 디자인의 출발점은 "어떤 감정을 느끼게 할 것인가"다. 그 감정이 공간·선택지·결과·페이싱의 모든 결정을 이끌어야 한다.
+## 살아있는 세계의 내러티브 (RDR2)
+
+**Rob Nelson, Michael Unsworth** ([[rdr2-story-behind-the-story]]):
+- **23명 앙상블**: 각 캐릭터가 자신 이야기의 영웅. 아서 모건은 이들과의 상호작용으로 형성
+- **워크앤톡 + 비네트 시스템**: 컷씬·미션 개념 최소화 — "당신은 이야기를 경험하는 동시에 형성하고 있다"
+- **아너 시스템**: 브랜칭 스토리가 아닌 캐릭터 일관성 도구 — 플레이어 행동 누적 → 아서의 대사·씬 반영
+- **GTA5 교훈**: "플레이어가 조종하지 않을 때도 캐릭터가 살아있어야 한다" → 캠프 스케줄 시스템으로 구현
+- **선택적 제거**: "아서답지 않은 것은 모두 선택 사항으로 뺐다"
+
+> **핵심 인사이트:** 퀘스트 디자인의 출발점은 "어떤 감정을 느끼게 할 것인가"다. 그 감정이 공간·선택지·결과·페이싱의 모든 결정을 이끌어야 한다. RDR2는 여기서 한 발 더 나아가 — 스토리가 플레이어에게 완전히 귀속되지도, 완전히 개발자에게 귀속되지도 않는 "섬세한 줄다리기"를 인터랙티브 미디어의 본질로 제시한다.

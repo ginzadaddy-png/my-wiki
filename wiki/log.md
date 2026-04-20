@@ -1,5 +1,60 @@
 # 활동 로그
 
+## [2026-04-20] lint | 연결성 개선
+- 저연결 개념 수정:
+  - hogwarts-legacy.md related에 ip-adaptation-design 추가
+  - witcher-3.md related에 dlc-expansion-design 추가
+  - arc-raiders.md related에 extraction-genre-design 추가
+  - dev-org-structure.md related에 studio-culture 추가
+- 생성 (누락 엔티티):
+  - entities/sekiro.md (프롬소프트웨어, 자세 시스템·계층적 치명감)
+- 업데이트:
+  - sources/adam-millard-sword-fighting.md (sekiro 링크 추가)
+  - index.md (세키로 엔티티 추가)
+- 잔여 마이너 보류: Bayonetta (gmtk-combat-system에서 언급, 낮은 우선순위)
+
+## [2026-04-20] ingest | 前 록스타 디자이너 Ben Hinchliffe 인터뷰 (GTA VI O'clock)
+- Source: raw/articles/2026-04-20T150408+0900-Ex-Rockstar Designer Interview - GTA VI O'clock - Episode 47.md
+- 출처: GTA VI O'clock Ep.47 (2024-10-31), Ben Hinchliffe 인터뷰
+- 생성:
+  - sources/ex-rockstar-ben-hinchliffe-interview.md
+- 업데이트:
+  - concepts/open-world-design.md (록스타식 콘텐츠 밀도 설계·90% 규칙·What-if 레이어 섹션 추가)
+  - sources/all.md (69→70개)
+  - index.md (최신 소스 갱신)
+- 모순: 없음
+
+## [2026-04-20] ingest | 대량 배치 — GMTK + Adam Millard (5개 파일)
+- Source: raw/articles/ (2026-04-20 타임스탬프 신규 8개 중 5개 ingest, 3개 스킵)
+- 스킵: Click4Gameplay RPG combat (내용 없음), VileHyperion (소규모·얇음), Rockstar ex-dev (파일명 따옴표 오류)
+- 생성 (sources/ — 5개):
+  - gmtk-mda-framework.md (MDA 프레임워크, Alien Isolation 사례)
+  - gmtk-game-balancing.md (트레이드오프·카운터·퍼셉션)
+  - gmtk-10-lessons.md (GMTK 10주년 10대 교훈)
+  - gmtk-combat-system.md (공격 프레임·방어·패리·스턴락)
+  - adam-millard-sword-fighting.md (치명감·페이즈 분리·Furi·Nidhogg)
+- 생성 (concepts/ — 2개):
+  - mda-framework.md
+  - game-balance.md
+- 업데이트:
+  - concepts/combat-design.md (GMTK 프레임 분석 + Adam Millard 검투 섹션 추가)
+  - concepts/playtesting.md (gmtk-10-lessons 소스 추가)
+  - sources/all.md (64→69개)
+  - index.md (최신 소스 갱신, 개념 2개 추가)
+- 모순: 없음
+
+## [2026-04-20] ingest | 레드 데드 리뎀션 2 스토리 뒷이야기 (Variety)
+- Source: raw/articles/2026-04-20-rdr2-story-behind-the-story.md (사용자 직접 붙여넣기)
+- 출처: Variety / Brian Crecente, Rob Nelson·Michael Unsworth 인터뷰 (2018)
+- 생성:
+  - sources/rdr2-story-behind-the-story.md
+  - entities/red-dead-redemption-2.md
+- 업데이트:
+  - concepts/quest-narrative-design.md (RDR2 섹션 추가 — 23명 앙상블·워크앤톡·아너 시스템·선택적 제거)
+  - sources/all.md (63→64개)
+  - index.md (최신 소스 갱신, 게임 엔티티 RDR2 추가)
+- 모순: 없음
+
 ## [2026-04-20] ingest | 중견 게임 스튜디오를 위한 스팀 마케팅 완전정복 (Airbridge)
 - Source: raw/articles/2026-04-20T142539+0900-중견 게임 스튜디오를 위한 스팀(Steam) 게임 마케팅 완전정복.md
 - 출처: Airbridge 블로그 (2025-07-03), 에어브릿지 남성필 대표 × Liquid Advertising Nikki DePaola 인터뷰

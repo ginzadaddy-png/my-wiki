@@ -2,7 +2,7 @@
 title: "호그와트 레거시 (Hogwarts Legacy)"
 type: entity
 sources: ["[[gdc24-hogwarts-legacy-design]]"]
-related: ["[[avalanche-software|아발란체 소프트웨어]]", "[[playtesting|플레이테스팅]]", "[[player-guidance-design|플레이어 유도 설계]]"]
+related: ["[[avalanche-software|아발란체 소프트웨어]]", "[[playtesting|플레이테스팅]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[ip-adaptation-design|IP 적응 설계]]"]
 created: 2026-04-20
 updated: 2026-04-20
 confidence: high

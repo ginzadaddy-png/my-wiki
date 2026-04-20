@@ -1,6 +1,6 @@
 # 소스 전체 목록
 
-총 63개 | 최신순 정렬
+총 70개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
@@ -61,3 +61,10 @@
 | [gdc24-spiderman2-open-world](gdc24-spiderman2-open-world.md) | [GDC24] 마블 스파이더맨2의 오픈 월드는 어떻게 또 진화했나 | 2024-03-23 |
 | [gdc24-steam-secrets](gdc24-steam-secrets.md) | [GDC24] 스팀의 비밀 - 성공 팁 | 2024-03-21 |
 | [airbridge-steam-marketing-playbook](airbridge-steam-marketing-playbook.md) | 중견 게임 스튜디오를 위한 스팀 마케팅 완전정복 (Airbridge × Liquid) | 2025-07-03 |
+| [ex-rockstar-ben-hinchliffe-interview](ex-rockstar-ben-hinchliffe-interview.md) | 前 록스타 디자이너 Ben Hinchliffe 인터뷰 (GTA VI O'clock Ep.47) | 2024 |
+| [gmtk-mda-framework](gmtk-mda-framework.md) | 게임 디자이너처럼 생각하는 법 — MDA 프레임워크 (GMTK) | 2023 |
+| [gmtk-game-balancing](gmtk-game-balancing.md) | 게임 밸런싱 방법론 (GMTK) | 2019 |
+| [gmtk-10-lessons](gmtk-10-lessons.md) | GMTK 10주년 — 게임 디자인 10대 교훈 | 2024 |
+| [gmtk-combat-system](gmtk-combat-system.md) | 좋은 전투 시스템의 조건 (GMTK) | 2018 |
+| [adam-millard-sword-fighting](adam-millard-sword-fighting.md) | 전설적인 검투 게임 만들기 (Adam Millard) | 2021 |
+| [rdr2-story-behind-the-story](rdr2-story-behind-the-story.md) | 레드 데드 리뎀션 2의 스토리 뒷이야기 (Variety / Rob Nelson, Michael Unsworth) | 2018-10 |
