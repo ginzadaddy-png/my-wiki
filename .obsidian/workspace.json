@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/articles/2026-04-20T142539+0900-중견 게임 스튜디오를 위한 스팀(Steam) 게임 마케팅 완전정복.md",
+                "file": "wiki/log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-20T142539+0900-중견 게임 스튜디오를 위한 스팀(Steam) 게임 마케팅 완전정복"
+              "title": "log"
             }
           }
         ]
@@ -183,12 +183,12 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "92a5c3e283c6d603",
+  "active": "3fe76bcb6a95c484",
   "lastOpenFiles": [
+    "raw/articles/2026-04-20T142539+0900-중견 게임 스튜디오를 위한 스팀(Steam) 게임 마케팅 완전정복.md",
     "wiki/sources/all.md.tmp.38504.1776663047933",
     "wiki/sources/airbridge-steam-marketing-playbook.md",
     "raw/articles/2026-04-20T111541+0900-GDC24 팬과 게이머, 모두 만족시킨 '호그와트 레거시’의 마법.md",
-    "raw/articles/2026-04-20T142539+0900-중견 게임 스튜디오를 위한 스팀(Steam) 게임 마케팅 완전정복.md",
     "wiki/entities/marvel-spiderman-2.md",
     "wiki/entities/death-stranding.md",
     "wiki/concepts/studio-culture.md",
@@ -220,7 +220,6 @@
     "wiki/index.md.tmp.5432.1776300817352",
     "wiki/entities/sony-santa-monica.md.tmp.5432.1776300780524",
     "wiki/entities/valheim.md.tmp.5432.1776300751222",
-    "wiki/entities/skyrim.md.tmp.5432.1776300703945",
     "무제.canvas"
   ]
 }
