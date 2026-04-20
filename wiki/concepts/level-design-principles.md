@@ -12,7 +12,7 @@ sources: [
   "[[gdc2023-cyberpunk-nonlinear-level-design]]",
   "[[gdc2024-skyrim-starfield-design-collab]]"
 ]
-related: ["[[open-world-design|오픈월드 설계]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]"]
+related: ["[[open-world-design|오픈월드 설계]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]", "[[hifi-rush|Hi-Fi RUSH]]", "[[io-interactive|IO 인터랙티브]]", "[[environmental-storytelling|환경 스토리텔링]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high

@@ -55,7 +55,14 @@
       "Bash(powershell -Command \"Get-Content 'C:\\\\Vault\\\\Ginza\\\\my-wiki\\\\raw\\\\articles\\\\2026-04-15T122753+0900-Master of the Katana Melee Combat in Ghost of Tsushima.md' -TotalCount 100 | Out-String\")",
       "mcp__scheduled-tasks__create_scheduled_task",
       "Bash(dir \"C:\\\\Vault\\\\Ginza\\\\my-wiki\\\\wiki\\\\entities\\\\\" /b)",
-      "Bash(python3 -)"
+      "Bash(python3 -)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3)",
+      "Bash(read slug *)",
+      "Bash([ ! -f \"entities/$slug.md\" ])",
+      "Bash([ ! -f \"concepts/$slug.md\" ])",
+      "Bash([ ! -f \"sources/$slug.md\" ])",
+      "Bash([ ! -f \"comparisons/$slug.md\" ])"
     ]
   }
 }

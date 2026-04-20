@@ -2,7 +2,7 @@
 title: "인소믹 게임즈"
 type: entity
 sources: ["[[gdc2019-spiderman-animation]]"]
-related: ["[[cinematic-production|시네마틱 제작]]", "[[marvel-spiderman|마블 스파이더맨]]"]
+related: ["[[cinematic-production|시네마틱 제작]]", "[[marvel-spiderman-2|마블 스파이더맨 2]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

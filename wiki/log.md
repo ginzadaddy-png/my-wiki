@@ -1,5 +1,55 @@
 # 활동 로그
 
+## [2026-04-20] ingest | 중견 게임 스튜디오를 위한 스팀 마케팅 완전정복 (Airbridge)
+- Source: raw/articles/2026-04-20T142539+0900-중견 게임 스튜디오를 위한 스팀(Steam) 게임 마케팅 완전정복.md
+- 출처: Airbridge 블로그 (2025-07-03), 에어브릿지 남성필 대표 × Liquid Advertising Nikki DePaola 인터뷰
+- 생성:
+  - sources/airbridge-steam-marketing-playbook.md
+- 업데이트:
+  - concepts/steam-marketing.md (브랜딩+퍼포먼스 통합·위시리스트 70% 기준·PC 유저 구매 행동·놓치는 채널 3가지·크로스 플랫폼 함정 섹션 추가)
+  - sources/all.md (62→63개)
+  - index.md (최신 소스 10개 갱신)
+- 모순: 없음
+
+## [2026-04-20] lint | 위키 연결성 개선
+- 깨진 wikilink 수정 2개: marvel-spiderman → marvel-spiderman-2, zelda-tears-of-kingdom → gdc24-zelda-tears-of-kingdom
+- 생성 (고립/누락 페이지):
+  - concepts/ip-adaptation-design.md
+  - concepts/studio-culture.md
+  - entities/death-stranding.md
+  - entities/marvel-spiderman-2.md
+- 업데이트: combat-design.md (comparison 링크), level-design-principles.md (hifi-rush·io-interactive·environmental-storytelling 링크), open-world-design.md (comparison·스파이더맨2·데스스트랜딩 링크)
+- index.md에 신규 페이지 반영
+- 잔여 고립 페이지 (마이너, 보류): cinematic-pipeline, community-management, unreal-engine-5 slug
+
+## [2026-04-20] ingest | 대량 배치 — 마케팅·시장·장르·DLC·오픈월드 (10개 파일)
+- Source: raw/articles/ (2026-04-20 타임스탬프 신규 10개)
+- 생성 (sources/ — 10개):
+  - firstlook-signals-of-success.md (퍼스트룩 흥행 예측 보고서)
+  - arc-raiders-extraction-genre.md (익스트랙션 장르 대중화)
+  - gdc26-newzoo-market-analysis.md (뉴주 게임 시장 분석)
+  - gdc25-schell-studio-principles.md (제시 셸 스튜디오 원칙)
+  - gdc25-balatro-marketing.md (발라트로 마케팅)
+  - gdc25-steam-new-rules.md (스팀 새 규칙 마케팅)
+  - gdc24-hogwarts-legacy-design.md (호그와트 레거시 팬/게이머 설계)
+  - gdc24-cdpr-dlc-design.md (CDPR 확장팩 비결)
+  - gdc24-spiderman2-open-world.md (스파이더맨2 오픈월드 진화)
+  - gdc24-steam-secrets.md (스팀의 비밀)
+- 생성 (concepts/ — 4개):
+  - launch-metrics.md (흥행 예측 지표)
+  - extraction-genre-design.md (익스트랙션 장르 설계)
+  - dlc-expansion-design.md (DLC·확장팩 설계)
+  - game-market-trends.md (게임 시장 트렌드)
+- 생성 (entities/ — 3개):
+  - balatro.md
+  - hogwarts-legacy.md
+  - avalanche-software.md
+- 업데이트:
+  - concepts/steam-marketing.md (데모 전략·주목의 수레바퀴·스팀 숨은 기능 섹션 추가)
+  - concepts/open-world-design.md (spiderman2 소스 추가)
+  - wiki/index.md (소스 최신 10개 갱신, 엔티티 22개→25개, 개념 21개→25개)
+  - wiki/sources/all.md (51→61개)
+
 ## [2026-04-16] concept+comparison-fill | 개념·비교 페이지 6개 신규 생성
 - 생성 (concepts/ — 3개):
   - environmental-storytelling.md (다크소울·TLOU2·건축 원리·내러티브 레벨)

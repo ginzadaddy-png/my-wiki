@@ -1,6 +1,6 @@
 # 소스 전체 목록
 
-총 51개 | 최신순 정렬
+총 63개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
@@ -50,3 +50,14 @@
 | [expedition33-ue5-interview](expedition33-ue5-interview.md) | Clair Obscur: Expedition 33 개발 과정 — 언리얼 공식 인터뷰 | 2025-03-27 |
 | [gdc24-baldurs-gate-3](gdc24-baldurs-gate-3.md) | [GDC24] 발더스 게이트3, 시작부터 출시까지 | 2024-03-23 |
 | [gdc25-astrobot](gdc25-astrobot.md) | [GDC25] 아스트로봇의 성공, 마법은 없었다 | 2025-03-22 |
+| [firstlook-signals-of-success](firstlook-signals-of-success.md) | 퍼스트룩: 게임사 93%가 속는 가짜 흥행 신호 | 2026-04-17 |
+| [arc-raiders-extraction-genre](arc-raiders-extraction-genre.md) | 진입 장벽 완화, 익스트랙션 장르의 대중화 이끄는 아크 레이더스 | 2025-12-15 |
+| [gdc26-newzoo-market-analysis](gdc26-newzoo-market-analysis.md) | [GDC26] 뉴주: 무료 게임 정체와 프리미엄의 약진 | 2026-03-10 |
+| [gdc25-schell-studio-principles](gdc25-schell-studio-principles.md) | [GDC25] 게임 스튜디오를 위한 원칙 (제시 셸) | 2025-03-22 |
+| [gdc25-balatro-marketing](gdc25-balatro-marketing.md) | [GDC25] 안 이쁜 게임 마케팅으로 극복하기 - 발라트로 | 2025-03-22 |
+| [gdc25-steam-new-rules](gdc25-steam-new-rules.md) | [GDC25] 새로운 스팀 규칙 아래 게임 마케팅하기 | 2025-03-18 |
+| [gdc24-hogwarts-legacy-design](gdc24-hogwarts-legacy-design.md) | [GDC24] 팬과 게이머 모두 만족시킨 호그와트 레거시 | 2024-03-24 |
+| [gdc24-cdpr-dlc-design](gdc24-cdpr-dlc-design.md) | [GDC24] CDPR이 알려주는 역대급 확장팩 만드는 비결 | 2024-03-24 |
+| [gdc24-spiderman2-open-world](gdc24-spiderman2-open-world.md) | [GDC24] 마블 스파이더맨2의 오픈 월드는 어떻게 또 진화했나 | 2024-03-23 |
+| [gdc24-steam-secrets](gdc24-steam-secrets.md) | [GDC24] 스팀의 비밀 - 성공 팁 | 2024-03-21 |
+| [airbridge-steam-marketing-playbook](airbridge-steam-marketing-playbook.md) | 중견 게임 스튜디오를 위한 스팀 마케팅 완전정복 (Airbridge × Liquid) | 2025-07-03 |

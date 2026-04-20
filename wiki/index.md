@@ -4,18 +4,18 @@
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
-| [gdc2023-no-budget-marketing](sources/gdc2023-no-budget-marketing.md) | [GDC23] 예산 없는 DIY 인디 마케팅 | 2023 |
-| [gdc2023-indie-starter-kit](sources/gdc2023-indie-starter-kit.md) | [GDC23] 인디 스타터 킷 — 게임 회사 창업 기초 | 2023 |
-| [gdc2019-spiderman-animation](sources/gdc2019-spiderman-animation.md) | [GDC19] 마블 스파이더맨 시네마틱 개발 일지 | 2019 |
-| [gdc2021-death-stranding-ai](sources/gdc2021-death-stranding-ai.md) | [GDC21] 데스 스트랜딩 AI 포스트모템 | 2021 |
-| [gdc2014-tlou-melee-system](sources/gdc2014-tlou-melee-system.md) | [GDC14] TLOU 근접 전투 시스템 (Unsynced) | 2014 |
-| [gdc2019-god-of-war-axe](sources/gdc2019-god-of-war-axe.md) | [GDC19] 갓 오브 워 — 도끼 게임플레이 설계 | 2019 |
-| [gdc2019-god-of-war-combat](sources/gdc2019-god-of-war-combat.md) | [GDC19] 갓 오브 워 전투 시스템 진화 | 2019 |
-| [gdc2021-got-honoring-blade](sources/gdc2021-got-honoring-blade.md) | [GDC21] 고스트 오브 쓰시마 — 칼날을 존중하며 | 2021 |
-| [gdc2021-got-master-katana](sources/gdc2021-got-master-katana.md) | [GDC21] 고스트 오브 쓰시마 — 카타나의 달인 | 2021 |
-| [gdc2024-hifi-rush-backwards](sources/gdc2024-hifi-rush-backwards.md) | [GDC24] Hi-Fi RUSH 역방향 개발 | 2024 |
+| [airbridge-steam-marketing-playbook](sources/airbridge-steam-marketing-playbook.md) | 중견 게임 스튜디오를 위한 스팀 마케팅 완전정복 (Airbridge × Liquid) | 2025 |
+| [firstlook-signals-of-success](sources/firstlook-signals-of-success.md) | 퍼스트룩: 게임사 93%가 속는 가짜 흥행 신호 | 2026 |
+| [arc-raiders-extraction-genre](sources/arc-raiders-extraction-genre.md) | 진입 장벽 완화, 익스트랙션 장르의 대중화 이끄는 아크 레이더스 | 2025 |
+| [gdc26-newzoo-market-analysis](sources/gdc26-newzoo-market-analysis.md) | [GDC26] 뉴주: 무료 게임 정체와 프리미엄의 약진 | 2026 |
+| [gdc25-schell-studio-principles](sources/gdc25-schell-studio-principles.md) | [GDC25] 게임 스튜디오를 위한 원칙 (제시 셸) | 2025 |
+| [gdc25-balatro-marketing](sources/gdc25-balatro-marketing.md) | [GDC25] 안 이쁜 게임 마케팅으로 극복하기 - 발라트로 | 2025 |
+| [gdc25-steam-new-rules](sources/gdc25-steam-new-rules.md) | [GDC25] 새로운 스팀 규칙 아래 게임 마케팅하기 | 2025 |
+| [gdc24-hogwarts-legacy-design](sources/gdc24-hogwarts-legacy-design.md) | [GDC24] 팬과 게이머 모두 만족시킨 호그와트 레거시 | 2024 |
+| [gdc24-cdpr-dlc-design](sources/gdc24-cdpr-dlc-design.md) | [GDC24] CDPR이 알려주는 역대급 확장팩 만드는 비결 | 2024 |
+| [gdc24-spiderman2-open-world](sources/gdc24-spiderman2-open-world.md) | [GDC24] 마블 스파이더맨2의 오픈 월드는 어떻게 또 진화했나 | 2024 |
 
-전체 목록: [sources/all.md](sources/all.md) (총 51개)
+전체 목록: [sources/all.md](sources/all.md) (총 63개)
 
 ## 엔티티 (entities/)
 ### 스튜디오
@@ -40,6 +40,9 @@
 | [tango-gameworks](entities/tango-gameworks.md) | Hi-Fi RUSH 개발사 (2024년 폐쇄) |
 | [iron-gate-studio](entities/iron-gate-studio.md) | 스웨덴 인디, 발하임 |
 | [rockstar-games](entities/rockstar-games.md) | GTA·레드 데드 리뎀션 시리즈 |
+| [avalanche-software](entities/avalanche-software.md) | WB Games 산하, 호그와트 레거시 |
+| [death-stranding](entities/death-stranding.md) | 코지마 프로덕션즈, AI 내비게이션 |
+| [marvel-spiderman-2](entities/marvel-spiderman-2.md) | 인섬니악, 오픈월드 탐험 설계 |
 
 ### 게임
 | 파일 | 설명 |
@@ -63,6 +66,8 @@
 | [gta5](entities/gta5.md) | 록스타, 2013, 오픈월드 선형화 기법 |
 | [hifi-rush](entities/hifi-rush.md) | 탱고 게임웍스, 2023, 역방향 리듬 설계 |
 | [hitman-2016](entities/hitman-2016.md) | IO 인터랙티브, 2016, 비선형 샌드박스 가이던스 |
+| [balatro](entities/balatro.md) | 1인 개발 로그라이크, 2024 GDC 4관왕, 데모 전략 사례 |
+| [hogwarts-legacy](entities/hogwarts-legacy.md) | 아발란체, 해리포터 IP RPG, 팬/게이머 이중 설계 |
 
 ## 개념 (concepts/)
 ### 개발 방법론
@@ -97,6 +102,12 @@
 | [indie-business-strategy](concepts/indie-business-strategy.md) | 인디 비즈니스 전략 — 창업·마케팅·생존 |
 | [ai-navigation](concepts/ai-navigation.md) | AI 내비게이션 — 복잡 지형 경로탐색 (데스 스트랜딩) |
 | [cinematic-production](concepts/cinematic-production.md) | 시네마틱 제작 — 파이프라인·카메라·편집 |
+| [launch-metrics](concepts/launch-metrics.md) | 흥행 예측 지표 — 가짜 신호 vs. 행동 기반 지표 |
+| [extraction-genre-design](concepts/extraction-genre-design.md) | 익스트랙션 장르 설계 — 진입장벽 완화 공식 |
+| [dlc-expansion-design](concepts/dlc-expansion-design.md) | DLC·확장팩 설계 — 테마·장르·감정 리듬 (CDPR) |
+| [game-market-trends](concepts/game-market-trends.md) | 게임 시장 트렌드 — 저가 프리미엄 부상, 세분화 |
+| [ip-adaptation-design](concepts/ip-adaptation-design.md) | IP 적응 설계 — 팬/게이머 이중 타겟 설계 |
+| [studio-culture](concepts/studio-culture.md) | 스튜디오 문화 — 원칙·가치·의사결정 방식 |
 
 ## 비교 (comparisons/)
 | 파일 | 비교 축 | 대상 |

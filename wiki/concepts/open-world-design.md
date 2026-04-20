@@ -11,11 +11,12 @@ sources: [
   "[[dark-souls-world-hides-lore]]",
   "[[dark-souls-lordran-layout]]",
   "[[gdc2024-skyrim-starfield-design-collab]]",
-  "[[gdc2024-valheim-early-access]]"
+  "[[gdc2024-valheim-early-access]]",
+  "[[gdc24-spiderman2-open-world]]"
 ]
-related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[emergent-systems-design|창발적 시스템 설계]]"]
+related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[emergent-systems-design|창발적 시스템 설계]]", "[[open-world-guidance|오픈월드 유도 비교]]", "[[marvel-spiderman-2|마블 스파이더맨 2]]", "[[death-stranding|데스 스트랜딩]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-20
 confidence: high
 ---
 

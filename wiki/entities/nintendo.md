@@ -2,7 +2,7 @@
 title: "닌텐도 (Nintendo)"
 type: entity
 sources: ["[[GDC24 젤다 티어스 오브 더 킹덤 강연]]"]
-related: ["[[emergent-systems-design|창발적 시스템 설계]]", "[[zelda-tears-of-kingdom|젤다의 전설: 티어스 오브 더 킹덤]]"]
+related: ["[[emergent-systems-design|창발적 시스템 설계]]", "[[gdc24-zelda-tears-of-kingdom|젤다의 전설: 티어스 오브 더 킹덤]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: high
