@@ -1,5 +1,16 @@
 # 활동 로그
 
+## [2026-04-22] ingest | 시장 분석 2건 — Sensor Tower + 매튜 볼 2026
+- Source: raw/articles/2026-04-21T110136+0900-센서 타워 연례 보고서...md
+- Source: raw/articles/2026-04-21T110148+0900-매튜 볼의 2026년 보고서...md
+- 생성:
+  - sources/sensortower-2026-report.md
+  - sources/matthew-ball-2026-report.md
+- 업데이트:
+  - concepts/game-market-trends.md (PC·모바일 2025 현황 + 성장의 역설 섹션 추가, 소스 2개 추가)
+  - sources/all.md (70→72개)
+- 모순: 뉴주(인디 부상) vs 매튜 볼(서구 개발사 구조적 불이익) — 시장 전체 vs 개별 기업 수익 프레임 차이로 해소, game-market-trends.md에 병기
+
 ## [2026-04-20] lint | 연결성 개선
 - 저연결 개념 수정:
   - hogwarts-legacy.md related에 ip-adaptation-design 추가

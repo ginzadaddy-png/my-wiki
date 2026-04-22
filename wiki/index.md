@@ -4,7 +4,7 @@
 
 | 소스 | 스튜디오 | 게임 | 개념 | 비교 |
 |------|--------|------|------|------|
-| [70개](sources/all.md) | [22개](entities/all.md#스튜디오) | [23개](entities/all.md#게임) | 22개 | 6개 |
+| [72개](sources/all.md) | [22개](entities/all.md#스튜디오) | [23개](entities/all.md#게임) | 22개 | 6개 |
 
 ---
 
