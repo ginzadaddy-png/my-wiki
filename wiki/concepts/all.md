@@ -1,16 +1,16 @@
-# Game Dev Wiki
-
-소스 [72개](sources/all.md)에서 추출한 게임 개발 지식 베이스.
-
-| 소스 | 스튜디오 | 게임 | 개념 | 비교 분석 |
-|------|--------|------|------|------|
-| [72개](sources/all.md) | [22개](entities/all.md#스튜디오) | [23개](entities/all.md#게임) | [22개](concepts/all.md) | [6개](comparisons/all.md) |
-
+---
+title: "전체 개념 목록"
+type: concept
+created: 2026-04-22
+updated: 2026-04-22
 ---
 
-## 개념 (Concepts)
+# 전체 개념 목록
 
-### 개발 방법론
+← [홈으로](../index.md)
+
+## 개발 방법론
+
 | 개념 | 설명 |
 |------|------|
 | [[rapid-prototyping]] | 빠른 프로토타이핑과 반복 개발 |
@@ -21,7 +21,8 @@
 | [[early-access-strategy]] | 얼리 액세스 전략 |
 | [[dev-org-structure]] | 개발 조직 구조 — 팀 구성·유동 배치·스크럼 |
 
-### 출시·마케팅
+## 출시·마케팅
+
 | 개념 | 설명 |
 |------|------|
 | [[steam-marketing]] | 스팀 마케팅 전략 (스토어·태그·커뮤니티·플랫폼) |
@@ -32,7 +33,8 @@
 | [[multi-project-development]] | 멀티 프로젝트 동시 개발 전략과 위험 |
 | [[proprietary-engine-strategy]] | 독자 엔진 전략 (RE ENGINE vs 서드파티 무수정) |
 
-### 게임 디자인
+## 게임 디자인
+
 | 개념 | 설명 |
 |------|------|
 | [[combat-design]] | 전투 디자인 — 판타지 계약, HP 인플레이션, 애니메이션 철학 |
@@ -50,20 +52,3 @@
 | [[dlc-expansion-design]] | DLC·확장팩 설계 — 테마·장르·감정 리듬 (CDPR) |
 | [[ip-adaptation-design]] | IP 적응 설계 — 팬/게이머 이중 타겟 설계 |
 | [[studio-culture]] | 스튜디오 문화 — 원칙·가치·의사결정 방식 |
-
----
-
-## 비교 분석 (Comparisons)
-
-| 비교 분석 | 대상 |
-|------|------|
-| [[iteration-cycles]] | 반복 개발 주기 — 팀 아소비·서커펀치·라리안·샌드폴 |
-| [[small-studio-goty]] | 소규모 스튜디오 대작 전략 — 팀 아소비·샌드폴·민트로켓 |
-| [[player-feedback]] | 플레이어 피드백 수집 전략 — 팀 아소비·서커펀치·라리안·민트로켓 |
-| [[combat-philosophy]] | 전투 철학 — GoT·GoW·TLOU·히트맨 |
-| [[open-world-guidance]] | 오픈월드 유도 철학 — BotW·엘든링·GTA5·유비식 |
-| [[studio-org-structure]] | 스튜디오 조직 구조 — 프롬소프트웨어·캡콤·베데스다·Scrum |
-
----
-
-→ [전체 소스 목록](sources/all.md) · [전체 엔티티 목록](entities/all.md)
