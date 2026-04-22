@@ -66,4 +66,4 @@
 
 ---
 
-→ [전체 소스 목록](sources/all.md) · [전체 엔티티 목록](entities/all.md)
+→ [전체 소스 목록](sources/all.md) · [전체 엔티티 목록](entities/all.md) · [전체 개념 목록](concepts/all.md) · [전체 비교 분석 목록](comparisons/all.md)
