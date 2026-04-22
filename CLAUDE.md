@@ -28,7 +28,9 @@ confidence: high | medium | low
 4. wiki/sources/에 요약 페이지 생성
 5. 관련 concept, entity 페이지 생성 또는 업데이트
 6. 기존 위키 내용과 모순되면 "> ⚠️ 모순:" 블록 추가
-7. wiki/index.md 업데이트
+7. wiki/index.md 업데이트:
+   - 상단 통계 행의 소스·스튜디오·게임·개념·비교 숫자 갱신
+   - 새 concept/comparison 페이지가 생겼으면 해당 테이블에 행 추가
 8. wiki/log.md에 기록 추가
 
 로그 형식:
