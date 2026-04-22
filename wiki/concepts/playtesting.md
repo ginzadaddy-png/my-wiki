@@ -1,7 +1,7 @@
 ---
 title: "플레이테스팅 방법론"
 type: concept
-sources: ["[[GDC26 반짝임 강연]]", "[[GDC26 고스트 오브 요테이 강연]]", "[[GDC25 아스트로봇 강연]]", "[[GDC26 아크 레이더스 리셋 강연]]", "[[gmtk-10-lessons]]"]
+sources: ["[[GDC26 반짝임 강연]]", "[[GDC26 고스트 오브 요테이 강연]]", "[[GDC25 아스트로봇 강연]]", "[[GDC26 아크 레이더스 리셋 강연]]", "[[gmtk-10-lessons]]", "[[gdc26-too-much-playtesting]]"]
 related: ["[[sucker-punch-productions|서커펀치 프로덕션]]", "[[team-asobi|팀 아소비]]", "[[embark-studios|엠바크 스튜디오]]", "[[vision-statement|비전 선언문]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[data-driven-development|데이터 기반 개발]]"]
 created: 2026-04-13
 updated: 2026-04-13

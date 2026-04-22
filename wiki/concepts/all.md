@@ -25,7 +25,8 @@ updated: 2026-04-22
 
 | 개념 | 설명 |
 |------|------|
-| [[steam-marketing]] | 스팀 마케팅 전략 (스토어·태그·커뮤니티·플랫폼) |
+| [[marketing-strategy]] | 마케팅 전략 (스팀·통합 채널·트레일러·PR·크리에이터) |
+| [[community-management]] | 커뮤니티 운영 — 채널별 전략, 개발자 직접 소통, 신뢰 적립 |
 | [[launch-metrics]] | 흥행 예측 지표 — 가짜 신호 vs. 행동 기반 지표 |
 | [[data-driven-development]] | 데이터 기반 개발 의사결정 (3일 버스트·바구니 시스템) |
 | [[indie-business-strategy]] | 인디 비즈니스 전략 — 창업·마케팅·생존 |
@@ -52,3 +53,7 @@ updated: 2026-04-22
 | [[dlc-expansion-design]] | DLC·확장팩 설계 — 테마·장르·감정 리듬 (CDPR) |
 | [[ip-adaptation-design]] | IP 적응 설계 — 팬/게이머 이중 타겟 설계 |
 | [[studio-culture]] | 스튜디오 문화 — 원칙·가치·의사결정 방식 |
+| [[player-trust-design]] | 플레이어 신뢰 설계 — 신뢰를 통화처럼 운용하는 설계 프레임워크 |
+| [[companion-design]] | 동반자(Companion) 설계 — RPG 동반자의 세 패턴과 신뢰 구축 |
+| [[design-sense]] | 디자인 감각 개발 — 더 갭, 4가지 요소, 취향과 기술의 차이 |
+| [[game-trailer-design]] | 게임 트레일러 설계 — 유형별 전략, 캔버스별 접근, 킬러 샷 |

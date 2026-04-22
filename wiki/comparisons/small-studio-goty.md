@@ -2,7 +2,7 @@
 title: "소규모 스튜디오의 대작 전략 비교"
 type: comparison
 sources: ["[[GDC25 아스트로봇 강연]]", "[[GDC26 33원정대 프로그래머 강연]]", "[[Expedition 33 UE5 인터뷰]]", "[[CGDC 황재호 대표 강연]]"]
-related: ["[[small-team-development|소규모 팀 개발]]", "[[designer-empowerment|디자이너 도구화]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[steam-marketing|스팀 마케팅 전략]]"]
+related: ["[[small-team-development|소규모 팀 개발]]", "[[designer-empowerment|디자이너 도구화]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[marketing-strategy|마케팅 전략]]"]
 created: 2026-04-13
 updated: 2026-04-13
 confidence: high

@@ -2,7 +2,7 @@
 title: "발라트로 (Balatro)"
 type: entity
 sources: ["[[gdc25-balatro-marketing]]"]
-related: ["[[steam-marketing|스팀 마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]"]
 created: 2026-04-20
 updated: 2026-04-20
 confidence: high

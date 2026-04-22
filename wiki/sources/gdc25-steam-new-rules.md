@@ -2,7 +2,7 @@
 title: "GDC25: 새로운 스팀 규칙 아래 게임 마케팅하기"
 type: source-summary
 sources: ["GDC25 스팀이 세일을 제안한다면"]
-related: ["[[steam-marketing|스팀 마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[early-access-strategy|얼리 액세스 전략]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[early-access-strategy|얼리 액세스 전략]]"]
 created: 2026-04-20
 updated: 2026-04-20
 confidence: high

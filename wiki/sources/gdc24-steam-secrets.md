@@ -2,7 +2,7 @@
 title: "GDC24: 스팀의 비밀 - 성공 팁 (크리스 주코프스키)"
 type: source-summary
 sources: ["GDC24 '스팀의 비밀' 성공 꿀팁 대방출"]
-related: ["[[steam-marketing|스팀 마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]"]
 created: 2026-04-20
 updated: 2026-04-20
 confidence: high

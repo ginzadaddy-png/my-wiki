@@ -62,7 +62,29 @@
       "Bash([ ! -f \"entities/$slug.md\" ])",
       "Bash([ ! -f \"concepts/$slug.md\" ])",
       "Bash([ ! -f \"sources/$slug.md\" ])",
-      "Bash([ ! -f \"comparisons/$slug.md\" ])"
+      "Bash([ ! -f \"comparisons/$slug.md\" ])",
+      "Bash(where pdftotext *)",
+      "Bash(where mutool *)",
+      "Bash(python3 -c \"import pdfplumber; print\\('pdfplumber ok'\\)\")",
+      "Bash(python3 -c \"import PyPDF2; print\\('PyPDF2 ok'\\)\")",
+      "Bash(python3 -c \"import pymupdf; print\\('pymupdf ok'\\)\")",
+      "Bash(pdftotext \"C:/Users/bmjlee/Downloads/Fishman_Theodore_honing_the_blade_evolving_combat_for_ghost_of_yotei.pdf\" -)",
+      "Bash(pdftotext \"C:/Users/bmjlee/Downloads/Lieu_Derek_BackToBasicsTranslatingYourInvisibleMarketingFoundationIntoVisibility.pdf\" -)",
+      "Bash(pdftotext \"C:/Users/bmjlee/Downloads/2026.03+-+IDG-GDC+2026+Presentation+-+Finding+Signal+in+the+Noise.pdf\" -)",
+      "Bash(pdftotext \"C:/Users/bmjlee/Downloads/Rouse_Richard_RulesOfTheGame.pdf\" -)",
+      "Bash(pdftotext \"C:/Users/bmjlee/Downloads/Reisenegger_Thomas_Your+Steam+Page+Needs+a+Soul.pdf\" -)",
+      "Bash(\"C:\\\\Program Files\\\\Git\\\\mingw64\\\\bin\\\\pdftotext.exe\" \"C:\\\\Users\\\\bmjlee\\\\Downloads\\\\Carcich_Benjamin_ProductionTrapsHow.pdf\" -)",
+      "Bash(\"C:\\\\Program Files\\\\Git\\\\mingw64\\\\bin\\\\pdftotext.exe\" \"C:\\\\Users\\\\bmjlee\\\\Downloads\\\\Fisher_Kristie_ThreeMindsetShifts.pdf\" -)",
+      "Bash(\"C:\\\\Program Files\\\\Git\\\\mingw64\\\\bin\\\\pdftotext.exe\" \"C:\\\\Users\\\\bmjlee\\\\Downloads\\\\Moberly&Dollarhyde_Lis&Kate_DesigningRelationshipsHow.pdf\" -)",
+      "Bash(\"C:\\\\Program Files\\\\Git\\\\mingw64\\\\bin\\\\pdftotext.exe\" \"C:\\\\Users\\\\bmjlee\\\\Downloads\\\\Murphy_Kelly_Hogwarts+Legacy+Evolving.pdf\" -)",
+      "Bash(\"C:\\\\Program Files\\\\Git\\\\mingw64\\\\bin\\\\pdftotext.exe\" \"C:\\\\Users\\\\bmjlee\\\\Downloads\\\\MARIE_Adrien_AllGameTrailers.pdf\" -)",
+      "Bash(\"C:\\\\Program Files\\\\Git\\\\mingw64\\\\bin\\\\pdftotext.exe\" \"C:\\\\Users\\\\bmjlee\\\\Downloads\\\\Nikolich_Evan_Developing+and+Sharpening.pdf\" -)",
+      "Bash(\"C:\\\\Program Files\\\\Git\\\\mingw64\\\\bin\\\\pdftotext.exe\" \"C:\\\\Users\\\\bmjlee\\\\Downloads\\\\ThePlayervsDreamLogic_AlanWake2.pdf\" -)",
+      "Bash(\"C:\\\\Program Files\\\\Git\\\\mingw64\\\\bin\\\\pdftotext.exe\" \"C:\\\\Users\\\\bmjlee\\\\Downloads\\\\Souki_Francisco_Too-Much-Playtesting.pdf\" -)",
+      "Bash(\"C:\\\\Program Files\\\\Git\\\\mingw64\\\\bin\\\\pdftotext.exe\" \"C:\\\\Users\\\\bmjlee\\\\Downloads\\\\OrtizLapaz_David_The_Integrated+Marketing.pdf\" -)",
+      "Bash(\"C:\\\\Program Files\\\\Git\\\\mingw64\\\\bin\\\\pdftotext.exe\" \"C:\\\\Users\\\\bmjlee\\\\Downloads\\\\ComicsToGames_AllPresentations.pdf\" -)",
+      "Bash(grep -v \"^sources/all.md$\")",
+      "Bash(grep -v \"^concepts/all.md$\")"
     ]
   }
 }

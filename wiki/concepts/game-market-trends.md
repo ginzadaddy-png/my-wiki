@@ -1,8 +1,8 @@
 ---
 title: "게임 시장 트렌드"
 type: concept
-sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]"]
-related: ["[[steam-marketing|스팀 마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]"]
+sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]"]
 created: 2026-04-20
 updated: 2026-04-22
 confidence: high

@@ -2,7 +2,7 @@
 title: "퍼스트룩: 게임사 93%가 속는 가짜 흥행 신호"
 type: source-summary
 sources: ["게임사 93%가 속는 '가짜 흥행 신호'"]
-related: ["[[launch-metrics|흥행 예측 지표]]", "[[steam-marketing|스팀 마케팅 전략]]"]
+related: ["[[launch-metrics|흥행 예측 지표]]", "[[marketing-strategy|마케팅 전략]]"]
 created: 2026-04-20
 updated: 2026-04-20
 confidence: high

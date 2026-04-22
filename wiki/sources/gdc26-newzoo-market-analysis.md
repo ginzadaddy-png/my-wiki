@@ -2,7 +2,7 @@
 title: "GDC26 뉴주: 무료 게임 정체와 프리미엄의 약진"
 type: source-summary
 sources: ["GDC26 무료 게임 정체와 프리미엄의 약진 뉴주가 주목한 변화들"]
-related: ["[[game-market-trends|게임 시장 트렌드]]", "[[steam-marketing|스팀 마케팅 전략]]"]
+related: ["[[game-market-trends|게임 시장 트렌드]]", "[[marketing-strategy|마케팅 전략]]"]
 created: 2026-04-20
 updated: 2026-04-20
 confidence: high

@@ -1,7 +1,7 @@
 ---
 title: "멀티 프로젝트 개발"
 type: concept
-sources: ["[[The Risks of Multi Game Development]]", "[[너티독 멀티 프로젝트 개발 실패]]", "[[FromSoftware 300명으로 엘든링+AC6 동시 제작]]", "[[Embark 수더룬드 인터뷰]]"]
+sources: ["[[risks-multi-game-development]]", "[[naughty-dog-multi-project]]", "[[fromsoftware-300-devs]]", "[[embark-soderlund-quarter-budget]]"]
 related: ["[[naughty-dog|너티독]]", "[[fromsoftware|프롬소프트웨어]]", "[[embark-studios|엠바크 스튜디오]]", "[[small-team-development|소규모 팀 개발]]", "[[data-driven-development|데이터 기반 개발]]"]
 created: 2026-04-14
 updated: 2026-04-14

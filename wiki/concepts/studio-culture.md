@@ -1,7 +1,7 @@
 ---
 title: "스튜디오 문화"
 type: concept
-sources: ["[[gdc25-schell-studio-principles]]", "[[gdc26-spark]]", "[[gdc26-arc-raiders-reset]]"]
+sources: ["[[gdc25-schell-studio-principles]]", "[[gdc26-spark]]", "[[gdc26-arc-raiders-reset]]", "[[gdc26-three-mindset-shifts]]"]
 related: ["[[vision-statement|비전 선언문]]", "[[dev-org-structure|개발 조직 구조]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-20
 updated: 2026-04-20
@@ -38,4 +38,13 @@ confidence: high
 
 → 상세: [[gdc25-schell-studio-principles]], [[vision-statement|비전 선언문]]
 
-> **핵심 인사이트:** 스튜디오 문화는 리더의 변덕에 흔들리지 않아야 한다. 원칙이 문서화되어 있을 때 리더가 바뀌어도 팀의 방향이 유지된다.
+## 문화를 의도적으로 설계하기 (Fisher, 2026)
+
+[[gdc26-three-mindset-shifts|Three Mindset Shifts]]는 "훌륭한 사람들이 모이면 문화가 자연스럽게 형성된다"는 믿음을 반박한다.
+
+**의도적 문화 설계의 증거**: 잘 작동하는 문화에서는 팀원 누구나 답할 수 있다:
+- 우리의 가치관은? / 내가 내야 할 결과물은? / 어떻게 소통해야 하는가? / 의사결정은 어떻게 이루어지는가?
+
+**팀 핸드북**: 미션·가치관, 팀 목표·제약, 커리어 성장 기대치, 협업 규칙을 문서화. 단일 오너가 최신 상태 유지 책임.
+
+> **핵심 인사이트:** 스튜디오 문화는 리더의 변덕에 흔들리지 않아야 한다. 원칙이 문서화되어 있을 때 리더가 바뀌어도 팀의 방향이 유지된다. 좋은 문화는 만들어지는 것이지, 자연발생하는 것이 아니다.

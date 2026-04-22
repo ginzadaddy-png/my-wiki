@@ -2,7 +2,7 @@
 title: "GDC25: 안 이쁜 게임 마케팅으로 극복하기 - 발라트로"
 type: source-summary
 sources: ["GDC2025 안 이쁜() 게임, 마케팅으로 극복하기 - 발라트로"]
-related: ["[[balatro|발라트로]]", "[[steam-marketing|스팀 마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]"]
+related: ["[[balatro|발라트로]]", "[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]"]
 created: 2026-04-20
 updated: 2026-04-20
 confidence: high

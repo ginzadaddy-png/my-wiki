@@ -1,14 +1,14 @@
 ---
-title: "스팀 마케팅 전략"
+title: "마케팅 전략"
 type: concept
-sources: ["[[CGDC 황재호 대표 강연]]", "[[SGC 스팀 살아남기 패널]]", "[[gdc2023-no-budget-marketing]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc24-steam-secrets]]", "[[airbridge-steam-marketing-playbook]]"]
+sources: ["[[CGDC 황재호 대표 강연]]", "[[SGC 스팀 살아남기 패널]]", "[[gdc2023-no-budget-marketing]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc24-steam-secrets]]", "[[airbridge-steam-marketing-playbook]]", "[[gdc26-steam-page-needs-soul]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[gdc26-integrated-marketing]]", "[[gdc26-game-trailers]]"]
 related: ["[[mint-rocket|민트로켓]]", "[[dave-the-diver|데이브 더 다이버]]", "[[balatro|발라트로]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[game-market-trends|게임 시장 트렌드]]"]
 created: 2026-04-13
-updated: 2026-04-20
+updated: 2026-04-22
 confidence: high
 ---
 
-스팀에서 게임을 성공시키기 위한 전략. 데이브 더 다이버(민트로켓)와 SGC 패널(Thunderful, DoubleMoose, Paradox Arc, Raw Fury)의 실전 사례.
+게임의 출시와 마케팅을 성공시키기 위한 전략. 스팀 플랫폼 전략부터 통합 마케팅 채널 운영, 트레일러, 크리에이터, PR까지 포괄한다. 데이브 더 다이버(민트로켓), SGC 패널, Dotemu, ICO Partners 등 실전 사례 기반.
 
 **스토어 페이지**
 - 개발과 동시에 설계하는 첫 마케팅 무대 (출시 후 꾸미는 전시 공간이 아님)

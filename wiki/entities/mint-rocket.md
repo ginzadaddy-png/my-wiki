@@ -1,8 +1,8 @@
 ---
 title: "민트로켓"
 type: entity
-sources: ["[[CGDC 황재호 대표 강연]]"]
-related: ["[[dave-the-diver|데이브 더 다이버]]", "[[steam-marketing|스팀 마케팅 전략]]", "[[community-management|커뮤니티 운영]]"]
+sources: ["[[cgdc-dave-the-diver]]"]
+related: ["[[dave-the-diver|데이브 더 다이버]]", "[[marketing-strategy|마케팅 전략]]", "[[community-management|커뮤니티 운영]]"]
 created: 2026-04-13
 updated: 2026-04-13
 confidence: high

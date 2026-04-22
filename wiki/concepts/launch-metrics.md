@@ -2,7 +2,7 @@
 title: "흥행 예측 지표"
 type: concept
 sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]"]
-related: ["[[steam-marketing|스팀 마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]"]
 created: 2026-04-20
 updated: 2026-04-20
 confidence: high

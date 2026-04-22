@@ -2,7 +2,7 @@
 title: "[SGC] 실전 사례로 배우는 '스팀에서 살아남기'"
 type: source-summary
 sources: ["raw/articles/2026-04-13T123349+0900-SGC 실전 사례로 배우는 '스팀에서 살아남기'.md"]
-related: ["[[steam-marketing|스팀 마케팅 전략]]"]
+related: ["[[marketing-strategy|마케팅 전략]]"]
 created: 2026-04-13
 updated: 2026-04-13
 confidence: high

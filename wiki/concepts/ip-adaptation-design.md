@@ -1,7 +1,7 @@
 ---
 title: "IP 적응 설계"
 type: concept
-sources: ["[[gdc24-hogwarts-legacy-design]]"]
+sources: ["[[gdc24-hogwarts-legacy-design]]", "[[gdc26-hogwarts-evolving-aaa]]", "[[gdc26-comics-to-games]]"]
 related: ["[[hogwarts-legacy|호그와트 레거시]]", "[[avalanche-software|아발란체 소프트웨어]]", "[[playtesting|플레이테스팅]]", "[[player-guidance-design|플레이어 유도 설계]]"]
 created: 2026-04-20
 updated: 2026-04-20

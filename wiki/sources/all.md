@@ -1,9 +1,24 @@
 # 소스 전체 목록
 
-총 72개 | 최신순 정렬
+총 81개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [gdc26-hogwarts-evolving-aaa](gdc26-hogwarts-evolving-aaa.md) | Evolving Your Design into AAA — Hogwarts Legacy (Kelly Murphy) | 2026-03 |
+| [gdc26-game-trailers](gdc26-game-trailers.md) | All Game Trailers Are Not Created Equal (Adrien Marie / Dotemu) | 2026-03 |
+| [gdc26-design-sense](gdc26-design-sense.md) | Developing and Sharpening Your Design Sense (Evan Nikolich / Respawn) | 2026-03 |
+| [gdc24-alan-wake2-mission-design](gdc24-alan-wake2-mission-design.md) | The Player vs Dream Logic — Alan Wake 2 미션 구조 (Anne-Marie Grønroos) | 2024-03 |
+| [gdc26-too-much-playtesting](gdc26-too-much-playtesting.md) | Too Much Playtesting? — Schell Games의 228회 플레이테스트 (Souki & Cahill) | 2026-03 |
+| [gdc26-integrated-marketing](gdc26-integrated-marketing.md) | The Integrated Marketing Approach: Designing Impactful Game Launches (David Ortiz Lapaz) | 2026-03 |
+| [gdc26-comics-to-games](gdc26-comics-to-games.md) | Comics to Games: Great Adaptations (Murray, Narcisse, Belair, Rogers, Son M.) | 2026-03 |
+| [gdc26-production-traps](gdc26-production-traps.md) | Production Traps: The Archetypes We Fall (and Fail) Into (Benjamin Carcich) | 2026-03 |
+| [gdc26-three-mindset-shifts](gdc26-three-mindset-shifts.md) | Three Mindset Shifts to Lead World-Class Teams (Kristie J. Fisher) | 2026-03 |
+| [gdc26-designing-companions](gdc26-designing-companions.md) | Designing Relationships: How to Make Compelling RPG Companions (Moberly & Dollarhyde) | 2026-03 |
+| [gdc26-lieu-back-to-basics-marketing](gdc26-lieu-back-to-basics-marketing.md) | Back to Basics: 보이지 않는 마케팅 기반을 가시성으로 (Derek Lieu) | 2026-03 |
+| [gdc26-idg-finding-signal-noise](gdc26-idg-finding-signal-noise.md) | Finding Signal in the Noise: 혼돈의 게임 시장에서 성장 찾기 (IDG) | 2026-03 |
+| [gdc26-rules-of-the-game](gdc26-rules-of-the-game.md) | Rules of the Game 2026: 반직관적 게임 디자인 규칙 5가지 | 2026-03 |
+| [gdc26-steam-page-needs-soul](gdc26-steam-page-needs-soul.md) | Your Steam Page Needs a Soul (Thomas Reisenegger / Future Friends) | 2026-03 |
+| [gdc25-ghost-of-yotei-combat](gdc25-ghost-of-yotei-combat.md) | Honing the Blade: Evolving Combat for Ghost of Yotei (Fishman/서커펀치) | 2025 |
 | [sensortower-2026-report](sensortower-2026-report.md) | Sensor Tower 2026 게임 산업 현황 보고서 | 2026-03 |
 | [matthew-ball-2026-report](matthew-ball-2026-report.md) | 매튜 볼 2026년 보고서 — 최고치인데 왜 힘든가 | 2026-03 |
 | [gdc2023-no-budget-marketing](gdc2023-no-budget-marketing.md) | [GDC23] 예산 없는 DIY 인디 마케팅 | 2023 |

@@ -2,7 +2,7 @@
 title: "Sensor Tower 2026 게임 산업 현황 보고서"
 type: source-summary
 sources: []
-related: ["[[game-market-trends|게임 시장 트렌드]]", "[[steam-marketing|스팀 마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]"]
+related: ["[[game-market-trends|게임 시장 트렌드]]", "[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]"]
 created: 2026-04-22
 updated: 2026-04-22
 confidence: high

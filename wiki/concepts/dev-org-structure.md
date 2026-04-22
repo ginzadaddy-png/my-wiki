@@ -5,7 +5,8 @@ sources: [
   "[[agile-scrum-teams]]",
   "[[fromsoftware-300-devs]]",
   "[[gdc2021-level-design-studio-wide]]",
-  "[[capcom-ir2021-dev-strategy]]"
+  "[[capcom-ir2021-dev-strategy]]",
+  "[[gdc26-production-traps]]"
 ]
 related: ["[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[studio-culture|스튜디오 문화]]"]
 created: 2026-04-16
@@ -55,4 +56,15 @@ confidence: high
 - 신입 → 인기 IP 실무 투입 → 다음 타이틀 핵심 멤버로 성장
 - RE ENGINE을 공유 기반으로 여러 팀이 기술 축적을 재활용
 
-> **핵심 인사이트:** 조직 구조는 게임 개발의 숨겨진 변수다. 같은 인원이라도 팀을 어떻게 나누고, 언제 합치고, 어떻게 소통하게 하느냐에 따라 결과물의 품질 상한선이 달라진다. 프롬소프트웨어의 유동 배치와 캡콤의 파이프라인은 서로 다른 규모에서의 해답이다.
+## 프로듀서의 역할: Force Multiplier
+
+[[gdc26-production-traps|Production Traps]] (Carcich, 2026)는 프로듀서가 빠지기 쉬운 함정을 세 범주로 정리한다:
+- **Sub-Optimizer**: 도구·프로세스·계획에 과잉 투자 (JIRA 완성 ≠ 좋은 게임)
+- **Unskilled Supporter**: 팀이 원하는 것을 해주는 데 집중 (cheerleader·therapist·정보 전달자)
+- **Dangerous Decider**: 모든 결정을 자신이 내리려 함
+
+**프로듀서의 실제 역할**: 팀이 스스로 좋은 결정을 내릴 수 있는 환경을 만드는 것. **정렬(Alignment)**을 유지하는 것 — 정렬은 방치하면 계속 붕괴하므로 지속적 관리가 필요하다.
+
+핵심 역량: Leadership / Influence / Systems Building
+
+> **핵심 인사이트:** 조직 구조는 게임 개발의 숨겨진 변수다. 같은 인원이라도 팀을 어떻게 나누고, 언제 합치고, 어떻게 소통하게 하느냐에 따라 결과물의 품질 상한선이 달라진다. 프롬소프트웨어의 유동 배치와 캡콤의 파이프라인은 서로 다른 규모에서의 해답이다. 그리고 어떤 규모에서도 프로듀서의 핵심은 "결정하는 사람"이 아니라 "팀을 정렬시키는 사람"이다.

@@ -1,7 +1,7 @@
 ---
 title: "너티독 (Naughty Dog)"
 type: entity
-sources: ["[[너티독 멀티 프로젝트 개발 실패]]"]
+sources: ["[[naughty-dog-multi-project]]"]
 related: ["[[multi-project-development|멀티 프로젝트 개발]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-14
 updated: 2026-04-14

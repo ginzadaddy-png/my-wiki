@@ -1,5 +1,96 @@
 # 활동 로그
 
+## [2026-04-22] create | community-management 개념 페이지 + alan-wake-2 엔티티 페이지
+- 생성:
+  - concepts/community-management.md (채널별 운영 원칙, 직접 소통, 라이브 서비스 연동)
+  - entities/alan-wake-2.md (Remedy 2023, 두 주인공 구조, 꿈의 논리, 루핑 진행)
+- 업데이트:
+  - entities/mint-rocket.md (소스 슬러그 수정: 한글 → cgdc-dave-the-diver)
+  - concepts/all.md (community-management 추가 → 35개)
+  - entities/all.md (alan-wake-2 추가 → 게임 24개)
+  - index.md (게임 24개, 개념 34개)
+
+## [2026-04-22] rename | steam-marketing → marketing-strategy
+- 개념 페이지 이름 변경: concepts/steam-marketing.md → concepts/marketing-strategy.md
+- title: "스팀 마케팅 전략" → "마케팅 전략"
+- 설명 업데이트: 스팀 한정 → 통합 마케팅 채널 전반으로 확장
+- 소스 추가: gdc26-integrated-marketing, gdc26-game-trailers
+- 전체 wiki 참조 교체: [[steam-marketing|...]] → [[marketing-strategy|마케팅 전략]] (27개 파일)
+
+## [2026-04-22] ingest | GDC 2026/2024 PDF 7개 — AAA·트레일러·디자인감각·Alan Wake2·플레이테스팅·통합마케팅·Comics
+- Source: PDF 7개 (pdftotext 추출)
+  - Murphy_Kelly_Hogwarts+Legacy+Evolving.pdf
+  - MARIE_Adrien_AllGameTrailers.pdf
+  - Nikolich_Evan_Developing+and+Sharpening.pdf
+  - ThePlayervsDreamLogic_AlanWake2.pdf
+  - Souki_Francisco_Too-Much-Playtesting.pdf
+  - OrtizLapaz_David_The_Integrated+Marketing.pdf
+  - ComicsToGames_AllPresentations.pdf
+- 생성 (sources/ — 7개):
+  - gdc26-hogwarts-evolving-aaa.md
+  - gdc26-game-trailers.md
+  - gdc26-design-sense.md
+  - gdc24-alan-wake2-mission-design.md
+  - gdc26-too-much-playtesting.md
+  - gdc26-integrated-marketing.md
+  - gdc26-comics-to-games.md
+- 생성 (concepts/ — 2개):
+  - design-sense.md
+  - game-trailer-design.md
+- 업데이트:
+  - playtesting.md (Schell Games 228회 플레이테스트 소스 추가)
+  - ip-adaptation-design.md (Hogwarts AAA + Comics to Games 소스 추가)
+  - concepts/all.md (26개)
+  - sources/all.md (87개)
+  - index.md (87개 소스, 26개 개념)
+
+## [2026-04-22] ingest | GDC 2026 PDF 3개 — 프로덕션·리더십·동반자 설계
+- Source: PDF 3개 (pdftotext 추출)
+  - Carcich_Benjamin_ProductionTrapsHow.pdf
+  - Fisher_Kristie_ThreeMindsetShifts.pdf
+  - Moberly&Dollarhyde_Lis&Kate_DesigningRelationshipsHow.pdf
+- 생성 (sources/ — 3개):
+  - gdc26-production-traps.md
+  - gdc26-three-mindset-shifts.md
+  - gdc26-designing-companions.md
+- 생성 (concepts/ — 1개):
+  - companion-design.md
+- 업데이트:
+  - dev-org-structure.md (프로듀서 Force Multiplier / Alignment 섹션 추가)
+  - studio-culture.md (의도적 문화 설계 섹션 추가)
+  - concepts/all.md (24개, companion-design 추가)
+  - sources/all.md (80개)
+  - index.md (80개 소스, 24개 개념)
+
+## [2026-04-22] ingest | 대량 배치 — GDC 2026 마케팅·시장·디자인 (PDF 4개)
+- Source: PDF 4개 (pdftotext 추출)
+  - Lieu_Derek_BackToBasics... (마케팅 기반)
+  - 2026.03-IDG-GDC2026-Finding Signal... (시장 분석)
+  - Rouse_Richard_RulesOfTheGame (게임 디자인 규칙)
+  - Reisenegger_Thomas_Your Steam Page Needs a Soul (스팀 페이지)
+- 생성 (sources/ — 4개):
+  - gdc26-lieu-back-to-basics-marketing.md
+  - gdc26-idg-finding-signal-noise.md
+  - gdc26-rules-of-the-game.md
+  - gdc26-steam-page-needs-soul.md
+- 업데이트:
+  - concepts/steam-marketing.md (소스 2개 추가)
+  - concepts/game-market-trends.md (IDG 소스 추가)
+  - sources/all.md (73→77개)
+  - index.md (소스 수 갱신)
+- 모순: IDG 2029 낙관 전망 vs 매튜 볼 구조적 비관 — game-market-trends에 기존 모순 블록과 통합
+
+## [2026-04-22] ingest | Honing the Blade — Ghost of Yotei 전투 디자인 (서커펀치 PDF)
+- Source: PDF — Fishman_Theodore_honing_the_blade_evolving_combat_for_ghost_of_yotei.pdf
+- 추출 방법: pdftotext CLI
+- 생성:
+  - sources/gdc25-ghost-of-yotei-combat.md
+- 업데이트:
+  - entities/ghost-of-yotei.md (전투 설계 섹션 추가)
+  - sources/all.md (72→73개)
+  - index.md (소스 수 갱신)
+- 모순: 없음
+
 ## [2026-04-22] ingest | 시장 분석 2건 — Sensor Tower + 매튜 볼 2026
 - Source: raw/articles/2026-04-21T110136+0900-센서 타워 연례 보고서...md
 - Source: raw/articles/2026-04-21T110148+0900-매튜 볼의 2026년 보고서...md

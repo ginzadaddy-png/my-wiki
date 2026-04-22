@@ -2,7 +2,7 @@
 title: "No-Budget DIY Marketing for Indie Games (GDC 2023)"
 type: source-summary
 sources: ["raw/articles/2026-04-15T122746+0900-No-Budget DIY Marketing for Indie Games.md"]
-related: ["[[indie-business-strategy|인디 비즈니스 전략]]", "[[steam-marketing|스팀 마케팅]]"]
+related: ["[[indie-business-strategy|인디 비즈니스 전략]]", "[[marketing-strategy|마케팅 전략]]"]
 created: 2026-04-15
 updated: 2026-04-15
 confidence: high
