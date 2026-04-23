@@ -4,6 +4,25 @@ title: Log
 
 # 활동 로그
 
+## [2026-04-23] 비교분석 추가 | companion-philosophy + aaa-scaling-strategy
+- 생성:
+  - comparisons/companion-philosophy.md (BioWare·Larian·CDPR·Obsidian·Naughty Dog 동반자 철학 비교)
+  - comparisons/aaa-scaling-strategy.md (샌드폴·엠바크·애로우헤드·Avalanche·팀 아소비 AAA 전략 비교)
+  - sources/companion-design-research-2026.md
+  - raw/companion-design-research-2026.md
+- 업데이트:
+  - comparisons/all.md, index.md (비교분석 9→11)
+  - sources/all.md (86개로 갱신)
+
+## [2026-04-23] ingest | 비전 선언문 & 게임 디자인 기둥 — 웹 리서치
+- Source: raw/vision-statement-research-2026.md
+- 생성:
+  - sources/vision-statement-research-2026.md
+- 업데이트:
+  - concepts/vision-statement.md (비전 유형 표 확장, 크리에이티브 디렉션 4요소, Subnautica 기둥 사례, 오해 교정 섹션 추가)
+  - sources/all.md (85개로 갱신)
+  - index.md (소스 90→91)
+
 ## [2026-04-23] ingest | 2026 미싱 미들 패러다임 전환 (Google Docs)
 - Source: raw/missing-middle-paradigm-shift-2026.md (원본: Google Docs)
 - 생성:

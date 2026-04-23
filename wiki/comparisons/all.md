@@ -20,3 +20,5 @@ updated: 2026-04-22
 | [[marketing-channels]] | 인디 마케팅 채널 전략 — PR·크리에이터·유료·스팀·커뮤니티 채널별 비교 |
 | [[mission-level-structure]] | 미션·레벨 구조 설계 철학 — 히트맨·사이버펑크·알란웨이크2·TLOU2·Hi-Fi RUSH |
 | [[leadership-production]] | 게임 개발 리더십 스타일 — 캡콤·인섬니악·슈퍼자이언트·밸브·CDPR 비교 |
+| [[companion-philosophy]] | RPG 동반자 설계 철학 — BioWare·Larian·CD Projekt·Obsidian·Naughty Dog |
+| [[aaa-scaling-strategy]] | 중소 스튜디오의 AAA 도전 전략 — 샌드폴·엠바크·애로우헤드·Avalanche·팀 아소비 |

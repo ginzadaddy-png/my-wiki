@@ -1,9 +1,11 @@
 # 소스 전체 목록
 
-총 84개 | 최신순 정렬
+총 86개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [companion-design-research-2026](companion-design-research-2026.md) | RPG 동반자 설계 철학 비교 — 웹 리서치 종합 | 2026-04 |
+| [vision-statement-research-2026](vision-statement-research-2026.md) | 비전 선언문 & 게임 디자인 기둥 — 웹 리서치 종합 | 2026-04 |
 | [kumhotire-psychological-safety](kumhotire-psychological-safety.md) | 조직장 뉴스레터 2화 — 심리적 안전감 (금호타이어 HR) | 2024-11 |
 | [gamedev-leadership-dynamics](gamedev-leadership-dynamics.md) | 비디오 게임 개발 리더십의 역학: 전략적 관리, 조직 문화 패러다임 및 기술 적응에 대한 심층 분석 | 2026-04 |
 | [multiproject-innersource-report](multiproject-innersource-report.md) | 글로벌 탑티어 게임 개발사의 멀티 프로젝트 조직 구조 및 이너소스 도입 분석 보고서 | 2026-04 |

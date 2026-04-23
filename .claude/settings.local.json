@@ -98,7 +98,21 @@
       "WebFetch(domain:fungies.io)",
       "WebFetch(domain:presskit.gg)",
       "WebFetch(domain:reverbinc.com)",
-      "mcp__8ba23c40-dee8-44fc-a498-2eb3aa8b194b__read_file_content"
+      "mcp__8ba23c40-dee8-44fc-a498-2eb3aa8b194b__read_file_content",
+      "WebFetch(domain:www.gamedeveloper.com)",
+      "WebFetch(domain:gamedesignskills.com)",
+      "WebFetch(domain:futureproofgames.com)",
+      "WebFetch(domain:www.charliecleveland.com)",
+      "WebFetch(domain:www.directingvideogames.com)",
+      "WebFetch(domain:www.deconstructoroffun.com)",
+      "WebFetch(domain:www.gdcvault.com)",
+      "WebFetch(domain:www.polygon.com)",
+      "WebFetch(domain:lostgarden.home.blog)",
+      "WebFetch(domain:www.rockpapershotgun.com)",
+      "WebFetch(domain:lostgarden.com)",
+      "WebFetch(domain:techraptor.net)",
+      "WebFetch(domain:www.resetera.com)",
+      "WebFetch(domain:gameinformer.com)"
     ]
   }
 }
