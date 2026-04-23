@@ -1,10 +1,10 @@
 ---
 title: "마케팅 전략"
 type: concept
-sources: ["[[CGDC 황재호 대표 강연]]", "[[SGC 스팀 살아남기 패널]]", "[[gdc2023-no-budget-marketing]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc24-steam-secrets]]", "[[airbridge-steam-marketing-playbook]]", "[[gdc26-steam-page-needs-soul]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[gdc26-integrated-marketing]]", "[[gdc26-game-trailers]]"]
+sources: ["[[CGDC 황재호 대표 강연]]", "[[SGC 스팀 살아남기 패널]]", "[[gdc2023-no-budget-marketing]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc24-steam-secrets]]", "[[airbridge-steam-marketing-playbook]]", "[[gdc26-steam-page-needs-soul]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[gdc26-integrated-marketing]]", "[[gdc26-game-trailers]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[steam-page-optimization-guide-2026]]", "[[game-marketing-strategy-2026]]"]
 related: ["[[mint-rocket|민트로켓]]", "[[dave-the-diver|데이브 더 다이버]]", "[[balatro|발라트로]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[game-market-trends|게임 시장 트렌드]]"]
 created: 2026-04-13
-updated: 2026-04-22
+updated: 2026-04-23
 confidence: high
 ---
 
@@ -105,3 +105,43 @@ confidence: high
 **크리에이티브 원칙**
 - 장르·USP 모호하지 않게: "슈터 게임"이 아닌 "80년대 공포 테마의 로그라이크 협동 FPS"
 - AA→AAA 인식 점프는 **비주얼 '분위기'**로 전달
+
+## 스팀 넥스트 페스트 정량 데이터 (2025–2026)
+
+([[steam-next-fest-2026-analysis]], [[steam-next-fest-wishlist-benchmarks-2025]])
+
+**성과 티어 (2026년 2월 기준)**
+- 최하위: 1,000개 이하 / 중간: 2,000–3,000개 / 상위: ~15,000개 / 초대박: 30,000–45,000개 (행사당 3–5개)
+
+**사전 위시리스트 vs 행사 성과** (r=0.825, 가장 강력한 예측변수)
+
+| 사전 위시리스트 | 행사 중 중간값 |
+|---------------|-------------|
+| 0–999 | 322 |
+| 1,000–9,999 | 1,006 |
+| 10,000–99,999 | 5,215 |
+| 100,000+ | 12,882 |
+
+- **최소 2,000개** 사전 위시리스트 확보 후 입장해야 유의미한 경쟁 가능
+- 데모 shadow-drop 비추천 — 행사 1개월 이상 전 미리 출시한 게임이 일관되게 우수
+- 3일 차부터 노출이 상위 게임에 집중 → 초반 모멘텀이 전부
+
+**알고리즘 변화 (2024년 10월~)**
+- Valve ML 기반 가시성 알고리즘 도입 후 재보정 진행 중
+- 노출 효율 대폭 개선: Crashlands 2 (620만 노출→15,987 위시리스트) → How Many Dudes? (64.5만 노출→14,740 위시리스트)
+- 타겟이 명확한 게임일수록 적은 노출로 높은 위시리스트 전환 가능
+
+## 스팀 스토어 페이지 최적화 핵심 ([[steam-page-optimization-guide-2026]])
+
+- 트레일러 첫 5초 이내 게임플레이 시작 → **전환율 +31%** (게임플레이를 18초→1초로 이동한 사례)
+- 스크린샷 8–12장 권장, 첫 번째가 검색 결과에 노출됨
+- 태그 20개 전부 사용, 상위 5개가 알고리즘 가중치 최대, 범용 태그("Indie") 상위 금지
+- 캡슐 아트: 최소 크기(120×45px)에서 로고 가독성 필수, 아트워크+제목만 허용
+- 20% 이상 할인 시에만 위시리스트 알림 이메일 발송
+
+## 2026년 마케팅 캘린더 ([[game-marketing-strategy-2026]])
+
+- GTA 6 (2026년 11월 19일) 이 연도를 양분 → **Q2(4–6월)이 황금 런치 윈도우**
+- SNF는 출시 전 1회만 사용 권장
+- 크리에이터 중심 전략 필수: 전통 게임 미디어 인력 축소, TikTok·YouTube가 1차 채널
+- 큐레이션 쇼케이스(SGF, Triple-I 등) 슬롯 = 돈으로 살 수 없는 신뢰도

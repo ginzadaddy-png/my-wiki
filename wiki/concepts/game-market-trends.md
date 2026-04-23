@@ -1,7 +1,7 @@
 ---
 title: "게임 시장 트렌드"
 type: concept
-sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]"]
+sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]"]
 created: 2026-04-20
 updated: 2026-04-22
@@ -57,5 +57,22 @@ confidence: high
 - **미래 성장 시장**: 브라질·멕시코·동남아·중동 (기존 핵심 시장은 2020년 이후 하락)
 
 > ⚠️ 모순: 뉴주는 저가 프리미엄·인디 부상을 강조, 매튜 볼은 서구 독립 개발사의 구조적 불이익을 강조. **시장 전체(+) vs. 개별 기업 수익(-)** 프레임 차이로 해소 — 파이는 커졌으나 서구 개발사 몫은 줄었다.
+
+## 미싱 미들(Missing Middle)의 부상 ([[missing-middle-paradigm-shift-2026]])
+
+AAA 개발비 폭증(일부 $10억 추산)과 라이브 서비스 피로도 속에서 AA급 예산의 '중간층' 게임이 시장 주도 세력으로 부상.
+
+- Bain & Company (2025): 게이머 22%가 핵심 게임플레이를 최우선 선택 기준, 고품질 그래픽은 7%
+- **미드 프라이스($30~50) = 새로운 스위트 스팟**: 아크 레이더스($40)·클레어 옵스큐어($50) 사례로 분석가들 공식 선언
+- UE5 블루프린트 + 글로벌 아웃소싱 파이프라인 성숙 → 30~40명 팀이 AAA급 비주얼 구현 가능
+- $70 이상 AAA 가격 전략 종언 선언
+
+**대표 사례 성과**
+
+| 게임 | 예산 | 가격 | 판매량 |
+|------|------|------|--------|
+| [[clair-obscur-expedition-33]] | $1,000만 미만 | $50 | 600만장+ (TGA 9관왕) |
+| [[arc-raiders]] | ~$7,500만 | $40 | 1,400만장 |
+| [[helldivers-2]] | 미공개 | $40 | 2,000만장+ |
 
 > **핵심 인사이트:** 거시 지표를 맹신하지 말 것. "업계 최고치"가 내 게임의 기회를 보장하지 않는다. 성장이 어디서 일어나는지(로블록스·중국·구독)를 보고 **자사가 실제 접근 가능한 시장**에서의 포지션을 판단해야 한다.

@@ -5,10 +5,10 @@ Last updated 2026-04-23
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md"><span class="stat-label">소스</span><span class="stat-num">84</span></a></div>
-  <div class="stat-card"><a href="entities/all.md#스튜디오"><span class="stat-label">스튜디오</span><span class="stat-num">22</span></a></div>
-  <div class="stat-card"><a href="entities/all.md#게임"><span class="stat-label">게임</span><span class="stat-num">24</span></a></div>
-  <div class="stat-card"><a href="concepts/all.md"><span class="stat-label">개념</span><span class="stat-num">36</span></a></div>
+  <div class="stat-card"><a href="sources/all.md"><span class="stat-label">소스</span><span class="stat-num">90</span></a></div>
+  <div class="stat-card"><a href="entities/all.md#스튜디오"><span class="stat-label">스튜디오</span><span class="stat-num">23</span></a></div>
+  <div class="stat-card"><a href="entities/all.md#게임"><span class="stat-label">게임</span><span class="stat-num">25</span></a></div>
+  <div class="stat-card"><a href="concepts/all.md"><span class="stat-label">개념</span><span class="stat-num">37</span></a></div>
   <div class="stat-card"><a href="comparisons/all.md"><span class="stat-label">비교 분석</span><span class="stat-num">9</span></a></div>
 </div>
 
@@ -63,6 +63,7 @@ Last updated 2026-04-23
 | [[companion-design]] | 동반자(Companion) 설계 — RPG 동반자의 세 패턴과 신뢰 구축 |
 | [[design-sense]] | 디자인 감각 개발 — 더 갭, 4가지 요소, 취향과 기술의 차이 |
 | [[game-trailer-design]] | 게임 트레일러 설계 — 유형별 전략, 캔버스별 접근, 킬러 샷 |
+| [[live-service-design]] | 라이브 서비스 설계 — 비약탈적 모델·게임 마스터·F2P 탈출 교훈 |
 
 ---
 

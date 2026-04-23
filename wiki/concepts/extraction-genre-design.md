@@ -1,7 +1,7 @@
 ---
 title: "익스트랙션 장르 설계"
 type: concept
-sources: ["[[arc-raiders-extraction-genre]]", "[[gdc26-arc-raiders-reset]]"]
+sources: ["[[arc-raiders-extraction-genre]]", "[[gdc26-arc-raiders-reset]]", "[[missing-middle-paradigm-shift-2026]]"]
 related: ["[[arc-raiders|아크 레이더스]]", "[[embark-studios|엠바크 스튜디오]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-20
 updated: 2026-04-20
@@ -31,3 +31,11 @@ confidence: high
 ## 대중화 공식
 
 > **핵심 인사이트:** "하드코어 본질은 유지하되 진입장벽을 단계적으로 낮추는 것." 핵심 루프(파밍+탈출+상실)는 건드리지 않고, **그 주변의 접근 구조**를 설계하는 것이 익스트랙션 대중화의 열쇠.
+
+## F2P 탈출 — 비즈니스 모델도 장르 설계의 일부 ([[missing-middle-paradigm-shift-2026]])
+
+아크 레이더스의 F2P→$40 프리미엄 전환은 단순한 가격 변경이 아닌 **장르 설계 철학의 연장**이었다.
+
+- F2P 구조에서는 크래프팅 타이머·노가다가 수익 모델상 불가피 → 익스트랙션의 "노력-보상" 루프를 왜곡
+- 프리미엄 전환 후 인위적 제약 전면 삭제 → 장르 본연의 긴장감 복원
+- 출시 초 유지율 91% → 이후 -80% 하락 교훈: 비즈니스 모델 해결만으로는 부족, **엔드게임 콘텐츠와 장기 로드맵**이 병행되어야 함

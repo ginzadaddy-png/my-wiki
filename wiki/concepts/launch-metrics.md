@@ -1,7 +1,7 @@
 ---
 title: "흥행 예측 지표"
 type: concept
-sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]"]
+sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]"]
 created: 2026-04-20
 updated: 2026-04-20
@@ -33,3 +33,19 @@ confidence: high
 디스코드는 "가입·참여 비용"이 있는 플랫폼 — 진성 유저만 남는다.
 
 > **핵심 인사이트:** AAA·AA 개발사 93%가 흥행 예측에 실패했다. 문제는 겉으로 드러나는 수치가 아닌 **유저의 실제 행동**을 측정하지 못한 데 있다.
+
+## 스팀 넥스트 페스트 위시리스트 벤치마크 ([[steam-next-fest-wishlist-benchmarks-2025]])
+
+182개 게임 설문 기반 정량 데이터.
+
+**사전 위시리스트 수 = 가장 강력한 예측변수 (r=0.825)**
+
+| 사전 위시리스트 | SNF 중 획득 위시리스트 (중간값) |
+|---------------|-------------------------------|
+| 0–999 | 322 |
+| 1,000–9,999 | 1,006 |
+| 10,000–99,999 | 5,215 |
+| 100,000+ | 12,882 |
+
+- 데모 전환율(~20% 적정): 성과 상관관계 r=0.457. 낮으면 품질보다 프레젠테이션 미스매치 가능성이 높음
+- SNF 성과 티어: Diamond(10,000+) / Gold(7,000–9,999) / Silver(1,000–6,999) / Bronze(0–999)

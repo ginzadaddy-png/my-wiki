@@ -4,6 +4,33 @@ title: Log
 
 # 활동 로그
 
+## [2026-04-23] ingest | 2026 미싱 미들 패러다임 전환 (Google Docs)
+- Source: raw/missing-middle-paradigm-shift-2026.md (원본: Google Docs)
+- 생성:
+  - sources/missing-middle-paradigm-shift-2026.md
+  - entities/arrowhead-game-studios.md
+  - entities/helldivers-2.md
+  - concepts/live-service-design.md
+- 업데이트:
+  - entities/arc-raiders.md (F2P→프리미엄 전환·출시 데이터·Escalation 로드맵 추가)
+  - concepts/game-market-trends.md (미싱 미들·미드 프라이스 섹션 추가)
+  - concepts/extraction-genre-design.md (F2P 탈출 비즈니스 모델 섹션 추가)
+  - entities/all.md, concepts/all.md (신규 항목 추가)
+  - index.md (소스 88→90, 스튜디오 22→23, 게임 24→25, 개념 36→37)
+
+## [2026-04-23] ingest | 스팀 게임 마케팅 전략 (4개 소스)
+- Source: raw/steam-next-fest-2026-analysis.md, raw/steam-next-fest-wishlist-benchmarks-2025.md, raw/steam-page-optimization-guide-2026.md, raw/game-marketing-strategy-2026.md
+- NotebookLM 노트북: "Steam Game Marketing Strategy" (소스 5개)
+- 생성:
+  - sources/steam-next-fest-2026-analysis.md
+  - sources/steam-next-fest-wishlist-benchmarks-2025.md
+  - sources/steam-page-optimization-guide-2026.md
+  - sources/game-marketing-strategy-2026.md
+- 업데이트:
+  - concepts/marketing-strategy.md (SNF 정량 데이터·스토어 최적화·2026 캘린더 섹션 추가)
+  - concepts/launch-metrics.md (SNF 위시리스트 벤치마크 데이터 추가)
+  - index.md (소스 84 → 88개)
+
 ## [2026-04-23] create | 비교 분석 3개 신규 생성
 - 생성:
   - comparisons/marketing-channels.md (PR·크리에이터·유료·트레일러·소셜·커뮤니티·스팀 채널별 비교 + 규모별 우선순위 + BG3 타임라인)

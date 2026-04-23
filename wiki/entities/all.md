@@ -33,6 +33,7 @@ updated: 2026-04-22
 | [[iron-gate-studio]] | 스웨덴 인디, 발하임 |
 | [[rockstar-games]] | GTA·레드 데드 리뎀션 시리즈 |
 | [[avalanche-software]] | WB Games 산하, 호그와트 레거시 |
+| [[arrowhead-game-studios]] | 스웨덴, 헬다이버스 2, "모두를 위한 게임은 누구를 위한 게임도 아니다" |
 
 ## 게임
 
@@ -60,6 +61,7 @@ updated: 2026-04-22
 | [[balatro]] | 1인 개발 로그라이크, 2024 GDC 4관왕, 데모 전략 사례 |
 | [[hogwarts-legacy]] | 아발란체, 해리포터 IP RPG, 팬/게이머 이중 설계 |
 | [[red-dead-redemption-2]] | 록스타, 2018, 23명 앙상블·살아있는 캠프·아너 시스템 |
+| [[helldivers-2]] | 애로우헤드, 2024, 게임 마스터 시스템·비약탈적 라이브 서비스, 2,000만장 |
 | [[sekiro]] | 프롬소프트웨어, 2019, 자세 시스템·계층적 치명감·패리 중심 전투 |
 | [[death-stranding]] | 코지마 프로덕션즈, AI 내비게이션 |
 | [[marvel-spiderman-2]] | 인섬니악, 오픈월드 탐험 설계 |

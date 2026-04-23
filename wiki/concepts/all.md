@@ -59,3 +59,4 @@ updated: 2026-04-22
 | [[companion-design]] | 동반자(Companion) 설계 — RPG 동반자의 세 패턴과 신뢰 구축 |
 | [[design-sense]] | 디자인 감각 개발 — 더 갭, 4가지 요소, 취향과 기술의 차이 |
 | [[game-trailer-design]] | 게임 트레일러 설계 — 유형별 전략, 캔버스별 접근, 킬러 샷 |
+| [[live-service-design]] | 라이브 서비스 설계 — 비약탈적 모델·게임 마스터·F2P 탈출 교훈 |
