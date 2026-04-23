@@ -79,7 +79,3 @@ Last updated 2026-04-23
 | [[marketing-channels]] | 인디 마케팅 채널 전략 — PR·크리에이터·유료·스팀·커뮤니티 채널별 비교 |
 | [[mission-level-structure]] | 미션·레벨 구조 설계 철학 — 히트맨·사이버펑크·알란웨이크2·TLOU2·Hi-Fi RUSH |
 | [[leadership-production]] | 게임 개발 리더십 스타일 — 캡콤·인섬니악·슈퍼자이언트·밸브·CDPR 비교 |
-
----
-
-→ [전체 소스 목록](sources/all.md) · [전체 엔티티 목록](entities/all.md) · [전체 개념 목록](concepts/all.md) · [전체 비교 분석 목록](comparisons/all.md)
