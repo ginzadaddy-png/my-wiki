@@ -2,14 +2,14 @@
 
 Last updated 2026-04-23
 
-소스 84개에서 추출한 게임 개발 지식 베이스.
+![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md"><span class="stat-num">84</span><span class="stat-label">소스</span></a></div>
-  <div class="stat-card"><a href="entities/all.md#스튜디오"><span class="stat-num">22</span><span class="stat-label">스튜디오</span></a></div>
-  <div class="stat-card"><a href="entities/all.md#게임"><span class="stat-num">24</span><span class="stat-label">게임</span></a></div>
-  <div class="stat-card"><a href="concepts/all.md"><span class="stat-num">36</span><span class="stat-label">개념</span></a></div>
-  <div class="stat-card"><a href="comparisons/all.md"><span class="stat-num">9</span><span class="stat-label">비교 분석</span></a></div>
+  <div class="stat-card"><a href="sources/all.md"><span class="stat-label">소스</span><span class="stat-num">84</span></a></div>
+  <div class="stat-card"><a href="entities/all.md#스튜디오"><span class="stat-label">스튜디오</span><span class="stat-num">22</span></a></div>
+  <div class="stat-card"><a href="entities/all.md#게임"><span class="stat-label">게임</span><span class="stat-num">24</span></a></div>
+  <div class="stat-card"><a href="concepts/all.md"><span class="stat-label">개념</span><span class="stat-num">36</span></a></div>
+  <div class="stat-card"><a href="comparisons/all.md"><span class="stat-label">비교 분석</span><span class="stat-num">9</span></a></div>
 </div>
 
 ---
