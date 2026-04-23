@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/overview.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "overview"
+              "title": "CLAUDE"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/overview.md",
+                "file": "CLAUDE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "overview 의 백링크"
+              "title": "CLAUDE 의 백링크"
             }
           },
           {
@@ -184,6 +184,8 @@
   },
   "active": "3fe76bcb6a95c484",
   "lastOpenFiles": [
+    "wiki/index.md",
+    "wiki/overview.md",
     "wiki/log.md",
     "raw/articles/2026-04-21T110148+0900-매튜 볼의 2026년 보고서가 나왔습니다. 사상 최고치를 기록했음에도 불구하고 게임 회사들이 더 큰 어려움에 직면하는 이유는 무엇일까요.md",
     "wiki/entities/alan-wake-2.md",
@@ -216,9 +218,7 @@
     "wiki/sources/gdc26-idg-finding-signal-noise.md",
     "wiki/sources/gdc26-idg-finding-signal-noise.md.tmp.36540.1776849202320",
     "wiki/sources/gdc26-lieu-back-to-basics-marketing.md",
-    "raw/articles/2026-04-21T110136+0900-센서 타워 연례 보고서 전 세계 모바일 게임 매출, 2025년 820억 달러 기록 예상 (1% 증가), PC 및 콘솔 게임 매출 전년 대비 13% 성장 전망.md",
     "wiki/index.md.tmp.36540.1776848391858",
-    "wiki/sources/gdc25-ghost-of-yotei-combat.md",
     "wiki/entities/sekiro.md.tmp.38504.1776665437857",
     "무제.canvas"
   ]
