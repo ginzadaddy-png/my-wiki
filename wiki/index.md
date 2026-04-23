@@ -1,10 +1,10 @@
 # Game Dev Wiki
 
-소스 [81개](sources/all.md)에서 추출한 게임 개발 지식 베이스.
+소스 [84개](sources/all.md)에서 추출한 게임 개발 지식 베이스.
 
 | 소스 | 스튜디오 | 게임 | 개념 | 비교 분석 |
 |------|--------|------|------|------|
-| [81개](sources/all.md) | [22개](entities/all.md#스튜디오) | [24개](entities/all.md#게임) | [34개](concepts/all.md) | [6개](comparisons/all.md) |
+| [84개](sources/all.md) | [22개](entities/all.md#스튜디오) | [24개](entities/all.md#게임) | [36개](concepts/all.md) | [9개](comparisons/all.md) |
 
 ---
 
@@ -31,6 +31,8 @@
 | [[game-market-trends]] | 게임 시장 트렌드 — 저가 프리미엄 부상, 세분화 |
 | [[multi-project-development]] | 멀티 프로젝트 동시 개발 전략과 위험 |
 | [[proprietary-engine-strategy]] | 독자 엔진 전략 (RE ENGINE vs 서드파티 무수정) |
+| [[innersource]] | 이너소스 — 오픈소스 방식의 사내 기술 공유 모델 |
+| [[ai-gamedev]] | 게임 개발에서의 생성형 AI — 정서 데이터·도입 원칙·역할 변화 |
 
 ### 게임 디자인
 | 개념 | 설명 |

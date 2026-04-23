@@ -1,7 +1,7 @@
 ---
 title: "캡콤 (Capcom)"
 type: entity
-sources: ["[[Capcom IR2021 개발 전략]]", "[[RE2023 RE ENGINE Philosophy]]"]
+sources: ["[[capcom-ir2021-dev-strategy]]", "[[re-engine-philosophy]]", "[[multiproject-innersource-report]]"]
 related: ["[[RE ENGINE]]", "[[proprietary-engine-strategy|독자 엔진 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]"]
 created: 2026-04-14
 updated: 2026-04-14
@@ -27,3 +27,5 @@ confidence: high
 **인재 파이프라인**: 2013년부터 연간 100명 전략 채용 → 실무 즉시 투입 → 다음 타이틀 핵심 멤버 성장. "게임 개발은 인재 개발"
 
 **규모**: 대형 타이틀 개발 시 팀 300명 이상. [[multi-project-development|멀티 프로젝트 개발]] 환경에서 RE ENGINE을 통한 기술 공유로 효율 확보.
+
+**이너소스 실천**: RE ENGINE 팀을 AI·렌더링·물리·네트워크 등 3~4명 단위 세분화. 1,300명+ 참여 팀즈 채널 개방 운영, 엔진 소스코드 전 개발자 열람 허용. 하루 평균 20건+ 직접 문의를 지연 없이 처리 → 병목 원천 차단. 전담 매니지먼트 유닛(행정 조율·설문·프로젝트 조직화)까지 배정. → [[innersource|이너소스]] 참고

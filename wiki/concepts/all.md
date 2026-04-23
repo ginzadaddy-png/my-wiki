@@ -33,6 +33,8 @@ updated: 2026-04-22
 | [[game-market-trends]] | 게임 시장 트렌드 — 저가 프리미엄 부상, 세분화 |
 | [[multi-project-development]] | 멀티 프로젝트 동시 개발 전략과 위험 |
 | [[proprietary-engine-strategy]] | 독자 엔진 전략 (RE ENGINE vs 서드파티 무수정) |
+| [[innersource]] | 이너소스 — 오픈소스 방식의 사내 기술 공유 모델 |
+| [[ai-gamedev]] | 게임 개발에서의 생성형 AI — 정서 데이터·도입 원칙·역할 변화 |
 
 ## 게임 디자인
 

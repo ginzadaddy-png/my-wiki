@@ -1,24 +1,27 @@
 # 소스 전체 목록
 
-총 81개 | 최신순 정렬
+총 84개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
-| [gdc26-hogwarts-evolving-aaa](gdc26-hogwarts-evolving-aaa.md) | Evolving Your Design into AAA — Hogwarts Legacy (Kelly Murphy) | 2026-03 |
-| [gdc26-game-trailers](gdc26-game-trailers.md) | All Game Trailers Are Not Created Equal (Adrien Marie / Dotemu) | 2026-03 |
-| [gdc26-design-sense](gdc26-design-sense.md) | Developing and Sharpening Your Design Sense (Evan Nikolich / Respawn) | 2026-03 |
-| [gdc24-alan-wake2-mission-design](gdc24-alan-wake2-mission-design.md) | The Player vs Dream Logic — Alan Wake 2 미션 구조 (Anne-Marie Grønroos) | 2024-03 |
-| [gdc26-too-much-playtesting](gdc26-too-much-playtesting.md) | Too Much Playtesting? — Schell Games의 228회 플레이테스트 (Souki & Cahill) | 2026-03 |
-| [gdc26-integrated-marketing](gdc26-integrated-marketing.md) | The Integrated Marketing Approach: Designing Impactful Game Launches (David Ortiz Lapaz) | 2026-03 |
-| [gdc26-comics-to-games](gdc26-comics-to-games.md) | Comics to Games: Great Adaptations (Murray, Narcisse, Belair, Rogers, Son M.) | 2026-03 |
-| [gdc26-production-traps](gdc26-production-traps.md) | Production Traps: The Archetypes We Fall (and Fail) Into (Benjamin Carcich) | 2026-03 |
-| [gdc26-three-mindset-shifts](gdc26-three-mindset-shifts.md) | Three Mindset Shifts to Lead World-Class Teams (Kristie J. Fisher) | 2026-03 |
-| [gdc26-designing-companions](gdc26-designing-companions.md) | Designing Relationships: How to Make Compelling RPG Companions (Moberly & Dollarhyde) | 2026-03 |
-| [gdc26-lieu-back-to-basics-marketing](gdc26-lieu-back-to-basics-marketing.md) | Back to Basics: 보이지 않는 마케팅 기반을 가시성으로 (Derek Lieu) | 2026-03 |
-| [gdc26-idg-finding-signal-noise](gdc26-idg-finding-signal-noise.md) | Finding Signal in the Noise: 혼돈의 게임 시장에서 성장 찾기 (IDG) | 2026-03 |
-| [gdc26-rules-of-the-game](gdc26-rules-of-the-game.md) | Rules of the Game 2026: 반직관적 게임 디자인 규칙 5가지 | 2026-03 |
-| [gdc26-steam-page-needs-soul](gdc26-steam-page-needs-soul.md) | Your Steam Page Needs a Soul (Thomas Reisenegger / Future Friends) | 2026-03 |
-| [gdc25-ghost-of-yotei-combat](gdc25-ghost-of-yotei-combat.md) | Honing the Blade: Evolving Combat for Ghost of Yotei (Fishman/서커펀치) | 2025 |
+| [kumhotire-psychological-safety](kumhotire-psychological-safety.md) | 조직장 뉴스레터 2화 — 심리적 안전감 (금호타이어 HR) | 2024-11 |
+| [gamedev-leadership-dynamics](gamedev-leadership-dynamics.md) | 비디오 게임 개발 리더십의 역학: 전략적 관리, 조직 문화 패러다임 및 기술 적응에 대한 심층 분석 | 2026-04 |
+| [multiproject-innersource-report](multiproject-innersource-report.md) | 글로벌 탑티어 게임 개발사의 멀티 프로젝트 조직 구조 및 이너소스 도입 분석 보고서 | 2026-04 |
+| [gdc26-hogwarts-evolving-aaa](gdc26-hogwarts-evolving-aaa.md) | [GDC26] AAA로 진화시키기 — 호그와트 레거시의 도전 (Kelly Murphy) | 2026-03 |
+| [gdc26-game-trailers](gdc26-game-trailers.md) | [GDC26] 게임 트레일러는 모두 같지 않다 (Adrien Marie / Dotemu) | 2026-03 |
+| [gdc26-design-sense](gdc26-design-sense.md) | [GDC26] 디자인 감각을 개발하고 연마하는 법 (Evan Nikolich / Respawn) | 2026-03 |
+| [gdc24-alan-wake2-mission-design](gdc24-alan-wake2-mission-design.md) | [GDC24] 플레이어 vs 꿈의 논리 — Alan Wake 2 미션 구조 (Anne-Marie Grønroos) | 2024-03 |
+| [gdc26-too-much-playtesting](gdc26-too-much-playtesting.md) | [GDC26] 플레이테스트가 너무 많다고? — Schell Games의 228회 플레이테스트 (Souki & Cahill) | 2026-03 |
+| [gdc26-integrated-marketing](gdc26-integrated-marketing.md) | [GDC26] 통합 마케팅 접근법: 임팩트 있는 게임 출시 설계 (David Ortiz Lapaz) | 2026-03 |
+| [gdc26-comics-to-games](gdc26-comics-to-games.md) | [GDC26] 만화에서 게임으로: 훌륭한 어댑테이션 만들기 (Murray, Narcisse, Belair, Rogers, Son M.) | 2026-03 |
+| [gdc26-production-traps](gdc26-production-traps.md) | [GDC26] 프로덕션 함정: 우리가 빠지는 아키타입들 (Benjamin Carcich) | 2026-03 |
+| [gdc26-three-mindset-shifts](gdc26-three-mindset-shifts.md) | [GDC26] 세계 수준의 팀을 이끄는 3가지 마인드셋 전환 (Kristie J. Fisher) | 2026-03 |
+| [gdc26-designing-companions](gdc26-designing-companions.md) | [GDC26] 관계 설계: RPG 동반자를 매력적으로 만드는 법 (Moberly & Dollarhyde) | 2026-03 |
+| [gdc26-lieu-back-to-basics-marketing](gdc26-lieu-back-to-basics-marketing.md) | [GDC26] 기본으로 돌아가기: 보이지 않는 마케팅 기반을 가시성으로 (Derek Lieu) | 2026-03 |
+| [gdc26-idg-finding-signal-noise.md](gdc26-idg-finding-signal-noise.md) | [GDC26] 노이즈에서 신호 찾기: 혼돈의 게임 시장에서 성장 찾기 (IDG) | 2026-03 |
+| [gdc26-rules-of-the-game](gdc26-rules-of-the-game.md) | [GDC26] Rules of the Game: 반직관적 게임 디자인 규칙 5가지 | 2026-03 |
+| [gdc26-steam-page-needs-soul](gdc26-steam-page-needs-soul.md) | [GDC26] 당신의 스팀 페이지에는 영혼이 필요하다 (Thomas Reisenegger / Future Friends) | 2026-03 |
+| [gdc25-ghost-of-yotei-combat](gdc25-ghost-of-yotei-combat.md) | [GDC25] 칼날을 벼리다: 고스트 오브 요테이 전투 진화 (Fishman/서커펀치) | 2025 |
 | [sensortower-2026-report](sensortower-2026-report.md) | Sensor Tower 2026 게임 산업 현황 보고서 | 2026-03 |
 | [matthew-ball-2026-report](matthew-ball-2026-report.md) | 매튜 볼 2026년 보고서 — 최고치인데 왜 힘든가 | 2026-03 |
 | [gdc2023-no-budget-marketing](gdc2023-no-budget-marketing.md) | [GDC23] 예산 없는 DIY 인디 마케팅 | 2023 |
@@ -52,11 +55,11 @@
 | [gdc2024-valheim-early-access](gdc2024-valheim-early-access.md) | [GDC24] 발하임 얼리 액세스 — 바이킹·로드맵·말 | 2024 |
 | [gdc24-zelda-tears-of-kingdom](gdc24-zelda-tears-of-kingdom.md) | [GDC24] 젤다 TotK — 만들었지만 만들지 않은 '미친' 자유도 | 2024-03-21 |
 | [embark-soderlund-quarter-budget](embark-soderlund-quarter-budget.md) | Embark 수더룬드 — 'AAA 예산의 1/4로 AAA 퀄리티' | 2026-03-14 |
-| [re2023-re-engine-philosophy](re2023-re-engine-philosophy.md) | RE:2023 RE ENGINE Philosophy | 2023-10-27 |
+| [re2023-re-engine-philosophy](re2023-re-engine-philosophy.md) | RE ENGINE 철학 — 독자 엔진 전략 (RE:2023) | 2023-10-27 |
 | [fromsoftware-300-devs](fromsoftware-300-devs.md) | FromSoftware, 직원 300명으로 엘든링+AC6 동시 제작 | 2023-07-26 |
 | [naughty-dog-multi-project](naughty-dog-multi-project.md) | 너티독, 멀티 프로젝트 개발에 여전히 '아슬아슬하게' 실패 중 | 2021-04-18 |
-| [agile-scrum-teams](agile-scrum-teams.md) | Agile Game Development With Scrum: Teams | 2010-08-26 |
-| [risks-multi-game-development](risks-multi-game-development.md) | The Risks of Multi Game Development | 2014-10-15 |
+| [agile-scrum-teams](agile-scrum-teams.md) | 스크럼을 활용한 애자일 게임 개발: 팀 구성 | 2010-08-26 |
+| [risks-multi-game-development](risks-multi-game-development.md) | 멀티 게임 동시 개발의 위험성 | 2014-10-15 |
 | [capcom-ir2021-dev-strategy](capcom-ir2021-dev-strategy.md) | Capcom 개발 전략 — Integrated Report 2021 | 2022-04-13 |
 | [gdc26-arc-raiders-reset](gdc26-arc-raiders-reset.md) | [GDC26] 120명에서 25명으로 — 아크 레이더스의 '리셋' 성공 신화 | 2026-03-12 |
 | [sgc-steam-survival](sgc-steam-survival.md) | [SGC] 실전 사례로 배우는 '스팀에서 살아남기' | 2025-10-25 |

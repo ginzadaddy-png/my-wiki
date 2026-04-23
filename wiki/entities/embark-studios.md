@@ -1,7 +1,7 @@
 ---
 title: "엠바크 스튜디오 (Embark Studios)"
 type: entity
-sources: ["[[GDC26 아크 레이더스 리셋 강연]]", "[[Embark 수더룬드 인터뷰]]"]
+sources: ["[[embark-arc-raiders-reset]]", "[[embark-soderlund-quarter-budget]]", "[[multiproject-innersource-report]]"]
 related: ["[[arc-raiders|아크 레이더스]]", "[[data-driven-development|데이터 기반 개발]]", "[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]"]
 created: 2026-04-13
 updated: 2026-04-14
@@ -31,3 +31,5 @@ confidence: high
 **AAA 효율화 전략**: "AAA는 규모가 아니라 퀄리티". AAA 예산의 1/4 수준으로 경쟁. 핵심은 AI 도입이 아닌 **파이프라인 재설계** (포토그래메트리, 절차적 지형 생성, 구식 워크플로우 교체). CEO 수더룬드: "600~800명이 될 이유가 없다. 우리가 스튜디오를 시작한 이유를 잊지 않겠다." → [[multi-project-development|멀티 프로젝트 개발]] 참고
 
 **향후 목표**: 4개 게임 포트폴리오(현재 2개). 인원 대폭 증가 없이 달성 목표.
+
+**오픈소스 우선 철학**: 핵심 언어로 C++ 대신 Rust 채택 (메모리 안전성, 레이스 컨디션 원천 차단). 자체 코어 기술 GitHub 공개 → 외부 커뮤니티 기여 유도. "AAA를 만들기 위해 반드시 수천 명의 인력이 필요하지 않다." → [[innersource|이너소스]] 참고

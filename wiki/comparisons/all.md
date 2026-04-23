@@ -17,3 +17,6 @@ updated: 2026-04-22
 | [[combat-philosophy]] | 전투 철학 — GoT·GoW·TLOU·히트맨 |
 | [[open-world-guidance]] | 오픈월드 유도 철학 — BotW·엘든링·GTA5·유비식 |
 | [[studio-org-structure]] | 스튜디오 조직 구조 — 프롬소프트웨어·캡콤·베데스다·Scrum |
+| [[marketing-channels]] | 인디 마케팅 채널 전략 — PR·크리에이터·유료·스팀·커뮤니티 채널별 비교 |
+| [[mission-level-structure]] | 미션·레벨 구조 설계 철학 — 히트맨·사이버펑크·알란웨이크2·TLOU2·Hi-Fi RUSH |
+| [[leadership-production]] | 게임 개발 리더십 스타일 — 캡콤·인섬니악·슈퍼자이언트·밸브·CDPR 비교 |

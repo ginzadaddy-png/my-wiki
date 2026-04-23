@@ -1,8 +1,8 @@
 ---
 title: "멀티 프로젝트 개발"
 type: concept
-sources: ["[[risks-multi-game-development]]", "[[naughty-dog-multi-project]]", "[[fromsoftware-300-devs]]", "[[embark-soderlund-quarter-budget]]"]
-related: ["[[naughty-dog|너티독]]", "[[fromsoftware|프롬소프트웨어]]", "[[embark-studios|엠바크 스튜디오]]", "[[small-team-development|소규모 팀 개발]]", "[[data-driven-development|데이터 기반 개발]]"]
+sources: ["[[risks-multi-game-development]]", "[[naughty-dog-multi-project]]", "[[fromsoftware-300-devs]]", "[[embark-soderlund-quarter-budget]]", "[[multiproject-innersource-report]]"]
+related: ["[[naughty-dog|너티독]]", "[[fromsoftware|프롬소프트웨어]]", "[[embark-studios|엠바크 스튜디오]]", "[[insomniac-games|인섬니악]]", "[[capcom|캡콤]]", "[[innersource|이너소스]]", "[[small-team-development|소규모 팀 개발]]", "[[data-driven-development|데이터 기반 개발]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: high
@@ -43,4 +43,25 @@ confidence: high
 - "스파이럴 아웃" 하지 않겠다는 경영 원칙
 - 360명으로 4개 게임 포트폴리오 유지가 목표
 
-> **핵심 인사이트:** 진정한 동시 풀 프로덕션은 너티독조차 달성하지 못한 어려운 목표다. 현실적인 멀티 개발은 **한 번에 하나의 메인 + 나머지는 단계적 준비** 구조이거나, **프롬소프트웨어처럼 피크 타임을 의도적으로 엇갈리게** 설계하는 것이다.
+## 스튜디오 모델 확장 비교
+
+[[multiproject-innersource-report|멀티 프로젝트 이너소스 보고서]] (2026)는 추가 스튜디오 사례를 제공한다:
+
+**인섬니악 모델 (창의성 분산 + 기술 중앙화)**
+- ~450명, 병렬 다중 프로젝트 성공
+- Core Technology Department가 엔진·툴킷·테크니컬 아트 파이프라인 전담
+- 각 프로젝트 디렉터는 창의적 영역에서 완전한 독립성 보장
+- CEO 원칙: "리더의 역할은 창의적 결정에 참견하는 것이 아니라 개발자들의 방해물을 치워주는 것"
+
+**캡콤 RE ENGINE 모델 (급진적 투명성)**
+- 엔진 소스코드 전 개발자 열람 + 1,300명+ 팀즈 채널 완전 개방
+- 하루 평균 20건+ 직접 문의를 지연 없이 처리 → 병목 원천 차단
+- 엔진 팀을 지원 조직이 아닌 "협업적 서비스"로 포지셔닝 → [[innersource|이너소스]] 모델
+
+**EA 프로스트바이트 실패 사례**
+- FPS 특화 엔진을 RPG 팀(바이오웨어 등)에 강제 이식 → 3인칭 카메라·인벤토리·파티 로직 없음
+- 엔진 팀을 비용 부서(Cost Center)로 취급 → 즉각 지원 불가
+- 인력 차출: 엔진 숙달 개발자를 스튜디오 동의 없이 빼감 → 기술 부채·번아웃·이탈
+- 교훈: **강압적 중앙집중화는 기술·조직 양면에서 참사를 초래**
+
+> **핵심 인사이트:** 진정한 동시 풀 프로덕션은 너티독조차 달성하지 못한 어려운 목표다. 현실적인 멀티 개발은 **한 번에 하나의 메인 + 나머지는 단계적 준비** 구조이거나, **프롬소프트웨어처럼 피크 타임을 의도적으로 엇갈리게** 설계하는 것이다. 기술 공유는 강제(EA)가 아닌 자발적 기여([[innersource|이너소스]])로 설계될 때 효과적이다.

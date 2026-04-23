@@ -1,5 +1,51 @@
 # 활동 로그
 
+## [2026-04-23] create | 비교 분석 3개 신규 생성
+- 생성:
+  - comparisons/marketing-channels.md (PR·크리에이터·유료·트레일러·소셜·커뮤니티·스팀 채널별 비교 + 규모별 우선순위 + BG3 타임라인)
+  - comparisons/mission-level-structure.md (히트맨 3층 가이던스 / CP2077 3원칙 / 알란웨이크2 루핑 진행 / TLOU2 내러티브 선형 / Hi-Fi RUSH 역방향 설계)
+  - comparisons/leadership-production.md (캡콤 협업 서비스 / 인섬니악 방해물 제거 / 슈퍼자이언트 노크런치 / 밸브 수평 구조 역설 / CDPR 마감 독재 + 프로듀서 함정 3종 + Fisher 마인드셋 전환)
+- 업데이트:
+  - comparisons/all.md (6 → 9개)
+  - index.md (비교 분석 9개)
+
+## [2026-04-23] ingest | 조직장 뉴스레터 2화 — 심리적 안전감
+- Source: https://maily.so/kumhotire/posts/1gz2kq2nz3q (금호타이어 HR운영팀)
+- 생성:
+  - sources/kumhotire-psychological-safety.md
+- 업데이트:
+  - concepts/studio-culture.md (구글 아리스토텔레스 5요소 목록, 테네리페/허드슨 항공 사례, 리더 Do/Don't 추가)
+  - sources/all.md (83 → 84개)
+  - index.md (소스 84개)
+
+## [2026-04-23] ingest | 비디오 게임 개발 리더십의 역학
+- Source: Google Docs (https://docs.google.com/document/d/14XvikWdKOm0xVIFvVw8rGpOKqD-9OYXTzkuVpmUon1E)
+- 생성:
+  - sources/gamedev-leadership-dynamics.md
+  - concepts/ai-gamedev.md (GenAI 정서 데이터 2024~2026, 용도별 수용도, 역할 변화)
+- 업데이트:
+  - concepts/studio-culture.md (심리적 안전감·슈퍼자이언트·밸브·CDPR 케이스 스터디 추가)
+  - concepts/dev-org-structure.md (크리에이티브 디렉터 vs 총괄 프로듀서, TA 브릿지 역할 추가)
+  - entities/cd-projekt-red.md (CP2077 리더십 실패 포스트모템 추가)
+  - entities/mint-rocket.md (황재호 리더십 철학·이중 트랙 모델 추가)
+  - concepts/all.md (ai-gamedev 추가 → 36개)
+  - sources/all.md (82 → 83개)
+  - index.md (소스 83개, 개념 36개, ai-gamedev 추가)
+
+## [2026-04-23] ingest | 글로벌 탑티어 게임 개발사의 멀티 프로젝트 조직 구조 및 이너소스 도입 분석 보고서
+- Source: Google Docs (https://docs.google.com/document/d/1mGpxYiXx21S9jTkR0IxxgQ5_TE5wNzYZbRkJrZtPzT4)
+- 생성:
+  - sources/multiproject-innersource-report.md
+  - concepts/innersource.md (이너소스 모델, Trusted Committer, PR 기반 엔진 개발, EA Frostbite 반면교사)
+- 업데이트:
+  - concepts/multi-project-development.md (인섬니악·캡콤·EA 프로스트바이트 사례 추가, innersource 연결)
+  - concepts/dev-org-structure.md (기술 공유 아키텍처 섹션 추가, Sony ICE 팀 모델)
+  - entities/capcom.md (소스 슬러그 수정, 이너소스 실천 섹션 추가)
+  - entities/embark-studios.md (소스 슬러그 수정, 오픈소스 우선 철학 섹션 추가)
+  - concepts/all.md (innersource 추가 → 35개)
+  - sources/all.md (81 → 82개, 신규 항목 추가)
+  - index.md (소스 81→82, 개념 34→35, innersource 추가)
+
 ## [2026-04-22] create | community-management 개념 페이지 + alan-wake-2 엔티티 페이지
 - 생성:
   - concepts/community-management.md (채널별 운영 원칙, 직접 소통, 라이브 서비스 연동)

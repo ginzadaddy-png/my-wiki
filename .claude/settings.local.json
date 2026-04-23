@@ -84,7 +84,11 @@
       "Bash(\"C:\\\\Program Files\\\\Git\\\\mingw64\\\\bin\\\\pdftotext.exe\" \"C:\\\\Users\\\\bmjlee\\\\Downloads\\\\OrtizLapaz_David_The_Integrated+Marketing.pdf\" -)",
       "Bash(\"C:\\\\Program Files\\\\Git\\\\mingw64\\\\bin\\\\pdftotext.exe\" \"C:\\\\Users\\\\bmjlee\\\\Downloads\\\\ComicsToGames_AllPresentations.pdf\" -)",
       "Bash(grep -v \"^sources/all.md$\")",
-      "Bash(grep -v \"^concepts/all.md$\")"
+      "Bash(grep -v \"^concepts/all.md$\")",
+      "WebFetch(domain:docs.google.com)",
+      "WebFetch(domain:doc-0k-8o-docstext.googleusercontent.com)",
+      "WebFetch(domain:doc-00-8o-docstext.googleusercontent.com)",
+      "WebFetch(domain:maily.so)"
     ]
   }
 }
