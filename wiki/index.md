@@ -53,6 +53,7 @@ Last updated 2026-04-23
 | [[ai-navigation]] | AI 내비게이션 — 복잡 지형 경로탐색 (데스 스트랜딩) |
 | [[dlc-expansion-design]] | DLC·확장팩 설계 — 테마·장르·감정 리듬 (CDPR) |
 | [[ip-adaptation-design]] | IP 적응 설계 — 팬/게이머 이중 타겟 설계 |
+| [[community-management]] | 커뮤니티 운영 — 채널별 전략, 개발자 직접 소통, 신뢰 적립 |
 | [[studio-culture]] | 스튜디오 문화 — 원칙·가치·의사결정 방식 |
 | [[player-trust-design]] | 플레이어 신뢰 설계 — 신뢰를 통화처럼 운용하는 설계 프레임워크 |
 | [[companion-design]] | 동반자(Companion) 설계 — RPG 동반자의 세 패턴과 신뢰 구축 |
@@ -71,6 +72,9 @@ Last updated 2026-04-23
 | [[combat-philosophy]] | 전투 철학 — GoT·GoW·TLOU·히트맨 |
 | [[open-world-guidance]] | 오픈월드 유도 철학 — BotW·엘든링·GTA5·유비식 |
 | [[studio-org-structure]] | 스튜디오 조직 구조 — 프롬소프트웨어·캡콤·베데스다·Scrum |
+| [[marketing-channels]] | 인디 마케팅 채널 전략 — PR·크리에이터·유료·스팀·커뮤니티 채널별 비교 |
+| [[mission-level-structure]] | 미션·레벨 구조 설계 철학 — 히트맨·사이버펑크·알란웨이크2·TLOU2·Hi-Fi RUSH |
+| [[leadership-production]] | 게임 개발 리더십 스타일 — 캡콤·인섬니악·슈퍼자이언트·밸브·CDPR 비교 |
 
 ---
 
