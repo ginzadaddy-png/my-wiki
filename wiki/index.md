@@ -1,5 +1,7 @@
 # Game Dev Wiki
 
+Last updated 2026-04-23
+
 소스 [84개](sources/all.md)에서 추출한 게임 개발 지식 베이스.
 
 | 소스 | 스튜디오 | 게임 | 개념 | 비교 분석 |
