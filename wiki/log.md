@@ -1,8 +1,6 @@
 ---
-title: Log
+title: "활동 로그"
 ---
-
-# 활동 로그
 
 ## [2026-04-23] 비교분석 추가 | companion-philosophy + aaa-scaling-strategy
 - 생성:
