@@ -40,4 +40,4 @@ confidence: high
 
 Sensation·Fantasy·Narrative·Challenge·Fellowship·Discovery·Expression·Submission
 
-> **핵심 인사이트:** "올바른 메카닉"은 없다 — 목표하는 감정(Aesthetics)에 맞는 메카닉이 올바른 것이다. 다른 게임의 메카닉을 복사할 때는 그 게임이 어떤 감정을 목표로 했는지 먼저 이해해야 한다.
+> 💡 **핵심 인사이트:** "올바른 메카닉"은 없다 — 목표하는 감정(Aesthetics)에 맞는 메카닉이 올바른 것이다. 다른 게임의 메카닉을 복사할 때는 그 게임이 어떤 감정을 목표로 했는지 먼저 이해해야 한다.
