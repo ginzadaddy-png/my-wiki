@@ -118,11 +118,15 @@
       "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); [print\\(f['id'], f['name'], f.get\\('mimeType',''\\)\\) for f in data['files'][:30]]\")",
       "mcp__8ba23c40-dee8-44fc-a498-2eb3aa8b194b__create_file",
       "mcp__Claude_in_Chrome__find",
+<<<<<<< HEAD
       "Bash(npx quartz *)",
       "Bash(gh run *)",
       "Bash(git commit *)",
       "Bash(git reset *)",
       "Bash(xargs sed *)"
+=======
+      "Bash(npx quartz *)"
+>>>>>>> dcd9dd56ba3d19be911f241dcaa48beb1d887477
     ]
   }
 }
