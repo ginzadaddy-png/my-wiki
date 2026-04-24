@@ -112,7 +112,12 @@
       "WebFetch(domain:lostgarden.com)",
       "WebFetch(domain:techraptor.net)",
       "WebFetch(domain:www.resetera.com)",
-      "WebFetch(domain:gameinformer.com)"
+      "WebFetch(domain:gameinformer.com)",
+      "mcp__8ba23c40-dee8-44fc-a498-2eb3aa8b194b__search_files",
+      "mcp__8ba23c40-dee8-44fc-a498-2eb3aa8b194b__list_recent_files",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); [print\\(f['id'], f['name'], f.get\\('mimeType',''\\)\\) for f in data['files'][:30]]\")",
+      "mcp__8ba23c40-dee8-44fc-a498-2eb3aa8b194b__create_file",
+      "mcp__Claude_in_Chrome__find"
     ]
   }
 }

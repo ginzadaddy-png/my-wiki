@@ -2,6 +2,17 @@
 title: "활동 로그"
 ---
 
+## [2026-04-24] ingest | 소울라이크 게임 디자인 분석 — 프롬소프트웨어 중심 종합 리서치
+- Source: raw/soulslike-game-design-research-2026.md (웹 리서치 종합)
+- Google Drive 업로드: ID 1_HcCatH99dwUwAVhA6_B2JTTELeeIjhpXNI719lpdDY → NotebookLM에 수동 추가 필요
+- 생성:
+  - sources/soulslike-game-design-research-2026.md
+  - concepts/soulslike.md (공정한 가혹함·죽음 루프·보스 설계·의도적 모호성·장르 진화)
+- 업데이트:
+  - sources/all.md (86 → 87개)
+  - concepts/all.md (soulslike 항목 추가 → 38개)
+  - index.md (소스 92개, 개념 38개, Last updated 2026-04-24)
+
 ## [2026-04-23] 비교분석 추가 | companion-philosophy + aaa-scaling-strategy
 - 생성:
   - comparisons/companion-philosophy.md (BioWare·Larian·CDPR·Obsidian·Naughty Dog 동반자 철학 비교)

@@ -2,10 +2,11 @@
 title: "소스 전체 목록"
 ---
 
-총 86개 | 최신순 정렬
+총 87개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [soulslike-game-design-research-2026](soulslike-game-design-research-2026.md) | 소울라이크 게임 디자인 분석 — 프롬소프트웨어 중심 종합 리서치 | 2026-04 |
 | [companion-design-research-2026](companion-design-research-2026.md) | RPG 동반자 설계 철학 비교 — 웹 리서치 종합 | 2026-04 |
 | [vision-statement-research-2026](vision-statement-research-2026.md) | 비전 선언문 & 게임 디자인 기둥 — 웹 리서치 종합 | 2026-04 |
 | [kumhotire-psychological-safety](kumhotire-psychological-safety.md) | 조직장 뉴스레터 2화 — 심리적 안전감 (금호타이어 HR) | 2024-11 |

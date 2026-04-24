@@ -47,6 +47,7 @@ updated: 2026-04-22
 | [[game-balance]] | 게임 밸런싱 — 트레이드오프·카운터·패리 밸런싱 |
 | [[emergent-systems-design]] | 창발적 시스템 설계 — 규칙이 자유를 만든다 (닌텐도 TotK) |
 | [[extraction-genre-design]] | 익스트랙션 장르 설계 — 진입장벽 완화 공식 |
+| [[soulslike]] | 소울라이크 — 공정한 가혹함·죽음 루프·방법론적 전투의 장르 문법 |
 | [[environmental-storytelling]] | 환경 스토리텔링 — 공간이 내러티브를 전달하는 방법 |
 | [[cinematic-production]] | 시네마틱 제작 — 파이프라인·카메라·편집 |
 | [[ai-navigation]] | AI 내비게이션 — 복잡 지형 경로탐색 (데스 스트랜딩) |
