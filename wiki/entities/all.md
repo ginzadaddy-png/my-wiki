@@ -1,5 +1,5 @@
 ---
-title: "전체 엔티티 목록"
+title: "전체 개체 목록"
 type: concept
 created: 2026-04-22
 updated: 2026-04-22
