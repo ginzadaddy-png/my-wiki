@@ -2,6 +2,15 @@
 title: "활동 로그"
 ---
 
+## [2026-04-24] lint + entity 생성
+- 생성:
+  - entities/supergiant-games.md (노 크런치·이직률 0%·스코프 제한 철학)
+  - entities/remedy-entertainment.md (Northlight 엔진·Control Universe·루핑 진행)
+- 업데이트:
+  - entities/all.md (21 → 23개: supergiant-games·remedy-entertainment 추가)
+  - index.md (게임 25 → 27로 정정)
+  - overview.md (스튜디오 20→21, 게임 24→27, 핵심 테마 3개 추가)
+
 ## [2026-04-24] ingest | 소울라이크 게임 디자인 분석 — 프롬소프트웨어 중심 종합 리서치
 - Source: raw/soulslike-game-design-research-2026.md (웹 리서치 종합)
 - Google Drive 업로드: ID 1_HcCatH99dwUwAVhA6_B2JTTELeeIjhpXNI719lpdDY → NotebookLM에 수동 추가 필요

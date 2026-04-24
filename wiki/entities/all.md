@@ -32,6 +32,8 @@ updated: 2026-04-22
 | [[rockstar-games]] | GTA·레드 데드 리뎀션 시리즈 |
 | [[avalanche-software]] | WB Games 산하, 호그와트 레거시 |
 | [[arrowhead-game-studios]] | 스웨덴, 헬다이버스 2, "모두를 위한 게임은 누구를 위한 게임도 아니다" |
+| [[supergiant-games]] | 미국 SF, ~25명, 노 크런치·이직률 0%, 하데스 시리즈 |
+| [[remedy-entertainment]] | 핀란드 헬싱키, ~380명, Northlight 자체 엔진, 컨트롤 유니버스 |
 
 ## 게임
 
