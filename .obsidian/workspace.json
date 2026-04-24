@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/soulslike.md",
+                "file": "raw/articles/2026-04-21T110148+0900-매튜 볼의 2026년 보고서가 나왔습니다. 사상 최고치를 기록했음에도 불구하고 게임 회사들이 더 큰 어려움에 직면하는 이유는 무엇일까요.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "soulslike"
+              "title": "2026-04-21T110148+0900-매튜 볼의 2026년 보고서가 나왔습니다. 사상 최고치를 기록했음에도 불구하고 게임 회사들이 더 큰 어려움에 직면하는 이유는 무엇일까요"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 490.5
+    "width": 1035.5
   },
   "right": {
     "id": "1ae45d1999f4e138",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/concepts/soulslike.md",
+                "file": "raw/articles/2026-04-21T110148+0900-매튜 볼의 2026년 보고서가 나왔습니다. 사상 최고치를 기록했음에도 불구하고 게임 회사들이 더 큰 어려움에 직면하는 이유는 무엇일까요.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "soulslike 의 백링크"
+              "title": "2026-04-21T110148+0900-매튜 볼의 2026년 보고서가 나왔습니다. 사상 최고치를 기록했음에도 불구하고 게임 회사들이 더 큰 어려움에 직면하는 이유는 무엇일까요 의 백링크"
             }
           },
           {
@@ -184,8 +184,16 @@
   },
   "active": "3fe76bcb6a95c484",
   "lastOpenFiles": [
-    "wiki/concepts/studio-culture.md",
+    "raw/articles/2026-04-21T110136+0900-센서 타워 연례 보고서 전 세계 모바일 게임 매출, 2025년 820억 달러 기록 예상 (1% 증가), PC 및 콘솔 게임 매출 전년 대비 13% 성장 전망.md",
+    "raw/articles/2026-04-20T143742+0900-“It's meticulously planned where content takes place” Ex-Rockstar Dev Shares a Key Detail That Every Other Open-World Game Developer Should Take Note Of.md",
+    "raw/articles/2026-04-21T110148+0900-매튜 볼의 2026년 보고서가 나왔습니다. 사상 최고치를 기록했음에도 불구하고 게임 회사들이 더 큰 어려움에 직면하는 이유는 무엇일까요.md",
+    "raw/articles/2026-04-20T111608+0900-GDC24 마블 스파이더맨의 오픈 월드는 어떻게 '또' 진화했나.md",
+    "raw/articles/2026-04-20T113246+0900-GDC24 '스팀의 비밀' 성공 꿀팁 대방출.md",
+    "raw/articles/2026-04-15T121241+0900-오픈월드를 선형화하는 법 - 『Grand Theft Auto 5』.md",
+    "raw/articles/2026-04-15T121248+0900-게임은 반드시 완벽해야 할까 - 『엘더스크롤5 스카이림』.md",
+    "raw/articles/2026-04-15T120042+0900-'Valheim' Vikings, Roadmaps & Buying a Horse During Early Access.md",
     "wiki/concepts/soulslike.md",
+    "wiki/concepts/studio-culture.md",
     "wiki/index.md.tmp.28856.1776993847622",
     "CLAUDE.md",
     "wiki/sources/companion-design-research-2026.md",
@@ -203,14 +211,6 @@
     "wiki/sources/steam-page-optimization-guide-2026.md",
     "wiki/sources/steam-next-fest-wishlist-benchmarks-2025.md",
     "wiki/sources/steam-next-fest-2026-analysis.md",
-    "raw/game-marketing-strategy-2026.md",
-    "raw/steam-page-optimization-guide-2026.md",
-    "raw/steam-next-fest-wishlist-benchmarks-2025.md",
-    "raw/steam-next-fest-2026-analysis.md",
-    "wiki/index.md",
-    "wiki/overview.md",
-    "wiki/log.md",
-    "raw/articles/2026-04-21T110148+0900-매튜 볼의 2026년 보고서가 나왔습니다. 사상 최고치를 기록했음에도 불구하고 게임 회사들이 더 큰 어려움에 직면하는 이유는 무엇일까요.md",
     "wiki/sources/all.md.tmp.36540.1776849947717",
     "wiki/concepts/studio-culture.md.tmp.36540.1776849933612",
     "wiki/concepts/dev-org-structure.md.tmp.36540.1776849904594",
