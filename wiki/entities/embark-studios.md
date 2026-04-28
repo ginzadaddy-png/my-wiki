@@ -1,7 +1,7 @@
----
+﻿---
 title: "엠바크 스튜디오 (Embark Studios)"
 type: entity
-sources: ["[[embark-arc-raiders-reset]]", "[[embark-soderlund-quarter-budget]]", "[[multiproject-innersource-report]]"]
+sources: ["[[gdc26-arc-raiders-reset]]", "[[embark-soderlund-quarter-budget]]", "[[multiproject-innersource-report]]"]
 related: ["[[arc-raiders|아크 레이더스]]", "[[data-driven-development|데이터 기반 개발]]", "[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]"]
 created: 2026-04-13
 updated: 2026-04-14

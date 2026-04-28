@@ -1,7 +1,7 @@
----
+﻿---
 title: "얼리 액세스 전략"
 type: concept
-sources: ["[[GDC24 발더스 게이트3 강연]]"]
+sources: ["[[gdc24-baldurs-gate-3]]"]
 related: ["[[larian-studios|라리안 스튜디오]]", "[[baldurs-gate-3|발더스 게이트3]]", "[[rapid-prototyping|빠른 프로토타이핑]]"]
 created: 2026-04-13
 updated: 2026-04-13

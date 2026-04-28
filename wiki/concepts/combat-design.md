@@ -8,7 +8,8 @@ sources: [
   "[[gdc2019-god-of-war-axe]]",
   "[[gdc2014-tlou-melee-system]]",
   "[[gmtk-combat-system]]",
-  "[[adam-millard-sword-fighting]]"
+  "[[adam-millard-sword-fighting]]",
+  "[[vilehyperion-combat-system]]"
 ]
 related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[emergent-systems-design|창발적 시스템 설계]]", "[[ghost-of-tsushima|고스트 오브 쓰시마]]", "[[god-of-war-2018|갓 오브 워 2018]]", "[[the-last-of-us|더 라스트 오브 어스]]", "[[hitman-2016|히트맨 2016]]", "[[combat-philosophy|전투 철학 비교]]", "[[game-balance|게임 밸런싱]]", "[[mda-framework|MDA 프레임워크]]"]
 created: 2026-04-15
@@ -77,5 +78,13 @@ confidence: high
   - Nidhogg: 단판 아닌 맵 줄다리기 → 개별 패배 부담 완화
   - Furi: 보스 다중 페이즈 + 플레이어 여러 생명 → 안전망 속 고강도
   - 세키로: 일반 적 한 방 / 보스 데스블로우 2~3회 → 계층적 치명감
+
+## Simple but Deep — For Honor 모델 ([[vilehyperion-combat-system]])
+
+**단순하지만 깊은 설계**: 버튼 3개로 구성된 Guard Stance가 상대 읽기·딜레이·페이크로 전략 깊이를 만든다.
+
+- **보상 ∝ 난이도**: 쉬운 플레이도 통하지만 어려운 플레이가 더 빠르게 이긴다 → 숙련 동기 지속
+- **제약이 정체성을 만든다**: 원거리 부재, 긴 교전 지속이 "이 게임은 이런 게임"이라는 정체성 전달
+- **함정**: 높은 기술 장벽이 신규 플레이어 이탈 원인. 쉬운 진입 + 깊은 숙련 사이의 긴장은 구조적
 
 > 💡 **핵심 인사이트:** 전투 밸런스는 수치가 아니라 **판타지와의 계약**이다. "이 전투가 이 캐릭터답게 느껴지는가"를 먼저 정의하고, 모든 수치 결정을 그 기준으로 평가하라. 매 순간 "지금 어떤 행동이 최선인가"를 플레이어에게 묻는 시스템이 깊이 있는 전투를 만든다.

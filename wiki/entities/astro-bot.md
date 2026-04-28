@@ -1,7 +1,7 @@
----
+﻿---
 title: "아스트로봇"
 type: entity
-sources: ["[[GDC25 아스트로봇 강연]]"]
+sources: ["[[gdc25-astrobot]]"]
 related: ["[[team-asobi|팀 아소비]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-13
 updated: 2026-04-13

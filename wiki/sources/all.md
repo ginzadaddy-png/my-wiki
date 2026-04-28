@@ -2,10 +2,18 @@
 title: "소스 전체 목록"
 ---
 
-총 87개 | 최신순 정렬
+총 95개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [ukyou-project-failure-structure](ukyou-project-failure-structure.md) | 인디만이 아니다. 4000만 엔 게임 개발이 막힌 구조와 같은 실패를 피하는 방법 (うきょう) | 2026-01 |
+| [ukyou-mobile-liveservice-walls](ukyou-mobile-liveservice-walls.md) | 운영형 모바일 게임 개발의 '벽'을 넘는 사고법 (うきょう) | 2025-11 |
+| [ukyou-mobile-liveservice-survival](ukyou-mobile-liveservice-survival.md) | 운영형 모바일 게임이 살아남기 어려운 구조적 이유와 돌파구 (うきょう) | 2025-11 |
+| [ukyou-sweden-steam-2025](ukyou-sweden-steam-2025.md) | Steam 왕자는 인구 1000만 스웨덴 — 일본 개발자가 배울 승리 패턴 (うきょう) | 2025-12 |
+| [vilehyperion-combat-system](vilehyperion-combat-system.md) | How To Craft The Perfect Combat System (VileHyperion × For Honor 분석) | 2025 |
+| [indiebi-game-pricing-strategy](indiebi-game-pricing-strategy.md) | 2025년 이후의 게임 가격 책정 방법 (IndieBI × Unity) | 2025 |
+| [gcon2025-hashimoto-producer](gcon2025-hashimoto-producer.md) | [GCON25] 글로벌 IP 시대의 프로듀서 역할 (하시모토 신지 / Aniplex) | 2025-11 |
+| [gdc2023-asobo-how-to-make-aaa-small-team](gdc2023-asobo-how-to-make-aaa-small-team.md) | [GDC23] AAA급 비주얼을 20명 아티스트로 — A Plague Tale: Requiem (Binetruy / Asobo) | 2023-03 |
 | [soulslike-game-design-research-2026](soulslike-game-design-research-2026.md) | 소울라이크 게임 디자인 분석 — 프롬소프트웨어 중심 종합 리서치 | 2026-04 |
 | [companion-design-research-2026](companion-design-research-2026.md) | RPG 동반자 설계 철학 비교 — 웹 리서치 종합 | 2026-04 |
 | [vision-statement-research-2026](vision-statement-research-2026.md) | 비전 선언문 & 게임 디자인 기둥 — 웹 리서치 종합 | 2026-04 |

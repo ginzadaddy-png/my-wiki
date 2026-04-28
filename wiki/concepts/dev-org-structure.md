@@ -7,11 +7,12 @@ sources: [
   "[[gdc2021-level-design-studio-wide]]",
   "[[capcom-ir2021-dev-strategy]]",
   "[[gdc26-production-traps]]",
-  "[[multiproject-innersource-report]]"
+  "[[multiproject-innersource-report]]",
+  "[[gcon2025-hashimoto-producer]]"
 ]
 related: ["[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[studio-culture|스튜디오 문화]]"]
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-04-28
 confidence: high
 ---
 
@@ -95,5 +96,15 @@ confidence: high
 **소니 ICE 팀 모델**: 퍼스트 파티 스튜디오에 단일 엔진 사용을 강제하지 않고, 렌더링·그래픽·디버깅 도구를 선택적으로 제공. 게릴라(데시마), 산타모니카(독자 엔진) 모두 기술 자율성 완전 보장. → 중앙 기술 연구의 경제적 이점 + 창작자 자율성 동시 달성
 
 → [[innersource|이너소스]] 참고
+
+## 프로듀서 vs 디렉터: 하시모토 신지 정의 ([[gcon2025-hashimoto-producer]])
+
+FF 시리즈 프로듀서 출신 하시모토 신지(Aniplex)의 압축 정의:
+
+- **디렉터** = 다이아몬드 원석. 재능과 감성으로 콘텐츠를 창조
+- **프로듀서** = 원석이 빛나게 환경 조성. 예산·계약·마케팅의 '귀찮은 것' 전담
+- **책임 구조**: 프로듀서는 변명 없이 결과로만 평가. "한 달 지연 = 월급일 하나 추가"
+- **글로벌 IP**: 초기 기획부터 동시 발매 전제 설계. 각국 현지 '아군' 확보 필수
+- **핵심 역량**: 커뮤니케이션. 개발·유저·경영·투자자를 잇는 '연결자'
 
 > 💡 **핵심 인사이트:** 조직 구조는 게임 개발의 숨겨진 변수다. 같은 인원이라도 팀을 어떻게 나누고, 언제 합치고, 어떻게 소통하게 하느냐에 따라 결과물의 품질 상한선이 달라진다. 프롬소프트웨어의 유동 배치와 캡콤의 파이프라인은 서로 다른 규모에서의 해답이다. 그리고 어떤 규모에서도 프로듀서의 핵심은 "결정하는 사람"이 아니라 "팀을 정렬시키는 사람"이다.

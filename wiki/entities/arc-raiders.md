@@ -1,7 +1,7 @@
----
+﻿---
 title: "아크 레이더스 (ARC Raiders)"
 type: entity
-sources: ["[[GDC26 아크 레이더스 리셋 강연]]", "[[missing-middle-paradigm-shift-2026]]"]
+sources: ["[[gdc26-arc-raiders-reset]]", "[[missing-middle-paradigm-shift-2026]]"]
 related: ["[[embark-studios|엠바크 스튜디오]]", "[[data-driven-development|데이터 기반 개발]]", "[[small-team-development|소규모 팀 개발]]", "[[playtesting|플레이테스팅]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[live-service-design|라이브 서비스 설계]]"]
 created: 2026-04-13
 updated: 2026-04-23

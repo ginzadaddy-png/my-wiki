@@ -1,7 +1,7 @@
----
+﻿---
 title: "창발적 시스템 설계 (Emergent Systems Design)"
 type: concept
-sources: ["[[GDC24 젤다 티어스 오브 더 킹덤 강연]]"]
+sources: ["[[gdc24-zelda-tears-of-kingdom]]"]
 related: ["[[nintendo|닌텐도]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[designer-empowerment|디자이너 도구화]]", "[[vision-statement|비전 선언문]]"]
 created: 2026-04-14
 updated: 2026-04-14

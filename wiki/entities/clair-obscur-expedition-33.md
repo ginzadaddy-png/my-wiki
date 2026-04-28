@@ -1,7 +1,7 @@
----
+﻿---
 title: "클레르 옵스퀴르: 33원정대"
 type: entity
-sources: ["[[GDC26 33원정대 프로그래머 강연]]", "[[Expedition 33 UE5 인터뷰]]"]
+sources: ["[[gdc26-expedition33-programmers]]", "[[expedition33-ue5-interview]]"]
 related: ["[[sandfall-interactive|샌드폴 인터랙티브]]", "[[designer-empowerment|디자이너 도구화]]", "[[unreal-engine-5|언리얼 엔진 5]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-13
 updated: 2026-04-13

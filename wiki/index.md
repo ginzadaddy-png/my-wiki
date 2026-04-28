@@ -1,14 +1,14 @@
 # Game Dev Wiki
 
-Last updated 2026-04-24
+Last updated 2026-04-28
 
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">92</span></a></div>
-  <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">23</span></a></div>
-  <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">27</span></a></div>
-  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">38</span></a></div>
+  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">95</span></a></div>
+  <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">28</span></a></div>
+  <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">29</span></a></div>
+  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">40</span></a></div>
   <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">11</span></a></div>
 </div>
 
@@ -39,6 +39,9 @@ Last updated 2026-04-24
 | [[proprietary-engine-strategy]] | 독자 엔진 전략 (RE ENGINE vs 서드파티 무수정) |
 | [[innersource]] | 이너소스 — 오픈소스 방식의 사내 기술 공유 모델 |
 | [[ai-gamedev]] | 게임 개발에서의 생성형 AI — 정서 데이터·도입 원칙·역할 변화 |
+| [[game-pricing-strategy]] | 게임 가격 전략 — 가격대 지형, 지역 차등화, 세일 타이밍, 비즈니스 모델 |
+| [[mobile-gamedev]] | 모바일 게임 개발 — 4대 현장 벽, 상업 성립 4요소, 원신 쇼크의 역설 |
+| [[mobile-gamedev]] | 모바일 게임 개발 — 4대 벽, 상업 4요소, 콘텐츠 소비 딜레마, Supercell 모델 |
 
 ### 게임 디자인
 | 개념 | 설명 |

@@ -1,7 +1,7 @@
----
+﻿---
 title: "데이브 더 다이버"
 type: entity
-sources: ["[[CGDC 황재호 대표 강연]]"]
+sources: ["[[cgdc-dave-the-diver]]"]
 related: ["[[mint-rocket|민트로켓]]", "[[marketing-strategy|마케팅 전략]]", "[[early-access-strategy|얼리 액세스 전략]]"]
 created: 2026-04-13
 updated: 2026-04-13

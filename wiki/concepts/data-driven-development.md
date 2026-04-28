@@ -1,7 +1,7 @@
----
+﻿---
 title: "데이터 기반 개발 의사결정"
 type: concept
-sources: ["[[GDC26 아크 레이더스 리셋 강연]]"]
+sources: ["[[gdc26-arc-raiders-reset]]"]
 related: ["[[embark-studios|엠바크 스튜디오]]", "[[arc-raiders|아크 레이더스]]", "[[playtesting|플레이테스팅]]", "[[small-team-development|소규모 팀 개발]]", "[[vision-statement|비전 선언문]]"]
 created: 2026-04-13
 updated: 2026-04-13

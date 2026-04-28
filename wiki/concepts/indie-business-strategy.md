@@ -6,7 +6,8 @@ sources: [
   "[[gdc2023-no-budget-marketing]]",
   "[[cgdc-dave-the-diver]]",
   "[[sgc-steam-survival]]",
-  "[[gdc2024-valheim-early-access]]"
+  "[[gdc2024-valheim-early-access]]",
+  "[[ukyou-project-failure-structure]]"
 ]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[vision-statement|비전 선언문]]", "[[playtesting|플레이테스팅]]"]
 created: 2026-04-16
@@ -61,5 +62,20 @@ confidence: high
 - 크리에이티브 비전과 사업 판단을 창업자가 동시에 담당
 - 투자자 선택 기준: "비전에 정렬된 파트너인가" — 돈만 보는 투자자 거부 가능해야 함
 - Playdead, Larian, Sandfall 모두 비전 일관성을 투자자 조건으로 삼음
+
+## 프로젝트 실패의 구조 ([[ukyou-project-failure-structure]])
+
+4000만 엔 규모 4년 개발 실패 사례 분석. 인디뿐 아니라 법인도 동일한 구조로 실패.
+
+**실패 메커니즘**:
+- 계약자 심리: 프로젝트 지속 = 수입 → 무의식적으로 나쁜 것을 숨김
+- 오너 취약성: 비경험자 + 과부하 → 판단 정지
+- 두 심리가 맞물려 "알아챘을 때는 이미 늦은" 악순환 진입
+
+**실패 방지 전략**:
+- **사전 계약서**: 사양·담당자·철수 기준을 바이네임으로 명시
+- **마일스톤 가시화**: 1~2주마다 동작하는 빌드 확인 (숨기면 빨간 신호)
+- **MVP 우선**: 핵심 재미 먼저 구현, 미완성 위에 쌓지 말 것
+- **철수 기준 수치화**: "알파 테스트 10명 중 8명이 '한 번 더' 응답 시 계속"
 
 > 💡 **핵심 인사이트:** 인디 스튜디오 생존의 공통 분모는 **비전의 크기와 일관성**이다. 큰 비전이 좋은 팀을 모으고, 일관된 비전이 나쁜 계약을 거부하는 용기를 준다.

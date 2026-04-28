@@ -1,7 +1,7 @@
----
+﻿---
 title: "마케팅 전략"
 type: concept
-sources: ["[[CGDC 황재호 대표 강연]]", "[[SGC 스팀 살아남기 패널]]", "[[gdc2023-no-budget-marketing]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc24-steam-secrets]]", "[[airbridge-steam-marketing-playbook]]", "[[gdc26-steam-page-needs-soul]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[gdc26-integrated-marketing]]", "[[gdc26-game-trailers]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[steam-page-optimization-guide-2026]]", "[[game-marketing-strategy-2026]]"]
+sources: ["[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc24-steam-secrets]]", "[[airbridge-steam-marketing-playbook]]", "[[gdc26-steam-page-needs-soul]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[gdc26-integrated-marketing]]", "[[gdc26-game-trailers]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[steam-page-optimization-guide-2026]]", "[[game-marketing-strategy-2026]]", "[[indiebi-game-pricing-strategy]]"]
 related: ["[[mint-rocket|민트로켓]]", "[[dave-the-diver|데이브 더 다이버]]", "[[balatro|발라트로]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[game-market-trends|게임 시장 트렌드]]"]
 created: 2026-04-13
 updated: 2026-04-23
@@ -42,9 +42,12 @@ confidence: high
 - 최소 1~2년 전부터 빌드·아트·진척 공유. 초청 시 즉시 달려가 네트워킹
 - 파트너 커넥트 등 비공개 행사 최우선 참석
 
-**가격 정책**
+**가격 정책** ([[indiebi-game-pricing-strategy]])
 - 장르 평균 이하는 품질 의심 초래 역효과
 - 가격 = 기대치와 이미지의 기준
+- **지역 가격 차등화**: PPP 기반 설정 필수. 동남아·동유럽은 기본가 40~60% 수준
+- **세일 타이밍**: 출시 후 6개월 이내 첫 할인. 30~50%가 신규 유입에 효과적
+- **스토어 페이지와 연동**: 가격 낮추기보다 페이지 품질 개선이 전환율에 더 효과적인 경우 多
 
 > 💡 **핵심 인사이트:** 스팀 성공의 공통점은 출시일이 아닌 "출시 전부터 오랜 관계를 쌓아온 것"이다. 플랫폼, 커뮤니티, 크리에이터 모두 마찬가지.
 

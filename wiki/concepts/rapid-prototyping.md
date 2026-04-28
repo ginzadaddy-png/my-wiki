@@ -1,7 +1,7 @@
----
+﻿---
 title: "빠른 프로토타이핑과 반복 개발"
 type: concept
-sources: ["[[GDC25 아스트로봇 강연]]", "[[GDC24 발더스 게이트3 강연]]", "[[GDC26 반짝임 강연]]"]
+sources: ["[[gdc25-astrobot]]", "[[gdc24-baldurs-gate-3]]", "[[gdc26-spark]]"]
 related: ["[[team-asobi|팀 아소비]]", "[[larian-studios|라리안 스튜디오]]", "[[sucker-punch-productions|서커펀치 프로덕션]]", "[[small-team-development|소규모 팀 개발]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[vision-statement|비전 선언문]]"]
 created: 2026-04-13
 updated: 2026-04-13

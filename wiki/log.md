@@ -2,6 +2,71 @@
 title: "활동 로그"
 ---
 
+## [2026-04-28] concept + entity | mobile-gamedev, hazelight-studios, peak
+- 생성: wiki/concepts/mobile-gamedev.md
+- 생성: wiki/entities/hazelight-studios.md, wiki/entities/peak.md
+- 업데이트: wiki/concepts/all.md, wiki/entities/all.md, wiki/index.md (개념 40, 스튜디오 28, 게임 29)
+- 통합 소스: ukyou-mobile-liveservice-survival, ukyou-mobile-liveservice-walls, sensortower-2026-report, ukyou-sweden-steam-2025
+
+## [2026-04-28] entity | bioware, obsidian-entertainment, supercell
+- 생성: wiki/entities/bioware.md, wiki/entities/obsidian-entertainment.md, wiki/entities/supercell.md
+- 업데이트: wiki/entities/all.md, wiki/index.md (스튜디오 수 24→27)
+- 목적: companion-philosophy 데드 링크 해소(bioware, obsidian-entertainment), mobile sources 보강(supercell)
+
+## [2026-04-28] concept | game-pricing-strategy
+- 생성: wiki/concepts/game-pricing-strategy.md
+- 업데이트: wiki/concepts/all.md, wiki/index.md (개념 수 38→39)
+- 통합 소스: indiebi-game-pricing-strategy, missing-middle-paradigm-shift-2026, sgc-steam-survival, gdc26-arc-raiders-reset, gdc26-newzoo-market-analysis
+
+## [2026-04-28] lint
+- 모순: 3건 (모두 기존 ⚠️ 블록으로 해소 표시됨)
+- 데드 링크: 2건 — [[bioware]], [[obsidian-entertainment]] (comparisons/companion-philosophy.md에서 링크 사용 중이나 entity 페이지 없음)
+- 고립 엔티티: avalanche-software, asobo-studio (비교/개념에서 참조 1회 이하)
+- 미생성 개념 (3회+ 언급): "가격 정책" (5개 concept 파일에서 11회), "모바일 게임 개발" (소스 2개 있으나 concept 페이지 없음)
+- overview.md 업데이트: 현재 커버리지(주요 출처 보강), 핵심 테마(game-market-trends 추가, dev-org/live-service 설명 보강)
+
+## [2026-04-28] ingest | raw/articles 미ingest 10개 파일 일괄 처리
+- Source: raw/articles/ (2026-04-27 저장 파일 7개 + 이전 파일 3개)
+- 생성 (소스 7개):
+  - wiki/sources/gcon2025-hashimoto-producer.md
+  - wiki/sources/indiebi-game-pricing-strategy.md
+  - wiki/sources/vilehyperion-combat-system.md
+  - wiki/sources/ukyou-sweden-steam-2025.md
+  - wiki/sources/ukyou-mobile-liveservice-survival.md
+  - wiki/sources/ukyou-mobile-liveservice-walls.md
+  - wiki/sources/ukyou-project-failure-structure.md
+- 스킵 (저가치 3개): Sink or Swim (MixMob 크립토), 7 Open-World Buildings (리스트클), Click4Gameplay RPG Combat (트랜스크립트 없음)
+- 업데이트 (개념 6개):
+  - dev-org-structure: 하시모토 신지 프로듀서/디렉터 정의 추가
+  - marketing-strategy: 지역 가격 차등화·세일 타이밍 섹션 추가
+  - combat-design: For Honor Simple but Deep 모델 추가
+  - live-service-design: 모바일 4요소·4대 벽 섹션 추가
+  - indie-business-strategy: 프로젝트 실패 구조 섹션 추가
+  - game-market-trends: 스웨덴 Steam 생태계 섹션 추가
+- 통계: sources 88→95, index.md 업데이트
+
+## [2026-04-28] 소스 slug 정규화 (미ingest 해소)
+- 문제: wiki/sources/ 파일 6개가 concept/entity 페이지에서 한글 레거시 링크명으로 참조되어 slug 기반 연결이 끊어져 있었음
+  - expedition33-ue5-interview, gdc24-baldurs-gate-3, gdc25-astrobot
+  - gdc26-expedition33-programmers, gdc26-ghost-of-yotei, re2023-re-engine-philosophy
+- 조치: 30개 concept/entity 파일의 sources: 필드 + 본문 wikilink를 slug 기준으로 일괄 정규화
+  - 추가 정리: GDC26 반짝임·아크레이더스·젤다·황재호·SGC·캡콤IR·FromSoftware 등 레거시 링크 14개 파일 추가 교체
+- 결과: 전체 88개 소스 — 미ingest 0개
+
+## [2026-04-28] ingest | How to Make AAA Looking Games With a Team of 20 Artists — Asobo Studio, GDC 2023
+- Source: raw/gdc2023-asobo-how-to-make-aaa-small-team.md (원본: PDF, HOW+TO+MAKE_Binetruy+x+Paulus_Gregoire+x+Loic.pdf)
+- 생성:
+  - sources/gdc2023-asobo-how-to-make-aaa-small-team.md
+  - entities/asobo-studio.md (프랑스 보르도, 인하우스 엔진, "Focus on What Matters")
+  - entities/a-plague-tale-requiem.md (2022, PS5 전용, 20명 아티스트)
+- 업데이트:
+  - concepts/small-team-development.md (Asobo 7번째 사례 추가 — 제약으로 공통 언어 만들기)
+  - concepts/proprietary-engine-strategy.md (Asobo 중간 규모 독자 엔진 섹션 추가)
+  - entities/all.md (스튜디오 23→24, 게임 27→28)
+  - sources/all.md (87→88개)
+  - index.md (소스 92→93, 스튜디오 23→24, 게임 27→28, Last updated 2026-04-28)
+  - overview.md (스튜디오 21→24, 게임 27→28)
+
 ## [2026-04-24] lint + entity 생성
 - 생성:
   - entities/supergiant-games.md (노 크런치·이직률 0%·스코프 제한 철학)

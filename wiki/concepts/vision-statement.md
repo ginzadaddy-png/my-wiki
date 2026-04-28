@@ -1,7 +1,7 @@
----
+﻿---
 title: "비전 선언문과 반짝임 (Vision Statement & Spark)"
 type: concept
-sources: ["[[GDC26 고스트 오브 요테이 강연]]", "[[GDC26 반짝임 강연]]", "[[GDC26 아크 레이더스 리셋 강연]]", "[[vision-statement-research-2026|웹 리서치 2026]]"]
+sources: ["[[gdc26-ghost-of-yotei]]", "[[gdc26-spark]]", "[[gdc26-arc-raiders-reset]]", "[[vision-statement-research-2026|웹 리서치 2026]]"]
 related: ["[[sucker-punch-productions|서커펀치 프로덕션]]", "[[embark-studios|엠바크 스튜디오]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[small-team-development|소규모 팀 개발]]", "[[data-driven-development|데이터 기반 개발]]", "[[studio-culture|스튜디오 문화]]"]
 created: 2026-04-13
 updated: 2026-04-23

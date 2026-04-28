@@ -34,6 +34,12 @@ updated: 2026-04-22
 | [[arrowhead-game-studios]] | 스웨덴, 헬다이버스 2, "모두를 위한 게임은 누구를 위한 게임도 아니다" |
 | [[supergiant-games]] | 미국 SF, ~25명, 노 크런치·이직률 0%, 하데스 시리즈 |
 | [[remedy-entertainment]] | 핀란드 헬싱키, ~380명, Northlight 자체 엔진, 컨트롤 유니버스 |
+| [[asobo-studio]] | 프랑스 보르도, A Plague Tale·Flight Simulator, 인하우스 엔진, "Focus on What Matters" |
+| [[bioware]] | 캐나다 에드먼턴, EA 산하, Mass Effect·Dragon Age, 서구 RPG 동반자 설계 원점 |
+| [[obsidian-entertainment]] | 미국 캘리포니아, MS 산하, Outer Worlds·Avowed, 유기적 동반자 설계 |
+| [[supercell]] | 핀란드 헬싱키, 텐센트 자회사, Clash of Clans, "프로젝트 실패 ≠ 개인 실패" 모델 |
+| [[hazelight-studios]] | 스웨덴 스톡홀름, EA Originals, It Takes Two·Split Fiction, 협동 전용 게임 |
+| [[hazelight-studios]] | 스웨덴 스톡홀름, EA 퍼블리싱, It Takes Two·Split Fiction, 2인 협동 전용 |
 
 ## 게임
 
@@ -66,3 +72,6 @@ updated: 2026-04-22
 | [[death-stranding]] | 코지마 프로덕션즈, AI 내비게이션 |
 | [[marvel-spiderman-2]] | 인섬니악, 오픈월드 탐험 설계 |
 | [[alan-wake-2]] | Remedy, 2023, 두 주인공·꿈의 논리·루핑 진행 미션 구조 |
+| [[a-plague-tale-requiem]] | Asobo, 2022, 20명 아티스트·PS5 전용·클로드 로랭 비주얼 |
+| [[peak]] | Landfall+Aggro Crab, 2025, 4개월 개발·1주 100만 본, 협동 바이럴 공식 |
+| [[peak]] | Landfall+Aggro Crab, 2025, 4개월 개발·첫 주 100만 본, friendslop 협동 등반 |

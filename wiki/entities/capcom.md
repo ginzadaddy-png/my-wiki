@@ -1,7 +1,7 @@
----
+﻿---
 title: "캡콤 (Capcom)"
 type: entity
-sources: ["[[capcom-ir2021-dev-strategy]]", "[[re-engine-philosophy]]", "[[multiproject-innersource-report]]"]
+sources: ["[[capcom-ir2021-dev-strategy]]", "[[re2023-re-engine-philosophy]]", "[[multiproject-innersource-report]]"]
 related: ["[[RE ENGINE]]", "[[proprietary-engine-strategy|독자 엔진 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]"]
 created: 2026-04-14
 updated: 2026-04-14

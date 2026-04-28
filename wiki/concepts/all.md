@@ -33,6 +33,9 @@ updated: 2026-04-22
 | [[proprietary-engine-strategy]] | 독자 엔진 전략 (RE ENGINE vs 서드파티 무수정) |
 | [[innersource]] | 이너소스 — 오픈소스 방식의 사내 기술 공유 모델 |
 | [[ai-gamedev]] | 게임 개발에서의 생성형 AI — 정서 데이터·도입 원칙·역할 변화 |
+| [[game-pricing-strategy]] | 게임 가격 전략 — 가격대 지형, 지역 차등화, 세일 타이밍, 비즈니스 모델 |
+| [[mobile-gamedev]] | 모바일 게임 개발 — 4대 현장 벽, 상업 성립 4요소, 원신 쇼크의 역설 |
+| [[mobile-gamedev]] | 모바일 게임 개발 — 4대 벽, 상업 4요소, 콘텐츠 소비 딜레마, Supercell 모델 |
 
 ## 게임 디자인
 

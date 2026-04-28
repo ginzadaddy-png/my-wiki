@@ -1,8 +1,8 @@
----
+﻿---
 title: "독자 엔진 전략"
 type: concept
-sources: ["[[Capcom IR2021 개발 전략]]", "[[RE2023 RE ENGINE Philosophy]]", "[[Expedition 33 UE5 인터뷰]]"]
-related: ["[[capcom|캡콤]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[small-team-development|소규모 팀 개발]]"]
+sources: ["[[capcom-ir2021-dev-strategy]]", "[[re2023-re-engine-philosophy]]", "[[expedition33-ue5-interview]]", "[[gdc2023-asobo-how-to-make-aaa-small-team]]"]
+related: ["[[capcom|캡콤]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[asobo-studio|Asobo Studio]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: high
@@ -34,4 +34,15 @@ confidence: high
 
 > ⚠️ **트레이드오프**: 캡콤(독자 엔진)과 샌드폴(서드파티 엔진 무수정)은 정반대 전략이지만 둘 다 성공했다. 결정 요인은 **스튜디오 규모**와 **타이틀 다양성**. 300명+ 멀티타이틀 스튜디오는 독자 엔진이 ROI가 나오지만, 40명 단일 타이틀 스튜디오는 서드파티 무수정이 더 효율적.
 
-> 💡 **핵심 인사이트:** 엔진 전략의 핵심 질문은 "우리가 엔진을 통제할 것인가, 엔진이 우리를 도울 것인가"가 아니다. "이 투자가 우리 규모와 목표에 ROI가 나오는가"다.
+## 중간 규모 독자 엔진 — Asobo Studio
+
+[[asobo-studio|Asobo Studio]]는 캡콤(2,500명)보다 훨씬 작지만 자체 엔진을 2002년부터 유지한다. [[a-plague-tale-requiem|A Plague Tale: Requiem]] 개발 시:
+
+- 언론은 Unreal Engine으로 오보했지만 실제는 Asobo 인하우스 엔진
+- 계층형 에디터 + 커스텀 기능·단축키로 소규모 팀 생산성 최적화
+- 게임 개발 중 필요한 기능을 직접 추가: Decals · Ocean · Volumetric Fog · POM
+- 장르 정체성(중세 사실주의 조명·환경)에 최적화된 렌더링 파이프라인
+
+Asobo 모델의 시사점: 독자 엔진이 꼭 대형 스튜디오만의 선택지는 아니다. 엔진이 게임의 **장르 정체성 구현 도구**가 될 때, 투자 대비 효과가 규모를 넘어설 수 있다.
+
+> 💡 **핵심 인사이트:** 엔진 전략의 핵심 질문은 "우리가 엔진을 통제할 것인가, 엔진이 우리를 도울 것인가"가 아니다. "이 투자가 우리 규모와 목표에 ROI가 나오는가"다. Asobo는 여기에 하나를 더한다: **엔진이 장르 정체성의 인프라가 될 때** 소규모라도 독자 엔진이 합리적이다.

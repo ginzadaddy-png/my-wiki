@@ -1,7 +1,7 @@
----
+﻿---
 title: "서커펀치 프로덕션"
 type: entity
-sources: ["[[GDC26 고스트 오브 요테이 강연]]", "[[GDC26 반짝임 강연]]"]
+sources: ["[[gdc26-ghost-of-yotei]]", "[[gdc26-spark]]"]
 related: ["[[ghost-of-yotei|고스트 오브 요테이]]", "[[vision-statement|비전 선언문]]", "[[playtesting|플레이테스팅]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-13
 updated: 2026-04-13

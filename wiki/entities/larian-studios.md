@@ -1,7 +1,7 @@
----
+﻿---
 title: "라리안 스튜디오"
 type: entity
-sources: ["[[GDC24 발더스 게이트3 강연]]"]
+sources: ["[[gdc24-baldurs-gate-3]]"]
 related: ["[[baldurs-gate-3|발더스 게이트3]]", "[[early-access-strategy|얼리 액세스 전략]]"]
 created: 2026-04-13
 updated: 2026-04-13
