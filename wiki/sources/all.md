@@ -7,7 +7,7 @@ title: "소스 전체 목록"
 | 파일 | 제목 | 날짜 |
 |------|------|------|
 | [zukowski-next-fest-strategy](zukowski-next-fest-strategy.md) | Steam Next Fest 2026-02 분석 (Chris Zukowski / How to Market a Game) | 2026-04 |
-| [vincke-bg3-ea](vincke-bg3-ea.md) | 스벤 빈케 — BG3 얼리 액세스 회고 (GDC 2024 + 공개 발언 종합) | 2024-03 |
+| [vincke-bg3-ea](vincke-bg3-ea.md) | 스벤 빈케 — 발더스 게이트3 얼리 액세스 회고 (GDC 2024 + 공개 발언 종합) | 2024-03 |
 | [tornqvist-valheim-ea](tornqvist-valheim-ea.md) | 헨리크 톤퀴스트 — 발하임 글로벌 성공 비결 (Skövde 대학 + Retroware 종합) | 2021-03 |
 | [fares-hazelight-playtesting](fares-hazelight-playtesting.md) | 요세프 파레스 — 잇 테이크스 투 인터뷰 (TheSixthAxis) | 2021-03 |
 | [kasavin-hades-ea](kasavin-hades-ea.md) | 그렉 카사빈 — 하데스 얼리 액세스 인터뷰 (GeekDad) | 2019-10 |

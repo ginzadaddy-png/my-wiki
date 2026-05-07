@@ -12,7 +12,7 @@ updated: 2026-04-22
 | 파일 | 설명 |
 |------|------|
 | [[team-asobi]] | 소니 퍼스트 파티, 도쿄, 65명 |
-| [[larian-studios]] | 벨기에 RPG 스튜디오, 디비니티·BG3 |
+| [[larian-studios]] | 벨기에 RPG 스튜디오, 디비니티·[[baldurs-gate-3]] |
 | [[sandfall-interactive]] | 프랑스 인디, ~40명, 33원정대 |
 | [[sucker-punch-productions]] | 소니 퍼스트 파티, 미국, 고스트 시리즈 |
 | [[mint-rocket]] | 넥슨 계열, 데이브 더 다이버 |

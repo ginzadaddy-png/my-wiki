@@ -52,7 +52,7 @@ confidence: high
 | 4. 폐쇄형 외부 랩 테스트 | 12~50명, 유료·NDA | 튜토리얼 명료성, 첫 시간 이탈, 인구통계학적 반응 | [[sucker-punch-productions]] 소니 UXR / [[team-asobi]] 12명 / [[embark-studios]] UXR |
 | 5. 친구·가족·디스코드 폐쇄 베타 | 50~5,000명, 반복 | 장시간 리텐션, 코옵 다이내믹, 소규모 서버 부하 | [[supergiant-games]] 하데스 EA + 디스코드 / [[hazelight-studios]] 폐쇄 코옵 |
 | 6. 공개 무료 데모 / Steam Next Fest | 1만~50만, 1회성 | 마케팅 시그널, 위시리스트 전환, "이 콘셉트가 차갑게 닿는가" | [[sandfall-interactive]] 클레르 옵스퀴르 33원정대 (2024 Next Fest) |
-| 7. 유료 얼리 액세스 / 공개 알파·베타 | 10만~500만, 수개월~수년 | 시스템 밸런스, 콘텐츠 수명, 모네타이제이션, 서버 스케일링 | [[larian-studios]] BG3 (3년 EA, Act 1만) / [[iron-gate-studio]] 발하임 / Bungie 데스티니 스트레스 베타 |
+| 7. 유료 얼리 액세스 / 공개 알파·베타 | 10만~500만, 수개월~수년 | 시스템 밸런스, 콘텐츠 수명, 모네타이제이션, 서버 스케일링 | [[larian-studios]] [[baldurs-gate-3]] (3년 EA, Act 1만) / [[iron-gate-studio]] 발하임 / Bungie 데스티니 스트레스 베타 |
 
 **단계 × 질문 매트릭스**
 
@@ -73,7 +73,7 @@ confidence: high
 
 ## 단계 사례 심층
 
-**[[larian-studios|라리안]] BG3 — 3년 EA를 Act 1에만**
+**[[larian-studios|라리안]] [[baldurs-gate-3|발더스 게이트3]] — 3년 EA를 Act 1에만**
 액트 1만 EA로 공개해 파티 대화 밀도, 주사위 굴림 감각, 저레벨 클래스 밸런스를 검증. 텔레메트리 기반으로 액트 1을 여러 번 재편집. 액트 2~3는 스토리 서프라이즈 보존을 위해 내부·폐쇄 테스트만 거침. **EA는 마케팅 도구가 아니라 검증 도구** — 스벤 빈케 공개 발언.
 
 **[[iron-gate-studio|아이언 게이트]] 발하임 — EA 우선 전략**

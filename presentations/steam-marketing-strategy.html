@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>스팀 마케팅 전략 — 위시리스트부터 출시까지</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #ffffff;
+      --text: #333333;
+      --text-secondary: #666666;
+      --accent: #1e3a5f;
+      --accent-light: #2c5282;
+      --accent-gold: #c8a45c;
+      --accent-gold-light: #d4b97a;
+      --surface: #f4f5f7;
+      --border: #e0e3e8;
+      --hint-bg: #f0f1f4;
+      --hint-border: #d0d3d8;
+      --hint-color: #999;
+      --navy-bar: #1e3a5f;
+      --font-body: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg);
+      color: var(--text);
+      overflow: hidden;
+      height: 100vh;
+      width: 100vw;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* PROGRESS BAR */
+    .progress-bar {
+      position: fixed; top: 0; left: 0;
+      height: 3px;
+      background: var(--accent-gold);
+      transition: width 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      z-index: 1000;
+    }
+
+    /* SLIDE COUNTER */
+    .slide-counter {
+      position: fixed; bottom: 24px; right: 32px;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--text-secondary);
+      z-index: 900;
+      user-select: none;
+    }
+
+    /* KEYBOARD HINTS */
+    .hint {
+      position: fixed; bottom: 24px; left: 32px;
+      display: flex; gap: 8px; align-items: center;
+      z-index: 900;
+      user-select: none;
+    }
+    .hint kbd {
+      display: inline-block;
+      background: var(--hint-bg);
+      border: 1px solid var(--hint-border);
+      color: var(--hint-color);
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 2px 7px;
+      border-radius: 4px;
+      line-height: 1.6;
+    }
+    .hint span {
+      color: var(--hint-color);
+      font-size: 11px;
+      margin-right: 4px;
+    }
+
+    /* FULLSCREEN BUTTON */
+    .fullscreen-btn {
+      position: fixed; top: 16px; right: 24px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      font-family: var(--font-body);
+      font-size: 13px;
+      padding: 6px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      z-index: 900;
+      transition: all 0.2s ease;
+      user-select: none;
+    }
+    .fullscreen-btn:hover {
+      background: var(--border);
+      color: var(--text);
+    }
+
+    /* DECK & SLIDES */
+    .deck { width: 100vw; height: 100vh; position: relative; }
+    .slide {
+      position: absolute; top: 0; left: 0;
+      width: 100%; height: 100%;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      padding: 60px 80px;
+      opacity: 0; visibility: hidden;
+      overflow-y: auto;
+      transition: opacity 0.5s ease, visibility 0.5s ease;
+    }
+    .slide.active { opacity: 1; visibility: visible; }
+
+    /* Navy accent bar at top */
+    .slide::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 4px;
+      background: var(--navy-bar);
+    }
+
+    /* STAGGER */
+    .slide.active .a {
+      animation: staggerIn 0.6s ease forwards;
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    .slide.active .a:nth-child(1) { animation-delay: 0.05s; }
+    .slide.active .a:nth-child(2) { animation-delay: 0.12s; }
+    .slide.active .a:nth-child(3) { animation-delay: 0.19s; }
+    .slide.active .a:nth-child(4) { animation-delay: 0.26s; }
+    .slide.active .a:nth-child(5) { animation-delay: 0.33s; }
+    .slide.active .a:nth-child(6) { animation-delay: 0.40s; }
+    .slide.active .a:nth-child(7) { animation-delay: 0.47s; }
+    .slide.active .a:nth-child(8) { animation-delay: 0.54s; }
+    .slide.active .a:nth-child(9) { animation-delay: 0.61s; }
+    .slide.active .a:nth-child(10) { animation-delay: 0.68s; }
+    @keyframes staggerIn { to { opacity: 1; transform: translateY(0); } }
+
+    /* TYPOGRAPHY */
+    h1 {
+      font-size: 3.4rem; font-weight: 700;
+      line-height: 1.15; letter-spacing: -0.02em;
+      margin-bottom: 16px;
+      color: var(--accent);
+    }
+    h2 {
+      font-size: 2.3rem; font-weight: 700;
+      line-height: 1.2; letter-spacing: -0.015em;
+      margin-bottom: 12px;
+      color: var(--accent);
+    }
+    h3 {
+      font-size: 1.4rem; font-weight: 600;
+      line-height: 1.3; margin-bottom: 8px;
+      color: var(--text);
+    }
+    p {
+      font-size: 1.2rem; line-height: 1.7;
+      color: var(--text-secondary);
+      max-width: 760px;
+    }
+    .hi { color: var(--accent-gold); }
+
+    /* TITLE SLIDE */
+    .slide-title { text-align: center; }
+    .slide-title h1 { font-size: 3.6rem; color: var(--accent); }
+    .slide-title .subtitle {
+      font-size: 1.35rem;
+      color: var(--text-secondary);
+      margin-bottom: 24px;
+      font-weight: 400;
+      max-width: 760px;
+    }
+    .slide-title .date {
+      font-family: var(--font-mono);
+      font-size: 0.9rem;
+      color: var(--hint-color);
+      letter-spacing: 0.05em;
+    }
+    .slide-title .tag {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.75rem; font-weight: 600;
+      padding: 4px 14px;
+      border-radius: 100px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .slide-title h1::after {
+      content: '';
+      display: block;
+      width: 80px; height: 3px;
+      background: var(--accent-gold);
+      margin: 16px auto 0;
+    }
+
+    /* AGENDA */
+    .toc-list {
+      list-style: none;
+      text-align: left;
+      width: 100%;
+      max-width: 620px;
+    }
+    .toc-list li {
+      display: flex; align-items: center; gap: 16px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 1.2rem;
+      color: var(--text);
+    }
+    .toc-list li:last-child { border-bottom: none; }
+    .toc-num {
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      color: var(--accent-gold);
+      font-weight: 600;
+      min-width: 28px;
+    }
+
+    /* CONTENT */
+    .content-body {
+      text-align: left;
+      max-width: 820px;
+      width: 100%;
+    }
+    .content-body h2 { margin-bottom: 20px; }
+    .content-body h2::after {
+      content: '';
+      display: block;
+      width: 48px; height: 3px;
+      background: var(--accent-gold);
+      margin-top: 10px;
+    }
+    .content-body p { margin-bottom: 16px; }
+    .content-body ul {
+      list-style: none;
+      padding: 0;
+    }
+    .content-body ul li {
+      position: relative;
+      padding-left: 24px;
+      margin-bottom: 12px;
+      font-size: 1.12rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+    .content-body ul li::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 10px;
+      width: 8px; height: 8px;
+      background: var(--accent-gold);
+      border-radius: 2px;
+    }
+    .content-body ul li strong {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    /* QUOTE */
+    .slide-quote {
+      text-align: center;
+      max-width: 880px;
+    }
+    .quote-mark {
+      font-size: 5rem;
+      color: var(--accent-gold);
+      line-height: 1;
+      margin-bottom: -10px;
+      font-family: Georgia, serif;
+    }
+    .quote-text {
+      font-size: 1.85rem;
+      font-weight: 500;
+      line-height: 1.5;
+      color: var(--text);
+      margin-bottom: 24px;
+      font-style: italic;
+    }
+    .quote-attr {
+      font-size: 1rem;
+      color: var(--text-secondary);
+    }
+    .quote-attr strong {
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .quote-sub {
+      font-size: 1rem;
+      color: var(--text-secondary);
+      margin-top: 24px;
+      max-width: 720px;
+      margin-left: auto; margin-right: auto;
+    }
+
+    /* COMPARISON */
+    .comparison {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 36px;
+      width: 100%;
+      max-width: 1020px;
+    }
+    .comparison-col {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 32px;
+      border-top: 3px solid var(--border);
+    }
+    .comparison-col.before { border-top-color: var(--text-secondary); }
+    .comparison-col.after { border-top-color: var(--accent); }
+    .comparison-col h3 {
+      margin-bottom: 8px;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .comparison-col.before h3 { color: var(--text-secondary); }
+    .comparison-col.after h3 { color: var(--accent); }
+    .comparison-col .col-meta {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      color: var(--hint-color);
+      margin-bottom: 16px;
+      letter-spacing: 0.04em;
+    }
+    .comparison-col ul {
+      list-style: none;
+      padding: 0;
+    }
+    .comparison-col ul li {
+      padding: 10px 0;
+      font-size: 0.98rem;
+      color: var(--text-secondary);
+      border-bottom: 1px solid var(--border);
+      line-height: 1.55;
+    }
+    .comparison-col ul li:last-child { border-bottom: none; }
+    .comparison-col ul li strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+    .comparison-col.before ul li::before { content: '\2014  '; color: var(--text-secondary); }
+    .comparison-col.after ul li::before { content: '\25B8  '; color: var(--accent); font-weight: 700; }
+
+    /* FLOW / STEPS */
+    .steps {
+      display: flex;
+      align-items: flex-start;
+      gap: 0;
+      width: 100%;
+      max-width: 1000px;
+      justify-content: center;
+    }
+    .step {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      flex: 1;
+      max-width: 220px;
+    }
+    .step-num {
+      width: 48px; height: 48px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-mono);
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin-bottom: 14px;
+      flex-shrink: 0;
+    }
+    .step-title {
+      font-weight: 600;
+      font-size: 1.05rem;
+      margin-bottom: 6px;
+      color: var(--text);
+    }
+    .step-desc {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+    .step-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 12px;
+      color: var(--accent-gold);
+      font-size: 1.5rem;
+      flex-shrink: 0;
+      width: 48px;
+    }
+
+    /* CARDS */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      width: 100%;
+      max-width: 1020px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 28px 24px;
+      border-top: 3px solid var(--accent);
+      transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+    .card:hover {
+      border-top-color: var(--accent-gold);
+      transform: translateY(-2px);
+    }
+    .card-icon {
+      font-size: 1.8rem;
+      margin-bottom: 12px;
+      display: block;
+    }
+    .card h3 {
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+      color: var(--accent);
+    }
+    .card p {
+      font-size: 0.92rem;
+      color: var(--text-secondary);
+      line-height: 1.55;
+    }
+    .card .card-stat {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 4px 10px;
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--accent-gold);
+      background: rgba(200, 164, 92, 0.1);
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    /* BAR CHART */
+    .chart {
+      display: flex;
+      align-items: flex-end;
+      gap: 36px;
+      height: 260px;
+      width: 100%;
+      max-width: 720px;
+      padding: 0 20px;
+    }
+    .chart-bar-group {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      justify-content: flex-end;
+    }
+    .chart-bar {
+      width: 60px;
+      background: var(--accent);
+      border-radius: 4px 4px 0 0;
+      transition: height 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      position: relative;
+    }
+    .chart-bar.gold { background: var(--accent-gold); }
+    .chart-bar.muted { background: var(--text-secondary); opacity: 0.45; }
+    .chart-value {
+      font-family: var(--font-mono);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 8px;
+      white-space: nowrap;
+    }
+    .chart-value.positive { color: #276749; }
+    .chart-value.negative { color: #c53030; }
+    .chart-label {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      margin-top: 10px;
+      text-align: center;
+      font-weight: 500;
+    }
+    .chart-baseline {
+      width: 100%;
+      max-width: 720px;
+      height: 1px;
+      background: var(--border);
+      margin-top: 0;
+    }
+    .chart-caption {
+      font-size: 0.85rem;
+      color: var(--hint-color);
+      margin-top: 18px;
+      max-width: 720px;
+      text-align: center;
+    }
+
+    /* CLOSING */
+    .slide-closing { text-align: center; }
+    .slide-closing h1 {
+      font-size: 3.8rem;
+      margin-bottom: 12px;
+      color: var(--accent);
+    }
+    .slide-closing h1::after {
+      content: '';
+      display: block;
+      width: 80px; height: 3px;
+      background: var(--accent-gold);
+      margin: 16px auto 0;
+    }
+    .slide-closing p {
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      .slide { padding: 40px 28px; }
+      h1 { font-size: 2rem; }
+      h2 { font-size: 1.5rem; }
+      .comparison { grid-template-columns: 1fr; gap: 20px; }
+      .cards { grid-template-columns: 1fr; gap: 16px; }
+      .steps { flex-direction: column; align-items: center; gap: 16px; }
+      .step-arrow { transform: rotate(90deg); width: auto; padding: 0; }
+      .chart { gap: 14px; height: 200px; }
+      .chart-bar { width: 36px; }
+      .hint { display: none; }
+    }
+
+    /* PRINT */
+    @media print {
+      body { overflow: visible; background: #ffffff; }
+      .progress-bar, .slide-counter, .hint, .fullscreen-btn { display: none !important; }
+      .deck { width: auto; height: auto; position: static; }
+      .slide {
+        position: relative;
+        opacity: 1; visibility: visible;
+        page-break-after: always; page-break-inside: avoid;
+        width: 100vw; height: 100vh;
+        padding: 60px 80px;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .slide .a { opacity: 1 !important; transform: none !important; animation: none !important; }
+      @page { size: landscape; margin: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Progress Bar -->
+  <div class="progress-bar" id="progress"></div>
+
+  <!-- Slide Counter -->
+  <div class="slide-counter" id="counter"></div>
+
+  <!-- Keyboard Hints -->
+  <div class="hint">
+    <kbd>Space</kbd><span>다음</span>
+    <kbd>&larr;</kbd><kbd>&rarr;</kbd><span>탐색</span>
+    <kbd>F</kbd><span>전체화면</span>
+    <kbd>S</kbd><span>발표자 노트</span>
+  </div>
+
+  <!-- Fullscreen Button -->
+  <button class="fullscreen-btn" onclick="toggleFullscreen()">&#x26F6; 전체화면</button>
+
+  <!-- ============================================================
+       SLIDE DECK
+  ============================================================ -->
+  <div class="deck">
+
+    <!-- ======================== SLIDE 1: TITLE ======================== -->
+    <div class="slide active" data-notes="여는 슬라이드. 청중에게 오늘 다룰 주제를 명확히 전달. 스팀 = 그냥 올리면 되는 플랫폼이 아니라, 데이터와 관계 위에서 작동하는 시장이라는 톤으로 시작.">
+      <div class="slide-title">
+        <div class="a tag">Marketing Playbook</div>
+        <h1 class="a">스팀 마케팅 전략</h1>
+        <p class="a subtitle">위시리스트부터 출시까지<br>데이터로 본 6가지 원칙</p>
+        <p class="a date">2026.05.07</p>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 2: AGENDA ======================== -->
+    <div class="slide" data-notes="여섯 단계로 진행. 시장 지형 → 위시리스트 → 데모 → 스토어 페이지 → 출시·커뮤니티 → 인사이트. 각 섹션은 GDC 강연·Airbridge 보고서·인디비즈 분석 등 1차 자료에서 추출한 내용임을 짚고 시작.">
+      <h2 class="a">Agenda</h2>
+      <ol class="toc-list">
+        <li class="a"><span class="toc-num">01</span> 시장 지형 — 가격대 변화</li>
+        <li class="a"><span class="toc-num">02</span> 위시리스트 경제학</li>
+        <li class="a"><span class="toc-num">03</span> 데모와 넥스트 페스트</li>
+        <li class="a"><span class="toc-num">04</span> 스토어 페이지 최적화</li>
+        <li class="a"><span class="toc-num">05</span> 출시 + 커뮤니티 운영</li>
+        <li class="a"><span class="toc-num">06</span> 핵심 인사이트</li>
+      </ol>
+    </div>
+
+    <!-- ======================== SLIDE 3: BIG IDEA ======================== -->
+    <div class="slide" data-notes="오늘의 큰 메시지를 먼저 박는다. 마케팅 = 광고 집행이 아니라 '관계 자본'의 누적. 출시일이 마케팅의 시작점이 아니라 정산 시점일 뿐. 청중이 이 한 문장을 가져가는 게 목표.">
+      <div class="content-body">
+        <h2 class="a">스팀 성공의 <span class="hi">공통점</span></h2>
+        <p class="a">
+          스팀에서 흥행한 게임들은 출시 직전에 마케팅 예산을 쏟아부어 성공한 것이 아니다.
+          오랜 시간 쌓아온 관계가 출시 첫 주에 모멘텀으로 환산될 뿐이다.
+        </p>
+        <ul>
+          <li class="a"><strong>플랫폼</strong> — 1~2년 전부터 빌드·아트·진척 공유, 비공개 행사 우선 참석</li>
+          <li class="a"><strong>커뮤니티</strong> — 대표 명의 직접 소통이 대행사 멘트보다 신뢰를 만든다</li>
+          <li class="a"><strong>크리에이터</strong> — 구독자 수보다 게임과의 접점(유사 장르 플레이 이력)</li>
+          <li class="a">출시일은 마케팅의 시작이 아니라 그동안 쌓인 관계 자본의 정산일이다</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 4: CHART — 가격대 변화 ======================== -->
+    <div class="slide" data-notes="2022년부터 2025년까지 가격대별 수익 변화. $30~50 구간이 +195%로 가장 빠른 성장. 이 구간이 '미드 프라이스 스위트 스팟'. 클레르 옵스퀴르($50, 600만장+), 헬다이버스2($40, 2,000만장+), 아크 레이더스($40, 1,400만장)가 이 구간의 대표. $70 이상 AAA 가격은 정체·하락. Bain 2025 조사: 게이머의 22%가 핵심 게임플레이를, 7%만이 고품질 그래픽을 최우선으로 꼽는다.">
+      <h2 class="a" style="margin-bottom: 8px; text-align: center;">가격대별 수익 변화 <span class="hi">2022 → 2025</span></h2>
+      <p class="a" style="margin-bottom: 28px; text-align: center;">$30~50 구간 — 미드 프라이스 스위트 스팟</p>
+      <div class="chart a">
+        <div class="chart-bar-group">
+          <div class="chart-value positive">+156%</div>
+          <div class="chart-bar" style="height: 70%;"></div>
+          <div class="chart-label">$30 미만</div>
+        </div>
+        <div class="chart-bar-group">
+          <div class="chart-value positive">+195%</div>
+          <div class="chart-bar gold" style="height: 88%;"></div>
+          <div class="chart-label">$30 ~ $50</div>
+        </div>
+        <div class="chart-bar-group">
+          <div class="chart-value">정체</div>
+          <div class="chart-bar muted" style="height: 22%;"></div>
+          <div class="chart-label">$50 ~ $70</div>
+        </div>
+        <div class="chart-bar-group">
+          <div class="chart-value negative">하락</div>
+          <div class="chart-bar muted" style="height: 12%;"></div>
+          <div class="chart-label">$70 +</div>
+        </div>
+      </div>
+      <div class="chart-baseline a"></div>
+      <p class="a chart-caption">출처 — Newzoo 2026 시장 분석, Bain &amp; Company 2025</p>
+    </div>
+
+    <!-- ======================== SLIDE 5: QUOTE — 가격은 포지셔닝 ======================== -->
+    <div class="slide" data-notes="가격은 단순한 숫자가 아니라 메시지. 장르 평균 이하로 내리면 '품질이 떨어지는 거 아닌가'라는 의심을 산다. $40은 'AAA가 아닌 것'이 아니라 '플레이어의 시간을 존중하는 포지션'으로 읽힌다. 비즈니스 모델이 게임플레이 루프를 규정한다 — 아크 레이더스 사례.">
+      <div class="slide-quote">
+        <div class="a quote-mark">&ldquo;</div>
+        <p class="a quote-text">가격은 수익 계산식이 아니라<br>포지셔닝 선언이다.</p>
+        <p class="a quote-attr">&mdash; <strong>게임 가격 전략</strong> · 핵심 인사이트</p>
+        <p class="a quote-sub">$40은 'AAA가 아닌 것'이 아니라 '플레이어의 시간을 존중하는 것'으로 읽힌다.<br>장르 평균을 이탈하지 않되, 비즈니스 모델과 게임플레이 철학이 일관된 가격을 선택할 것.</p>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 6: CARDS — 위시리스트 경제학 ======================== -->
+    <div class="slide" data-notes="위시리스트는 '밸브 달러' — 통화처럼 작동한다. 수가 많다고 좋은 게 아니라 질이 중요하다. 첫 카드: 위시리스트가 알고리즘 트리거이자 교섭력. 둘째 카드: Airbridge 분석에 따르면 자발적 70% 미만이면 출시 전환율이 무너진다. 이벤트 보상으로 모은 위시리스트는 함정. 셋째 카드: 스팀은 단순 수치보다 '모멘텀'을 본다 — 증가율과 지속성이 핵심.">
+      <h2 class="a" style="margin-bottom: 28px; text-align: center;">위시리스트 = <span class="hi">밸브 달러</span></h2>
+      <div class="cards">
+        <div class="card a">
+          <span class="card-icon">&#128202;</span>
+          <h3>알고리즘 트리거</h3>
+          <p>추천 큐 진입의 통화. 이벤트 노출 우위. 플랫폼 교섭력. 팔로워 + 뉴스 포스트 결합 시 효과 극대화.</p>
+          <span class="card-stat">디스커버리 큐 트래픽 45%</span>
+        </div>
+        <div class="card a">
+          <span class="card-icon">&#9989;</span>
+          <h3>자발적 70%+</h3>
+          <p>이벤트 보상으로 모은 위시리스트는 출시 전환율이 무너진다. 자발적 위시리스트 비중이 곧 질이다.</p>
+          <span class="card-stat">아래는 출시 실망</span>
+        </div>
+        <div class="card a">
+          <span class="card-icon">&#128640;</span>
+          <h3>수치보다 모멘텀</h3>
+          <p>스팀이 보는 건 절대 수치가 아니라 증가율의 지속성. 오래된 위시리스트는 효력이 감소한다.</p>
+          <span class="card-stat">주기적 관심 유도 필수</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 7: FLOW — 데모 우선 4단계 ======================== -->
+    <div class="slide" data-notes="크리스 주코프스키의 GDC 25 강연 핵심: '모든 마케팅 활동은 데모에 비하면 미미하다.' 데모는 출시 한참 전부터 공개해 피드백을 받는 도구. 넥스트 페스트는 데모 마케팅의 그랜드 피날레이지 시작점이 아니다. 데모를 행사 1개월 이상 전에 미리 출시해둔 게임이 일관되게 우수한 성과. shadow-drop 비추천.">
+      <h2 class="a" style="margin-bottom: 8px; text-align: center;">출시까지의 <span class="hi">4단계</span></h2>
+      <p class="a" style="margin-bottom: 36px; text-align: center;">"모든 마케팅 활동은 데모에 비하면 미미하다" — Chris Zukowski</p>
+      <div class="steps">
+        <div class="step a">
+          <div class="step-num">1</div>
+          <div class="step-title">데모 공개</div>
+          <div class="step-desc">개발 초기부터 공개해 코어 오디언스 확보 · shadow-drop 비추천</div>
+        </div>
+        <div class="step-arrow a">&rarr;</div>
+        <div class="step a">
+          <div class="step-num">2</div>
+          <div class="step-title">플레이테스트</div>
+          <div class="step-desc">피드백 반영 · 데모 빌드 개선 · 주기적 업데이트로 위시리스트 활성화</div>
+        </div>
+        <div class="step-arrow a">&rarr;</div>
+        <div class="step a">
+          <div class="step-num">3</div>
+          <div class="step-title">넥스트 페스트</div>
+          <div class="step-desc">그랜드 피날레 — 1개월 이상 사전 출시한 게임이 일관되게 우수</div>
+        </div>
+        <div class="step-arrow a">&rarr;</div>
+        <div class="step a">
+          <div class="step-num">4</div>
+          <div class="step-title">출시</div>
+          <div class="step-desc">첫 2일 25,000회 노출이 분기점 · 3일째 성과가 이후를 결정</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 8: CHART — 넥스트 페스트 정량 ======================== -->
+    <div class="slide" data-notes="2025-2026 넥스트 페스트 정량 분석. 사전 위시리스트와 행사 성과의 상관관계 r=0.825 — 가장 강력한 예측 변수. 사전 위시리스트가 1,000개 미만이면 행사 중 중간값은 322개에 불과. 100,000개 이상 그룹은 12,882개. 결론: 최소 2,000개를 확보하고 들어가야 의미 있는 경쟁이 된다. 행사장 도착 전에 이미 절반이 결정된다.">
+      <h2 class="a" style="margin-bottom: 8px; text-align: center;">넥스트 페스트 — <span class="hi">사전 위시리스트가 결정한다</span></h2>
+      <p class="a" style="margin-bottom: 28px; text-align: center;">사전 위시리스트별 행사 중 신규 위시리스트 중간값</p>
+      <div class="chart a" style="max-width: 760px;">
+        <div class="chart-bar-group">
+          <div class="chart-value">322</div>
+          <div class="chart-bar muted" style="height: 4%;"></div>
+          <div class="chart-label">0 ~ 999</div>
+        </div>
+        <div class="chart-bar-group">
+          <div class="chart-value">1,006</div>
+          <div class="chart-bar" style="height: 12%;"></div>
+          <div class="chart-label">1k ~ 9.9k</div>
+        </div>
+        <div class="chart-bar-group">
+          <div class="chart-value">5,215</div>
+          <div class="chart-bar" style="height: 50%;"></div>
+          <div class="chart-label">10k ~ 99k</div>
+        </div>
+        <div class="chart-bar-group">
+          <div class="chart-value">12,882</div>
+          <div class="chart-bar gold" style="height: 92%;"></div>
+          <div class="chart-label">100k +</div>
+        </div>
+      </div>
+      <div class="chart-baseline a"></div>
+      <p class="a chart-caption">상관계수 r = 0.825 (가장 강력한 예측 변수) · 진입 임계점 ≈ 사전 위시리스트 2,000개</p>
+    </div>
+
+    <!-- ======================== SLIDE 9: CARDS — 스토어 페이지 최적화 ======================== -->
+    <div class="slide" data-notes="스토어 페이지 = 출시 후 꾸미는 전시 공간이 아니라 개발과 동시에 설계하는 첫 마케팅 무대. 첫 카드: 트레일러 첫 5초 안에 게임플레이가 시작되어야 한다 — 한 사례에서 18초→1초 변경으로 전환율 +31%. 둘째: 태그 20개 모두 사용, 상위 5개가 알고리즘 가중치 최대. 'Indie' 같은 범용 태그를 상위에 두는 건 자살 행위. 셋째: 캡슐 아트 — 검색 결과 썸네일은 120×45px까지 작아진다. 이 크기에서 로고가 안 보이면 끝.">
+      <h2 class="a" style="margin-bottom: 28px; text-align: center;">스토어 페이지 <span class="hi">최적화</span></h2>
+      <div class="cards">
+        <div class="card a">
+          <span class="card-icon">&#127916;</span>
+          <h3>트레일러 첫 5초</h3>
+          <p>인트로는 짧게, 게임플레이는 빠르게. 트레일러 시작에 게임플레이를 즉시 보여줄 때 전환율이 폭발한다.</p>
+          <span class="card-stat">전환율 +31% 사례</span>
+        </div>
+        <div class="card a">
+          <span class="card-icon">&#127991;&#65039;</span>
+          <h3>태그 20개 + 상위 5개</h3>
+          <p>20개 슬롯 전부 사용. 상위 5개가 알고리즘 가중치 최대. 'Indie' 같은 범용 태그를 상위에 두지 말 것.</p>
+          <span class="card-stat">유저 언어 사용 · 성공작 벤치마크</span>
+        </div>
+        <div class="card a">
+          <span class="card-icon">&#127912;</span>
+          <h3>캡슐 아트 가독성</h3>
+          <p>썸네일은 120×45px까지 축소된다. 그 크기에서 로고가 보이지 않으면 검색 결과에서 사라진다.</p>
+          <span class="card-stat">스크린샷 8~12장 권장</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 10: COMPARISON — 스팀 두 시장 ======================== -->
+    <div class="slide" data-notes="GDC 24 크리스 주코프스키의 핵심 통찰: 스팀은 사실상 두 개의 다른 시장이다. 초기 인디(94%)는 디스커버리 큐 의존, 출시 첫 2일이 결정적, 번역 우선순위와 출시 요일이 작은 차이를 만든다. 레알 스팀(상위 6%, 출시 후 6~9개월 내 $260K 매출 달성)에 진입하면 데일리 딜·위크엔드 딜이 열리고 밸브가 직접 프로모션을 제안한다. 다만 — 요청해야만 해준다. 스팀은 절대 먼저 알려주지 않는다.">
+      <h2 class="a" style="margin-bottom: 28px; text-align: center;">스팀은 <span class="hi">두 개의 시장</span>이다</h2>
+      <div class="comparison">
+        <div class="comparison-col before a">
+          <h3>초기 인디</h3>
+          <div class="col-meta">94% · DISCOVERY QUEUE 의존</div>
+          <ul>
+            <li><strong>번역 우선순위</strong> 중국어 → 일본어·한국어 → FIGS</li>
+            <li><strong>월요일 출시</strong> 강추 (주말 3일 노출 유지) · 화요일 금지</li>
+            <li>AAA와 같은 날 출시 → 경쟁 피한 게임들이 빠져 슬롯 확보</li>
+            <li>출시 첫 2일 25,000회 노출이 분기점 · 3일째 성과가 이후 결정</li>
+            <li>퍼블리시 버튼 누락 시 $8,000/일 기준 재산정 — 절대 잊지 말 것</li>
+          </ul>
+        </div>
+        <div class="comparison-col after a">
+          <h3>레알 스팀</h3>
+          <div class="col-meta">상위 6% · 출시 6~9개월 내 $260K+</div>
+          <ul>
+            <li><strong>밸브 프로모션 제안</strong> 무조건 YES (데일리 딜 ~$250K, 위크엔드 ~$1M)</li>
+            <li>출시 할인을 시즌 세일과 겹치게 → 30일 제한 우회</li>
+            <li>쇼케이스 슬롯 = 배너 광고보다 효율 압도</li>
+            <li>1~2년 전부터 빌드·아트 공유, 파트너 커넥트 비공개 행사 최우선</li>
+            <li><strong>요청해야만 해준다</strong> — 스팀은 절대 먼저 알려주지 않는다</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 11: CONTENT — 출시 타이밍 / 캘린더 ======================== -->
+    <div class="slide" data-notes="2026년의 특수성. GTA 6가 11월 19일 출시 — 이 작품이 연도를 양분한다. 그 전후로 모든 AAA가 회피 출시를 한다. Q2(4~6월)가 결과적으로 황금 런치 윈도우. 전통 게임 미디어 인력은 축소 추세 — 크리에이터가 1차 채널. 큐레이션 쇼케이스(Summer Game Fest, Triple-i Initiative 등) 슬롯은 돈으로 살 수 없는 신뢰도. 광고 효율과 비교 불가.">
+      <div class="content-body">
+        <h2 class="a">2026 마케팅 <span class="hi">캘린더</span></h2>
+        <p class="a">
+          GTA 6가 11월 19일 출시되면서 연도를 양분한다.
+          전후로 모든 AAA가 회피 출시를 결정하기 때문에 윈도우 자체가 좁아진다.
+        </p>
+        <ul>
+          <li class="a"><strong>Q2 (4~6월) = 황금 런치 윈도우</strong> — 충돌 회피의 사각지대</li>
+          <li class="a"><strong>Steam Next Fest</strong> 출시 전 1회만 사용 권장 — 두 번째는 모멘텀 분산</li>
+          <li class="a">크리에이터 중심 전략 필수 — 전통 게임 미디어 인력 축소, TikTok·YouTube가 1차 채널</li>
+          <li class="a">큐레이션 쇼케이스(SGF, Triple-i 등) 슬롯 = 돈으로 살 수 없는 신뢰도</li>
+          <li class="a">대형 세일보다 장르별 소규모 이벤트에서 집중 효과가 더 높을 수 있다</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 12: QUOTE — 커뮤니티 운영 ======================== -->
+    <div class="slide" data-notes="민트로켓·데이브 더 다이버 사례. Discord에서 개발자가 직접 답변 — 못 하는 이유, 일정, 우선순위까지 투명하게. Reddit은 비개입 원칙(감동적 사례에만 제한 등장). 스팀 커뮤니티는 핵심 이슈에만 개입. 결과: 밸브로부터 '커뮤니티 운영이 인상적' 피드백 획득. 핵심: 대표 명의 직접 소통이 대행사 멘트보다 신뢰를 만든다.">
+      <div class="slide-quote">
+        <div class="a quote-mark">&ldquo;</div>
+        <p class="a quote-text">대표 명의 직접 소통이<br>대행사 멘트보다 신뢰를 만든다.</p>
+        <p class="a quote-attr">&mdash; <strong>커뮤니티 운영 원칙</strong> · 민트로켓 · 데이브 더 다이버</p>
+        <p class="a quote-sub">Discord에서 개발자가 직접 답변하고, 못 하는 이유·일정·우선순위까지 투명하게 공개한다.<br>Reddit은 비개입, Steam은 핵심 이슈에만 — 채널마다 다른 거리감을 유지한다.</p>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 13: CARDS — 아시아 사각지대 ======================== -->
+    <div class="slide" data-notes="Airbridge × Liquid Advertising 보고서: 아시아 스튜디오가 가장 자주 놓치는 세 채널. 첫째: 커뮤니티 — 단순히 '안다'와 '의미 있게 존재감을 드러내는 것'은 다르다. 둘째: 하이터치 프로그래매틱 — 클릭(상위 퍼널)만 보지 말고 노출 순서·빈도·오디언스 타겟팅까지 설계. 셋째: OTT/CTV — 미국·유럽에서는 더 이상 틈새가 아니다. 삼성·LG·Vizio TV에서 광고 시청과 실제 플레이를 추적할 수 있다.">
+      <h2 class="a" style="margin-bottom: 28px; text-align: center;">아시아 스튜디오의 <span class="hi">세 가지 사각지대</span></h2>
+      <div class="cards">
+        <div class="card a">
+          <span class="card-icon">&#128172;</span>
+          <h3>커뮤니티 운영</h3>
+          <p>Discord·Reddit에 '있다'와 '의미 있게 존재감을 드러내는 것'은 다르다. 단순 채널 개설이 아닌 일관된 톤과 답변 속도가 핵심.</p>
+          <span class="card-stat">Discord · Reddit</span>
+        </div>
+        <div class="card a">
+          <span class="card-icon">&#128202;</span>
+          <h3>하이터치 프로그래매틱</h3>
+          <p>클릭(상위 퍼널)만 보지 말 것. 노출 순서·빈도·오디언스 타겟팅으로 전체 퍼널을 연결해 설계해야 한다.</p>
+          <span class="card-stat">전체 퍼널 연결</span>
+        </div>
+        <div class="card a">
+          <span class="card-icon">&#128250;</span>
+          <h3>OTT &middot; CTV</h3>
+          <p>미국·유럽에서 틈새가 아니다. 삼성·LG·Vizio 시청 데이터로 광고 시청 → 실제 플레이까지 추적 가능.</p>
+          <span class="card-stat">측정 가능한 브랜딩</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 14: 핵심 인사이트 ======================== -->
+    <div class="slide" data-notes="오늘의 종합. 여섯 원칙을 한 화면에 정리. 청중이 가장 기억해야 할 메시지: 1) 가격은 포지셔닝 2) 위시리스트는 양보다 질 3) 데모가 마케팅의 본체 4) 스토어 페이지는 첫 마케팅 무대 5) 출시 전부터 관계 자본 누적 6) 스팀은 두 시장 — 자기 위치를 알아야 다음 수가 보인다. 이 여섯 원칙이 모든 채널 전술의 상위 프레임.">
+      <div class="content-body">
+        <h2 class="a">여섯 가지 <span class="hi">원칙</span></h2>
+        <ul>
+          <li class="a"><strong>가격은 포지셔닝 선언</strong> — 장르 평균 이탈 금지, $30~50 미드 프라이스가 스위트 스팟</li>
+          <li class="a"><strong>위시리스트는 양보다 질</strong> — 자발적 70% 이상, 모멘텀이 절대 수치보다 중요</li>
+          <li class="a"><strong>모든 마케팅은 데모에 비하면 미미하다</strong> — 데모를 1개월 이상 사전 공개</li>
+          <li class="a"><strong>스토어 페이지는 첫 마케팅 무대</strong> — 출시 후 꾸미는 전시 공간이 아니다</li>
+          <li class="a"><strong>출시 전부터 관계 자본을 누적한다</strong> — 플랫폼·커뮤니티·크리에이터 모두</li>
+          <li class="a"><strong>스팀은 두 시장이다</strong> — 자기 위치를 알아야 다음 수가 보인다</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 15: CLOSING ======================== -->
+    <div class="slide" data-notes="마무리. 청중에게 감사 인사. Q&A로 자연스럽게 전환.">
+      <div class="slide-closing">
+        <h1 class="a">Thank You</h1>
+        <p class="a">질문, 피드백, 토론 환영합니다.</p>
+      </div>
+    </div>
+
+  </div>
+  <!-- END DECK -->
+
+  <script>
+    (function () {
+      'use strict';
+
+      var slides = Array.from(document.querySelectorAll('.slide'));
+      var progressBar = document.getElementById('progress');
+      var counter = document.getElementById('counter');
+
+      var current = 0;
+      var total = slides.length;
+      var notesWindow = null;
+
+      /* HASH NAVIGATION */
+      function readHash() {
+        var hash = window.location.hash;
+        if (hash && /^#\d+$/.test(hash)) {
+          var idx = parseInt(hash.substring(1), 10) - 1;
+          if (idx >= 0 && idx < total) {
+            slides[current].classList.remove('active');
+            current = idx;
+            slides[current].classList.add('active');
+          }
+        }
+      }
+      function writeHash() { history.replaceState(null, '', '#' + (current + 1)); }
+
+      /* NAVIGATION */
+      function goTo(index) {
+        if (index < 0 || index >= total || index === current) return;
+        slides[current].classList.remove('active');
+        current = index;
+        slides[current].classList.add('active');
+        updateUI();
+      }
+      function next() { goTo(current + 1); }
+      function prev() { goTo(current - 1); }
+
+      function updateUI() {
+        var pct = ((current + 1) / total) * 100;
+        progressBar.style.width = pct + '%';
+        counter.textContent = (current + 1) + ' / ' + total;
+        writeHash();
+        updateNotes();
+      }
+
+      /* SPEAKER NOTES — POPUP WINDOW */
+      function buildNotesHTML() {
+        return [
+          '<!doctype html><html lang="ko"><head><meta charset="UTF-8">',
+          '<title>발표자 노트</title>',
+          '<style>',
+          '*{box-sizing:border-box;margin:0;padding:0}',
+          'html,body{height:100%;font-family:-apple-system,BlinkMacSystemFont,"Pretendard","Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif;background:#f4f5f7;color:#333;-webkit-font-smoothing:antialiased}',
+          'body{padding:28px 32px;display:flex;flex-direction:column;gap:18px;overflow-y:auto}',
+          '.label{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#999}',
+          '.slide-info{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid #e0e3e8;padding-bottom:12px}',
+          '.slide-num{font-family:"JetBrains Mono",monospace;font-size:13px;font-weight:600;color:#1e3a5f}',
+          '.notes{font-size:17px;line-height:1.7;color:#333;white-space:pre-wrap}',
+          '.next-block{margin-top:auto;padding-top:18px;border-top:1px solid #e0e3e8}',
+          '.next-text{font-size:13px;color:#666;line-height:1.55;margin-top:6px}',
+          '.next-text strong{color:#1e3a5f}',
+          '@media(max-width:600px){body{padding:18px 20px} .notes{font-size:15px}}',
+          '</style></head><body>',
+          '<div class="slide-info"><span class="label">Speaker Notes</span><span class="slide-num" id="snum"></span></div>',
+          '<div class="notes" id="snotes"></div>',
+          '<div class="next-block"><span class="label">다음 슬라이드</span><div class="next-text" id="snext"></div></div>',
+          '</body></html>'
+        ].join('');
+      }
+
+      function toggleNotes() {
+        if (notesWindow && !notesWindow.closed) {
+          notesWindow.close();
+          notesWindow = null;
+          return;
+        }
+        notesWindow = window.open('', 'SpeakerNotes', 'width=540,height=460');
+        if (!notesWindow) return;
+        notesWindow.document.open();
+        notesWindow.document.write(buildNotesHTML());
+        notesWindow.document.close();
+        updateNotes();
+      }
+      window.toggleNotes = toggleNotes;
+
+      function getSlideTitle(slide) {
+        var h = slide.querySelector('h1, h2, .quote-text');
+        if (h) return h.textContent.trim().replace(/\s+/g, ' ').slice(0, 80);
+        return '(제목 없음)';
+      }
+
+      function updateNotes() {
+        if (!notesWindow || notesWindow.closed) return;
+        var doc = notesWindow.document;
+        var snum = doc.getElementById('snum');
+        var snotes = doc.getElementById('snotes');
+        var snext = doc.getElementById('snext');
+        if (!snum || !snotes || !snext) return;
+
+        snum.textContent = 'Slide ' + (current + 1) + ' / ' + total;
+        snotes.textContent = slides[current].getAttribute('data-notes') || '(노트 없음)';
+        if (current + 1 < total) {
+          snext.innerHTML = '<strong>' + (current + 2) + '.</strong> ' + getSlideTitle(slides[current + 1]);
+        } else {
+          snext.textContent = '— 마지막 슬라이드 —';
+        }
+      }
+
+      /* FULLSCREEN */
+      window.toggleFullscreen = function () {
+        if (!document.fullscreenElement) {
+          document.documentElement.requestFullscreen().catch(function () {});
+        } else {
+          document.exitFullscreen().catch(function () {});
+        }
+      };
+
+      /* KEYBOARD */
+      document.addEventListener('keydown', function (e) {
+        if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+        switch (e.key) {
+          case 'ArrowRight': case 'ArrowDown': e.preventDefault(); next(); break;
+          case 'ArrowLeft': case 'ArrowUp': e.preventDefault(); prev(); break;
+          case ' ': e.preventDefault(); if (e.shiftKey) prev(); else next(); break;
+          case 'f': case 'F': e.preventDefault(); window.toggleFullscreen(); break;
+          case 's': case 'S': e.preventDefault(); toggleNotes(); break;
+          case 'Home': e.preventDefault(); goTo(0); break;
+          case 'End': e.preventDefault(); goTo(total - 1); break;
+        }
+      });
+
+      /* CLICK NAVIGATION */
+      document.querySelector('.deck').addEventListener('click', function (e) {
+        if (e.target.closest('a, button, .card, .step, .toc-list li')) return;
+        var x = e.clientX;
+        var width = window.innerWidth;
+        var leftThird = width / 3;
+        if (x < leftThird) prev(); else next();
+      });
+
+      /* TOUCH / SWIPE */
+      var tx = 0, ty = 0, ex = 0, ey = 0;
+      document.addEventListener('touchstart', function (e) {
+        tx = e.changedTouches[0].screenX;
+        ty = e.changedTouches[0].screenY;
+      }, { passive: true });
+      document.addEventListener('touchend', function (e) {
+        ex = e.changedTouches[0].screenX;
+        ey = e.changedTouches[0].screenY;
+        var dx = tx - ex, dy = ty - ey;
+        if (Math.abs(dx) < 50 || Math.abs(dx) < Math.abs(dy)) return;
+        if (dx > 0) next(); else prev();
+      }, { passive: true });
+
+      /* HASH CHANGE */
+      window.addEventListener('hashchange', function () {
+        readHash(); updateUI();
+      });
+
+      /* CLOSE NOTES ON UNLOAD */
+      window.addEventListener('beforeunload', function () {
+        if (notesWindow && !notesWindow.closed) notesWindow.close();
+      });
+
+      /* INIT */
+      readHash();
+      updateUI();
+    })();
+  </script>
+</body>
+</html>

@@ -19,7 +19,7 @@ confidence: medium
 
 ## 라이브 서비스 실험과 귀환
 
-Dragon Age: The Veilguard에서 라이브 서비스 구조 실험 실패 후 원점 회귀. 개발팀 자체 평가로 "가장 의도적으로 제작된 동반자 경험"이라 표현. Larian(BG3)이 BioWare 공식을 계승·확장하는 사이, BioWare는 자사 원형으로 돌아가는 역설적 경로를 걸었다.
+Dragon Age: The Veilguard에서 라이브 서비스 구조 실험 실패 후 원점 회귀. 개발팀 자체 평가로 "가장 의도적으로 제작된 동반자 경험"이라 표현. Larian([[baldurs-gate-3|발더스 게이트3]])이 BioWare 공식을 계승·확장하는 사이, BioWare는 자사 원형으로 돌아가는 역설적 경로를 걸었다.
 
 ## 업계 위상
 

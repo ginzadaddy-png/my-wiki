@@ -9,7 +9,7 @@ confidence: high
 ---
 
 발표자: David Ortiz Lapaz (COO, ICO Partners). GDC 2026.
-경력: BG3, D&D, MtG, Nightingale, Lies of P, Tunic, Guild Wars 2 등 참여. 2023년 23개 타이틀 출시.
+경력: [[baldurs-gate-3|발더스 게이트3]], D&D, MtG, Nightingale, Lies of P, Tunic, Guild Wars 2 등 참여. 2023년 23개 타이틀 출시.
 
 ## 문제 정의
 
@@ -67,7 +67,7 @@ confidence: high
 - Steam Next Fest → PC 게임 필수
 - Steam 페스티벌 → 기대치 관리
 
-## BG3 사례 분석
+## 발더스 게이트3 사례 분석
 
 | 기간 | 주요 채널 |
 |------|----------|
