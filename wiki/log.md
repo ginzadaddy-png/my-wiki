@@ -2,6 +2,57 @@
 title: "활동 로그"
 ---
 
+## [2026-05-07] expand | game-trailer-design (gdc26 트레일러+통합 마케팅 통합)
+- 업데이트: wiki/concepts/game-trailer-design.md
+- 추가 sources frontmatter: gdc26-integrated-marketing
+- 추가 related: community-management
+- 신규 섹션 4개:
+  - 통합 마케팅 안에서의 트레일러 (트레일러 = 크리에이티브 레이어, 여러 레이어 동시 발화)
+  - 런치 플래닝 — 트레일러 비트 매핑 (핵심 비트·CTA·레이어 선택, 타임라인 고려사항)
+  - 사례 BG3 단계별 트레일러 활용 (PC출시전·PC출시·PS5·Xbox 4단계 비교표)
+  - 사례 소예산 트레일러 효과 (Tunic 미디어스코어 4.5, Chicory $5K → 5M 임프레션)
+- 추가 인사이트 callout: "트레일러를 어느 레이어와 함께 발화시킬지가 진짜 디자인"
+- 신규 raw fetch 없음 — 두 GDC26 소스 모두 기존 위키에 보유
+
+## [2026-05-07] ingest | 5 sources — Kasavin·Vincke·Fares·Törnqvist·Zukowski
+- Source: raw/articles/2026-05-07-{slug}.md (5개 파일, WebSearch+WebFetch로 수집)
+- 생성:
+  - wiki/sources/kasavin-hades-ea.md (그렉 카사빈 GeekDad 인터뷰 / 하데스 EA "파일럿 에피소드" 모델)
+  - wiki/sources/vincke-bg3-ea.md (스벤 빈케 GDC 2024 리캡 / BG3 3년 EA 검증 도구)
+  - wiki/sources/fares-hazelight-playtesting.md (요세프 파레스 TheSixthAxis / 짝 단위 코옵 테스트)
+  - wiki/sources/tornqvist-valheim-ea.md (헨리크 톤퀴스트 Skövde+Retroware / 발하임 EA 5인 팀)
+  - wiki/sources/zukowski-next-fest-strategy.md (Chris Zukowski 2026-02 분석 / Next Fest = 마케팅 부스터)
+- 업데이트:
+  - wiki/concepts/playtesting.md (sources 5개 추가)
+  - wiki/concepts/early-access-strategy.md (sources Kasavin·Vincke 추가, Supergiant 사례 + Larian/Supergiant 공통 패턴 섹션)
+  - wiki/concepts/launch-metrics.md (sources Zukowski 추가, Next Fest 2026-02 업데이트 섹션)
+  - wiki/concepts/marketing-strategy.md (sources Zukowski 추가)
+  - wiki/entities/supergiant-games.md (sources Kasavin 추가, "파일럿 에피소드" 모델 섹션)
+  - wiki/entities/larian-studios.md (sources Vincke 추가, BG3 EA 전략 섹션)
+  - wiki/entities/hazelight-studios.md (sources Fares 추가, 짝 단위 테스트 섹션)
+  - wiki/entities/iron-gate-studio.md (sources Törnqvist 추가, 발하임 EA 회고 섹션)
+- 메타: wiki/index.md 소스 95→100, Last updated 2026-05-07 / wiki/sources/all.md 5행 추가
+- 신뢰도: 4 high (Kasavin·Fares·Zukowski·Iron Gate) + 1 medium-low (Vincke — 원 GDC 강연 트랜스크립트 미접근, 외부 리캡 기반)
+
+## [2026-05-07] expand | playtesting (규모 선택 프레임워크)
+- 업데이트: wiki/concepts/playtesting.md (규모 선택 프레임워크·단계 사례 심층·안티패턴·프레임워크 모음 4개 섹션 추가)
+- 추가 wikilink: larian-studios, iron-gate-studio, supergiant-games, hazelight-studios, sandfall-interactive (모두 기존 entity)
+- 추가 related: early-access-strategy
+- 신규 소스 후보 (미생성): Greg Kasavin GDC 2021 "Early Access Lessons from Hades", Swen Vincke BG3 EA 인터뷰, Josef Fares Game Maker's Notebook, Iron Gate Henrik Törnqvist 인터뷰, Chris Zukowski Steam Next Fest 분석 — 향후 ingest 대상
+- 조사 방법: WebSearch (NotebookLM 자동화 미가능 — 다른 Claude 계정으로 Chrome 확장 로그인 상태)
+
+## [2026-05-07] lint
+- 모순: 4건 (3건 ⚠️ 블록으로 해소 표시 / 1건 open — gdc26-idg-finding-signal-noise vs matthew-ball-2026-report 시점 전망 차이, 본질적 충돌은 아님)
+- 데드 링크: 0건 — 이전 lint(2026-04-28)에서 발견된 [[bioware]], [[obsidian-entertainment]] 모두 entity 페이지 생성으로 해소됨
+- 고립 페이지: 0건 — 모든 entity·concept·comparison 페이지가 최소 1회 이상 교차 참조됨
+- 미생성 개념 (3회+ 언급): "심리적 안전"(kumhotire·gamedev-leadership·studio-culture), "프로젝트 실패 문화"(supercell·embark 패턴) — 신규 concept 후보
+- 다음 조사 주제 제안:
+  1. concept: psychological-safety — Aristotle Project·Kumho Tire·Supercell 사례 통합
+  2. concept: project-failure-culture — 프로젝트 취소를 학습 자산화하는 조직 패턴
+  3. playtesting.md 확장 — 규모별 테스트 선택(12명 소규모·내부 QA·EA 공개) 프레임워크 추가
+  4. game-trailer-design 보강 — gdc26-game-trailers, gdc26-integrated-marketing 통합 분석
+- overview.md 업데이트: 핵심 테마에 game-pricing-strategy, mobile-gamedev 추가 (최근 ingest 반영)
+
 ## [2026-04-28] concept + entity | mobile-gamedev, hazelight-studios, peak
 - 생성: wiki/concepts/mobile-gamedev.md
 - 생성: wiki/entities/hazelight-studios.md, wiki/entities/peak.md

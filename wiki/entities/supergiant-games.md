@@ -1,10 +1,10 @@
 ---
 title: "Supergiant Games"
 type: entity
-sources: ["[[gamedev-leadership-dynamics]]"]
-related: ["[[studio-culture|스튜디오 문화]]", "[[small-team-development|소규모 팀 전략]]", "[[leadership-production|리더십 비교]]"]
+sources: ["[[gamedev-leadership-dynamics]]", "[[kasavin-hades-ea]]"]
+related: ["[[studio-culture|스튜디오 문화]]", "[[small-team-development|소규모 팀 전략]]", "[[leadership-production|리더십 비교]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[playtesting|플레이테스팅]]"]
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-05-07
 confidence: high
 ---
 
@@ -32,6 +32,15 @@ confidence: high
 - 장르와 시스템을 작품마다 바꾸면서도 팀 구성은 유지 (이직 없이 역량 축적)
 - 그렉 카사빈이 내러티브·디자인·스크립팅을 겸임 — 소수 정예 멀티롤 구조
 - [[studio-culture|심리적 안전감]]을 유지하면서 [[small-team-development|소규모 팀 전략]]의 범위 통제 원칙을 결합
+
+## 하데스 EA — "파일럿 에피소드" 모델
+
+[[kasavin-hades-ea]] (GeekDad 인터뷰):
+
+- EA 출시를 **TV 파일럿 에피소드**로 프레임. 캐스트·세계관 도입 → 매월~격월 업데이트로 캐릭터·상황·관계 추가.
+- **최종 엔딩은 1.0까지 의도적 보류** — 인게임 내러티브 명분으로 "미완성"을 정당화.
+- **EA의 가장 큰 가치는 글쓰기 본능 sharpening**: 새 캐릭터 투입 즉시 반응 확인 → 어떤 캐릭터가 어떻게 작동하는지 매월 학습.
+- "Pyre는 3년 작업 후 출시했더니 사람들이 48시간 만에 끝내버렸다. EA로는 매월 답을 받는다." → [[early-access-strategy]] 핵심 사례.
 
 ## 위키 맥락
 

@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>소규모 팀이 AAA를 만드는 법 — 다섯 가지 패턴</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #000;
+      font-family: 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* PROGRESS BAR */
+    .progress-bar {
+      position: fixed; top: 0; left: 0;
+      height: 3px;
+      background: #007AFF;
+      transition: width 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+      z-index: 1000;
+      border-radius: 0 2px 2px 0;
+      box-shadow: 0 0 8px rgba(0, 122, 255, 0.4);
+    }
+
+    /* SLIDE COUNTER */
+    .slide-counter {
+      position: fixed; bottom: 24px; right: 32px;
+      font-size: 13px; font-weight: 500;
+      color: rgba(255, 255, 255, 0.5);
+      z-index: 100;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: 0.5px;
+      transition: color 0.4s ease;
+    }
+    .slide-counter.on-light { color: rgba(0, 0, 0, 0.35); }
+
+    /* KEYBOARD HINTS */
+    .hint {
+      position: fixed; bottom: 24px; left: 32px;
+      display: flex; gap: 8px; align-items: center;
+      z-index: 100;
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.4);
+      transition: color 0.4s ease;
+    }
+    .hint.on-light { color: rgba(0, 0, 0, 0.3); }
+    .hint kbd {
+      display: inline-flex; align-items: center; justify-content: center;
+      min-width: 24px; height: 24px;
+      padding: 0 6px;
+      font-family: 'Pretendard Variable', sans-serif;
+      font-size: 11px; font-weight: 500;
+      color: rgba(255, 255, 255, 0.5);
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 6px;
+      transition: background 0.4s ease, border-color 0.4s ease, color 0.4s ease;
+    }
+    .hint.on-light kbd {
+      color: rgba(0, 0, 0, 0.4);
+      background: rgba(0, 0, 0, 0.06);
+      border-color: rgba(0, 0, 0, 0.15);
+    }
+
+    /* FULLSCREEN BUTTON */
+    .fullscreen-btn {
+      position: fixed; top: 20px; right: 24px;
+      width: 40px; height: 40px;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 10px;
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 18px;
+      cursor: pointer;
+      z-index: 100;
+      transition: background 0.3s ease, border-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+    .fullscreen-btn:hover {
+      background: rgba(255, 255, 255, 0.18);
+      border-color: rgba(255, 255, 255, 0.25);
+      color: rgba(255, 255, 255, 0.85);
+      transform: scale(1.05);
+    }
+    .fullscreen-btn.on-light {
+      background: rgba(0, 0, 0, 0.06);
+      border-color: rgba(0, 0, 0, 0.12);
+      color: rgba(0, 0, 0, 0.45);
+    }
+    .fullscreen-btn.on-light:hover {
+      background: rgba(0, 0, 0, 0.1);
+      border-color: rgba(0, 0, 0, 0.2);
+      color: rgba(0, 0, 0, 0.7);
+    }
+
+    /* DECK & SLIDES */
+    .deck { width: 100vw; height: 100vh; position: relative; }
+    .slide {
+      position: absolute; inset: 0;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      padding: 60px 100px;
+      opacity: 0; visibility: hidden;
+      overflow-y: auto;
+      transition: opacity 0.6s cubic-bezier(0.25, 0.1, 0.25, 1), visibility 0.6s;
+    }
+    .slide.active { opacity: 1; visibility: visible; }
+
+    /* Slide variants */
+    .slide-dark { background: #000; color: #ffffff; }
+    .slide-gradient {
+      background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+      color: #ffffff;
+    }
+    .slide-light { background: #ffffff; color: #1a1a1a; }
+
+    /* STAGGER ANIMATIONS */
+    .slide .a {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.6s cubic-bezier(0.25, 0.1, 0.25, 1), transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+    .slide.active .a { opacity: 1; transform: translateY(0); }
+    .slide.active .a:nth-child(1) { transition-delay: 0.1s; }
+    .slide.active .a:nth-child(2) { transition-delay: 0.22s; }
+    .slide.active .a:nth-child(3) { transition-delay: 0.34s; }
+    .slide.active .a:nth-child(4) { transition-delay: 0.46s; }
+    .slide.active .a:nth-child(5) { transition-delay: 0.58s; }
+    .slide.active .a:nth-child(6) { transition-delay: 0.7s; }
+    .slide.active .a:nth-child(7) { transition-delay: 0.82s; }
+    .slide.active .a:nth-child(8) { transition-delay: 0.94s; }
+
+    /* TYPOGRAPHY */
+    .xl { font-size: 84px; font-weight: 900; line-height: 1.05; letter-spacing: -2px; }
+    .lg { font-size: 58px; font-weight: 900; line-height: 1.1; letter-spacing: -1.5px; }
+    .md { font-size: 36px; font-weight: 700; line-height: 1.25; letter-spacing: -0.5px; }
+    .sm { font-size: 22px; font-weight: 400; line-height: 1.6; }
+    .xs { font-size: 16px; font-weight: 400; line-height: 1.6; }
+
+    .text-center { text-align: center; }
+    .text-gradient {
+      background: linear-gradient(135deg, #007AFF, #5856D6, #AF52DE);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .text-subtle { opacity: 0.5; }
+    .text-muted { opacity: 0.7; }
+    .accent { color: #007AFF; }
+    .mt-1 { margin-top: 16px; }
+    .mt-2 { margin-top: 32px; }
+    .mt-3 { margin-top: 48px; }
+    .mt-4 { margin-top: 64px; }
+    .mb-1 { margin-bottom: 16px; }
+    .mb-2 { margin-bottom: 32px; }
+
+    /* TITLE SLIDE */
+    .title-slide { gap: 24px; }
+    .title-slide .overline {
+      font-size: 16px; font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 6px;
+      color: #007AFF;
+    }
+    .title-slide .xl { font-size: 88px; letter-spacing: -3px; }
+    .title-slide .subtitle {
+      font-size: 24px; font-weight: 400;
+      color: rgba(255, 255, 255, 0.5);
+      margin-top: 8px;
+    }
+
+    /* AGENDA / NUMBERED LIST */
+    .agenda-list { list-style: none; width: 100%; max-width: 760px; }
+    .agenda-list li {
+      display: flex; align-items: center; gap: 24px;
+      padding: 20px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 24px; font-weight: 500;
+      letter-spacing: -0.3px;
+    }
+    .agenda-list li:last-child { border-bottom: none; }
+    .agenda-list .num {
+      font-size: 16px; font-weight: 700;
+      color: #007AFF;
+      min-width: 32px; height: 32px;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(0, 122, 255, 0.15);
+      border-radius: 8px;
+      font-variant-numeric: tabular-nums;
+    }
+    .agenda-list .meta {
+      margin-left: auto;
+      font-size: 14px; font-weight: 400;
+      color: rgba(255, 255, 255, 0.4);
+      letter-spacing: 0;
+    }
+
+    /* CONTENT CENTERED */
+    .content-centered {
+      max-width: 940px; text-align: center; gap: 24px;
+      display: flex; flex-direction: column; align-items: center;
+    }
+    .content-centered .divider {
+      width: 60px; height: 3px;
+      background: #007AFF;
+      border-radius: 2px;
+      margin: 8px auto;
+    }
+    .overline-tag {
+      font-size: 13px; font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      color: #007AFF;
+    }
+
+    /* COMPARISON */
+    .compare-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 40px; width: 100%; max-width: 1080px;
+    }
+    .compare-col { padding: 40px; border-radius: 20px; }
+    .compare-col.col-a { background: #f5f5f7; border: 1px solid #e5e5e7; }
+    .compare-col.col-b { background: #1a1a1a; color: #ffffff; border: 1px solid #333; }
+    .compare-col h3 {
+      font-size: 26px; font-weight: 800;
+      margin-bottom: 18px;
+      letter-spacing: -0.5px;
+    }
+    .compare-col.col-a h3 { color: #1a1a1a; }
+    .compare-col.col-b h3 { color: #007AFF; }
+    .compare-col ul {
+      list-style: none;
+      display: flex; flex-direction: column; gap: 12px;
+    }
+    .compare-col ul li {
+      font-size: 16px; line-height: 1.55;
+      padding-left: 22px; position: relative;
+    }
+    .compare-col.col-a ul li { color: #444; }
+    .compare-col.col-b ul li { color: rgba(255, 255, 255, 0.78); }
+    .compare-col ul li::before {
+      content: ''; position: absolute;
+      left: 0; top: 8px;
+      width: 8px; height: 8px;
+      border-radius: 50%;
+    }
+    .compare-col.col-a ul li::before { background: #ccc; }
+    .compare-col.col-b ul li::before { background: #007AFF; }
+
+    /* FLOW / STEPS */
+    .flow-container {
+      display: flex; gap: 14px; align-items: stretch;
+      width: 100%; max-width: 1180px; margin-top: 40px;
+    }
+    .flow-step {
+      flex: 1;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 28px 22px;
+      text-align: center;
+      position: relative;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .flow-step:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 32px rgba(0, 122, 255, 0.15);
+    }
+    .flow-step .step-num {
+      font-size: 13px; font-weight: 700;
+      color: #007AFF;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+    .flow-step .step-title {
+      font-size: 19px; font-weight: 700;
+      margin-bottom: 8px;
+      letter-spacing: -0.3px;
+    }
+    .flow-step .step-desc {
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.55);
+      line-height: 1.55;
+    }
+    .flow-step .step-glow {
+      position: absolute; top: -1px; left: 50%;
+      transform: translateX(-50%);
+      width: 60%; height: 2px;
+      background: linear-gradient(90deg, transparent, #007AFF, transparent);
+      border-radius: 2px;
+    }
+    .flow-arrow {
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.25);
+      flex-shrink: 0;
+      align-self: center;
+    }
+
+    /* CARDS */
+    .cards-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; width: 100%; max-width: 1100px;
+      margin-top: 40px;
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 20px;
+      padding: 32px 26px;
+      transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .glass-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(0, 122, 255, 0.3);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+    }
+    .glass-card .card-icon {
+      font-size: 32px;
+      margin-bottom: 14px;
+      display: block;
+    }
+    .glass-card h3 {
+      font-size: 21px; font-weight: 700;
+      margin-bottom: 10px;
+      letter-spacing: -0.3px;
+    }
+    .glass-card p {
+      font-size: 15px; line-height: 1.6;
+      color: rgba(255, 255, 255, 0.65);
+    }
+    .glass-card .card-tag {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 4px 12px;
+      font-size: 11px; font-weight: 600;
+      border-radius: 20px;
+      background: rgba(0, 122, 255, 0.15);
+      color: #007AFF;
+      letter-spacing: 0.5px;
+    }
+
+    /* QUOTE */
+    .quote-block { max-width: 920px; text-align: center; }
+    .quote-block .quote-mark {
+      font-size: 120px; line-height: 0.6;
+      color: #007AFF;
+      font-family: Georgia, serif;
+      opacity: 0.6;
+      margin-bottom: 16px;
+    }
+    .quote-block .quote-text {
+      font-size: 44px; font-weight: 300;
+      line-height: 1.4;
+      letter-spacing: -0.5px;
+      color: rgba(255, 255, 255, 0.92);
+    }
+    .quote-block .quote-attr {
+      margin-top: 32px;
+      font-size: 17px; font-weight: 500;
+      color: rgba(255, 255, 255, 0.4);
+    }
+    .quote-block .quote-attr span { color: #007AFF; }
+
+    /* CASE LIST */
+    .case-list {
+      list-style: none;
+      width: 100%; max-width: 920px;
+      display: flex; flex-direction: column;
+      gap: 14px;
+    }
+    .case-list li {
+      display: grid;
+      grid-template-columns: 44px 1fr auto;
+      align-items: center;
+      gap: 24px;
+      padding: 20px 26px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      transition: background 0.3s ease, border-color 0.3s ease;
+    }
+    .case-list li:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(0, 122, 255, 0.3);
+    }
+    .case-list .num {
+      font-size: 14px; font-weight: 700;
+      color: #007AFF;
+      width: 36px; height: 36px;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(0, 122, 255, 0.15);
+      border-radius: 10px;
+      font-variant-numeric: tabular-nums;
+    }
+    .case-list .case-main {
+      display: flex; flex-direction: column; gap: 2px;
+    }
+    .case-list .case-team {
+      font-size: 18px; font-weight: 700;
+      letter-spacing: -0.3px;
+    }
+    .case-list .case-game {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.55);
+    }
+    .case-list .case-impact {
+      font-size: 12px; font-weight: 600;
+      color: #007AFF;
+      padding: 6px 12px;
+      background: rgba(0, 122, 255, 0.1);
+      border-radius: 20px;
+      letter-spacing: 0.3px;
+      white-space: nowrap;
+    }
+
+    /* SECTION INTRO (for pattern intro slides) */
+    .section-intro { gap: 18px; text-align: center; }
+    .section-intro .pattern-num {
+      font-size: 14px; font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 6px;
+      color: #007AFF;
+    }
+    .section-intro .lg { font-size: 72px; }
+    .section-intro .case-meta {
+      margin-top: 16px;
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.5);
+      letter-spacing: 0.3px;
+    }
+    .section-intro .case-meta strong {
+      color: rgba(255, 255, 255, 0.85);
+      font-weight: 700;
+    }
+
+    /* CLOSING */
+    .closing-slide { gap: 20px; text-align: center; }
+    .closing-slide .closing-title {
+      font-size: 110px; font-weight: 900;
+      letter-spacing: -4px;
+      line-height: 1;
+    }
+    .closing-slide .closing-sub {
+      font-size: 22px; font-weight: 400;
+      color: rgba(255, 255, 255, 0.4);
+      margin-top: 8px;
+    }
+
+    /* PRINT / PDF EXPORT */
+    @media print {
+      html, body { width: 100%; height: auto; overflow: visible; background: #fff; }
+      .progress-bar, .slide-counter, .hint, .fullscreen-btn { display: none !important; }
+      .deck { width: 100%; height: auto; }
+      .slide {
+        position: relative;
+        opacity: 1 !important; visibility: visible !important;
+        page-break-after: always; page-break-inside: avoid;
+        width: 100%; height: 100vh;
+        padding: 60px 80px;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+      .slide .a { opacity: 1 !important; transform: none !important; }
+      .slide-dark { background: #000 !important; color: #fff !important; }
+      .slide-gradient { background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460) !important; color: #fff !important; }
+      .slide-light { background: #fff !important; color: #1a1a1a !important; }
+      @page { size: landscape; margin: 0; }
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      .slide { padding: 48px 40px; }
+      .xl { font-size: 52px; }
+      .lg { font-size: 38px; }
+      .md { font-size: 26px; }
+      .sm { font-size: 18px; }
+      .title-slide .xl { font-size: 56px; }
+      .section-intro .lg { font-size: 44px; }
+      .closing-slide .closing-title { font-size: 64px; }
+      .compare-grid { grid-template-columns: 1fr; gap: 24px; }
+      .cards-grid { grid-template-columns: 1fr; }
+      .flow-container { flex-direction: column; gap: 12px; }
+      .flow-arrow { transform: rotate(90deg); }
+      .case-list li { grid-template-columns: 36px 1fr; }
+      .case-list .case-impact { grid-column: 1 / -1; justify-self: start; }
+      .quote-block .quote-text { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Progress Bar -->
+  <div class="progress-bar" id="progress"></div>
+
+  <!-- Slide Counter -->
+  <div class="slide-counter" id="counter"></div>
+
+  <!-- Keyboard Hints -->
+  <div class="hint" id="hint">
+    <kbd>&larr;</kbd><kbd>&rarr;</kbd> 이동
+    <kbd>F</kbd> 전체화면
+    <kbd>S</kbd> 발표자 노트
+  </div>
+
+  <!-- Fullscreen Button -->
+  <button class="fullscreen-btn" id="fs-btn" onclick="toggleFullscreen()">&#x26F6;</button>
+
+  <!-- ============================================================
+       SLIDE DECK
+  ============================================================ -->
+  <div class="deck" id="deck">
+
+    <!-- ======================== SLIDE 1: TITLE ======================== -->
+    <div class="slide slide-dark active title-slide" data-notes="여는 슬라이드. AAA 게임은 큰 팀의 전유물이라는 통념을 가볍게 흔들고 시작. 잠시 호흡을 두고 다음 슬라이드로 넘어간다. [3초 침묵]">
+      <span class="a overline">Game Dev · Insights</span>
+      <h1 class="a xl text-center">소규모 팀이<br>AAA를 만드는 법</h1>
+      <p class="a subtitle">다섯 스튜디오, 하나의 패턴</p>
+    </div>
+
+    <!-- ======================== SLIDE 2: KEY MESSAGE — 문제 제기 ======================== -->
+    <div class="slide slide-gradient" data-notes="문제 제기. AAA = 수백 명이라는 통념을 흔든다. 'GTA 6은 수천 명, RDR2는 1,600명' — 이런 사례만 있는 게 아니다. 최근 몇 년의 GOTY 후보 명단에는 다른 그림이 보인다. [잠시 멈춤] 어떤 그림인지 다음 장에서 보자.">
+      <div class="content-centered">
+        <p class="a sm text-muted">문제 제기</p>
+        <div class="a divider"></div>
+        <h2 class="a lg" style="margin-top: 16px;">AAA = 수백 명?</h2>
+        <p class="a sm" style="color: rgba(255,255,255,0.65); margin-top: 24px; max-width: 720px;">
+          이 통념은 점점 깨지고 있다. 최근 몇 년간의 GOTY 후보 명단을 보면, 100명 미만의 팀이 만든 작품들이 빠르게 늘고 있다.
+        </p>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 3: 5개 사례 ======================== -->
+    <div class="slide slide-dark" data-notes="다섯 사례를 빠르게 훑는다. 각 작품의 임팩트와 팀 크기 대비를 강조. 특히 샌드폴은 프로그래머가 단 4명이라는 점을 짚을 것. 엠바크는 '120명을 25명으로 줄였다'는 점이 핵심. [총 1분 30초]">
+      <h2 class="a md text-center" style="color: rgba(255,255,255,0.55); font-weight: 500; letter-spacing: 4px; text-transform: uppercase; font-size: 14px;">다섯 개의 반례</h2>
+      <h3 class="a lg text-center mt-1 mb-2">최근 GOTY 후보들</h3>
+      <ul class="case-list">
+        <li class="a">
+          <span class="num">01</span>
+          <div class="case-main">
+            <div class="case-team">팀 아소비 <span style="color: rgba(255,255,255,0.4); font-weight: 400;">· 65명</span></div>
+            <div class="case-game">아스트로봇</div>
+          </div>
+          <span class="case-impact">2024 GOTY</span>
+        </li>
+        <li class="a">
+          <span class="num">02</span>
+          <div class="case-main">
+            <div class="case-team">샌드폴 인터랙티브 <span style="color: rgba(255,255,255,0.4); font-weight: 400;">· ~40명 (프로그래머 4명)</span></div>
+            <div class="case-game">클레르 옵스퀴르: 33원정대</div>
+          </div>
+          <span class="case-impact">2025 GOTY 최다 수상</span>
+        </li>
+        <li class="a">
+          <span class="num">03</span>
+          <div class="case-main">
+            <div class="case-team">Asobo Studio <span style="color: rgba(255,255,255,0.4); font-weight: 400;">· 아티스트 ~20명</span></div>
+            <div class="case-game">A Plague Tale: Requiem</div>
+          </div>
+          <span class="case-impact">AAA 비주얼</span>
+        </li>
+        <li class="a">
+          <span class="num">04</span>
+          <div class="case-main">
+            <div class="case-team">Hazelight Studios <span style="color: rgba(255,255,255,0.4); font-weight: 400;">· 협동 전용</span></div>
+            <div class="case-game">Split Fiction</div>
+          </div>
+          <span class="case-impact">2025 스웨덴 매출 1위</span>
+        </li>
+        <li class="a">
+          <span class="num">05</span>
+          <div class="case-main">
+            <div class="case-team">Embark Studios <span style="color: rgba(255,255,255,0.4); font-weight: 400;">· 120명 → 25명</span></div>
+            <div class="case-game">아크 레이더스</div>
+          </div>
+          <span class="case-impact">팀 리셋 후 출시</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- ======================== SLIDE 4: 핵심 질문 ======================== -->
+    <div class="slide slide-gradient" data-notes="전환 슬라이드. 청중에게 질문을 던지고 잠시 멈춤. '여러분이 이들의 자리에 있다면 어떻게 했을까?' 이후 다음 장부터 다섯 패턴을 차례로 풀어간다.">
+      <div class="content-centered">
+        <p class="a sm text-muted">Question</p>
+        <div class="a divider"></div>
+        <h2 class="a lg" style="margin-top: 16px;">어떻게 가능한가?</h2>
+        <p class="a sm" style="color: rgba(255,255,255,0.65); margin-top: 24px; max-width: 700px;">
+          다섯 스튜디오를 가로지르는 다섯 가지 공통 패턴이 있다.
+        </p>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 5: 패턴 ① INTRO ======================== -->
+    <div class="slide slide-dark section-intro" data-notes="첫 번째 패턴. 팀 아소비의 GDC 2025 'Astro Bot' 강연 기반. 핵심은 '2주 사이클'이라는 강제된 리듬. [패턴 5개를 차례로 다루므로 각각 약 1~2분]">
+      <p class="a pattern-num">패턴 ①</p>
+      <h2 class="a lg text-gradient">짧은 반복 구조</h2>
+      <p class="a sm text-muted" style="max-width: 640px;">검증 가능한 최소 단위로 빠르게 만들고, 틀리면 빠르게 버린다.</p>
+      <p class="a case-meta"><strong>팀 아소비</strong> · 65명 · 아스트로봇</p>
+    </div>
+
+    <!-- ======================== SLIDE 6: 패턴 ① DETAIL — 2주 사이클 ======================== -->
+    <div class="slide slide-dark" data-notes="팀 아소비의 2주 사이클을 단계별로 설명. 1) 1인이 3D·애니·사운드·햅틱·코드 모두 담당해 프로토타입 제작 — 한 명이 끝까지 가져가야 의사소통 비용이 0. 2) 금요일 전 팀 리뷰 103회 — 모든 직군이 참여. 3) 6주마다 외부 플레이테스트로 검증. 4) 아이디어의 10%만 다음 단계로 진행. 6년 전 폐기된 프로토타입이 후에 다시 살아나는 일도 있다.">
+      <h2 class="a lg text-center">팀 아소비의 2주 사이클</h2>
+      <p class="a sm text-center text-subtle">아이디어의 10%만 다음 단계로. 전체 개발 기간의 1/3이 프로토타이핑.</p>
+      <div class="a flow-container">
+        <div class="flow-step">
+          <div class="step-glow"></div>
+          <div class="step-num">Step 01</div>
+          <div class="step-title">기획</div>
+          <div class="step-desc">아이디어 발산 — 모든 직군 참여</div>
+        </div>
+        <span class="flow-arrow">&rarr;</span>
+        <div class="flow-step">
+          <div class="step-glow"></div>
+          <div class="step-num">Step 02</div>
+          <div class="step-title">1인 프로토타입</div>
+          <div class="step-desc">3D · 애니 · 사운드 · 햅틱 · 코드 전담</div>
+        </div>
+        <span class="flow-arrow">&rarr;</span>
+        <div class="flow-step">
+          <div class="step-glow"></div>
+          <div class="step-num">Step 03</div>
+          <div class="step-title">금요일 리뷰</div>
+          <div class="step-desc">전 팀원 참여 — 103회 누적</div>
+        </div>
+        <span class="flow-arrow">&rarr;</span>
+        <div class="flow-step">
+          <div class="step-glow"></div>
+          <div class="step-num">Step 04</div>
+          <div class="step-title">6주 플레이테스트</div>
+          <div class="step-desc">외부 사용자에게 직접 검증</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 7: 패턴 ② INTRO ======================== -->
+    <div class="slide slide-dark section-intro" data-notes="두 번째 패턴. 샌드폴 인터랙티브의 GDC 2026 강연 + UE5 인터뷰 기반. 핵심 충격 포인트: '프로그래머가 4명이었다.' 그런데 대형 RPG가 나왔다. 어떻게? 도구 설계 덕분.">
+      <p class="a pattern-num">패턴 ②</p>
+      <h2 class="a lg text-gradient">디자이너 도구화</h2>
+      <p class="a sm text-muted" style="max-width: 680px;">프로그래머는 도구를 만들고, 디자이너가 콘텐츠를 만든다.</p>
+      <p class="a case-meta"><strong>샌드폴 인터랙티브</strong> · 프로그래머 4명 · 33원정대</p>
+    </div>
+
+    <!-- ======================== SLIDE 8: 패턴 ② DETAIL — 카드 3개 ======================== -->
+    <div class="slide slide-dark" data-notes="세 카드가 핵심. 1) 블루프린트 95% — 코드 장벽을 낮춘 결정적 선택. 2) 통합 API — 퀘스트, 인벤토리, 파티 모두 한 진입점. 디자이너가 헷갈리지 않는다. 3) 전투 90%가 시퀀서 — 디자이너가 영상 편집하듯 스킬을 조립. 비동기 처리도 디자이너 친화적으로 래핑. 핵심 인사이트: 좋은 도구는 팀 전체를 프로그래머처럼 만든다.">
+      <h2 class="a lg text-center">코드 장벽을 낮추는 세 가지 장치</h2>
+      <p class="a sm text-center text-subtle">프로그래머 4명이 대형 RPG를 완성한 근거</p>
+      <div class="a cards-grid">
+        <div class="glass-card">
+          <span class="card-icon">&#x1F9E9;</span>
+          <h3>블루프린트 95%</h3>
+          <p>게임 로직 95%를 블루프린트로 작성. 테크니컬 디자이너가 직접 편집·수정하는 구조.</p>
+          <span class="card-tag">Code Barrier ↓</span>
+        </div>
+        <div class="glass-card">
+          <span class="card-icon">&#x1F517;</span>
+          <h3>통합 API</h3>
+          <p>퀘스트 진행 · 인벤토리 · 파티 구성을 단일 접점으로. 비동기 처리도 디자이너 친화적으로 래핑.</p>
+          <span class="card-tag">Single Entry</span>
+        </div>
+        <div class="glass-card">
+          <span class="card-icon">&#x1F3AC;</span>
+          <h3>전투 90%가 시퀀서</h3>
+          <p>레벨 시퀀서 위에서 디자이너가 직접 애니메이션·카메라·이펙트·대미지를 조립.</p>
+          <span class="card-tag">Designer-Owned</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 9: 패턴 ③ INTRO ======================== -->
+    <div class="slide slide-dark section-intro" data-notes="세 번째 패턴. Asobo의 GDC 2023 'How to Make AAA Looking Games With a Team of 20 Artists' 강연 기반. 핵심은 '제약'. 모든 가능성을 열어두면 결정 비용이 폭발한다. 의외로 '덜 자유로운' 게 더 빠르다.">
+      <p class="a pattern-num">패턴 ③</p>
+      <h2 class="a lg text-gradient">제약을 만들어라</h2>
+      <p class="a sm text-muted" style="max-width: 680px;">제약이 명확할수록 의사결정 비용이 줄어든다.</p>
+      <p class="a case-meta"><strong>Asobo Studio</strong> · 아티스트 ~20명 · A Plague Tale: Requiem</p>
+    </div>
+
+    <!-- ======================== SLIDE 10: 패턴 ③ DETAIL — COMPARISON LIGHT ======================== -->
+    <div class="slide slide-light" data-notes="제약의 위력을 비교로 보여준다. 왼쪽: 모든 시대·장소·스타일이 열려 있으면 매번 '이거 우리 비주얼인가?' 논쟁이 벌어진다. 오른쪽: 14세기 / 남부 프랑스 / 클로드 로랭 회화 — 세 개의 못으로 박아두면 팀이 '어떻게 만들까'에만 집중한다. 'Focus on what matters'는 슬로건이 아니라 에셋·레벨 빌딩·엔진 투자 모든 의사결정의 필터다.">
+      <h2 class="a lg text-center mb-2" style="color: #1a1a1a;">One Time Period · One Place · One Style</h2>
+      <div class="a compare-grid">
+        <div class="compare-col col-a">
+          <h3>제약 없음</h3>
+          <ul>
+            <li>모든 시대 · 장소 · 스타일이 후보</li>
+            <li>비주얼 방향 논쟁 반복 — 매주 회의</li>
+            <li>의사결정 비용이 제작 비용을 압도</li>
+            <li>20명으로는 어떤 결론도 시간 안에 못 낸다</li>
+          </ul>
+        </div>
+        <div class="compare-col col-b">
+          <h3>Asobo의 세 못</h3>
+          <ul>
+            <li>14세기 — 시대 고정</li>
+            <li>남부 프랑스 · 북부 이탈리아 — 장소 고정</li>
+            <li>클로드 로랭 회화 — 스타일 고정</li>
+            <li>제약이 팀의 공통 언어 · "어떻게 만들까"에만 집중</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 11: 패턴 ④ — 잘라내기 ======================== -->
+    <div class="slide slide-gradient" data-notes="네 번째 패턴. 서커펀치의 'Cutting is sharpening' 문화. 매주 컷 미팅에서 팀원 누구나 '이게 정말 필요한가?' 질문할 수 있다. 빈 맵 구역? 채우려는 강박을 버리고 30분 만에 더 나은 풍경으로 전환. 비전 선언문(만트라)이 자르기의 기준 — 만트라에 안 맞으면 과감히 제거. 아스트로봇도 오픈 레벨 1개를 통째로 폐기한 적 있다.">
+      <div class="content-centered">
+        <p class="a pattern-num">패턴 ④</p>
+        <h2 class="a lg" style="margin-top: 12px;">Cutting is sharpening</h2>
+        <p class="a sm" style="color: rgba(255,255,255,0.7); margin-top: 24px; max-width: 760px;">
+          매주 컷 미팅. 빈 맵 구역 삭제. 비전 선언문이 잘라내기의 기준.<br>채우려는 강박을 버릴 때 더 좋은 풍경이 나온다.
+        </p>
+        <p class="a case-meta" style="margin-top: 32px;"><strong style="color: rgba(255,255,255,0.85);">서커펀치</strong> · 고스트 오브 쓰시마 · 요테이</p>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 12: 패턴 ⑤ — 강제된 집중 (QUOTE) ======================== -->
+    <div class="slide slide-dark" data-notes="다섯 번째 패턴은 인용으로 전달. 엠바크 스튜디오의 아크 레이더스 리셋 사례. 120명이 25명으로 줄었다. 손해 같은가? 오히려 집중력이 회복됐다. 핵심 질문: '그게 지금 어떤 문제를 해결하는 건가요?' 이 한 문장이 좋은 아이디어조차 보류시키는 필터가 된다. 데이터 기반 우선순위 + 3일 버스트 사이클 + 바구니 시스템으로 객관화. [잠시 멈춤]">
+      <div class="quote-block">
+        <div class="a quote-mark">&ldquo;</div>
+        <p class="a quote-text">그게 지금 어떤 문제를<br>해결하는 건가요?</p>
+        <p class="a quote-attr">&mdash; 패턴 ⑤ <span>강제된 집중 · Embark Studios</span></p>
+        <p class="a sm text-subtle" style="margin-top: 24px;">120명을 25명으로 줄였더니, 오히려 집중이 돌아왔다.</p>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 13: 5가지 패턴 정리 ======================== -->
+    <div class="slide slide-dark" data-notes="다섯 패턴을 한 화면에. 청중이 잠깐 호흡할 시간. 각 패턴 옆에 대표 사례를 붙여두면 기억하기 쉽다. [잠시 침묵 — 슬라이드를 충분히 보게 한다]">
+      <h2 class="a lg mb-2 text-center">다섯 패턴, 한눈에</h2>
+      <ol class="a agenda-list">
+        <li><span class="num">01</span> 짧은 반복 구조 <span class="meta">팀 아소비</span></li>
+        <li><span class="num">02</span> 디자이너 도구화 <span class="meta">샌드폴 인터랙티브</span></li>
+        <li><span class="num">03</span> 제약을 만들어라 <span class="meta">Asobo Studio</span></li>
+        <li><span class="num">04</span> 잘라내기 문화 <span class="meta">서커펀치</span></li>
+        <li><span class="num">05</span> 강제된 집중 <span class="meta">Embark Studios</span></li>
+      </ol>
+    </div>
+
+    <!-- ======================== SLIDE 14: 핵심 인사이트 ======================== -->
+    <div class="slide slide-gradient" data-notes="오늘의 핵심. 소규모의 해답은 '덜 만드는 것'이 아니다. '더 잘 나누는 것'이다. 도구와 콘텐츠를 분리하라. 자유와 제약 중 제약을 택하라. 좋은 도구는 팀 전체를 프로그래머처럼 만든다. 제약이 명확할수록 의사결정 비용이 줄어든다. [강조하며 마무리]">
+      <div class="content-centered">
+        <p class="a sm text-muted">Insight</p>
+        <div class="a divider"></div>
+        <h2 class="a lg" style="margin-top: 16px;">덜 만드는 게 아니라,<br>더 잘 나누는 것.</h2>
+        <p class="a sm" style="color: rgba(255,255,255,0.7); margin-top: 28px; max-width: 760px;">
+          제약이 명확할수록 의사결정 비용이 줄어든다.<br>
+          좋은 도구는 팀 전체를 프로그래머처럼 만든다.
+        </p>
+      </div>
+    </div>
+
+    <!-- ======================== SLIDE 15: CLOSING ======================== -->
+    <div class="slide slide-dark closing-slide" data-notes="마무리. 청중에게 감사 인사. 잠시 박수를 위한 침묵. 이후 Q&A 진행.">
+      <h1 class="a closing-title text-gradient">Thank You.</h1>
+      <p class="a closing-sub">질문, 피드백, 아이디어 환영합니다.</p>
+    </div>
+
+  </div>
+  <!-- END DECK -->
+
+  <script>
+    (function () {
+      'use strict';
+
+      var deck = document.getElementById('deck');
+      var slides = Array.from(deck.querySelectorAll('.slide'));
+      var total = slides.length;
+      var current = 0;
+
+      var progressBar = document.getElementById('progress');
+      var counter = document.getElementById('counter');
+      var hintEl = document.getElementById('hint');
+      var fsBtn = document.getElementById('fs-btn');
+
+      var notesWindow = null;
+
+      /* HASH NAVIGATION */
+      function readHash() {
+        var hash = window.location.hash;
+        if (hash && /^#\d+$/.test(hash)) {
+          var idx = parseInt(hash.substring(1), 10) - 1;
+          if (idx >= 0 && idx < total) {
+            slides[current].classList.remove('active');
+            current = idx;
+            slides[current].classList.add('active');
+          }
+        }
+      }
+      function writeHash() { history.replaceState(null, '', '#' + (current + 1)); }
+
+      /* UI UPDATES */
+      function updateUI() {
+        var pct = ((current + 1) / total) * 100;
+        progressBar.style.width = pct + '%';
+        counter.textContent = (current + 1) + ' / ' + total;
+
+        var isLight = slides[current].classList.contains('slide-light');
+        counter.classList.toggle('on-light', isLight);
+        hintEl.classList.toggle('on-light', isLight);
+        fsBtn.classList.toggle('on-light', isLight);
+
+        writeHash();
+        updateNotes();
+      }
+
+      /* NAVIGATION */
+      function goTo(index) {
+        if (index < 0 || index >= total || index === current) return;
+        slides[current].classList.remove('active');
+        current = index;
+        slides[current].classList.add('active');
+        updateUI();
+      }
+      function next() { goTo(current + 1); }
+      function prev() { goTo(current - 1); }
+
+      /* KEYBOARD */
+      document.addEventListener('keydown', function (e) {
+        if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+        switch (e.key) {
+          case 'ArrowRight': case 'ArrowDown': e.preventDefault(); next(); break;
+          case 'ArrowLeft': case 'ArrowUp': e.preventDefault(); prev(); break;
+          case ' ': e.preventDefault(); if (e.shiftKey) prev(); else next(); break;
+          case 'Home': e.preventDefault(); goTo(0); break;
+          case 'End': e.preventDefault(); goTo(total - 1); break;
+          case 'f': case 'F': e.preventDefault(); toggleFullscreen(); break;
+          case 's': case 'S': e.preventDefault(); toggleNotes(); break;
+        }
+      });
+
+      /* CLICK NAVIGATION */
+      deck.addEventListener('click', function (e) {
+        if (e.target.closest('a, button, code, pre, .glass-card, .case-list li, .flow-step')) return;
+        var rect = deck.getBoundingClientRect();
+        var x = e.clientX - rect.left;
+        if (x > rect.width / 2) next(); else prev();
+      });
+
+      /* TOUCH / SWIPE */
+      var touchStartX = 0, touchStartY = 0, touchStartTime = 0;
+      deck.addEventListener('touchstart', function (e) {
+        touchStartX = e.touches[0].clientX;
+        touchStartY = e.touches[0].clientY;
+        touchStartTime = Date.now();
+      }, { passive: true });
+      deck.addEventListener('touchend', function (e) {
+        var dx = e.changedTouches[0].clientX - touchStartX;
+        var dy = e.changedTouches[0].clientY - touchStartY;
+        var dt = Date.now() - touchStartTime;
+        if (dt > 500) return;
+        if (Math.abs(dx) < 50) return;
+        if (Math.abs(dy) > Math.abs(dx)) return;
+        if (dx < 0) next(); else prev();
+      }, { passive: true });
+
+      /* FULLSCREEN */
+      window.toggleFullscreen = function () {
+        if (!document.fullscreenElement) {
+          document.documentElement.requestFullscreen().catch(function () {});
+        } else {
+          document.exitFullscreen().catch(function () {});
+        }
+      };
+
+      /* SPEAKER NOTES — POPUP WINDOW */
+      function buildNotesHTML() {
+        return [
+          '<!doctype html><html lang="ko"><head><meta charset="UTF-8">',
+          '<title>발표자 노트</title>',
+          '<style>',
+          '*{box-sizing:border-box;margin:0;padding:0}',
+          'html,body{height:100%;font-family:-apple-system,BlinkMacSystemFont,"Pretendard","Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif;background:#1a1a1a;color:#f0f0f0;-webkit-font-smoothing:antialiased}',
+          'body{padding:28px 32px;display:flex;flex-direction:column;gap:18px;overflow-y:auto}',
+          '.label{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#666}',
+          '.slide-info{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid #333;padding-bottom:12px}',
+          '.slide-num{font-size:14px;font-weight:600;color:#007AFF;font-variant-numeric:tabular-nums}',
+          '.notes{font-size:18px;line-height:1.7;color:#f0f0f0;white-space:pre-wrap}',
+          '.next-block{margin-top:auto;padding-top:18px;border-top:1px solid #2a2a2a}',
+          '.next-text{font-size:13px;color:#888;line-height:1.55;margin-top:6px}',
+          '@media(max-width:600px){body{padding:18px 20px} .notes{font-size:16px}}',
+          '</style></head><body>',
+          '<div class="slide-info"><span class="label">발표자 노트</span><span class="slide-num" id="snum"></span></div>',
+          '<div class="notes" id="snotes"></div>',
+          '<div class="next-block"><span class="label">다음 슬라이드</span><div class="next-text" id="snext"></div></div>',
+          '</body></html>'
+        ].join('');
+      }
+
+      function toggleNotes() {
+        if (notesWindow && !notesWindow.closed) {
+          notesWindow.close();
+          notesWindow = null;
+          return;
+        }
+        notesWindow = window.open('', 'SpeakerNotes', 'width=540,height=460');
+        if (!notesWindow) return;
+        notesWindow.document.open();
+        notesWindow.document.write(buildNotesHTML());
+        notesWindow.document.close();
+        updateNotes();
+      }
+      window.toggleNotes = toggleNotes;
+
+      function getSlideTitle(slide) {
+        var h = slide.querySelector('h1, h2, h3, .quote-text');
+        if (h) return h.textContent.trim().replace(/\s+/g, ' ').slice(0, 80);
+        return '(no title)';
+      }
+
+      function updateNotes() {
+        if (!notesWindow || notesWindow.closed) return;
+        var doc = notesWindow.document;
+        var snum = doc.getElementById('snum');
+        var snotes = doc.getElementById('snotes');
+        var snext = doc.getElementById('snext');
+        if (!snum || !snotes || !snext) return;
+
+        snum.textContent = (current + 1) + ' / ' + total;
+        snotes.textContent = slides[current].getAttribute('data-notes') || '(노트 없음)';
+        if (current + 1 < total) {
+          snext.textContent = (current + 2) + '. ' + getSlideTitle(slides[current + 1]);
+        } else {
+          snext.textContent = '— 마지막 슬라이드 —';
+        }
+      }
+
+      /* HASH CHANGE LISTENER */
+      window.addEventListener('hashchange', function () {
+        readHash();
+        updateUI();
+      });
+
+      /* CLOSE NOTES WHEN MAIN WINDOW UNLOADS */
+      window.addEventListener('beforeunload', function () {
+        if (notesWindow && !notesWindow.closed) notesWindow.close();
+      });
+
+      /* INIT */
+      readHash();
+      updateUI();
+    })();
+  </script>
+</body>
+</html>

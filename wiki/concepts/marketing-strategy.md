@@ -1,7 +1,7 @@
 ﻿---
 title: "마케팅 전략"
 type: concept
-sources: ["[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc24-steam-secrets]]", "[[airbridge-steam-marketing-playbook]]", "[[gdc26-steam-page-needs-soul]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[gdc26-integrated-marketing]]", "[[gdc26-game-trailers]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[steam-page-optimization-guide-2026]]", "[[game-marketing-strategy-2026]]", "[[indiebi-game-pricing-strategy]]"]
+sources: ["[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc24-steam-secrets]]", "[[airbridge-steam-marketing-playbook]]", "[[gdc26-steam-page-needs-soul]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[gdc26-integrated-marketing]]", "[[gdc26-game-trailers]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[steam-page-optimization-guide-2026]]", "[[game-marketing-strategy-2026]]", "[[indiebi-game-pricing-strategy]]", "[[zukowski-next-fest-strategy]]"]
 related: ["[[mint-rocket|민트로켓]]", "[[dave-the-diver|데이브 더 다이버]]", "[[balatro|발라트로]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[game-market-trends|게임 시장 트렌드]]"]
 created: 2026-04-13
 updated: 2026-04-23

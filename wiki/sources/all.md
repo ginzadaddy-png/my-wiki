@@ -2,10 +2,15 @@
 title: "소스 전체 목록"
 ---
 
-총 95개 | 최신순 정렬
+총 100개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [zukowski-next-fest-strategy](zukowski-next-fest-strategy.md) | Steam Next Fest 2026-02 분석 (Chris Zukowski / How to Market a Game) | 2026-04 |
+| [vincke-bg3-ea](vincke-bg3-ea.md) | 스벤 빈케 — BG3 얼리 액세스 회고 (GDC 2024 + 공개 발언 종합) | 2024-03 |
+| [tornqvist-valheim-ea](tornqvist-valheim-ea.md) | 헨리크 톤퀴스트 — 발하임 글로벌 성공 비결 (Skövde 대학 + Retroware 종합) | 2021-03 |
+| [fares-hazelight-playtesting](fares-hazelight-playtesting.md) | 요세프 파레스 — 잇 테이크스 투 인터뷰 (TheSixthAxis) | 2021-03 |
+| [kasavin-hades-ea](kasavin-hades-ea.md) | 그렉 카사빈 — 하데스 얼리 액세스 인터뷰 (GeekDad) | 2019-10 |
 | [ukyou-project-failure-structure](ukyou-project-failure-structure.md) | 인디만이 아니다. 4000만 엔 게임 개발이 막힌 구조와 같은 실패를 피하는 방법 (うきょう) | 2026-01 |
 | [ukyou-mobile-liveservice-walls](ukyou-mobile-liveservice-walls.md) | 운영형 모바일 게임 개발의 '벽'을 넘는 사고법 (うきょう) | 2025-11 |
 | [ukyou-mobile-liveservice-survival](ukyou-mobile-liveservice-survival.md) | 운영형 모바일 게임이 살아남기 어려운 구조적 이유와 돌파구 (うきょう) | 2025-11 |
