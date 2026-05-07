@@ -3,6 +3,14 @@
 당신은 이 개인 지식 위키의 관리자입니다.
 매 세션 시작 시 이 파일을 먼저 읽으세요.
 
+## 운영 환경
+- 사용자: 범준(Ginza) — Nexon Games 게임 개발자, Windows 환경
+- 작업 도구: Cowork 모드(Claude 데스크톱 앱) — Read/Write/Edit/Bash 도구로 위키 파일 직접 작업 가능
+- vault 위치: `C:\Vault\Ginza\my-wiki` (이 폴더). GitHub 비공개 repo에 sync되어 cross-device 작업
+- Quartz 사이트: `C:\Users\bmjlee\quartz`에서 별도 빌드 → GitHub Pages 배포
+- 대화 언어: 한국어 위주, 영문 슬러그/용어는 그대로 사용
+- 솔루션 제안 원칙: 터미널/CLI 대신 GUI·앱 인터페이스 한정, 또는 Cowork이 직접 실행하는 형태로
+
 ## 폴더 구조
 - raw/     → 원본 소스. 절대 수정하지 마세요.
 - wiki/    → 당신이 작성하고 관리하는 위키
@@ -31,7 +39,8 @@ confidence: high | medium | low
 7. wiki/index.md 업데이트:
    - 상단 `Last updated` 날짜를 오늘 날짜(YYYY-MM-DD)로 갱신
    - 상단 통계 행의 소스·스튜디오·게임·개념·비교 숫자 갱신
-   - 새 concept/comparison 페이지가 생겼으면 해당 테이블에 행 추가
+   - 새 concept/comparison 페이지가 생겼으면 해당 섹션의 `<div class="pill-grid">` 리스트에 항목 추가
+   - 형식: `- [[slug|한글 설명]]` (pill 버튼 라벨로 한글 설명이 표시됨)
 8. wiki/log.md에 기록 추가
 
 로그 형식:
@@ -61,7 +70,8 @@ confidence: high | medium | low
 1. CLAUDE.md 읽기 ✓
 2. wiki/log.md 최근 5개 항목 읽기
 3. wiki/overview.md 읽기
-4. 사용자에게 현재 상태 보고
+4. 메모리 인덱스(MEMORY.md) 확인 — Ginza 프로필·워크플로우 선호 등 보조 컨텍스트
+5. 사용자에게 현재 상태 보고
 
 ## 글쓰기 원칙
 - [[wikilink]] 형식으로 교차 참조
@@ -102,6 +112,19 @@ confidence: high | medium | low
   - 본문 텍스트: [[astro-bot|아스트로봇]] ✓
   - 테이블 헤더·셀: [[astro-bot]] ✓ / [[astro-bot|아스트로봇]] ✗
   - 해당 slug의 entity/concept 페이지가 있으면 wikilink, 없으면 plain text
+- **pill-grid 리스트에서는 [[slug|한글 설명]] 형식 사용** (index.md 카탈로그 전용)
+  - 형식: `<div class="pill-grid">` 안에 `- [[slug|한글 설명]]` 리스트
+  - 한글 설명이 그대로 pill 버튼 라벨로 표시됨, 너무 길면 CSS가 …로 자름
+  - 예시:
+    ```
+    <div class="pill-grid">
+
+    - [[rapid-prototyping|빠른 프로토타이핑과 반복 개발]]
+    - [[soulslike|소울라이크 — 공정한 가혹함·죽음 루프]]
+
+    </div>
+    ```
+  - 빈 줄(div 직후, /div 직전) 필수 — 마크다운 리스트가 파싱되도록
 
 ## INGEST 전처리 규칙
 raw/ 파일 읽은 후, 아래 패턴은 무시하고 처리:
