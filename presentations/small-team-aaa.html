@@ -108,7 +108,7 @@
       position: absolute; inset: 0;
       display: flex; flex-direction: column;
       justify-content: center; align-items: center;
-      padding: 60px 100px;
+      padding: 50px 60px;
       opacity: 0; visibility: hidden;
       overflow-y: auto;
       transition: opacity 0.6s cubic-bezier(0.25, 0.1, 0.25, 1), visibility 0.6s;
@@ -140,11 +140,11 @@
     .slide.active .a:nth-child(8) { transition-delay: 0.94s; }
 
     /* TYPOGRAPHY */
-    .xl { font-size: 84px; font-weight: 900; line-height: 1.05; letter-spacing: -2px; }
-    .lg { font-size: 58px; font-weight: 900; line-height: 1.1; letter-spacing: -1.5px; }
-    .md { font-size: 36px; font-weight: 700; line-height: 1.25; letter-spacing: -0.5px; }
-    .sm { font-size: 22px; font-weight: 400; line-height: 1.6; }
-    .xs { font-size: 16px; font-weight: 400; line-height: 1.6; }
+    .xl { font-size: 108px; font-weight: 900; line-height: 1.05; letter-spacing: -2px; }
+    .lg { font-size: 76px; font-weight: 900; line-height: 1.1; letter-spacing: -1.5px; }
+    .md { font-size: 48px; font-weight: 700; line-height: 1.25; letter-spacing: -0.5px; }
+    .sm { font-size: 30px; font-weight: 400; line-height: 1.6; }
+    .xs { font-size: 22px; font-weight: 400; line-height: 1.6; }
 
     .text-center { text-align: center; }
     .text-gradient {
@@ -164,59 +164,59 @@
     .mb-2 { margin-bottom: 32px; }
 
     /* TITLE SLIDE */
-    .title-slide { gap: 24px; }
+    .title-slide { gap: 28px; }
     .title-slide .overline {
-      font-size: 16px; font-weight: 600;
+      font-size: 22px; font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 6px;
       color: #007AFF;
     }
-    .title-slide .xl { font-size: 88px; letter-spacing: -3px; }
+    .title-slide .xl { font-size: 124px; letter-spacing: -3px; }
     .title-slide .subtitle {
-      font-size: 24px; font-weight: 400;
-      color: rgba(255, 255, 255, 0.5);
-      margin-top: 8px;
+      font-size: 34px; font-weight: 400;
+      color: rgba(255, 255, 255, 0.6);
+      margin-top: 10px;
     }
 
     /* AGENDA / NUMBERED LIST */
-    .agenda-list { list-style: none; width: 100%; max-width: 760px; }
+    .agenda-list { list-style: none; width: 100%; max-width: 1200px; }
     .agenda-list li {
-      display: flex; align-items: center; gap: 24px;
-      padding: 20px 0;
+      display: flex; align-items: center; gap: 32px;
+      padding: 24px 0;
       border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-      font-size: 24px; font-weight: 500;
+      font-size: 33px; font-weight: 500;
       letter-spacing: -0.3px;
     }
     .agenda-list li:last-child { border-bottom: none; }
     .agenda-list .num {
-      font-size: 16px; font-weight: 700;
+      font-size: 22px; font-weight: 700;
       color: #007AFF;
-      min-width: 32px; height: 32px;
+      min-width: 46px; height: 46px;
       display: flex; align-items: center; justify-content: center;
       background: rgba(0, 122, 255, 0.15);
-      border-radius: 8px;
+      border-radius: 12px;
       font-variant-numeric: tabular-nums;
     }
     .agenda-list .meta {
       margin-left: auto;
-      font-size: 14px; font-weight: 400;
-      color: rgba(255, 255, 255, 0.4);
+      font-size: 20px; font-weight: 400;
+      color: rgba(255, 255, 255, 0.5);
       letter-spacing: 0;
     }
 
     /* CONTENT CENTERED */
     .content-centered {
-      max-width: 940px; text-align: center; gap: 24px;
+      max-width: 1300px; text-align: center; gap: 32px;
       display: flex; flex-direction: column; align-items: center;
     }
     .content-centered .divider {
-      width: 60px; height: 3px;
+      width: 84px; height: 4px;
       background: #007AFF;
       border-radius: 2px;
-      margin: 8px auto;
+      margin: 10px auto;
     }
     .overline-tag {
-      font-size: 13px; font-weight: 600;
+      font-size: 15px; font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 5px;
       color: #007AFF;
@@ -225,32 +225,32 @@
     /* COMPARISON */
     .compare-grid {
       display: grid; grid-template-columns: 1fr 1fr;
-      gap: 40px; width: 100%; max-width: 1080px;
+      gap: 50px; width: 100%; max-width: 1500px;
     }
-    .compare-col { padding: 40px; border-radius: 20px; }
+    .compare-col { padding: 52px 48px; border-radius: 24px; }
     .compare-col.col-a { background: #f5f5f7; border: 1px solid #e5e5e7; }
     .compare-col.col-b { background: #1a1a1a; color: #ffffff; border: 1px solid #333; }
     .compare-col h3 {
-      font-size: 26px; font-weight: 800;
-      margin-bottom: 18px;
+      font-size: 36px; font-weight: 800;
+      margin-bottom: 26px;
       letter-spacing: -0.5px;
     }
     .compare-col.col-a h3 { color: #1a1a1a; }
     .compare-col.col-b h3 { color: #007AFF; }
     .compare-col ul {
       list-style: none;
-      display: flex; flex-direction: column; gap: 12px;
+      display: flex; flex-direction: column; gap: 16px;
     }
     .compare-col ul li {
-      font-size: 16px; line-height: 1.55;
-      padding-left: 22px; position: relative;
+      font-size: 22px; line-height: 1.55;
+      padding-left: 30px; position: relative;
     }
     .compare-col.col-a ul li { color: #444; }
-    .compare-col.col-b ul li { color: rgba(255, 255, 255, 0.78); }
+    .compare-col.col-b ul li { color: rgba(255, 255, 255, 0.85); }
     .compare-col ul li::before {
       content: ''; position: absolute;
-      left: 0; top: 8px;
-      width: 8px; height: 8px;
+      left: 0; top: 12px;
+      width: 12px; height: 12px;
       border-radius: 50%;
     }
     .compare-col.col-a ul li::before { background: #ccc; }
@@ -258,15 +258,15 @@
 
     /* FLOW / STEPS */
     .flow-container {
-      display: flex; gap: 14px; align-items: stretch;
-      width: 100%; max-width: 1180px; margin-top: 40px;
+      display: flex; gap: 18px; align-items: stretch;
+      width: 100%; max-width: 1500px; margin-top: 50px;
     }
     .flow-step {
       flex: 1;
       background: rgba(255, 255, 255, 0.06);
       border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 20px;
-      padding: 28px 22px;
+      border-radius: 24px;
+      padding: 38px 30px;
       text-align: center;
       position: relative;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -276,20 +276,20 @@
       box-shadow: 0 8px 32px rgba(0, 122, 255, 0.15);
     }
     .flow-step .step-num {
-      font-size: 13px; font-weight: 700;
+      font-size: 18px; font-weight: 700;
       color: #007AFF;
       text-transform: uppercase;
       letter-spacing: 2px;
-      margin-bottom: 10px;
+      margin-bottom: 14px;
     }
     .flow-step .step-title {
-      font-size: 19px; font-weight: 700;
-      margin-bottom: 8px;
+      font-size: 27px; font-weight: 700;
+      margin-bottom: 12px;
       letter-spacing: -0.3px;
     }
     .flow-step .step-desc {
-      font-size: 13px;
-      color: rgba(255, 255, 255, 0.55);
+      font-size: 19px;
+      color: rgba(255, 255, 255, 0.65);
       line-height: 1.55;
     }
     .flow-step .step-glow {
@@ -309,16 +309,16 @@
     /* CARDS */
     .cards-grid {
       display: grid; grid-template-columns: repeat(3, 1fr);
-      gap: 24px; width: 100%; max-width: 1100px;
-      margin-top: 40px;
+      gap: 32px; width: 100%; max-width: 1500px;
+      margin-top: 50px;
     }
     .glass-card {
       background: rgba(255, 255, 255, 0.08);
       backdrop-filter: blur(10px);
       -webkit-backdrop-filter: blur(10px);
       border: 1px solid rgba(255, 255, 255, 0.12);
-      border-radius: 20px;
-      padding: 32px 26px;
+      border-radius: 24px;
+      padding: 44px 36px;
       transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
     }
     .glass-card:hover {
@@ -327,68 +327,68 @@
       box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
     }
     .glass-card .card-icon {
-      font-size: 32px;
-      margin-bottom: 14px;
+      font-size: 44px;
+      margin-bottom: 22px;
       display: block;
     }
     .glass-card h3 {
-      font-size: 21px; font-weight: 700;
-      margin-bottom: 10px;
+      font-size: 29px; font-weight: 700;
+      margin-bottom: 14px;
       letter-spacing: -0.3px;
     }
     .glass-card p {
-      font-size: 15px; line-height: 1.6;
-      color: rgba(255, 255, 255, 0.65);
+      font-size: 21px; line-height: 1.6;
+      color: rgba(255, 255, 255, 0.75);
     }
     .glass-card .card-tag {
       display: inline-block;
-      margin-top: 14px;
-      padding: 4px 12px;
-      font-size: 11px; font-weight: 600;
-      border-radius: 20px;
+      margin-top: 22px;
+      padding: 6px 16px;
+      font-size: 15px; font-weight: 600;
+      border-radius: 22px;
       background: rgba(0, 122, 255, 0.15);
       color: #007AFF;
       letter-spacing: 0.5px;
     }
 
     /* QUOTE */
-    .quote-block { max-width: 920px; text-align: center; }
+    .quote-block { max-width: 1300px; text-align: center; }
     .quote-block .quote-mark {
-      font-size: 120px; line-height: 0.6;
+      font-size: 160px; line-height: 0.6;
       color: #007AFF;
       font-family: Georgia, serif;
       opacity: 0.6;
-      margin-bottom: 16px;
+      margin-bottom: 24px;
     }
     .quote-block .quote-text {
-      font-size: 44px; font-weight: 300;
+      font-size: 60px; font-weight: 300;
       line-height: 1.4;
       letter-spacing: -0.5px;
-      color: rgba(255, 255, 255, 0.92);
+      color: rgba(255, 255, 255, 0.95);
     }
     .quote-block .quote-attr {
-      margin-top: 32px;
-      font-size: 17px; font-weight: 500;
-      color: rgba(255, 255, 255, 0.4);
+      margin-top: 40px;
+      font-size: 24px; font-weight: 500;
+      color: rgba(255, 255, 255, 0.5);
     }
     .quote-block .quote-attr span { color: #007AFF; }
 
     /* CASE LIST */
     .case-list {
       list-style: none;
-      width: 100%; max-width: 920px;
+      width: 100%; max-width: 1400px;
       display: flex; flex-direction: column;
-      gap: 14px;
+      gap: 18px;
     }
     .case-list li {
       display: grid;
-      grid-template-columns: 44px 1fr auto;
+      grid-template-columns: 60px 1fr auto;
       align-items: center;
-      gap: 24px;
-      padding: 20px 26px;
+      gap: 32px;
+      padding: 28px 38px;
       background: rgba(255, 255, 255, 0.05);
       border: 1px solid rgba(255, 255, 255, 0.08);
-      border-radius: 16px;
+      border-radius: 20px;
       transition: background 0.3s ease, border-color 0.3s ease;
     }
     .case-list li:hover {
@@ -396,66 +396,66 @@
       border-color: rgba(0, 122, 255, 0.3);
     }
     .case-list .num {
-      font-size: 14px; font-weight: 700;
+      font-size: 19px; font-weight: 700;
       color: #007AFF;
-      width: 36px; height: 36px;
+      width: 50px; height: 50px;
       display: flex; align-items: center; justify-content: center;
       background: rgba(0, 122, 255, 0.15);
-      border-radius: 10px;
+      border-radius: 14px;
       font-variant-numeric: tabular-nums;
     }
     .case-list .case-main {
-      display: flex; flex-direction: column; gap: 2px;
+      display: flex; flex-direction: column; gap: 6px;
     }
     .case-list .case-team {
-      font-size: 18px; font-weight: 700;
+      font-size: 26px; font-weight: 700;
       letter-spacing: -0.3px;
     }
     .case-list .case-game {
-      font-size: 14px;
-      color: rgba(255, 255, 255, 0.55);
+      font-size: 20px;
+      color: rgba(255, 255, 255, 0.65);
     }
     .case-list .case-impact {
-      font-size: 12px; font-weight: 600;
+      font-size: 16px; font-weight: 600;
       color: #007AFF;
-      padding: 6px 12px;
-      background: rgba(0, 122, 255, 0.1);
-      border-radius: 20px;
+      padding: 10px 18px;
+      background: rgba(0, 122, 255, 0.12);
+      border-radius: 24px;
       letter-spacing: 0.3px;
       white-space: nowrap;
     }
 
     /* SECTION INTRO (for pattern intro slides) */
-    .section-intro { gap: 18px; text-align: center; }
+    .section-intro { gap: 26px; text-align: center; }
     .section-intro .pattern-num {
-      font-size: 14px; font-weight: 700;
+      font-size: 19px; font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 6px;
       color: #007AFF;
     }
-    .section-intro .lg { font-size: 72px; }
+    .section-intro .lg { font-size: 92px; }
     .section-intro .case-meta {
-      margin-top: 16px;
-      font-size: 18px;
-      color: rgba(255, 255, 255, 0.5);
+      margin-top: 24px;
+      font-size: 26px;
+      color: rgba(255, 255, 255, 0.6);
       letter-spacing: 0.3px;
     }
     .section-intro .case-meta strong {
-      color: rgba(255, 255, 255, 0.85);
+      color: rgba(255, 255, 255, 0.9);
       font-weight: 700;
     }
 
     /* CLOSING */
-    .closing-slide { gap: 20px; text-align: center; }
+    .closing-slide { gap: 24px; text-align: center; }
     .closing-slide .closing-title {
-      font-size: 110px; font-weight: 900;
+      font-size: 130px; font-weight: 900;
       letter-spacing: -4px;
       line-height: 1;
     }
     .closing-slide .closing-sub {
-      font-size: 22px; font-weight: 400;
-      color: rgba(255, 255, 255, 0.4);
-      margin-top: 8px;
+      font-size: 28px; font-weight: 400;
+      color: rgba(255, 255, 255, 0.45);
+      margin-top: 10px;
     }
 
     /* PRINT / PDF EXPORT */
@@ -543,7 +543,7 @@
 
     <!-- ======================== SLIDE 3: 5개 사례 ======================== -->
     <div class="slide slide-dark" data-notes="다섯 사례를 빠르게 훑는다. 각 작품의 임팩트와 팀 크기 대비를 강조. 특히 샌드폴은 프로그래머가 단 4명이라는 점을 짚을 것. 엠바크는 '120명을 25명으로 줄였다'는 점이 핵심. [총 1분 30초]">
-      <h2 class="a md text-center" style="color: rgba(255,255,255,0.55); font-weight: 500; letter-spacing: 4px; text-transform: uppercase; font-size: 14px;">다섯 개의 반례</h2>
+      <h2 class="a md text-center" style="color: rgba(255,255,255,0.55); font-weight: 500; letter-spacing: 4px; text-transform: uppercase; font-size: 18px;">다섯 개의 반례</h2>
       <h3 class="a lg text-center mt-1 mb-2">최근 GOTY 후보들</h3>
       <ul class="case-list">
         <li class="a">
