@@ -2,11 +2,16 @@
 title: "소스 전체 목록"
 ---
 
-총 100개 | 최신순 정렬
+총 105개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
 | [zukowski-next-fest-strategy](zukowski-next-fest-strategy.md) | Steam Next Fest 2026-02 분석 (Chris Zukowski / How to Market a Game) | 2026-04 |
+| [game-marketing-strategy-2026](game-marketing-strategy-2026.md) | 2026 게임 마케팅 전략 가이드 (Reverb) | 2026-04 |
+| [missing-middle-paradigm-shift-2026](missing-middle-paradigm-shift-2026.md) | 2026 미싱 미들 — AA 게임의 패러다임 전환 | 2026-04 |
+| [steam-next-fest-2026-analysis](steam-next-fest-2026-analysis.md) | Making Sense of the February 2026 Steam Next Fest | 2026-04 |
+| [steam-next-fest-wishlist-benchmarks-2025](steam-next-fest-wishlist-benchmarks-2025.md) | Steam Next Fest 위시리스트 벤치마크 (2025) | 2025 |
+| [steam-page-optimization-guide-2026](steam-page-optimization-guide-2026.md) | Steam 스토어 페이지 최적화 가이드 (2026) | 2026 |
 | [vincke-bg3-ea](vincke-bg3-ea.md) | 스벤 빈케 — 발더스 게이트3 얼리 액세스 회고 (GDC 2024 + 공개 발언 종합) | 2024-03 |
 | [tornqvist-valheim-ea](tornqvist-valheim-ea.md) | 헨리크 톤퀴스트 — 발하임 글로벌 성공 비결 (Skövde 대학 + Retroware 종합) | 2021-03 |
 | [fares-hazelight-playtesting](fares-hazelight-playtesting.md) | 요세프 파레스 — 잇 테이크스 투 인터뷰 (TheSixthAxis) | 2021-03 |
@@ -36,7 +41,7 @@ title: "소스 전체 목록"
 | [gdc26-three-mindset-shifts](gdc26-three-mindset-shifts.md) | [GDC26] 세계 수준의 팀을 이끄는 3가지 마인드셋 전환 (Kristie J. Fisher) | 2026-03 |
 | [gdc26-designing-companions](gdc26-designing-companions.md) | [GDC26] 관계 설계: RPG 동반자를 매력적으로 만드는 법 (Moberly & Dollarhyde) | 2026-03 |
 | [gdc26-lieu-back-to-basics-marketing](gdc26-lieu-back-to-basics-marketing.md) | [GDC26] 기본으로 돌아가기: 보이지 않는 마케팅 기반을 가시성으로 (Derek Lieu) | 2026-03 |
-| [gdc26-idg-finding-signal-noise.md](gdc26-idg-finding-signal-noise.md) | [GDC26] 노이즈에서 신호 찾기: 혼돈의 게임 시장에서 성장 찾기 (IDG) | 2026-03 |
+| [gdc26-idg-finding-signal-noise](gdc26-idg-finding-signal-noise.md) | [GDC26] 노이즈에서 신호 찾기: 혼돈의 게임 시장에서 성장 찾기 (IDG) | 2026-03 |
 | [gdc26-rules-of-the-game](gdc26-rules-of-the-game.md) | [GDC26] Rules of the Game: 반직관적 게임 디자인 규칙 5가지 | 2026-03 |
 | [gdc26-steam-page-needs-soul](gdc26-steam-page-needs-soul.md) | [GDC26] 당신의 스팀 페이지에는 영혼이 필요하다 (Thomas Reisenegger / Future Friends) | 2026-03 |
 | [gdc25-ghost-of-yotei-combat](gdc25-ghost-of-yotei-combat.md) | [GDC25] 칼날을 벼리다: 고스트 오브 요테이 전투 진화 (Fishman/서커펀치) | 2025 |
@@ -100,9 +105,4 @@ title: "소스 전체 목록"
 | [gdc24-steam-secrets](gdc24-steam-secrets.md) | [GDC24] 스팀의 비밀 - 성공 팁 | 2024-03-21 |
 | [airbridge-steam-marketing-playbook](airbridge-steam-marketing-playbook.md) | 중견 게임 스튜디오를 위한 스팀 마케팅 완전정복 (Airbridge × Liquid) | 2025-07-03 |
 | [ex-rockstar-ben-hinchliffe-interview](ex-rockstar-ben-hinchliffe-interview.md) | 前 록스타 디자이너 Ben Hinchliffe 인터뷰 (GTA VI O'clock Ep.47) | 2024 |
-| [gmtk-mda-framework](gmtk-mda-framework.md) | 게임 디자이너처럼 생각하는 법 — MDA 프레임워크 (GMTK) | 2023 |
-| [gmtk-game-balancing](gmtk-game-balancing.md) | 게임 밸런싱 방법론 (GMTK) | 2019 |
-| [gmtk-10-lessons](gmtk-10-lessons.md) | GMTK 10주년 — 게임 디자인 10대 교훈 | 2024 |
-| [gmtk-combat-system](gmtk-combat-system.md) | 좋은 전투 시스템의 조건 (GMTK) | 2018 |
-| [adam-millard-sword-fighting](adam-millard-sword-fighting.md) | 전설적인 검투 게임 만들기 (Adam Millard) | 2021 |
-| [rdr2-story-behind-the-story](rdr2-story-behind-the-story.md) | 레드 데드 리뎀션 2의 스토리 뒷이야기 (Variety / Rob Nelson, Michael Unsworth) | 2018-10 |
+| [gmtk-mda-framewo
