@@ -11,8 +11,8 @@
 
     :root {
       --bg: #ffffff;
-      --text: #333333;
-      --text-secondary: #666666;
+      --text: #1F2937;
+      --text-secondary: #4B5563;
       --accent: #1e3a5f;
       --accent-light: #2c5282;
       --accent-gold: #c8a45c;
@@ -60,9 +60,11 @@
     /* KEYBOARD HINTS */
     .hint {
       position: fixed; bottom: 24px; left: 32px;
-      display: flex; gap: 8px; align-items: center;
       z-index: 900;
       user-select: none;
+      font-size: 11px;
+      color: var(--hint-color);
+      font-family: var(--font-body);
     }
     .hint kbd {
       display: inline-block;
@@ -75,11 +77,30 @@
       border-radius: 4px;
       line-height: 1.6;
     }
+    .hint kbd[data-act] {
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s, color 0.15s, transform 0.1s;
+    }
+    .hint kbd[data-act]:hover {
+      background: var(--border);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    .hint kbd[data-act]:active { transform: translateY(1px); }
     .hint span {
       color: var(--hint-color);
       font-size: 11px;
-      margin-right: 4px;
     }
+    /* mini/full 모두 flex로 통일 — kbd 와 텍스트 간격 일정 */
+    .hint .hint-mini,
+    .hint .hint-full {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+    .hint .hint-full { display: none; }
+    .hint.expanded .hint-mini { display: none; }
+    .hint.expanded .hint-full { display: flex; }
 
     /* FULLSCREEN BUTTON */
     .fullscreen-btn {
@@ -114,6 +135,30 @@
       transition: opacity 0.5s ease, visibility 0.5s ease;
     }
     .slide.active { opacity: 1; visibility: visible; }
+    /* 콘텐츠 슬라이드 타이틀 위치 고정 — 모두 중앙 정렬, 슬라이드 상단에 absolute 고정 */
+    .slide:not(:has(.slide-title)):not(:has(.slide-quote)):not(:has(.slide-closing)) h2 {
+      position: absolute;
+      top: 110px;
+      left: 60px;
+      right: 60px;
+      margin: 0 !important;
+      text-align: center !important;
+      z-index: 1;
+    }
+    /* 모든 콘텐츠 슬라이드 타이틀 아래 통일된 골드 underline (중앙) */
+    .slide:not(:has(.slide-title)):not(:has(.slide-quote)):not(:has(.slide-closing)) h2::after {
+      content: '';
+      display: block;
+      width: 128px;
+      height: 4px;
+      background: var(--accent-gold);
+      margin: 14px auto 0 !important;
+      border-radius: 2px;
+    }
+    /* 본문 영역은 타이틀 영역만큼 위쪽 여유 두고 가운데 정렬 유지 */
+    .slide:not(:has(.slide-title)):not(:has(.slide-quote)):not(:has(.slide-closing)) {
+      padding-top: 210px;
+    }
 
     /* Navy accent bar at top */
     .slide::before {
@@ -328,11 +373,13 @@
     .comparison-col.before h3 { color: var(--text-secondary); }
     .comparison-col.after h3 { color: var(--accent); }
     .comparison-col .col-meta {
-      font-family: var(--font-mono);
-      font-size: 1.1rem;
+      font-family: var(--font-body);
+      font-weight: 600;
+      font-size: 1.05rem;
       color: var(--hint-color);
       margin-bottom: 22px;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
     }
     .comparison-col ul {
       list-style: none;
@@ -391,7 +438,7 @@
       color: var(--text);
     }
     .step-desc {
-      font-size: 1.25rem;
+      font-size: 1.4rem;
       color: var(--text-secondary);
       line-height: 1.55;
     }
@@ -446,8 +493,10 @@
       display: inline-block;
       margin-top: 22px;
       padding: 7px 16px;
-      font-family: var(--font-mono);
-      font-size: 1.1rem;
+      font-family: var(--font-body);
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 0.04em;
       color: var(--accent-gold);
       background: rgba(200, 164, 92, 0.1);
       border-radius: 4px;
@@ -564,6 +613,123 @@
       .slide .a { opacity: 1 !important; transform: none !important; animation: none !important; }
       @page { size: landscape; margin: 0; }
     }
+    /* ==================== 슬라이드 탐색 모달 ==================== */
+    .overview-modal {
+      position: fixed; inset: 0;
+      background: rgba(10, 14, 22, 0.97);
+      z-index: 2000;
+      overflow-y: auto;
+      padding: 50px 40px 80px;
+      display: none;
+    }
+    .overview-modal.open {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .overview-modal h3 {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin: 0 0 36px;
+      text-align: center;
+      max-width: none;
+      flex-shrink: 0;
+    }
+    .thumb-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 320px);
+      gap: 20px;
+      max-width: 1700px;
+      margin: 0 auto;
+      justify-content: center;
+    }
+    .thumb {
+      position: relative;
+      width: 320px;
+      height: 180px;
+      border: 2px solid rgba(255, 255, 255, 0.12);
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      background: #fff;
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+      padding: 0;
+      font-family: inherit;
+    }
+    .thumb:hover {
+      border-color: var(--accent-gold);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+    .thumb.is-current {
+      border-color: var(--accent-gold);
+      box-shadow: 0 0 0 3px rgba(200, 164, 92, 0.4);
+    }
+    /* wrapper 방식 — wrap에 1920×1080 + scale, 자식 .slide는 그 안에서 자연스럽게 100% */
+    .thumb-wrap {
+      position: absolute;
+      top: 0; left: 0;
+      width: 1920px;
+      height: 1080px;
+      transform: scale(0.16667);  /* 320/1920 = 1/6 */
+      transform-origin: top left;
+      pointer-events: none;
+    }
+    .thumb-wrap .slide {
+      opacity: 1 !important;
+      visibility: visible !important;
+      pointer-events: none;
+    }
+    /* stagger animation 강제 visible */
+    .thumb-wrap .slide .a {
+      opacity: 1 !important;
+      transform: none !important;
+      animation: none !important;
+    }
+    .thumb-num {
+      position: absolute;
+      bottom: 6px; right: 8px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 700;
+      color: rgba(255, 255, 255, 0.9);
+      background: rgba(0, 0, 0, 0.7);
+      padding: 2px 8px;
+      border-radius: 4px;
+      z-index: 1;
+      letter-spacing: 1px;
+    }
+    .overview-hint {
+      position: fixed; bottom: 24px; left: 50%;
+      transform: translateX(-50%);
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.65);
+      letter-spacing: 0.5px;
+    }
+    .overview-hint kbd {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: rgba(255, 255, 255, 0.9);
+      font-family: var(--font-mono);
+      font-size: 12px;
+      padding: 3px 9px;
+      border-radius: 4px;
+      margin: 0 4px;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s, color 0.15s, transform 0.1s;
+    }
+    .overview-hint kbd:hover {
+      background: rgba(255, 255, 255, 0.18);
+      border-color: rgba(200, 164, 92, 0.5);
+      color: rgba(255, 255, 255, 1);
+    }
+    .overview-hint kbd:active { transform: translateY(1px); }
+
   </style>
 </head>
 <body>
@@ -574,12 +740,17 @@
   <!-- Slide Counter -->
   <div class="slide-counter" id="counter"></div>
 
-  <!-- Keyboard Hints -->
-  <div class="hint">
-    <kbd>Space</kbd><span>다음</span>
-    <kbd>&larr;</kbd><kbd>&rarr;</kbd><span>탐색</span>
-    <kbd>F</kbd><span>전체화면</span>
-    <kbd>S</kbd><span>발표자 노트</span>
+  <!-- Keyboard Hints (H 키로 토글, kbd 클릭으로도 작동) -->
+  <div class="hint" id="hint">
+    <div class="hint-mini"><kbd data-act="hint">H</kbd><span>조작 표시</span></div>
+    <div class="hint-full">
+      <kbd data-act="hint">H</kbd><span>조작 숨김</span>
+      <kbd data-act="next">Space</kbd><span>다음</span>
+      <kbd data-act="prev">&larr;</kbd><kbd data-act="next">&rarr;</kbd><span>이동</span>
+      <kbd data-act="overview">G</kbd><span>탐색</span>
+      <kbd data-act="fs">F</kbd><span>전체화면</span>
+      <kbd data-act="notes">S</kbd><span>발표자 노트</span>
+    </div>
   </div>
 
   <!-- Fullscreen Button -->
@@ -658,7 +829,7 @@
         </div>
       </div>
       <div class="chart-baseline a"></div>
-      <p class="a" style="font-size: 1.25rem; color: var(--text-secondary); line-height: 1.65; max-width: 1100px; text-align: center; margin-top: 24px;">
+      <p class="a" style="font-size: 1.4rem; color: var(--text-secondary); line-height: 1.65; max-width: 1100px; text-align: center; margin-top: 24px;">
         $30~50 미드 프라이스가 전체 매출 성장의 견인차로 부상했다. 클레르 옵스퀴르($50, 600만장+), 헬다이버스2($40, 2,000만장+), 아크 레이더스($40, 1,400만장)가 이 구간의 대표 사례. AAA 가격 전략($70+)은 정체·하락 국면이며, 게이머의 22%가 핵심 게임플레이를, 단 7%만 고품질 그래픽을 최우선으로 꼽았다는 조사가 이 구조 변화를 뒷받침한다.
       </p>
       <p class="a chart-caption">출처 — Newzoo 2026 시장 분석, Bain &amp; Company 2025</p>
@@ -677,7 +848,7 @@
     <!-- ======================== SLIDE 6: CARDS — 위시리스트 경제학 ======================== -->
     <div class="slide" data-notes="위시리스트는 '밸브 달러' — 통화처럼 작동한다. 수가 많다고 좋은 게 아니라 질이 중요하다. 첫 카드: 위시리스트가 알고리즘 트리거이자 교섭력. 둘째 카드: Airbridge 분석에 따르면 자발적 70% 미만이면 출시 전환율이 무너진다. 이벤트 보상으로 모은 위시리스트는 함정. 셋째 카드: 스팀은 단순 수치보다 '모멘텀'을 본다 — 증가율과 지속성이 핵심.">
       <h2 class="a" style="margin-bottom: 16px; text-align: center;">위시리스트 = <span class="hi">밸브 달러</span></h2>
-      <p class="a" style="text-align: center; max-width: 1000px; margin: 0 auto 32px; color: var(--text-secondary); font-size: 1.25rem; line-height: 1.65;">
+      <p class="a" style="text-align: center; max-width: 1000px; margin: 0 auto 32px; color: var(--text-secondary); font-size: 1.4rem; line-height: 1.65;">
         위시리스트는 단순 즐겨찾기가 아니라 스팀 알고리즘의 통화처럼 작동한다. 양·질·지속성 — 세 가지 축에서 모두 관리해야 한다.
       </p>
       <div class="cards">
@@ -763,7 +934,7 @@
         </div>
       </div>
       <div class="chart-baseline a"></div>
-      <p class="a" style="font-size: 1.25rem; color: var(--text-secondary); line-height: 1.65; max-width: 1100px; text-align: center; margin-top: 24px;">
+      <p class="a" style="font-size: 1.4rem; color: var(--text-secondary); line-height: 1.65; max-width: 1100px; text-align: center; margin-top: 24px;">
         사전 위시리스트가 행사 결과를 좌우한다. 1,000개 미만으로 입장하면 행사 중 322개에 그치지만, 100,000개 이상이면 12,882개를 추가로 얻는다. 결론은 명확하다 — 행사장에 도착하기 전에 이미 절반 이상이 결정된다. 사전 누적이 부족하다면 입장을 미루고 데모로 위시리스트부터 모으는 게 합리적이다.
       </p>
       <p class="a chart-caption">상관계수 r = 0.825 (가장 강력한 예측 변수) · 진입 임계점 ≈ 사전 위시리스트 2,000개</p>
@@ -772,7 +943,7 @@
     <!-- ======================== SLIDE 9: CARDS — 스토어 페이지 최적화 ======================== -->
     <div class="slide" data-notes="스토어 페이지 = 출시 후 꾸미는 전시 공간이 아니라 개발과 동시에 설계하는 첫 마케팅 무대. 첫 카드: 트레일러 첫 5초 안에 게임플레이가 시작되어야 한다 — 한 사례에서 18초→1초 변경으로 전환율 +31%. 둘째: 태그 20개 모두 사용, 상위 5개가 알고리즘 가중치 최대. 'Indie' 같은 범용 태그를 상위에 두는 건 자살 행위. 셋째: 캡슐 아트 — 검색 결과 썸네일은 120×45px까지 작아진다. 이 크기에서 로고가 안 보이면 끝.">
       <h2 class="a" style="margin-bottom: 16px; text-align: center;">스토어 페이지 <span class="hi">최적화</span></h2>
-      <p class="a" style="text-align: center; max-width: 1000px; margin: 0 auto 32px; color: var(--text-secondary); font-size: 1.25rem; line-height: 1.65;">
+      <p class="a" style="text-align: center; max-width: 1000px; margin: 0 auto 32px; color: var(--text-secondary); font-size: 1.4rem; line-height: 1.65;">
         스토어 페이지는 출시 후 꾸미는 전시 공간이 아니라, 개발과 동시에 설계해야 할 첫 마케팅 무대다. 알고리즘과 사람 모두에게 동시에 답해야 한다.
       </p>
       <div class="cards">
@@ -800,7 +971,7 @@
     <!-- ======================== SLIDE 10: COMPARISON — 스팀 두 시장 ======================== -->
     <div class="slide" data-notes="GDC 24 크리스 주코프스키의 핵심 통찰: 스팀은 사실상 두 개의 다른 시장이다. 초기 인디(94%)는 디스커버리 큐 의존, 출시 첫 2일이 결정적, 번역 우선순위와 출시 요일이 작은 차이를 만든다. 레알 스팀(상위 6%, 출시 후 6~9개월 내 $260K 매출 달성)에 진입하면 데일리 딜·위크엔드 딜이 열리고 밸브가 직접 프로모션을 제안한다. 다만 — 요청해야만 해준다. 스팀은 절대 먼저 알려주지 않는다.">
       <h2 class="a" style="margin-bottom: 16px; text-align: center;">스팀은 <span class="hi">두 개의 시장</span>이다</h2>
-      <p class="a" style="text-align: center; max-width: 1100px; margin: 0 auto 32px; font-size: 1.25rem; color: var(--text-secondary); line-height: 1.65;">
+      <p class="a" style="text-align: center; max-width: 1100px; margin: 0 auto 32px; font-size: 1.4rem; color: var(--text-secondary); line-height: 1.65;">
         GDC 24 크리스 주코프스키의 핵심 통찰. 스팀은 한 시장이 아니라 두 시장이다. 진입 임계점은 출시 후 6~9개월 내 누적 매출 $260,000 — 이 선을 넘은 상위 6%에게만 데일리 딜·위크엔드 딜 같은 '진짜 스팀'이 열린다. 두 시장은 마케팅 플레이북이 완전히 다르므로, 자기가 어디에 있는지부터 정확히 인식해야 한다.
       </p>
       <div class="comparison">
@@ -860,7 +1031,7 @@
     <!-- ======================== SLIDE 13: CARDS — 아시아 사각지대 ======================== -->
     <div class="slide" data-notes="Airbridge × Liquid Advertising 보고서: 아시아 스튜디오가 가장 자주 놓치는 세 채널. 첫째: 커뮤니티 — 단순히 '안다'와 '의미 있게 존재감을 드러내는 것'은 다르다. 둘째: 하이터치 프로그래매틱 — 클릭(상위 퍼널)만 보지 말고 노출 순서·빈도·오디언스 타겟팅까지 설계. 셋째: OTT/CTV — 미국·유럽에서는 더 이상 틈새가 아니다. 삼성·LG·Vizio TV에서 광고 시청과 실제 플레이를 추적할 수 있다.">
       <h2 class="a" style="margin-bottom: 16px; text-align: center;">아시아 스튜디오의 <span class="hi">세 가지 사각지대</span></h2>
-      <p class="a" style="text-align: center; max-width: 1100px; margin: 0 auto 32px; color: var(--text-secondary); font-size: 1.25rem; line-height: 1.65;">
+      <p class="a" style="text-align: center; max-width: 1100px; margin: 0 auto 32px; color: var(--text-secondary); font-size: 1.4rem; line-height: 1.65;">
         Airbridge × Liquid Advertising 보고서가 짚은 패턴. 모바일 마케팅 문법에 익숙한 아시아 스튜디오가 PC·콘솔에서 일관되게 놓치는 세 채널이다.
       </p>
       <div class="cards">
@@ -903,7 +1074,6 @@
     <div class="slide" data-notes="마무리. 청중에게 감사 인사. Q&A로 자연스럽게 전환.">
       <div class="slide-closing">
         <h1 class="a">Thank You</h1>
-        <p class="a">질문, 피드백, 토론 환영합니다.</p>
       </div>
     </div>
 
@@ -1028,18 +1198,112 @@
       };
 
       /* KEYBOARD */
+      var overviewModal = null;
+
+      function exitOverview() {
+        if (overviewModal) { overviewModal.remove(); overviewModal = null; }
+      }
+
+      function enterOverview() {
+        if (overviewModal) return;
+        var modal = document.createElement('div');
+        modal.className = 'overview-modal open';
+        modal.innerHTML = '<h3>슬라이드 탐색</h3><div class="thumb-grid"></div>' +
+          '<div class="overview-hint"><kbd data-act="overview">G</kbd> 닫기 · 슬라이드 클릭으로 이동</div>';
+
+        var grid = modal.querySelector('.thumb-grid');
+        slides.forEach(function (s, i) {
+          var thumb = document.createElement('button');
+          thumb.className = 'thumb' + (i === current ? ' is-current' : '');
+          thumb.type = 'button';
+
+          // wrapper 방식 — wrap에 1920×1080 + transform 적용, slide는 자연스럽게
+          var wrap = document.createElement('div');
+          wrap.className = 'thumb-wrap';
+
+          var cloned = s.cloneNode(true);
+          cloned.classList.remove('active');
+          wrap.appendChild(cloned);
+          thumb.appendChild(wrap);
+
+          var num = document.createElement('span');
+          num.className = 'thumb-num';
+          num.textContent = String(i + 1).padStart(2, '0');
+          thumb.appendChild(num);
+
+          thumb.addEventListener('click', function () {
+            exitOverview();
+            goTo(i);
+          });
+          grid.appendChild(thumb);
+        });
+
+        // overview-hint의 G 클릭 → 모달 닫기
+        modal.addEventListener('click', function (e) {
+          var t = e.target.closest('[data-act]');
+          if (t && t.dataset.act === 'overview') {
+            e.preventDefault();
+            exitOverview();
+          }
+        });
+
+        document.body.appendChild(modal);
+        overviewModal = modal;
+      }
+
+      function toggleOverview() {
+        if (overviewModal) exitOverview(); else enterOverview();
+      }
+
+      var hintEl = document.getElementById('hint');
+      function toggleHint() {
+        if (hintEl) hintEl.classList.toggle('expanded');
+      }
+      /* hint 안 kbd 클릭 → 해당 액션 실행 */
+      if (hintEl) {
+        hintEl.addEventListener('click', function (e) {
+          var t = e.target.closest('[data-act]');
+          if (!t) return;
+          e.preventDefault();
+          var act = t.dataset.act;
+          if (act === 'hint') toggleHint();
+          else if (act === 'next') next();
+          else if (act === 'prev') prev();
+          else if (act === 'overview') toggleOverview();
+          else if (act === 'fs') window.toggleFullscreen();
+          else if (act === 'notes') toggleNotes();
+        });
+      }
+
       document.addEventListener('keydown', function (e) {
         if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+        // 탐색 모달이 열려있을 때 Esc는 닫기 우선
+        if (overviewModal && (e.key === 'Escape' || e.key === 'g' || e.key === 'G')) {
+          e.preventDefault(); exitOverview(); return;
+        }
         switch (e.key) {
           case 'ArrowRight': case 'ArrowDown': e.preventDefault(); next(); break;
           case 'ArrowLeft': case 'ArrowUp': e.preventDefault(); prev(); break;
           case ' ': e.preventDefault(); if (e.shiftKey) prev(); else next(); break;
           case 'f': case 'F': e.preventDefault(); window.toggleFullscreen(); break;
           case 's': case 'S': e.preventDefault(); toggleNotes(); break;
-          case 'Home': e.preventDefault(); goTo(0); break;
+          case 'g': case 'G': e.preventDefault(); toggleOverview(); break;
+          case 'h': case 'H': e.preventDefault(); toggleHint(); break;
+          case 'Home': case '0': e.preventDefault(); goTo(0); break;
           case 'End': e.preventDefault(); goTo(total - 1); break;
         }
       });
+
+      /* MOUSE WHEEL — 슬라이드 이동 (throttled) */
+      var wheelLocked = false;
+      document.addEventListener('wheel', function (e) {
+        if (overviewModal) return;  // 탐색 모달 열려있으면 일반 스크롤 허용
+        if (Math.abs(e.deltaY) < 30) return;  // 작은 스크롤 무시
+        if (wheelLocked) return;
+        wheelLocked = true;
+        if (e.deltaY > 0) next(); else prev();
+        setTimeout(function () { wheelLocked = false; }, 350);
+      }, { passive: true });
 
       /* CLICK NAVIGATION */
       document.querySelector('.deck').addEventListener('click', function (e) {

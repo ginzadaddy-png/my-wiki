@@ -44,11 +44,12 @@
     /* KEYBOARD HINTS */
     .hint {
       position: fixed; bottom: 24px; left: 32px;
-      display: flex; gap: 8px; align-items: center;
       z-index: 100;
       font-size: 12px;
+      font-family: 'Pretendard Variable', sans-serif;
       color: rgba(255, 255, 255, 0.4);
       transition: color 0.4s ease;
+      user-select: none;
     }
     .hint.on-light { color: rgba(0, 0, 0, 0.3); }
     .hint kbd {
@@ -56,7 +57,7 @@
       min-width: 24px; height: 24px;
       padding: 0 6px;
       font-family: 'Pretendard Variable', sans-serif;
-      font-size: 11px; font-weight: 500;
+      font-size: 12px; font-weight: 500;
       color: rgba(255, 255, 255, 0.5);
       background: rgba(255, 255, 255, 0.1);
       border: 1px solid rgba(255, 255, 255, 0.2);
@@ -68,6 +69,31 @@
       background: rgba(0, 0, 0, 0.06);
       border-color: rgba(0, 0, 0, 0.15);
     }
+    .hint kbd[data-act] {
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s, color 0.15s, transform 0.1s;
+    }
+    .hint kbd[data-act]:hover {
+      background: rgba(255, 255, 255, 0.18);
+      border-color: rgba(0, 122, 255, 0.5);
+      color: rgba(255, 255, 255, 0.9);
+    }
+    .hint.on-light kbd[data-act]:hover {
+      background: rgba(0, 0, 0, 0.1);
+      border-color: rgba(0, 122, 255, 0.5);
+      color: rgba(0, 0, 0, 0.7);
+    }
+    .hint kbd[data-act]:active { transform: translateY(1px); }
+    /* mini/full 모두 flex로 통일 — kbd 와 텍스트 간격 일정 */
+    .hint .hint-mini,
+    .hint .hint-full {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+    .hint .hint-full { display: none; }
+    .hint.expanded .hint-mini { display: none; }
+    .hint.expanded .hint-full { display: flex; }
 
     /* FULLSCREEN BUTTON */
     .fullscreen-btn {
@@ -497,6 +523,122 @@
       .case-list .case-impact { grid-column: 1 / -1; justify-self: start; }
       .quote-block .quote-text { font-size: 28px; }
     }
+
+    /* ==================== 슬라이드 탐색 모달 ==================== */
+    .overview-modal {
+      position: fixed; inset: 0;
+      background: rgba(10, 14, 22, 0.97);
+      z-index: 2000;
+      overflow-y: auto;
+      padding: 50px 40px 80px;
+      display: none;
+    }
+    .overview-modal.open {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .overview-modal h3 {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin: 0 0 36px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    .thumb-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 320px);
+      gap: 20px;
+      max-width: 1700px;
+      margin: 0 auto;
+      justify-content: center;
+    }
+    .thumb {
+      position: relative;
+      width: 320px;
+      height: 180px;
+      border: 2px solid rgba(255, 255, 255, 0.12);
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      background: #000;
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+      padding: 0;
+      font-family: inherit;
+    }
+    .thumb:hover {
+      border-color: #007AFF;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+    .thumb.is-current {
+      border-color: #007AFF;
+      box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.4);
+    }
+    /* wrapper 방식 */
+    .thumb-wrap {
+      position: absolute;
+      top: 0; left: 0;
+      width: 1920px;
+      height: 1080px;
+      transform: scale(0.16667);
+      transform-origin: top left;
+      pointer-events: none;
+    }
+    .thumb-wrap .slide {
+      opacity: 1 !important;
+      visibility: visible !important;
+      pointer-events: none;
+    }
+    .thumb-wrap .slide .a {
+      opacity: 1 !important;
+      transform: none !important;
+      animation: none !important;
+    }
+    .thumb-num {
+      position: absolute;
+      bottom: 6px; right: 8px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      color: rgba(255, 255, 255, 0.9);
+      background: rgba(0, 0, 0, 0.7);
+      padding: 2px 8px;
+      border-radius: 4px;
+      z-index: 1;
+      letter-spacing: 1px;
+    }
+    .overview-hint {
+      position: fixed; bottom: 24px; left: 50%;
+      transform: translateX(-50%);
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.65);
+      letter-spacing: 0.5px;
+    }
+    .overview-hint kbd {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: rgba(255, 255, 255, 0.9);
+      font-family: 'Pretendard Variable', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      padding: 3px 9px;
+      border-radius: 4px;
+      margin: 0 4px;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s, color 0.15s, transform 0.1s;
+    }
+    .overview-hint kbd:hover {
+      background: rgba(255, 255, 255, 0.18);
+      border-color: rgba(0, 122, 255, 0.5);
+      color: rgba(255, 255, 255, 1);
+    }
+    .overview-hint kbd:active { transform: translateY(1px); }
   </style>
 </head>
 <body>
@@ -507,11 +649,17 @@
   <!-- Slide Counter -->
   <div class="slide-counter" id="counter"></div>
 
-  <!-- Keyboard Hints -->
+  <!-- Keyboard Hints (H 키로 토글, kbd 클릭으로도 작동) -->
   <div class="hint" id="hint">
-    <kbd>&larr;</kbd><kbd>&rarr;</kbd> 이동
-    <kbd>F</kbd> 전체화면
-    <kbd>S</kbd> 발표자 노트
+    <div class="hint-mini"><kbd data-act="hint">H</kbd> 조작 표시</div>
+    <div class="hint-full">
+      <kbd data-act="hint">H</kbd> 조작 숨김
+      <kbd data-act="next">Space</kbd> 다음
+      <kbd data-act="prev">&larr;</kbd><kbd data-act="next">&rarr;</kbd> 이동
+      <kbd data-act="overview">G</kbd> 탐색
+      <kbd data-act="fs">F</kbd> 전체화면
+      <kbd data-act="notes">S</kbd> 발표자 노트
+    </div>
   </div>
 
   <!-- Fullscreen Button -->
@@ -761,7 +909,6 @@
     <!-- ======================== SLIDE 15: CLOSING ======================== -->
     <div class="slide slide-dark closing-slide" data-notes="마무리. 청중에게 감사 인사. 잠시 박수를 위한 침묵. 이후 Q&A 진행.">
       <h1 class="a closing-title text-gradient">Thank You.</h1>
-      <p class="a closing-sub">질문, 피드백, 아이디어 환영합니다.</p>
     </div>
 
   </div>
@@ -805,7 +952,7 @@
 
         var isLight = slides[current].classList.contains('slide-light');
         counter.classList.toggle('on-light', isLight);
-        hintEl.classList.toggle('on-light', isLight);
+        if (hintEl) hintEl.classList.toggle('on-light', isLight);
         fsBtn.classList.toggle('on-light', isLight);
 
         writeHash();
@@ -823,19 +970,99 @@
       function next() { goTo(current + 1); }
       function prev() { goTo(current - 1); }
 
+      /* OVERVIEW MODAL */
+      var overviewModal = null;
+      function exitOverview() {
+        if (overviewModal) { overviewModal.remove(); overviewModal = null; }
+      }
+      function enterOverview() {
+        if (overviewModal) return;
+        var modal = document.createElement('div');
+        modal.className = 'overview-modal open';
+        modal.innerHTML = '<h3>슬라이드 탐색</h3><div class="thumb-grid"></div>' +
+          '<div class="overview-hint"><kbd data-act="overview">G</kbd> 닫기 · 슬라이드 클릭으로 이동</div>';
+        var grid = modal.querySelector('.thumb-grid');
+        slides.forEach(function (s, i) {
+          var thumb = document.createElement('button');
+          thumb.className = 'thumb' + (i === current ? ' is-current' : '');
+          thumb.type = 'button';
+          // wrapper 방식
+          var wrap = document.createElement('div');
+          wrap.className = 'thumb-wrap';
+          var cloned = s.cloneNode(true);
+          cloned.classList.remove('active');
+          wrap.appendChild(cloned);
+          thumb.appendChild(wrap);
+          var num = document.createElement('span');
+          num.className = 'thumb-num';
+          num.textContent = String(i + 1).padStart(2, '0');
+          thumb.appendChild(num);
+          thumb.addEventListener('click', function () { exitOverview(); goTo(i); });
+          grid.appendChild(thumb);
+        });
+        // overview-hint의 G 클릭 → 모달 닫기
+        modal.addEventListener('click', function (e) {
+          var t = e.target.closest('[data-act]');
+          if (t && t.dataset.act === 'overview') {
+            e.preventDefault();
+            exitOverview();
+          }
+        });
+        document.body.appendChild(modal);
+        overviewModal = modal;
+      }
+      function toggleOverview() {
+        if (overviewModal) exitOverview(); else enterOverview();
+      }
+
+      function toggleHint() {
+        if (hintEl) hintEl.classList.toggle('expanded');
+      }
+      /* hint 안 kbd 클릭 → 해당 액션 실행 */
+      if (hintEl) {
+        hintEl.addEventListener('click', function (e) {
+          var t = e.target.closest('[data-act]');
+          if (!t) return;
+          e.preventDefault();
+          var act = t.dataset.act;
+          if (act === 'hint') toggleHint();
+          else if (act === 'next') next();
+          else if (act === 'prev') prev();
+          else if (act === 'overview') toggleOverview();
+          else if (act === 'fs') toggleFullscreen();
+          else if (act === 'notes') toggleNotes();
+        });
+      }
+
       /* KEYBOARD */
       document.addEventListener('keydown', function (e) {
         if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+        if (overviewModal && (e.key === 'Escape' || e.key === 'g' || e.key === 'G')) {
+          e.preventDefault(); exitOverview(); return;
+        }
         switch (e.key) {
           case 'ArrowRight': case 'ArrowDown': e.preventDefault(); next(); break;
           case 'ArrowLeft': case 'ArrowUp': e.preventDefault(); prev(); break;
           case ' ': e.preventDefault(); if (e.shiftKey) prev(); else next(); break;
-          case 'Home': e.preventDefault(); goTo(0); break;
+          case 'Home': case '0': e.preventDefault(); goTo(0); break;
           case 'End': e.preventDefault(); goTo(total - 1); break;
           case 'f': case 'F': e.preventDefault(); toggleFullscreen(); break;
           case 's': case 'S': e.preventDefault(); toggleNotes(); break;
+          case 'g': case 'G': e.preventDefault(); toggleOverview(); break;
+          case 'h': case 'H': e.preventDefault(); toggleHint(); break;
         }
       });
+
+      /* MOUSE WHEEL — 슬라이드 이동 (throttled) */
+      var wheelLocked = false;
+      document.addEventListener('wheel', function (e) {
+        if (overviewModal) return;
+        if (Math.abs(e.deltaY) < 30) return;
+        if (wheelLocked) return;
+        wheelLocked = true;
+        if (e.deltaY > 0) next(); else prev();
+        setTimeout(function () { wheelLocked = false; }, 350);
+      }, { passive: true });
 
       /* CLICK NAVIGATION */
       deck.addEventListener('click', function (e) {
