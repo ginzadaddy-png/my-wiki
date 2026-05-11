@@ -112,14 +112,19 @@ confidence: high | medium | low
   - 본문 텍스트: [[astro-bot|아스트로봇]] ✓
   - 테이블 헤더·셀: [[astro-bot]] ✓ / [[astro-bot|아스트로봇]] ✗
   - 해당 slug의 entity/concept 페이지가 있으면 wikilink, 없으면 plain text
-- **pill-grid 리스트에서는 [[slug|한글 설명]] 형식 사용** (index.md 카탈로그 전용)
-  - 형식: `<div class="pill-grid">` 안에 `- [[slug|한글 설명]]` 리스트
-  - 한글 설명이 그대로 pill 버튼 라벨로 표시됨, 너무 길면 CSS가 …로 자름
+- **pill-grid 리스트에서는 [[slug|한글 라벨]] 또는 [[slug|한글 라벨 — 부연 설명]] 형식 사용** (index.md 카탈로그 전용)
+  - 형식: `<div class="pill-grid">` 안에 `- [[slug|한글 라벨]]` 리스트
+  - 가변 너비 (텍스트 길이에 따름), 상한 max-width 280px
+  - **` — `(스페이스+em-dash+스페이스) 구분자**로 라벨/디테일 분리 가능
+    - 기본 표시: 라벨만 (짧은 가변 너비)
+    - hover 시: 전체 텍스트가 layer로 펼쳐지며 옆 버튼 자리 침범 (max-width 520px)
+    - 구현: `pill-grid.inline.ts`가 ` — ` 기준으로 split해서 `.pill-label`·`.pill-detail` span으로 감쌈
+  - 구분자 없는 항목은 hover 확장 없이 라벨만 표시
   - 예시:
     ```
     <div class="pill-grid">
 
-    - [[rapid-prototyping|빠른 프로토타이핑과 반복 개발]]
+    - [[rapid-prototyping|빠른 프로토타이핑]]
     - [[soulslike|소울라이크 — 공정한 가혹함·죽음 루프]]
 
     </div>
@@ -133,14 +138,4 @@ confidence: high | medium | low
 ## INGEST 전처리 규칙
 raw/ 파일 읽은 후, 아래 패턴은 무시하고 처리:
 - "관련 기사", "더 보기", "광고" 섹션
-- 100자 미만 단락 (네비게이션 잔여물)
-- URL만 있는 줄
-- "Share", "Subscribe", "Newsletter" 등 CTA 텍스트
-- 
-raw/ 파일 읽을 때 아래 줄/섹션은 읽지 말고 건너뛸 것:
-- `![](` 로 시작하는 줄 (이미지)
-- `▲` 로 시작하는 줄 (이미지 캡션)
-- `TAGS:` 이후 모든 내용
-- RSS/URL/이메일 주소 줄 (맨 앞 3줄)
-- 댓글 섹션 (`#### 댓글` 이후)
-- 관련뉴스 표 (`## 인벤 주요 뉴스` 이후)
+- 100자 미만 단
