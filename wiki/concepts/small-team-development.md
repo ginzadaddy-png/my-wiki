@@ -11,8 +11,8 @@ confidence: high
 소수 인원으로 대작을 완성한 스튜디오들의 공통 전략.
 
 **1. 명확한 반복 구조**
-- [[team-asobi|팀 아소비]](65명): 2주 주기 프로토타이핑, 103회 전체 리뷰, 6주 플레이테스트
-- [[sandfall-interactive|샌드폴 인터랙티브]](~40명): 역할 분리(프로그래머=도구, 디자이너=콘텐츠)로 병목 제거
+- [[team-asobi|팀 아소비]] (65명): 2주 주기 프로토타이핑, 103회 전체 리뷰, 6주 플레이테스트
+- [[sandfall-interactive|샌드폴 인터랙티브]] (~40명): 역할 분리(프로그래머=도구, 디자이너=콘텐츠)로 병목 제거
 
 **2. 도구와 엔진을 내 편으로**
 - 엔진에 손대지 않기: 버전 업 비용 방지, 최신 버그 수정 무상 획득 (샌드폴)
@@ -40,7 +40,7 @@ confidence: high
 
 **7. 제약으로 공통 언어 만들기 (Asobo)**
 
-[[asobo-studio|Asobo Studio]](~20명 아티스트, [[a-plague-tale-requiem|A Plague Tale: Requiem]]):
+[[asobo-studio|Asobo Studio]] (~20명 아티스트, [[a-plague-tale-requiem|A Plague Tale: Requiem]]):
 - "One Time Period, One Place, One Style" — 중세·남부 프랑스·클로드 로랭 회화로 창작 범위 고정
 - 레이토모티프 "Focus on what matters": Megascans 보조 에셋 대체, Midpoly 메시, Displacement→Blend Map 재활용
 - Fast Level Building: Day 1 블록아웃 → 1~2주 폴리시 — 방향 검증 먼저, 완성도는 나중

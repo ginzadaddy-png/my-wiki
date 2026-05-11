@@ -25,6 +25,6 @@ confidence: medium
 
 ## 스웨덴 생태계 맥락
 
-[[embark-studios|엠바크]](아크 레이더스), [[hazelight-studios|Hazelight]](Split Fiction), [[arrowhead-game-studios|애로우헤드]](헬다이버스2)와 함께 "협동 × 크리에이터 친화" 포지션이 Steam에서 통한다는 것을 증명한 스웨덴 클러스터의 일원.
+[[embark-studios|엠바크]] (아크 레이더스), [[hazelight-studios|Hazelight]] (Split Fiction), [[arrowhead-game-studios|애로우헤드]] (헬다이버스2)와 함께 "협동 × 크리에이터 친화" 포지션이 Steam에서 통한다는 것을 증명한 스웨덴 클러스터의 일원.
 
 > PEAK가 보여준 것: **예산이 아니라 포지셔닝이 바이럴을 만든다.** 4개월 개발로 AAA를 이기는 구조는 협동+크리에이터+단순함 세 가지가 맞물릴 때 가능하다.
