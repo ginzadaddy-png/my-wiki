@@ -115,6 +115,12 @@ confidence: high | medium | low
   - 본문 텍스트: [[astro-bot|아스트로봇]] ✓
   - 테이블 헤더·셀: [[astro-bot]] ✓ / [[astro-bot|아스트로봇]] ✗
   - 해당 slug의 entity/concept 페이지가 있으면 wikilink, 없으면 plain text
+- **부연 설명이 필요할 땐 ` — ` (em-dash + 좌우 공백 한 칸) 구분자만 사용** — 괄호 ` (...)` 형식 금지
+  - 적용 위치: concepts/comparisons 페이지 안의 wikilink 리스트 등 본문 영역
+  - 예: `[[mda-framework|MDA 프레임워크 — 메카닉→다이나믹→에스테틱]]` ✓
+  - 금지: `[[mda-framework|MDA 프레임워크 (메카닉→다이나믹→에스테틱)]]` ✗
+  - index.md pill-grid에는 부연 설명 자체를 붙이지 않음 (아래 규칙 참고)
+  - 페이지 frontmatter title도 부연 설명 없는 짧은 라벨로 유지 (단, 한·영 병기 같이 제목 자체의 일부인 경우는 예외)
 - **pill-grid 리스트에서는 [[slug|짧은 라벨]] 형식만 사용** (index.md 카탈로그 전용)
   - 형식: `<div class="pill-grid">` 안에 `- [[slug|짧은 라벨]]` 리스트
   - **부연 설명 금지** — ` — 부연…` 또는 ` (부연…)` 패턴은 붙이지 말 것. 페이지 제목 그대로 사용
