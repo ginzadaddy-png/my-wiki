@@ -1,10 +1,10 @@
-﻿---
+---
 title: "얼리 액세스 전략"
 type: concept
-sources: ["[[gdc24-baldurs-gate-3]]", "[[kasavin-hades-ea]]", "[[vincke-bg3-ea]]"]
-related: ["[[larian-studios|라리안 스튜디오]]", "[[baldurs-gate-3|발더스 게이트3]]", "[[supergiant-games|슈퍼자이언트]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[playtesting|플레이테스팅]]"]
+sources: ["[[gdc24-baldurs-gate-3]]", "[[kasavin-hades-ea]]", "[[vincke-bg3-ea]]", "[[ign-generations-in-play-2026]]"]
+related: ["[[larian-studios|라리안 스튜디오]]", "[[baldurs-gate-3|발더스 게이트3]]", "[[supergiant-games|슈퍼자이언트]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[playtesting|플레이테스팅]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]"]
 created: 2026-04-13
-updated: 2026-05-07
+updated: 2026-05-12
 confidence: high
 ---
 
@@ -36,3 +36,29 @@ confidence: high
 - **게임의 일부만 EA 공개**: 라리안 = Act 1만 / 슈퍼자이언트 = 엔딩 보류
 - **나머지는 1.0까지 보존**: 스토리 서프라이즈·완성도 모먼트 유지
 - **EA = 검증 루프, 마케팅 도구 아님** ([[vincke-bg3-ea]] 빈케 발언: "EA를 성공적으로 졸업한 게임은 모델을 남용하지 않는다")
+
+## 구독 시대의 EA — "Discovery Engine" 관점 ([[ign-generations-in-play-2026]])
+
+2025+ 게이밍 환경에서 EA의 의미가 *구독·라이브러리 모델*과 융합되면서 확장됨. 자세한 맥락은 [[subscription-economy-gaming]] 참조.
+
+**기존 EA 가치**: 피드백 + 재원 + 입소문 (3년 QA 리포트)
+**구독 시대 추가 가치**: Game Pass/PlayStation Plus/Humble 등 라이브러리 진입을 통한 *Try-before-buy 자동화*
+
+게임 액세스 방식 — 세대별 인텐트 (IGN 2026):
+- Gen Z 풀가격 구매 20% / 구독 21% / F2P 46%
+- → Gen Z 타깃 EA 게임은 *풀가격 EA 구매 모델* 자체가 진입 장벽일 수 있음
+- 구독 라이브러리에 EA로 진입 → 거주 결정 → 풀가격 commit 또는 라이브 서비스 잔류의 *funnel*
+
+**Day-1 release commit** (출시일 압박):
+- Gen Z 59%가 day-of-release 시청·플레이 commit (스포일러 회피 + 문화담론 합류)
+- → EA → 1.0 transition을 day-1 이벤트로 설계할 가치. 라이브 스트림·디스코드 동시 활성·크리에이터 동시 출시가 Gen Z retention에 핵심
+
+**EA의 신뢰 형성 — 세대별 (참고: [[creator-economy-trust]])**:
+- Gen X (Earned): EA 기간 동안 *일관성·기록*이 신뢰 (라리안의 1주 1패치 같은 리듬)
+- Millennials (Validated): *다각도 검증* — 외부 리뷰 + 커뮤니티 + 크리에이터 deep dive
+- Gen Z (Built in real time): *engagement 그 자체*가 신뢰 — 개발자 라이브 스트림, 디스코드 직접 답변
+
+**EA 전략 권장 (세대 OS 통합)**:
+- 라리안식 "Act 1 + 3년 QA" 모델은 Gen X·M에 강력. Gen Z 합류에는 *추가 컬처 콘텐츠 축* 필요
+- 슈퍼자이언트식 "파일럿 에피소드" 모델은 Gen Z의 *episodic·serialized 컬처*에 친화적
+- 두 모델 모두 *구독 라이브러리에 EA 진입* 시 sales 잠식 우려 없음 — *거주 결정의 funnel*로 작동

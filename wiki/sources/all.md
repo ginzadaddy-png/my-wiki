@@ -2,10 +2,11 @@
 title: "소스 전체 목록"
 ---
 
-총 105개 | 최신순 정렬
+총 106개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [ign-generations-in-play-2026](ign-generations-in-play-2026.md) | IGN Entertainment — Generations In Play: 2026 Audience Insights Report | 2026-05 |
 | [zukowski-next-fest-strategy](zukowski-next-fest-strategy.md) | Steam Next Fest 2026-02 분석 (Chris Zukowski / How to Market a Game) | 2026-04 |
 | [game-marketing-strategy-2026](game-marketing-strategy-2026.md) | 2026 게임 마케팅 전략 가이드 (Reverb) | 2026-04 |
 | [missing-middle-paradigm-shift-2026](missing-middle-paradigm-shift-2026.md) | 2026 미싱 미들 — AA 게임의 패러다임 전환 | 2026-04 |

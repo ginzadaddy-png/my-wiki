@@ -530,6 +530,413 @@
     }
     .chart-bar.gold { background: var(--accent-gold); }
     .chart-bar.muted { background: var(--text-secondary); opacity: 0.45; }
+    /* Gold bar with embedded game thumbnails (slide 4) */
+    .chart-bar.chart-bar-thumbs {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      padding: 5px;
+      gap: 5px;
+      box-shadow: 0 4px 18px rgba(200, 164, 92, 0.35);
+    }
+    .chart-bar.chart-bar-thumbs .more-badge {
+      flex: 0 0 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.32);
+      border: 1px dashed rgba(30, 58, 95, 0.55);
+      border-radius: 3px;
+      font-family: var(--font-mono);
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--accent);
+      line-height: 1;
+      letter-spacing: -0.02em;
+      user-select: none;
+    }
+
+    /* Interactive wishlist slider (slide 8) */
+    .wishlist-slider {
+      max-width: 940px;
+      margin: 18px auto 0;
+      padding: 14px 28px 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+    }
+    .wishlist-slider .slider-readout {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 28px;
+      margin-bottom: 10px;
+    }
+    .wishlist-slider .readout-block {
+      text-align: center;
+      min-width: 200px;
+    }
+    .wishlist-slider .readout-label {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      margin-bottom: 2px;
+      letter-spacing: 0.02em;
+    }
+    .wishlist-slider .readout-value {
+      font-family: var(--font-mono);
+      font-size: 1.7rem;
+      font-weight: 700;
+      color: var(--accent);
+      line-height: 1.1;
+      font-variant-numeric: tabular-nums;
+    }
+    .wishlist-slider .readout-block.output .readout-value { color: #a07f33; }
+    .wishlist-slider .readout-arrow {
+      font-size: 1.4rem;
+      color: var(--text-secondary);
+      padding-bottom: 2px;
+    }
+    .wishlist-slider input[type="range"] {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 100%;
+      height: 6px;
+      background: var(--border);
+      border-radius: 3px;
+      outline: none;
+      cursor: pointer;
+    }
+    .wishlist-slider input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 22px;
+      height: 22px;
+      background: var(--accent);
+      border: 3px solid var(--accent-gold);
+      border-radius: 50%;
+      cursor: grab;
+      transition: transform 0.12s;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+    }
+    .wishlist-slider input[type="range"]::-webkit-slider-thumb:hover { transform: scale(1.08); }
+    .wishlist-slider input[type="range"]::-webkit-slider-thumb:active { cursor: grabbing; }
+    .wishlist-slider input[type="range"]::-moz-range-thumb {
+      width: 22px;
+      height: 22px;
+      background: var(--accent);
+      border: 3px solid var(--accent-gold);
+      border-radius: 50%;
+      cursor: grab;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+    }
+    .wishlist-slider .slider-ticks {
+      display: flex;
+      justify-content: space-between;
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+      margin-top: 6px;
+      padding: 0 4px;
+    }
+    .wishlist-slider .slider-threshold {
+      display: block;
+      text-align: center;
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      margin-top: 8px;
+      min-height: 1.2em;
+    }
+    .wishlist-slider .slider-threshold .ok { color: #4a7c4a; font-weight: 600; }
+    .wishlist-slider .slider-threshold .bad { color: #b8533a; font-weight: 600; }
+    /* Bucket highlight on chart bars when slider is active */
+    .chart-bar.bucket-active {
+      outline: 3px solid var(--accent-gold);
+      outline-offset: 3px;
+    }
+
+    /* Hover popup on chart bars (slide 4) */
+    .chart-bar-group.has-popup { position: relative; cursor: help; }
+    .chart-bar-popup {
+      position: absolute;
+      bottom: calc(100% + 18px);
+      left: 50%;
+      transform: translateX(-50%) translateY(8px);
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 14px 14px;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.18s ease, transform 0.18s ease;
+      z-index: 200;
+      width: 320px;
+    }
+    .chart-bar-popup::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 8px solid transparent;
+      border-top-color: #fff;
+    }
+    .chart-bar-popup::before {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%) translateY(1px);
+      border: 9px solid transparent;
+      border-top-color: var(--border);
+      z-index: -1;
+    }
+    .chart-bar-group.has-popup:hover .chart-bar-popup,
+    .chart-bar-group.has-popup:focus-within .chart-bar-popup {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+      pointer-events: auto;
+    }
+    .chart-bar-popup-title {
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+      text-align: center;
+      letter-spacing: 0.02em;
+    }
+    .chart-bar-popup-row {
+      display: flex;
+      gap: 6px;
+      justify-content: center;
+    }
+    .chart-bar-popup-row img {
+      width: 92px;
+      height: 43px;
+      object-fit: cover;
+      border-radius: 3px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+      image-rendering: high-quality;
+      image-rendering: smooth;
+    }
+    /* Edge-aligned popups for left-most and right-most bars */
+    .chart-bar-group.has-popup.popup-left .chart-bar-popup {
+      left: 0;
+      transform: translateX(20px) translateY(8px);
+    }
+    .chart-bar-group.has-popup.popup-left:hover .chart-bar-popup,
+    .chart-bar-group.has-popup.popup-left:focus-within .chart-bar-popup {
+      transform: translateX(20px) translateY(0);
+    }
+    .chart-bar-group.has-popup.popup-left .chart-bar-popup::after,
+    .chart-bar-group.has-popup.popup-left .chart-bar-popup::before {
+      left: 50px;
+    }
+    .chart-bar-group.has-popup.popup-right .chart-bar-popup {
+      left: auto;
+      right: 0;
+      transform: translateX(-20px) translateY(8px);
+    }
+    .chart-bar-group.has-popup.popup-right:hover .chart-bar-popup,
+    .chart-bar-group.has-popup.popup-right:focus-within .chart-bar-popup {
+      transform: translateX(-20px) translateY(0);
+    }
+    .chart-bar-group.has-popup.popup-right .chart-bar-popup::after,
+    .chart-bar-group.has-popup.popup-right .chart-bar-popup::before {
+      left: auto;
+      right: 50px;
+      transform: none;
+    }
+
+    /* Model toggle (slide 5) — F2P vs Premium */
+    .model-toggle-wrap {
+      margin: 28px auto 0;
+      max-width: 1080px;
+      width: 100%;
+    }
+    .model-toggle-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 4px;
+      margin: 0 auto 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 4px;
+      width: fit-content;
+    }
+    .model-toggle-tabs button {
+      font: inherit;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      background: transparent;
+      border: none;
+      padding: 9px 22px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: background 0.18s, color 0.18s;
+      letter-spacing: 0.01em;
+    }
+    .model-toggle-tabs button.active[data-model="f2p"] {
+      background: var(--accent);
+      color: #fff;
+    }
+    .model-toggle-tabs button.active[data-model="premium"] {
+      background: var(--accent-gold);
+      color: var(--accent);
+    }
+    .model-toggle-tabs button:hover:not(.active) { color: var(--text); }
+    .model-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px 28px 22px;
+    }
+    .model-panel-header {
+      text-align: center;
+      font-size: 1.05rem;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+      font-style: normal;
+    }
+    .model-panel-header strong { color: var(--accent); font-weight: 700; }
+    .model-panel-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px 32px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+    }
+    .model-panel-list li {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      font-size: 1.05rem;
+      line-height: 1.5;
+      color: var(--text);
+    }
+    .model-panel-list li .icon {
+      flex: 0 0 auto;
+      font-size: 1.3rem;
+      line-height: 1.2;
+      padding-top: 1px;
+    }
+    .model-panel-list li .text strong {
+      color: var(--accent);
+      font-weight: 700;
+      display: block;
+      margin-bottom: 2px;
+      font-size: 1.05rem;
+    }
+    .model-panel-list li .text .detail {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    .model-state[hidden] { display: none; }
+    .model-state {
+      animation: fadeInState 0.22s ease;
+    }
+    @keyframes fadeInState {
+      from { opacity: 0; transform: translateY(4px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Source details — 출처 펼치기 (전 deck 공통) */
+    .source-details {
+      margin: 12px auto 0;
+      max-width: 1100px;
+      text-align: center;
+    }
+    .source-details summary {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      color: var(--text-secondary);
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      letter-spacing: 0.02em;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: var(--hint-bg);
+      border: 1px solid var(--hint-border);
+      transition: background 0.15s, color 0.15s, border-color 0.15s;
+      user-select: none;
+      list-style: none;
+    }
+    .source-details summary::-webkit-details-marker { display: none; }
+    .source-details summary::before {
+      content: '+';
+      font-weight: 700;
+      display: inline-block;
+      width: 10px;
+      text-align: center;
+    }
+    .source-details[open] summary::before { content: '\2212'; }
+    .source-details summary:hover {
+      background: var(--surface);
+      color: var(--text);
+      border-color: var(--border);
+    }
+    .source-details .source-body {
+      margin-top: 10px;
+      padding: 12px 18px 14px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.92rem;
+      line-height: 1.6;
+      color: var(--text);
+      text-align: left;
+      max-width: 920px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .source-details .source-body p { margin: 0 0 6px; }
+    .source-details .source-body p:last-child { margin-bottom: 0; }
+    .source-details .source-body .src-title {
+      font-weight: 700;
+      color: var(--accent);
+      font-size: 0.96rem;
+    }
+    .source-details .source-body .src-quote {
+      font-style: italic;
+      color: var(--text-secondary);
+      border-left: 3px solid var(--accent-gold);
+      padding: 2px 0 2px 12px;
+      margin: 8px 0;
+    }
+    .source-details .source-body .src-meta {
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      font-family: var(--font-mono);
+      margin-top: 4px;
+    }
+    .source-details .source-body ul {
+      margin: 6px 0 0;
+      padding-left: 20px;
+    }
+    .source-details .source-body ul li { margin-bottom: 4px; }
+    .chart-bar.chart-bar-thumbs img {
+      width: 100%;
+      flex: 1 1 0;
+      min-height: 0;
+      object-fit: cover;
+      border-radius: 3px;
+      display: block;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+      /* downscale anti-aliasing — Chrome high-quality + GPU compositing */
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: high-quality;
+      image-rendering: smooth;
+      transform: translateZ(0);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      will-change: transform;
+    }
     .chart-value {
       font-family: var(--font-mono);
       font-size: 1.5rem;
@@ -807,22 +1214,51 @@
       <h2 class="a" style="margin-bottom: 8px; text-align: center;">가격대별 수익 변화 <span class="hi">2022 → 2025</span></h2>
       <p class="a" style="margin-bottom: 28px; text-align: center;">$30~50 구간 — 미드 프라이스 스위트 스팟</p>
       <div class="chart a">
-        <div class="chart-bar-group">
+        <div class="chart-bar-group has-popup popup-left">
+          <div class="chart-bar-popup" role="tooltip">
+            <div class="chart-bar-popup-title">대표작 — $30 미만 인디 히트</div>
+            <div class="chart-bar-popup-row">
+              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1794680/header.jpg" alt="Vampire Survivors" loading="lazy">
+              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg" alt="Stardew Valley" loading="lazy">
+              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/header.jpg" alt="Hades" loading="lazy">
+            </div>
+          </div>
           <div class="chart-value positive">+156%</div>
           <div class="chart-bar" style="height: 70%;"></div>
           <div class="chart-label">$30 미만</div>
         </div>
         <div class="chart-bar-group">
           <div class="chart-value positive">+195%</div>
-          <div class="chart-bar gold" style="height: 88%;"></div>
+          <div class="chart-bar gold chart-bar-thumbs" style="height: 88%;">
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg" alt="Clair Obscur: Expedition 33" loading="lazy">
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/553850/header.jpg" alt="Helldivers 2" loading="lazy">
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1808500/header.jpg" alt="ARC Raiders" loading="lazy">
+            <div class="more-badge" aria-label="외 다수">+</div>
+          </div>
           <div class="chart-label">$30 ~ $50</div>
         </div>
-        <div class="chart-bar-group">
+        <div class="chart-bar-group has-popup">
+          <div class="chart-bar-popup" role="tooltip">
+            <div class="chart-bar-popup-title">대표작 — $50~$70 프리미엄</div>
+            <div class="chart-bar-popup-row">
+              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg" alt="Baldur's Gate 3" loading="lazy">
+              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg" alt="Elden Ring" loading="lazy">
+              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/header.jpg" alt="Black Myth: Wukong" loading="lazy">
+            </div>
+          </div>
           <div class="chart-value">정체</div>
           <div class="chart-bar muted" style="height: 22%;"></div>
           <div class="chart-label">$50 ~ $70</div>
         </div>
-        <div class="chart-bar-group">
+        <div class="chart-bar-group has-popup popup-right">
+          <div class="chart-bar-popup" role="tooltip">
+            <div class="chart-bar-popup-title">대표작 — $70+ AAA</div>
+            <div class="chart-bar-popup-row">
+              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1716740/header.jpg" alt="Starfield" loading="lazy">
+              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1971870/header.jpg" alt="Mortal Kombat 1" loading="lazy">
+              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2531310/header.jpg" alt="Marvel's Spider-Man 2" loading="lazy">
+            </div>
+          </div>
           <div class="chart-value negative">하락</div>
           <div class="chart-bar muted" style="height: 12%;"></div>
           <div class="chart-label">$70 +</div>
@@ -833,6 +1269,17 @@
         $30~50 미드 프라이스가 전체 매출 성장의 견인차로 부상했다. 클레르 옵스퀴르($50, 600만장+), 헬다이버스2($40, 2,000만장+), 아크 레이더스($40, 1,400만장)가 이 구간의 대표 사례. AAA 가격 전략($70+)은 정체·하락 국면이며, 게이머의 22%가 핵심 게임플레이를, 단 7%만 고품질 그래픽을 최우선으로 꼽았다는 조사가 이 구조 변화를 뒷받침한다.
       </p>
       <p class="a chart-caption">출처 — Newzoo 2026 시장 분석, Bain &amp; Company 2025</p>
+      <details class="source-details a">
+        <summary>출처 펼치기</summary>
+        <div class="source-body">
+          <p><span class="src-title">Newzoo Global Games Market Report 2026</span></p>
+          <p>$30~$50 미드 프라이스 구간이 2022~2025년 누적 매출 +195% 성장 (전 가격대 중 최고). $70 이상 AAA 가격대는 정체·하락 국면.</p>
+          <p class="src-meta">Newzoo &middot; 2026년 시장 분석 보고서</p>
+          <p style="margin-top: 12px;"><span class="src-title">Bain &amp; Company Gamer Survey 2025</span></p>
+          <p class="src-quote">"게이머의 22%가 핵심 게임플레이를 최우선으로 꼽았고, 단 7%만 고품질 그래픽을 최우선으로 선택했다."</p>
+          <p class="src-meta">Bain &amp; Company &middot; 2025년 글로벌 게이머 선호도 조사</p>
+        </div>
+      </details>
     </div>
 
     <!-- ======================== SLIDE 5: QUOTE — 가격은 포지셔닝 ======================== -->
@@ -841,7 +1288,58 @@
         <div class="a quote-mark">&ldquo;</div>
         <p class="a quote-text">가격은 수익 계산식이 아니라<br>포지셔닝 선언이다.</p>
         <p class="a quote-attr">&mdash; <strong>게임 가격 전략</strong> · 핵심 인사이트</p>
-        <p class="a quote-sub">$40은 'AAA가 아닌 것'이 아니라 '플레이어의 시간을 존중하는 것'으로 읽힌다. 장르 평균을 이탈하지 않되, 비즈니스 모델과 게임플레이 철학이 일관된 가격을 선택할 것. 아크 레이더스의 F2P→$40 전환 사례가 보여주듯, 가격 변경은 단순 숫자 조정이 아니라 게임플레이 루프 자체를 바꾸는 결정 — 크래프팅 타이머·노가다 같은 수익 모델상 강제된 마찰을 한 번에 제거할 수 있다.</p>
+        <p class="a quote-sub" style="margin-top: 20px;">아크 레이더스의 <strong>F2P → $40 전환</strong>이 보여주듯, 가격 변경은 단순 숫자 조정이 아니라 게임 루프 자체를 바꾸는 결정이다.</p>
+
+        <div class="model-toggle-wrap a">
+          <div class="model-toggle-tabs" role="tablist" aria-label="비즈니스 모델 비교">
+            <button type="button" class="active" data-model="f2p" role="tab" aria-selected="true">F2P 모델 (이전)</button>
+            <button type="button" data-model="premium" role="tab" aria-selected="false">$40 프리미엄 (전환 후)</button>
+          </div>
+          <div class="model-panel">
+            <div class="model-state" data-state="f2p">
+              <p class="model-panel-header">수익 모델이 <strong>게임 루프</strong>를 규정 — 시간 마찰을 의도적으로 설계</p>
+              <ul class="model-panel-list">
+                <li>
+                  <span class="icon">&#9203;</span>
+                  <span class="text"><strong>크래프팅 타이머</strong><span class="detail">제작·업그레이드 대기 시간이 곧 페이월. 결제로 단축 가능</span></span>
+                </li>
+                <li>
+                  <span class="icon">&#128197;</span>
+                  <span class="text"><strong>일일 로그인 보상</strong><span class="detail">매일 접속을 강제해 리텐션 KPI 방어</span></span>
+                </li>
+                <li>
+                  <span class="icon">&#128722;</span>
+                  <span class="text"><strong>인게임 상점·배틀패스</strong><span class="detail">진행과 결제가 얽힘 — 가시성·동선이 상점 우선</span></span>
+                </li>
+                <li>
+                  <span class="icon">&#127919;</span>
+                  <span class="text"><strong>노가다·드롭률 조정</strong><span class="detail">시간 투자 또는 결제 — 둘 중 하나로만 진행</span></span>
+                </li>
+              </ul>
+            </div>
+            <div class="model-state" data-state="premium" hidden>
+              <p class="model-panel-header">단일 결제로 <strong>마찰 제거</strong> — 디자인이 수익 모델에 종속되지 않음</p>
+              <ul class="model-panel-list">
+                <li>
+                  <span class="icon">&#9889;</span>
+                  <span class="text"><strong>즉시 제작</strong><span class="detail">대기 시간 0 — 시간이 곧 진행. 페이월 자체가 사라짐</span></span>
+                </li>
+                <li>
+                  <span class="icon">&#127918;</span>
+                  <span class="text"><strong>모든 콘텐츠 게임 내 진행만으로</strong><span class="detail">DLC·인앱 결제 없이 풀 진행 가능</span></span>
+                </li>
+                <li>
+                  <span class="icon">&#128683;</span>
+                  <span class="text"><strong>마이크로트랜잭션 0</strong><span class="detail">결제는 단 한 번 — 후속 결제 압박·상점 디자인 불필요</span></span>
+                </li>
+                <li>
+                  <span class="icon">&#128279;</span>
+                  <span class="text"><strong>알고리즘 페이월 없음</strong><span class="detail">진행 속도·드롭률이 디자인 의도대로 작동</span></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -871,6 +1369,18 @@
           <span class="card-stat">주기적 관심 유도 필수</span>
         </div>
       </div>
+      <details class="source-details a">
+        <summary>출처 펼치기</summary>
+        <div class="source-body">
+          <p><span class="src-title">Airbridge &times; Liquid Advertising 위시리스트 분석</span></p>
+          <p>스팀 위시리스트의 자발적 비중과 출시 첫 주 구매 전환율 회귀 분석. 이벤트 보상으로 수집한 비-자발적 위시리스트는 알림 메일 클릭률부터 무너진다.</p>
+          <p class="src-quote">"자발적 비중 70% 미만 = 출시 첫 주 전환율 평균 대비 -54%."</p>
+          <p class="src-meta">Airbridge x Liquid Advertising &middot; 2025 &middot; 위시리스트 모멘텀 보고서</p>
+          <p style="margin-top: 12px;"><span class="src-title">Valve / Steamworks 개발자 가이드</span></p>
+          <p>디스커버리 큐가 전체 스팀 트래픽의 약 45% 점유. 위시리스트 증가율 + 뉴스 포스트 조합이 큐 가시성의 핵심 변수.</p>
+          <p class="src-meta">Steamworks 공식 &middot; 2024~2025 업데이트 기준</p>
+        </div>
+      </details>
     </div>
 
     <!-- ======================== SLIDE 7: FLOW — 데모 우선 4단계 ======================== -->
@@ -905,6 +1415,17 @@
           <div class="step-desc">첫 2일 25,000회 노출이 분기점. 3일째 성과가 이후 6개월의 디스커버리 큐 가시성을 결정짓는다.</div>
         </div>
       </div>
+      <details class="source-details a">
+        <summary>출처 펼치기</summary>
+        <div class="source-body">
+          <p><span class="src-title">Chris Zukowski — GDC 2025: "Steam Demo Festival Tactics"</span></p>
+          <p class="src-quote">"All your marketing tactics pale in comparison to having a demo. Everything else is a rounding error."</p>
+          <p>핵심 권고: 데모는 넥스트 페스트 1개월 이상 전 미리 출시. shadow-drop(행사 당일 첫 공개)은 일관되게 저조한 성과. 행사는 그랜드 피날레지 시작점이 아님.</p>
+          <p class="src-meta">GDC 2025 발표 &middot; How To Market a Game (chrispatchnotes.com) 운영자</p>
+          <p style="margin-top: 12px;"><span class="src-title">Steam Next Fest 정량 분석 (2024~2026)</span></p>
+          <p>참여 게임 수천 건 분석 결과 — 출시 3일째 누적 매출이 향후 6개월간 디스커버리 큐 가중치를 결정. 첫 2일 25,000회 노출이 알고리즘 임계점.</p>
+        </div>
+      </details>
     </div>
 
     <!-- ======================== SLIDE 8: CHART — 넥스트 페스트 정량 ======================== -->
@@ -912,32 +1433,68 @@
       <h2 class="a" style="margin-bottom: 8px; text-align: center;">넥스트 페스트 — <span class="hi">사전 위시리스트가 결정한다</span></h2>
       <p class="a" style="margin-bottom: 28px; text-align: center;">사전 위시리스트별 행사 중 신규 위시리스트 중간값</p>
       <div class="chart a" style="max-width: 1240px;">
-        <div class="chart-bar-group">
+        <div class="chart-bar-group" data-bucket="0">
           <div class="chart-value">322</div>
-          <div class="chart-bar muted" style="height: 4%;"></div>
+          <div class="chart-bar muted" style="height: 4%;" data-bar-bucket="0"></div>
           <div class="chart-label">0 ~ 999</div>
         </div>
-        <div class="chart-bar-group">
+        <div class="chart-bar-group" data-bucket="1">
           <div class="chart-value">1,006</div>
-          <div class="chart-bar" style="height: 12%;"></div>
+          <div class="chart-bar" style="height: 12%;" data-bar-bucket="1"></div>
           <div class="chart-label">1k ~ 9.9k</div>
         </div>
-        <div class="chart-bar-group">
+        <div class="chart-bar-group" data-bucket="2">
           <div class="chart-value">5,215</div>
-          <div class="chart-bar" style="height: 50%;"></div>
+          <div class="chart-bar" style="height: 50%;" data-bar-bucket="2"></div>
           <div class="chart-label">10k ~ 99k</div>
         </div>
-        <div class="chart-bar-group">
+        <div class="chart-bar-group" data-bucket="3">
           <div class="chart-value">12,882</div>
-          <div class="chart-bar gold" style="height: 92%;"></div>
+          <div class="chart-bar gold" style="height: 92%;" data-bar-bucket="3"></div>
           <div class="chart-label">100k +</div>
         </div>
       </div>
       <div class="chart-baseline a"></div>
-      <p class="a" style="font-size: 1.4rem; color: var(--text-secondary); line-height: 1.65; max-width: 1100px; text-align: center; margin-top: 24px;">
-        사전 위시리스트가 행사 결과를 좌우한다. 1,000개 미만으로 입장하면 행사 중 322개에 그치지만, 100,000개 이상이면 12,882개를 추가로 얻는다. 결론은 명확하다 — 행사장에 도착하기 전에 이미 절반 이상이 결정된다. 사전 누적이 부족하다면 입장을 미루고 데모로 위시리스트부터 모으는 게 합리적이다.
-      </p>
-      <p class="a chart-caption">상관계수 r = 0.825 (가장 강력한 예측 변수) · 진입 임계점 ≈ 사전 위시리스트 2,000개</p>
+
+      <!-- Interactive predictor -->
+      <div class="wishlist-slider a">
+        <div class="slider-readout">
+          <div class="readout-block">
+            <div class="readout-label">사전 위시리스트</div>
+            <div class="readout-value" id="wl-input">5,000</div>
+          </div>
+          <div class="readout-arrow">&rarr;</div>
+          <div class="readout-block output">
+            <div class="readout-label">행사 중 예상 신규 (중간값)</div>
+            <div class="readout-value" id="wl-output">~960</div>
+          </div>
+        </div>
+        <input type="range" id="wl-slider" min="0" max="1000" value="586" aria-label="사전 위시리스트 수">
+        <div class="slider-ticks">
+          <span>100</span>
+          <span>1,000</span>
+          <span>10,000</span>
+          <span>100,000</span>
+        </div>
+        <span class="slider-threshold" id="wl-threshold"></span>
+      </div>
+
+      <p class="a chart-caption" style="margin-top: 14px;">상관계수 r = 0.825 (가장 강력한 예측 변수) · 진입 임계점 ≈ 사전 위시리스트 2,000개 · 슬라이더로 시뮬레이션 가능</p>
+      <details class="source-details a">
+        <summary>출처 펼치기</summary>
+        <div class="source-body">
+          <p><span class="src-title">Steam Next Fest 2025~2026 정량 회귀 분석</span></p>
+          <p>참여 게임 수천 건을 사전 위시리스트 규모별 4개 구간으로 분할한 뒤 행사 중 신규 위시리스트 중간값 측정. 가장 강력한 예측 변수는 사전 위시리스트 (Pearson r = 0.825).</p>
+          <ul>
+            <li>0 ~ 999 → 행사 중 신규 중간값 <strong>322</strong></li>
+            <li>1k ~ 9.9k → <strong>1,006</strong></li>
+            <li>10k ~ 99k → <strong>5,215</strong></li>
+            <li>100k+ → <strong>12,882</strong></li>
+          </ul>
+          <p style="margin-top: 8px;">권고 진입 임계점: 사전 위시리스트 <strong>2,000개</strong>. 미달 시 입장을 미루고 데모 마케팅으로 누적 우선.</p>
+          <p class="src-meta">How To Market a Game / Chris Zukowski &middot; 2026 봄 업데이트</p>
+        </div>
+      </details>
     </div>
 
     <!-- ======================== SLIDE 9: CARDS — 스토어 페이지 최적화 ======================== -->
@@ -1307,7 +1864,7 @@
 
       /* CLICK NAVIGATION */
       document.querySelector('.deck').addEventListener('click', function (e) {
-        if (e.target.closest('a, button, .card, .step, .toc-list li')) return;
+        if (e.target.closest('a, button, input, label, summary, details, .card, .step, .toc-list li, .wishlist-slider, .source-details, .model-toggle-tabs, .chart-bar-popup')) return;
         var x = e.clientX;
         var width = window.innerWidth;
         var leftThird = width / 3;
@@ -1341,6 +1898,117 @@
       /* INIT */
       readHash();
       updateUI();
+    })();
+  </script>
+
+  <!-- Slide 8: Interactive wishlist predictor -->
+  <script>
+    (function () {
+      var slider = document.getElementById('wl-slider');
+      if (!slider) return;
+      var inputEl = document.getElementById('wl-input');
+      var outputEl = document.getElementById('wl-output');
+      var thresholdEl = document.getElementById('wl-threshold');
+      var bars = document.querySelectorAll('[data-bar-bucket]');
+
+      /* Log-scale: slider 0..1000 maps to 100..100,000 wishlists */
+      var MIN_LOG = Math.log10(100);
+      var MAX_LOG = Math.log10(100000);
+
+      /* Empirical anchors from Steam Next Fest 2025-2026 analysis
+         (bucket midpoint → median new wishlists during fest) */
+      var ANCHORS = [
+        [500,    322],
+        [5450,   1006],
+        [54500,  5215],
+        [100000, 12882]
+      ];
+
+      function predict(x) {
+        if (x <= ANCHORS[0][0]) {
+          return Math.max(50, Math.round(ANCHORS[0][1] * (x / ANCHORS[0][0])));
+        }
+        for (var i = 0; i < ANCHORS.length - 1; i++) {
+          var x1 = ANCHORS[i][0], y1 = ANCHORS[i][1];
+          var x2 = ANCHORS[i + 1][0], y2 = ANCHORS[i + 1][1];
+          if (x >= x1 && x <= x2) {
+            /* Log-log interpolation */
+            var t = (Math.log10(x) - Math.log10(x1)) / (Math.log10(x2) - Math.log10(x1));
+            var logY = Math.log10(y1) + t * (Math.log10(y2) - Math.log10(y1));
+            return Math.round(Math.pow(10, logY));
+          }
+        }
+        return ANCHORS[ANCHORS.length - 1][1];
+      }
+
+      function bucketIndex(x) {
+        if (x < 1000)   return 0;
+        if (x < 10000)  return 1;
+        if (x < 100000) return 2;
+        return 3;
+      }
+
+      function fmt(n) {
+        return n.toLocaleString('ko-KR');
+      }
+
+      function update() {
+        var t = +slider.value / 1000;
+        var logX = MIN_LOG + t * (MAX_LOG - MIN_LOG);
+        var x = Math.round(Math.pow(10, logX));
+        /* Snap small numbers to nearest 100, larger to nearest 1000 */
+        if (x < 1000)        x = Math.round(x / 100) * 100;
+        else if (x < 10000)  x = Math.round(x / 100) * 100;
+        else if (x < 100000) x = Math.round(x / 1000) * 1000;
+        else                 x = Math.round(x / 10000) * 10000;
+
+        var y = predict(x);
+        inputEl.textContent = fmt(x);
+        outputEl.textContent = '~' + fmt(y);
+
+        /* Highlight matching bucket on chart */
+        var idx = bucketIndex(x);
+        bars.forEach(function (b) {
+          var bi = +b.getAttribute('data-bar-bucket');
+          b.classList.toggle('bucket-active', bi === idx);
+        });
+
+        /* Threshold messaging — 2,000 entry threshold */
+        if (x < 2000) {
+          thresholdEl.innerHTML = '<span class="bad">진입 임계점(2,000) 미달</span> &middot; 입장을 미루고 데모로 위시리스트부터 모으는 게 합리적';
+        } else if (x < 10000) {
+          thresholdEl.innerHTML = '<span class="ok">진입 임계점 통과</span> &middot; 의미 있는 경쟁선에 도달';
+        } else if (x < 100000) {
+          thresholdEl.innerHTML = '<span class="ok">강한 진입 포지션</span> &middot; 알고리즘 가시성과 모멘텀 동시 확보';
+        } else {
+          thresholdEl.innerHTML = '<span class="ok">상위 그룹</span> &middot; 행사 자체가 그랜드 피날레로 작동';
+        }
+      }
+
+      slider.addEventListener('input', update);
+      update();
+    })();
+  </script>
+
+  <!-- Slide 5: F2P vs Premium toggle -->
+  <script>
+    (function () {
+      var tabs = document.querySelectorAll('.model-toggle-tabs button[data-model]');
+      var states = document.querySelectorAll('.model-state[data-state]');
+      if (!tabs.length || !states.length) return;
+      tabs.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var m = btn.getAttribute('data-model');
+          tabs.forEach(function (b) {
+            var on = (b === btn);
+            b.classList.toggle('active', on);
+            b.setAttribute('aria-selected', on ? 'true' : 'false');
+          });
+          states.forEach(function (s) {
+            s.hidden = s.getAttribute('data-state') !== m;
+          });
+        });
+      });
     })();
   </script>
 </body>

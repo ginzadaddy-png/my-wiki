@@ -1,15 +1,16 @@
 # Game Dev Wiki
 
-Last updated 2026-05-07
+Last updated 2026-05-12
 
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">105</span></a></div>
+  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">106</span></a></div>
   <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">28</span></a></div>
   <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">29</span></a></div>
-  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">40</span></a></div>
+  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">44</span></a></div>
   <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">11</span></a></div>
+  <div class="stat-card"><a href="presentations/all.md" class="internal"><span class="stat-label">프레젠테이션</span><span class="stat-num">1</span></a></div>
 </div>
 
 ---
@@ -45,6 +46,10 @@ Last updated 2026-05-07
 - [[ai-gamedev|게임 개발에서의 생성형 AI — 정서 데이터·도입 원칙·역할 변화]]
 - [[game-pricing-strategy|게임 가격 전략 — 가격대 지형, 지역 차등화, 세일 타이밍, 비즈니스 모델]]
 - [[mobile-gamedev|모바일 게임 개발 — 4대 현장 벽, 상업 성립 4요소, 원신 쇼크의 역설]]
+- [[audience-discovery-systems|오디언스 발견 시스템 — Intent vs Algorithm, Seek→Feed, 표면 alignment 함정]]
+- [[subscription-economy-gaming|구독 경제와 게이밍 — 소유→액세스 전환, discovery engine, Residency Premium]]
+- [[creator-economy-trust|크리에이터 경제와 신뢰 — Earned·Validated·Built in real time 3-tier 모델]]
+- [[game-utility-systems|게임 유틸리티 시스템 — Map vs Manual, Resident 인프라, 90% 유틸리티 사용]]
 
 </div>
 
@@ -94,5 +99,17 @@ Last updated 2026-05-07
 - [[leadership-production|게임 개발 리더십 스타일 — 캡콤·인섬니악·슈퍼자이언트·밸브·CDPR 비교]]
 - [[companion-philosophy|RPG 동반자 설계 철학 — BioWare·Larian·CD Projekt·Obsidian·Naughty Dog]]
 - [[aaa-scaling-strategy|중소 스튜디오의 AAA 도전 전략 — 샌드폴·엠바크·애로우헤드·Avalanche·팀 아소비]]
+
+</div>
+
+---
+
+## 프레젠테이션 (Presentations)
+
+위키 콘텐츠를 슬라이드로 재구성한 HTML 발표 자료. 전체 카탈로그는 [[presentations/all|프레젠테이션 카탈로그]] 참조.
+
+<div class="pill-grid">
+
+- [Steam 마케팅 전략](../presentations/steam-marketing-strategy.html)
 
 </div>

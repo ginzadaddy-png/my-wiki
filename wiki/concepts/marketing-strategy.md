@@ -1,10 +1,10 @@
-﻿---
+---
 title: "마케팅 전략"
 type: concept
-sources: ["[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc24-steam-secrets]]", "[[airbridge-steam-marketing-playbook]]", "[[gdc26-steam-page-needs-soul]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[gdc26-integrated-marketing]]", "[[gdc26-game-trailers]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[steam-page-optimization-guide-2026]]", "[[game-marketing-strategy-2026]]", "[[indiebi-game-pricing-strategy]]", "[[zukowski-next-fest-strategy]]"]
-related: ["[[mint-rocket|민트로켓]]", "[[dave-the-diver|데이브 더 다이버]]", "[[balatro|발라트로]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[game-market-trends|게임 시장 트렌드]]"]
+sources: ["[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc24-steam-secrets]]", "[[airbridge-steam-marketing-playbook]]", "[[gdc26-steam-page-needs-soul]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[gdc26-integrated-marketing]]", "[[gdc26-game-trailers]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[steam-page-optimization-guide-2026]]", "[[game-marketing-strategy-2026]]", "[[indiebi-game-pricing-strategy]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]"]
+related: ["[[mint-rocket|민트로켓]]", "[[dave-the-diver|데이브 더 다이버]]", "[[balatro|발라트로]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]"]
 created: 2026-04-13
-updated: 2026-04-23
+updated: 2026-05-12
 confidence: high
 ---
 
@@ -148,3 +148,33 @@ confidence: high
 - SNF는 출시 전 1회만 사용 권장
 - 크리에이터 중심 전략 필수: 전통 게임 미디어 인력 축소, TikTok·YouTube가 1차 채널
 - 큐레이션 쇼케이스(SGF, Triple-I 등) 슬롯 = 돈으로 살 수 없는 신뢰도
+
+## 세대별 OS 마케팅 분기 ([[ign-generations-in-play-2026]])
+
+IGN의 6,250명 audience insights 보고서가 *마케팅 채널·메시지를 세대 OS로 분기*해야 한다는 명제를 정량 데이터로 뒷받침. 자세한 발견 모드는 [[audience-discovery-systems]], 신뢰 모델은 [[creator-economy-trust]] 참조.
+
+**채널 × 세대 매트릭스**
+
+| 세대 | OS | 효과적 채널 | 비효과적 채널 |
+|---|---|---|---|
+| Gen X (45~60) | Intent / Earned | 정규 미디어 리뷰, 트레일러 PR, 장문 비평 | AI 자동 추천, 익명 크리에이터 |
+| Millennials (29~44) | Bridge / Validated | 팟캐스트 deep dive, 다층 리뷰, 전문가 분석 | 표면 셀럽 endorsement |
+| Gen Z (13~28) | Feed / Built in real time | 크리에이터 채널, Discord/Reddit, 라이브 스트림 | 인스티튜션 일방 발신, sterile broadcasting |
+
+**Gen Z 핵심 데이터** (게임 마케팅 직접 적용):
+- 85%가 뉴스 소스로 소셜 미디어 사용 (TikTok·Instagram·X 최우선)
+- 55%가 신뢰 #1 동인을 "전문성+진정성"으로 응답 (브랜드명 능가)
+- 풀가격 구매 20% / F2P 46% — 가격 정책이 곧 인텐트 메시지
+- Opening weekend 극장 +13%, day-of-release 시청 59% — 출시일 소셜 의무 압박
+
+**Millennials 채널 인사이트**:
+- 팟캐스트 over-index +16% — Nielsen: 미국 spoken-word audio 40%가 팟캐스트
+- "Google it" 마지막 세대 + YouTube 채택 첫 세대 = SEO·트레일러 *양쪽* 모두 효과
+- depth + 커뮤니티 둘 다 over-index — 가장 까다로운 청자, 거짓 신호 빠르게 감지
+
+**같은 관심사 다른 의미 (게임 마케팅 함정)**:
+- Fallout 게임 가이드 콘텐츠 (Gen X·M 효과) vs Fallout 셀럽 인터뷰·비하인드 (Gen Z 효과)
+- The Game Awards 결과·역사 (Gen X·M) vs 라이브 리액션 "hang-out" (Gen Z)
+- → 동일 IP의 마케팅 콘텐츠를 *축*으로 분기 필수. 한 트레일러로 모든 세대 잡는 시대는 끝.
+
+> 💡 **핵심 인사이트:** Gen Z는 *인플루언서가 아니라 engaged community와 함께 검증된 distinct voice*를 신뢰. 구독자 수 많은 인플루언서라도 sterile broadcasting이면 즉시 거부. 게임 마케팅에서 크리에이터 선정은 reach가 아니라 *engagement 깊이* 기준.

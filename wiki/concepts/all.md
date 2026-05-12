@@ -35,6 +35,10 @@ updated: 2026-04-22
 | [[ai-gamedev]] | **게임 개발에서의 생성형 AI** — 정서 데이터·도입 원칙·역할 변화 |
 | [[game-pricing-strategy]] | **게임 가격 전략** — 가격대 지형, 지역 차등화, 세일 타이밍, 비즈니스 모델 |
 | [[mobile-gamedev]] | **모바일 게임 개발** — 4대 현장 벽, 상업 성립 4요소, 원신 쇼크의 역설 |
+| [[audience-discovery-systems]] | **오디언스 발견 시스템** — Intent vs Algorithm, Seek→Feed, 표면 alignment 함정 |
+| [[subscription-economy-gaming]] | **구독 경제와 게이밍** — 소유→액세스 전환, discovery engine, Residency Premium |
+| [[creator-economy-trust]] | **크리에이터 경제와 신뢰** — Earned·Validated·Built in real time 3-tier 모델 |
+| [[game-utility-systems]] | **게임 유틸리티 시스템** — Map vs Manual, Resident 인프라, 90% 유틸리티 사용 |
 
 ## 게임 디자인
 

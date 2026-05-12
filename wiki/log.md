@@ -2,6 +2,27 @@
 title: "활동 로그"
 ---
 
+## [2026-05-12] ingest | IGN Generations In Play 2026 (53페이지 PDF 단일 소스)
+- Source: raw/articles/2026-05-12-ign-generations-in-play-2026.md (PDF 업로드: IGN-Entertainment-Generations-In-Play-Audience-Insights-Report-2026.pdf)
+- 생성 (4 concepts + 1 entity + 1 source):
+  - wiki/sources/ign-generations-in-play-2026.md
+  - wiki/concepts/audience-discovery-systems.md (Intent vs Algorithm, Seek→Feed 반전)
+  - wiki/concepts/subscription-economy-gaming.md (소유→액세스, discovery engine, Residency Premium)
+  - wiki/concepts/creator-economy-trust.md (Earned·Validated·Built in real time 3-tier)
+  - wiki/concepts/game-utility-systems.md (Map vs Manual, Resident 인프라)
+  - wiki/entities/ign-entertainment.md (1996년 설립, 470M MAU, Maxroll·Planet Pokemon, IMAGINE AI)
+- 업데이트 (sources/related/세대 OS 섹션 추가):
+  - wiki/concepts/marketing-strategy.md (세대별 OS 마케팅 분기 매트릭스 + Gen Z·M 채널 인사이트)
+  - wiki/concepts/live-service-design.md (Players→Residents, 복귀 트리거 세대별, Residency Premium)
+  - wiki/concepts/launch-metrics.md (day-of-release, 풀가격/구독/F2P 분포, Gen Z UGC retention)
+  - wiki/concepts/early-access-strategy.md (구독 시대 EA = discovery engine funnel)
+- 메타: wiki/index.md 소스 105→106 / 개념 40→44, Last updated 2026-05-12
+  - wiki/sources/all.md 1행 추가 (총 106개)
+  - wiki/concepts/all.md 4행 추가 (출시·마케팅 섹션)
+  - wiki/entities/all.md 신규 "미디어·플랫폼" 섹션 + ign-entertainment 추가
+- 핵심 인사이트: 세대는 *무엇*이 아닌 *어떻게* 발견·검증·참여하는가가 다른 "OS"로 작동. 같은 게임·관심사도 Gen X(이벤트/방송)와 Gen Z(크리에이터/라이프스타일) 행동 정반대. 소유→액세스 전환 완료(영화 70%·음악 71%·게임 62%). Gen Z 게임 액세스: 풀가격 20%·F2P 46%. 복귀 트리거: Gen X "끝나면 떠남" vs Gen Z "커뮤니티·UGC"(+20%). 90% 게이머가 game help 사용. 신뢰 모델 세대별 3-tier.
+- 신뢰도: high (Kantar·UC Berkeley 협업 6,250명 표본). 단 IGN 자체 청자가 high-engagement audience라는 일반화 한계 명시 (entity 페이지)
+
 ## [2026-05-07] expand | game-trailer-design (gdc26 트레일러+통합 마케팅 통합)
 - 업데이트: wiki/concepts/game-trailer-design.md
 - 추가 sources frontmatter: gdc26-integrated-marketing

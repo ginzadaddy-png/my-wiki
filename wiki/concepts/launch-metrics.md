@@ -1,10 +1,10 @@
 ---
 title: "흥행 예측 지표"
 type: concept
-sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]"]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]"]
+sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[audience-discovery-systems|오디언스 발견 시스템]]"]
 created: 2026-04-20
-updated: 2026-05-07
+updated: 2026-05-12
 confidence: high
 ---
 
@@ -71,3 +71,41 @@ confidence: high
 - "쉐도우 드롭" 메타는 데이터로 부정 — Tomas Sala 사례는 누적 자산 있는 예외
 - **출시 직전 마지막 1번 페스트만 사용** 권장
 - **"Friendslop" 코옵 게임 점유**: 플레이는 많지만 위시리스트 비율 낮음 — 일반 유저 유입 시그널
+
+## 세대 OS 기반 출시 시그널 ([[ign-generations-in-play-2026]])
+
+기존 흥행 예측은 *플랫폼·시간·재플레이*를 보지만, 세대별로 *어떤 시그널이 더 의미 있는가*가 다름. IGN 6,250명 조사 데이터.
+
+**Day-of-release 시청·플레이 commit** — 세대별 출시일 압박:
+
+| 세대 | Day-of-release commit | Livestream content engagement |
+|---|---|---|
+| Gen Z | **59%** | +18% over-index |
+| Millennials | 평균 | — |
+| Gen X | 47% (유일하게 절반 미만) | -12% under-index |
+
+→ Gen Z 타깃 게임은 *day-1 동시 시청·디스코드 활성도·트위치 시청 시간*이 retention 예측 변수. "조용한 출시일" = Gen Z 이탈 시그널.
+
+**게임 액세스 방식 분포 — 인텐트 측정** ([[subscription-economy-gaming]] 참조):
+
+| 방식 | Gen X | Millennials | Gen Z |
+|---|---|---|---|
+| 풀가격 구매 | 42% | 38% | 20% |
+| 구독으로 플레이 | 33% | 29% | 21% |
+| F2P | 30% | 32% | **46%** |
+
+해석:
+- *Gen X·M 타깃 게임*은 풀가격 구매 전환율이 흥행의 1차 지표
+- *Gen Z 타깃 게임*은 F2P 다운로드·구독 라이브러리 노출이 1차 지표 → "Will they buy?"보다 "Will they reside?"가 핵심 질문
+- 가격 정책 = 인텐트 신호. 풀가격 = commitment / 구독 = experimentation / F2P = optionality
+
+**구독·해지 패턴 — 라이브 서비스 의존 시 주의**:
+- Gen Z 59% / Millennials 53% / Gen X 37%가 *단일 콘텐츠 위해 구독·해지*
+- → 출시 직후 구독 가입 spike는 retention 시그널이 아님. 30·60·90일 잔존이 진짜 지표
+
+**커뮤니티 활동 — Gen Z retention의 leading indicator**:
+- Gen Z +20%가 UGC 때문에 게임 잔류
+- Discord/Reddit/Twitch 활성도가 흥행 예측 시그널 (디스코드 지표의 역설 항목 참조)
+- UGC·모드·커뮤니티 콘텐츠 생산량이 retention의 진짜 신호
+
+> 💡 **세대 OS 시사:** 같은 출시 데이터(위시리스트·plays·revenue)도 *어느 세대 청자에 의해 만들어졌는가*에 따라 retention 전망이 다름. Gen Z 비중 높은 위시리스트는 60일 잔존 낮을 가능성 (구독·F2P 라이프사이클), Gen X·M 비중 높은 위시리스트는 풀가격 commit 가능성 높음.

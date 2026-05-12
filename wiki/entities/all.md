@@ -41,6 +41,12 @@ updated: 2026-04-22
 | [[hazelight-studios]] | 스웨덴 스톡홀름, EA Originals, It Takes Two·Split Fiction, 협동 전용 게임 |
 | [[hazelight-studios]] | 스웨덴 스톡홀름, EA 퍼블리싱, It Takes Two·Split Fiction, 2인 협동 전용 |
 
+## 미디어·플랫폼
+
+| 파일 | 설명 |
+|------|------|
+| [[ign-entertainment]] | 미국 1996 설립, 글로벌 게이밍·엔터테인먼트 미디어, 470M MAU, Maxroll·Planet Pokemon 운영, IMAGINE AI 플랫폼 |
+
 ## 게임
 
 | 파일 | 설명 |
