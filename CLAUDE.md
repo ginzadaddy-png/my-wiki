@@ -43,7 +43,8 @@ confidence: high | medium | low
    - 상단 `Last updated` 날짜를 오늘 날짜(YYYY-MM-DD)로 갱신
    - 상단 통계 행의 소스·스튜디오·게임·개념·비교 숫자 갱신
    - 새 concept/comparison 페이지가 생겼으면 해당 섹션의 `<div class="pill-grid">` 리스트에 항목 추가
-   - 형식: `- [[slug|짧은 라벨]]` (페이지 제목 그대로. 부연 설명·괄호 보조 설명은 붙이지 말 것)
+   - 형식: `- [[slug|짧은 라벨 — 부연 설명]]` (부연 설명은 concepts/all 등 카탈로그의 부연과 동일 사용)
+   - 기본 표시는 짧은 라벨만, hover 시 부연이 inline으로 노출됨 (pill-grid.inline.ts가 ' — ' 기준 split)
 8. wiki/log.md에 기록 추가
 
 로그 형식:
@@ -127,12 +128,15 @@ confidence: high | medium | low
   - 괄호 ` (...)` 형식은 부연 설명에 사용 금지
   - 예: `| [[marketing-strategy]] | **마케팅 전략** — 스팀·통합 채널·트레일러·PR·크리에이터 |` ✓
   - 금지: `| [[marketing-strategy]] | 마케팅 전략 (스팀·통합 채널…) |` ✗
-- **pill-grid 리스트에서는 [[slug|짧은 라벨]] 형식만 사용** (index.md 카탈로그 전용)
-  - 형식: `<div class="pill-grid">` 안에 `- [[slug|짧은 라벨]]` 리스트
-  - **부연 설명 금지** — ` — 부연…` 또는 ` (부연…)` 패턴은 붙이지 말 것. 페이지 제목 그대로 사용
-    - 부연 설명이 필요하면 해당 페이지 본문 또는 frontmatter에 두기
-  - 동작: 가변 너비, 기본 max-width 280px (초과 시 ellipsis 잘림)
-  - hover 시: a 자체 max-width 520px로 확장되어 자연 너비대로 펼쳐짐 (별도 layer 사용 안 함)
+- **pill-grid 리스트는 [[slug|짧은 라벨 — 부연 설명]] 형식** (index.md 카탈로그 전용)
+  - 형식: `<div class="pill-grid">` 안에 `- [[slug|짧은 라벨 — 부연 설명]]` 리스트
+  - 부연 설명은 concepts/all·comparisons/all 카탈로그의 부연과 동일하게 작성 (단일 소스 유지)
+  - 동작:
+    - 기본 표시: 라벨만 (CSS에서 .pill-detail 숨김)
+    - hover 시: .pill-detail이 inline으로 노출 + a max-width 280→520 확장
+    - 별도 absolute layer 사용 안 함 → 위치 이격 없음
+    - 옆 li를 밀어내는 형태로 layout 변화 (transition으로 부드럽게)
+  - 구현: `pill-grid.inline.ts`가 ' — ' 기준 split → `.pill-label`·`.pill-detail` span으로 감싸고 `has-detail` 클래스 부여
   - 예시:
     ```
     <div class="pill-grid">
