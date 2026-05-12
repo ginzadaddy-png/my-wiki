@@ -11,12 +11,12 @@ updated: 2026-04-22
 
 | 개념 | 설명 |
 |------|------|
-| [[rapid-prototyping]] | **빠른 프로토타이핑과 반복 개발** |
-| [[small-team-development]] | **소규모 팀 개발 전략** |
-| [[designer-empowerment]] | **디자이너 도구화** |
+| [[rapid-prototyping]] | **빠른 프로토타이핑과 반복 개발** — 팀 아소비·라리안·서커펀치 공통 철학 |
+| [[small-team-development]] | **소규모 팀 개발 전략** — 반복 구조·도구화·범위 통제·잘라내기 |
+| [[designer-empowerment]] | **디자이너 도구화** — 프로그래머가 도구·디자이너가 콘텐츠 (샌드폴) |
 | [[vision-statement]] | **비전 선언문과 반짝임** — 서커펀치 |
-| [[playtesting]] | **플레이테스팅 방법론** |
-| [[early-access-strategy]] | **얼리 액세스 전략** |
+| [[playtesting]] | **플레이테스팅 방법론** — 내부 테스트·외부 베타·반짝임 검증 |
+| [[early-access-strategy]] | **얼리 액세스 전략** — 라리안·하데스·발하임 피드백 루프 |
 | [[dev-org-structure]] | **개발 조직 구조** — 팀 구성·유동 배치·스크럼 |
 
 ## 출시·마케팅
