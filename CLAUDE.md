@@ -70,6 +70,45 @@ confidence: high | medium | low
    - **현재 커버리지**: entities/ 페이지 기준으로 스튜디오·게임 목록 갱신
    - **핵심 테마**: concepts/ 전체에서 3회 이상 등장하는 공통 패턴 재추출 후 갱신
 
+## 작업 4: DECISION (본인 결정·가설 검증 기록)
+
+본인의 의사결정 또는 가설 검증을 wiki에 누적해서 시간이 지나며 자기 archive를 쌓는 작업.
+
+### 트리거
+- 사용자가 "decision으로 기록", "결정 기록", "가설 검증" 등 명시 또는
+- 사용자가 결정/가설 텍스트를 자유 채팅으로 전달 + Cowork이 decision 기록 여부 확인
+- raw/decisions/ 에 사용자가 직접 파일 추가한 후 "ingest decision" 명령
+
+### 절차
+1. 사용자 텍스트에서 type 판단 — `decision`(결정) 또는 `hypothesis`(가설 검증)
+2. 적절한 템플릿 복사하여 raw/decisions/ 에 새 파일 생성
+   - decision: `raw/decisions/_template.md` 참고
+   - hypothesis: `raw/decisions/_template-hypothesis.md` 참고
+   - 파일명: `YYYY-MM-DD-짧은-슬러그.md`
+3. 사용자 텍스트를 템플릿 필드에 분배 정리
+4. related_wiki 필드에 근거가 된 concept/entity wikilink 명시
+5. wiki/decisions/ 에 대응 페이지 생성
+   - frontmatter type: `decision` 또는 `hypothesis`
+   - related_wiki의 각 페이지에 본 decision 페이지를 related로 추가 (양방향 링크)
+6. wiki/log.md 기록 추가
+7. wiki/decisions/all.md 카탈로그 페이지에도 행 추가 (없으면 생성)
+   - 형식: `| [[YYYY-MM-DD-slug]] | **주제** — 한 줄 요약 | YYYY-MM-DD |`
+
+### 단축 트리거 (Cowork 자유 채팅)
+- 사용자가 "방금 X에 대해 Y로 결정했어, 이유는 Z..." 또는
+  "내 가설은 X야, 검증해줘"처럼 입력하면
+  Cowork이 type 판단 후 raw/decisions/ 에 임시 정리 → 사용자 확인 → ingest 진행
+
+### related_wiki 양방향 링크 동작
+- decision/hypothesis 페이지에서 [[concept-slug]]를 related_wiki에 명시
+- 동시에 그 concept 페이지의 frontmatter `related` 배열에도 본 decision 페이지를 추가
+- 결과: concept 페이지를 볼 때 "어떤 본인 결정에 이 개념이 인용됐는지" 추적 가능
+
+### 결정 후 사후 갱신
+- 결정/가설 페이지의 `## 결과 (사후 갱신)` 또는 `## 사후 검증` 섹션은 비워 둠
+- 시간(예: 3·6·12개월) 지난 후 사용자가 결과 update → wiki에서 직접 편집
+- LINT 작업 시 N개월 이상 사후 갱신 안 된 decision 페이지를 리마인드
+
 ## 세션 시작 체크리스트
 1. CLAUDE.md 읽기 ✓
 2. wiki/log.md 최근 5개 항목 읽기
