@@ -13,11 +13,14 @@ updated: 2026-05-12
 
 | 제목 | 주제 | 출처 | 위키 페이지 | 슬라이드 |
 |------|------|------|------|------|
-| Steam 마케팅 전략 | 인디·중소 스튜디오용 Steam 출시·마케팅 종합 | [[marketing-strategy]], [[launch-metrics]], [[zukowski-next-fest-strategy]] | [[steam-marketing-strategy]] | [전체 화면 열기](../../presentations/steam-marketing-strategy.html) |
+| Steam 마케팅 전략 | 인디·중소 스튜디오용 Steam 출시·마케팅 종합 | [[marketing-strategy]], [[launch-metrics]], [[zukowski-next-fest-strategy]] | <a href="/quartz/presentations/steam-marketing-strategy/">steam-marketing-strategy</a> | <a href="/quartz/presentations/steam-marketing-strategy.html" target="_blank" rel="noopener">전체 화면 열기 ↗</a> |
 
 ## 사용 규칙
 
 - 슬라이드는 위키 콘텐츠를 *재구성*한 것 — 원전(concept·source) 페이지가 항상 truth source
-- 슬라이드 갱신 시: 카탈로그의 출처 wikilink는 그대로 두고 슬라이드 파일만 교체
-- 신규 슬라이드 추가 시: 표에 한 행 + presentations/ 폴더에 HTML 업로드 + index.md 카운트 갱신
-- 파일 명명 규칙: `[주제-슬러그].html` (소문자·하이픈)
+- 슬라이드 갱신 시: 카탈로그의 출처 wikilink는 그대로 두고 슬라이드 HTML 파일만 교체
+- **저장 경로**: `wiki/presentations/[슬러그].html` 한 곳으로 통일 (루트 `presentations/`는 deprecated)
+- **wrapper 페이지**: 같은 폴더에 `[슬러그].md`도 만들어 위키 페이지로 노출 (iframe 임베드 + 전체 화면 열기 버튼)
+- 신규 슬라이드 추가 시: HTML 업로드 + wrapper md 작성 + 본 카탈로그에 행 추가 + `wiki/index.md` 카운트·섹션 갱신
+- 파일 명명 규칙: `[주제-슬러그].html`·`[주제-슬러그].md` (소문자·하이픈, 짝 맞춰서)
+- 링크 규칙: 카탈로그·index의 표 안 슬라이드 링크는 raw HTML 사용 (`<a href="/quartz/presentations/[슬러그].html" target="_blank" rel="noopener">전체 화면 열기 ↗</a>`) — markdown link는 CrawlLinks가 `.html`을 제거해 wrapper와 충돌

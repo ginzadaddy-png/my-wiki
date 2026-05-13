@@ -110,6 +110,6 @@ Last updated 2026-05-12
 
 <div class="pill-grid">
 
-- [[presentations/steam-marketing-strategy|Steam 마케팅 전략 — 인디·중소 스튜디오용 출시·마케팅 종합]]
+- <a href="/quartz/presentations/steam-marketing-strategy/">Steam 마케팅 전략 — 인디·중소 스튜디오용 출시·마케팅 종합</a>
 
 </div>
