@@ -50,12 +50,22 @@ updated: YYYY-MM-DD
 confidence: high | medium | low
 ---
 
+**source-summary 타입 추가 필드** (원문 추적용):
+```
+source_url: "https://원문/URL"     # URL 없으면 빈 문자열 또는 생략
+source_author: "저자명"             # 없으면 빈 문자열 또는 생략
+source_published: YYYY-MM-DD       # 발행일. 없으면 생략
+```
++ 본문 첫 줄에 `**원문**: [라벨](URL) — 발행처·저자·날짜` 형태로 명시 (raw frontmatter의 source·author·published 그대로 옮김)
+
 ## 작업 1: INGEST
 "ingest [파일명]"이라고 하면:
-1. raw/ 소스 파일 읽기
+1. raw/ 소스 파일 읽기 — frontmatter에서 `source:`(원문 URL)·`author:`·`published:` 필드 추출
 2. 핵심 내용 3~7개 요약해서 나에게 보여주기
 3. 강조할 점 있는지 확인
-4. wiki/sources/에 요약 페이지 생성
+4. wiki/sources/에 요약 페이지 생성 — **원문 출처 정보 반드시 보존** (아래 형식)
+   - frontmatter에 `source_url`·`source_author`·`source_published` 필드 추가 (raw에서 추출한 값. 없으면 빈 문자열 또는 생략)
+   - 본문 첫 줄에 `**원문**: [짧은 라벨 또는 도메인](URL)` 형태로 명시 (사용자 클릭 가능). URL 없는 케이스(PDF·내부 자료)는 `**원문**: N/A (저자·발행처·발행일만 명시)` 형태로
 5. 관련 concept, entity 페이지 생성 또는 업데이트
 6. 기존 위키 내용과 모순되면 "> ⚠️ 모순:" 블록 추가
 7. wiki/index.md 업데이트:
