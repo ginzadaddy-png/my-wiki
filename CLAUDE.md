@@ -24,6 +24,7 @@
   - `-deck` 접미사 필수 이유: wrapper md와 슬라이드 HTML이 같은 base 이름이면 Quartz의 ContentPage·Assets emitter가 같은 slug로 인식해 *.html URL이 wrapper md를 응답하는 무한 재귀 발생*. `-deck`으로 분리해서 slug 충돌 회피
   - Quartz Assets emitter가 `.html`을 자동으로 `public/presentations/`에 복사 → 별도 deploy step 불필요
   - 카탈로그·index의 슬라이드 link는 raw HTML + 완전 절대 URL (`https://ginzadaddy-png.github.io/quartz/presentations/[슬러그]-deck.html` + `target="_blank"`)
+  - **wrapper md link는 trailing slash 없이** (`https://ginzadaddy-png.github.io/quartz/presentations/[슬러그]` ✓ / `.../[슬러그]/` ✗) — Quartz가 .md를 단일 `slug.html`로 빌드해서 trailing slash URL은 폴더 매칭 시도 → 404
 
 ## 모든 위키 페이지 frontmatter 형식
 ---
