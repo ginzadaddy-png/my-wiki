@@ -11,9 +11,9 @@ updated: 2026-05-12
 
 ## 슬라이드 목록
 
-| 제목 | 주제 | 출처 | 보기 |
-|------|------|------|------|
-| Steam 마케팅 전략 | 인디·중소 스튜디오용 Steam 출시·마케팅 종합 | [[marketing-strategy]], [[launch-metrics]], [[zukowski-next-fest-strategy]] | [슬라이드 열기](../../presentations/steam-marketing-strategy.html) |
+| 제목 | 주제 | 출처 | 위키 페이지 | 슬라이드 |
+|------|------|------|------|------|
+| Steam 마케팅 전략 | 인디·중소 스튜디오용 Steam 출시·마케팅 종합 | [[marketing-strategy]], [[launch-metrics]], [[zukowski-next-fest-strategy]] | [[steam-marketing-strategy]] | [전체 화면 열기](../../presentations/steam-marketing-strategy.html) |
 
 ## 사용 규칙
 
