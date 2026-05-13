@@ -182,10 +182,11 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "92a5c3e283c6d603",
+  "active": "3fe76bcb6a95c484",
   "lastOpenFiles": [
-    "wiki/presentations/steam-marketing-strategy.html",
     "wiki/presentations/all.md",
+    "wiki/presentations/steam-marketing-strategy.md",
+    "wiki/presentations/steam-marketing-strategy.html",
     "wiki/sources/sensortower-2026-report.md",
     "wiki/entities/peak.md",
     "wiki/entities/hazelight-studios.md",
@@ -219,7 +220,6 @@
     "wiki/concepts/dev-org-structure.md.tmp.36540.1776849904594",
     "wiki/sources/gdc26-three-mindset-shifts.md.tmp.36540.1776849837889",
     "wiki/concepts/all.md.tmp.36540.1776849591720",
-    "wiki/index.md.tmp.36540.1776849290002",
     "무제.canvas"
   ]
 }
