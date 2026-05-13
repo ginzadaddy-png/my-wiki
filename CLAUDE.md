@@ -14,6 +14,19 @@
 - 대화 언어: 한국어 위주, 영문 슬러그/용어는 그대로 사용
 - 솔루션 제안 원칙: 터미널/CLI 대신 GUI·앱 인터페이스 한정, 또는 Cowork이 직접 실행하는 형태로
 
+## 구조 변경 사전 점검 (신규 폴더·워크플로우 추가 시)
+
+사용자가 "신규 폴더 만들자" 또는 "이런 워크플로우 추가하자"처럼 *구조 변경*을 요청하면 *바로 진행 금지*. 먼저 다음 항목을 점검·보고 후 사용자 확인을 받고 진행:
+
+1. **Quartz 빌드 input 매핑**: 신규 폴더가 `npx quartz build -d content/wiki` 범위(`wiki/` 하위)에 있는지. 밖이면 별도 deploy 메커니즘 필요.
+2. **slug 충돌 가능성**: 새 폴더에 `.md`와 `.html`이 혼재할 예정인가? Quartz는 두 확장자를 동등 처리(`slugifyFilePath`이 `.md`·`.html` 모두 ext 제거)해서 같은 base name이면 output 충돌. 슬라이드 같은 .html은 *반드시 `-deck` 등 접미사*로 base name 분리.
+3. **link 표기 규칙**: 새 폴더 안 페이지에 link할 때 — wikilink는 trailing slash 없는 short slug 사용, raw HTML이면 완전 절대 URL + trailing slash 없이 (Quartz 단일 `slug.html` 빌드 때문).
+4. **deploy.yml 영향**: 신규 폴더 안에 *.html 같은 static asset이 있으면 quartz의 deploy.yml에 copy step 필요 가능성. quartz repo 변경 + 별도 push 사이클 발생함을 사전 안내.
+5. **WikiNav 분류 추가 여부**: 사이드바 분류 영역(`quartz/quartz/components/WikiNav.tsx`)에 추가할지 결정. 추가하면 quartz repo 변경.
+6. **기존 위키 페이지·index·all 카탈로그 영향**: index.md stats card·pill-grid·all.md 카탈로그 갱신 필요.
+
+위 항목을 사용자에게 *"진행 시 이러이러한 영향과 리스크가 있는데 이 방향 OK신가요?"* 형식으로 명확히 보고하고 OK 받은 후 작업 시작. 즉흥적 구조 변경이 13 push 사이클 같은 부작용을 만든 패턴 반복 방지.
+
 ## 폴더 구조
 - raw/     → 원본 소스. 절대 수정하지 마세요.
 - wiki/    → 당신이 작성하고 관리하는 위키
