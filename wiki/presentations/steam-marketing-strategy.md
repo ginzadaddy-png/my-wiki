@@ -10,10 +10,10 @@ confidence: medium
 
 위키의 마케팅·출시 관련 페이지를 종합해 인디·중소 스튜디오용 Steam 출시 전략을 슬라이드로 재구성. 스토어 페이지·태그·위시리스트·데모·Next Fest·세일 정책·아시아 스튜디오가 놓치는 채널까지 한 흐름으로 정리.
 
-<p><strong>전체 화면으로 보기</strong>: <a href="https://ginzadaddy-png.github.io/quartz/presentations/steam-marketing-strategy.html" target="_blank" rel="noopener">슬라이드 열기 ↗</a></p>
+<p><strong>전체 화면으로 보기</strong>: <a href="https://ginzadaddy-png.github.io/quartz/presentations/steam-marketing-strategy-deck.html" target="_blank" rel="noopener">슬라이드 열기 ↗</a></p>
 
 <iframe
-  src="https://ginzadaddy-png.github.io/quartz/presentations/steam-marketing-strategy.html"
+  src="https://ginzadaddy-png.github.io/quartz/presentations/steam-marketing-strategy-deck.html"
   width="100%"
   height="600"
   style="border: 1px solid var(--lightgray); border-radius: 6px;"

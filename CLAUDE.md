@@ -20,8 +20,10 @@
 - wiki/index.md  → 전체 목록. 매번 ingest 후 업데이트
 - wiki/log.md    → 활동 기록. append-only
 - wiki/presentations/   → HTML 슬라이드 + wrapper md 페이지. 슬라이드 생성 시 *반드시 이 경로*에 저장. (루트의 `presentations/` 폴더는 deprecated — 절대 사용 금지)
-  - 파일 명명: `[주제-슬러그].html` (소문자·하이픈), 짝이 되는 wrapper는 `[주제-슬러그].md`
+  - **파일 명명: 슬라이드 `[주제-슬러그]-deck.html`, wrapper `[주제-슬러그].md`** (base 슬러그는 공유, 슬라이드만 `-deck` 접미사)
+  - `-deck` 접미사 필수 이유: wrapper md와 슬라이드 HTML이 같은 base 이름이면 Quartz의 ContentPage·Assets emitter가 같은 slug로 인식해 *.html URL이 wrapper md를 응답하는 무한 재귀 발생*. `-deck`으로 분리해서 slug 충돌 회피
   - Quartz Assets emitter가 `.html`을 자동으로 `public/presentations/`에 복사 → 별도 deploy step 불필요
+  - 카탈로그·index의 슬라이드 link는 raw HTML + 완전 절대 URL (`https://ginzadaddy-png.github.io/quartz/presentations/[슬러그]-deck.html` + `target="_blank"`)
 
 ## 모든 위키 페이지 frontmatter 형식
 ---
