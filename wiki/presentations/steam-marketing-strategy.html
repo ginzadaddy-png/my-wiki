@@ -529,32 +529,8 @@
       position: relative;
     }
     .chart-bar.gold { background: var(--accent-gold); }
-    .chart-bar.muted { background: var(--text-secondary); opacity: 0.45; }
-    /* Gold bar with embedded game thumbnails (slide 4) */
-    .chart-bar.chart-bar-thumbs {
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-      padding: 5px;
-      gap: 5px;
-      box-shadow: 0 4px 18px rgba(200, 164, 92, 0.35);
-    }
-    .chart-bar.chart-bar-thumbs .more-badge {
-      flex: 0 0 30px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: rgba(255, 255, 255, 0.32);
-      border: 1px dashed rgba(30, 58, 95, 0.55);
-      border-radius: 3px;
-      font-family: var(--font-mono);
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: var(--accent);
-      line-height: 1;
-      letter-spacing: -0.02em;
-      user-select: none;
-    }
+    /* muted: background alpha instead of element opacity, so popups stay opaque */
+    .chart-bar.muted { background: rgba(75, 85, 99, 0.45); }
 
     /* Interactive wishlist slider (slide 8) */
     .wishlist-slider {
@@ -654,11 +630,11 @@
       outline-offset: 3px;
     }
 
-    /* Hover popup on chart bars (slide 4) */
-    .chart-bar-group.has-popup { position: relative; cursor: help; }
+    /* Hover popup on chart bars (slide 4) — anchored to bar TOP */
+    .chart-bar-group.has-popup { cursor: help; }
     .chart-bar-popup {
       position: absolute;
-      bottom: calc(100% + 18px);
+      bottom: calc(100% + 36px);   /* clear chart-value (~28px) + small gap */
       left: 50%;
       transform: translateX(-50%) translateY(8px);
       background: #fff;
@@ -692,9 +668,24 @@
       z-index: -1;
     }
     .chart-bar-group.has-popup:hover .chart-bar-popup,
-    .chart-bar-group.has-popup:focus-within .chart-bar-popup {
+    .chart-bar-group.has-popup:focus-within .chart-bar-popup,
+    .chart-bar-popup:hover {
       opacity: 1;
       transform: translateX(-50%) translateY(0);
+      pointer-events: auto;
+    }
+    /* Hit-zone bridge: invisible padding below popup so cursor can cross gap to bar */
+    .chart-bar-popup-bridge {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+      height: 44px;
+      pointer-events: none;
+    }
+    .chart-bar-popup:hover .chart-bar-popup-bridge,
+    .chart-bar-group.has-popup:hover .chart-bar-popup-bridge {
       pointer-events: auto;
     }
     .chart-bar-popup-title {
@@ -844,98 +835,168 @@
       to   { opacity: 1; transform: translateY(0); }
     }
 
-    /* Source details — 출처 펼치기 (전 deck 공통) */
-    .source-details {
-      margin: 12px auto 0;
-      max-width: 1100px;
-      text-align: center;
-    }
-    .source-details summary {
+    /* Source button (slide footer) — opens overlay modal */
+    .source-btn {
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      cursor: pointer;
-      color: var(--text-secondary);
-      font-family: var(--font-mono);
-      font-size: 0.78rem;
-      letter-spacing: 0.02em;
-      padding: 4px 12px;
+      font: inherit;
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      letter-spacing: 0;
+      padding: 5px 14px;
       border-radius: 999px;
       background: var(--hint-bg);
       border: 1px solid var(--hint-border);
+      color: var(--text-secondary);
+      cursor: pointer;
+      margin-top: 12px;
       transition: background 0.15s, color 0.15s, border-color 0.15s;
       user-select: none;
-      list-style: none;
     }
-    .source-details summary::-webkit-details-marker { display: none; }
-    .source-details summary::before {
+    .source-btn::before {
       content: '+';
       font-weight: 700;
       display: inline-block;
       width: 10px;
       text-align: center;
     }
-    .source-details[open] summary::before { content: '\2212'; }
-    .source-details summary:hover {
+    .source-btn:hover {
       background: var(--surface);
       color: var(--text);
       border-color: var(--border);
     }
-    .source-details .source-body {
-      margin-top: 10px;
-      padding: 12px 18px 14px;
+    .source-data { display: none; }
+
+    /* Source modal overlay (global, single instance) */
+    .source-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 3000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.22s ease;
+    }
+    .source-modal.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .source-modal-backdrop {
+      position: absolute;
+      inset: 0;
+      background: rgba(12, 22, 38, 0.55);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+    }
+    .source-modal-card {
+      position: relative;
+      background: #fff;
+      border-radius: 12px;
+      padding: 26px 32px 24px;
+      max-width: 720px;
+      width: calc(100% - 60px);
+      max-height: calc(100vh - 80px);
+      overflow-y: auto;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+      transform: translateY(10px) scale(0.98);
+      transition: transform 0.22s ease;
+    }
+    .source-modal.open .source-modal-card {
+      transform: translateY(0) scale(1);
+    }
+    .source-modal-close {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      width: 32px;
+      height: 32px;
+      border: none;
+      background: transparent;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1.5rem;
+      line-height: 1;
+      color: var(--text-secondary);
+      transition: background 0.15s, color 0.15s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+    }
+    .source-modal-close:hover {
       background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      font-size: 0.92rem;
-      line-height: 1.6;
+      color: var(--text);
+    }
+    .source-modal-content {
+      font-size: 0.95rem;
+      line-height: 1.65;
       color: var(--text);
       text-align: left;
-      max-width: 920px;
-      margin-left: auto;
-      margin-right: auto;
     }
-    .source-details .source-body p { margin: 0 0 6px; }
-    .source-details .source-body p:last-child { margin-bottom: 0; }
-    .source-details .source-body .src-title {
+    .source-modal-content > .src-section + .src-section {
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+    .source-modal-content .src-title {
+      display: block;
       font-weight: 700;
       color: var(--accent);
-      font-size: 0.96rem;
+      font-size: 0.98rem;
+      margin-bottom: 4px;
     }
-    .source-details .source-body .src-quote {
+    .source-modal-content .src-link {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--accent-light);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--accent-light);
+      margin-bottom: 8px;
+    }
+    .source-modal-content .src-link:hover {
+      color: var(--accent);
+      border-bottom-style: solid;
+    }
+    .source-modal-content p {
+      margin: 0 0 6px;
+      font-size: 0.9rem;
+    }
+    .source-modal-content .src-quote {
       font-style: italic;
       color: var(--text-secondary);
       border-left: 3px solid var(--accent-gold);
       padding: 2px 0 2px 12px;
       margin: 8px 0;
+      font-size: 0.9rem;
     }
-    .source-details .source-body .src-meta {
-      font-size: 0.82rem;
+    .source-modal-content .src-meta {
+      font-size: 0.78rem;
       color: var(--text-secondary);
       font-family: var(--font-mono);
       margin-top: 4px;
     }
-    .source-details .source-body ul {
+    .source-modal-content ul {
       margin: 6px 0 0;
-      padding-left: 20px;
+      padding-left: 18px;
+      font-size: 0.88rem;
     }
-    .source-details .source-body ul li { margin-bottom: 4px; }
-    .chart-bar.chart-bar-thumbs img {
-      width: 100%;
-      flex: 1 1 0;
-      min-height: 0;
-      object-fit: cover;
-      border-radius: 3px;
-      display: block;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
-      /* downscale anti-aliasing — Chrome high-quality + GPU compositing */
-      image-rendering: -webkit-optimize-contrast;
-      image-rendering: high-quality;
-      image-rendering: smooth;
-      transform: translateZ(0);
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-      will-change: transform;
+    .source-modal-content ul li { margin-bottom: 3px; }
+
+    /* Default-shown popup (slide 4 entry — gold bar showcased by default) */
+    .slide.active .chart-bar-group.default-shown .chart-bar-popup {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateX(-50%) translateY(0);
+    }
+    .slide.active .chart-bar-group.default-shown.popup-left .chart-bar-popup {
+      transform: translateX(20px) translateY(0);
+    }
+    .slide.active .chart-bar-group.default-shown.popup-right .chart-bar-popup {
+      transform: translateX(-20px) translateY(0);
     }
     .chart-value {
       font-family: var(--font-mono);
@@ -1215,52 +1276,63 @@
       <p class="a" style="margin-bottom: 28px; text-align: center;">$30~50 구간 — 미드 프라이스 스위트 스팟</p>
       <div class="chart a">
         <div class="chart-bar-group has-popup popup-left">
-          <div class="chart-bar-popup" role="tooltip">
-            <div class="chart-bar-popup-title">대표작 — $30 미만 인디 히트</div>
-            <div class="chart-bar-popup-row">
-              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1794680/header.jpg" alt="Vampire Survivors" loading="lazy">
-              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg" alt="Stardew Valley" loading="lazy">
-              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/header.jpg" alt="Hades" loading="lazy">
+          <div class="chart-value positive">+156%</div>
+          <div class="chart-bar" style="height: 70%;">
+            <div class="chart-bar-popup" role="tooltip">
+              <div class="chart-bar-popup-title">대표작 &mdash; $30 미만 인디 히트</div>
+              <div class="chart-bar-popup-row">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1794680/header.jpg" alt="Vampire Survivors" loading="lazy">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg" alt="Stardew Valley" loading="lazy">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/header.jpg" alt="Hades" loading="lazy">
+              </div>
+              <div class="chart-bar-popup-bridge"></div>
             </div>
           </div>
-          <div class="chart-value positive">+156%</div>
-          <div class="chart-bar" style="height: 70%;"></div>
           <div class="chart-label">$30 미만</div>
         </div>
-        <div class="chart-bar-group">
+        <div class="chart-bar-group has-popup gold-default">
           <div class="chart-value positive">+195%</div>
-          <div class="chart-bar gold chart-bar-thumbs" style="height: 88%;">
-            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg" alt="Clair Obscur: Expedition 33" loading="lazy">
-            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/553850/header.jpg" alt="Helldivers 2" loading="lazy">
-            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1808500/header.jpg" alt="ARC Raiders" loading="lazy">
-            <div class="more-badge" aria-label="외 다수">+</div>
+          <div class="chart-bar gold" style="height: 88%;">
+            <div class="chart-bar-popup" role="tooltip">
+              <div class="chart-bar-popup-title">대표작 &mdash; $30~$50 미드 프라이스</div>
+              <div class="chart-bar-popup-row">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg" alt="Clair Obscur: Expedition 33" loading="lazy">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/553850/header.jpg" alt="Helldivers 2" loading="lazy">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1808500/header.jpg" alt="ARC Raiders" loading="lazy">
+              </div>
+              <div class="chart-bar-popup-bridge"></div>
+            </div>
           </div>
           <div class="chart-label">$30 ~ $50</div>
         </div>
         <div class="chart-bar-group has-popup">
-          <div class="chart-bar-popup" role="tooltip">
-            <div class="chart-bar-popup-title">대표작 — $50~$70 프리미엄</div>
-            <div class="chart-bar-popup-row">
-              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg" alt="Baldur's Gate 3" loading="lazy">
-              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg" alt="Elden Ring" loading="lazy">
-              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/header.jpg" alt="Black Myth: Wukong" loading="lazy">
+          <div class="chart-value">정체</div>
+          <div class="chart-bar muted" style="height: 22%;">
+            <div class="chart-bar-popup" role="tooltip">
+              <div class="chart-bar-popup-title">대표작 &mdash; $50~$70 프리미엄</div>
+              <div class="chart-bar-popup-row">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg" alt="Baldur's Gate 3" loading="lazy">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg" alt="Elden Ring" loading="lazy">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/header.jpg" alt="Black Myth: Wukong" loading="lazy">
+              </div>
+              <div class="chart-bar-popup-bridge"></div>
             </div>
           </div>
-          <div class="chart-value">정체</div>
-          <div class="chart-bar muted" style="height: 22%;"></div>
           <div class="chart-label">$50 ~ $70</div>
         </div>
         <div class="chart-bar-group has-popup popup-right">
-          <div class="chart-bar-popup" role="tooltip">
-            <div class="chart-bar-popup-title">대표작 — $70+ AAA</div>
-            <div class="chart-bar-popup-row">
-              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1716740/header.jpg" alt="Starfield" loading="lazy">
-              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1971870/header.jpg" alt="Mortal Kombat 1" loading="lazy">
-              <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2531310/header.jpg" alt="Marvel's Spider-Man 2" loading="lazy">
+          <div class="chart-value negative">하락</div>
+          <div class="chart-bar muted" style="height: 12%;">
+            <div class="chart-bar-popup" role="tooltip">
+              <div class="chart-bar-popup-title">대표작 &mdash; $70+ AAA</div>
+              <div class="chart-bar-popup-row">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1716740/header.jpg" alt="Starfield" loading="lazy">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1971870/header.jpg" alt="Mortal Kombat 1" loading="lazy">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2531310/header.jpg" alt="Marvel's Spider-Man 2" loading="lazy">
+              </div>
+              <div class="chart-bar-popup-bridge"></div>
             </div>
           </div>
-          <div class="chart-value negative">하락</div>
-          <div class="chart-bar muted" style="height: 12%;"></div>
           <div class="chart-label">$70 +</div>
         </div>
       </div>
@@ -1269,17 +1341,21 @@
         $30~50 미드 프라이스가 전체 매출 성장의 견인차로 부상했다. 클레르 옵스퀴르($50, 600만장+), 헬다이버스2($40, 2,000만장+), 아크 레이더스($40, 1,400만장)가 이 구간의 대표 사례. AAA 가격 전략($70+)은 정체·하락 국면이며, 게이머의 22%가 핵심 게임플레이를, 단 7%만 고품질 그래픽을 최우선으로 꼽았다는 조사가 이 구조 변화를 뒷받침한다.
       </p>
       <p class="a chart-caption">출처 — Newzoo 2026 시장 분석, Bain &amp; Company 2025</p>
-      <details class="source-details a">
-        <summary>출처 펼치기</summary>
-        <div class="source-body">
-          <p><span class="src-title">Newzoo Global Games Market Report 2026</span></p>
+      <button class="source-btn a" type="button" data-source="slide-4">출처 정보</button>
+      <div class="source-data" data-source-id="slide-4" data-title="가격대별 수익 변화 — 출처">
+        <div class="src-section">
+          <span class="src-title">Newzoo Global Games Market Report 2026</span>
+          <a class="src-link" href="https://www.newzoo.com/" target="_blank" rel="noopener">newzoo.com</a>
           <p>$30~$50 미드 프라이스 구간이 2022~2025년 누적 매출 +195% 성장 (전 가격대 중 최고). $70 이상 AAA 가격대는 정체·하락 국면.</p>
           <p class="src-meta">Newzoo &middot; 2026년 시장 분석 보고서</p>
-          <p style="margin-top: 12px;"><span class="src-title">Bain &amp; Company Gamer Survey 2025</span></p>
+        </div>
+        <div class="src-section">
+          <span class="src-title">Bain &amp; Company Gamer Survey 2025</span>
+          <a class="src-link" href="https://www.bain.com/insights/" target="_blank" rel="noopener">bain.com/insights</a>
           <p class="src-quote">"게이머의 22%가 핵심 게임플레이를 최우선으로 꼽았고, 단 7%만 고품질 그래픽을 최우선으로 선택했다."</p>
           <p class="src-meta">Bain &amp; Company &middot; 2025년 글로벌 게이머 선호도 조사</p>
         </div>
-      </details>
+      </div>
     </div>
 
     <!-- ======================== SLIDE 5: QUOTE — 가격은 포지셔닝 ======================== -->
@@ -1369,18 +1445,22 @@
           <span class="card-stat">주기적 관심 유도 필수</span>
         </div>
       </div>
-      <details class="source-details a">
-        <summary>출처 펼치기</summary>
-        <div class="source-body">
-          <p><span class="src-title">Airbridge &times; Liquid Advertising 위시리스트 분석</span></p>
+      <button class="source-btn a" type="button" data-source="slide-6">출처 정보</button>
+      <div class="source-data" data-source-id="slide-6" data-title="위시리스트 경제학 — 출처">
+        <div class="src-section">
+          <span class="src-title">Airbridge &times; Liquid Advertising 위시리스트 분석</span>
+          <a class="src-link" href="https://www.airbridge.io/" target="_blank" rel="noopener">airbridge.io</a>
           <p>스팀 위시리스트의 자발적 비중과 출시 첫 주 구매 전환율 회귀 분석. 이벤트 보상으로 수집한 비-자발적 위시리스트는 알림 메일 클릭률부터 무너진다.</p>
           <p class="src-quote">"자발적 비중 70% 미만 = 출시 첫 주 전환율 평균 대비 -54%."</p>
           <p class="src-meta">Airbridge x Liquid Advertising &middot; 2025 &middot; 위시리스트 모멘텀 보고서</p>
-          <p style="margin-top: 12px;"><span class="src-title">Valve / Steamworks 개발자 가이드</span></p>
+        </div>
+        <div class="src-section">
+          <span class="src-title">Valve / Steamworks 개발자 가이드</span>
+          <a class="src-link" href="https://partner.steamgames.com/doc/marketing" target="_blank" rel="noopener">partner.steamgames.com/doc/marketing</a>
           <p>디스커버리 큐가 전체 스팀 트래픽의 약 45% 점유. 위시리스트 증가율 + 뉴스 포스트 조합이 큐 가시성의 핵심 변수.</p>
           <p class="src-meta">Steamworks 공식 &middot; 2024~2025 업데이트 기준</p>
         </div>
-      </details>
+      </div>
     </div>
 
     <!-- ======================== SLIDE 7: FLOW — 데모 우선 4단계 ======================== -->
@@ -1415,17 +1495,21 @@
           <div class="step-desc">첫 2일 25,000회 노출이 분기점. 3일째 성과가 이후 6개월의 디스커버리 큐 가시성을 결정짓는다.</div>
         </div>
       </div>
-      <details class="source-details a">
-        <summary>출처 펼치기</summary>
-        <div class="source-body">
-          <p><span class="src-title">Chris Zukowski — GDC 2025: "Steam Demo Festival Tactics"</span></p>
+      <button class="source-btn a" type="button" data-source="slide-7">출처 정보</button>
+      <div class="source-data" data-source-id="slide-7" data-title="데모 우선 4단계 — 출처">
+        <div class="src-section">
+          <span class="src-title">Chris Zukowski &mdash; GDC 2025: "Steam Demo Festival Tactics"</span>
+          <a class="src-link" href="https://howtomarketagame.com/" target="_blank" rel="noopener">howtomarketagame.com</a>
           <p class="src-quote">"All your marketing tactics pale in comparison to having a demo. Everything else is a rounding error."</p>
           <p>핵심 권고: 데모는 넥스트 페스트 1개월 이상 전 미리 출시. shadow-drop(행사 당일 첫 공개)은 일관되게 저조한 성과. 행사는 그랜드 피날레지 시작점이 아님.</p>
-          <p class="src-meta">GDC 2025 발표 &middot; How To Market a Game (chrispatchnotes.com) 운영자</p>
-          <p style="margin-top: 12px;"><span class="src-title">Steam Next Fest 정량 분석 (2024~2026)</span></p>
+          <p class="src-meta">GDC 2025 발표 &middot; How To Market a Game 운영자</p>
+        </div>
+        <div class="src-section">
+          <span class="src-title">Steam Next Fest 정량 분석 (2024~2026)</span>
+          <a class="src-link" href="https://howtomarketagame.com/category/steam-next-fest/" target="_blank" rel="noopener">howtomarketagame.com/.../steam-next-fest</a>
           <p>참여 게임 수천 건 분석 결과 — 출시 3일째 누적 매출이 향후 6개월간 디스커버리 큐 가중치를 결정. 첫 2일 25,000회 노출이 알고리즘 임계점.</p>
         </div>
-      </details>
+      </div>
     </div>
 
     <!-- ======================== SLIDE 8: CHART — 넥스트 페스트 정량 ======================== -->
@@ -1480,21 +1564,22 @@
       </div>
 
       <p class="a chart-caption" style="margin-top: 14px;">상관계수 r = 0.825 (가장 강력한 예측 변수) · 진입 임계점 ≈ 사전 위시리스트 2,000개 · 슬라이더로 시뮬레이션 가능</p>
-      <details class="source-details a">
-        <summary>출처 펼치기</summary>
-        <div class="source-body">
-          <p><span class="src-title">Steam Next Fest 2025~2026 정량 회귀 분석</span></p>
+      <button class="source-btn a" type="button" data-source="slide-8">출처 정보</button>
+      <div class="source-data" data-source-id="slide-8" data-title="넥스트 페스트 정량 — 출처">
+        <div class="src-section">
+          <span class="src-title">Steam Next Fest 2025~2026 정량 회귀 분석</span>
+          <a class="src-link" href="https://howtomarketagame.com/2024/10/14/steam-next-fest-results-2024/" target="_blank" rel="noopener">howtomarketagame.com/.../steam-next-fest-results</a>
           <p>참여 게임 수천 건을 사전 위시리스트 규모별 4개 구간으로 분할한 뒤 행사 중 신규 위시리스트 중간값 측정. 가장 강력한 예측 변수는 사전 위시리스트 (Pearson r = 0.825).</p>
           <ul>
-            <li>0 ~ 999 → 행사 중 신규 중간값 <strong>322</strong></li>
-            <li>1k ~ 9.9k → <strong>1,006</strong></li>
-            <li>10k ~ 99k → <strong>5,215</strong></li>
-            <li>100k+ → <strong>12,882</strong></li>
+            <li>0 ~ 999 &rarr; 행사 중 신규 중간값 <strong>322</strong></li>
+            <li>1k ~ 9.9k &rarr; <strong>1,006</strong></li>
+            <li>10k ~ 99k &rarr; <strong>5,215</strong></li>
+            <li>100k+ &rarr; <strong>12,882</strong></li>
           </ul>
           <p style="margin-top: 8px;">권고 진입 임계점: 사전 위시리스트 <strong>2,000개</strong>. 미달 시 입장을 미루고 데모 마케팅으로 누적 우선.</p>
           <p class="src-meta">How To Market a Game / Chris Zukowski &middot; 2026 봄 업데이트</p>
         </div>
-      </details>
+      </div>
     </div>
 
     <!-- ======================== SLIDE 9: CARDS — 스토어 페이지 최적화 ======================== -->
@@ -1864,7 +1949,7 @@
 
       /* CLICK NAVIGATION */
       document.querySelector('.deck').addEventListener('click', function (e) {
-        if (e.target.closest('a, button, input, label, summary, details, .card, .step, .toc-list li, .wishlist-slider, .source-details, .model-toggle-tabs, .chart-bar-popup')) return;
+        if (e.target.closest('a, button, input, label, .card, .step, .toc-list li, .wishlist-slider, .source-btn, .source-modal, .model-toggle-tabs, .chart-bar-popup')) return;
         var x = e.clientX;
         var width = window.innerWidth;
         var leftThird = width / 3;
@@ -2009,6 +2094,119 @@
           });
         });
       });
+    })();
+  </script>
+
+  <!-- Source overlay modal (shared instance) -->
+  <div class="source-modal" id="source-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="source-modal-title">
+    <div class="source-modal-backdrop" data-modal-close></div>
+    <div class="source-modal-card">
+      <button class="source-modal-close" type="button" aria-label="닫기" data-modal-close>&times;</button>
+      <h3 id="source-modal-title" style="margin: 0 0 14px; font-size: 1.1rem; color: var(--accent);">출처</h3>
+      <div class="source-modal-content"></div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var modal = document.getElementById('source-modal');
+      if (!modal) return;
+      var content = modal.querySelector('.source-modal-content');
+      var titleEl = document.getElementById('source-modal-title');
+      var activeBtn = null;
+
+      function setBtnLabel(btn, opened) {
+        btn.classList.toggle('open', opened);
+        /* Modal pattern — button label stays "출처 정보" regardless of state */
+      }
+
+      function open(btn) {
+        var srcId = btn.getAttribute('data-source');
+        var data = document.querySelector('.source-data[data-source-id="' + srcId + '"]');
+        if (!data) return;
+        if (activeBtn && activeBtn !== btn) setBtnLabel(activeBtn, false);
+        content.innerHTML = data.innerHTML;
+        titleEl.textContent = data.getAttribute('data-title') || '출처';
+        modal.classList.add('open');
+        modal.setAttribute('aria-hidden', 'false');
+        activeBtn = btn;
+        setBtnLabel(btn, true);
+        var closeBtn = modal.querySelector('.source-modal-close');
+        if (closeBtn) closeBtn.focus();
+      }
+
+      function close() {
+        modal.classList.remove('open');
+        modal.setAttribute('aria-hidden', 'true');
+        if (activeBtn) { setBtnLabel(activeBtn, false); activeBtn = null; }
+        setTimeout(function () {
+          if (!modal.classList.contains('open')) content.innerHTML = '';
+        }, 250);
+      }
+
+      // Open buttons
+      document.addEventListener('click', function (e) {
+        var btn = e.target.closest('.source-btn');
+        if (btn) {
+          e.stopPropagation();
+          if (activeBtn === btn) close(); else open(btn);
+          return;
+        }
+        // Close on backdrop / close-button click
+        if (e.target.closest('[data-modal-close]')) {
+          e.stopPropagation();
+          close();
+        }
+      });
+
+      // Block navigation keys while modal is open; ESC closes
+      window.addEventListener('keydown', function (e) {
+        if (!modal.classList.contains('open')) return;
+        if (e.key === 'Escape') {
+          e.preventDefault();
+          e.stopImmediatePropagation();
+          close();
+        } else if (['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', ' ',
+                    'f', 'F', 's', 'S', 'g', 'G'].indexOf(e.key) !== -1) {
+          e.stopImmediatePropagation();
+        }
+      }, true); // capture phase to intercept before deck navigation handler
+
+      // Block wheel events bubbling to deck while modal is open
+      modal.addEventListener('wheel', function (e) {
+        e.stopPropagation();
+      }, { passive: true });
+    })();
+  </script>
+
+  <!-- Slide 4: gold bar default popup on slide entry -->
+  <script>
+    (function () {
+      var slides = document.querySelectorAll('.slide');
+      var slide4 = null;
+      var goldGroup = null;
+      slides.forEach(function (s) {
+        var g = s.querySelector('.chart-bar-group.gold-default');
+        if (g) { slide4 = s; goldGroup = g; }
+      });
+      if (!slide4 || !goldGroup) return;
+
+      function showDefault() { goldGroup.classList.add('default-shown'); }
+      function hideDefault() { goldGroup.classList.remove('default-shown'); }
+
+      if (slide4.classList.contains('active')) showDefault();
+
+      var observer = new MutationObserver(function () {
+        if (slide4.classList.contains('active')) {
+          showDefault();
+        }
+      });
+      observer.observe(slide4, { attributes: true, attributeFilter: ['class'] });
+
+      var chart = slide4.querySelector('.chart');
+      if (chart) {
+        chart.addEventListener('mouseenter', hideDefault);
+      }
     })();
   </script>
 </body>
