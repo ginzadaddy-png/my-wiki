@@ -2,6 +2,12 @@
 title: "활동 로그"
 ---
 
+## [2026-05-13] feat | presentations 인프라 + quartz content submodule 동기화 보정
+- 신규: wiki/presentations/steam-marketing-strategy.md wrapper 페이지 (iframe 임베드 + 전체화면 버튼)
+- 신규: quartz/components/WikiNav.tsx에 "프레젠테이션" 분류 항목 추가 (별도 quartz repo, commit 034c257)
+- 보정: GitHub Desktop으로 quartz push 시 content submodule pointer가 옛 851cdf0로 reverted된 사고 → my-wiki에 후속 commit으로 update-quartz.yml Action 재실행 트리거하여 latest pointer 복원
+- 교훈: quartz repo는 GitHub Desktop이 아닌 PowerShell `git submodule update --remote content` 후 commit이 안전 (또는 my-wiki만 push하고 Action에 위임)
+
 ## [2026-05-12] ingest | IGN Generations In Play 2026 (53페이지 PDF 단일 소스)
 - Source: raw/articles/2026-05-12-ign-generations-in-play-2026.md (PDF 업로드: IGN-Entertainment-Generations-In-Play-Audience-Insights-Report-2026.pdf)
 - 생성 (4 concepts + 1 entity + 1 source):
