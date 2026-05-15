@@ -38,6 +38,7 @@
   - Quartz Assets emitter가 `.html`을 자동으로 `public/presentations/`에 복사 → 별도 deploy step 불필요
   - 카탈로그·index의 슬라이드 link는 raw HTML + 완전 절대 URL (`https://ginzadaddy-png.github.io/quartz/presentations/[슬러그]-deck.html` + `target="_blank"`)
   - **wrapper md link는 trailing slash 없이** (`https://ginzadaddy-png.github.io/quartz/presentations/[슬러그]` ✓ / `.../[슬러그]/` ✗) — Quartz가 .md를 단일 `slug.html`로 빌드해서 trailing slash URL은 폴더 매칭 시도 → 404
+  - **슬라이드 폰트 — JetBrains Mono 절대 금지**, 한글 적합 폰트(Pretendard 등) 사용. make-slide skill·기타 슬라이드 도구 호출 시 prompt에 명시. 기존 슬라이드 HTML 갱신 시도 JetBrains Mono import·font-family 발견하면 즉시 Pretendard로 교체 (메모리 `feedback_slide_fonts.md` 참조)
 
 ## 모든 위키 페이지 frontmatter 형식
 ---

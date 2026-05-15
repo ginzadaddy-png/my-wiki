@@ -1,10 +1,10 @@
 ---
 title: "Steam 마케팅 전략 — 슬라이드"
 type: presentation
-sources: ["[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-page-optimization-guide-2026]]", "[[game-marketing-strategy-2026]]", "[[airbridge-steam-marketing-playbook]]"]
+sources: ["[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-page-optimization-guide-2026]]", "[[game-marketing-strategy-2026]]", "[[airbridge-steam-marketing-playbook]]", "[[gdc26-arc-raiders-reset]]", "[[gdc24-baldurs-gate-3]]", "[[cgdc-dave-the-diver]]", "[[indiebi-game-pricing-strategy]]", "[[matthew-ball-2026-report]]", "[[gdc26-newzoo-market-analysis]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]"]
 created: 2026-05-11
-updated: 2026-05-12
+updated: 2026-05-15
 confidence: medium
 ---
 
@@ -28,6 +28,12 @@ confidence: medium
 - [[steam-page-optimization-guide-2026]] — 스토어 페이지 최적화 + 트레일러 5초 룰
 - [[game-marketing-strategy-2026]] — 2026 마케팅 캘린더 + GTA6 윈도우
 - [[airbridge-steam-marketing-playbook]] — 중견 스튜디오 유료 마케팅 + 아시아 스튜디오 갭
+- [[gdc26-arc-raiders-reset]] — 가격 리셋·라이브 운영 사례
+- [[gdc24-baldurs-gate-3]] — 라리안 BG3 GDC24 정리 (가격·플랫폼 의사결정)
+- [[cgdc-dave-the-diver]] — 데이브 더 다이버 커뮤니티 운영
+- [[indiebi-game-pricing-strategy]] — 가격 책정 방법론 (Unity·IndieBI)
+- [[matthew-ball-2026-report]] — 게임 시장 macro 분석
+- [[gdc26-newzoo-market-analysis]] — 시장 지형·가격대 데이터
 
 ## 관련 위키 페이지
 
