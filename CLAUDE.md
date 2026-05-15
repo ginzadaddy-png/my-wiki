@@ -33,12 +33,17 @@
 - wiki/index.md  → 전체 목록. 매번 ingest 후 업데이트
 - wiki/log.md    → 활동 기록. append-only
 - wiki/presentations/   → HTML 슬라이드 + wrapper md 페이지. 슬라이드 생성 시 *반드시 이 경로*에 저장. (루트의 `presentations/` 폴더는 deprecated — 절대 사용 금지)
+  - **슬라이드는 위키 콘텐츠를 *재구성*한 것** — 원전(concept·source) 페이지가 항상 truth source. 위키 콘텐츠 변경 시 슬라이드도 동기화. 슬라이드 갱신은 HTML 파일만 교체, wrapper md·카탈로그 wikilink·sources frontmatter는 그대로 유지.
   - **파일 명명: 슬라이드 `[주제-슬러그]-deck.html`, wrapper `[주제-슬러그].md`** (base 슬러그는 공유, 슬라이드만 `-deck` 접미사)
   - `-deck` 접미사 필수 이유: wrapper md와 슬라이드 HTML이 같은 base 이름이면 Quartz의 ContentPage·Assets emitter가 같은 slug로 인식해 *.html URL이 wrapper md를 응답하는 무한 재귀 발생*. `-deck`으로 분리해서 slug 충돌 회피
-  - Quartz Assets emitter가 `.html`을 자동으로 `public/presentations/`에 복사 → 별도 deploy step 불필요
-  - 카탈로그·index의 슬라이드 link는 raw HTML + 완전 절대 URL (`https://ginzadaddy-png.github.io/quartz/presentations/[슬러그]-deck.html` + `target="_blank"`)
-  - **wrapper md link는 trailing slash 없이** (`https://ginzadaddy-png.github.io/quartz/presentations/[슬러그]` ✓ / `.../[슬러그]/` ✗) — Quartz가 .md를 단일 `slug.html`로 빌드해서 trailing slash URL은 폴더 매칭 시도 → 404
+  - Quartz Assets emitter가 `.html`을 자동으로 `public/presentations/`에 복사 → 별도 deploy step 불필요 (단 `quartz.config.ts` ignorePatterns에 `**/*.html`이 있어야 함 — Assets의 slugify가 .html 확장자 제거하는 버그 회피. deploy.yml에서 별도 copy step으로 정확한 path에 복사)
+  - 신규 슬라이드 추가 시: `-deck.html` 업로드 + wrapper `[슬러그].md` 작성 + `wiki/presentations/all.md` 카탈로그에 행 추가 + `wiki/index.md` 카운트·프레젠테이션 섹션 갱신
+  - 카탈로그·index의 슬라이드 link 규칙:
+    - **슬라이드 HTML link**: raw HTML + 완전 절대 URL (`<a href="https://ginzadaddy-png.github.io/quartz/presentations/[슬러그]-deck.html" target="_blank" rel="noopener">전체 화면 열기 ↗</a>`) — Quartz가 root-relative path는 변형(`.html` 제거·baseUrl 처리)하지만 외부 절대 URL은 외부 link로 인식해 그대로 둠. markdown link도 같은 이유로 회피
+    - **wrapper md link**: wikilink 사용 (`[[presentations/[슬러그]|표시명]]`) — Quartz의 popover·backlinks 자동 활성. 단 *index pill·본문*에서만 가능. 테이블 안에서는 `|` 충돌로 raw HTML 사용 (`<a href="https://ginzadaddy-png.github.io/quartz/presentations/[슬러그]">[슬러그]</a>`)
+    - **wrapper md raw HTML link**: trailing slash 없이 (`https://ginzadaddy-png.github.io/quartz/presentations/[슬러그]` ✓ / `.../[슬러그]/` ✗) — Quartz가 .md를 단일 `slug.html`로 빌드해서 trailing slash URL은 폴더 매칭 시도 → 404
   - **슬라이드 폰트 — JetBrains Mono 절대 금지**, 한글 적합 폰트(Pretendard 등) 사용. make-slide skill·기타 슬라이드 도구 호출 시 prompt에 명시. 기존 슬라이드 HTML 갱신 시도 JetBrains Mono import·font-family 발견하면 즉시 Pretendard로 교체 (메모리 `feedback_slide_fonts.md` 참조)
+  - **카탈로그 페이지(`all.md`)는 사용자에게 노출되는 카탈로그 역할만** — 운영 규칙·내부 지침은 *반드시 CLAUDE.md 또는 메모리에만 기록*. 사용자가 사이트에서 보는 카탈로그에는 슬라이드 목록 + 짧은 인트로만
 
 ## 모든 위키 페이지 frontmatter 형식
 ---
