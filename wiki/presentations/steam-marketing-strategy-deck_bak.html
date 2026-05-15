@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>스팀 마케팅 전략 — 위시리스트부터 출시까지</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap">
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -23,8 +24,7 @@
       --hint-color: #999;
       --navy-bar: #1e3a5f;
       --font-body: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
-      /* --font-mono kept as alias to body for tabular use; tabular-nums applied locally where needed */
-      --font-mono: var(--font-body);
+      --font-mono: 'JetBrains Mono', monospace;
     }
 
     body {
@@ -135,13 +135,7 @@
       transition: opacity 0.5s ease, visibility 0.5s ease;
     }
     .slide.active { opacity: 1; visibility: visible; }
-    /* 콘텐츠 슬라이드: 타이틀은 상단 고정, 본문은 safe center 로 남은 공간 중앙 정렬
-       — 'safe' 가 핵심: 콘텐츠가 overflow 할 때 자동으로 flex-start 로 fallback 해서
-          이전 버전의 절대 h2 + 본문 위로 밀려나는 overlap 버그 회피 */
-    .slide:not(:has(.slide-title)):not(:has(.slide-quote)):not(:has(.slide-closing)) {
-      justify-content: safe center;
-      padding-top: 210px;
-    }
+    /* 콘텐츠 슬라이드 타이틀 위치 고정 — 모두 중앙 정렬, 슬라이드 상단에 absolute 고정 */
     .slide:not(:has(.slide-title)):not(:has(.slide-quote)):not(:has(.slide-closing)) h2 {
       position: absolute;
       top: 110px;
@@ -160,6 +154,10 @@
       background: var(--accent-gold);
       margin: 14px auto 0 !important;
       border-radius: 2px;
+    }
+    /* 본문 영역은 타이틀 영역만큼 위쪽 여유 두고 가운데 정렬 유지 */
+    .slide:not(:has(.slide-title)):not(:has(.slide-quote)):not(:has(.slide-closing)) {
+      padding-top: 210px;
     }
 
     /* Navy accent bar at top */
@@ -511,7 +509,6 @@
       align-items: flex-end;
       gap: 60px;
       height: 380px;
-      flex-shrink: 0;          /* never shrink — keeps bars at full 380px height */
       width: 100%;
       max-width: 1180px;
       padding: 0 24px;
@@ -1054,179 +1051,17 @@
     }
 
     /* RESPONSIVE */
-    /* ============================================================
-       RESPONSIVE — web reflow mode (< 1024px)
-       Wide viewport keeps "one slide per viewport" deck UX.
-       Narrow viewport switches to natural web scroll.
-       ============================================================ */
-    @media (max-width: 1023px) {
-      /* Allow body & deck to grow with content; window scrolls */
-      body {
-        overflow-x: hidden;
-        overflow-y: auto;
-        height: auto;
-        min-height: 100vh;
-        width: 100%;
-      }
-      .deck {
-        height: auto;
-        min-height: 100vh;
-        width: 100%;
-      }
-      /* Only active slide is in flow; siblings removed from layout */
-      .slide {
-        position: relative;
-        height: auto;
-        min-height: 100vh;
-        width: 100%;
-        padding: 44px 24px;
-        opacity: 1;
-        visibility: visible;
-        overflow: visible;
-        transition: none;
-        display: none;
-      }
-      .slide.active { display: flex; }
-      .slide.active .a {
-        animation: none;
-        opacity: 1;
-        transform: none;
-      }
-      /* Narrow: revert to natural flow (h2 above body in normal stacking) */
-      .slide:not(:has(.slide-title)):not(:has(.slide-quote)):not(:has(.slide-closing)) {
-        justify-content: flex-start !important;
-        padding-top: 44px !important;
-      }
-      .slide:not(:has(.slide-title)):not(:has(.slide-quote)):not(:has(.slide-closing)) h2 {
-        position: static !important;
-        margin: 0 auto 20px !important;
-        text-align: center !important;
-      }
-      /* Body text scaled with title to preserve hierarchy */
-      .slide p,
-      .content-body li,
-      .toc-list li,
-      .card p,
-      .step-desc,
-      .quote-sub,
-      .comparison-col li,
-      .model-panel-list li { font-size: 1rem; line-height: 1.55; }
-      .content-body p { font-size: 1.05rem; line-height: 1.65; }
-      .card h3, .step-title, .comparison-col h3 { font-size: 1.15rem; }
-      .card-stat { font-size: 0.85rem; }
-      .chart-value { font-size: 1.2rem; }
-      .chart-label { font-size: 0.85rem; }
-      .card-icon { font-size: 1.8rem; }
-      /* Multi-column layouts collapse to single column */
-      .comparison { grid-template-columns: 1fr; gap: 18px; max-width: 680px; }
-      .cards { grid-template-columns: 1fr; gap: 14px; max-width: 680px; }
-      .steps { flex-direction: column; align-items: stretch; gap: 12px; max-width: 600px; }
-      .step-arrow { transform: rotate(90deg); width: auto; padding: 0; margin: 0 auto; }
-      .step { width: 100%; max-width: 540px; margin: 0 auto; }
-      .model-panel-list { grid-template-columns: 1fr; gap: 10px; }
-      .wishlist-slider .slider-readout { flex-direction: column; gap: 10px; }
-      .wishlist-slider .readout-arrow { display: none; }
-      /* Chart — keep explicit height so percentage-based bars render correctly */
-      .chart {
-        overflow-x: auto;
-        overflow-y: visible;
-        gap: 24px;
-        padding: 0 12px 12px;
-        height: 300px;           /* explicit — required for % bar heights */
-        justify-content: flex-start;
-        -webkit-overflow-scrolling: touch;
-      }
-      .chart-bar-group {
-        min-width: 84px;
-        flex: 0 0 auto;
-        height: 100%;            /* inherit explicit parent height */
-      }
-      .chart-bar { width: 72px; }
-      /* Typography reductions */
-      h1 { font-size: 2.2rem; }
-      h2 { font-size: 1.7rem; }
-      .quote-text { font-size: 2rem; line-height: 1.4; }
-      .quote-mark { font-size: 5rem; }
-      .slide-title h1 { font-size: 2.6rem; }
-      .slide-title .subtitle { font-size: 1.2rem; }
-      .toc-list li { font-size: 1.4rem; }
-      /* Chart popups — narrower & viewport-capped */
-      .chart-bar-popup {
-        width: min(280px, calc(100vw - 40px));
-        padding: 10px 12px 12px;
-      }
-      .chart-bar-popup-row img { width: 78px; height: 36px; }
-      /* Chrome hidden on narrow */
-      .hint { display: none; }
-      .fullscreen-btn { display: none; }
-      .slide-counter { bottom: 14px; right: 16px; font-size: 11px; }
-    }
-
-    /* === 768px and below — tablet vertical === */
-    @media (max-width: 768px) {
-      .slide { padding: 36px 18px; }
-      h1 { font-size: 1.9rem; }
+    @media (max-width: 900px) {
+      .slide { padding: 40px 28px; }
+      h1 { font-size: 2rem; }
       h2 { font-size: 1.5rem; }
-      .quote-text { font-size: 1.65rem; }
-      .slide-title h1 { font-size: 2.1rem; }
-      .slide-title .subtitle { font-size: 1.05rem; }
-      .toc-list li { font-size: 1.1rem; }
-      .card { padding: 24px 20px; }
-      .comparison-col { padding: 24px 20px; }
-      .chart { height: 260px; gap: 20px; }
-      .chart-bar { width: 60px; }
-      .chart-bar-group { min-width: 70px; }
-      .chart-bar-popup { width: min(240px, calc(100vw - 28px)); }
-      .chart-bar-popup-row img { width: 66px; height: 31px; }
-      .model-toggle-tabs button { font-size: 0.88rem; padding: 8px 14px; }
-      .source-modal-card { padding: 22px 22px 20px; }
-      .content-body p, .slide p { font-size: 0.95rem; line-height: 1.55; }
-      .content-body li { font-size: 0.95rem; }
-      .card p, .step-desc, .comparison-col li { font-size: 0.92rem; line-height: 1.5; }
-      .card h3, .step-title, .comparison-col h3 { font-size: 1.08rem; }
-      .quote-sub { font-size: 1rem; }
-    }
-
-    /* === 480px and below — mobile portrait === */
-    @media (max-width: 480px) {
-      .slide { padding: 28px 14px; }
-      h1 { font-size: 1.7rem; }
-      h2 { font-size: 1.35rem; }
-      .quote-text { font-size: 1.4rem; }
-      .quote-mark { font-size: 4rem; }
-      .slide-title h1 { font-size: 1.8rem; }
-      .chart { height: 220px; gap: 14px; }
-      .chart-bar { width: 50px; }
-      .chart-bar-group { min-width: 58px; }
-      .chart-bar-popup { width: min(220px, calc(100vw - 24px)); }
-      .chart-bar-popup-row img { width: 56px; height: 26px; }
-      .source-modal-content { font-size: 0.88rem; }
-      .content-body p, .slide p, .content-body li,
-      .card p, .step-desc, .comparison-col li { font-size: 0.88rem; line-height: 1.5; }
-      .card h3, .step-title, .comparison-col h3 { font-size: 1rem; }
-    }
-
-    /* === Touch / no-hover devices — popups via tap === */
-    @media (hover: none) {
-      .chart-bar-group.has-popup .chart-bar-popup,
-      .chart-bar-group.has-popup:hover .chart-bar-popup {
-        opacity: 0;
-        pointer-events: none;
-        transform: translateX(-50%) translateY(8px);
-      }
-      .chart-bar-group.has-popup.tapped .chart-bar-popup {
-        opacity: 1;
-        pointer-events: auto;
-        transform: translateX(-50%) translateY(0);
-      }
-      /* Same edge alignment for tap mode */
-      .chart-bar-group.has-popup.popup-left.tapped .chart-bar-popup {
-        transform: translateX(20px) translateY(0);
-      }
-      .chart-bar-group.has-popup.popup-right.tapped .chart-bar-popup {
-        transform: translateX(-20px) translateY(0);
-      }
-      .chart-bar-group.has-popup { cursor: pointer; }
+      .comparison { grid-template-columns: 1fr; gap: 20px; }
+      .cards { grid-template-columns: 1fr; gap: 16px; }
+      .steps { flex-direction: column; align-items: center; gap: 16px; }
+      .step-arrow { transform: rotate(90deg); width: auto; padding: 0; }
+      .chart { gap: 14px; height: 200px; }
+      .chart-bar { width: 36px; }
+      .hint { display: none; }
     }
 
     /* PRINT */
@@ -2012,12 +1847,6 @@
         slides[current].classList.remove('active');
         current = index;
         slides[current].classList.add('active');
-        /* Reset scroll on slide change so new slide starts from its top */
-        if (window.matchMedia('(max-width: 1023px)').matches) {
-          window.scrollTo({ top: 0, behavior: 'auto' });
-        } else if (slides[current].scrollTop) {
-          slides[current].scrollTop = 0;
-        }
         updateUI();
       }
       function next() { goTo(current + 1); }
@@ -2042,7 +1871,7 @@
           'body{padding:28px 32px;display:flex;flex-direction:column;gap:18px;overflow-y:auto}',
           '.label{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#999}',
           '.slide-info{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid #e0e3e8;padding-bottom:12px}',
-          '.slide-num{font-family:inherit;font-variant-numeric:tabular-nums;font-size:13px;font-weight:600;color:#1e3a5f}',
+          '.slide-num{font-family:"JetBrains Mono",monospace;font-size:13px;font-weight:600;color:#1e3a5f}',
           '.notes{font-size:17px;line-height:1.7;color:#333;white-space:pre-wrap}',
           '.next-block{margin-top:auto;padding-top:18px;border-top:1px solid #e0e3e8}',
           '.next-text{font-size:13px;color:#666;line-height:1.55;margin-top:6px}',
@@ -2202,31 +2031,10 @@
 
       /* MOUSE WHEEL — 슬라이드 이동 (throttled) */
       var wheelLocked = false;
-      /* Option 1 wheel: scroll within slide first; navigate only at top/bottom edge */
       document.addEventListener('wheel', function (e) {
         if (overviewModal) return;  // 탐색 모달 열려있으면 일반 스크롤 허용
         if (Math.abs(e.deltaY) < 30) return;  // 작은 스크롤 무시
         if (wheelLocked) return;
-
-        /* Determine the scroll container based on viewport mode */
-        var narrowMode = window.matchMedia('(max-width: 1023px)').matches;
-        var container = narrowMode
-          ? (document.scrollingElement || document.documentElement)
-          : document.querySelector('.slide.active');
-        if (!container) return;
-
-        var scrollable = container.scrollHeight > container.clientHeight + 1;
-        var atTop = container.scrollTop <= 1;
-        var atBottom = container.scrollTop + container.clientHeight >= container.scrollHeight - 1;
-
-        /* If the active container can scroll AND we're not at the relevant edge,
-           let the browser handle the wheel (natural scroll). */
-        if (scrollable) {
-          if (e.deltaY > 0 && !atBottom) return;
-          if (e.deltaY < 0 && !atTop) return;
-        }
-
-        /* At edge (or non-scrollable) → navigate slides */
         wheelLocked = true;
         if (e.deltaY > 0) next(); else prev();
         setTimeout(function () { wheelLocked = false; }, 350);
@@ -2234,7 +2042,7 @@
 
       /* CLICK NAVIGATION */
       document.querySelector('.deck').addEventListener('click', function (e) {
-        if (e.target.closest('a, button, input, label, .card, .step, .toc-list li, .wishlist-slider, .source-btn, .source-modal, .model-toggle-tabs, .chart-bar-popup, .chart-bar-group.has-popup')) return;
+        if (e.target.closest('a, button, input, label, .card, .step, .toc-list li, .wishlist-slider, .source-btn, .source-modal, .model-toggle-tabs, .chart-bar-popup')) return;
         var x = e.clientX;
         var width = window.innerWidth;
         var leftThird = width / 3;
@@ -2492,40 +2300,6 @@
       if (chart) {
         chart.addEventListener('mouseenter', hideDefault);
       }
-    })();
-  </script>
-
-  <!-- Chart popups: tap-to-show on no-hover devices -->
-  <script>
-    (function () {
-      var groups = document.querySelectorAll('.chart-bar-group.has-popup');
-      if (!groups.length) return;
-
-      function isTouchOnly() {
-        return window.matchMedia('(hover: none)').matches;
-      }
-
-      function untapAll() {
-        groups.forEach(function (g) { g.classList.remove('tapped'); });
-      }
-
-      groups.forEach(function (g) {
-        g.addEventListener('click', function (e) {
-          if (!isTouchOnly()) return;          // hover devices: do nothing, CSS handles
-          if (e.target.closest('.chart-bar-popup')) return;  // tap inside popup: ignore
-          e.stopPropagation();
-          var wasTapped = g.classList.contains('tapped');
-          untapAll();
-          if (!wasTapped) g.classList.add('tapped');
-        });
-      });
-
-      // Tap outside dismisses any open popup
-      document.addEventListener('click', function (e) {
-        if (!isTouchOnly()) return;
-        if (e.target.closest('.chart-bar-group.has-popup')) return;
-        untapAll();
-      });
     })();
   </script>
 </body>
