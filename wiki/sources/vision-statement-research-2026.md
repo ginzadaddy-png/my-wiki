@@ -1,12 +1,19 @@
 ---
 title: "비전 선언문 & 게임 디자인 기둥 — 웹 리서치 종합"
 type: source-summary
+source_url: ""
+source_author: ""
+source_published: ""
 sources: ["gamedeveloper.com/design/establishing-vision", "futureproofgames.com", "directingvideogames.com"]
 related: ["[[vision-statement|비전 선언문과 반짝임]]", "[[design-sense|디자인 감각]]", "[[studio-culture|스튜디오 문화]]"]
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: Web research (2026-04-23)
+
+
 
 비전 선언문과 디자인 기둥에 관한 웹 리서치 종합 (gamedeveloper.com, futureproofgames.com, directingvideogames.com). GDC26 강연 기반 기존 위키 내용의 보완 및 확장.
 

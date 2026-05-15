@@ -1,12 +1,19 @@
 ---
 title: "Unsynced: The Last of Us Melee System (GDC 2014)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=Ox2H3kUQByo"
+source_author: "GDC Festival of Gaming"
+source_published: 2017-10-29
 sources: ["raw/articles/2026-04-15T122900+0900-Unsynced The Last of Us Melee System.md"]
 related: ["[[combat-design|전투 디자인]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=Ox2H3kUQByo) — GDC Festival of Gaming, 2017-10-29
+
+
 
 GDC 2014. Naughty Dog, Anthony Newman. TLOU 근접 전투 시스템 — "비동기화(Unsynced)" 애니메이션 설계 철학.
 

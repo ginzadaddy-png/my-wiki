@@ -1,12 +1,19 @@
 ---
 title: "[GCON25] 글로벌 IP 시대의 프로듀서 역할 (하시모토 신지 / Aniplex)"
 type: source-summary
+source_url: "https://www.inven.co.kr/webzine/news/?news=311339"
+source_author: "정재훈"
+source_published: 2025-11-15
 sources: []
 related: ["[[dev-org-structure|개발 조직 구조]]", "[[studio-culture|스튜디오 문화]]"]
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=311339) — 정재훈, 2025-11-15
+
+
 
 2025 지스타 GCON 강연. 스퀘어에닉스 이사 출신, 현 Aniplex 시니어 어드바이저 하시모토 신지의 프로듀서 역할론.
 

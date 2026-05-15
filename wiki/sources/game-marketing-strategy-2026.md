@@ -1,18 +1,20 @@
 ---
 title: "2026 게임 마케팅 전략 가이드 (Reverb)"
 type: source-summary
+source_url: "https://reverbinc.com/2026-game-marketing-strategy/"
+source_author: ""
+source_published: 2026
 sources: []
 related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]"]
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-15
 confidence: high
 ---
 
 # 2026 게임 마케팅 전략 가이드
 
-**출처**: https://reverbinc.com/2026-game-marketing-strategy/
-**저자**: Reverb (게임 PR 에이전시)
-**날짜**: 2026
+**원문**: [reverbinc.com](https://reverbinc.com/2026-game-marketing-strategy/) — 2026
+
 
 ## 핵심 요약
 

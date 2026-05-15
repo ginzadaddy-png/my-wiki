@@ -1,12 +1,19 @@
 ---
 title: "[GDC23] AAA급 비주얼을 20명 아티스트로 — A Plague Tale: Requiem (Grégoire Binetruy / Asobo Studio)"
 type: source-summary
+source_url: "https://schedule.gdconf.com/session/how-to-make-aaa-looking-games-with-a-team-of-20-artists/889662"
+source_author: ""
+source_published: ""
 sources: []
 related: ["[[asobo-studio|Asobo Studio]]", "[[a-plague-tale-requiem|A Plague Tale: Requiem]]", "[[small-team-development|소규모 팀 전략]]", "[[proprietary-engine-strategy|독자 엔진 전략]]"]
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [schedule.gdconf.com](https://schedule.gdconf.com/session/how-to-make-aaa-looking-games-with-a-team-of-20-artists/889662)
+
+
 
 발표자: Grégoire Binetruy (Environment Artist) & Loic Paulus — Asobo Studio, GDC 2023.
 A Plague Tale: Requiem을 20명 아티스트 팀으로 AAA급 비주얼로 완성한 방법론 공유.

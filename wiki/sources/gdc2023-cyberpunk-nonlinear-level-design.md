@@ -1,12 +1,19 @@
 ---
 title: "Benefits of Missing Out: Cyberpunk 2077가 알려준 비선형 레벨 디자인 (GDC 2023)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=lXLRd5Kah-I"
+source_author: "GDC Festival of Gaming"
+source_published: 2023-07-06
 sources: ["raw/articles/2026-04-15T115627+0900-Benefits of Missing Out What 'Cyberpunk 2077' Taught Us About Non-Linear Level Design.md"]
 related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[cyberpunk-2077|사이버펑크 2077]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=lXLRd5Kah-I) — GDC Festival of Gaming, 2023-07-06
+
+
 
 GDC 2023 레벨 디자인 서밋. CDPR, Miles Tost. CP2077의 비선형 레벨 디자인 의도와 실제 플레이어 반응 간 괴리 분석.
 

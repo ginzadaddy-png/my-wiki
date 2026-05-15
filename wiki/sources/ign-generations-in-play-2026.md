@@ -1,12 +1,19 @@
 ---
 title: "IGN Entertainment — Generations In Play 2026 Audience Insights Report"
 type: source-summary
+source_url: ""
+source_author: ""
+source_published: ""
 sources: []
 related: ["[[audience-discovery-systems|오디언스 발견 시스템]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[ign-entertainment|IGN Entertainment]]", "[[marketing-strategy|마케팅 전략]]", "[[live-service-design|라이브 서비스 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[early-access-strategy|얼리 액세스 전략]]"]
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: N/A
+
+
 
 IGN Entertainment 발행 2026 audience insights 보고서. Kantar·UC Berkeley 협업, 6,250명 (US/UK/AUS) high-engagement audience 조사 (2025-08 ~ 2025-11). Gen Z(13–28)·Millennials(29–44)·Gen X(45–60) 세대별 미디어 행동을 *세대 운영 체제(generational operating system)*라는 개념으로 분석. 발행 IGN SVP Karl Stewart, Sr. Director Tate Fiebing.
 

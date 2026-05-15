@@ -1,12 +1,19 @@
 ---
 title: "Valheim: Vikings, Roadmaps & Buying a Horse During Early Access (GDC 2024)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=YoOCUpdYYm4"
+source_author: "GDC Festival of Gaming"
+source_published: 2024-05-31
 sources: ["raw/articles/2026-04-15T120042+0900-'Valheim' Vikings, Roadmaps & Buying a Horse During Early Access.md"]
 related: ["[[early-access-strategy|얼리 액세스 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: medium
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=YoOCUpdYYm4) — GDC Festival of Gaming, 2024-05-31
+
+
 
 GDC 2024 인디 게임즈 서밋. Iron Gate Studio, Jonathan Smårs. 발헤임 얼리 액세스 개발 여정 패치별 회고.
 

@@ -1,12 +1,19 @@
 ---
 title: "GDC25: 안 이쁜 게임 마케팅으로 극복하기 - 발라트로"
 type: source-summary
+source_url: "https://www.inven.co.kr/webzine/news/?news=304240"
+source_author: "김규만"
+source_published: 2025-03-22
 sources: ["GDC2025 안 이쁜() 게임, 마케팅으로 극복하기 - 발라트로"]
 related: ["[[balatro|발라트로]]", "[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=304240) — 김규만, 2025-03-22
+
+
 
 GDC 2025, 플레이스택(Playstack) 바우트 판할데렌 커뮤니케이션 디렉터 강연. 발라트로 GDC 2025 4관왕. 출처: Inven
 

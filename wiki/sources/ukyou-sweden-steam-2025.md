@@ -1,12 +1,19 @@
 ---
 title: "Steam 왕자는 인구 1000만 스웨덴 — 일본 개발자가 배울 승리 패턴 (うきょう)"
 type: source-summary
+source_url: "https://note.com/ukyousan/n/n145534ab4e57"
+source_author: "ゲーム設計×仕事の設計論 by うきょう"
+source_published: 2025-12-30
 sources: []
 related: ["[[game-market-trends|게임 시장 트렌드]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-05-15
 confidence: medium
 ---
+
+**원문**: [note.com](https://note.com/ukyousan/n/n145534ab4e57) — ゲーム設計×仕事の設計論 by うきょう, 2025-12-30
+
+
 
 Note.com 게임 설계론 시리즈 (うきょう, 2025-12-30). 2025년 Steam 수익 1위 국가 스웨덴의 생태계 분석.
 

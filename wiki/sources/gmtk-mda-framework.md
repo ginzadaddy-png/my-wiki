@@ -1,12 +1,19 @@
 ---
 title: "게임 디자이너처럼 생각하는 법 (MDA 프레임워크)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=iIOIT3dCy5w"
+source_author: "Game Maker's Toolkit"
+source_published: 2023-02-18
 sources: ["How To Think Like A Game Designer"]
 related: ["[[mda-framework|MDA 프레임워크]]", "[[combat-design|전투 디자인]]", "[[game-market-trends|게임 시장 트렌드]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=iIOIT3dCy5w) — Game Maker's Toolkit, 2023-02-18
+
+
 
 Mark Brown / Game Maker's Toolkit (2023-02-18). Alien: Isolation 세이브 시스템 사례로 시작.
 

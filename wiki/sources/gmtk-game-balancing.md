@@ -1,12 +1,19 @@
 ---
 title: "게임 밸런싱 방법론 (GMTK)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=WXQzdXPTb2A"
+source_author: "Game Maker's Toolkit"
+source_published: 2019-04-11
 sources: ["How Games Get Balanced"]
 related: ["[[game-balance|게임 밸런싱]]", "[[combat-design|전투 디자인]]", "[[mda-framework|MDA 프레임워크]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=WXQzdXPTb2A) — Game Maker's Toolkit, 2019-04-11
+
+
 
 Mark Brown / Game Maker's Toolkit (2019-04-11). 멀티플레이어 밸런싱 중심.
 

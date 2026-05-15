@@ -1,12 +1,19 @@
 ---
 title: "퍼스트룩: 게임사 93%가 속는 가짜 흥행 신호"
 type: source-summary
+source_url: "https://www.inven.co.kr/webzine/news/?news=315549&hotnews=1"
+source_author: "김병호"
+source_published: 2026-04-17
 sources: ["게임사 93%가 속는 '가짜 흥행 신호'"]
 related: ["[[launch-metrics|흥행 예측 지표]]", "[[marketing-strategy|마케팅 전략]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=315549&hotnews=1) — 김병호, 2026-04-17
+
+
 
 퍼스트룩(FirstLook) '시그널스 오브 석세스' 보고서 (2026년 봄). AA·AAA 개발사 시니어 임원 253명 설문. 출처: Inven
 

@@ -1,12 +1,19 @@
 ---
 title: "헨리크 톤퀴스트 — 발하임 글로벌 성공 비결 (Skövde 대학 + Retroware 종합)"
 type: source-summary
+source_url: "https://www.his.se/en/news/2021/march/former-skovde-students-behind-the-global-success-valheim/"
+source_author: "University of Skövde"
+source_published: 2021-03-25
 sources: []
 related: ["[[iron-gate-studio|아이언 게이트]]", "[[valheim|발하임]]", "[[playtesting|플레이테스팅]]", "[[early-access-strategy|얼리 액세스 전략]]"]
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-15
 confidence: medium
 ---
+
+**원문**: [his.se](https://www.his.se/en/news/2021/march/former-skovde-students-behind-the-global-success-valheim/) — University of Skövde, 2021-03-25
+
+
 
 발하임 EA 첫 달 600만 카피 돌파 시점의 두 인터뷰 종합. 스코브데 대학교 인터뷰(2021-03-25) + Retroware의 로드맵 리캡(Tan Montana, 2021-02-19). 5인 팀 공동 설립자 헨리크 톤퀴스트가 발하임 성공 요인을 직접 언급.
 

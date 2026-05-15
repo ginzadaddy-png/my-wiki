@@ -1,12 +1,19 @@
 ---
 title: "[SGC] 실전 사례로 배우는 '스팀에서 살아남기'"
 type: source-summary
+source_url: "https://www.inven.co.kr/webzine/news/?news=310694&hotnews=1"
+source_author: "정재훈"
+source_published: 2025-10-25
 sources: ["raw/articles/2026-04-13T123349+0900-SGC 실전 사례로 배우는 '스팀에서 살아남기'.md"]
 related: ["[[marketing-strategy|마케팅 전략]]"]
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=310694&hotnews=1) — 정재훈, 2025-10-25
+
+
 
 스웨덴 게임 컨퍼런스(SGC, 2025-10-25) 패널 토론. Thunderful Publishing, DoubleMoose(Goat Simulator), Paradox Arc, Raw Fury 업계 베테랑 4인.
 

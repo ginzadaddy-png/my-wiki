@@ -1,12 +1,19 @@
 ---
 title: "前 록스타 디자이너 Ben Hinchliffe 인터뷰"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=R5mzJsGhmr4"
+source_author: "GTAVIoclock"
+source_published: 2024-10-31
 sources: ["Ex-Rockstar Designer Interview - GTA VI O'clock Episode 47"]
 related: ["[[quest-narrative-design|퀘스트·내러티브 설계]]", "[[open-world-design|오픈월드 설계]]", "[[red-dead-redemption-2|레드 데드 리뎀션 2]]", "[[rockstar-games|록스타 게임즈]]", "[[gta5|GTA5]]", "[[designer-empowerment|디자이너 도구화]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=R5mzJsGhmr4) — GTAVIoclock, 2024-10-31
+
+
 
 GTA VI O'clock Ep.47 (2024-10-31). Ben Hinchliffe — 록스타 게임즈 13년(GTA 차이나타운 워즈·LA 느와르·GTA5·GTA Online·RDR2·GTA6), 現 Just Add Water 리드 디자이너.
 

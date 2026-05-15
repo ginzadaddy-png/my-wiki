@@ -1,12 +1,19 @@
 ---
 title: "Dark Souls Dissected #9 - Lordran's Layout Explained (illusory wall)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=sr0ayFx4tBY"
+source_author: "illusory wall"
+source_published: 2020-01-24
 sources: ["raw/articles/2026-04-15T122231+0900-Dark Souls Dissected 9 - Lordran's Layout Explained.md"]
 related: ["[[open-world-design|오픈월드 설계]]", "[[fromsoftware|프롬소프트웨어]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=sr0ayFx4tBY) — illusory wall, 2020-01-24
+
+
 
 유튜브 에세이. illusory wall (2020). 다크소울 로드란의 실제 3D 공간 배치를 스카이박스와 충돌 데이터로 시각화 검증.
 

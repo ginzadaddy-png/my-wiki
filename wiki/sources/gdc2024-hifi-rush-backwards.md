@@ -1,12 +1,19 @@
 ---
 title: "Developing 'Hi-Fi RUSH' Backwards and Finding Our Positive Gameplay Loop (GDC 2024)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=pG4UxqRMNX0"
+source_author: "GDC Festival of Gaming"
+source_published: 2024-05-14
 sources: ["raw/articles/2026-04-15T122726+0900-Developing 'Hi-Fi RUSH' Backwards and Finding Our Positive Gameplay Loop.md"]
 related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[combat-design|전투 디자인]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=pG4UxqRMNX0) — GDC Festival of Gaming, 2024-05-14
+
+
 
 GDC Festival of Gaming 2024. Tango Gameworks, John Johanas (게임 디렉터). 리듬 액션 게임 Hi-Fi RUSH의 "역방향 개발" 방법론.
 

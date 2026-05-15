@@ -1,12 +1,19 @@
 ---
 title: "How To Craft The Perfect Combat System (VileHyperion × For Honor 분석)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=9-MRC59fd1o"
+source_author: "VileHyperion"
+source_published: 2021-04-24
 sources: []
 related: ["[[combat-design|전투 디자인]]", "[[game-balance|게임 밸런싱]]"]
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-05-15
 confidence: medium
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=9-MRC59fd1o) — VileHyperion, 2021-04-24
+
+
 
 YouTube 채널 VileHyperion의 For Honor 전투 시스템 분석. "단순하지만 깊은(Simple but Deep)" 전투 설계 원칙을 해부.
 

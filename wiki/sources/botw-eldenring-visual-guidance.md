@@ -1,12 +1,19 @@
 ---
 title: "야숨과 엘든링의 시선유도 법칙 (안콜3D)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=eO8CyODLbsM"
+source_author: "안콜3D"
+source_published: 2023-05-07
 sources: ["raw/articles/2026-04-15T121309+0900-야숨과 엘든링의 시선유도 법칙.md"]
 related: ["[[open-world-design|오픈월드 설계]]", "[[level-design-principles|레벨 디자인 원칙]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=eO8CyODLbsM) — 안콜3D, 2023-05-07
+
+
 
 유튜브 에세이. 안콜3D (2023). 이고드님 블로그 분석 기반. BotW와 엘든링에서 공통으로 작동하는 시선유도·탐험 유도 법칙.
 

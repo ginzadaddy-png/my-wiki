@@ -1,12 +1,19 @@
 ---
 title: "[GDC24] 젤다의 전설: 티어스 오브 더 킹덤 — 만들었지만 만들지 않은 '미친' 자유도"
 type: source-summary
+source_url: "https://www.inven.co.kr/webzine/news/?news=294179&sw=gdc&site=webzine"
+source_author: "강승진"
+source_published: 2024-03-21
 sources: ["raw/articles/2026-04-13T181649+0900-GDC24 젤다의 전설, 만들었지만 만들지 않은 '미친' 자유도.md"]
 related: ["[[nintendo|닌텐도]]", "[[emergent-systems-design|창발적 시스템 설계]]", "[[designer-empowerment|디자이너 도구화]]", "[[rapid-prototyping|빠른 프로토타이핑]]"]
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=294179&sw=gdc&site=webzine) — 강승진, 2024-03-21
+
+
 
 GDC 2024. 닌텐도 도타 타쿠히로 시니어 디렉터·타카야마 타카히로 피직스 프로그래머·오사다 준야 사운드 프로그래머. 티어스 오브 더 킹덤의 물리 엔진과 사운드 시스템 개발 철학.
 

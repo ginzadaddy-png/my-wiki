@@ -1,12 +1,19 @@
 ---
 title: "진입 장벽 완화, 익스트랙션 장르의 대중화 이끄는 아크 레이더스"
 type: source-summary
+source_url: "https://www.inven.co.kr/webzine/news/?news=312003&sclass=25&page=4"
+source_author: "김규만"
+source_published: 2025-12-15
 sources: ["기획 진입 장벽 완화, 익스트랙션 장르의 대중화 이끄는 '아크 레이더스'"]
 related: ["[[arc-raiders|아크 레이더스]]", "[[embark-studios|엠바크 스튜디오]]", "[[extraction-genre-design|익스트랙션 장르 설계]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=312003&sclass=25&page=4) — 김규만, 2025-12-15
+
+
 
 2025년 12월 Inven 기획 기사. 아크 레이더스 출시 2주 만에 400만 장 판매, 전 플랫폼 동시접속 70만 명 달성.
 

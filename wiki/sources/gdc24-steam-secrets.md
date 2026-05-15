@@ -1,12 +1,19 @@
 ---
 title: "GDC24: 스팀의 비밀 - 성공 팁 (크리스 주코프스키)"
 type: source-summary
+source_url: "https://www.inven.co.kr/webzine/news/?news=294151&page=2"
+source_author: "강승진"
+source_published: 2024-03-21
 sources: ["GDC24 '스팀의 비밀' 성공 꿀팁 대방출"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=294151&page=2) — 강승진, 2024-03-21
+
+
 
 GDC 2024, 마케팅 컨설턴트 크리스 주코프스키(Chris Zukowski) 강연. 밸브 출신이 아닌 외부자가 수집한 스팀 알고리즘 데이터. 출처: Inven
 

@@ -1,12 +1,19 @@
 ---
 title: "중견 게임 스튜디오를 위한 스팀 마케팅 완전정복"
 type: source-summary
+source_url: "https://www.airbridge.io/ko/blog/game-studio-steam-marketing-playbook#pc%EC%BD%98%EC%86%94-%EC%9C%A0%EC%A0%80%EC%97%90%EA%B2%8C-%EC%A4%91%EC%9A%94%ED%95%9C-%EA%B1%B4-%ED%95%98%EC%9E%85%EC%9D%B4-%EC%95%84%EB%8B%88%EB%9D%BC-%EC%A6%9D%EB%AA%85%EC%9D%B4%EC%97%90%EC%9A%94"
+source_author: "Airbridge"
+source_published: 2025-07-03
 sources: ["중견 게임 스튜디오를 위한 스팀(Steam) 게임 마케팅 완전정복"]
 related: ["[[steam-marketing|스팀 마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[game-market-trends|게임 시장 트렌드]]", "[[indie-business-strategy|인디 비즈니스 전략]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [airbridge.io](https://www.airbridge.io/ko/blog/game-studio-steam-marketing-playbook#pc%EC%BD%98%EC%86%94-%EC%9C%A0%EC%A0%80%EC%97%90%EA%B2%8C-%EC%A4%91%EC%9A%94%ED%95%9C-%EA%B1%B4-%ED%95%98%EC%9E%85%EC%9D%B4-%EC%95%84%EB%8B%88%EB%9D%BC-%EC%A6%9D%EB%AA%85%EC%9D%B4%EC%97%90%EC%9A%94) — Airbridge, 2025-07-03
+
+
 
 에어브릿지 남성필 대표 × Liquid Advertising Nikki DePaola(글로벌 미디어 부사장) 인터뷰. Liquid는 블리자드·라이엇·넥슨·코나미 캠페인 경력. 출처: Airbridge 블로그 (2025-07-03)
 

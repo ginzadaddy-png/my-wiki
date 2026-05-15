@@ -1,12 +1,19 @@
 ---
 title: "Evolving Combat in 'God of War' for a New Perspective (GDC 2019)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=hE5tWF-Ou2k"
+source_author: "GDC Festival of Gaming"
+source_published: 2021-11-05
 sources: ["raw/articles/2026-04-15T122806+0900-Evolving Combat in 'God of War' for a New Perspective.md"]
 related: ["[[combat-design|전투 디자인]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=hE5tWF-Ou2k) — GDC Festival of Gaming, 2021-11-05
+
+
 
 GDC 2019. Sony Santa Monica Studio, Mihir Sheth. 갓 오브 워(2018) — 카메라 관점 변화가 전투 시스템 전체를 어떻게 재정의했는가.
 

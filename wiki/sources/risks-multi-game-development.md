@@ -1,12 +1,19 @@
 ---
 title: "The Risks of Multi Game Development (2014)"
 type: source-summary
+source_url: "https://www.gamedeveloper.com/business/the-risks-of-multi-game-development"
+source_author: "Ulyana Chernyak"
+source_published: 2014-10-15
 sources: ["raw/articles/2026-04-14T160336+0900-The Risks of Multi Game Development.md"]
 related: ["[[multi-project-development|멀티 프로젝트 개발]]", "[[naughty-dog|너티독]]", "[[fromsoftware|프롬소프트웨어]]"]
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [gamedeveloper.com](https://www.gamedeveloper.com/business/the-risks-of-multi-game-development) — Ulyana Chernyak, 2014-10-15
+
+
 
 Gamedeveloper.com 2014년 아티클 (Xsolla 블로그 발). 복수 게임 동시 개발의 구조적 위험을 분석.
 

@@ -1,12 +1,19 @@
 ---
 title: "【보고서】 게임은 반드시 완벽해야 할까 — 스카이림 (얼음병정)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=vkdarLLooa8"
+source_author: "얼음병정"
+source_published: 2022-01-31
 sources: ["raw/articles/2026-04-15T121248+0900-【보고서】 게임은 반드시 완벽해야 할까 - 『엘더스크롤5 스카이림』.md"]
 related: ["[[open-world-design|오픈월드 설계]]", "[[playtesting|플레이테스팅]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=vkdarLLooa8) — 얼음병정, 2022-01-31
+
+
 
 유튜브 에세이. 얼음병정 (2022). 수많은 버그에도 GOTY를 수상한 스카이림을 MDA 프레임워크로 분석.
 

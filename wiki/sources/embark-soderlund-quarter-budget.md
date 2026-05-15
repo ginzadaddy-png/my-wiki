@@ -1,12 +1,19 @@
 ---
 title: "Embark 패트릭 수더룬드 — 'AAA 예산의 1/4로 AAA 퀄리티'"
 type: source-summary
+source_url: "https://www.gamesindustry.biz/embark-studios-head-patrick-soderlund-explains-how-arc-raiders-was-made-on-a-quarter-of-the-budget-of-a-aaa-title"
+source_author: "Alex Forbes-Calvin"
+source_published: 2026-03-14
 sources: ["raw/articles/2026-04-14T160417+0900-Embark Studios head Patrick Söderlund explains how Arc Raiders was made on a quarter of the budget of a AAA title.md"]
 related: ["[[embark-studios|엠바크 스튜디오]]", "[[arc-raiders|아크 레이더스]]", "[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]"]
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [gamesindustry.biz](https://www.gamesindustry.biz/embark-studios-head-patrick-soderlund-explains-how-arc-raiders-was-made-on-a-quarter-of-the-budget-of-a-aaa-title) — Alex Forbes-Calvin, 2026-03-14
+
+
 
 GamesIndustry.biz 2026년 3월 기사. 엠바크 CEO 패트릭 수더룬드 인터뷰. Arc Raiders 출시(2025년 10월) 후 1400만 장 판매 달성 배경.
 

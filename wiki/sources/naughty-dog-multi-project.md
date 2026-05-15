@@ -1,12 +1,19 @@
 ---
 title: "너티독, 멀티 프로젝트 개발에 여전히 '아슬아슬하게' 실패 중"
 type: source-summary
+source_url: "https://gamingbolt.com/naughty-dog-still-falling-just-short-of-simultaneous-development-of-multiplayer-projects-studio-president-says"
+source_author: "Shubhankar Parijat"
+source_published: 2021-04-18
 sources: ["raw/articles/2026-04-14T160343+0900-Naughty Dog Still Falling Just Short of Simultaneous Development.md"]
 related: ["[[naughty-dog|너티독]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [gamingbolt.com](https://gamingbolt.com/naughty-dog-still-falling-just-short-of-simultaneous-development-of-multiplayer-projects-studio-president-says) — Shubhankar Parijat, 2021-04-18
+
+
 
 GamingBolt 2021년 기사. 너티독 공동 대표 에반 웰스의 AIAS 인터뷰 발췌.
 

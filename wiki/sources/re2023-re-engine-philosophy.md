@@ -1,12 +1,19 @@
 ---
 title: "RE:2023 RE ENGINE Philosophy (Capcom Open Conference)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=mqEMFJHUn3g"
+source_author: "CAPCOM R&D"
+source_published: 2023-10-27
 sources: ["raw/articles/2026-04-14T160408+0900-RE2023 RE ENGINE Philosophy.md"]
 related: ["[[capcom|캡콤]]", "[[proprietary-engine-strategy|독자 엔진 전략]]", "[[RE ENGINE]]"]
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-15
 confidence: medium
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=mqEMFJHUn3g) — CAPCOM R&D, 2023-10-27
+
+
 
 CAPCOM Open Conference RE:2023 발표 (YouTube 트랜스크립트). RE ENGINE 10년의 역사와 개발 철학.
 

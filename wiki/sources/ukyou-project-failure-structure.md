@@ -1,12 +1,19 @@
 ---
 title: "인디만이 아니다. 4000만 엔 게임 개발이 막힌 구조와 같은 실패를 피하는 방법 (うきょう)"
 type: source-summary
+source_url: "https://note.com/ukyousan/n/nc68ea5638ff2"
+source_author: "ゲーム設計×仕事の設計論 by うきょう"
+source_published: 2026-01-11
 sources: []
 related: ["[[indie-business-strategy|인디 비즈니스 전략]]", "[[dev-org-structure|개발 조직 구조]]", "[[rapid-prototyping|빠른 프로토타이핑]]"]
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [note.com](https://note.com/ukyousan/n/nc68ea5638ff2) — ゲーム設計×仕事の設計論 by うきょう, 2026-01-11
+
+
 
 Note.com 게임 설계론 시리즈 (うきょう, 2026-01-11). 4년 개발에도 미완성된 4000만 엔 규모 프로젝트 실패 분석.
 

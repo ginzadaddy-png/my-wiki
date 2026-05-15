@@ -1,12 +1,19 @@
 ---
 title: "Capcom 개발 전략 — Integrated Report 2021"
 type: source-summary
+source_url: "https://www.capcom.co.jp/ir/english/data/oar/2021/devtop.html"
+source_author: ""
+source_published: 2022-04-13
 sources: ["raw/articles/2026-04-14T160324+0900-The Head of Development Discusses Strategy ONLINE INTEGRATED REPORT 2021.md"]
 related: ["[[capcom|캡콤]]", "[[RE ENGINE]]", "[[small-team-development|소규모 팀 개발]]", "[[proprietary-engine-strategy|독자 엔진 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]"]
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [capcom.co.jp](https://www.capcom.co.jp/ir/english/data/oar/2021/devtop.html) — 2022-04-13
+
+
 
 캡콤 2021 통합 보고서 중 개발 총괄 인터뷰. 개발 정책·전략·인재 육성에 대한 공식 입장.
 

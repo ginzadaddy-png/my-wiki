@@ -2,6 +2,16 @@
 title: "활동 로그"
 ---
 
+## [2026-05-15] backfill | source URL 일괄 백필 (예약 작업)
+- 트리거: 사용자가 2026-05-13에 예약한 일회성 backfill 작업
+- 매칭·backfill 완료: 88/106 wiki/sources/ 페이지
+  - frontmatter에 `source_url`·`source_author`·`source_published` 필드 추가/갱신
+  - 본문 첫 줄에 `**원문**: [도메인](URL) — 저자, YYYY-MM-DD` 형식 추가 또는 기존 출처 라인 통일
+  - `updated: 2026-05-15`로 갱신
+- 매칭 안 된 wiki/sources/ 페이지 (수동 보강 필요): 18개 — PDF·슬라이드·복합 출처
+- 매칭 안 된 raw/articles/ 파일 (미 ingest 후보): 5개 — 중복본 또는 신규 ingest 대상
+- 변경 파일은 my-wiki repo만, quartz repo 영향 없음
+
 ## [2026-05-13] feat | presentations 인프라 + quartz content submodule 동기화 보정
 - 신규: wiki/presentations/steam-marketing-strategy.md wrapper 페이지 (iframe 임베드 + 전체화면 버튼)
 - 신규: quartz/components/WikiNav.tsx에 "프레젠테이션" 분류 항목 추가 (별도 quartz repo, commit 034c257)

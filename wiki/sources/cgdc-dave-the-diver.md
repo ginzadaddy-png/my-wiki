@@ -1,12 +1,19 @@
 ---
 title: "[CGDC] 황재호 대표가 말하는 '생존을 위한 8계명'"
 type: source-summary
+source_url: "https://www.inven.co.kr/webzine/news/?news=311077"
+source_author: "정재훈"
+source_published: 2025-11-06
 sources: ["raw/articles/2026-04-13T123346+0900-CGDC 황재호 대표가 말하는 '생존을 위한 8계명'.md"]
 related: ["[[mint-rocket|민트로켓]]", "[[dave-the-diver|데이브 더 다이버]]", "[[marketing-strategy|마케팅 전략]]", "[[community-management|커뮤니티 운영]]"]
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=311077) — 정재훈, 2025-11-06
+
+
 
 [[mint-rocket|민트로켓]] 황재호 대표가 CGDC(2025-11-06)에서 스팀·콘솔 시장 생존 전략 8가지를 공개한 강연.
 

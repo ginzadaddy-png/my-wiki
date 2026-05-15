@@ -1,12 +1,19 @@
 ---
 title: "Animation Bootcamp: Script to Screen — The Development Diary of Marvel's Spider-Man (GDC 2019)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=r_rJJyIPrmM"
+source_author: "GDC Festival of Gaming"
+source_published: 2021-07-13
 sources: ["raw/articles/2026-04-15T122824+0900-Animation Bootcamp Script to Screen The Development Diary of Marvel's Spider-Man.md"]
 related: ["[[cinematic-production|시네마틱 제작]]", "[[insomniac-games|인소믹 게임즈]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=r_rJJyIPrmM) — GDC Festival of Gaming, 2021-07-13
+
+
 
 GDC 2019. Insomniac Games, Brian Wyser (리드 애니메이터). 마블 스파이더맨의 시네마틱 제작 파이프라인 전체 개발 일지.
 

@@ -1,12 +1,19 @@
 ---
 title: "Great Level Design is a Studio-Wide Effort (GDC 2021)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=UrdZhnA-PaI"
+source_author: "GDC Festival of Gaming"
+source_published: 2022-06-27
 sources: ["raw/articles/2026-04-15T115729+0900-Great Level Design is a Studio-Wide Effort.md"]
 related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=UrdZhnA-PaI) — GDC Festival of Gaming, 2022-06-27
+
+
 
 GDC 2021. Arkane Studios Lyon, Dana Nightingale. 훌륭한 레벨 디자인은 레벨 디자이너만의 작업이 아니라 스튜디오 전체 협업의 산물이라는 주장.
 

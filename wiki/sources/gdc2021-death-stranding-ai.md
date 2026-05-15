@@ -1,12 +1,19 @@
 ---
 title: "'Death Stranding': An AI Postmortem (GDC 2021)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=yqZE5O8VPAU"
+source_author: "GDC Festival of Gaming"
+source_published: 2021-10-25
 sources: ["raw/articles/2026-04-15T122811+0900-'Death Stranding' An AI Postmortem.md"]
 related: ["[[ai-navigation|AI 내비게이션]]", "[[kojima-productions|코지마 프로덕션]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=yqZE5O8VPAU) — GDC Festival of Gaming, 2021-10-25
+
+
 
 GDC 2021 AI Summit. Kojima Productions, Eric Johnson (AI 프로그래머). 데스 스트랜딩의 복잡한 자연 지형 위 AI 내비게이션 기술 포스트모템.
 

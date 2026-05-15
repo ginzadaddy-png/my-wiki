@@ -1,12 +1,19 @@
 ---
 title: "Designing Radically Non-Linear Single Player Levels (GDC 2019)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=CTBor4rhnQs"
+source_author: "GDC Festival of Gaming"
+source_published: 2021-07-15
 sources: ["raw/articles/2026-04-15T122817+0900-Designing Radically Non-Linear Single Player Levels.md"]
 related: ["[[level-design-principles|레벨 디자인 원칙]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=CTBor4rhnQs) — GDC Festival of Gaming, 2021-07-15
+
+
 
 GDC 2019 레벨 디자인 워크샵. 12 East Games, Aubrey Serr. "급진적 비선형" 레벨 설계 방법론.
 

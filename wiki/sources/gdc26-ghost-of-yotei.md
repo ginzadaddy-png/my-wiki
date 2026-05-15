@@ -1,12 +1,19 @@
 ---
 title: "[GDC26] '덜어냄'으로써 완성되는 미학 — 고스트 오브 요테이"
 type: source-summary
+source_url: "https://www.inven.co.kr/webzine/news/?news=314263"
+source_author: "김규만"
+source_published: 2026-03-11
 sources: ["raw/articles/2026-04-13T123338+0900-GDC26 '덜어냄'으로써 완성되는 미학 - 고스트 오브 요테이.md"]
 related: ["[[sucker-punch-productions|서커펀치 프로덕션]]", "[[ghost-of-yotei|고스트 오브 요테이]]", "[[vision-statement|비전 선언문]]", "[[playtesting|플레이테스팅]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=314263) — 김규만, 2026-03-11
+
+
 
 [[sucker-punch-productions|서커펀치 프로덕션]] 네이트 폭스 + 제이슨 코넬이 GDC 2026에서 고스트 오브 요테이의 개발 철학을 공개한 강연.
 

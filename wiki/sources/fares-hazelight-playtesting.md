@@ -1,12 +1,19 @@
 ---
 title: "요세프 파레스 — 잇 테이크스 투 인터뷰 (TheSixthAxis 2021)"
 type: source-summary
+source_url: "https://www.thesixthaxis.com/2021/03/02/interview-josef-fares-on-it-takes-two-relationship-advice-co-operation-favourite-swear-words/"
+source_author: "Stefan L (TheSixthAxis)"
+source_published: 2021-03-02
 sources: []
 related: ["[[hazelight-studios|하즐라이트]]", "[[playtesting|플레이테스팅]]", "[[companion-design|동반자 설계]]"]
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [thesixthaxis.com](https://www.thesixthaxis.com/2021/03/02/interview-josef-fares-on-it-takes-two-relationship-advice-co-operation-favourite-swear-words/) — Stefan L (TheSixthAxis), 2021-03-02
+
+
 
 TheSixthAxis 인터뷰 (Stefan L, 2021-03-02). 잇 테이크스 투 출시 직전 파레스가 코옵 전용 게임의 디자인·테스트 철학을 직접 설명. Game Maker's Notebook 팟캐스트 에피소드는 오디오 전용이라 본 인터뷰가 동등한 텍스트 소스.
 

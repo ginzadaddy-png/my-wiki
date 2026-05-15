@@ -1,12 +1,19 @@
 ---
 title: "젤다는 재미있고 유비식 오픈월드는 재미없는 이유 (루돌로지)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=goU6YfKWEIc"
+source_author: "이준호의 루돌로지"
+source_published: 2023-04-06
 sources: ["raw/articles/2026-04-15T121254+0900-젤다는 재미있고 유비식 오픈월드는 재미없는 이유.md"]
 related: ["[[open-world-design|오픈월드 설계]]", "[[emergent-systems-design|창발적 시스템 설계]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=goU6YfKWEIc) — 이준호의 루돌로지, 2023-04-06
+
+
 
 유튜브 에세이. 이준호의 루돌로지 (2023). 자기결정성 이론으로 오픈월드 재미의 차이를 분석.
 

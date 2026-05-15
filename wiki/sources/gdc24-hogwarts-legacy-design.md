@@ -1,12 +1,19 @@
 ---
 title: "GDC24: 팬과 게이머 모두 만족시킨 호그와트 레거시"
 type: source-summary
+source_url: "https://www.inven.co.kr/webzine/news/?news=294274"
+source_author: "강승진"
+source_published: 2024-03-24
 sources: ["GDC24 팬과 게이머, 모두 만족시킨 '호그와트 레거시'의 마법"]
 related: ["[[hogwarts-legacy|호그와트 레거시]]", "[[avalanche-software|아발란체 소프트웨어]]", "[[playtesting|플레이테스팅]]", "[[player-guidance-design|플레이어 유도 설계]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=294274) — 강승진, 2024-03-24
+
+
 
 GDC 2024, 아발란체 소프트웨어(Avalanche Software) 켈리 머피 리드 게임 디자이너 강연. 출처: Inven
 

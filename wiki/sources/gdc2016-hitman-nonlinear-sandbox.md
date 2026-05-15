@@ -1,12 +1,19 @@
 ---
 title: "Level Design in Hitman: Guiding Players in a Non-Linear Sandbox (GDC Europe 2016)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=hc8_W2PERZE"
+source_author: "GDC Festival of Gaming"
+source_published: 2019-02-21
 sources: ["raw/articles/2026-04-15T122853+0900-Level Design in Hitman Guiding Players in a Non-Linear Sandbox.md"]
 related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[IO 인터랙티브]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=hc8_W2PERZE) — GDC Festival of Gaming, 2019-02-21
+
+
 
 GDC Europe 2016. IO Interactive, Mette Poedenphant Andersen & Jacob Mikkelsen. 히트맨(2016)에서 오픈 샌드박스를 플레이어가 탐색하도록 유도하는 방법.
 

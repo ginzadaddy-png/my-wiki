@@ -1,12 +1,19 @@
 ---
 title: "GDC24: CDPR이 알려주는 역대급 확장팩 만드는 비결"
 type: source-summary
+source_url: "https://www.inven.co.kr/webzine/news/?news=294268"
+source_author: "김규만"
+source_published: 2024-03-24
 sources: ["GDC24 CDPR이 알려주는 '역대급' 확장팩 만드는 비결"]
 related: ["[[cd-projekt-red|CD Projekt Red]]", "[[witcher-3|위쳐 3]]", "[[cyberpunk-2077|사이버펑크 2077]]", "[[dlc-expansion-design|DLC·확장팩 설계]]", "[[quest-narrative-design|퀘스트 내러티브 설계]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=294268) — 김규만, 2024-03-24
+
+
 
 GDC 2024, CDPR 파벨 사스코 어소시에이트 게임 디렉터 강연. 위쳐3 확장팩, 팬텀 리버티 퀘스트 디렉터. 출처: Inven
 

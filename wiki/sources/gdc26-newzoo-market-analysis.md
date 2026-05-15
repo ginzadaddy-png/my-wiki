@@ -1,12 +1,19 @@
 ---
 title: "GDC26 뉴주: 무료 게임 정체와 프리미엄의 약진"
 type: source-summary
+source_url: "https://www.inven.co.kr/webzine/news/?news=314221&page=2"
+source_author: "이두현"
+source_published: 2026-03-10
 sources: ["GDC26 무료 게임 정체와 프리미엄의 약진 뉴주가 주목한 변화들"]
 related: ["[[game-market-trends|게임 시장 트렌드]]", "[[marketing-strategy|마케팅 전략]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=314221&page=2) — 이두현, 2026-03-10
+
+
 
 GDC 2026, 뉴주(Newzoo) 벤 포터 컨설팅 디렉터 강연. 출처: Inven
 

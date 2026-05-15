@@ -1,12 +1,19 @@
 ---
 title: "The World Design of Dark Souls | Boss Keys (GMTK)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=QhWdBhc3Wjc"
+source_author: "Game Maker's Toolkit"
+source_published: 2018-04-26
 sources: ["raw/articles/2026-04-15T122219+0900-The World Design of Dark Souls  Boss Keys.md"]
 related: ["[[open-world-design|오픈월드 설계]]", "[[fromsoftware|프롬소프트웨어]]", "[[emergent-systems-design|창발적 시스템 설계]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=QhWdBhc3Wjc) — Game Maker's Toolkit, 2018-04-26
+
+
 
 Game Maker's Toolkit, Mark Brown (2018). 다크소울 로드란을 5막 아코디언 구조로 분석.
 

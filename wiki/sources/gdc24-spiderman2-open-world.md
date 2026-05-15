@@ -1,12 +1,19 @@
 ---
 title: "GDC24: 마블 스파이더맨2의 오픈 월드는 어떻게 또 진화했나"
 type: source-summary
+source_url: "https://www.inven.co.kr/webzine/news/?news=294273"
+source_author: "강승진"
+source_published: 2024-03-23
 sources: ["GDC24 마블 스파이더맨의 오픈 월드는 어떻게 '또' 진화했나"]
 related: ["[[insomniac-games|인섬니악 게임즈]]", "[[open-world-design|오픈 월드 설계]]", "[[player-guidance-design|플레이어 유도 설계]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=294273) — 강승진, 2024-03-23
+
+
 
 GDC 2024, 인섬니악 게임즈 조슈 베나비데즈 게임 디자인 디렉터 강연. 마블 스파이더맨2 (2023). 출처: Inven
 

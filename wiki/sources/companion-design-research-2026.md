@@ -1,12 +1,19 @@
 ---
 title: "RPG 동반자 설계 철학 비교 — 웹 리서치 종합"
 type: source-summary
+source_url: ""
+source_author: ""
+source_published: ""
 sources: ["gamedeveloper.com", "gamesradar.com", "gameinformer.com"]
 related: ["[[companion-philosophy|동반자 설계 철학 비교]]", "[[companion-design|동반자 설계]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]"]
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: Web research (2026-04-23)
+
+
 
 BioWare, Larian, CD Projekt Red, Obsidian, Naughty Dog의 RPG 동반자 설계 철학 비교 리서치. GDC26 Obsidian 강연(기존 위키 수록)의 보완 자료.
 

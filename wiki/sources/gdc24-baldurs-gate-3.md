@@ -1,12 +1,19 @@
 ---
 title: "[GDC24] 발더스 게이트3, 시작부터 출시까지"
 type: source-summary
+source_url: "https://www.inven.co.kr/webzine/news/?news=294272"
+source_author: "강승진"
+source_published: 2024-03-23
 sources: ["raw/articles/2026-04-13T114810+0900-GDC24 스벤 빈케가 말아주는 '발더스 게이트3', 시작부터 출시까지.md"]
 related: ["[[larian-studios|라리안 스튜디오]]", "[[baldurs-gate-3|발더스 게이트3]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[cinematic-pipeline|시네마틱 파이프라인]]"]
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=294272) — 강승진, 2024-03-23
+
+
 
 [[larian-studios|라리안 스튜디오]] 스벤 빈케 대표가 GDC 2024에서 [[baldurs-gate-3|발더스 게이트3]]의 6년 개발 과정을 공개한 강연.
 

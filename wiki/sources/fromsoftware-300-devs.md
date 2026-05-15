@@ -1,12 +1,19 @@
 ---
 title: "FromSoftware, 직원 300명으로 엘든링+AC6 동시 제작"
 type: source-summary
+source_url: "https://www.pcgamer.com/fromsoftware-made-elden-ring-and-armored-core-6-with-a-staff-of-just-300-developers/"
+source_author: "Wes Fenlon"
+source_published: 2023-07-26
 sources: ["raw/articles/2026-04-14T160349+0900-FromSoftware made Elden Ring and Armored Core 6 with a staff of just 300 developers.md"]
 related: ["[[fromsoftware|프롬소프트웨어]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [pcgamer.com](https://www.pcgamer.com/fromsoftware-made-elden-ring-and-armored-core-6-with-a-staff-of-just-300-developers/) — Wes Fenlon, 2023-07-26
+
+
 
 PC Gamer 2023년 기사. AC6 감독·프로듀서와의 인터뷰. 스튜디오 규모 및 팀 운용 방식 공개.
 

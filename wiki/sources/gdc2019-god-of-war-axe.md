@@ -1,12 +1,19 @@
 ---
 title: "Taking an Axe to God of War Gameplay (GDC 2019)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=kX8Jn3XPoWQ"
+source_author: "GDC Festival of Gaming"
+source_published: 2021-04-27
 sources: ["raw/articles/2026-04-15T122834+0900-Taking an Axe to God of War Gameplay.md"]
 related: ["[[combat-design|전투 디자인]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=kX8Jn3XPoWQ) — GDC Festival of Gaming, 2021-04-27
+
+
 
 GDC 2019. Sony Santa Monica Studio, Jason McDonald (게임플레이 디자인 리드). 리바이어던 도끼 — GoW 2018의 핵심 무기 설계 과정.
 

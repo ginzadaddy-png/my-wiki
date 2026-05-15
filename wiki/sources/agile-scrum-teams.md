@@ -1,12 +1,19 @@
 ---
 title: "Agile Game Development With Scrum: Teams (2010)"
 type: source-summary
+source_url: "https://www.gamedeveloper.com/production/agile-game-development-with-scrum-teams"
+source_author: "Clinton Keith"
+source_published: 2010-08-26
 sources: ["raw/articles/2026-04-14T160339+0900-Agile Game Development With Scrum Teams.md"]
 related: ["[[agile-scrum-teams|애자일·스크럼]]", "[[small-team-development|소규모 팀 개발]]", "[[rapid-prototyping|빠른 프로토타이핑]]"]
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-15
 confidence: medium
 ---
+
+**원문**: [gamedeveloper.com](https://www.gamedeveloper.com/production/agile-game-development-with-scrum-teams) — Clinton Keith, 2010-08-26
+
+
 
 Clinton Keith의 저서 『Agile Game Development with Scrum』 발췌. 게임 개발에서의 팀 구성과 스크럼 적용법.
 

@@ -1,17 +1,20 @@
 ---
 title: "Steam 스토어 페이지 최적화 가이드 (2026)"
 type: source-summary
+source_url: "https://presskit.gg/field-guides/steam-page-optimization-guide"
+source_author: ""
+source_published: 2026
 sources: []
 related: ["[[marketing-strategy|마케팅 전략]]"]
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-15
 confidence: high
 ---
 
 # Steam 스토어 페이지 최적화 가이드 (2026)
 
-**출처**: https://presskit.gg/field-guides/steam-page-optimization-guide
-**날짜**: 2026
+**원문**: [presskit.gg](https://presskit.gg/field-guides/steam-page-optimization-guide) — 2026
+
 
 ## 핵심 요약
 

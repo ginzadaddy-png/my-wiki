@@ -1,12 +1,19 @@
 ---
 title: "[GDC26] 33원정대, 단 4명뿐이던 프로그래머의 역할"
 type: source-summary
+source_url: "https://www.inven.co.kr/webzine/news/?news=314219"
+source_author: "김규만"
+source_published: 2026-03-10
 sources: ["raw/articles/2026-04-13T114815+0900-GDC26 33 원정대, 단 4명 뿐이던 프로그래머의 역할은.md"]
 related: ["[[sandfall-interactive|샌드폴 인터랙티브]]", "[[clair-obscur-expedition-33|클레르 옵스퀴르: 33원정대]]", "[[designer-empowerment|디자이너 도구화]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=314219) — 김규만, 2026-03-10
+
+
 
 GDC 2026에서 [[sandfall-interactive|샌드폴 인터랙티브]] Tom Guillermin(공동창업자)과 Florian Torres(시니어 프로그래머)가 공개한 4인 프로그래머 팀의 개발 방식.
 

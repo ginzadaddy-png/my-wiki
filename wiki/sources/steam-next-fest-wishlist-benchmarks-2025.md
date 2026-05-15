@@ -1,18 +1,20 @@
 ---
 title: "Steam Next Fest 위시리스트 벤치마크 (2025)"
 type: source-summary
+source_url: "https://howtomarketagame.com/2025/03/26/benchmarks-how-many-wishlists-can-i-get-from-steam-next-fest/"
+source_author: ""
+source_published: 2025-03
 sources: []
 related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]"]
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-15
 confidence: high
 ---
 
 # Steam Next Fest 위시리스트 벤치마크
 
-**출처**: https://howtomarketagame.com/2025/03/26/benchmarks-how-many-wishlists-can-i-get-from-steam-next-fest/
-**저자**: How To Market A Game (Chris Zukowski)
-**날짜**: 2025-03
+**원문**: [howtomarketagame.com](https://howtomarketagame.com/2025/03/26/benchmarks-how-many-wishlists-can-i-get-from-steam-next-fest/) — 2025-03
+
 
 ## 핵심 요약
 

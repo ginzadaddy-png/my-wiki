@@ -1,12 +1,19 @@
 ---
 title: "The World Design of Elden Ring (GMTK)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=LvnlvB9n6ic"
+source_author: "Game Maker's Toolkit"
+source_published: 2022-11-11
 sources: ["raw/articles/2026-04-15T122027+0900-The World Design of Elden Ring.md"]
 related: ["[[open-world-design|오픈월드 설계]]", "[[fromsoftware|프롬소프트웨어]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=LvnlvB9n6ic) — Game Maker's Toolkit, 2022-11-11
+
+
 
 Game Maker's Toolkit, Mark Brown (2022). 엘든링의 세계 구조를 레거시 던전 + 오픈 필드 조합으로 분석.
 

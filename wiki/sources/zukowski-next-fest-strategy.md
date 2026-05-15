@@ -1,12 +1,19 @@
 ---
 title: "크리스 즈코프스키 — Steam Next Fest 2026-02 분석 (How to Market a Game)"
 type: source-summary
+source_url: "https://howtomarketagame.com/2026/04/13/making-sense-of-the-february-2026-steam-next-fest/"
+source_author: "Chris Zukowski (How To Market A Game)"
+source_published: 2026-04-13
 sources: []
 related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[playtesting|플레이테스팅]]", "[[indie-business-strategy|인디 비즈니스 전략]]"]
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [howtomarketagame.com](https://howtomarketagame.com/2026/04/13/making-sense-of-the-february-2026-steam-next-fest/) — Chris Zukowski (How To Market A Game), 2026-04-13
+
+
 
 How to Market a Game 블로그 (Chris Zukowski, 2026-04-13). 4번의 Next Fest(2024-06 → 2026-02) 데이터 종합 분석. Crashlands 2 vs How Many Dudes? 비교, Tomas Sala "검증용 데모" 예외 사례 등.
 

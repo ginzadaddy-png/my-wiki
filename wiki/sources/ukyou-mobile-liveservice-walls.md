@@ -1,12 +1,19 @@
 ---
 title: "운영형 모바일 게임 개발의 '벽'을 넘는 사고법 (うきょう)"
 type: source-summary
+source_url: "https://note.com/ukyousan/n/nae83082b2c08"
+source_author: "ゲーム設計×仕事の設計論 by うきょう"
+source_published: 2025-11-30
 sources: []
 related: ["[[live-service-design|라이브 서비스 설계]]", "[[studio-culture|스튜디오 문화]]", "[[data-driven-development|데이터 기반 개발]]"]
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [note.com](https://note.com/ukyousan/n/nae83082b2c08) — ゲーム設計×仕事の設計論 by うきょう, 2025-11-30
+
+
 
 Note.com 게임 설계론 시리즈 (うきょう, 2025-11-30). 모바일 게임 개발 현장의 4대 구조적 벽과 대응책.
 

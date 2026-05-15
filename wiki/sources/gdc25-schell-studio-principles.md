@@ -1,12 +1,19 @@
 ---
 title: "GDC25: 게임 스튜디오를 위한 원칙 (제시 셸)"
 type: source-summary
+source_url: "https://www.inven.co.kr/webzine/news/?news=304241"
+source_author: "이두현"
+source_published: 2025-03-22
 sources: ["GDC25 게임 스튜디오를 위한 '원칙'"]
 related: ["[[studio-culture|스튜디오 문화]]", "[[vision-statement|비전 선언문]]", "[[dev-org-structure|개발 조직 구조]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=304241) — 이두현, 2025-03-22
+
+
 
 GDC 2025, 셸 게임즈(Schell Games) CEO 제시 셸 강연. 22년 무해고 경영, 160명, 100개 게임. 출처: Inven
 

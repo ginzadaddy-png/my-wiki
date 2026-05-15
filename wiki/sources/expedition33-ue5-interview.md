@@ -1,12 +1,19 @@
 ---
 title: "Clair Obscur: Expedition 33 개발 과정 — 언리얼 공식 인터뷰"
 type: source-summary
+source_url: "https://www.unrealengine.com/developer-interviews/inside-the-development-journey-of-clair-obscur-expedition-33?lang=ko"
+source_author: ""
+source_published: 2025-03-27
 sources: ["raw/articles/2026-04-13T114818+0900-'Clair Obscur Expedition 33' 개발 과정 들여다보기.md"]
 related: ["[[sandfall-interactive|샌드폴 인터랙티브]]", "[[clair-obscur-expedition-33|클레르 옵스퀴르: 33원정대]]", "[[unreal-engine-5|언리얼 엔진 5]]", "[[designer-empowerment|디자이너 도구화]]"]
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [unrealengine.com](https://www.unrealengine.com/developer-interviews/inside-the-development-journey-of-clair-obscur-expedition-33?lang=ko) — 2025-03-27
+
+
 
 언리얼 엔진 공식 인터뷰 (2025-03-27). Tom Guillermin이 UE5 기술 활용 방식을 상세히 공개.
 

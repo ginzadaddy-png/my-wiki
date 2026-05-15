@@ -1,12 +1,19 @@
 ---
 title: "Level Design Workshop: Architecture in Level Design (GDC 2016)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=XW7KvppTspc"
+source_author: "GDC Festival of Gaming"
+source_published: 2017-11-16
 sources: ["raw/articles/2026-04-15T122849+0900-Level Design Workshop Architecture in Level Design.md"]
 related: ["[[level-design-principles|레벨 디자인 원칙]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=XW7KvppTspc) — GDC Festival of Gaming, 2017-11-16
+
+
 
 GDC 2016. Claire Hosking (건축학 석사). 실제 건축 설계 원리를 게임 레벨 디자인에 적용하는 방법.
 

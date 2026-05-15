@@ -1,12 +1,19 @@
 ---
 title: "No-Budget DIY Marketing for Indie Games (GDC 2023)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=NWyZlGMysH8"
+source_author: "GDC Festival of Gaming"
+source_published: 2023-05-10
 sources: ["raw/articles/2026-04-15T122746+0900-No-Budget DIY Marketing for Indie Games.md"]
 related: ["[[indie-business-strategy|인디 비즈니스 전략]]", "[[marketing-strategy|마케팅 전략]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=NWyZlGMysH8) — GDC Festival of Gaming, 2023-05-10
+
+
 
 GDC 2023 Independent Games Summit. Michelle Lega (Armor Games Studios 시니어 프로듀서). 예산 0원 인디 게임 마케팅 프레임워크.
 

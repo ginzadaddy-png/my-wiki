@@ -1,12 +1,19 @@
 ---
 title: "전설적인 검투 게임 만들기 (Adam Millard)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=yaDGnxqcGS0"
+source_author: "Adam Millard - The Architect of Games"
+source_published: 2021-03-17
 sources: ["How To Create A Legendary Sword Fighting Game"]
 related: ["[[combat-design|전투 디자인]]", "[[game-balance|게임 밸런싱]]", "[[sekiro|세키로]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=yaDGnxqcGS0) — Adam Millard - The Architect of Games, 2021-03-17
+
+
 
 Adam Millard - The Architect of Games (2021-03-17). 검투 게임 설계 분석. Sekiro·Ghostrunner·Nidhogg·Furi 사례.
 

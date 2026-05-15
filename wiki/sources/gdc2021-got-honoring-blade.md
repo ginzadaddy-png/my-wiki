@@ -1,12 +1,19 @@
 ---
 title: "Honoring the Blade: Lethality and Combat Balance in 'Ghost of Tsushima' (GDC 2021)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=dKS2kaI3aXE&t=1s"
+source_author: "GDC Festival of Gaming"
+source_published: 2021-11-12
 sources: ["raw/articles/2026-04-15T122759+0900-Honoring the Blade Lethality and Combat Balance in 'Ghost of Tsushima'.md"]
 related: ["[[combat-design|전투 디자인]]", "[[sucker-punch-productions|서커펀치 프로덕션]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=dKS2kaI3aXE&t=1s) — GDC Festival of Gaming, 2021-11-12
+
+
 
 GDC 2021. Sucker Punch Productions, Theodore Fishman (리드 컴뱃 디자이너). 사무라이 판타지(즉사감)를 30시간 오픈월드에서 유지하는 전투 밸런싱.
 

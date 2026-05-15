@@ -1,12 +1,19 @@
 ---
 title: "[GDC25] 아스트로봇의 성공, 마법은 없었다"
 type: source-summary
+source_url: "https://www.inven.co.kr/webzine/news/?news=304243&sw=gdc&site=webzine"
+source_author: ""
+source_published: 2025-03-22
 sources: ["raw/articles/2026-04-13T114733+0900-GDC25 아스트로봇의 성공, 마법은 없었다.md"]
 related: ["[[team-asobi|팀 아소비]]", "[[astro-bot|아스트로봇]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=304243&sw=gdc&site=webzine) — 2025-03-22
+
+
 
 [[team-asobi|팀 아소비]] 니콜라스 두셋이 GDC 2025에서 공개한 아스트로봇 개발 10가지 원칙.
 

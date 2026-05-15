@@ -1,12 +1,19 @@
 ---
 title: "운영형 모바일 게임이 살아남기 어려운 구조적 이유와 돌파구 (うきょう)"
 type: source-summary
+source_url: "https://note.com/ukyousan/n/n68014445fb7f?sub_rt=share_pw"
+source_author: "ゲーム設計×仕事の設計論 by うきょう"
+source_published: 2025-11-22
 sources: []
 related: ["[[live-service-design|라이브 서비스 설계]]", "[[game-market-trends|게임 시장 트렌드]]"]
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [note.com](https://note.com/ukyousan/n/n68014445fb7f?sub_rt=share_pw) — ゲーム設計×仕事の設計論 by うきょう, 2025-11-22
+
+
 
 Note.com 게임 설계론 시리즈 (うきょう, 2025-11-22). 20년 모바일 운영 경험 기반 구조 분석.
 

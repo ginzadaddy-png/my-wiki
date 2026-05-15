@@ -1,12 +1,19 @@
 ---
 title: "2025년 이후의 게임 가격 책정 방법 (IndieBI × Unity)"
 type: source-summary
+source_url: "https://unity.com/kr/blog/how-to-price-your-game"
+source_author: "Tom Kaczmarczyk"
+source_published: 2025-09-05
 sources: []
 related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]"]
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [unity.com](https://unity.com/kr/blog/how-to-price-your-game) — Tom Kaczmarczyk, 2025-09-05
+
+
 
 IndieBI & Unity 협력 보고서. 스팀 출시 전후 가격 전략 실전 가이드.
 

@@ -1,12 +1,19 @@
 ---
 title: "Indie Starter Kit: The Basics of Founding a Successful Games Company (GDC 2023)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=zFkZ0vxB51Y"
+source_author: "GDC Festival of Gaming"
+source_published: 2023-11-04
 sources: ["raw/articles/2026-04-15T122739+0900-Indie Starter Kit The Basics of Founding a Successful Games Company.md"]
 related: ["[[indie-business-strategy|인디 비즈니스 전략]]", "[[vision-statement|비전 선언문]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=zFkZ0vxB51Y) — GDC Festival of Gaming, 2023-11-04
+
+
 
 GDC 2023. Dino (Playdead 공동창업자, Jump Ship, Coherence). 게임 회사 창업의 5가지 핵심.
 

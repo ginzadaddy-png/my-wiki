@@ -1,12 +1,19 @@
 ---
 title: "소울라이크 게임 디자인 분석 — 프롬소프트웨어 중심 종합 리서치"
 type: source-summary
+source_url: ""
+source_author: ""
+source_published: ""
 sources: ["raw/soulslike-game-design-research-2026.md"]
 related: ["[[fromsoftware|프롬소프트웨어]]", "[[dark-souls|다크소울]]", "[[elden-ring|엘든링]]", "[[soulslike|소울라이크]]", "[[environmental-storytelling|환경 스토리텔링]]", "[[level-design-principles|레벨 디자인 원칙]]", "[[combat-design|전투 디자인]]"]
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: 웹 리서치 종합 (2026-04)
+
+
 
 웹 리서치 종합 (2026-04). Miyazaki 인터뷰·Game Developer·Gameopedia·학술 분석 기반. 프롬소프트웨어 게임의 난이도 철학·전투 시스템·레벨 디자인·스토리텔링 방식 분석.
 

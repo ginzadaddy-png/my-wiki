@@ -1,12 +1,19 @@
 ---
 title: "Master of the Katana: Melee Combat in 'Ghost of Tsushima' (GDC 2021)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=1ih5BxnJu2I&t=2s"
+source_author: "GDC Festival of Gaming"
+source_published: 2022-03-02
 sources: ["raw/articles/2026-04-15T122753+0900-Master of the Katana Melee Combat in 'Ghost of Tsushima'.md"]
 related: ["[[combat-design|전투 디자인]]", "[[sucker-punch-productions|서커펀치 프로덕션]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: medium
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=1ih5BxnJu2I&t=2s) — GDC Festival of Gaming, 2022-03-02
+
+
 
 GDC 2021. Sucker Punch Productions, Chris Zimmerman (기술/시스템). GoT 근접 전투 시스템 구축 과정에서 발견한 설계·기술·인간 능력의 예상치 못한 인사이트.
 

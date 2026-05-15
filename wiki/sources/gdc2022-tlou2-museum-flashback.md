@@ -1,12 +1,19 @@
 ---
 title: "Designing the Museum Flashback: The Last of Us Part II (GDC 2022)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=4vQ_HGUtZmk"
+source_author: "GDC Festival of Gaming"
+source_published: 2023-02-22
 sources: ["raw/articles/2026-04-15T115748+0900-Designing the Museum Flashback 'The Last of Us Part II'.md"]
 related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[naughty-dog|너티독]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=4vQ_HGUtZmk) — GDC Festival of Gaming, 2023-02-22
+
+
 
 GDC 2022 레벨 디자인 서밋. Naughty Dog, Evan Hill. 라오어2 "뮤지엄 플래시백" 레벨의 감성적 서사와 공간 구조 통합 방법론.
 

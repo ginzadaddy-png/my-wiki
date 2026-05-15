@@ -1,12 +1,19 @@
 ---
 title: "Level Design Workshop: A Narrative Approach to Level Design (GDC 2017)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=FhKjv7CPUqw"
+source_author: "GDC Festival of Gaming"
+source_published: 2017-06-07
 sources: ["raw/articles/2026-04-15T122842+0900-Level Design Workshop A Narrative Approach to Level Design.md"]
 related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=FhKjv7CPUqw) — GDC Festival of Gaming, 2017-06-07
+
+
 
 GDC 2017. Ubisoft, Jolie Menzel (Telltale → Ubisoft/South Park). 스토리를 레벨 디자인의 핵심 비전으로 활용하는 방법론.
 

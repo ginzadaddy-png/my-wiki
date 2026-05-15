@@ -1,14 +1,18 @@
 ---
 title: "매튜 볼 2026년 게임 산업 보고서 — 최고치인데 왜 힘든가"
 type: source-summary
+source_url: "https://www.gameres.com/916769.html"
+source_author: ""
+source_published: ""
 sources: []
 related: ["[[game-market-trends|게임 시장 트렌드]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]"]
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-05-15
 confidence: high
 ---
 
-출처: Matthew Ball × Christopher Dring 인터뷰, The Game Business (2026-03)
+**원문**: [gameres.com](https://www.gameres.com/916769.html)
+
 
 ## 핵심 요약
 

@@ -1,12 +1,19 @@
 ---
 title: "좋은 전투 시스템의 조건 (GMTK)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=8X4fx-YncqA"
+source_author: "Game Maker's Toolkit"
+source_published: 2018-05-27
 sources: ["What Makes a Good Combat System?"]
 related: ["[[combat-design|전투 디자인]]", "[[mda-framework|MDA 프레임워크]]", "[[game-balance|게임 밸런싱]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=8X4fx-YncqA) — Game Maker's Toolkit, 2018-05-27
+
+
 
 Mark Brown / Game Maker's Toolkit (2018-05-27). 근접 전투 시스템 설계 분석.
 

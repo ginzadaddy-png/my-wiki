@@ -1,12 +1,19 @@
 ---
 title: "스벤 빈케 — 발더스 게이트3 얼리 액세스 회고 (GDC 2024 + 공개 발언 종합)"
 type: source-summary
+source_url: "https://www.gamedeveloper.com/business/larian-is-moving-on-from-baldur-s-gate-3-no-sequel-or-expansion-in-development"
+source_author: "Justin Carter (Game Developer)"
+source_published: 2024-03-22
 sources: []
 related: ["[[larian-studios|라리안 스튜디오]]", "[[playtesting|플레이테스팅]]", "[[early-access-strategy|얼리 액세스 전략]]"]
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-15
 confidence: medium
 ---
+
+**원문**: [gamedeveloper.com](https://www.gamedeveloper.com/business/larian-is-moving-on-from-baldur-s-gate-3-no-sequel-or-expansion-in-development) — Justin Carter (Game Developer), 2024-03-22
+
+
 
 Game Developer의 GDC 2024 패널 리캡 (Justin Carter, 2024-03-22) + 빈케의 공개 X 발언 (2025-03) 종합. [[baldurs-gate-3|발더스 게이트3]] EA 전략의 핵심 포인트를 외부 매체로 추적한 자료. 원 GDC 강연 영상은 GDC Vault 한정 (텍스트 트랜스크립트 미공개).
 

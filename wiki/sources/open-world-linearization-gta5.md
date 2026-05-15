@@ -1,12 +1,19 @@
 ---
 title: "【보고서】 오픈월드를 선형화하는 법 — GTA5 (얼음병정)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=zUwHAj8cKbw"
+source_author: "얼음병정"
+source_published: 2022-03-21
 sources: ["raw/articles/2026-04-15T121241+0900-【보고서】 오픈월드를 선형화하는 법 - 『Grand Theft Auto 5』.md"]
 related: ["[[open-world-design|오픈월드 설계]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=zUwHAj8cKbw) — 얼음병정, 2022-03-21
+
+
 
 유튜브 에세이. 얼음병정 (2022). GTA5가 오픈월드 구조 안에서 미션 중 선형적 경험 품질을 확보하는 방법 분석.
 

@@ -1,12 +1,19 @@
 ---
 title: "레드 데드 리뎀션 2의 스토리 뒷이야기"
 type: source-summary
+source_url: ""
+source_author: ""
+source_published: ""
 sources: ["The Story Behind the Story of 'Red Dead Redemption 2'"]
 related: ["[[quest-narrative-design|퀘스트·내러티브 설계]]", "[[environmental-storytelling|환경 스토리텔링]]", "[[open-world-design|오픈월드 설계]]", "[[rockstar-games|록스타 게임즈]]", "[[red-dead-redemption-2|레드 데드 리뎀션 2]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: N/A
+
+
 
 Brian Crecente / Variety. RDR2 출시 직전 프로듀서 Rob Nelson, 시니어 크리에이티브 라이터 Michael Unsworth 인터뷰.
 

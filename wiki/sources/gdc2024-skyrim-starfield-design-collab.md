@@ -1,12 +1,19 @@
 ---
 title: "Level and Quest Design Collaboration from Skyrim to Starfield (GDC 2024)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=oLjVwfUABvw&t=3276s"
+source_author: "GDC Festival of Gaming"
+source_published: 2024-07-20
 sources: ["raw/articles/2026-04-15T122709+0900-Level and Quest Design Collaboration from 'Skyrim' to 'Starfield'.md"]
 related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]", "[[open-world-design|오픈월드 설계]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=oLjVwfUABvw&t=3276s) — GDC Festival of Gaming, 2024-07-20
+
+
 
 GDC 2024 레벨 디자인 서밋. Bethesda Game Studios. 오픈월드·RPG에서 레벨 디자인↔퀘스트 디자인 팀 협업의 발전.
 

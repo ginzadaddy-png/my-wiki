@@ -1,12 +1,19 @@
 ---
 title: "[GDC26] 관객들이 찾는 게임에는 '반짝임'이 있다"
 type: source-summary
+source_url: "https://www.inven.co.kr/webzine/news/?news=314264"
+source_author: "김규만"
+source_published: 2026-03-11
 sources: ["raw/articles/2026-04-13T123342+0900-GDC26 관객들이 찾는 게임에는 '반짝임'이 있다.md"]
 related: ["[[sucker-punch-productions|서커펀치 프로덕션]]", "[[vision-statement|비전 선언문]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[playtesting|플레이테스팅]]"]
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=314264) — 김규만, 2026-03-11
+
+
 
 [[sucker-punch-productions|서커펀치 프로덕션]] 공동창립자 크리스 짐머만이 GDC 2026에서 30년 개발 철학을 정리한 강연.
 

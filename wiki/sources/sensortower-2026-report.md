@@ -1,14 +1,18 @@
 ---
 title: "Sensor Tower 2026 게임 산업 현황 보고서"
 type: source-summary
+source_url: "http://www.gamelook.com.cn/2026/03/588374/"
+source_author: ""
+source_published: ""
 sources: []
 related: ["[[game-market-trends|게임 시장 트렌드]]", "[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]"]
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-05-15
 confidence: high
 ---
 
-출처: Sensor Tower "2026 State of Gaming" 보고서 (GameLook 번역, 2026-03)
+**원문**: [gamelook.com.cn](http://www.gamelook.com.cn/2026/03/588374/)
+
 
 ## 핵심 요약
 

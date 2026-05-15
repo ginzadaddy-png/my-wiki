@@ -1,12 +1,19 @@
 ---
 title: "Dark Souls: how the world hides its lore (Hawkshaw)"
 type: source-summary
+source_url: "https://www.youtube.com/watch?v=Zv82mY63LnY"
+source_author: "Hawkshaw"
+source_published: 2025-08-19
 sources: ["raw/articles/2026-04-15T122226+0900-Dark Souls how the world hides its lore.md"]
 related: ["[[open-world-design|오픈월드 설계]]", "[[level-design-principles|레벨 디자인 원칙]]", "[[fromsoftware|프롬소프트웨어]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-15
 confidence: high
 ---
+
+**원문**: [youtube.com](https://www.youtube.com/watch?v=Zv82mY63LnY) — Hawkshaw, 2025-08-19
+
+
 
 유튜브 에세이. Hawkshaw (2025). 다크소울 로드란의 레벨 구조가 세계관 스토리를 내포하는 방식.
 
