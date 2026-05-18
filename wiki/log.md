@@ -2,6 +2,19 @@
 title: "활동 로그"
 ---
 
+## [2026-05-18] presentation | 스튜디오 리스크 방어 (studio-risk-defense)
+- 트리거: 사용자 요청 — 인재 파이프라인 × 멀티 프로젝트 개발을 리스크 중심으로 재구성한 새 deck
+- 스타일: frontend-slides skill, Style C "Quiet Brief" (다크 배경 위 페이퍼 카드 + 세로 탭), Pretendard, 22장
+- 구조: 문제 정의(4) → 리스크 해부(4) → 5축 메커니즘(6) → 성공/실패 케이스(3) → 적용·시사점(4) → 정리(1)
+- 생성:
+  - wiki/presentations/studio-risk-defense-deck.html (22장 슬라이드, 인라인 편집 기능 포함)
+  - wiki/presentations/studio-risk-defense.md (wrapper)
+- 업데이트:
+  - wiki/presentations/all.md (카탈로그에 새 행 추가)
+  - wiki/index.md (프레젠테이션 카운트 2→3, pill-grid에 항목 추가)
+- 자매 관계: 기존 [[sustainable-studio-staffing]] deck와 같은 위키 콘텐츠를 다른 프레임(보고서 톤 vs 리스크 중심)으로 재구성
+- 메타: 프레젠테이션 2→3
+
 ## [2026-05-18] lint + concept-fill + quick-fix (대규모 정기 점검)
 - 트리거: 사용자가 weekly-wiki-lint 예약 작업 결과 보고 후 "모두 진행" 지시
 - 데드 링크 quick fix (10개 파일):
@@ -30,6 +43,19 @@ title: "활동 로그"
 - 모순: 4건 (모두 ⚠️ 블록으로 해소·맥락 명시됨, 신규 발생 없음)
 - 완전 고립: 0건. 카탈로그-only 약한 고립: 8건 (comparisons 5 + remedy-entertainment·mobile-gamedev·presentations/steam-marketing-strategy)
 - 검증 한계: catalog-economics 보강은 외부 URL fetch 제약으로 사전 학습 지식 + 공식 IR 출처 종합. Take-Two·Kadokawa·Nintendo는 1차 IR로 재검증 가능, Bethesda·Larian은 비공식 출처 의존 (sources 페이지 confidence: medium)
+
+## [2026-05-18] slide | sustainable-studio-staffing 신규 슬라이드 (24장, 보고서 톤)
+- 신규: wiki/presentations/sustainable-studio-staffing-deck.html (24장, 약 108KB)
+- 신규: wiki/presentations/sustainable-studio-staffing.md (wrapper md, iframe·sources)
+- 주제: 비-라이브 서비스 환경 게임 스튜디오의 지속 가능한 인재 모델 7가지 + 5축 메커니즘
+- 구조: 1부 문제 정의(3장) + 2부 7가지 모델(10장) + 3부 5축 메커니즘(6장) + 4부 반례·통합(5장)
+- 사례: Capcom·Insomniac·FromSoftware·Embark·Larian·Hazelight·Supergiant/Asobo/Sandfall + 반례(EA Frostbite·Double Fine·너티독)
+- 디자인: 기존 steam-marketing-strategy-deck.html과 동일 시스템 (흰 배경 + 네이비 + 골드 accent + Pretendard) 일관성 유지
+- 갱신:
+  - wiki/presentations/all.md 1행 추가 (총 2개)
+  - wiki/index.md 프레젠테이션 카운트 1→2, pill-grid 항목 추가
+  - Last updated 2026-05-18 유지
+- 신뢰도: high (모든 사례가 1차 자료 기반)
 
 ## [2026-05-18] ingest | Capcom FY26/3 결산 설명회 PDF
 - Source: raw/articles/2026-05-18-capcom-fy26-earnings.md (Capcom IR explanation_2025_full_01.pdf)

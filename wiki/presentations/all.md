@@ -2,7 +2,7 @@
 title: "프레젠테이션 카탈로그"
 type: catalog
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-18
 ---
 
 ← [홈으로](../index.md)
@@ -14,3 +14,5 @@ updated: 2026-05-12
 | 제목 | 주제 | 출처 | 위키 페이지 | 슬라이드 |
 |------|------|------|------|------|
 | Steam 마케팅 전략 | 인디·중소 스튜디오용 Steam 출시·마케팅 종합 | [[marketing-strategy]], [[launch-metrics]], [[zukowski-next-fest-strategy]] | <a href="https://ginzadaddy-png.github.io/quartz/presentations/steam-marketing-strategy">steam-marketing-strategy</a> | <a href="https://ginzadaddy-png.github.io/quartz/presentations/steam-marketing-strategy-deck.html" target="_blank" rel="noopener">전체 화면 열기 ↗</a> |
+| 지속 가능한 스튜디오 운영 | 비-라이브 서비스 환경의 7가지 인재·조직 모델과 5축 메커니즘 | [[dev-talent-pipeline]], [[multi-project-development]], [[innersource]], [[capcom-fy26-ir]] | <a href="https://ginzadaddy-png.github.io/quartz/presentations/sustainable-studio-staffing">sustainable-studio-staffing</a> | <a href="https://ginzadaddy-png.github.io/quartz/presentations/sustainable-studio-staffing-deck.html" target="_blank" rel="noopener">전체 화면 열기 ↗</a> |
+| 스튜디오 리스크 방어 | 정리해고·자원 잠식·인재 유실을 차단하는 5축 메커니즘 (리스크 중심 재구성, 22장) | [[dev-talent-pipeline]], [[multi-project-development]], [[innersource]], [[catalog-economics]], [[capcom-fy26-ir]] | <a href="https://ginzadaddy-png.github.io/quartz/presentations/studio-risk-defense">studio-risk-defense</a> | <a href="https://ginzadaddy-png.github.io/quartz/presentations/studio-risk-defense-deck.html" target="_blank" rel="noopener">전체 화면 열기 ↗</a> |

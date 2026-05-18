@@ -10,7 +10,7 @@ Last updated 2026-05-18
   <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">29</span></a></div>
   <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">50</span></a></div>
   <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">11</span></a></div>
-  <div class="stat-card"><a href="presentations/all.md" class="internal"><span class="stat-label">프레젠테이션</span><span class="stat-num">1</span></a></div>
+  <div class="stat-card"><a href="presentations/all.md" class="internal"><span class="stat-label">프레젠테이션</span><span class="stat-num">3</span></a></div>
 </div>
 
 ---
@@ -117,5 +117,7 @@ Last updated 2026-05-18
 <div class="pill-grid">
 
 - [[presentations/steam-marketing-strategy|Steam 마케팅 전략 — 인디·중소 스튜디오용 출시·마케팅 종합]]
+- [[presentations/sustainable-studio-staffing|지속 가능한 스튜디오 운영 — 7가지 인재·조직 모델과 5축 메커니즘]]
+- [[presentations/studio-risk-defense|스튜디오 리스크 방어 — 정리해고·자원 잠식·인재 유실을 차단하는 5축 메커니즘]]
 
 </div>
