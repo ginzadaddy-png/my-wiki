@@ -1,7 +1,7 @@
 ---
 title: "프롬소프트웨어 (FromSoftware)"
 type: entity
-sources: ["[[FromSoftware 300명으로 엘든링+AC6 동시 제작]]"]
+sources: ["[[fromsoftware-300-devs]]"]
 related: ["[[multi-project-development|멀티 프로젝트 개발]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-14
 updated: 2026-04-14

@@ -4,18 +4,20 @@ type: source-summary
 source_url: "https://www.inven.co.kr/webzine/news/?news=304066&page=2"
 source_author: "이두현"
 source_published: 2025-03-18
+source_video_url: "https://www.youtube.com/watch?v=WUNygTII6p0"
+source_video_author: "Chris Zukowski (GDC Festival of Gaming 채널)"
+source_video_published: 2025-08-22
 sources: ["GDC25 스팀이 세일을 제안한다면"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[early-access-strategy|얼리 액세스 전략]]"]
 created: 2026-04-20
-updated: 2026-05-15
+updated: 2026-05-18
 confidence: high
 ---
 
-**원문**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=304066&page=2) — 이두현, 2025-03-18
+**원문 리포트**: [inven.co.kr](https://www.inven.co.kr/webzine/news/?news=304066&page=2) — 이두현, 2025-03-18
+**1차 자료 영상**: [Marketing Your Game Under the New Steam Rules (YouTube)](https://www.youtube.com/watch?v=WUNygTII6p0) — Chris Zukowski, GDC Festival of Gaming 채널, 2025-08-22 공개 (GDC 2025 Independent Games Summit 강연 원본)
 
-
-
-GDC 2025 인디 게임 서밋, 크리스 주코프스키 강연. 2024년 밸브 스팀 정책 변화 기반. 출처: Inven
+GDC 2025 인디 게임 서밋, 크리스 주코프스키 강연. 2024년 밸브 스팀 정책 변화 기반. 출처: Inven 리포트 + GDC 공식 영상
 
 ## 핵심 명제
 

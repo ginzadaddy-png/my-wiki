@@ -1,7 +1,7 @@
 ---
 title: "반복 개발 주기 비교"
 type: comparison
-sources: ["[[GDC25 아스트로봇 강연]]", "[[GDC26 고스트 오브 요테이 강연]]", "[[GDC24 발더스 게이트3 강연]]", "[[GDC26 33원정대 프로그래머 강연]]"]
+sources: ["[[gdc25-astrobot]]", "[[gdc26-ghost-of-yotei]]", "[[gdc24-baldurs-gate-3]]", "[[gdc26-expedition33-programmers]]"]
 related: ["[[rapid-prototyping|빠른 프로토타이핑]]", "[[playtesting|플레이테스팅]]", "[[vision-statement|비전 선언문]]", "[[early-access-strategy|얼리 액세스 전략]]"]
 created: 2026-04-13
 updated: 2026-04-13

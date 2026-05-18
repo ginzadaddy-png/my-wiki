@@ -1,7 +1,7 @@
 ---
 title: "플레이어 피드백 수집 전략 비교"
 type: comparison
-sources: ["[[GDC25 아스트로봇 강연]]", "[[GDC26 반짝임 강연]]", "[[GDC26 고스트 오브 요테이 강연]]", "[[GDC24 발더스 게이트3 강연]]", "[[CGDC 황재호 대표 강연]]"]
+sources: ["[[gdc25-astrobot]]", "[[gdc26-spark]]", "[[gdc26-ghost-of-yotei]]", "[[gdc24-baldurs-gate-3]]", "[[cgdc-dave-the-diver]]"]
 related: ["[[playtesting|플레이테스팅]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[marketing-strategy|마케팅 전략]]"]
 created: 2026-04-13
 updated: 2026-04-13

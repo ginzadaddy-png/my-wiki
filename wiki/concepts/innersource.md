@@ -1,10 +1,10 @@
 ---
 title: "이너소스 (InnerSource)"
 type: concept
-sources: ["[[multiproject-innersource-report]]"]
-related: ["[[dev-org-structure|개발 조직 구조]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[proprietary-engine-strategy|독자 엔진 전략]]"]
+sources: ["[[multiproject-innersource-report]]", "[[capcom-fy26-ir]]"]
+related: ["[[dev-org-structure|개발 조직 구조]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[proprietary-engine-strategy|독자 엔진 전략]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[ai-gamedev|게임 개발에서의 생성형 AI]]"]
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-05-18
 confidence: high
 ---
 
@@ -51,3 +51,20 @@ FPS 특화 엔진을 RPG 팀에 강제 이식, 엔진 팀을 비용 부서(Cost 
 | Unblocking Count | TC가 다른 팀 블로킹 해제한 건수 |
 
 > 💡 **핵심 인사이트:** 이너소스는 단순한 코드 공유가 아니다. "엔진은 강제 규율이 아니라 게임 팀을 위한 협업적 서비스"라는 캡콤의 철학이 핵심이다. 기술 중앙화의 경제적 이점을 누리면서도 각 팀의 자율성을 보장하는 **소니 ICE 팀 모델**이 현재까지 가장 성공적인 하이브리드 구현이다.
+
+## 캡콤 RE ENGINE 인프라 확장 ([[capcom-fy26-ir]])
+
+캡콤은 FY26/3 IR에서 이너소스 모델 위에 *물리적·AI 레이어*를 두 가지 추가했다.
+
+**R&D Building #3** (2027 완공 예정, 본사 인접 부지)
+- 토지 자산 100억엔 → 200억엔으로 100% 증가, FY26/3 CapEx 177억엔 (+113% YoY)
+- 목적: "centralized development to maximize capabilities" — 개발팀 물리 중앙화
+- 이너소스의 비동기 문서·PR 모델 + 물리 공간 집결 = 시너지
+
+**Generative AI 도입 (IR 정식 등재)**
+- 시간 단축 대상: 리서치/신규 프로젝트, 드래프트 생성, 유저 분석, 인터랙티브 매뉴얼, 에러 체크, 회의록
+- 정책 메시지: "단순작업 시간 ↓ → 다음 게임 개발 시간 ↑"
+- 이너소스의 *문서·PR 리뷰 부담*을 Gen AI가 일부 흡수 → TC(Trusted Committer)의 병목이 더 줄어듦
+- 신입 개발자가 AI에게 질문하며 self-onboarding → [[dev-talent-pipeline|인재 파이프라인]]의 학습 곡선 단축
+
+캡콤 이너소스 모델 = (코드 개방 + Trusted Committer + 비동기 문서) × (물리 중앙화 + Gen AI 자동화) — 다층화 진행 중.

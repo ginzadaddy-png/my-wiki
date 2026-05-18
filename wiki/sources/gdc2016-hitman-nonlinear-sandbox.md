@@ -5,7 +5,7 @@ source_url: "https://www.youtube.com/watch?v=hc8_W2PERZE"
 source_author: "GDC Festival of Gaming"
 source_published: 2019-02-21
 sources: ["raw/articles/2026-04-15T122853+0900-Level Design in Hitman Guiding Players in a Non-Linear Sandbox.md"]
-related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[IO 인터랙티브]]"]
+related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[io-interactive|IO 인터랙티브]]"]
 created: 2026-04-15
 updated: 2026-05-15
 confidence: high

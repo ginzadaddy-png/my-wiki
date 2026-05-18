@@ -6,11 +6,12 @@ sources: [
   "[[missing-middle-paradigm-shift-2026]]",
   "[[sgc-steam-survival]]",
   "[[gdc26-arc-raiders-reset]]",
-  "[[gdc26-newzoo-market-analysis]]"
+  "[[gdc26-newzoo-market-analysis]]",
+  "[[capcom-fy26-ir]]"
 ]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[launch-metrics|흥행 예측 지표]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[catalog-economics|카탈로그 이코노믹스]]"]
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-05-18
 confidence: high
 ---
 
@@ -69,3 +70,18 @@ confidence: high
 - 교훈: **비즈니스 모델 선택이 게임플레이 루프의 품질을 규정한다**
 
 > 💡 **핵심 인사이트:** 가격은 수익 계산식이 아니라 **포지셔닝 선언**이다. $40은 "AAA가 아닌 것"이 아니라 "플레이어의 시간을 존중하는 것"으로 읽힌다. 장르 평균을 이탈하지 않되, 비즈니스 모델과 게임플레이 철학이 일관된 가격을 선택할 것.
+
+## 시간축 가격 다변화 — 캡콤 카탈로그 모델 ([[capcom-fy26-ir]])
+
+[[capcom|캡콤]]은 가격을 *순간*이 아니라 *9년 곡선*으로 운영한다. 신작 풀프라이스로 출시한 후 1~9년에 걸쳐 50% → 30% → 20% → 10% 세일 단계를 거치며 새로운 고객층을 흡수.
+
+**캡콤의 카탈로그 가격 흡수 패턴**
+- RE7biohazard(2017): 9년차에도 260만장 — 풀프라이스 구매층은 이미 소진된 시점에서 *세일 가격대 고객*만으로 만든 매출
+- 디지털 비중 93%, 패키지 7% — 디지털 유통의 한계비용 0이 9년 가격 곡선을 가능하게 만듦
+- FY26/3 unit sales 중 카탈로그가 83.7% — 신작 풀가격 매출보다 카탈로그 세일 매출이 4배
+
+**가격 전략의 두 디스플린**
+- **신작 가격대 선택** (미싱 미들, AA 프리미엄) — *해당 출시 ROI*에 집중
+- **시간축 가격 곡선** (캡콤 모델) — *5~9년 누적 ROI*에 집중
+
+> ⚠️ 시간축 가격 다변화는 *시리즈 IP가 있는 회사*만 가능. 단일작 인디는 출시 첫 1~2년 안에 ROI 회수해야 하며, 시간축 가격 곡선의 ROI를 노리려면 *지속 업데이트·시리즈화* 같은 추가 투자가 필요. → [[catalog-economics|카탈로그 이코노믹스]]

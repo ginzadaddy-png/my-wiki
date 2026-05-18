@@ -38,8 +38,7 @@ updated: 2026-04-22
 | [[bioware]] | 캐나다 에드먼턴, EA 산하, Mass Effect·Dragon Age, 서구 RPG 동반자 설계 원점 |
 | [[obsidian-entertainment]] | 미국 캘리포니아, MS 산하, Outer Worlds·Avowed, 유기적 동반자 설계 |
 | [[supercell]] | 핀란드 헬싱키, 텐센트 자회사, Clash of Clans, "프로젝트 실패 ≠ 개인 실패" 모델 |
-| [[hazelight-studios]] | 스웨덴 스톡홀름, EA Originals, It Takes Two·Split Fiction, 협동 전용 게임 |
-| [[hazelight-studios]] | 스웨덴 스톡홀름, EA 퍼블리싱, It Takes Two·Split Fiction, 2인 협동 전용 |
+| [[hazelight-studios]] | 스웨덴 스톡홀름, EA Originals, It Takes Two·Split Fiction, 2인 협동 전용 게임 |
 
 ## 미디어·플랫폼
 
@@ -79,5 +78,4 @@ updated: 2026-04-22
 | [[marvel-spiderman-2]] | 인섬니악, 오픈월드 탐험 설계 |
 | [[alan-wake-2]] | Remedy, 2023, 두 주인공·꿈의 논리·루핑 진행 미션 구조 |
 | [[a-plague-tale-requiem]] | Asobo, 2022, 20명 아티스트·PS5 전용·클로드 로랭 비주얼 |
-| [[peak]] | Landfall+Aggro Crab, 2025, 4개월 개발·1주 100만 본, 협동 바이럴 공식 |
 | [[peak]] | Landfall+Aggro Crab, 2025, 4개월 개발·첫 주 100만 본, friendslop 협동 등반 |

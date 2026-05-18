@@ -1,14 +1,14 @@
 # Game Dev Wiki
 
-Last updated 2026-05-12
+Last updated 2026-05-18
 
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">106</span></a></div>
+  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">108</span></a></div>
   <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">28</span></a></div>
   <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">29</span></a></div>
-  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">44</span></a></div>
+  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">50</span></a></div>
   <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">11</span></a></div>
   <div class="stat-card"><a href="presentations/all.md" class="internal"><span class="stat-label">프레젠테이션</span><span class="stat-num">1</span></a></div>
 </div>
@@ -28,6 +28,9 @@ Last updated 2026-05-12
 - [[playtesting|플레이테스팅 방법론 — 내부 테스트·외부 베타·반짝임 검증]]
 - [[early-access-strategy|얼리 액세스 전략 — 라리안·하데스·발하임 피드백 루프]]
 - [[dev-org-structure|개발 조직 구조 — 팀 구성·유동 배치·스크럼]]
+- [[dev-talent-pipeline|개발 인재 파이프라인 — 연 100명·세대 혼합·R&D 인프라·Gen AI (캡콤 12년 모델)]]
+- [[producer-role|프로듀서 역할 — Force Multiplier·정렬·함정 3종·마인드셋 전환]]
+- [[psychological-safety|심리적 안전 — 처벌 두려움 없는 의견 표현, 고성과 팀 1순위 요인]]
 
 </div>
 
@@ -36,15 +39,18 @@ Last updated 2026-05-12
 <div class="pill-grid">
 
 - [[marketing-strategy|마케팅 전략 — 스팀·통합 채널·트레일러·PR·크리에이터]]
+- [[steam-next-fest|Steam Next Fest — 위시리스트 티어·알고리즘·데모 타이밍·friendslop]]
 - [[launch-metrics|흥행 예측 지표 — 가짜 신호 vs. 행동 기반 지표]]
 - [[data-driven-development|데이터 기반 개발 의사결정 — 3일 버스트·바구니 시스템]]
 - [[indie-business-strategy|인디 비즈니스 전략 — 창업·마케팅·생존]]
 - [[game-market-trends|게임 시장 트렌드 — 저가 프리미엄 부상, 세분화]]
 - [[multi-project-development|멀티 프로젝트 동시 개발 전략과 위험]]
 - [[proprietary-engine-strategy|독자 엔진 전략 — RE ENGINE vs 서드파티 무수정]]
+- [[unreal-engine-5|Unreal Engine 5 — Nanite·Lumen·MetaHuman·Blueprint 95% (33원정대)]]
 - [[innersource|이너소스 — 오픈소스 방식의 사내 기술 공유 모델]]
 - [[ai-gamedev|게임 개발에서의 생성형 AI — 정서 데이터·도입 원칙·역할 변화]]
 - [[game-pricing-strategy|게임 가격 전략 — 가격대 지형, 지역 차등화, 세일 타이밍, 비즈니스 모델]]
+- [[catalog-economics|카탈로그 이코노믹스 — 시리즈 IP의 장기 매출 모델, 캡콤 카탈로그 84%]]
 - [[mobile-gamedev|모바일 게임 개발 — 4대 현장 벽, 상업 성립 4요소, 원신 쇼크의 역설]]
 - [[audience-discovery-systems|오디언스 발견 시스템 — Intent vs Algorithm, Seek→Feed, 표면 alignment 함정]]
 - [[subscription-economy-gaming|구독 경제와 게이밍 — 소유→액세스 전환, discovery engine, Residency Premium]]

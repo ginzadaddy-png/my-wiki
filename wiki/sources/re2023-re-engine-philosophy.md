@@ -5,7 +5,7 @@ source_url: "https://www.youtube.com/watch?v=mqEMFJHUn3g"
 source_author: "CAPCOM R&D"
 source_published: 2023-10-27
 sources: ["raw/articles/2026-04-14T160408+0900-RE2023 RE ENGINE Philosophy.md"]
-related: ["[[capcom|캡콤]]", "[[proprietary-engine-strategy|독자 엔진 전략]]", "[[RE ENGINE]]"]
+related: ["[[capcom|캡콤]]", "[[proprietary-engine-strategy|독자 엔진 전략]]"]
 created: 2026-04-14
 updated: 2026-05-15
 confidence: medium

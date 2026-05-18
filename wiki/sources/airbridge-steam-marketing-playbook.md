@@ -5,7 +5,7 @@ source_url: "https://www.airbridge.io/ko/blog/game-studio-steam-marketing-playbo
 source_author: "Airbridge"
 source_published: 2025-07-03
 sources: ["중견 게임 스튜디오를 위한 스팀(Steam) 게임 마케팅 완전정복"]
-related: ["[[steam-marketing|스팀 마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[game-market-trends|게임 시장 트렌드]]", "[[indie-business-strategy|인디 비즈니스 전략]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[game-market-trends|게임 시장 트렌드]]", "[[indie-business-strategy|인디 비즈니스 전략]]"]
 created: 2026-04-20
 updated: 2026-05-15
 confidence: high
