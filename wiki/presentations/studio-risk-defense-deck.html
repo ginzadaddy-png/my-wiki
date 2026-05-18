@@ -40,9 +40,9 @@
   --title-size:  clamp(1.6rem, 5vw, 4.2rem);
   --h2-size:     clamp(1.3rem, 3.4vw, 2.6rem);
   --h3-size:     clamp(1.05rem, 2vw, 1.4rem);
-  --body-size:   clamp(0.85rem, 1.3vw, 1.05rem);
-  --small-size:  clamp(0.7rem, 0.95vw, 0.85rem);
-  --tiny-size:   clamp(0.6rem, 0.8vw, 0.72rem);
+  --body-size:   clamp(0.95rem, 1.45vw, 1.18rem);
+  --small-size:  clamp(0.85rem, 1.15vw, 1rem);
+  --tiny-size:   clamp(0.75rem, 1vw, 0.88rem);
 
   /* Spacing */
   --slide-padding: clamp(1rem, 3vw, 2.5rem);
@@ -100,7 +100,7 @@ img { max-width: 100%; max-height: min(50vh, 400px); object-fit: contain; }
 .rail .tab {
   writing-mode: vertical-rl;
   padding: clamp(0.6rem, 1.6vh, 1.2rem) clamp(0.4rem, 0.7vw, 0.65rem);
-  font-size: clamp(0.68rem, 0.95vw, 0.88rem);
+  font-size: clamp(0.82rem, 1.1vw, 1rem);
   font-weight: 600;
   letter-spacing: 0.25em;
   color: var(--ink-mute);
@@ -218,7 +218,7 @@ h2.h2 .warn { color: var(--warn); }
 }
 .card-r.danger { border-left-color: var(--warn); }
 .card-r .num {
-  font-size: clamp(0.7rem, 0.95vw, 0.85rem);
+  font-size: clamp(0.82rem, 1.1vw, 0.98rem);
   font-weight: 800; letter-spacing: 0.15em;
   color: var(--accent);
 }
@@ -228,7 +228,7 @@ h2.h2 .warn { color: var(--warn); }
   font-weight: 800; color: var(--ink); line-height: 1.25; letter-spacing: -0.01em;
 }
 .card-r .d {
-  font-size: clamp(0.78rem, 1.05vw, 0.92rem);
+  font-size: clamp(0.9rem, 1.2vw, 1.05rem);
   line-height: 1.5; color: var(--ink-soft);
 }
 
@@ -253,6 +253,41 @@ h2.h2 .warn { color: var(--warn); }
 .bar-col .bar.future { background: repeating-linear-gradient(135deg, var(--accent) 0 4px, #1d4f3a 4px 8px); opacity: 0.6; }
 .bar-col .label-x { font-size: var(--tiny-size); color: var(--ink-mute); font-variant-numeric: tabular-nums; }
 .bar-col .v-top { font-size: var(--tiny-size); color: var(--ink); font-weight: 700; font-variant-numeric: tabular-nums; }
+
+/* SVG bar chart with trend line (slide 10) */
+.chart {
+  width: 100%;
+  padding: clamp(0.3rem, 0.8vh, 0.6rem) 0;
+}
+.chart svg {
+  width: 100%;
+  max-height: clamp(220px, 36vh, 360px);
+  display: block;
+}
+.chart svg text { font-family: var(--font-body); }
+.chart .y-axis text, .chart .x-axis text {
+  font-size: 13px;
+  fill: var(--ink-mute);
+  font-weight: 500;
+}
+.chart .vals text {
+  font-size: 14px;
+  font-weight: 700;
+  fill: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+.chart .vals text.proj { fill: #c41e3a; }
+.chart .footnote {
+  font-size: 11px;
+  fill: var(--ink-mute);
+  font-style: italic;
+}
+.chart .trend-label {
+  font-size: 12px;
+  fill: #c41e3a;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
 
 /* Table */
 .tbl { width: 100%; border-collapse: collapse; font-size: var(--small-size); }
@@ -698,14 +733,107 @@ body.edit-active [contenteditable="true"]:focus { outline-style: solid; outline-
       <section class="body">
         <p class="label reveal d2">AXIS 01 · 상시 채용 + 세대 혼합</p>
         <h2 class="h2 reveal d3">Capcom 12년 — <em>1,368명 → 2,842명</em></h2>
-        <div class="bars reveal d4">
-          <div class="bar-col"><span class="v-top">1,368</span><div class="bar" style="height: 38%;"></div><span class="label-x">14/3</span></div>
-          <div class="bar-col"><span class="v-top">2,369</span><div class="bar" style="height: 67%;"></div><span class="label-x">22/3</span></div>
-          <div class="bar-col"><span class="v-top">2,460</span><div class="bar" style="height: 69%;"></div><span class="label-x">23/3</span></div>
-          <div class="bar-col"><span class="v-top">2,675</span><div class="bar" style="height: 75%;"></div><span class="label-x">24/3</span></div>
-          <div class="bar-col"><span class="v-top">2,846</span><div class="bar" style="height: 80%;"></div><span class="label-x">25/3</span></div>
-          <div class="bar-col"><span class="v-top">2,842</span><div class="bar" style="height: 80%;"></div><span class="label-x">26/3</span></div>
-          <div class="bar-col"><span class="v-top">3,180</span><div class="bar future" style="height: 90%;"></div><span class="label-x">27/3*</span></div>
+        <div class="chart reveal d4" role="figure" aria-label="캡콤 비연결 개발자 인력 12년 추이 (broken axis + 추세선)">
+          <svg viewBox="0 0 700 280" preserveAspectRatio="xMidYMid meet">
+            <defs>
+              <linearGradient id="bar-grad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#2d6a4f"/>
+                <stop offset="1" stop-color="#1d4f3a"/>
+              </linearGradient>
+              <pattern id="future-stripes" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)">
+                <rect width="8" height="8" fill="#2d6a4f" opacity="0.35"/>
+                <rect width="4" height="8" fill="#1d4f3a" opacity="0.85"/>
+              </pattern>
+            </defs>
+
+            <!-- Y-axis gridlines (1500/2000/2500/3000) -->
+            <g class="grid" stroke="#d8d2c4" stroke-width="1" stroke-dasharray="3 4">
+              <line x1="50" y1="51.4"  x2="675" y2="51.4"/>
+              <line x1="50" y1="95.5"  x2="675" y2="95.5"/>
+              <line x1="50" y1="139.5" x2="675" y2="139.5"/>
+              <line x1="50" y1="183.6" x2="675" y2="183.6"/>
+            </g>
+
+            <!-- Y-axis labels -->
+            <g class="y-axis">
+              <text x="44" y="55"  text-anchor="end">3,000</text>
+              <text x="44" y="99"  text-anchor="end">2,500</text>
+              <text x="44" y="143" text-anchor="end">2,000</text>
+              <text x="44" y="187" text-anchor="end">1,500</text>
+            </g>
+
+            <!-- Broken-axis indicator (Y축이 0이 아니라 1,200에서 시작함을 표시) -->
+            <g class="break" stroke="#7a7468" stroke-width="1.2" fill="none">
+              <line x1="46" y1="218" x2="54" y2="212"/>
+              <line x1="46" y1="223" x2="54" y2="217"/>
+            </g>
+
+            <!-- X-axis baseline -->
+            <line x1="50" y1="210" x2="675" y2="210" stroke="#1a1a1a" stroke-width="1.5"/>
+
+            <!-- Bars -->
+            <g class="bars-g">
+              <rect x="60"  y="195.2" width="60" height="14.8"  fill="url(#bar-grad)" rx="2"/>
+              <rect x="150" y="107.0" width="60" height="103.0" fill="url(#bar-grad)" rx="2"/>
+              <rect x="240" y="99.0"  width="60" height="111.0" fill="url(#bar-grad)" rx="2"/>
+              <rect x="330" y="80.1"  width="60" height="129.9" fill="url(#bar-grad)" rx="2"/>
+              <rect x="420" y="65.0"  width="60" height="145.0" fill="url(#bar-grad)" rx="2"/>
+              <rect x="510" y="65.4"  width="60" height="144.6" fill="url(#bar-grad)" rx="2"/>
+              <rect x="600" y="35.6"  width="60" height="174.4" fill="url(#future-stripes)" rx="2" stroke="#2d6a4f" stroke-width="1.5" stroke-dasharray="4 3"/>
+            </g>
+
+            <!-- Value labels above bars -->
+            <g class="vals" text-anchor="middle">
+              <text x="90"  y="189">1,368</text>
+              <text x="180" y="101">2,369</text>
+              <text x="270" y="93">2,460</text>
+              <text x="360" y="74">2,675</text>
+              <text x="450" y="59">2,846</text>
+              <text x="540" y="59">2,842</text>
+              <text class="proj" x="630" y="29">3,180</text>
+            </g>
+
+            <!-- Trend line: solid through actual (14/3 → 26/3), dashed extension to projection -->
+            <polyline points="90,195.2 180,107.0 270,99.0 360,80.1 450,65.0 540,65.4"
+                      fill="none" stroke="#c41e3a" stroke-width="2.5"
+                      stroke-linecap="round" stroke-linejoin="round" opacity="0.88"/>
+            <line x1="540" y1="65.4" x2="630" y2="35.6"
+                  stroke="#c41e3a" stroke-width="2.5" stroke-linecap="round"
+                  stroke-dasharray="5 4" opacity="0.88"/>
+
+            <!-- Data point dots -->
+            <g class="dots">
+              <circle cx="90"  cy="195.2" r="4" fill="#c41e3a"/>
+              <circle cx="180" cy="107.0" r="4" fill="#c41e3a"/>
+              <circle cx="270" cy="99.0"  r="4" fill="#c41e3a"/>
+              <circle cx="360" cy="80.1"  r="4" fill="#c41e3a"/>
+              <circle cx="450" cy="65.0"  r="4" fill="#c41e3a"/>
+              <circle cx="540" cy="65.4"  r="4" fill="#c41e3a"/>
+              <!-- Projection point: hollow circle -->
+              <circle cx="630" cy="35.6"  r="5" fill="#f4f1ea" stroke="#c41e3a" stroke-width="2.5"/>
+            </g>
+
+            <!-- Trend line legend -->
+            <g transform="translate(40, 14)">
+              <line x1="0" y1="0" x2="22" y2="0" stroke="#c41e3a" stroke-width="2.5"/>
+              <circle cx="11" cy="0" r="3" fill="#c41e3a"/>
+              <text class="trend-label" x="28" y="4">추세선 (12년 CAGR ≈ +6.3%)</text>
+            </g>
+
+            <!-- X-axis labels -->
+            <g class="x-axis" text-anchor="middle">
+              <text x="90"  y="232">14/3</text>
+              <text x="180" y="232">22/3</text>
+              <text x="270" y="232">23/3</text>
+              <text x="360" y="232">24/3</text>
+              <text x="450" y="232">25/3</text>
+              <text x="540" y="232">26/3</text>
+              <text x="630" y="232">27/3*</text>
+            </g>
+
+            <!-- Footnote -->
+            <text class="footnote" x="675" y="262" text-anchor="end">* 27/3 = 계획 (점선·중공원) · Y축 1,200부터 (broken axis)</text>
+          </svg>
         </div>
         <ul class="bullets reveal d5">
           <li>매년 <strong>100명 이상 신규 채용</strong>을 명시 정책으로 (2013부터 IR 명문화)</li>
