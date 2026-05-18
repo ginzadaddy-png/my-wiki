@@ -5,10 +5,10 @@ Last updated 2026-05-18
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">108</span></a></div>
+  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">109</span></a></div>
   <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">28</span></a></div>
   <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">29</span></a></div>
-  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">50</span></a></div>
+  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">51</span></a></div>
   <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">11</span></a></div>
   <div class="stat-card"><a href="presentations/all.md" class="internal"><span class="stat-label">프레젠테이션</span><span class="stat-num">3</span></a></div>
 </div>
@@ -31,6 +31,7 @@ Last updated 2026-05-18
 - [[dev-talent-pipeline|개발 인재 파이프라인 — 연 100명·세대 혼합·R&D 인프라·Gen AI (캡콤 12년 모델)]]
 - [[producer-role|프로듀서 역할 — Force Multiplier·정렬·함정 3종·마인드셋 전환]]
 - [[psychological-safety|심리적 안전 — 처벌 두려움 없는 의견 표현, 고성과 팀 1순위 요인]]
+- [[art-pipeline-design|아트 파이프라인 설계 — Houdini·USD·kit-bash·late lock-down·90/10 도구화 (Embark·Asobo·Sandfall)]]
 
 </div>
 

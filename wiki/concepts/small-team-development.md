@@ -1,8 +1,8 @@
 ﻿---
 title: "소규모 팀 개발 전략"
 type: concept
-sources: ["[[gdc25-astrobot]]", "[[gdc26-expedition33-programmers]]", "[[expedition33-ue5-interview]]", "[[gdc26-ghost-of-yotei]]", "[[gdc26-arc-raiders-reset]]", "[[gdc2023-asobo-how-to-make-aaa-small-team]]"]
-related: ["[[team-asobi|팀 아소비]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[sucker-punch-productions|서커펀치 프로덕션]]", "[[embark-studios|엠바크 스튜디오]]", "[[asobo-studio|Asobo Studio]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[designer-empowerment|디자이너 도구화]]", "[[vision-statement|비전 선언문]]", "[[data-driven-development|데이터 기반 개발]]"]
+sources: ["[[gdc25-astrobot]]", "[[gdc26-expedition33-programmers]]", "[[expedition33-ue5-interview]]", "[[gdc26-ghost-of-yotei]]", "[[gdc26-arc-raiders-reset]]", "[[gdc2023-asobo-how-to-make-aaa-small-team]]", "[[gdc2026-embark-character-pipeline]]"]
+related: ["[[team-asobi|팀 아소비]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[sucker-punch-productions|서커펀치 프로덕션]]", "[[embark-studios|엠바크 스튜디오]]", "[[asobo-studio|Asobo Studio]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[designer-empowerment|디자이너 도구화]]", "[[vision-statement|비전 선언문]]", "[[data-driven-development|데이터 기반 개발]]", "[[art-pipeline-design|아트 파이프라인 설계]]"]
 created: 2026-04-13
 updated: 2026-04-13
 confidence: high
@@ -18,6 +18,7 @@ confidence: high
 - 엔진에 손대지 않기: 버전 업 비용 방지, 최신 버그 수정 무상 획득 (샌드폴)
 - 서드파티 플러그인·UE 마켓플레이스 적극 활용 (샌드폴)
 - UE5 고수준 기능(루멘, 나나이트, 메타사운드, 메타휴먼)을 한계까지 밀어붙이기
+- *아트 파이프라인 공유*: Embark는 Arc Raiders + The Finals가 같은 Houdini/USD 파이프라인 공유 — 360명으로 멀티 프로젝트 가능 → [[art-pipeline-design|아트 파이프라인 설계]]
 
 **3. 범위 통제**
 - 불필요한 콘텐츠 과감히 삭제: 아스트로봇 오픈 레벨 1개 폐기

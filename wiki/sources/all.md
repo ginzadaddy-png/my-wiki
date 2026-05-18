@@ -2,10 +2,11 @@
 title: "소스 전체 목록"
 ---
 
-총 108개 | 최신순 정렬
+총 109개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [gdc2026-embark-character-pipeline](gdc2026-embark-character-pipeline.md) | [GDC26] Game Character Pipelines at Embark: Freedom Through Structure (Östsjö & Arvidsson) | 2026-04 |
 | [catalog-economics-cross-company-2026](catalog-economics-cross-company-2026.md) | Catalog Economics 사례 종합 — Take-Two·CDPR·Bethesda·Kadokawa·Nintendo·Larian | 2026-05 |
 | [capcom-fy26-ir](capcom-fy26-ir.md) | Capcom FY26/3 결산 설명회 — FY27/3 계획 및 중장기 성장 전략 | 2026-05 |
 | [ign-generations-in-play-2026](ign-generations-in-play-2026.md) | IGN Entertainment — Generations In Play: 2026 Audience Insights Report | 2026-05 |

@@ -21,6 +21,7 @@ updated: 2026-05-18
 | [[dev-talent-pipeline]] | **개발 인재 파이프라인** — 연 100명·세대 혼합·R&D 인프라·Gen AI (캡콤 12년 모델) |
 | [[producer-role]] | **프로듀서 역할** — Force Multiplier·정렬·함정 3종·마인드셋 전환 |
 | [[psychological-safety]] | **심리적 안전** — 처벌 두려움 없는 의견 표현, 고성과 팀 1순위 요인 |
+| [[art-pipeline-design]] | **아트 파이프라인 설계** — Houdini·USD·kit-bash·late lock-down·90/10 도구화 (Embark·Asobo·Sandfall) |
 
 ## 출시·마케팅
 

@@ -42,6 +42,7 @@ confidence: high
 - 인원 늘리는 대신 구식 파이프라인 교체 (포토그래메트리, 절차적 생성)
 - "스파이럴 아웃" 하지 않겠다는 경영 원칙
 - 360명으로 4개 게임 포트폴리오 유지가 목표
+- *기술적 실체* ([[gdc2026-embark-character-pipeline|GDC26 발표]]): **Arc Raiders + The Finals가 같은 Houdini/USD 파이프라인 공유**. 차이는 project-specific 노드 몇 개뿐. Cross-project batching으로 body type 추가 같은 변경을 모든 프로젝트에 일괄 적용 → [[art-pipeline-design|아트 파이프라인 설계]]
 
 ## 스튜디오 모델 확장 비교
 

@@ -2,6 +2,22 @@
 title: "활동 로그"
 ---
 
+## [2026-05-18] ingest | Embark Character Pipeline (GDC 2026)
+- Source: raw/articles/2026-05-18T111613+0900-Game Character Pipelines at Embark Freedom Through Structure  GDC 2026.md
+- 원문: https://www.youtube.com/watch?v=UFeC-VBbO90 (Erik Östsjö & Björn Arvidsson, Embark Studios)
+- 생성:
+  - wiki/sources/gdc2026-embark-character-pipeline.md (5 미션 선언·Tech Stack·Origins node·3단계 진화·Edit-in-place·Batching·Cross-project 공유)
+  - wiki/concepts/art-pipeline-design.md (NEW concept — 4 핵심 원칙·기술 패턴·Embark/Asobo/Sandfall 비교)
+- 업데이트:
+  - wiki/entities/embark-studios.md (Houdini/USD 파이프라인 공유 섹션 추가 — Arc Raiders + Finals가 같은 파이프라인)
+  - wiki/concepts/multi-project-development.md (엠바크 모델에 기술적 실체 보강)
+  - wiki/concepts/small-team-development.md (도구·엔진 섹션에 아트 파이프라인 공유 추가)
+  - wiki/concepts/all.md (개발 방법론에 art-pipeline-design 추가)
+  - wiki/sources/all.md (1행 추가, 108→109)
+  - wiki/index.md (소스 108→109, 개념 50→51, pill-grid에 art-pipeline-design 추가)
+- 메타: 소스 108→109, 개념 50→51
+- 핵심: 직전 studio-risk-defense deck의 AXIS 03(이너소스/엔진)·AXIS 05(도구화)의 *기술적 실체*. Embark "360명 4 게임 포트폴리오" 목표가 어떻게 작동하는지 보여주는 케이스
+
 ## [2026-05-18] presentation | 스튜디오 리스크 방어 (studio-risk-defense)
 - 트리거: 사용자 요청 — 인재 파이프라인 × 멀티 프로젝트 개발을 리스크 중심으로 재구성한 새 deck
 - 스타일: frontend-slides skill, Style C "Quiet Brief" (다크 배경 위 페이퍼 카드 + 세로 탭), Pretendard, 22장

@@ -1,10 +1,10 @@
 ﻿---
 title: "엠바크 스튜디오 (Embark Studios)"
 type: entity
-sources: ["[[gdc26-arc-raiders-reset]]", "[[embark-soderlund-quarter-budget]]", "[[multiproject-innersource-report]]"]
-related: ["[[arc-raiders|아크 레이더스]]", "[[data-driven-development|데이터 기반 개발]]", "[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]"]
+sources: ["[[gdc26-arc-raiders-reset]]", "[[embark-soderlund-quarter-budget]]", "[[multiproject-innersource-report]]", "[[gdc2026-embark-character-pipeline]]"]
+related: ["[[arc-raiders|아크 레이더스]]", "[[data-driven-development|데이터 기반 개발]]", "[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[art-pipeline-design|아트 파이프라인 설계]]"]
 created: 2026-04-13
-updated: 2026-04-14
+updated: 2026-05-18
 confidence: high
 ---
 
@@ -31,5 +31,14 @@ confidence: high
 **AAA 효율화 전략**: "AAA는 규모가 아니라 퀄리티". AAA 예산의 1/4 수준으로 경쟁. 핵심은 AI 도입이 아닌 **파이프라인 재설계** (포토그래메트리, 절차적 지형 생성, 구식 워크플로우 교체). CEO 수더룬드: "600~800명이 될 이유가 없다. 우리가 스튜디오를 시작한 이유를 잊지 않겠다." → [[multi-project-development|멀티 프로젝트 개발]] 참고
 
 **향후 목표**: 4개 게임 포트폴리오(현재 2개). 인원 대폭 증가 없이 달성 목표.
+
+**아트 파이프라인 공유 (Houdini + USD)** — [[gdc2026-embark-character-pipeline|GDC26 발표 (Östsjö & Arvidsson)]]:
+- **Arc Raiders와 The Finals가 *같은 파이프라인*을 공유**. 차이는 project-specific 노드 몇 개 + wrap system + customization뿐. Unreal engine도 공유
+- Houdini Solaris(USD 기반)가 절차적 코어. ZBrush·Marvelous·Blender·Substance Painter·Maya 모두 Origins node로 live link
+- USD = "3D의 PSD" — single source of truth, layer 합성으로 한 software 변경이 모두에 자동 전파
+- *Kit-bash 마인드*: 캐릭터를 재조합 가능한 조각으로 분할 → cross-project 자산 재활용
+- *Batching*: 시즌 6 body type 추가 같은 cross-cutting 변경을 모든 프로젝트에 일괄 적용. 그동안 개선된 노드로 모든 자산이 *무료 quality boost*
+- 5년 진화: Black-box procedural → Box-of-boxes 자체 앱 → Houdini Solaris (현재). 자체 앱 포기 이유: "less people로 more" 원칙과 충돌
+- 이게 "360명 4 게임 포트폴리오" 목표의 *기술적 실체* → [[art-pipeline-design|아트 파이프라인 설계]] 참고
 
 **오픈소스 우선 철학**: 핵심 언어로 C++ 대신 Rust 채택 (메모리 안전성, 레이스 컨디션 원천 차단). 자체 코어 기술 GitHub 공개 → 외부 커뮤니티 기여 유도. "AAA를 만들기 위해 반드시 수천 명의 인력이 필요하지 않다." → [[innersource|이너소스]] 참고
