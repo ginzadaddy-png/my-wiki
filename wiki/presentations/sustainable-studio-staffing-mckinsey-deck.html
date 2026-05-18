@@ -1375,8 +1375,8 @@
   </style>
 </head>
 <body>
-  <div class="progress-bar" id="progressBar"></div>
-  <button class="fullscreen-btn" id="fullscreenBtn" aria-label="전체화면 토글">⛶ 전체화면</button>
+  <div class="progress-bar" id="progress"></div>
+  <button class="fullscreen-btn" onclick="toggleFullscreen()" aria-label="전체화면 토글">⛶ 전체화면</button>
 
   <div class="deck">
 
@@ -1838,9 +1838,7 @@
 
   </div>
 
-  <div class="slide-counter">
-    <span id="slideNum" style="font-variant-numeric: tabular-nums;">1</span> / <span id="slideTotal" style="font-variant-numeric: tabular-nums;">24</span>
-  </div>
+  <div class="slide-counter" id="counter" style="font-variant-numeric: tabular-nums;"></div>
 
   <div class="hint" id="hint">
     <div class="hint-mini"><kbd data-act="hint">H</kbd><span>조작 표시</span></div>
