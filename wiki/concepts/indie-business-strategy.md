@@ -7,11 +7,12 @@ sources: [
   "[[cgdc-dave-the-diver]]",
   "[[sgc-steam-survival]]",
   "[[gdc2024-valheim-early-access]]",
-  "[[ukyou-project-failure-structure]]"
+  "[[ukyou-project-failure-structure]]",
+  "[[zrconsulting-steam-forecaster-2026]]"
 ]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[vision-statement|비전 선언문]]", "[[playtesting|플레이테스팅]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[vision-statement|비전 선언문]]", "[[playtesting|플레이테스팅]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]"]
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-05-18
 confidence: high
 ---
 
@@ -79,3 +80,38 @@ confidence: high
 - **철수 기준 수치화**: "알파 테스트 10명 중 8명이 '한 번 더' 응답 시 계속"
 
 > 💡 **핵심 인사이트:** 인디 스튜디오 생존의 공통 분모는 **비전의 크기와 일관성**이다. 큰 비전이 좋은 팀을 모으고, 일관된 비전이 나쁜 계약을 거부하는 용기를 준다.
+
+## Break-even·매출 예측 정량 도구 ([[zrconsulting-steam-forecaster-2026]])
+
+ZR Forecaster는 인디 의사결정에 즉시 사용 가능한 두 가지 도구를 제공:
+
+### 1) Year-1 매출 예측 — Downside · Base · Upside
+- 입력: 위시리스트 수·서브장르·리뷰 기대 tier·사전 buzz·런치 컨텍스트(demo·Next Fest)·가격·리전·예산
+- 출력: Year-1 net to studio (3 시나리오)
+- 정확도: 30~50% 편차 가능 (planning tool)
+- 자세한 모델은 [[steam-revenue-forecasting|Steam 매출 예측 모델]] 참고
+
+### 2) Break-even 분석
+- production budget을 dev share로 회수하기까지 필요한 카피 수 계산
+- Self-publish vs 각 publisher deal 시나리오에 대한 break-even 비교
+- 인디 자금조달 의사결정의 *수치적 기반*
+
+## 퍼블리셔 협상 vs Self-publish
+
+자금조달·생존 전략의 핵심 분기. 4가지 publisher 구조와 *각각의 dev 영향*은 [[publisher-deal-structures|퍼블리셔 딜 구조]] 참고:
+- Standard rev share (30%) — 표준
+- Aggressive rev share (50%) — 큰 capacity 분담 필요
+- Recoup-first — *dev 위험 최대*
+- MG against royalty — *dev cashflow 가장 안전*
+- Marketing fee — 매출 부진 시 fee가 매출 잠식
+
+> ⚠️ **deal 평가는 % 비교가 아닌 *3 시나리오 stress test*로**. 같은 deal이 base case에서 좋아 보여도 downside 시나리오에서 dev에게 매우 불리할 수 있다.
+
+## 인디 매출 분포 — 미디언 vs 평균
+
+ZR Forecaster 데이터의 함의: *인디 매출 분포는 강한 long tail*. median과 mean의 차이가 크다.
+- median 인디 게임 매출은 *생활비 수준 미달*
+- 평균은 outlier(PEAK 29×·Hades·Balatro)에 끌려 올라감
+- "Steam에 출시하면 평균 X 매출" 같은 평균 통계는 *대다수 인디에게 무관*
+
+생존 전략은 *median 기준 break-even*을 1차 목표로, *long tail upside*는 보너스로 잡아야 함.

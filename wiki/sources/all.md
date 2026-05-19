@@ -2,10 +2,15 @@
 title: "소스 전체 목록"
 ---
 
-총 109개 | 최신순 정렬
+총 114개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [carless-wishlist-conversions-2025-10](carless-wishlist-conversions-2025-10.md) | GameDiscoverCo — Steam Wishlist Conversions 2024-2025 (Carless) | 2025-10 |
+| [carless-genres-ruled-steam-2025-06](carless-genres-ruled-steam-2025-06.md) | GameDiscoverCo — Which Genres Have 'Ruled' Steam (Single-tag Taxonomy, Carless) | 2025-06 |
+| [zukowski-bad-launch-recovery-2024](zukowski-bad-launch-recovery-2024.md) | Zukowski — Only 28 Games Recovered From a Bad Launch in 2024 | 2026-02 |
+| [zukowski-2025-year-review](zukowski-2025-year-review.md) | Zukowski — What the Hell Happened in 2025 (Steam Year Review) | 2026-01 |
+| [zrconsulting-steam-forecaster-2026](zrconsulting-steam-forecaster-2026.md) | ZR Consulting Steam Revenue Forecaster — 인디 런치 예측 모델 | 2026-05 |
 | [gdc2026-embark-character-pipeline](gdc2026-embark-character-pipeline.md) | [GDC26] Game Character Pipelines at Embark: Freedom Through Structure (Östsjö & Arvidsson) | 2026-04 |
 | [catalog-economics-cross-company-2026](catalog-economics-cross-company-2026.md) | Catalog Economics 사례 종합 — Take-Two·CDPR·Bethesda·Kadokawa·Nintendo·Larian | 2026-05 |
 | [capcom-fy26-ir](capcom-fy26-ir.md) | Capcom FY26/3 결산 설명회 — FY27/3 계획 및 중장기 성장 전략 | 2026-05 |

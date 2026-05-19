@@ -1,7 +1,7 @@
 ---
 title: "게임 시장 트렌드"
 type: concept
-sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]"]
+sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]"]
 created: 2026-04-20
 updated: 2026-05-18

@@ -2,6 +2,66 @@
 title: "활동 로그"
 ---
 
+## [2026-05-19] cleanup | sustainable-studio-staffing deck 폐기 (studio-risk-defense와 중복)
+- 트리거: 사용자 — 두 deck이 같은 위키 콘텐츠를 다루는 중복. studio-risk-defense 단독 유지로 정리
+- 삭제 (3 files):
+  - wiki/presentations/sustainable-studio-staffing-deck.html (24장, 보고서 톤)
+  - wiki/presentations/sustainable-studio-staffing-mckinsey-deck.html (McKinsey 변형)
+  - wiki/presentations/sustainable-studio-staffing.md (wrapper)
+- 업데이트:
+  - wiki/index.md: 프레젠테이션 카운트 3→2, pill-grid에서 sustainable-studio-staffing 항목 제거, Last updated 2026-05-19
+  - wiki/presentations/all.md: 카탈로그 행 제거, updated 2026-05-19
+  - wiki/presentations/studio-risk-defense.md: related 배열·관련 위키 페이지·갱신 메모에서 자매 deck 언급 제거, 2026-05-19 갱신 메모 추가
+- 메타: 프레젠테이션 3→2
+- 영향: dev-talent-pipeline·multi-project-development·innersource·catalog-economics·small-team-development 등 concept 페이지는 sustainable-studio-staffing을 직접 참조하지 않아 추가 갱신 불필요
+
+## [2026-05-18] ingest | GameDiscoverCo Single-tag Taxonomy (Carless 2025-06)
+- Source: raw/articles/2026-05-18-carless-genres-ruled-steam-2025-06.md (https://newsletter.gamediscover.co/p/which-genres-have-ruled-steam-a-new)
+- 생성:
+  - wiki/sources/carless-genres-ruled-steam-2025-06.md
+- 업데이트 sources 배열:
+  - wiki/concepts/steam-revenue-forecasting.md (Carless taxonomy 1차 source 추가)
+  - wiki/concepts/game-market-trends.md (Carless taxonomy + Zukowski 2025 retro 1차 source 추가)
+- 메타: wiki/index.md 소스 113→114, sources/all.md 1행 추가
+- 핵심 인사이트: Steam Genre TAM 분배는 *Action 58.37% 압도적 우위*. 그 안에서 Arena Shooter·Battle Royale·Hero Shooter는 평균 매출 높지만 진입 어려움(전 역사 29개만 $1M+, 2020 이후 $25M+는 Naraka·Overwatch 2·Marvel Rivals 단 3개). 신규 진입 추천: Action Roguelike (104개)·Psychological Horror (44개)·JRPG (121개) — *healthy 분포*. ZR이 인용한 "104·44·121" 수치 정확 일치 — Carless 원전 source citation 추가 완료.
+- 신뢰도: high (GameDiscoverCo 자체 단일-tag 강제 할당 연구)
+
+## [2026-05-18] ingest | 1차 데이터 source 3종 (Carless · Zukowski recovery · Zukowski 2025 retro)
+- Source URL:
+  - https://newsletter.gamediscover.co/p/the-state-of-steam-wishlist-conversions
+  - https://howtomarketagame.com/2026/02/12/only-28-games-recovered-from-a-bad-launch-in-2024-what-do-they-have-in-common/
+  - https://howtomarketagame.com/2026/01/27/what-the-hell-happened-in-2025/
+- 생성 (3 sources):
+  - wiki/sources/carless-wishlist-conversions-2025-10.md (median 0.15× / >$10 0.10× / PEAK 266× 정정·1차 데이터)
+  - wiki/sources/zukowski-bad-launch-recovery-2024.md (28/18,239 회복·5가지 메커니즘·Free-to-Keep 비추천)
+  - wiki/sources/zukowski-2025-year-review.md (골든 에이지 2.99%·Narrative #1·OWSC 2024 24.5%→2025 20.8% 정정·Farming 20.8%→8.3% 대폭 하락)
+- 업데이트:
+  - wiki/concepts/steam-revenue-forecasting.md sources에 3개 1차 source 추가 (ZR이 *보조 layer*로, Carless·Zukowski가 *1차*로 위치 재정렬)
+- 메타: wiki/index.md 소스 110→113, sources/all.md 3행 추가
+- 핵심 정정사항:
+  - **PEAK conversion multiplier**: ZR이 29×라 명시했으나 Carless 원전은 *266×* (한 자릿수 차이)
+  - **Mage Arena**: ZR 8.7× → Carless 78× / **R.E.P.O.**: ZR 7.5× → Carless 68×
+  - **Open World Survival Craft 성공률**: ZR이 인용한 24.5%는 *2024 데이터*. 2025에는 *20.8%로 하락*
+  - **Farming Sim**: 2024 20.8% → 2025 *8.3%* (대폭 60% 감소)
+  - 위 정정은 [[steam-revenue-forecasting]]의 매트릭스를 *연도 명시 + 1차 source 인용*으로 후속 작업 권장
+- 핵심 인사이트: Wishlist conversion 1차 데이터가 ZR이 인용한 수치와 *한 자릿수 차이*로 차이남. 위키 사용 시 *Carless 원전 우선* 인용해야 함. Zukowski 회복 분석은 "런치 첫 달이 결과의 90% 결정" 정량 증거 (회복 0.156%). 2025 골든 에이지 + Narrative 부상 (중국 FMV games 영향) + 장르 메타 4-5년 안정성.
+- 신뢰도: high (모두 1차 데이터 또는 1차 분석)
+
+## [2026-05-18] ingest | ZR Consulting Steam Revenue Forecaster (2026)
+- Source: raw/articles/2026-05-18-zrconsulting-steam-forecaster.md (https://zrconsulting.de/steam-forecaster/)
+- 생성 (2 concepts + 1 source):
+  - wiki/sources/zrconsulting-steam-forecaster-2026.md
+  - wiki/concepts/steam-revenue-forecasting.md (8 driver sensitivity·sub-genre 매트릭스·time distribution·review/buzz multipliers)
+  - wiki/concepts/publisher-deal-structures.md (Self-publish·Rev share·Recoup-first·MG·Marketing fee 5종 stress test)
+- 업데이트 (sources·related·ZR 정량 보강):
+  - wiki/concepts/launch-metrics.md (ZR Forecaster 정량 모델 섹션 — review tier multiplier·time distribution·8 driver sensitivity·refund 벤치마크)
+  - wiki/concepts/game-pricing-strategy.md ($10 threshold conversion 단절선·regional haircut 정량·ARPU 정확 공식)
+  - wiki/concepts/marketing-strategy.md (8 driver 마케팅 ROI 우선순위·Demo +8%/Next Fest +4% lift·paid acquisition 함정)
+  - wiki/concepts/indie-business-strategy.md (break-even·매출 예측·publisher deal·median vs 평균)
+- 메타: wiki/index.md 소스 →110·개념 50→52, sources/all.md 1행 추가 (총 110), concepts/all.md 2행 추가, pill-grid 2개 추가
+- 핵심 인사이트: "Steam 위시리스트 conversion 평균 15%"는 일반론. 서브장르마다 conversion 10× 차이 — Open World Survival Craft 24.5% vs Match-3·Visual Novel 한 자릿수. Co-op 바이럴은 PEAK 29×·Mage Arena 8.7× outlier. Review tier multiplier 0.25×~1.4× (한 tier drop = 매출 반토막). Pre-launch buzz multiplier 1.0×~2.5× (Hades·Balatro 수준은 연 1회). Year-1 매출 38%가 런치월 집중. Demo +8% / Next Fest +4% conversion lift. 8 driver tornado sensitivity = 자원 배분 우선순위 도구. Publisher deal stress test로 Recoup-first vs MG 위험 비대칭 명시.
+- 신뢰도: medium-high (1차 데이터 GameDiscoverCo·Zukowski·Valve 인용은 high, ZR 자체 calibration은 medium)
+
 ## [2026-05-18] ingest | Embark Character Pipeline (GDC 2026)
 - Source: raw/articles/2026-05-18T111613+0900-Game Character Pipelines at Embark Freedom Through Structure  GDC 2026.md
 - 원문: https://www.youtube.com/watch?v=UFeC-VBbO90 (Erik Östsjö & Björn Arvidsson, Embark Studios)

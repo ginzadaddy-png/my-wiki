@@ -2,9 +2,9 @@
 title: "스튜디오 리스크 방어 — 슬라이드"
 type: presentation
 sources: ["[[capcom-fy26-ir]]", "[[multiproject-innersource-report]]", "[[fromsoftware-300-devs]]", "[[risks-multi-game-development]]", "[[naughty-dog-multi-project]]", "[[embark-soderlund-quarter-budget]]", "[[gdc2023-asobo-how-to-make-aaa-small-team]]", "[[gdc26-expedition33-programmers]]", "[[catalog-economics-cross-company-2026]]"]
-related: ["[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[innersource|이너소스]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[small-team-development|소규모 팀 개발]]", "[[sustainable-studio-staffing|지속 가능한 스튜디오 운영 (기존 deck)]]"]
+related: ["[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[innersource|이너소스]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-05-18
-updated: 2026-05-18
+updated: 2026-05-19
 confidence: high
 ---
 
@@ -49,9 +49,9 @@ confidence: high
 - [[innersource|이너소스]] — Trusted Committer·PR·비동기 문서화
 - [[catalog-economics|카탈로그 이코노믹스]] — 인재 파이프라인의 재무 토대
 - [[small-team-development|소규모 팀 개발]] — 도구화·규모 통제 응용
-- [[sustainable-studio-staffing|지속 가능한 스튜디오 운영]] — 같은 주제의 7-스튜디오 보고서 톤 deck (먼저 작성된 자매 deck)
 
 ## 갱신 메모
 
-- 2026-05-18: 초안 (22장, 리스크 중심 재구성). [[sustainable-studio-staffing]] deck와 자매 관계 — 같은 위키 콘텐츠를 다른 프레임(리스크→메커니즘→사례→적용)으로 재구성.
+- 2026-05-18: 초안 (22장, 리스크 중심 재구성). 인재 파이프라인 × 멀티 프로젝트 개발을 리스크 중심 프레임(리스크→메커니즘→사례→적용)으로 재구성.
+- 2026-05-19: 중복 해소 — 자매 deck `sustainable-studio-staffing` 폐기, 본 deck이 단독 정본.
 - 차기 갱신 시 슬라이드 HTML만 교체, wrapper md·카탈로그 wikilink·sources frontmatter 유지. 위키 콘텐츠(concept·source) 변경 시 슬라이드도 동기화.

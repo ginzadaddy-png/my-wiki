@@ -1,16 +1,16 @@
 # Game Dev Wiki
 
-Last updated 2026-05-18
+Last updated 2026-05-19
 
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">109</span></a></div>
+  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">114</span></a></div>
   <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">28</span></a></div>
   <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">29</span></a></div>
-  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">51</span></a></div>
+  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">52</span></a></div>
   <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">11</span></a></div>
-  <div class="stat-card"><a href="presentations/all.md" class="internal"><span class="stat-label">프레젠테이션</span><span class="stat-num">3</span></a></div>
+  <div class="stat-card"><a href="presentations/all.md" class="internal"><span class="stat-label">프레젠테이션</span><span class="stat-num">2</span></a></div>
 </div>
 
 ---
@@ -52,6 +52,8 @@ Last updated 2026-05-18
 - [[ai-gamedev|게임 개발에서의 생성형 AI — 정서 데이터·도입 원칙·역할 변화]]
 - [[game-pricing-strategy|게임 가격 전략 — 가격대 지형, 지역 차등화, 세일 타이밍, 비즈니스 모델]]
 - [[catalog-economics|카탈로그 이코노믹스 — 시리즈 IP의 장기 매출 모델, 캡콤 카탈로그 84%]]
+- [[steam-revenue-forecasting|Steam 매출 예측 모델 — 8 driver sensitivity, sub-genre conversion 매트릭스, ZR Forecaster]]
+- [[publisher-deal-structures|퍼블리셔 딜 구조 — Rev share·Recoup-first·MG·Marketing fee 5종 비교·stress test]]
 - [[mobile-gamedev|모바일 게임 개발 — 4대 현장 벽, 상업 성립 4요소, 원신 쇼크의 역설]]
 - [[audience-discovery-systems|오디언스 발견 시스템 — Intent vs Algorithm, Seek→Feed, 표면 alignment 함정]]
 - [[subscription-economy-gaming|구독 경제와 게이밍 — 소유→액세스 전환, discovery engine, Residency Premium]]
@@ -118,7 +120,6 @@ Last updated 2026-05-18
 <div class="pill-grid">
 
 - [[presentations/steam-marketing-strategy|Steam 마케팅 전략 — 인디·중소 스튜디오용 출시·마케팅 종합]]
-- [[presentations/sustainable-studio-staffing|지속 가능한 스튜디오 운영 — 7가지 인재·조직 모델과 5축 메커니즘]]
 - [[presentations/studio-risk-defense|스튜디오 리스크 방어 — 정리해고·자원 잠식·인재 유실을 차단하는 5축 메커니즘]]
 
 </div>

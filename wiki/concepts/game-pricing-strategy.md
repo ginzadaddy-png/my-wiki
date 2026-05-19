@@ -7,9 +7,10 @@ sources: [
   "[[sgc-steam-survival]]",
   "[[gdc26-arc-raiders-reset]]",
   "[[gdc26-newzoo-market-analysis]]",
-  "[[capcom-fy26-ir]]"
+  "[[capcom-fy26-ir]]",
+  "[[zrconsulting-steam-forecaster-2026]]"
 ]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[catalog-economics|카탈로그 이코노믹스]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]"]
 created: 2026-04-28
 updated: 2026-05-18
 confidence: high
@@ -85,3 +86,47 @@ confidence: high
 - **시간축 가격 곡선** (캡콤 모델) — *5~9년 누적 ROI*에 집중
 
 > ⚠️ 시간축 가격 다변화는 *시리즈 IP가 있는 회사*만 가능. 단일작 인디는 출시 첫 1~2년 안에 ROI 회수해야 하며, 시간축 가격 곡선의 ROI를 노리려면 *지속 업데이트·시리즈화* 같은 추가 투자가 필요. → [[catalog-economics|카탈로그 이코노믹스]]
+
+## $10 threshold — conversion 단절선 ([[zrconsulting-steam-forecaster-2026]])
+
+GameDiscoverCo 2025-10 연구가 ZR Forecaster에 반영된 가장 중요한 인사이트: **$10 가격선이 wishlist conversion의 단절선**.
+
+- Week-1 median conversion: **0.15×** (전체 평균)
+- 가격 $10 초과 시: **0.10×** — *33% 감소*
+
+이 단절은 단순 "더 비싸면 덜 산다"가 아니라 *Steam 위시리스트의 행동 양식 자체가 다른 가격대*. $10 이하는 *충동적·즉결 구매*에 가깝고, 그 위는 *비교·검토·세일 대기* 행동이 늘어남.
+
+**시사점**:
+- 저예산 인디($9.99 이하) — wishlist 대비 conversion 표준 modeling 가능, 1.5× 효율
+- 미드 프라이스($14.99~$24.99) — wishlist 효율은 떨어지지만 ARPU가 50%+ 높아 net 매출이 더 큼 (위에 정의된 ARPU·conversion 공식 확인)
+- $40~$50 미드 프라이스 — 본 페이지 위의 "비즈니스 모델 자체가 게임 설계의 일부" 참고. *해당 가격대에 맞는 콘텐츠·플레이타임*이 정당화 조건
+
+## Regional pricing haircut — 정량 ([[zrconsulting-steam-forecaster-2026]])
+
+Steam 권장 region pricing matrix 기반 계산. $19.99 USD 게임의 예시:
+- 브라질 ~$14
+- 튀르키예 ~$12
+- 인도 ~$10
+- 일부 SEA ~$8
+
+블렌디드 haircut (전 지역 평균):
+- **글로벌 인기 게임**: 20~30% (US/EU 외 비중 큼)
+- **US/EU 중심 게임**: 5~15% (Asia·LATAM·MENA 비중 작음)
+
+**시사점**: 글로벌 marketing 강화한 게임일수록 *blended ARPU가 낮아짐*. 절대 매출은 늘어도 unit당 매출은 떨어진다. 글로벌 매출이 큰 게임에서 *카피 수와 net revenue 사이 비대칭*이 발생하는 이유.
+
+## ARPU 정확 공식 ([[zrconsulting-steam-forecaster-2026]])
+
+```
+Effective ARPU = list_price × (1 - regional_haircut) × (1 - blended_discount)
+where blended_discount = launch_discount × 0.38 + seasonal_discount × 0.62
+```
+
+- 런치월(Year 1의 38%) 비중 + 그 외 62% 가중평균
+- 런치 10% discount = 표준
+- 0% = 자신감 신호 + 약간의 conversion 손실
+- 20%+ = *알고리즘에 약세 신호*로 해석됨 + 추가 conversion 영향
+
+> ⚠️ 런치 discount를 *너무 과감하게* 잡으면 — 런치월 비중 ↑·ARPU ↓로 매출이 줄 수 있다. 알고리즘에 약세 signal까지 더해져 *double penalty*.
+
+→ 더 정밀한 8 driver 모델은 [[steam-revenue-forecasting|Steam 매출 예측 모델]] 참고.
