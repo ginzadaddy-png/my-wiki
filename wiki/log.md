@@ -2,6 +2,25 @@
 title: "활동 로그"
 ---
 
+## [2026-05-19] presentation | 스팀 신규 게임 출시의 성공 방정식 (steam-launch-strategy, 35장)
+- 트리거: 사용자 — 기존 steam-marketing-strategy deck을 폐기하고 ZR Forecaster·Carless·Zukowski 1차 source 4종 + 가격·딜·회복까지 확장한 종합 전략 deck으로 재구성
+- 스타일: frontend-slides skill · Phase 2 거쳐 3 preview (Bold Signal · Paper & Ink · Dark Botanical) 비교 후 **Bold Signal 선택** — 다크 배경 + 오렌지 카드 + Archivo Black 영문 display + Pretendard 한글
+- 구조: 0부 서론(4) → 1부 Pre-launch(10) → 2부 Launch(12) → 3부 Post-launch(7) → 4부 적용(2), 35장
+- 핵심 정량 포인트: Carless Action 58.37% TAM · winner-take-all vs healthy 분포 (Arena 29 vs Roguelike 104·JRPG 121·Psych Horror 44) · $10 단절선 (0.15× → 0.10×) · ZR 8 driver tornado · Carless 원전 PEAK 266× (ZR 29× 한 자릿수 정정) · Mostly Positive 70% 알고리즘 게이트 · Demo +8% / Next Fest +4% / Year-1 38% 런치월 / 캡콤 9년 곡선 / Zukowski 28/18,239 회복률 0.156%
+- 생성:
+  - wiki/presentations/steam-launch-strategy-deck.html (35장, 약 107KB, 인라인 편집 기능 포함)
+  - wiki/presentations/steam-launch-strategy.md (wrapper)
+- 폐기 (3 files):
+  - wiki/presentations/steam-marketing-strategy-deck.html (2026-05-15 v2)
+  - wiki/presentations/steam-marketing-strategy-deck_bak.html (2026-05-15 v1)
+  - wiki/presentations/steam-marketing-strategy.md (wrapper)
+- 업데이트:
+  - wiki/presentations/all.md: steam-marketing-strategy 행 → steam-launch-strategy 행 교체
+  - wiki/index.md: pill-grid 항목 교체 (카운트 2 유지)
+- 메타: 프레젠테이션 2 유지 (1폐기 + 1신규)
+- 메모리 규칙 신설: feedback_slide_style_phase (frontend-slides Phase 2 절대 스킵 금지) + feedback_slide_personal_info (사용자 개인 정보·소속 언급 금지 + 생성 전 확인 단계) — Phase 2 임의 스킵 실수 + 개인 정보 잔재 가능성에 대응
+- 자매 관계: studio-risk-defense (다른 주제·다른 스타일 라인 — Quiet Brief / Notebook Tabs). 두 deck이 서로 다른 axis로 wiki를 재구성
+
 ## [2026-05-19] cleanup | sustainable-studio-staffing deck 폐기 (studio-risk-defense와 중복)
 - 트리거: 사용자 — 두 deck이 같은 위키 콘텐츠를 다루는 중복. studio-risk-defense 단독 유지로 정리
 - 삭제 (3 files):

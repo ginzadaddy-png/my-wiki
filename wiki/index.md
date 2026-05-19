@@ -119,7 +119,7 @@ Last updated 2026-05-19
 
 <div class="pill-grid">
 
-- [[presentations/steam-marketing-strategy|Steam 마케팅 전략 — 인디·중소 스튜디오용 출시·마케팅 종합]]
+- [[presentations/steam-launch-strategy|스팀 신규 게임 출시의 성공 방정식 — Pre·Launch·Post funnel · 8 driver 정량 모델]]
 - [[presentations/studio-risk-defense|스튜디오 리스크 방어 — 정리해고·자원 잠식·인재 유실을 차단하는 5축 메커니즘]]
 
 </div>

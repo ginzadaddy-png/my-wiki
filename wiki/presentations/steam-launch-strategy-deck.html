@@ -1,0 +1,1654 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>스팀 신규 게임 출시의 성공 방정식 — Launch Strategy Brief</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" as="style" crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+
+<style>
+/* ============================================================
+   THEME — Bold Signal (Dark + Orange Card)
+   ============================================================ */
+:root {
+  --bg-primary: #1a1a1a;
+  --bg-deep: #0d0d0d;
+  --bg-gradient: linear-gradient(135deg, #1a1a1a 0%, #232323 50%, #1a1a1a 100%);
+  --card-bg: #FF5722;
+  --card-text: #1a1a1a;
+  --accent: #FF5722;
+  --accent-yellow: #FFD60A;
+  --text-primary: #ffffff;
+  --text-soft: rgba(255,255,255,0.78);
+  --text-mute: rgba(255,255,255,0.5);
+  --text-dim: rgba(255,255,255,0.32);
+  --line: rgba(255,255,255,0.12);
+  --line-soft: rgba(255,255,255,0.06);
+  --panel-bg: rgba(255,255,255,0.04);
+  --panel-border: rgba(255,255,255,0.10);
+  --warn: #FFD60A;
+  --warn-bg: rgba(255,214,10,0.10);
+  --warn-border: rgba(255,214,10,0.35);
+  --ok: #FF5722;
+  --ok-bg: rgba(255,87,34,0.10);
+  --ok-border: rgba(255,87,34,0.35);
+
+  --font-display: "Archivo Black", "Pretendard Variable", sans-serif;
+  --font-body: "Space Grotesk", "Pretendard Variable", sans-serif;
+  --font-ko: "Pretendard Variable", "Space Grotesk", sans-serif;
+
+  --title-size:  clamp(1.7rem, 4.5vw, 3.6rem);
+  --h2-size:     clamp(1.35rem, 3vw, 2.4rem);
+  --h3-size:     clamp(1.05rem, 1.9vw, 1.4rem);
+  --body-size:   clamp(0.95rem, 1.4vw, 1.18rem);
+  --small-size:  clamp(0.85rem, 1.1vw, 1rem);
+  --tiny-size:   clamp(0.78rem, 1vw, 0.9rem);
+
+  --slide-padding: clamp(1rem, 3vw, 2.5rem);
+  --content-gap:   clamp(0.6rem, 1.8vh, 1.4rem);
+
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur: 0.7s;
+}
+
+/* ============================================================
+   BASE / VIEWPORT
+   ============================================================ */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { height: 100%; overflow-x: hidden; font-family: var(--font-ko); color: var(--text-primary); background: var(--bg-primary); }
+html { scroll-snap-type: y mandatory; scroll-behavior: smooth; }
+.slide { width: 100vw; height: 100vh; height: 100dvh; overflow: hidden; scroll-snap-align: start; display: flex; flex-direction: column; position: relative; padding: clamp(1rem, 2.5vw, 2rem); background: var(--bg-gradient); }
+.slide::before { content: ""; position: absolute; top: 5%; right: 4%; width: clamp(120px, 14vw, 220px); height: clamp(120px, 14vw, 220px); border: 1.5px solid rgba(255,255,255,0.04); border-radius: 50%; pointer-events: none; }
+.slide-inner { flex: 1; display: grid; grid-template-rows: auto 1fr auto; gap: clamp(0.8rem, 1.8vh, 1.4rem); max-width: 1500px; margin: 0 auto; width: 100%; min-height: 0; position: relative; z-index: 1; }
+
+img { max-width: 100%; max-height: min(50vh, 400px); object-fit: contain; }
+@media (max-height: 700px) { :root { --title-size: clamp(1.4rem, 4vw, 2.8rem); --h2-size: clamp(1.15rem, 2.6vw, 1.8rem); --slide-padding: clamp(0.75rem, 2vw, 1.5rem); --content-gap: clamp(0.4rem, 1.2vh, 1rem); } }
+@media (max-height: 600px) { :root { --title-size: clamp(1.2rem, 3.5vw, 2.2rem); --body-size: clamp(0.85rem, 1.1vw, 1rem); } .nav-dots, .keyboard-hint { display: none; } }
+@media (max-height: 500px) { :root { --title-size: clamp(1.05rem, 3vw, 1.7rem); --h2-size: clamp(0.95rem, 2.3vw, 1.35rem); --body-size: clamp(0.8rem, 1vw, 0.92rem); } }
+@media (max-width: 600px) { :root { --title-size: clamp(1.25rem, 6vw, 2.4rem); } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.2s !important; } html { scroll-behavior: auto; } }
+
+/* ============================================================
+   HEAD (number + breadcrumb) / FOOT
+   ============================================================ */
+.head {
+  display: flex; justify-content: space-between; align-items: center;
+  padding-bottom: clamp(0.5rem, 1vh, 0.9rem);
+  border-bottom: 1px solid var(--line);
+}
+.head .section-num {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3.2vw, 2.4rem);
+  line-height: 1; letter-spacing: -0.03em;
+  color: var(--text-primary);
+}
+.head .section-num .small { font-size: 0.42em; vertical-align: super; color: var(--text-mute); letter-spacing: 0.15em; font-family: var(--font-body); font-weight: 600; margin-left: 0.15em; }
+.breadcrumb {
+  display: flex; gap: clamp(0.5rem, 1.2vw, 1rem);
+  font-family: var(--font-body);
+  font-size: clamp(0.78rem, 1vw, 0.95rem);
+  font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase;
+}
+.breadcrumb span { color: var(--text-dim); transition: color 0.3s var(--ease); position: relative; }
+.breadcrumb span.active { color: var(--accent); }
+.breadcrumb span.active::after { content: ""; position: absolute; left: 0; right: 0; bottom: -0.6em; height: 2px; background: var(--accent); }
+
+.foot {
+  display: flex; justify-content: space-between; align-items: center;
+  padding-top: clamp(0.5rem, 1vh, 0.9rem);
+  border-top: 1px solid var(--line);
+  font-family: var(--font-body);
+  font-size: var(--small-size);
+  color: var(--text-mute);
+  letter-spacing: 0.18em; text-transform: uppercase; font-weight: 500;
+}
+.foot .src { color: var(--text-dim); font-weight: 400; letter-spacing: 0.08em; text-transform: none; font-size: var(--tiny-size); }
+.foot .page-num { font-family: var(--font-display); font-size: clamp(0.9rem, 1.2vw, 1.05rem); color: var(--text-primary); letter-spacing: 0.1em; }
+
+/* ============================================================
+   BODY content
+   ============================================================ */
+.body {
+  display: flex; flex-direction: column; gap: var(--content-gap);
+  min-height: 0; overflow: hidden;
+  padding: clamp(0.5rem, 1.5vh, 1.2rem) 0;
+}
+.label {
+  font-family: var(--font-body);
+  font-size: clamp(0.85rem, 1.15vw, 1.05rem);
+  font-weight: 700; letter-spacing: 0.32em; text-transform: uppercase;
+  color: var(--accent);
+}
+.label .seq { color: var(--text-dim); margin-right: 0.5em; font-weight: 600; }
+h2.title {
+  font-family: var(--font-ko);
+  font-weight: 800;
+  font-size: var(--h2-size);
+  line-height: 1.12; letter-spacing: -0.035em;
+  color: var(--text-primary);
+}
+h2.title em { font-style: normal; color: var(--accent); }
+h2.title .warn { color: var(--warn); font-style: normal; }
+.lede {
+  font-family: var(--font-ko);
+  font-size: var(--body-size); line-height: 1.65;
+  color: var(--text-soft); max-width: 76ch;
+  font-weight: 400;
+}
+.lede strong { color: var(--text-primary); font-weight: 600; }
+.lede em { font-style: normal; color: var(--warn); font-weight: 600; }
+
+/* ============================================================
+   COMPONENTS
+   ============================================================ */
+.bullets { display: flex; flex-direction: column; gap: clamp(0.45rem, 1.1vh, 0.85rem); }
+.bullets li {
+  list-style: none;
+  font-size: var(--body-size); line-height: 1.55; color: var(--text-soft);
+  padding-left: clamp(1.3rem, 2.2vw, 1.8rem);
+  position: relative;
+}
+.bullets li::before {
+  content: "";
+  position: absolute; left: 0; top: clamp(0.55rem, 1.1vh, 0.7rem);
+  width: clamp(0.7rem, 1.3vw, 1rem); height: 2px;
+  background: var(--accent);
+}
+.bullets li strong { color: var(--text-primary); font-weight: 700; }
+.bullets li em { font-style: normal; color: var(--warn); font-weight: 700; }
+
+.cards { display: grid; gap: clamp(0.6rem, 1.4vw, 1.1rem); }
+.cards.col-2 { grid-template-columns: repeat(2, 1fr); }
+.cards.col-3 { grid-template-columns: repeat(3, 1fr); }
+.cards.col-4 { grid-template-columns: repeat(4, 1fr); }
+.cards.col-5 { grid-template-columns: repeat(5, 1fr); }
+.card-r {
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-left: 3px solid var(--accent);
+  border-radius: 4px;
+  padding: clamp(0.7rem, 1.4vw, 1.1rem);
+  display: flex; flex-direction: column; gap: clamp(0.3rem, 0.8vh, 0.55rem);
+  min-width: 0;
+}
+.card-r.danger { border-left-color: var(--warn); }
+.card-r .num {
+  font-family: var(--font-body);
+  font-size: clamp(0.78rem, 1vw, 0.92rem);
+  font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--accent);
+}
+.card-r.danger .num { color: var(--warn); }
+.card-r .t {
+  font-family: var(--font-ko);
+  font-size: clamp(0.98rem, 1.4vw, 1.15rem);
+  font-weight: 800; color: var(--text-primary);
+  line-height: 1.25; letter-spacing: -0.015em;
+}
+.card-r .d {
+  font-size: clamp(0.9rem, 1.18vw, 1.05rem);
+  line-height: 1.5; color: var(--text-soft);
+}
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: clamp(0.5rem, 1.2vw, 1rem); }
+.stat {
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-top: 3px solid var(--accent);
+  border-radius: 4px;
+  padding: clamp(0.7rem, 1.4vw, 1.1rem);
+  display: flex; flex-direction: column; gap: clamp(0.25rem, 0.6vh, 0.45rem);
+}
+.stat.danger { border-top-color: var(--warn); }
+.stat.hero { background: var(--ok-bg); border-top-color: var(--accent); border: 1px solid var(--ok-border); border-top-width: 3px; }
+.stat .v {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3.3vw, 2.5rem);
+  font-weight: 900; line-height: 1; letter-spacing: -0.03em;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+.stat.danger .v { color: var(--warn); }
+.stat .l {
+  font-family: var(--font-body);
+  font-size: var(--tiny-size);
+  color: var(--text-mute);
+  letter-spacing: 0.12em; font-weight: 700; text-transform: uppercase;
+}
+.stat .s {
+  font-size: var(--small-size);
+  color: var(--text-soft);
+  line-height: 1.4; margin-top: clamp(0.15rem, 0.4vh, 0.3rem);
+}
+
+/* Tornado */
+.tornado { display: flex; flex-direction: column; gap: clamp(0.4rem, 1vh, 0.7rem); }
+.tornado .row { display: grid; grid-template-columns: clamp(170px, 24vw, 270px) 1fr clamp(80px, 10vw, 120px); gap: clamp(0.6rem, 1.2vw, 1rem); align-items: center; }
+.tornado .row .name { font-family: var(--font-ko); font-size: var(--small-size); font-weight: 700; color: var(--text-primary); letter-spacing: -0.01em; }
+.tornado .row .barbox { background: rgba(255,255,255,0.05); border: 1px solid var(--line-soft); border-radius: 3px; height: clamp(16px, 1.8vh, 24px); overflow: hidden; }
+.tornado .row .bar { height: 100%; background: linear-gradient(90deg, var(--accent), #c43a13); border-radius: 3px; transition: width 0.9s var(--ease); }
+.tornado .row.warn .bar { background: linear-gradient(90deg, var(--warn), #b89500); }
+.tornado .row .v { font-family: var(--font-body); font-size: var(--small-size); color: var(--text-soft); font-variant-numeric: tabular-nums; text-align: right; font-weight: 700; }
+
+/* Bars (month) */
+.bars { display: flex; align-items: flex-end; gap: clamp(0.3rem, 0.7vw, 0.6rem); height: clamp(120px, 24vh, 240px); padding: clamp(0.5rem, 1vh, 1rem) 0; border-bottom: 1px solid var(--line); }
+.bar-col { flex: 1; display: flex; flex-direction: column; align-items: center; gap: clamp(0.2rem, 0.4vh, 0.4rem); min-width: 0; }
+.bar-col .bar { width: 100%; background: linear-gradient(180deg, var(--accent), #b8390d); border-radius: 3px 3px 0 0; min-height: 6px; }
+.bar-col.hero .bar { background: linear-gradient(180deg, var(--warn), #c9a300); }
+.bar-col .label-x { font-family: var(--font-body); font-size: var(--tiny-size); color: var(--text-mute); font-variant-numeric: tabular-nums; font-weight: 600; }
+.bar-col .v-top { font-family: var(--font-body); font-size: var(--tiny-size); color: var(--text-primary); font-weight: 700; font-variant-numeric: tabular-nums; }
+
+/* SVG chart (Capcom 9년 곡선 등 — 변별력 위해 trend line + y축 + 값 라벨) */
+.chart-svg { width: 100%; padding: clamp(0.3rem, 0.8vh, 0.6rem) 0; }
+.chart-svg svg { width: 100%; max-height: clamp(180px, 30vh, 300px); display: block; }
+.chart-svg svg text { font-family: var(--font-body); }
+.chart-svg .y-axis text, .chart-svg .x-axis text { font-size: 13px; fill: var(--text-mute); font-weight: 600; }
+.chart-svg .vals text { font-size: 14px; font-weight: 700; fill: var(--text-primary); font-variant-numeric: tabular-nums; }
+.chart-svg .trend-label { font-size: 11px; fill: var(--warn); font-weight: 700; letter-spacing: 0.12em; }
+
+/* Table */
+.tbl { width: 100%; border-collapse: collapse; font-family: var(--font-ko); font-size: var(--small-size); color: var(--text-soft); }
+.tbl th, .tbl td { padding: clamp(0.4rem, 0.95vh, 0.65rem) clamp(0.45rem, 1vw, 0.75rem); text-align: left; vertical-align: top; }
+.tbl thead th { background: rgba(255,255,255,0.05); color: var(--text-primary); font-family: var(--font-body); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; font-size: var(--tiny-size); border-bottom: 1px solid var(--accent); }
+.tbl tbody tr { border-bottom: 1px solid var(--line-soft); }
+.tbl tbody tr:hover { background: rgba(255,87,34,0.04); }
+.tbl td.strong { color: var(--text-primary); font-weight: 700; }
+.tbl td.num { font-variant-numeric: tabular-nums; font-family: var(--font-body); font-weight: 600; }
+.tbl td.dim { color: var(--text-dim); font-variant-numeric: tabular-nums; }
+.tbl td.warn { color: var(--warn); font-weight: 700; }
+.tbl td.ok { color: var(--accent); font-weight: 700; }
+.tbl td.hi { background: rgba(255,87,34,0.06); color: var(--text-primary); }
+
+/* Callout */
+.callout {
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-left: 3px solid var(--accent);
+  padding: clamp(0.7rem, 1.4vw, 1.1rem) clamp(0.9rem, 1.8vw, 1.4rem);
+  font-size: var(--body-size); line-height: 1.6; color: var(--text-soft);
+  border-radius: 0 4px 4px 0;
+}
+.callout strong { color: var(--text-primary); }
+.callout em { font-style: normal; color: var(--accent); font-weight: 700; }
+.callout.warn { border-left-color: var(--warn); background: var(--warn-bg); border-color: var(--warn-border); color: var(--text-soft); }
+.callout.warn strong { color: var(--warn); }
+.callout.warn em { color: var(--warn); }
+.callout .lbl { display: block; font-family: var(--font-body); font-size: var(--tiny-size); color: var(--accent); font-weight: 800; letter-spacing: 0.24em; margin-bottom: 0.4rem; text-transform: uppercase; }
+.callout.warn .lbl { color: var(--warn); }
+
+/* Diagram */
+.diagram { display: flex; align-items: center; justify-content: center; gap: clamp(0.5rem, 1.2vw, 1rem); flex-wrap: wrap; padding: clamp(0.5rem, 1.5vh, 1rem) 0; }
+.node {
+  background: var(--panel-bg);
+  border: 1.5px solid var(--panel-border);
+  border-radius: 6px;
+  padding: clamp(0.7rem, 1.4vw, 1.1rem) clamp(0.9rem, 1.8vw, 1.5rem);
+  font-family: var(--font-body); font-weight: 700;
+  font-size: var(--small-size); letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--text-primary); text-align: center;
+  min-width: clamp(100px, 14vw, 180px);
+}
+.node .sub { display: block; font-family: var(--font-ko); font-size: var(--tiny-size); color: var(--text-mute); font-weight: 500; margin-top: 0.3rem; letter-spacing: 0; text-transform: none; }
+.node.danger { border-color: var(--warn); color: var(--warn); }
+.node.ok { border-color: var(--accent); color: var(--accent); }
+.arrow { color: var(--text-dim); font-size: clamp(1.1rem, 1.8vw, 1.5rem); font-weight: 700; }
+
+/* Two-col */
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(0.9rem, 2vw, 1.6rem); min-height: 0; }
+.col {
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 4px;
+  padding: clamp(0.9rem, 1.6vw, 1.3rem);
+  display: flex; flex-direction: column; gap: clamp(0.5rem, 1vh, 0.8rem);
+}
+.col h3 {
+  font-family: var(--font-body);
+  font-size: var(--h3-size); font-weight: 800;
+  color: var(--text-primary); letter-spacing: 0.06em;
+  padding-bottom: clamp(0.35rem, 0.8vh, 0.55rem);
+  border-bottom: 2px solid var(--accent);
+  text-transform: uppercase;
+}
+.col.danger h3 { border-bottom-color: var(--warn); color: var(--warn); }
+.col p, .col li { font-family: var(--font-ko); font-size: var(--small-size); line-height: 1.5; color: var(--text-soft); }
+
+/* Formula box */
+.formula {
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-left: 3px solid var(--accent);
+  padding: clamp(1.1rem, 2.2vw, 1.8rem);
+  border-radius: 4px;
+  font-family: var(--font-body);
+  font-size: clamp(0.95rem, 1.4vw, 1.18rem);
+  line-height: 1.7; color: var(--text-primary);
+  font-weight: 600; letter-spacing: -0.005em;
+  text-align: center;
+}
+.formula em { font-style: normal; color: var(--accent); font-weight: 800; }
+.formula .small { display: block; font-size: var(--small-size); color: var(--text-mute); margin-top: 0.5rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; }
+
+/* ============================================================
+   COVER (slide 01)
+   ============================================================ */
+.cover {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: clamp(1.5rem, 4vw, 3.5rem);
+  gap: clamp(1rem, 3vw, 2.5rem);
+  max-width: 1500px;
+  margin: 0 auto;
+  width: 100%;
+  background: var(--bg-gradient);
+  position: relative;
+  z-index: 1;
+}
+.cover::after {
+  content: ""; position: absolute; bottom: 10%; left: 35%;
+  width: clamp(50px, 7vw, 100px); height: clamp(50px, 7vw, 100px);
+  background: var(--accent-yellow);
+  border-radius: 50%; opacity: 0.08; filter: blur(28px);
+  pointer-events: none;
+}
+.cover .cover-left { display: flex; flex-direction: column; justify-content: space-between; padding: clamp(0.5rem, 1vw, 1rem) 0; }
+.cover .cover-num { font-family: var(--font-display); font-size: clamp(3.2rem, 9vw, 7rem); line-height: 0.85; color: var(--text-primary); letter-spacing: -0.04em; }
+.cover .cover-num .small { font-size: 0.3em; vertical-align: super; color: var(--text-mute); letter-spacing: 0.2em; }
+.cover .cover-nav { display: flex; gap: clamp(0.6rem, 1.4vw, 1.2rem); font-family: var(--font-body); font-size: clamp(0.78rem, 1vw, 0.95rem); font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; margin-top: clamp(1rem, 2vh, 1.6rem); }
+.cover .cover-nav span { color: var(--text-mute); }
+.cover .cover-nav span.active { color: var(--accent-yellow); }
+.cover .cover-eyebrow { font-family: var(--font-body); font-size: clamp(0.78rem, 1.05vw, 1rem); letter-spacing: 0.3em; color: var(--accent-yellow); font-weight: 600; text-transform: uppercase; margin-bottom: clamp(0.5rem, 1vh, 0.8rem); }
+.cover .cover-subtitle { font-family: var(--font-display); font-size: clamp(1rem, 1.6vw, 1.5rem); color: var(--text-primary); letter-spacing: -0.01em; line-height: 1.15; }
+.cover .cover-subtitle em { font-style: normal; color: var(--accent-yellow); }
+.cover .cover-meta { font-family: var(--font-body); font-size: clamp(0.78rem, 1vw, 0.92rem); color: var(--text-mute); letter-spacing: 0.2em; font-weight: 500; }
+.cover .cover-card {
+  background: var(--card-bg);
+  border-radius: clamp(8px, 1vw, 14px);
+  padding: clamp(1.5rem, 3.5vw, 3rem);
+  display: flex; flex-direction: column; justify-content: space-between;
+  color: var(--card-text);
+  box-shadow: 0 30px 80px rgba(255, 87, 34, 0.25);
+  position: relative; overflow: hidden;
+  z-index: 2;
+}
+.cover .cover-card::before { content: ""; position: absolute; top: -20%; left: -10%; width: 60%; height: 60%; background: radial-gradient(circle, rgba(255,255,255,0.18), transparent 60%); pointer-events: none; }
+.cover .cover-stamp { font-family: var(--font-body); font-size: clamp(0.78rem, 1vw, 0.92rem); font-weight: 700; letter-spacing: 0.25em; text-transform: uppercase; padding: clamp(0.35rem, 0.6vh, 0.5rem) clamp(0.7rem, 1vw, 0.95rem); border: 2px solid var(--card-text); border-radius: 4px; align-self: flex-start; display: inline-flex; gap: 0.5rem; align-items: center; }
+.cover .cover-stamp::before { content: ""; width: 8px; height: 8px; background: var(--card-text); border-radius: 50%; }
+.cover .cover-title { font-family: var(--font-ko); font-weight: 900; font-size: clamp(2rem, 5vw, 4.4rem); line-height: 1.04; letter-spacing: -0.045em; color: var(--card-text); }
+.cover .cover-title em { font-style: normal; background: var(--card-text); color: var(--card-bg); padding: 0.02em 0.18em; border-radius: 3px; display: inline-block; }
+.cover .cover-toc { display: flex; flex-wrap: wrap; gap: clamp(0.4rem, 0.9vw, 0.7rem); }
+.cover .cover-toc span { font-family: var(--font-body); font-weight: 700; font-size: clamp(0.75rem, 0.95vw, 0.88rem); padding: clamp(0.3rem, 0.5vh, 0.45rem) clamp(0.6rem, 1vw, 0.9rem); border: 1.5px solid var(--card-text); border-radius: 999px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--card-text); }
+
+/* ============================================================
+   ANIMATIONS
+   ============================================================ */
+.reveal { opacity: 0; transform: translateY(20px); transition: opacity var(--dur) var(--ease), transform var(--dur) var(--ease); }
+.slide.visible .reveal { opacity: 1; transform: translateY(0); }
+.slide.visible .reveal.d1 { transition-delay: 0.05s; }
+.slide.visible .reveal.d2 { transition-delay: 0.18s; }
+.slide.visible .reveal.d3 { transition-delay: 0.32s; }
+.slide.visible .reveal.d4 { transition-delay: 0.46s; }
+.slide.visible .reveal.d5 { transition-delay: 0.6s; }
+.slide.visible .reveal.d6 { transition-delay: 0.74s; }
+.slide.visible .reveal.d7 { transition-delay: 0.88s; }
+
+/* ============================================================
+   NAVIGATION (progress, dots, hint)
+   ============================================================ */
+.progress { position: fixed; top: 0; left: 0; height: 3px; background: var(--accent); z-index: 100; transition: width 0.2s var(--ease); pointer-events: none; }
+.nav-dots { position: fixed; right: clamp(0.4rem, 1vw, 0.8rem); top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; gap: 5px; z-index: 99; padding: clamp(0.4rem, 1vw, 0.6rem); background: rgba(13,13,13,0.7); border-radius: 999px; backdrop-filter: blur(8px); max-height: 80vh; overflow-y: auto; }
+.nav-dots::-webkit-scrollbar { display: none; }
+.nav-dots button { width: 8px; height: 8px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.32); background: transparent; cursor: pointer; padding: 0; transition: all 0.25s var(--ease); flex-shrink: 0; }
+.nav-dots button.active { background: var(--accent); border-color: var(--accent); transform: scale(1.4); }
+.nav-dots button:hover { background: rgba(255,87,34,0.5); }
+.keyboard-hint { position: fixed; bottom: clamp(0.5rem, 1.2vw, 1rem); left: 50%; transform: translateX(-50%); font-family: var(--font-body); font-size: var(--tiny-size); color: rgba(255,255,255,0.32); letter-spacing: 0.18em; z-index: 99; pointer-events: none; }
+
+/* ============================================================
+   INLINE EDITING
+   ============================================================ */
+.edit-hotzone { position: fixed; top: 0; left: 0; width: 80px; height: 80px; z-index: 10000; cursor: pointer; }
+.edit-toggle {
+  position: fixed; top: clamp(0.6rem, 1.2vw, 1rem); left: clamp(0.6rem, 1.2vw, 1rem);
+  width: clamp(36px, 4vw, 44px); height: clamp(36px, 4vw, 44px);
+  border-radius: 50%; background: var(--accent); color: #fff;
+  border: 2px solid #fff; box-shadow: 0 4px 14px rgba(0,0,0,0.4);
+  font-size: clamp(0.9rem, 1.4vw, 1.1rem); cursor: pointer; z-index: 10001;
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0; pointer-events: none; transition: opacity 0.3s var(--ease), transform 0.2s var(--ease);
+}
+.edit-toggle:hover { transform: scale(1.1); }
+.edit-toggle.show, .edit-toggle.active { opacity: 1; pointer-events: auto; }
+.edit-toggle.active { background: var(--warn); color: var(--bg-deep); }
+.edit-banner {
+  position: fixed; top: clamp(0.6rem, 1.2vw, 1rem); left: 50%; transform: translateX(-50%);
+  background: var(--warn); color: var(--bg-deep);
+  padding: clamp(0.4rem, 0.8vh, 0.6rem) clamp(0.9rem, 1.8vw, 1.4rem);
+  border-radius: 999px; font-family: var(--font-body); font-size: var(--small-size); font-weight: 700;
+  letter-spacing: 0.1em; z-index: 10000;
+  opacity: 0; pointer-events: none; transition: opacity 0.3s var(--ease);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.4);
+}
+.edit-banner.active { opacity: 1; }
+body.edit-active [contenteditable="true"] { outline: 2px dashed var(--warn); outline-offset: 4px; border-radius: 2px; cursor: text; }
+body.edit-active [contenteditable="true"]:focus { outline-style: solid; outline-color: var(--accent); background: rgba(255,255,255,0.06); }
+</style>
+</head>
+<body>
+
+<!-- Inline editing UI -->
+<div class="edit-hotzone" aria-hidden="true"></div>
+<button class="edit-toggle" id="editToggle" title="편집 모드 (E 키)" aria-label="편집 모드">✏️</button>
+<div class="edit-banner" id="editBanner">편집 모드 · Ctrl+S 저장 · Ctrl+E 내보내기 · E 키로 종료</div>
+
+<!-- Progress + nav -->
+<div class="progress" id="progress"></div>
+<nav class="nav-dots" id="navDots" aria-label="슬라이드 네비게이션"></nav>
+<div class="keyboard-hint">← → SPACE</div>
+
+<!-- ===== SLIDE 01 — 표지 ===== -->
+<section class="slide" data-section="0">
+  <div class="cover">
+    <div class="cover-left">
+      <div>
+        <div class="cover-num reveal d1">00<span class="small">/ 35</span></div>
+        <div class="cover-nav reveal d2">
+          <span class="active">INTRO</span><span>PRE</span><span>LAUNCH</span><span>POST</span><span>USE</span>
+        </div>
+      </div>
+      <div>
+        <div class="cover-eyebrow reveal d3">— STEAM LAUNCH STRATEGY BRIEF</div>
+        <div class="cover-subtitle reveal d4">Pre · <em>Launch</em> · Post — <em>data-driven</em> launch playbook for indie &amp; mid-size studios.</div>
+      </div>
+      <div class="cover-meta reveal d5">2026 · 05 · 19 &nbsp;·&nbsp; INTERNAL &nbsp;·&nbsp; v1</div>
+    </div>
+    <div class="cover-card reveal d3">
+      <span class="cover-stamp">LAUNCH BRIEF</span>
+      <h1 class="cover-title">스팀 신규 게임 출시의<br><em>성공 방정식</em></h1>
+      <div class="cover-toc">
+        <span>장르·시장</span><span>가격·딜</span><span>8 Driver</span><span>런치</span><span>회복</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SLIDE 02 — 시장의 기본값 ===== -->
+<section class="slide" data-section="0">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">01<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span class="active">INTRO</span><span>PRE</span><span>LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">00 · SECTION INTRO</span> 시장의 기본값</p>
+      <h2 class="title reveal d3"><em>2.99%</em>의 성공률, <span class="warn">0.156%</span>의 회복률</h2>
+      <p class="lede reveal d4">2025년 출시 <strong>20,282 게임</strong> 중 1,000+ review 달성 <strong>608개 (2.99%) — 역대 최고</strong>. 그러나 첫 30일에 review 150 미만으로 시작한 게임이 1년 뒤 500+ review로 회복한 사례는 18,239 중 <em>28개 (0.156%)</em>. <strong>런치 첫 달이 결과의 거의 전부를 결정한다.</strong></p>
+      <div class="stats reveal d5">
+        <div class="stat"><span class="v">20,282</span><span class="l">2025 출시 게임</span><span class="s">+11% YoY (Zukowski)</span></div>
+        <div class="stat hero"><span class="v">2.99%</span><span class="l">1000-review 달성</span><span class="s">역대 최고 — 골든 에이지</span></div>
+        <div class="stat danger"><span class="v">0.156%</span><span class="l">1년 후 회복률</span><span class="s">28 / 18,239 (2024 cohort)</span></div>
+        <div class="stat"><span class="v">3</span><span class="l">1차 데이터 출처</span><span class="s">Carless · Zukowski · ZR</span></div>
+      </div>
+    </section>
+    <footer class="foot reveal d6"><span class="src">출처 · Zukowski 2026-01 · Zukowski 2026-02</span><span class="page-num">02 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 03 — Truth source ===== -->
+<section class="slide" data-section="0">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">02<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span class="active">INTRO</span><span>PRE</span><span>LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">01 · TRUTH SOURCE</span> 1차 출처</p>
+      <h2 class="title reveal d3">본 deck의 <em>1차 출처</em> — Carless · Zukowski · ZR</h2>
+      <div class="cards col-3 reveal d4">
+        <div class="card-r">
+          <span class="num">01 · GAMEDISCOVERCO</span>
+          <span class="t">Simon Carless</span>
+          <span class="d">$1M+ LTD 전수 매트릭스 + 위시리스트 conversion macro (2024-09 ~ 2025-09). 1 genre + 1 subgenre 강제 할당으로 TAM 분배 도출.</span>
+        </div>
+        <div class="card-r">
+          <span class="num">02 · HOWTOMARKETAGAME</span>
+          <span class="t">Chris Zukowski</span>
+          <span class="d">2025 출시 20,282 전수 + 2024 weak launch 18,239 recovery 분석. VGInsights 데이터 기반.</span>
+        </div>
+        <div class="card-r">
+          <span class="num">03 · ZR CONSULTING</span>
+          <span class="t">DACH Publisher</span>
+          <span class="d">8 driver Steam Revenue Forecaster + 5 deal stress test. Carless·Zukowski 1차 데이터를 calibration layer로 통합.</span>
+        </div>
+      </div>
+      <div class="callout warn reveal d5"><span class="lbl">⚠️ Calibration 주의</span>ZR Forecaster의 일부 outlier multiplier는 Carless 원전 대비 <strong>한 자릿수 축소</strong>되어 인용되었음 (PEAK 29× ↔ 원전 <em>266×</em>, Mage 8.7× ↔ <em>78×</em>). 본 deck는 1차 데이터 우선.</div>
+    </section>
+    <footer class="foot reveal d6"><span class="src"></span><span class="page-num">03 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 04 — 의사결정 흐름 ===== -->
+<section class="slide" data-section="0">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">03<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span class="active">INTRO</span><span>PRE</span><span>LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">02 · OVERVIEW</span> 의사결정 흐름</p>
+      <h2 class="title reveal d3"><em>3 단계</em> · 1 funnel</h2>
+      <div class="diagram reveal d4">
+        <div class="node ok">PRE-LAUNCH<span class="sub">장르 · 가격 · 딜 · Buzz</span></div>
+        <div class="arrow">→</div>
+        <div class="node">LAUNCH<span class="sub">8 driver · review · context</span></div>
+        <div class="arrow">→</div>
+        <div class="node danger">POST-LAUNCH<span class="sub">회복 · long tail</span></div>
+      </div>
+      <ul class="bullets reveal d5">
+        <li><strong>Pre-launch (10장)</strong> — 어느 장르? 얼마에? 누구와? 장르 TAM · sub-genre 분포 · 가격대 · publisher deal</li>
+        <li><strong>Launch (12장)</strong> — 매출 = f(8 driver). Wishlists · buzz · review tier · demo · Next Fest · time distribution · ARPU</li>
+        <li><strong>Post-launch (7장)</strong> — 첫 달 후 시장이 결정. 회복 가능 조건 · 5 메커니즘 · long tail catalog</li>
+        <li><strong>적용 (2장)</strong> — 한국 인디 적용 시사 + self-diagnosis 6 질문</li>
+      </ul>
+    </section>
+    <footer class="foot reveal d6"><span class="src"></span><span class="page-num">04 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 05 — PRE 1: 6 layer ===== -->
+<section class="slide" data-section="1">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">04<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span class="active">PRE</span><span>LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">SECTION 01 · PRE-LAUNCH</span> 결정 트리</p>
+      <h2 class="title reveal d3"><em>6 layer</em> — 출시 전에 답해야 할 질문들</h2>
+      <div class="cards col-3 reveal d4">
+        <div class="card-r"><span class="num">L1 · 장르</span><span class="t">어느 4대 genre?</span><span class="d">Action 58.37% vs RPG 17.11% vs Strategy 13.97% vs Sim 9.76% — Carless TAM</span></div>
+        <div class="card-r"><span class="num">L2 · 서브장르</span><span class="t">winner-take-all? healthy?</span><span class="d">Arena Shooter 29개 vs Action Roguelike 104 · JRPG 121 · Psych Horror 44</span></div>
+        <div class="card-r"><span class="num">L3 · 가격</span><span class="t">$30 / $40-50 / $70+?</span><span class="d">$30 미만 +156% · $30-50 +195% · $70+ 정체. $10 단절선</span></div>
+        <div class="card-r"><span class="num">L4 · Publisher Deal</span><span class="t">Self-pub vs MG vs Recoup?</span><span class="d">5 standard structures + Self-publish baseline. downside 분포로 stress test</span></div>
+        <div class="card-r"><span class="num">L5 · Buzz</span><span class="t">어디 tier까지?</span><span class="d">None 1.0× → Phenom 2.5× (연 1회). Hades · Balatro · Vampire Survivors</span></div>
+        <div class="card-r"><span class="num">L6 · Timing</span><span class="t">Demo · Next Fest?</span><span class="d">Demo +8% · Next Fest +4% (독립·곱셈). 페스트 1개월 전 데모 출시</span></div>
+      </div>
+    </section>
+    <footer class="foot reveal d5"><span class="src"></span><span class="page-num">05 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 06 — PRE 2: TAM ===== -->
+<section class="slide" data-section="1">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">05<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span class="active">PRE</span><span>LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">L1 · STEAM TAM</span> 장르 매출 분배</p>
+      <h2 class="title reveal d3"><em>Action 58.37%</em> — Steam 매출의 압도적 우위</h2>
+      <div class="stats reveal d4" style="grid-template-columns: repeat(5, 1fr);">
+        <div class="stat hero"><span class="v">58.37%</span><span class="l">ACTION</span><span class="s">Counter-Strike 2 · GTA V · evergreen 견인</span></div>
+        <div class="stat"><span class="v">17.11%</span><span class="l">ROLE-PLAYING</span><span class="s">Warframe · MMORPG · CRPG</span></div>
+        <div class="stat"><span class="v">13.97%</span><span class="l">STRATEGY</span><span class="s">DOTA 2 · Total War · Stellaris</span></div>
+        <div class="stat"><span class="v">9.76%</span><span class="l">SIMULATION</span><span class="s">Arma 3 · ETS 2 · Forza · Stardew</span></div>
+        <div class="stat"><span class="v">~0.8%</span><span class="l">SPORTS · OTHER</span><span class="s">잔여 카테고리</span></div>
+      </div>
+      <p class="lede reveal d5"><strong>매출 비중 ≠ 게임 수 비중.</strong> Action 안에서도 Arena Shooter · Battle Royale은 *소수 evergreen 타이틀*이 비중을 만든다. "내 게임도 그 평균만큼 벌까?"는 *답이 거의 아니다*.</p>
+      <div class="callout reveal d6"><span class="lbl">CARLESS TAXONOMY</span>>$1M LTD 매출 달성한 모든 Steam 게임에 <strong>1 genre + 1 subgenre 강제 할당</strong>해 만든 첫 TAM 매트릭스. ZR이 인용한 "Action Roguelike 104 · JRPG 121 · Psych Horror 44"의 *1차 출처*.</div>
+    </section>
+    <footer class="foot reveal d7"><span class="src">출처 · GameDiscoverCo Carless 2025-06</span><span class="page-num">06 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 07 — PRE 3: 서브장르 매트릭스 ===== -->
+<section class="slide" data-section="1">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">06<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span class="active">PRE</span><span>LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">L2 · SUB-GENRE</span> 매트릭스</p>
+      <h2 class="title reveal d3">4 genre × <em>4 sub-genre</em> 매트릭스</h2>
+      <div class="cards col-4 reveal d4">
+        <div class="card-r">
+          <span class="num">ACTION</span>
+          <span class="t">$5B+ standouts</span>
+          <span class="d">Arena Shooter $9.52B · FPS $6.67B · Action-Adv $5.70B · OWSC $5.34B</span>
+        </div>
+        <div class="card-r">
+          <span class="num">ROLE-PLAYING</span>
+          <span class="t">$1.6 ~ 3.9B</span>
+          <span class="d">Action RPG $3.89B · MMORPG $3.69B · CRPG $2.69B · RPG $1.60B</span>
+        </div>
+        <div class="card-r">
+          <span class="num">STRATEGY</span>
+          <span class="t">$1.0 ~ 2.3B</span>
+          <span class="d">MOBA $2.31B · RTS $1.84B · Grand Strat $1.16B · 4X $1.01B</span>
+        </div>
+        <div class="card-r">
+          <span class="num">SIMULATION</span>
+          <span class="t">$0.85 ~ 3.74B</span>
+          <span class="d">Simulation $3.74B · Job Sim $1.36B · Racing $942M · Farming $851M</span>
+        </div>
+      </div>
+      <div class="callout reveal d5"><span class="lbl">선택의 기준</span>매출이 큰 sub-genre 안에서도 *내 게임이 evergreen leader가 될 가능성*과 *분포가 healthy한가*는 다른 질문. 다음 슬라이드에서 분리.</div>
+    </section>
+    <footer class="foot reveal d6"><span class="src">출처 · Carless 2025-06 LTD 매트릭스</span><span class="page-num">07 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 08 — PRE 4: winner-take-all vs healthy ===== -->
+<section class="slide" data-section="1">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">07<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span class="active">PRE</span><span>LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">L2 · 진입 가능성</span> 분포 분석</p>
+      <h2 class="title reveal d3">같은 *매출* — <em>정반대</em>의 진입 가능성</h2>
+      <div class="two-col reveal d4">
+        <div class="col danger">
+          <h3>WINNER-TAKE-ALL · 어려움</h3>
+          <p><strong>Arena Shooter · Battle Royale · Hero Shooter</strong></p>
+          <ul class="bullets" style="margin-top: 0.5rem;">
+            <li>전 Steam 역사 통틀어 $1M+ <em>29개만</em></li>
+            <li>2020 이후 $25M+: <strong>Naraka · Overwatch 2 · Marvel Rivals — 단 3개</strong></li>
+            <li>대형 자본 + 차별화 + 빠른 출시 동시 필요</li>
+            <li><em>인디·중소 적합도: ❌</em></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>HEALTHY 분포 · 가능</h3>
+          <p><strong>신규 진입자에게 친화적인 sub-genre</strong></p>
+          <ul class="bullets" style="margin-top: 0.5rem;">
+            <li><strong>Action Roguelike <em style="color: var(--accent);">104개</em></strong> — 70+개가 2020 이후 출시</li>
+            <li><strong>JRPG <em style="color: var(--accent);">121개</em></strong> — 가장 많은 진입자</li>
+            <li><strong>Psych Horror <em style="color: var(--accent);">44개</em></strong> — 작지만 충성 audience</li>
+            <li>메가히트 독점 *아직 발생 안 함*</li>
+          </ul>
+        </div>
+      </div>
+      <div class="callout reveal d5"><span class="lbl">신규 진입 의사결정</span><strong>Action Roguelike</strong> (Hades-like) = 가장 fresh + 입증된 분포. 70+개 신작이 2020 이후 1M+ 매출 달성.</div>
+    </section>
+    <footer class="foot reveal d6"><span class="src">출처 · Carless 2025-06</span><span class="page-num">08 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 09 — PRE 5: 2025 Top 10 ===== -->
+<section class="slide" data-section="1">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">08<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span class="active">PRE</span><span>LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">L2 · 2025 실제 결과</span> Top 10</p>
+      <h2 class="title reveal d3"><em>2025 Top 10</em> — 누가 *실제로* 살아남았나</h2>
+      <table class="tbl reveal d4">
+        <thead><tr><th>#</th><th>장르</th><th class="num">1000+ 게임 수</th><th>비고</th></tr></thead>
+        <tbody>
+          <tr><td class="strong">1</td><td class="strong" style="color: var(--warn);">Narrative</td><td class="num">51</td><td>중국 FMV games 19개 (Revenge on Gold Diggers 등)</td></tr>
+          <tr><td class="strong">2</td><td>Simulation</td><td class="num">43</td><td>Job Sim · City Builder · Racing 포함</td></tr>
+          <tr><td class="strong">3</td><td>Horror</td><td class="num">39</td><td>2024 #1 → #3. 그래도 절대 hit 수 상위</td></tr>
+          <tr><td class="strong">4</td><td>RPG</td><td class="num">28</td><td>달성률 1.46% → 2.4% 상승</td></tr>
+          <tr><td class="strong">5</td><td>Idle / Incremental</td><td class="num">27</td><td>모바일 → PC 유입</td></tr>
+          <tr><td class="strong">6</td><td>Roguelike</td><td class="num">22</td><td>Action Roguelike 강세 지속</td></tr>
+          <tr><td class="strong">7</td><td>Sexual Content</td><td class="num">21</td><td>3년간 10% 일정 비중</td></tr>
+          <tr><td class="strong">8</td><td>Multiplayer Shooter</td><td class="num">21</td><td class="warn">2025 신규 진입 — OWSC 자리</td></tr>
+          <tr><td class="strong">9</td><td>Shooter</td><td class="num">21</td><td>안정 카테고리</td></tr>
+          <tr><td class="strong">10</td><td>Management</td><td class="num">19</td><td>달성률 5.43% → 3.4% 하락</td></tr>
+        </tbody>
+      </table>
+      <div class="callout warn reveal d5"><span class="lbl">NARRATIVE 부상</span>51개 narrative 게임 중 <em>19개가 중국 FMV 게임</em> — Steam은 언어별 review count 필터링이라 영어 시장에서는 보이지 않을 수 있음. <strong>"basic · melodramatic · slightly lascivious"</strong>한 FMV가 잘 됨.</div>
+    </section>
+    <footer class="foot reveal d6"><span class="src">출처 · Zukowski 2026-01</span><span class="page-num">09 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 10 — PRE 6: 장르 메타 4-5년 안정 ===== -->
+<section class="slide" data-section="1">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">09<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span class="active">PRE</span><span>LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">L2 · 메타 안정성</span> 4-5년 비교</p>
+      <h2 class="title reveal d3">장르 메타는 <em>4-5년</em> 동안 거의 안 바뀐다</h2>
+      <table class="tbl reveal d4">
+        <thead><tr><th>#</th><th>2025</th><th>2024</th><th>2023</th><th>2022</th></tr></thead>
+        <tbody>
+          <tr><td class="strong">1</td><td class="strong" style="color: var(--warn);">Narrative (51)</td><td>Horror (47)</td><td>Horror (28)</td><td>Horror (29)</td></tr>
+          <tr><td class="strong">2</td><td>Simulation (43)</td><td>Narrative (30)</td><td>OWSC (23)</td><td>Shooter (23)</td></tr>
+          <tr><td class="strong">3</td><td>Horror (39)</td><td>Simulation (27)</td><td>Simulation (21)</td><td>Sexual (20)</td></tr>
+          <tr><td class="strong">4</td><td>RPG (28)</td><td>Shooter (27)</td><td>Narrative (20)</td><td>RPG (19)</td></tr>
+          <tr><td class="strong">5</td><td>Idle (27)</td><td>OWSC (23)</td><td>Multi-Shooter (20)</td><td>Simulation (17)</td></tr>
+        </tbody>
+      </table>
+      <div class="stats reveal d5">
+        <div class="stat hero"><span class="v">9/10</span><span class="l">2025 Top 10 동일</span><span class="s">전년 대비 — Multi-Shooter ↔ OWSC만 교체</span></div>
+        <div class="stat"><span class="v">7/10</span><span class="l">2024 Top 10 동일</span><span class="s">전년 대비</span></div>
+        <div class="stat"><span class="v">8/10</span><span class="l">2023 Top 10 동일</span><span class="s">전년 대비</span></div>
+      </div>
+      <div class="callout warn reveal d6"><span class="lbl">⚠️ 짧은 trend 환각</span>"올해 OWSC가 핫해" "Farming이 죽었어" 같은 짧은 trend는 통계적으로 환각. 4-5년 평균을 보면 <em>같은 카테고리</em>가 위에 있다. <strong>Zukowski: "I'm a weatherman. I don't cause the weather."</strong></div>
+    </section>
+    <footer class="foot reveal d7"><span class="src">출처 · Zukowski 2026-01 4년 종합</span><span class="page-num">10 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 11 — PRE 7: 가격대 지형 ===== -->
+<section class="slide" data-section="1">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">10<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span class="active">PRE</span><span>LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">L3 · PRICING TOPOGRAPHY</span> 가격대 지형</p>
+      <h2 class="title reveal d3"><em>$40~50</em> — 시장이 새로 찾은 *미드 프라이스*</h2>
+      <div class="stats reveal d4">
+        <div class="stat"><span class="v">+156%</span><span class="l">$30 미만</span><span class="s">2022 → 2025 수익 변화. PC · 인디 · 협동 게임 폭발 성장</span></div>
+        <div class="stat hero"><span class="v">+195%</span><span class="l">$30 ~ 50 · 스위트 스팟</span><span class="s">미드 프라이스의 부상 — 클레르 옵스퀴르 · 아크 레이더스 · 헬다이버스 2</span></div>
+        <div class="stat danger"><span class="v">정체</span><span class="l">$70 이상</span><span class="s">AAA 가격 전략 종언 — Bain · Newzoo 2026</span></div>
+      </div>
+      <div class="callout reveal d5"><span class="lbl">대표 사례</span><strong>클레르 옵스퀴르 $50 (600만+)</strong> · <strong>아크 레이더스 $40 (1,400만)</strong> · <strong>헬다이버스 2 $40 (2,000만+)</strong>. 게이머 22%가 *핵심 게임플레이*, 7%만이 *그래픽*을 최우선 (Bain 2025).</div>
+      <p class="lede reveal d6"><strong>$40~50 = "AAA 비주얼 없어도 AAA 재미"</strong>를 기대하는 새로운 시장의 스위트 스팟. 가격은 *수익 계산식*이 아니라 <em>포지셔닝 선언</em>이다.</p>
+    </section>
+    <footer class="foot reveal d7"><span class="src">출처 · missing-middle 2026 · Newzoo · Bain</span><span class="page-num">11 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 12 — PRE 8: $10 단절선 ===== -->
+<section class="slide" data-section="1">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">11<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span class="active">PRE</span><span>LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">L3 · $10 단절선</span> Conversion drop</p>
+      <h2 class="title reveal d3"><em>$10</em> — Conversion이 *33% 떨어진다*</h2>
+      <div class="stats reveal d4">
+        <div class="stat"><span class="v">0.15×</span><span class="l">All games · median</span><span class="s">&gt;25k 위시리스트 게임의 median Week-1 conversion</span></div>
+        <div class="stat"><span class="v">0.14×</span><span class="l">Adult 제외</span><span class="s">거의 동일 — adult가 전체 평균 견인 안 함</span></div>
+        <div class="stat danger"><span class="v">0.10×</span><span class="l">&gt;$10 게임만 · <em style="color: var(--warn);">-33%</em></span><span class="s">$10 초과 = conversion 가파른 하락</span></div>
+      </div>
+      <ul class="bullets reveal d5">
+        <li>100,000 launch wishlist 게임 → median <strong>10,000 Week-1 sales</strong></li>
+        <li>가격 $10 초과 시 conversion 0.10× — <em>30%+ drop</em></li>
+        <li><strong>Variance 10-20×</strong> (median의 10% ~ 10× 사이 분포) — median 단일 숫자로 자기 게임 예측 시도는 <em>near-fatally flawed</em></li>
+      </ul>
+      <div class="callout warn reveal d6"><span class="lbl">CARLESS 본인 명시</span>"Wishlist conversion as some kind of reliable metric is <strong>near-fatally flawed</strong>." → 자신의 sub-genre 벤치마크 + 분포 상한·하한을 *함께* 보아야 함.</div>
+    </section>
+    <footer class="foot reveal d7"><span class="src">출처 · Carless 2025-10 · 2024-09~2025-09 macro</span><span class="page-num">12 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 13 — PRE 9: Publisher deal 5종 ===== -->
+<section class="slide" data-section="1">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">12<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span class="active">PRE</span><span>LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">L4 · PUBLISHER DEAL</span> 5종 비교</p>
+      <h2 class="title reveal d3"><em>5 standard</em> + Self-publish baseline</h2>
+      <table class="tbl reveal d4">
+        <thead><tr><th>구조</th><th>메커니즘</th><th>dev gross</th><th>적합</th></tr></thead>
+        <tbody>
+          <tr><td class="strong">Self-publish</td><td>Steam 30%만 공제</td><td class="ok num">70%</td><td>마케팅 자체 capacity + 자체 IP</td></tr>
+          <tr><td class="strong">Standard rev share</td><td>post-Steam 70/30 split</td><td class="num">49%</td><td>마케팅 · 플랫폼 outsource</td></tr>
+          <tr><td class="strong">Aggressive rev share</td><td>post-Steam 50/50 split</td><td class="num">35%</td><td>개발 자금 · 콘솔 publish 필요</td></tr>
+          <tr><td class="strong warn">Recoup-first</td><td>퍼블리셔 우선 회수 → split</td><td class="warn">0 ~ split</td><td class="warn">개발 자금 직접 투자 + 매출 확신</td></tr>
+          <tr><td class="strong ok">MG against royalty</td><td>upfront MG → royalty로 recoup → split</td><td class="ok">MG floor</td><td class="ok">cashflow 보강 · 매출 불확실성 큼</td></tr>
+          <tr><td class="strong warn">Marketing fee</td><td>고정 fee 선공제 → rev share</td><td class="warn">잠식 위험</td><td class="warn">base case 매출 충분히 큰 게임</td></tr>
+        </tbody>
+      </table>
+      <div class="callout reveal d5"><span class="lbl">% 외에 봐야 할 것</span><strong>마케팅 capacity · 플랫폼 관계 · 로컬라이제이션 · 콘솔 publish</strong> 중 <em>dev에게 정말 부족한 것</em>이 무엇인가. % 비교만으로 결정 불가.</div>
+    </section>
+    <footer class="foot reveal d6"><span class="src">출처 · ZR Forecaster + ZR DACH publisher 경험</span><span class="page-num">13 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 14 — PRE 10: Recoup vs MG 비대칭 ===== -->
+<section class="slide" data-section="1">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">13<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span class="active">PRE</span><span>LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">L4 · DEAL STRESS TEST</span> Benchmark Pair</p>
+      <h2 class="title reveal d3"><em>Recoup-first</em> vs <em>MG</em> — 외형 비슷, <span class="warn">정반대</span></h2>
+      <div class="two-col reveal d4">
+        <div class="col danger">
+          <h3>RECOUP-FIRST · DEV 위험 ↑</h3>
+          <ul class="bullets" style="margin-top: 0.5rem;">
+            <li>dev는 <em>0부터 시작</em> → recoup 끝나야 split 발동</li>
+            <li><strong>Downside 시나리오</strong>: 매출이 recoup 금액 미달 시 dev 0 또는 미미</li>
+            <li>퍼블리셔도 자기 베팅 — 매출 부진 시 publisher 손실</li>
+            <li><em>매출 확신이 매우 높을 때만</em> 정당화 가능</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>MG AGAINST ROYALTY · DEV 안전 ↑</h3>
+          <ul class="bullets" style="margin-top: 0.5rem;">
+            <li>dev에게 <em>MG upfront 지급 · 반환 없음</em></li>
+            <li>publisher가 royalty로 MG recoup → 이후 split</li>
+            <li><strong>Downside 시나리오</strong>: dev는 MG floor 보호. publisher가 손실</li>
+            <li>cashflow 보강이 우선 + 매출 불확실 시 *가장 안전*</li>
+          </ul>
+        </div>
+      </div>
+      <div class="callout reveal d5"><span class="lbl">핵심 인사이트</span>동일 퍼블리셔 제안이 <em>기대 매출 분포</em>에 따라 정반대 의미가 된다. <strong>각 구조를 자신의 예측 모델 downside · base · upside 시나리오에 stress test</strong> 해야 정확한 비교가 됨.</div>
+    </section>
+    <footer class="foot reveal d6"><span class="src">출처 · publisher-deal-structures concept</span><span class="page-num">14 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 15 — LAUNCH 1: 방정식 ===== -->
+<section class="slide" data-section="2">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">14<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span class="active">LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">SECTION 02 · LAUNCH</span> 매출 방정식</p>
+      <h2 class="title reveal d3">Steam Year-1 net = <em>f(8 driver)</em></h2>
+      <div class="formula reveal d4">
+        Year-1 net = <em>Wishlists</em> × SubGenre_conv × Review_mult × Buzz_mult<br>
+        × (1 + post_launch × 0.7) × ARPU_effective<br>
+        × (1 − refund_rate) × (1 − <em>steam_cut 30%</em>) + Organic_sales
+        <span class="small">출처 · ZR Consulting Steam Revenue Forecaster 2026</span>
+      </div>
+      <p class="lede reveal d5">각 변수가 *얼마나*, *어느 방향으로* 매출을 흔드는지 — 다음 <strong>11장</strong>에서 8 driver tornado · review tier · buzz multiplier · demo · Next Fest lift · time distribution · ARPU · regional · refund 순으로 풀어낸다.</p>
+      <div class="callout reveal d6"><span class="lbl">모델 한계</span>ZR이 명시한 model 한계 = <strong>30-50% 편차 가능</strong>. 모델이 못 잡는 요인 — press cycle, viral moment, genre saturation, competitor launch, marketing execution 디테일.</div>
+    </section>
+    <footer class="foot reveal d7"><span class="src"></span><span class="page-num">15 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 16 — LAUNCH 2: 8 driver tornado ===== -->
+<section class="slide" data-section="2">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">15<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span class="active">LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">1 · SENSITIVITY RANKING</span> 8 Driver Tornado</p>
+      <h2 class="title reveal d3"><em>8 driver</em> — *위에서 아래로* 자원 배분</h2>
+      <div class="tornado reveal d4">
+        <div class="row"><span class="name">1. Wishlists at launch</span><div class="barbox"><div class="bar" style="width: 95%;"></div></div><span class="v">±40%</span></div>
+        <div class="row"><span class="name">2. Pre-launch buzz</span><div class="barbox"><div class="bar" style="width: 80%;"></div></div><span class="v">1.0 ~ 2.5×</span></div>
+        <div class="row"><span class="name">3. Review score</span><div class="barbox"><div class="bar" style="width: 72%;"></div></div><span class="v">0.25 ~ 1.4×</span></div>
+        <div class="row"><span class="name">4. Post-launch wishlists</span><div class="barbox"><div class="bar" style="width: 55%;"></div></div><span class="v">0.7× rate</span></div>
+        <div class="row"><span class="name">5. Price</span><div class="barbox"><div class="bar" style="width: 45%;"></div></div><span class="v">±$5</span></div>
+        <div class="row warn"><span class="name">6. Refund rate</span><div class="barbox"><div class="bar" style="width: 32%;"></div></div><span class="v">5 ~ 15%</span></div>
+        <div class="row"><span class="name">7. Organic / non-WL</span><div class="barbox"><div class="bar" style="width: 28%;"></div></div><span class="v">5 ~ 50%</span></div>
+        <div class="row"><span class="name">8. Demo + Next Fest</span><div class="barbox"><div class="bar" style="width: 22%;"></div></div><span class="v">+12% 합산</span></div>
+      </div>
+      <div class="callout warn reveal d5"><span class="lbl">⚠️ Ranking 변동</span>위는 *전형적* 게임 기준. 게임마다 다름 — <strong>단편 narrative</strong>는 refund가 위로, <strong>화제성 IP / 디렉터</strong>는 buzz가 위로, <strong>코어 audience 작은 장르</strong>는 wishlist count가 결정적.</div>
+    </section>
+    <footer class="foot reveal d6"><span class="src">출처 · ZR Consulting · Carless · Zukowski 종합</span><span class="page-num">16 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 17 — LAUNCH 3: WL conversion ===== -->
+<section class="slide" data-section="2">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">16<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span class="active">LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">2 · WISHLIST → SALES</span> 정량 기준</p>
+      <h2 class="title reveal d3">Conversion = <em>median 0.15×</em>, *그러나 10-20× variance*</h2>
+      <div class="stats reveal d4">
+        <div class="stat"><span class="v">0.15×</span><span class="l">All games · median</span><span class="s">Week-1 conversion (&gt;25k WL 게임)</span></div>
+        <div class="stat"><span class="v">0.10×</span><span class="l">&gt;$10 게임 · -33%</span><span class="s">가격대 단절선 (slide 12)</span></div>
+        <div class="stat danger"><span class="v">10-20×</span><span class="l">Variance · 분포 폭</span><span class="s">median의 10% ~ 10× 사이</span></div>
+      </div>
+      <p class="lede reveal d5">100k WL → median <strong>10k Week-1 sales</strong>. 하지만 분포 폭이 너무 커서 *median 단일 숫자로 자기 게임 예측 = near-fatally flawed*. <strong>분포의 어느 위치인지가 모든 것.</strong></p>
+      <div class="callout warn reveal d6"><span class="lbl">UNDER CONVERTER 패턴</span>Player review score <strong>67% Mixed</strong> · days on Steam before launch <strong>411 days</strong> (Top 20 select는 214 days). <em>Stale coming soon page</em>와 <em>review score gating</em>이 핵심 함정.</div>
+    </section>
+    <footer class="foot reveal d7"><span class="src">출처 · Carless 2025-10 · Top 20 best-seller 분석</span><span class="page-num">17 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 18 — LAUNCH 4: Co-op viral outliers ===== -->
+<section class="slide" data-section="2">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">17<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span class="active">LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">3 · VIRAL OUTLIERS</span> Top 20%</p>
+      <h2 class="title reveal d3"><em>266×</em> · <em>78×</em> · <em>68×</em> — co-op crewlike</h2>
+      <table class="tbl reveal d4">
+        <thead><tr><th>게임</th><th>카테고리</th><th class="num">Carless 원전</th><th class="num">ZR 인용</th><th>차이</th></tr></thead>
+        <tbody>
+          <tr><td class="strong">PEAK</td><td>co-op mountaineering (viral)</td><td class="ok num strong">266×</td><td class="dim">29×</td><td class="warn">한 자릿수</td></tr>
+          <tr><td class="strong">Mage Arena</td><td>PvP magic arena</td><td class="ok num strong">78×</td><td class="dim">8.7×</td><td class="warn">한 자릿수</td></tr>
+          <tr><td class="strong">R.E.P.O.</td><td>co-op horror (high retention)</td><td class="ok num strong">68×</td><td class="dim">7.5×</td><td class="warn">한 자릿수</td></tr>
+          <tr><td class="strong">WEBFISHING</td><td>chill social (small WL)</td><td class="num">67×</td><td class="dim">—</td><td>—</td></tr>
+          <tr><td class="strong">Revenge On Gold Diggers</td><td>Chinese FMV</td><td class="ok num strong">539×</td><td class="dim">—</td><td>—</td></tr>
+          <tr><td class="strong">A Game About Digging A Hole</td><td>simple hook + Twitch</td><td class="num">13×</td><td class="dim">—</td><td>—</td></tr>
+        </tbody>
+      </table>
+      <div class="callout warn reveal d5"><span class="lbl">⚠️ 인용 정정</span>ZR Forecaster의 outlier multiplier는 Carless 원전 대비 *한 자릿수* 차이. 위키 사용 시 <strong>Carless 원전 우선</strong> 인용. ZR이 다른 시점 · 시그널 정의를 썼을 가능성.</div>
+      <p class="lede reveal d6">공통 패턴 = <strong>online co-op crewlike</strong> + <em>한 컨텐츠 크리에이터 발견점</em>. Bucky의 41-video 시리즈가 BRUTALISTICK VR 회복의 시발점이었던 것처럼.</p>
+    </section>
+    <footer class="foot reveal d7"><span class="src">출처 · Carless 2025-10 · Top 20 분석</span><span class="page-num">18 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 19 — LAUNCH 5: Buzz tier ===== -->
+<section class="slide" data-section="2">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">18<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span class="active">LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">4 · PRE-LAUNCH BUZZ</span> Multiplier</p>
+      <h2 class="title reveal d3"><em>1.0× → 2.5×</em> — Phenom tier는 *연 1회*</h2>
+      <table class="tbl reveal d4">
+        <thead><tr><th>Tier</th><th class="num">Multiplier</th><th>설명</th><th>대표 사례</th></tr></thead>
+        <tbody>
+          <tr><td class="strong">None</td><td class="num">1.0×</td><td>quiet release · WL 외 buzz 없음</td><td class="dim">대부분의 인디</td></tr>
+          <tr><td class="strong">Some</td><td class="num">1.15×</td><td>small streamer coverage</td><td class="dim">2 ~ 3명 stream</td></tr>
+          <tr><td class="strong">Building</td><td class="num">1.4×</td><td>meaningful press · festival</td><td class="dim">PC Gamer · IGN coverage</td></tr>
+          <tr><td class="strong">Strong</td><td class="num">1.8×</td><td>TGA 노미네이션 수준</td><td class="dim">올해의 인디 후보</td></tr>
+          <tr class="hi"><td class="strong ok">Phenomenon</td><td class="num ok strong">2.5×</td><td class="ok">연 1회 발생 · 의도된 희소성</td><td class="strong">Hades · Vampire Survivors · Balatro · Lethal Company</td></tr>
+        </tbody>
+      </table>
+      <div class="callout reveal d5"><span class="lbl">PHENOM 본질</span>"<em>Part craft, part timing, part luck.</em>" — Phenom은 모든 게임이 노릴 수 있는 게 아님. Building / Strong tier에 도달하는 것만 해도 충분히 successful launch.</div>
+    </section>
+    <footer class="foot reveal d6"><span class="src">출처 · marketing-strategy concept · ZR calibration</span><span class="page-num">19 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 20 — LAUNCH 6: Review tier ===== -->
+<section class="slide" data-section="2">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">19<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span class="active">LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">5 · REVIEW TIER</span> Algorithm Gate</p>
+      <h2 class="title reveal d3"><em>Mostly Positive 70%</em>가 *알고리즘 게이트*</h2>
+      <table class="tbl reveal d4">
+        <thead><tr><th>Tier</th><th class="num">Multiplier</th><th>알고리즘 영향</th></tr></thead>
+        <tbody>
+          <tr><td class="strong warn">Negative</td><td class="warn num">0.25×</td><td class="warn">거의 절멸 — discovery 단절</td></tr>
+          <tr><td class="strong warn">Mixed</td><td class="warn num">0.55×</td><td class="warn">매출 반토막</td></tr>
+          <tr class="hi"><td class="strong">Mostly Positive</td><td class="num strong">1.0×</td><td class="strong">baseline · 인플렉션 포인트</td></tr>
+          <tr><td class="strong">Very Positive</td><td class="num ok">1.15×</td><td>알고리즘 boost 약</td></tr>
+          <tr><td class="strong ok">Overwhelmingly Positive</td><td class="num ok strong">1.4×</td><td class="ok">알고리즘 push 강 (Discovery Queue 등)</td></tr>
+        </tbody>
+      </table>
+      <div class="callout reveal d5"><span class="lbl">비대칭 ROI</span>Mostly Positive 70%가 *알고리즘 게이트*. 그 아래면 wishlist conversion · discovery 동시 침체. <strong>첫 시간 polish + 크래시 0 + early review 응답</strong>이 비대칭적으로 큰 ROI.</div>
+      <div class="callout warn reveal d6"><span class="lbl">⚠️ SURVIVORSHIP BIAS</span>"Mostly Positive인데 안 팔린다"의 진실 — *싫어한 사람은 사지도 않아서 부정 review가 없을 뿐*. <strong>Mostly Positive = "산 사람만 본 결과"</strong> (Zukowski).</div>
+    </section>
+    <footer class="foot reveal d7"><span class="src">출처 · ZR Forecaster · Zukowski 2024-07</span><span class="page-num">20 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 21 — LAUNCH 7: Demo + Next Fest ===== -->
+<section class="slide" data-section="2">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">20<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span class="active">LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">6 · LAUNCH CONTEXT</span> Demo + Next Fest</p>
+      <h2 class="title reveal d3"><em>+8%</em> · <em>+4%</em> — 독립적 · 곱셈 효과</h2>
+      <div class="stats reveal d4">
+        <div class="stat"><span class="v">+8%</span><span class="l">Demo at launch</span><span class="s">데모 → 본편 conversion 상승</span></div>
+        <div class="stat"><span class="v">+4%</span><span class="l">Next Fest 참여</span><span class="s">conversion + 런치월 비중 ↑</span></div>
+        <div class="stat hero"><span class="v">+12%</span><span class="l">합산 효과 · 독립적</span><span class="s">두 효과는 *곱셈* — 함께 적용 가능</span></div>
+      </div>
+      <ul class="bullets reveal d5">
+        <li>두 효과 <strong>독립적 · 곱셈</strong> — 함께 적용하면 ~+12% 합산</li>
+        <li><strong>데모는 페스트 1개월 이상 전 출시</strong> — 95p 슈퍼어너 10개 중 9개가 1개월 이전 출시 (Zukowski)</li>
+        <li><em>출시 직전 마지막 1번 페스트만 사용</em> 권장 — 여러 번 참여는 약해진 시그널</li>
+      </ul>
+      <div class="callout warn reveal d6"><span class="lbl">"쉐도우 드롭" 메타 부정</span>Tomas Sala 사례는 누적 자산 있는 예외 — 일반화 불가. 데이터로 본 결론: 데모 · 페스트 활용이 *기본*. 쉐도우 드롭은 마케팅 capacity 매우 강한 경우만.</div>
+    </section>
+    <footer class="foot reveal d7"><span class="src">출처 · ZR · Zukowski Next Fest analyses</span><span class="page-num">21 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 22 — LAUNCH 8: Next Fest 알고리즘 효율화 ===== -->
+<section class="slide" data-section="2">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">21<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span class="active">LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">7 · NEXT FEST 알고리즘</span> 효율화</p>
+      <h2 class="title reveal d3">노출 <em>1/10</em>, 위시리스트 *동일*</h2>
+      <div class="two-col reveal d4">
+        <div class="col">
+          <h3>2024-06 · CRASHLANDS 2</h3>
+          <ul class="bullets" style="margin-top: 0.5rem;">
+            <li>Impressions: <strong>6,240,000</strong></li>
+            <li>Wishlists: <strong>15,987</strong></li>
+            <li>WL per 1k 노출: <strong>2.56</strong></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>2026-02 · HOW MANY DUDES?</h3>
+          <ul class="bullets" style="margin-top: 0.5rem;">
+            <li>Impressions: <strong style="color: var(--warn);">640,000</strong> (1/10)</li>
+            <li>Wishlists: <strong>14,740</strong> (거의 동일)</li>
+            <li>WL per 1k 노출: <strong style="color: var(--accent);">23.0</strong></li>
+          </ul>
+        </div>
+      </div>
+      <div class="callout warn reveal d5"><span class="lbl">VALVE 알고리즘 정밀화</span>2년 사이 *낭비된 노출*을 알고리즘이 정밀하게 차단. <strong>WL per impression이 9× 향상</strong>. Next Fest는 *검증이 아니라 마케팅 부스터* — 이미 잘 마케팅된 게임이 더 잘됨.</div>
+      <p class="lede reveal d6">Next Fest 시그널을 보고 "내 게임도 페스트만 잘 활용하면 된다"고 결론짓는 것은 *역인과*. <em>이미 audience를 모은 게임이 페스트에서 더 효율적으로 conversion</em>되는 것. Pre-launch buzz 구축이 선행 조건.</p>
+    </section>
+    <footer class="foot reveal d7"><span class="src">출처 · Zukowski Next Fest 4번 종합 (2024-06 → 2026-02)</span><span class="page-num">22 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 23 — LAUNCH 9: Year-1 time distribution ===== -->
+<section class="slide" data-section="2">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">22<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span class="active">LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">8 · YEAR-1 TIME DISTRIBUTION</span> 시간축 분배</p>
+      <h2 class="title reveal d3">Year-1의 <em>38%</em>가 *런치월 한 달*에 집중</h2>
+      <div class="bars reveal d4">
+        <div class="bar-col hero"><span class="v-top">38%</span><div class="bar" style="height: 100%;"></div><span class="label-x">M1</span></div>
+        <div class="bar-col"><span class="v-top">12%</span><div class="bar" style="height: 32%;"></div><span class="label-x">M2</span></div>
+        <div class="bar-col"><span class="v-top">9%</span><div class="bar" style="height: 24%;"></div><span class="label-x">M3</span></div>
+        <div class="bar-col"><span class="v-top">6%</span><div class="bar" style="height: 16%;"></div><span class="label-x">M4</span></div>
+        <div class="bar-col"><span class="v-top">5%</span><div class="bar" style="height: 13%;"></div><span class="label-x">M5</span></div>
+        <div class="bar-col"><span class="v-top">8%</span><div class="bar" style="height: 21%;"></div><span class="label-x">M6</span></div>
+        <div class="bar-col"><span class="v-top">4%</span><div class="bar" style="height: 11%;"></div><span class="label-x">M7</span></div>
+        <div class="bar-col"><span class="v-top">4%</span><div class="bar" style="height: 11%;"></div><span class="label-x">M8</span></div>
+        <div class="bar-col"><span class="v-top">4%</span><div class="bar" style="height: 11%;"></div><span class="label-x">M9</span></div>
+        <div class="bar-col"><span class="v-top">4%</span><div class="bar" style="height: 11%;"></div><span class="label-x">M10</span></div>
+        <div class="bar-col"><span class="v-top">3%</span><div class="bar" style="height: 8%;"></div><span class="label-x">M11</span></div>
+        <div class="bar-col"><span class="v-top">3%</span><div class="bar" style="height: 8%;"></div><span class="label-x">M12</span></div>
+      </div>
+      <ul class="bullets reveal d5">
+        <li><strong>M1 (38%)</strong> — 런치월. 1년 매출의 거의 40%가 첫 달</li>
+        <li><strong>M3 · M6 lift</strong> — Steam-wide sale (Spring · Summer 등) 타이밍에 발생</li>
+        <li><strong>Year 2 = Year 1의 +35%</strong> — healthy launch + 지속 가시성 전제. cold-launched는 더 낮음</li>
+      </ul>
+    </section>
+    <footer class="foot reveal d6"><span class="src">출처 · ZR Forecaster time distribution model</span><span class="page-num">23 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 24 — LAUNCH 10: ARPU 공식 ===== -->
+<section class="slide" data-section="2">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">23<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span class="active">LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">9 · EFFECTIVE ARPU</span> 공식</p>
+      <h2 class="title reveal d3">ARPU = list × (1 − <em>regional</em>) × (1 − <em>blended</em>)</h2>
+      <div class="formula reveal d4">
+        ARPU = list_price × (1 − regional_haircut) × (1 − blended_discount)<br>
+        where <em>blended_discount</em> = launch_discount × 0.38 + seasonal_discount × 0.62
+        <span class="small">launch month 38% + 그 외 62% 가중평균</span>
+      </div>
+      <ul class="bullets reveal d5">
+        <li><strong>Regional haircut</strong>: 글로벌 20-30% / US · EU 중심 5-15% (PPP 기반)</li>
+        <li><strong>Blended discount</strong>: launch month 38% + 그 외 62% 가중평균</li>
+        <li><strong>런치 10% discount</strong> = 표준. 20%+ = 알고리즘에 약세 신호. <em>0% = 자신감 신호</em></li>
+      </ul>
+      <div class="callout reveal d6"><span class="lbl">왜 EFFECTIVE ARPU인가</span>list price만 보면 매출 모델이 *과대 추정*된다. 실제로 dev에게 들어오는 단위 매출은 list × (1 − regional) × (1 − blended) — 보통 list의 <strong>55 ~ 70%</strong> 수준.</div>
+    </section>
+    <footer class="foot reveal d7"><span class="src">출처 · ZR Forecaster + game-pricing-strategy</span><span class="page-num">24 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 25 — LAUNCH 11: Regional ===== -->
+<section class="slide" data-section="2">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">24<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span class="active">LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">10 · REGIONAL PRICING</span> Haircut</p>
+      <h2 class="title reveal d3">지역 가격 차등화는 *접근권 자체*</h2>
+      <div class="stats reveal d4">
+        <div class="stat"><span class="v">20~30%</span><span class="l">글로벌 평균 haircut</span><span class="s">전체 region에 PPP 적용 시</span></div>
+        <div class="stat"><span class="v">5~15%</span><span class="l">US · EU 중심 게임</span><span class="s">서구 인디 일반적 setup</span></div>
+        <div class="stat"><span class="v">40~60%</span><span class="l">동남아 · 동유럽</span><span class="s">PPP 기반 추천값</span></div>
+      </div>
+      <ul class="bullets reveal d5">
+        <li><strong>미설정 시</strong> 해당 지역 잠재 구매자는 *실질적 접근 불가* — 매출 0</li>
+        <li>Steam의 <strong>지역 추천값을 그대로 채택</strong>이 출발점</li>
+        <li>PPP (구매력 지수) 기반 = 산업 표준. 임의 조정은 매출 누수</li>
+      </ul>
+      <div class="callout reveal d6"><span class="lbl">파급 효과</span>Regional 미설정 시 동남아 · 동유럽 wishlist는 *conversion 0* — 매출 모델이 *과대 추정*된다. <strong>Steam 권장 matrix 그대로 채택이 가장 안전</strong>.</div>
+    </section>
+    <footer class="foot reveal d7"><span class="src">출처 · game-pricing-strategy · Steam recommended</span><span class="page-num">25 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 26 — LAUNCH 12: Refund ===== -->
+<section class="slide" data-section="2">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">25<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span class="active">LAUNCH</span><span>POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">11 · REFUND</span> 벤치마크</p>
+      <h2 class="title reveal d3">정상은 <em>5~10%</em>, 그 이상은 *경고*</h2>
+      <div class="stats reveal d4">
+        <div class="stat"><span class="v">5~10%</span><span class="l">정상 범위</span><span class="s">Valve 공식 발언 · 일반 게임 기준</span></div>
+        <div class="stat danger"><span class="v">15%+</span><span class="l">위험 신호</span><span class="s">첫 시간 · 기대치 미스 · 90분 hook 부재</span></div>
+        <div class="stat"><span class="v">단편</span><span class="l">narrative game</span><span class="s">refund tornado 위로 — 모델 보정 필요</span></div>
+      </div>
+      <div class="callout reveal d5"><span class="lbl">REFUND 억제 디테일</span><strong>첫 시간 polish</strong> + <strong>적절한 기대치 설정</strong> + <strong>90분 cutoff 내 핵심 hook</strong> = 환불 억제. 모델이 못 잡는 *게임 디자인 디테일*.</div>
+      <p class="lede reveal d6"><strong>refund rate가 매출 모델에 미치는 영향</strong>은 driver tornado에서 6위지만, *단편 narrative game*에서는 위로 올라간다. 게임 특성에 따라 tornado ranking을 재정렬해야 함.</p>
+    </section>
+    <footer class="foot reveal d7"><span class="src">출처 · ZR Forecaster · Valve 공식</span><span class="page-num">26 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 27 — POST 1: 0.156% ===== -->
+<section class="slide" data-section="3">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">26<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span>LAUNCH</span><span class="active">POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">SECTION 03 · POST-LAUNCH</span> 시장의 결정</p>
+      <h2 class="title reveal d3"><em>28 / 18,239</em> — 1년 후 회복 <span class="warn">0.156%</span></h2>
+      <div class="stats reveal d4">
+        <div class="stat"><span class="v">18,239</span><span class="l">2024 출시 게임 전체</span><span class="s">VGInsights 데이터</span></div>
+        <div class="stat danger"><span class="v">&lt;150</span><span class="l">"Weak launch"</span><span class="s">첫 30일 review 150개 미만으로 시작</span></div>
+        <div class="stat danger"><span class="v">28</span><span class="l">1년 후 500+ review 회복</span><span class="s">0.156% — 1000명 중 1.5명</span></div>
+        <div class="stat hero"><span class="v">~90%</span><span class="l">결과 결정</span><span class="s">런치 첫 한 달 안에 거의 확정</span></div>
+      </div>
+      <div class="callout warn reveal d5"><span class="lbl">⚠️ 런치는 마라톤이 아니다</span>"런치는 마라톤"이라는 산업 통념은 <em>틀렸다</em>. 런치 첫 달이 결과의 거의 전부를 결정. 1년 뒤 회복은 <strong>거의 통계적 0</strong>. 출시 *전*에 다 결정됨.</div>
+      <p class="lede reveal d6"><strong>Valve "no black marks" 주장과 정합성</strong>: Valve는 "알고리즘이 과거 부진을 처벌하지 않는다"고 함. Zukowski 해석: 28개만 회복한 사실은 *알고리즘 처벌이 아니라 시장 평가*. Discovery Queue · Popular Upcoming · New &amp; Trending 다 노출됐는데 *"eh not for me"* 반응.</p>
+    </section>
+    <footer class="foot reveal d7"><span class="src">출처 · Zukowski 2026-02 · 18,239 전수 분석</span><span class="page-num">27 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 28 — POST 2: 5 메커니즘 ===== -->
+<section class="slide" data-section="3">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">27<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span>LAUNCH</span><span class="active">POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">1 · RECOVERY MECHANISMS</span> 회복 패턴</p>
+      <h2 class="title reveal d3">회복한 <em>28개</em> — 5 패턴으로 압축</h2>
+      <div class="cards col-3 reveal d4">
+        <div class="card-r"><span class="num">10 · SLOW &amp; STEADY</span><span class="t">word of mouth</span><span class="d">친구→친구 선형 성장. <strong>HOLE</strong> (3,237 reviews) · <strong>Pih</strong> (1,070 reviews, 460일 후 가속). *게임이 본질적으로 좋아야* 작동</span></div>
+        <div class="card-r"><span class="num">6 · VIRAL MOMENT</span><span class="t">단일 크리에이터 발화</span><span class="d"><strong>BRUTALISTICK VR</strong> — Bucky 41-video. 4개 중 4개가 *호러 friendslop or co-op shooter* (luck)</span></div>
+        <div class="card-r"><span class="num">6 · SLOW + VIRAL</span><span class="t">결합형</span><span class="d">천천히 → magic moment. <strong>Inari</strong> (2,126) · <strong>The Bonerooms</strong> (2,256) · <strong>New Day</strong> (747)</span></div>
+        <div class="card-r danger"><span class="num">4 · FREE-TO-KEEP ⚠️</span><span class="t">100% 할인 trick</span><span class="d"><strong>비추천</strong>. Caribbean Crashers 1,337 reviews / 유료 <em>37개</em>. 평점 · historic low 망가뜨림</span></div>
+        <div class="card-r danger"><span class="num">1 · ABNORMAL</span><span class="t">봇 패턴 (sarcasm)</span><span class="d"><strong>SPY-der PIG</strong>: 매월 정확히 100개 review · 모든 reviewer 4.6시간 플레이. Zukowski "amazing marketing efficiency" 비꼼</span></div>
+        <div class="card-r"><span class="num">결론</span><span class="t">복제 가능성 ↓</span><span class="d">대부분 *luck + 게임 자체 품질* — 마케팅 부재가 사후 회복 시도 가능 영역 만들었음</span></div>
+      </div>
+    </section>
+    <footer class="foot reveal d5"><span class="src">출처 · Zukowski 2026-02</span><span class="page-num">28 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 29 — POST 3: 회복 가능 조건 6 ===== -->
+<section class="slide" data-section="3">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">28<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span>LAUNCH</span><span class="active">POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">2 · RECOVERY CHECKLIST</span> 가능 조건 6</p>
+      <h2 class="title reveal d3">다음 <em>모두</em> 해당해야 *시도 가치 있음*</h2>
+      <ul class="bullets reveal d4">
+        <li><strong>1.</strong> Coming soon page <em>180일 미만</em>으로 출시했음 (마케팅 기간 부족)</li>
+        <li><strong>2.</strong> 데모 출시 안 했음</li>
+        <li><strong>3.</strong> <strong>Median playtime 2.5시간 이상</strong> — *게임이 진짜 재미있다는 강력한 신호*</li>
+        <li><strong>4.</strong> 장르가 <strong>horror · adult · friendslop</strong> — 28개 중 21% horror · 14% friendslop · 11% adult (hidden gem hunter 청자)</li>
+        <li><strong>5.</strong> 출시 전 크리에이터 outreach <em>300명 미만</em> (부족했음)</li>
+        <li><strong>6.</strong> 발견한 크리에이터 1명이 <strong>multiple stream으로 깊이 좋아함</strong> (true desire 신호)</li>
+      </ul>
+      <div class="callout warn reveal d5"><span class="lbl">⚠️ 모두 해당해야 함</span>위 6개 *모두 해당*해야 회복 시도 가치 있음. 하나라도 빠지면 회복 시도는 *sunk cost*. 1개월 시도 후 결과 없으면 <strong>다음 게임으로 넘어갈 것</strong>.</div>
+    </section>
+    <footer class="foot reveal d6"><span class="src">출처 · Zukowski 2026-02 · 28-game 진단</span><span class="page-num">29 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 30 — POST 4: Free-to-Keep 함정 ===== -->
+<section class="slide" data-section="3">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">29<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span>LAUNCH</span><span class="active">POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">3 · FREE-TO-KEEP 함정</span> 비추천</p>
+      <h2 class="title reveal d3"><em>Free-to-Keep</em> — *효과 없음, 비추천*</h2>
+      <div class="two-col reveal d4">
+        <div class="col">
+          <h3>외형 · 카운트 증가</h3>
+          <table class="tbl" style="margin-top: 0.4rem;">
+            <tbody>
+              <tr><td>Caribbean Crashers $0.99</td><td class="num strong">1,337 reviews</td></tr>
+              <tr><td>Rat Quest $4.99</td><td class="num strong">1,474 reviews</td></tr>
+              <tr><td>WHAT THE PAK?! $5.99</td><td class="num strong">1,255 reviews</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col danger">
+          <h3>실제 · 유료 review 미미</h3>
+          <table class="tbl" style="margin-top: 0.4rem;">
+            <tbody>
+              <tr><td>Caribbean Crashers</td><td class="num warn strong">유료 37개</td></tr>
+              <tr><td>Rat Quest</td><td class="num warn strong">유료 17개</td></tr>
+              <tr><td>WHAT THE PAK?!</td><td class="num warn strong">유료 48개</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="callout warn reveal d5"><span class="lbl">⚠️ 3대 문제점</span><strong>1.</strong> 무료 기간 review는 총 review 카운트에 안 들어감. <strong>2.</strong> 평점 파괴 (싫어한 사람이 review). <strong>3.</strong> Historic low 가격 망가뜨림 — *미래 할인 효과 죽음*.</div>
+      <p class="lede reveal d6"><strong>Zukowski 권장</strong>: "Free-to-Keep은 비추천. 진짜 매출에 도움 안 됨." Steamworks support의 *undocumented setting* — 사용 자체가 메타적 신호.</p>
+    </section>
+    <footer class="foot reveal d7"><span class="src">출처 · Zukowski 2026-02 · 4 case stress test</span><span class="page-num">30 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 31 — POST 5: post-launch WL 0.7x ===== -->
+<section class="slide" data-section="3">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">30<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span>LAUNCH</span><span class="active">POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">4 · POST-LAUNCH WISHLISTS</span> Sleeper Potential</p>
+      <h2 class="title reveal d3">Post-launch WL = <em>0.7×</em> conversion</h2>
+      <div class="stats reveal d4">
+        <div class="stat"><span class="v">0.7×</span><span class="l">post-launch WL conversion</span><span class="s">사전 WL conversion의 70%</span></div>
+        <div class="stat"><span class="v">50~200%</span><span class="l">healthy launch · 추가 WL</span><span class="s">launch-day 카운트 대비</span></div>
+        <div class="stat hero"><span class="v">Sleeper</span><span class="l">BG3 · Hades 사례</span><span class="s">launch-day의 *몇 배* — 누적</span></div>
+      </div>
+      <ul class="bullets reveal d5">
+        <li>발매 후 추가되는 wishlist는 <strong>사전 wishlist의 0.7× conversion</strong></li>
+        <li>Healthy launches: launch-day 카운트의 <em>50~200% 추가 발생</em></li>
+        <li>Sleeper hit은 그보다 *훨씬 많음* — BG3 · Hades 같은 경우는 launch-day의 *몇 배*</li>
+        <li>Post-launch WL 견인 = sale 참여 · content update · creator outreach 누적 결과</li>
+      </ul>
+      <div class="callout reveal d6"><span class="lbl">자연스러운 연결</span>Post-launch wishlist는 <strong>catalog economics</strong>와 자연스럽게 연결 — 사후 wishlist는 cross-sell · patch · sale · creator 활동의 *누적 결과*. 다음 슬라이드.</div>
+    </section>
+    <footer class="foot reveal d7"><span class="src">출처 · ZR Forecaster · steam-revenue-forecasting</span><span class="page-num">31 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 32 — POST 6: Catalog economics 캡콤 9년 ===== -->
+<section class="slide" data-section="3">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">31<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span>LAUNCH</span><span class="active">POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">5 · LONG TAIL · CATALOG</span> 캡콤 9년</p>
+      <h2 class="title reveal d3"><em>캡콤 9년</em> — 풀프라이스 → 50% → 30% → 20% → 10%</h2>
+      <div class="chart-svg reveal d4" role="figure" aria-label="캡콤 카탈로그 가격 곡선 9년 (풀프라이스 $60 → 9년차 $12)">
+        <svg viewBox="0 0 700 280" preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <linearGradient id="cc-bar" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#FF5722"/>
+              <stop offset="1" stop-color="#b8390d"/>
+            </linearGradient>
+          </defs>
+
+          <!-- Y-axis gridlines -->
+          <g stroke="rgba(255,255,255,0.08)" stroke-width="1" stroke-dasharray="3 4">
+            <line x1="60" y1="40"  x2="680" y2="40"/>
+            <line x1="60" y1="90"  x2="680" y2="90"/>
+            <line x1="60" y1="140" x2="680" y2="140"/>
+            <line x1="60" y1="190" x2="680" y2="190"/>
+          </g>
+
+          <!-- Y-axis labels ($60 max → $0 baseline) -->
+          <g class="y-axis">
+            <text x="54" y="44" text-anchor="end">$60</text>
+            <text x="54" y="94" text-anchor="end">$45</text>
+            <text x="54" y="144" text-anchor="end">$30</text>
+            <text x="54" y="194" text-anchor="end">$15</text>
+            <text x="54" y="244" text-anchor="end">$0</text>
+          </g>
+
+          <!-- X-axis baseline -->
+          <line x1="60" y1="240" x2="680" y2="240" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+
+          <!-- Bars: Y1 $60 (h=200) → Y9 $12 (h=40), 9 columns, x=70~630 -->
+          <g class="bars-g">
+            <rect x="70"  y="40"  width="50" height="200" fill="url(#cc-bar)" rx="2"/>
+            <rect x="140" y="60"  width="50" height="180" fill="url(#cc-bar)" rx="2" opacity="0.94"/>
+            <rect x="210" y="80"  width="50" height="160" fill="url(#cc-bar)" rx="2" opacity="0.88"/>
+            <rect x="280" y="100" width="50" height="140" fill="url(#cc-bar)" rx="2" opacity="0.82"/>
+            <rect x="350" y="120" width="50" height="120" fill="url(#cc-bar)" rx="2" opacity="0.76"/>
+            <rect x="420" y="140" width="50" height="100" fill="url(#cc-bar)" rx="2" opacity="0.70"/>
+            <rect x="490" y="160" width="50" height="80"  fill="url(#cc-bar)" rx="2" opacity="0.64"/>
+            <rect x="560" y="180" width="50" height="60"  fill="url(#cc-bar)" rx="2" opacity="0.58"/>
+            <rect x="630" y="200" width="50" height="40"  fill="url(#cc-bar)" rx="2" opacity="0.52"/>
+          </g>
+
+          <!-- Value labels above each bar -->
+          <g class="vals" text-anchor="middle">
+            <text x="95"  y="33">$60</text>
+            <text x="165" y="53">$54</text>
+            <text x="235" y="73">$48</text>
+            <text x="305" y="93">$42</text>
+            <text x="375" y="113">$36</text>
+            <text x="445" y="133">$30</text>
+            <text x="515" y="153">$24</text>
+            <text x="585" y="173">$18</text>
+            <text x="655" y="193">$12</text>
+          </g>
+
+          <!-- X-axis Y1~Y9 labels -->
+          <g class="x-axis" text-anchor="middle">
+            <text x="95"  y="258">Y1</text>
+            <text x="165" y="258">Y2</text>
+            <text x="235" y="258">Y3</text>
+            <text x="305" y="258">Y4</text>
+            <text x="375" y="258">Y5</text>
+            <text x="445" y="258">Y6</text>
+            <text x="515" y="258">Y7</text>
+            <text x="585" y="258">Y8</text>
+            <text x="655" y="258">Y9</text>
+          </g>
+
+          <!-- Trend line (점선) — 가격 곡선 강조 -->
+          <polyline points="95,40 165,60 235,80 305,100 375,120 445,140 515,160 585,180 655,200"
+                    fill="none" stroke="#FFD60A" stroke-width="2" stroke-dasharray="5 4" stroke-linecap="round" opacity="0.9"/>
+
+          <!-- Data dots -->
+          <g class="dots">
+            <circle cx="95"  cy="40"  r="4" fill="#FFD60A"/>
+            <circle cx="165" cy="60"  r="4" fill="#FFD60A"/>
+            <circle cx="235" cy="80"  r="4" fill="#FFD60A"/>
+            <circle cx="305" cy="100" r="4" fill="#FFD60A"/>
+            <circle cx="375" cy="120" r="4" fill="#FFD60A"/>
+            <circle cx="445" cy="140" r="4" fill="#FFD60A"/>
+            <circle cx="515" cy="160" r="4" fill="#FFD60A"/>
+            <circle cx="585" cy="180" r="4" fill="#FFD60A"/>
+            <circle cx="655" cy="200" r="4" fill="#FFD60A"/>
+          </g>
+
+          <!-- Trend line legend -->
+          <g transform="translate(510, 18)">
+            <line x1="0" y1="0" x2="22" y2="0" stroke="#FFD60A" stroke-width="2" stroke-dasharray="5 4"/>
+            <circle cx="11" cy="0" r="3" fill="#FFD60A"/>
+            <text class="trend-label" x="30" y="4">PRICE CURVE · −80% @ Y9</text>
+          </g>
+        </svg>
+      </div>
+      <ul class="bullets reveal d5">
+        <li>신작 풀프라이스 → 1~9년 세일 단계 거치며 <em>새로운 고객층 흡수</em></li>
+        <li><strong>RE7 (2017): 9년차에도 260만장</strong> — 풀프라이스 소진 후 *세일 가격대 고객*만으로 만든 매출</li>
+        <li>캡콤 매출 분포 = <strong>카탈로그 84%</strong> · 신작 16% — *long tail이 본진*</li>
+      </ul>
+      <div class="callout reveal d6"><span class="lbl">함의</span>첫 출시는 *시작일 뿐*. <strong>9년 곡선이 진짜 매출 곡선.</strong> 인디 · 중소도 sequel · patch · sale 활용 가능한 자체 mini-catalog 구축이 long-term 안정성.</div>
+    </section>
+    <footer class="foot reveal d7"><span class="src">출처 · Capcom FY26/3 IR · catalog-economics concept</span><span class="page-num">32 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 33 — POST 7: 회복 시도 절차 ===== -->
+<section class="slide" data-section="3">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">32<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span>LAUNCH</span><span class="active">POST</span><span>USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">6 · 회복 시도 절차</span> 1개월 권장</p>
+      <h2 class="title reveal d3">회복 시도 — <em>1개월 권장</em>, 그 후 다음 게임</h2>
+      <ul class="bullets reveal d4">
+        <li><strong>1.</strong> 버그 패치 + 작은 free content update (release notes 명확히)</li>
+        <li><strong>2.</strong> 출시 *전*: 한 달간 가능한 모든 크리에이터에게 beta branch outreach</li>
+        <li><strong>3.</strong> <em>다음 discount window</em> 기다림 (Steam 추천 sale 시점)</li>
+        <li><strong>4.</strong> 가격을 <strong>지난 historic low보다 10% 더 낮게</strong> — 새로운 price floor</li>
+        <li><strong>5.</strong> <em>"Update visibility round"</em> 사용 (Steam 제공 1회성 알림)</li>
+        <li><strong>6.</strong> Pray</li>
+        <li><strong>7.</strong> <em style="color: var(--warn);">Free-to-Keep 트릭은 하지 말 것</em> (slide 30 참조)</li>
+      </ul>
+      <div class="callout warn reveal d5"><span class="lbl">⚠️ SUNK COST 경고</span><strong>1개월 시도 후 결과 없으면 다음 게임으로 넘어갈 것.</strong> 28 / 18,239 = 0.156% — 통계적으로 회복은 거의 일어나지 않는다. *추가 투입은 sunk cost fallacy*.</div>
+      <p class="lede reveal d6"><strong>결론</strong>: 출시 후 회복 시도보다 <em>런치 전 마케팅 · 품질 · timing</em>이 결정적. Post-launch는 *long tail (catalog economics)* 영역. 회복 시도는 한정된 케이스에만.</p>
+    </section>
+    <footer class="foot reveal d7"><span class="src">출처 · Zukowski 2026-02 · 회복 절차</span><span class="page-num">33 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 34 — 적용: 한국 인디 · 중소 ===== -->
+<section class="slide" data-section="4">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">33<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span>LAUNCH</span><span>POST</span><span class="active">USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">SECTION 04 · 적용</span> 한국 인디 · 중소</p>
+      <h2 class="title reveal d3">한국 인디 · 중소에 <em>어떻게 적용되나</em></h2>
+      <div class="cards col-2 reveal d4">
+        <div class="card-r"><span class="num">L1 · 장르 선택</span><span class="t">healthy 분포 사냥</span><span class="d"><strong>Action Roguelike · Psych Horror · JRPG</strong> = 한국 개발자 강점 매칭. 헬다이버스 2형 multi-shooter는 winner-take-all 위험</span></div>
+        <div class="card-r"><span class="num">L3 · 가격</span><span class="t">$30~50 미드 프라이스</span><span class="d">한국 인디가 노릴 스위트 스팟. cf. 클레르 옵스퀴르 $50 · 600만+. <em>$60+ 진입은 차별성 명확할 때만</em></span></div>
+        <div class="card-r danger"><span class="num">L4 · Publisher Deal</span><span class="t">paid WL &gt;40% risk</span><span class="d">유료 광고로 산 wishlist는 organic 대비 conversion 낮음. <em>paid 비중 &gt;40%면 forecast downside</em></span></div>
+        <div class="card-r"><span class="num">LAUNCH · 90일 trajectory</span><span class="t">정량 측정</span><span class="d"><strong>30일 net add ÷ 30 × days_to_launch</strong> = 실제 런치 WL 예측. 30일 cadence로 측정 시작</span></div>
+        <div class="card-r"><span class="num">LAUNCH · 콘솔 split</span><span class="t">모델 보정 필요</span><span class="d">ZR 모델은 *글로벌 PC 가정*. <em>일본 · 아시아 PC vs 콘솔 conversion 격차</em> 별도 확인 필요</span></div>
+        <div class="card-r"><span class="num">POST · long tail</span><span class="t">sequel · patch · sale</span><span class="d">캡콤 9년 모델은 IP 보유 시 가능. 인디는 sequel · DLC · franchise mini-catalog로 확장 가능</span></div>
+      </div>
+      <div class="callout warn reveal d5"><span class="lbl">⚠️ 모델 적용 CAVEAT</span>본 deck의 8 driver · 5 deal · 6 recovery condition은 <strong>글로벌 인디 기준</strong>. 한국 시장 적용 시 <em>paid 비중 · console split · 언어별 위시리스트 분포</em> 보정 필요. 30-50% 편차 가능 (ZR 명시).</div>
+    </section>
+    <footer class="foot reveal d6"><span class="src"></span><span class="page-num">34 / 35</span></footer>
+  </div>
+</section>
+
+<!-- ===== SLIDE 35 — 정리: Self-diagnosis 6 질문 ===== -->
+<section class="slide" data-section="4">
+  <div class="slide-inner">
+    <header class="head reveal d1">
+      <div class="section-num">34<span class="small">/ 35</span></div>
+      <nav class="breadcrumb"><span>INTRO</span><span>PRE</span><span>LAUNCH</span><span>POST</span><span class="active">USE</span></nav>
+    </header>
+    <section class="body">
+      <p class="label reveal d2"><span class="seq">SECTION 04 · 정리</span> 자기 진단</p>
+      <h2 class="title reveal d3">출시 전 <em>6 질문</em> — 모두 답이 있어야 모델이 작동</h2>
+      <ul class="bullets reveal d4">
+        <li><strong>1. Sub-genre 매트릭스 위치</strong> — parent + sub-genre를 Carless taxonomy 어디에 매핑? (Action Roguelike · Psych Horror · JRPG 등 healthy 분포인가?)</li>
+        <li><strong>2. 90일 WL trajectory</strong> — 30일 net add ÷ 30 × days_to_launch = 예상 런치 WL?</li>
+        <li><strong>3. Demo · closed playtest 데이터</strong> — downloads · review % · completion rate?</li>
+        <li><strong>4. WL 출처 분포</strong> — paid 비중 vs organic? <em>paid &gt;40%면 risk</em></li>
+        <li><strong>5. Community 30일 성장률</strong> — Discord · newsletter. 절대 사이즈보다 *성장률*이 강력한 indicator</li>
+        <li><strong>6. Prior game 매출</strong> — 동일 스튜디오 이전 작 매출 = *가장 강력한 comp* (있을 시)</li>
+      </ul>
+      <div class="callout reveal d5"><span class="lbl">정리 · 한 줄</span>위 6개 질문에 <strong>정량 답이 있을 때 8 driver model이 30-50% 편차 안에서 작동</strong>. 답이 없으면 <em>모른 채로 런치하는 것</em>. 본 deck은 *답을 만드는 프레임*이지 *답 자체*가 아님.</div>
+      <div class="callout warn reveal d6"><span class="lbl">위키 연결</span>본 deck의 truth source 위키 페이지 — [[steam-revenue-forecasting]] · [[publisher-deal-structures]] · [[launch-metrics]] · [[marketing-strategy]] · [[game-pricing-strategy]] · [[indie-business-strategy]]. 위키가 truth source · 본 deck은 *재구성*.</div>
+    </section>
+    <footer class="foot reveal d7"><span class="src">2026 · 05 · 19 · v1 · 35 slides</span><span class="page-num">35 / 35</span></footer>
+  </div>
+</section>
+
+<script>
+class SlidePresentation {
+  constructor() {
+    this.slides = Array.from(document.querySelectorAll('.slide'));
+    this.current = 0;
+    this.progressEl = document.getElementById('progress');
+    this.navDotsEl = document.getElementById('navDots');
+    this.buildNavDots();
+    this.setupObserver();
+    this.setupKeyboard();
+    window.addEventListener('scroll', () => this.updateProgress(), { passive: true });
+    this.updateProgress();
+  }
+  buildNavDots() {
+    this.slides.forEach((s, i) => {
+      const b = document.createElement('button');
+      b.setAttribute('aria-label', `슬라이드 ${i+1}`);
+      b.addEventListener('click', () => this.goTo(i));
+      this.navDotsEl.appendChild(b);
+    });
+    this.navDots = Array.from(this.navDotsEl.querySelectorAll('button'));
+    if (this.navDots[0]) this.navDots[0].classList.add('active');
+  }
+  setupObserver() {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          const idx = this.slides.indexOf(e.target);
+          if (idx >= 0) {
+            this.current = idx;
+            this.navDots.forEach((d, i) => d.classList.toggle('active', i === idx));
+          }
+        }
+      });
+    }, { threshold: 0.5 });
+    this.slides.forEach(s => io.observe(s));
+  }
+  setupKeyboard() {
+    document.addEventListener('keydown', (e) => {
+      if (e.target.getAttribute && e.target.getAttribute('contenteditable') === 'true') return;
+      if (e.key === 'ArrowDown' || e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); this.goTo(this.current + 1); }
+      else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); this.goTo(this.current - 1); }
+      else if (e.key === 'Home') { e.preventDefault(); this.goTo(0); }
+      else if (e.key === 'End') { e.preventDefault(); this.goTo(this.slides.length - 1); }
+    });
+  }
+  goTo(i) {
+    i = Math.max(0, Math.min(this.slides.length - 1, i));
+    this.slides[i].scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+  updateProgress() {
+    const max = document.documentElement.scrollHeight - window.innerHeight;
+    const pct = max > 0 ? (window.scrollY / max) * 100 : 0;
+    this.progressEl.style.width = pct + '%';
+  }
+}
+
+class InlineEditor {
+  constructor() {
+    this.isActive = false;
+    this.storageKey = 'steam-launch-strategy-v1';
+    this.toggleBtn = document.getElementById('editToggle');
+    this.banner = document.getElementById('editBanner');
+    this.hotzone = document.querySelector('.edit-hotzone');
+    this.editables = this.findEditables();
+    this.bindEvents();
+    this.loadSaved();
+  }
+  findEditables() {
+    return Array.from(document.querySelectorAll(
+      '.slide h1, .slide h2, .slide h3, .slide p, .slide li, .slide .t, .slide .d, .slide .l, .slide .s, .slide .v, .slide td, .slide th, .slide .num, .slide .label, .slide .lbl'
+    )).filter(el => !el.closest('.edit-banner') && !el.closest('.edit-toggle'));
+  }
+  bindEvents() {
+    this.toggleBtn.addEventListener('click', () => this.toggle());
+    this.hotzone.addEventListener('click', () => this.toggle());
+    let hideTimeout = null;
+    const showBtn = () => { clearTimeout(hideTimeout); this.toggleBtn.classList.add('show'); };
+    const hideBtn = () => { hideTimeout = setTimeout(() => { if (!this.isActive) this.toggleBtn.classList.remove('show'); }, 400); };
+    this.hotzone.addEventListener('mouseenter', showBtn);
+    this.hotzone.addEventListener('mouseleave', hideBtn);
+    this.toggleBtn.addEventListener('mouseenter', showBtn);
+    this.toggleBtn.addEventListener('mouseleave', hideBtn);
+    document.addEventListener('keydown', (e) => {
+      const inEdit = e.target.getAttribute && e.target.getAttribute('contenteditable') === 'true';
+      if ((e.key === 'e' || e.key === 'E') && !inEdit && !e.ctrlKey && !e.metaKey) { e.preventDefault(); this.toggle(); }
+      if ((e.ctrlKey || e.metaKey) && e.key === 's') { e.preventDefault(); this.save(); }
+      if ((e.ctrlKey || e.metaKey) && e.key === 'e') { e.preventDefault(); this.exportFile(); }
+    });
+    this.editables.forEach((el, i) => {
+      el.dataset.eid = 'e' + i;
+      el.addEventListener('input', () => this.save());
+    });
+  }
+  toggle() {
+    this.isActive = !this.isActive;
+    document.body.classList.toggle('edit-active', this.isActive);
+    this.toggleBtn.classList.toggle('active', this.isActive);
+    this.banner.classList.toggle('active', this.isActive);
+    this.toggleBtn.textContent = this.isActive ? '✓' : '✏️';
+    this.editables.forEach(el => {
+      if (this.isActive) el.setAttribute('contenteditable', 'true');
+      else el.removeAttribute('contenteditable');
+    });
+  }
+  save() {
+    const data = {};
+    this.editables.forEach(el => { data[el.dataset.eid] = el.innerHTML; });
+    try { localStorage.setItem(this.storageKey, JSON.stringify(data)); } catch (e) { console.warn('localStorage 저장 실패', e); }
+  }
+  loadSaved() {
+    try {
+      const raw = localStorage.getItem(this.storageKey);
+      if (!raw) return;
+      const data = JSON.parse(raw);
+      this.editables.forEach(el => { if (data[el.dataset.eid] !== undefined) el.innerHTML = data[el.dataset.eid]; });
+    } catch (e) { console.warn('localStorage 로드 실패', e); }
+  }
+  exportFile() {
+    const wasActive = this.isActive;
+    if (wasActive) {
+      document.body.classList.remove('edit-active');
+      this.toggleBtn.classList.remove('active', 'show');
+      this.banner.classList.remove('active');
+      this.toggleBtn.textContent = '✏️';
+      this.editables.forEach(el => el.removeAttribute('contenteditable'));
+    }
+    const html = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
+    if (wasActive) {
+      document.body.classList.add('edit-active');
+      this.toggleBtn.classList.add('active');
+      this.banner.classList.add('active');
+      this.toggleBtn.textContent = '✓';
+      this.editables.forEach(el => el.setAttribute('contenteditable', 'true'));
+    }
+    const blob = new Blob([html], { type: 'text/html' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'steam-launch-strategy-deck.html';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  new SlidePresentation();
+  window.editor = new InlineEditor();
+});
+</script>
+
+</body>
+</html>
