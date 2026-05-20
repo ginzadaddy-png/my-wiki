@@ -49,8 +49,3 @@ confidence: high
 - [[game-pricing-strategy|게임 가격 전략]] — 가격대 지형 · $10 단절선 · regional haircut · launch discount
 - [[indie-business-strategy|인디 비즈니스 전략]] — 인디 매출 분포·break-even·publisher 협상
 - [[catalog-economics|카탈로그 이코노믹스]] — long tail · 캡콤 9년 곡선
-
-## 갱신 메모
-
-- 2026-05-19: 초안 (v1, 35장). 기존 steam-marketing-strategy deck을 폐기하고 ZR Forecaster·Carless·Zukowski 1차 source 4종을 반영한 종합 전략 deck으로 재구성. Bold Signal 스타일 (다크 + 오렌지 카드 + Archivo Black + Pretendard).
-- 차기 갱신 시 슬라이드 HTML만 교체, wrapper md·카탈로그 wikilink·sources frontmatter 유지. 위키 콘텐츠(concept·source) 변경 시 슬라이드도 동기화.

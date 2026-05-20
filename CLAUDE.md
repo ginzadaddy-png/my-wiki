@@ -44,6 +44,7 @@
     - **wrapper md raw HTML link**: trailing slash 없이 (`https://ginzadaddy-png.github.io/quartz/presentations/[슬러그]` ✓ / `.../[슬러그]/` ✗) — Quartz가 .md를 단일 `slug.html`로 빌드해서 trailing slash URL은 폴더 매칭 시도 → 404
   - **슬라이드 폰트 — JetBrains Mono 절대 금지**, 한글 적합 폰트(Pretendard 등) 사용. make-slide skill·기타 슬라이드 도구 호출 시 prompt에 명시. 기존 슬라이드 HTML 갱신 시도 JetBrains Mono import·font-family 발견하면 즉시 Pretendard로 교체 (메모리 `feedback_slide_fonts.md` 참조)
   - **카탈로그 페이지(`all.md`)는 사용자에게 노출되는 카탈로그 역할만** — 운영 규칙·내부 지침은 *반드시 CLAUDE.md 또는 메모리에만 기록*. 사용자가 사이트에서 보는 카탈로그에는 슬라이드 목록 + 짧은 인트로만
+  - **wrapper md는 결과물 노출에 집중 — "갱신 메모"·"변경 이력" 섹션 작성 금지**. 작업 내역·버전 기록은 *이미 `wiki/log.md`에서 추적*되므로 wrapper md에 중복 기록 불필요. wrapper md는 *제목·요약·iframe·구조·sources·관련 위키 페이지*만으로 구성해 사용자가 *결과물 자체*에 집중하도록 유지. 갱신 이력 추적이 필요하면 log.md 또는 git history 사용.
 
 ## 모든 위키 페이지 frontmatter 형식
 ---
