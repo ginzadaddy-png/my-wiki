@@ -125,7 +125,8 @@
       "Bash(xargs sed *)",
       "PowerShell(Out-Null *)",
       "Bash(git add *)",
-      "Bash(git check-ignore *)"
+      "Bash(git check-ignore *)",
+      "Bash(python *)"
     ]
   }
 }
