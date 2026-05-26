@@ -5,14 +5,14 @@
 
 ## 운영 환경
 - 사용자: 범준(Ginza) — Nexon Games 게임 개발자, Windows 환경
-- 작업 도구: Cowork 모드(Claude 데스크톱 앱) — Read/Write/Edit/Bash 도구로 위키 파일 직접 작업 가능
+- 작업 도구: **Claude Code (데스크톱 앱 또는 CLI) 우선** — 파일·터미널 작업에 가장 적합. Read/Write/Edit/Bash/Grep/Glob 등 풀 toolset으로 위키 파일 직접 조작. Cowork 모드(Claude 데스크톱 앱 자유 채팅)도 병용 가능하나, 파일을 다루는 작업은 Claude Code가 더 매끄러움이 실사용으로 확인됨
 - vault 위치: `C:\Vault\Ginza\my-wiki` (이 폴더). GitHub 비공개 repo에 sync되어 cross-device 작업
 - Quartz 사이트: `C:\Users\bmjlee\quartz`에서 별도 빌드 → GitHub Pages 배포
   - Quartz 컴포넌트/스타일/스크립트 변경은 별도 repo, 별도 push 필요 (my-wiki push 워크플로우와 분리)
   - 변경 후 push 전 mount 무결성(`wc -l`/`tail`) + 로컬 `npx quartz build` 파싱 단계 통과 확인 필수
   - CSS layout·stacking 속성(`position`/`z-index`/`contain`/`overflow`/`display`)은 한 commit당 하나만 변경, 사용자 확인 후 다음 단계
 - 대화 언어: 한국어 위주, 영문 슬러그/용어는 그대로 사용
-- 솔루션 제안 원칙: 터미널/CLI 대신 GUI·앱 인터페이스 한정, 또는 Cowork이 직접 실행하는 형태로
+- 솔루션 제안 원칙: **터미널/CLI도 자유롭게 활용** — Claude Code가 Bash/PowerShell을 직접 실행하므로 GUI/앱 인터페이스로 제한하지 않음. *Claude Code가 대행 가능한 명령*은 그대로 진행. 단 destructive·hard-to-reverse 작업(rm -rf, git push --force, DB drop 등)은 사용자 확인 후 실행
 
 ## 구조 변경 사전 점검 (신규 폴더·워크플로우 추가 시)
 
@@ -65,6 +65,28 @@ source_published: YYYY-MM-DD       # 발행일. 없으면 생략
 ```
 + 본문 첫 줄에 `**원문**: [라벨](URL) — 발행처·저자·날짜` 형태로 명시 (raw frontmatter의 source·author·published 그대로 옮김)
 
+**entity 타입 추가 필드 — 관계(`relations:`)** (Phase 1 신규, 챗봇 graph 추론 사전 작업):
+
+```yaml
+relations:
+  developedBy: [team-asobi]          # 게임 → 개발사 (entity slug 배열)
+  publishedBy: [sony-interactive-entertainment]  # 게임 → 퍼블리셔
+  parentOf: [team-asobi, sucker-punch]  # 모회사 → 자회사 (모회사 페이지에서)
+  genre: [platformer, action]         # 게임 → 장르 (concept slug 가능)
+  platform: [ps5, ps4]                # 게임 → 플랫폼
+```
+
+- **5개 어휘만 사용** (developedBy·publishedBy·parentOf·genre·platform). 데이터가 명시적으로 다른 관계를 요구할 때만 어휘 추가. 선제 정의 금지
+- 값은 *반드시* 위키에 존재하는 entity·concept의 slug 배열 (단일 값도 배열 형태 유지: `[team-asobi]`)
+- entity 페이지에만 적용 (concept·source-summary·comparison은 적용 안 함)
+- **Phase 1 동안 신규 ingest entity에만 적용**, 기존 entity retrofit은 Phase 3 진입 시 (조건 충족 시) 일괄 처리
+- 어휘 의미:
+  - `developedBy` (game → studio): 게임을 만든 개발사. team-asobi가 만든 astro-bot이면 astro-bot 페이지에 `developedBy: [team-asobi]`
+  - `publishedBy` (game → publisher): 퍼블리셔. astro-bot은 `publishedBy: [sony-interactive-entertainment]`
+  - `parentOf` (parent → child): 모회사·소속 관계. sony-interactive-entertainment 페이지에 `parentOf: [team-asobi, sucker-punch, ...]`
+  - `genre` (game → concept/term): 장르. `genre: [platformer]`
+  - `platform` (game → platform): 출시 플랫폼. `platform: [ps5, ps4]`
+
 ## 작업 1: INGEST
 "ingest [파일명]"이라고 하면:
 1. raw/ 소스 파일 읽기 — frontmatter에서 `source:`(원문 URL)·`author:`·`published:` 필드 추출
@@ -74,6 +96,8 @@ source_published: YYYY-MM-DD       # 발행일. 없으면 생략
    - frontmatter에 `source_url`·`source_author`·`source_published` 필드 추가 (raw에서 추출한 값. 없으면 빈 문자열 또는 생략)
    - 본문 첫 줄에 `**원문**: [짧은 라벨 또는 도메인](URL)` 형태로 명시 (사용자 클릭 가능). URL 없는 케이스(PDF·내부 자료)는 `**원문**: N/A (저자·발행처·발행일만 명시)` 형태로
 5. 관련 concept, entity 페이지 생성 또는 업데이트
+   - **entity 페이지 신규 생성 시 `relations:` 필드 채우기 (Phase 1 신규 규칙)** — 5개 어휘(developedBy·publishedBy·parentOf·genre·platform) 중 raw 소스에서 확인 가능한 항목만. 모르면 비워두기, 환각으로 채우지 말 것
+   - 기존 entity 페이지 업데이트 시에는 retrofit 안 함 (Phase 3에서 mass-retrofit 예정)
 6. 기존 위키 내용과 모순되면 "> ⚠️ 모순:" 블록 추가
 7. wiki/index.md 업데이트:
    - 상단 `Last updated` 날짜를 오늘 날짜(YYYY-MM-DD)로 갱신
