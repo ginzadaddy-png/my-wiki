@@ -2,7 +2,7 @@
 title: "Steam 매출 예측 모델 (Steam Revenue Forecasting)"
 type: concept
 sources: ["[[carless-wishlist-conversions-2025-10]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[zukowski-bad-launch-recovery-2024]]", "[[zrconsulting-steam-forecaster-2026]]", "[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]"]
-related: ["[[launch-metrics|흥행 예측 지표]]", "[[marketing-strategy|마케팅 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[early-access-strategy|얼리 액세스 전략]]"]
+related: ["[[launch-metrics|흥행 예측 지표]]", "[[marketing-strategy|마케팅 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[valve|Valve]]", "[[forecasting-vs-launch-metrics|예측 vs 측정 비교]]"]
 created: 2026-05-18
 updated: 2026-05-18
 confidence: medium-high

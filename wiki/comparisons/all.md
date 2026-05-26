@@ -2,7 +2,7 @@
 title: "전체 비교 분석 목록"
 type: comparison
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-05-26
 ---
 
 ← [홈으로](../index.md)
@@ -20,3 +20,4 @@ updated: 2026-04-22
 | [[leadership-production]] | **게임 개발 리더십 스타일** — 캡콤·인섬니악·슈퍼자이언트·밸브·CDPR 비교 |
 | [[companion-philosophy]] | **RPG 동반자 설계 철학** — BioWare·Larian·CD Projekt·Obsidian·Naughty Dog |
 | [[aaa-scaling-strategy]] | **중소 스튜디오의 AAA 도전 전략** — 샌드폴·엠바크·애로우헤드·Avalanche·팀 아소비 |
+| [[forecasting-vs-launch-metrics]] | **예측 vs 측정** — Steam 매출 예측 모델과 흥행 메트릭의 시간축 짝 관계 |

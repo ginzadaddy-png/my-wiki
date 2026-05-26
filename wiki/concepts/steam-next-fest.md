@@ -2,13 +2,13 @@
 title: "Steam Next Fest"
 type: concept
 sources: ["[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[airbridge-steam-marketing-playbook]]", "[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]"]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[playtesting|플레이테스팅]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[early-access-strategy|얼리 액세스 전략]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[playtesting|플레이테스팅]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[valve|Valve]]"]
 created: 2026-05-18
 updated: 2026-05-18
 confidence: high
 ---
 
-**Steam Next Fest**는 Valve가 분기마다 운영하는 무료 데모 페스티벌. 인디·중소 스튜디오 출시 마케팅 캘린더의 *피크 이벤트*로 자리잡았다. 위시리스트 누적, 알고리즘 매칭, 데모 검증, 커뮤니티 신호가 한 주에 압축되어 발생하는 구조라 *어떻게 들어가서 무엇을 얻을지* 결정 자체가 출시 전략의 핵심 변수.
+**Steam Next Fest**는 [[valve|Valve]]가 분기마다 운영하는 무료 데모 페스티벌. 인디·중소 스튜디오 출시 마케팅 캘린더의 *피크 이벤트*로 자리잡았다. 위시리스트 누적, 알고리즘 매칭, 데모 검증, 커뮤니티 신호가 한 주에 압축되어 발생하는 구조라 *어떻게 들어가서 무엇을 얻을지* 결정 자체가 출시 전략의 핵심 변수.
 
 > 💡 **핵심 인사이트:** Next Fest는 *마케팅 부스터*이지 *디자인 검증 도구*가 아니다 ([[zukowski-next-fest-strategy]]). "여기서 검증하자"는 마인드는 위험 — 이미 다듬어진 데모와 누적 위시리스트가 페스트 성과를 결정한다. 위시리스트는 목표가 아니라 *결과*. 알고리즘은 시청률보다 *성향 매칭*을 본다.
 

@@ -2,7 +2,7 @@
 title: "멀티 프로젝트 개발"
 type: concept
 sources: ["[[risks-multi-game-development]]", "[[naughty-dog-multi-project]]", "[[fromsoftware-300-devs]]", "[[embark-soderlund-quarter-budget]]", "[[multiproject-innersource-report]]"]
-related: ["[[naughty-dog|너티독]]", "[[fromsoftware|프롬소프트웨어]]", "[[embark-studios|엠바크 스튜디오]]", "[[insomniac-games|인섬니악]]", "[[capcom|캡콤]]", "[[innersource|이너소스]]", "[[small-team-development|소규모 팀 개발]]", "[[data-driven-development|데이터 기반 개발]]"]
+related: ["[[naughty-dog|너티독]]", "[[fromsoftware|프롬소프트웨어]]", "[[embark-studios|엠바크 스튜디오]]", "[[insomniac-games|인섬니악]]", "[[capcom|캡콤]]", "[[innersource|이너소스]]", "[[small-team-development|소규모 팀 개발]]", "[[data-driven-development|데이터 기반 개발]]", "[[producer-role|프로듀서 역할]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: high
@@ -20,7 +20,7 @@ confidence: high
 
 **집중 분산**: 전문가(AI 프로그래머, FX 아티스트 등)는 한 명인데 여러 팀이 요구 → 작업 시간 분산 → 지연 → 비용 증가
 
-**자원 잠식**: UC3 마감이 TLOU 팀의 자원을 빨아들인 너티독 사례. 우선순위가 높은 프로젝트가 다른 프로젝트를 잠식하는 현상은 구조적
+**자원 잠식**: UC3 마감이 TLOU 팀의 자원을 빨아들인 너티독 사례. 우선순위가 높은 프로젝트가 다른 프로젝트를 잠식하는 현상은 구조적 — [[producer-role|프로듀서 역할]]의 *정렬(Alignment)* 책임이 가장 무거워지는 구간
 
 ## 스튜디오별 접근 방식 비교
 

@@ -2,18 +2,22 @@
 title: "Alan Wake 2"
 type: entity
 sources: ["[[gdc24-alan-wake2-mission-design]]"]
-related: ["[[quest-narrative-design|퀘스트·내러티브 디자인]]", "[[level-design-principles|레벨 디자인 원칙]]"]
+related: ["[[remedy-entertainment|Remedy Entertainment]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]", "[[level-design-principles|레벨 디자인 원칙]]", "[[proprietary-engine-strategy|독자 엔진 전략]]"]
+relations:
+  developedBy: [remedy-entertainment]
+  platform: [ps5, xbox-series, pc]
+  genre: [psychological-horror, action-adventure]
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-05-26
 confidence: high
 ---
 
-Remedy Entertainment, 2023. 핀란드 헬싱키 기반 스튜디오의 자체 엔진(Northlight) 개발작. 두 주인공·두 세계의 교차 서사 구조를 가진 심리 호러 어드벤처.
+[[remedy-entertainment|Remedy Entertainment]], 2023. 핀란드 헬싱키 기반 스튜디오의 자체 엔진(Northlight) 개발작. 두 주인공·두 세계의 교차 서사 구조를 가진 심리 호러 어드벤처.
 
 ## 기본 정보
 
-- **개발사**: Remedy Entertainment (직원 약 380명)
-- **엔진**: Northlight (자체 개발)
+- **개발사**: [[remedy-entertainment|Remedy Entertainment]] (직원 약 380명)
+- **엔진**: Northlight (자체 개발 — [[proprietary-engine-strategy|독자 엔진 전략]] 사례)
 - **장르**: 심리 호러 / 어드벤처
 - **구조**: 두 주인공 동시 진행 — 플레이어가 전환 시점 선택
 

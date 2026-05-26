@@ -2,7 +2,7 @@
 title: "전체 개체 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-05-26
 ---
 
 ← [홈으로](../index.md)
@@ -39,12 +39,14 @@ updated: 2026-04-22
 | [[obsidian-entertainment]] | 미국 캘리포니아, MS 산하, Outer Worlds·Avowed, 유기적 동반자 설계 |
 | [[supercell]] | 핀란드 헬싱키, 텐센트 자회사, Clash of Clans, "프로젝트 실패 ≠ 개인 실패" 모델 |
 | [[hazelight-studios]] | 스웨덴 스톡홀름, EA Originals, It Takes Two·Split Fiction, 2인 협동 전용 게임 |
+| [[nexon]] | 한국 성남 본사, 도쿄 증시 상장, F2P MMO 기반 → 글로벌 프리미엄 PC·콘솔 확장 (엠바크·민트로켓 자회사) |
 
 ## 미디어·플랫폼
 
 | 파일 | 설명 |
 |------|------|
 | [[ign-entertainment]] | 미국 1996 설립, 글로벌 게이밍·엔터테인먼트 미디어, 470M MAU, Maxroll·Planet Pokemon 운영, IMAGINE AI 플랫폼 |
+| [[valve]] | 미국 워싱턴 벨뷰, 1996 설립, Steam(2003~) 운영자, 30/25/20% 수수료 구조, ML 알고리즘 + Steam Next Fest 분기별 운영 |
 
 ## 게임
 

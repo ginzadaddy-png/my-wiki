@@ -8,7 +8,7 @@ updated: 2026-04-13
 confidence: high
 ---
 
-넥슨 계열 독립 개발 스튜디오. [[dave-the-diver|데이브 더 다이버]] 개발사.
+[[nexon|넥슨]] 계열 독립 개발 스튜디오. [[dave-the-diver|데이브 더 다이버]] 개발사.
 
 - **대표**: 황재호
 - **대표작**: [[dave-the-diver|데이브 더 다이버]] (2023)

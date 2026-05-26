@@ -1,15 +1,15 @@
 # Game Dev Wiki
 
-Last updated 2026-05-19
+Last updated 2026-05-26
 
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
   <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">114</span></a></div>
-  <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">28</span></a></div>
+  <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">29</span></a></div>
   <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">29</span></a></div>
   <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">52</span></a></div>
-  <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">11</span></a></div>
+  <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">12</span></a></div>
   <div class="stat-card"><a href="presentations/all.md" class="internal"><span class="stat-label">프레젠테이션</span><span class="stat-num">2</span></a></div>
 </div>
 
@@ -108,6 +108,7 @@ Last updated 2026-05-19
 - [[leadership-production|게임 개발 리더십 스타일 — 캡콤·인섬니악·슈퍼자이언트·밸브·CDPR 비교]]
 - [[companion-philosophy|RPG 동반자 설계 철학 — BioWare·Larian·CD Projekt·Obsidian·Naughty Dog]]
 - [[aaa-scaling-strategy|중소 스튜디오의 AAA 도전 전략 — 샌드폴·엠바크·애로우헤드·Avalanche·팀 아소비]]
+- [[forecasting-vs-launch-metrics|예측 vs 측정 — Steam 매출 예측 모델과 흥행 메트릭의 시간축 짝 관계]]
 
 </div>
 

@@ -2,7 +2,7 @@
 title: "독자 엔진 전략"
 type: concept
 sources: ["[[capcom-ir2021-dev-strategy]]", "[[re2023-re-engine-philosophy]]", "[[expedition33-ue5-interview]]", "[[gdc2023-asobo-how-to-make-aaa-small-team]]"]
-related: ["[[capcom|캡콤]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[asobo-studio|Asobo Studio]]", "[[small-team-development|소규모 팀 개발]]"]
+related: ["[[capcom|캡콤]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[asobo-studio|Asobo Studio]]", "[[remedy-entertainment|Remedy Entertainment]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: high
@@ -46,3 +46,7 @@ confidence: high
 Asobo 모델의 시사점: 독자 엔진이 꼭 대형 스튜디오만의 선택지는 아니다. 엔진이 게임의 **장르 정체성 구현 도구**가 될 때, 투자 대비 효과가 규모를 넘어설 수 있다.
 
 > 💡 **핵심 인사이트:** 엔진 전략의 핵심 질문은 "우리가 엔진을 통제할 것인가, 엔진이 우리를 도울 것인가"가 아니다. "이 투자가 우리 규모와 목표에 ROI가 나오는가"다. Asobo는 여기에 하나를 더한다: **엔진이 장르 정체성의 인프라가 될 때** 소규모라도 독자 엔진이 합리적이다.
+
+## 중간 규모 독자 엔진 — Remedy Northlight
+
+[[remedy-entertainment|Remedy Entertainment]] (~380명)도 자체 엔진 Northlight를 장기간 유지하는 사례. [[alan-wake-2|Alan Wake 2]] 개발에서 Northlight는 단순 기술 자산이 아니라 *Remedy의 장르 정체성*(심리 호러·꿈의 논리·초자연적 조명·영상미)을 구현하는 **인프라**로 기능한다. Asobo와 같이 *중간 규모 + 장르 정체성* 케이스 — 캡콤 모델(2,500명 멀티 타이틀)과 샌드폴 모델(40명 단일 타이틀) 사이의 *세 번째 길*.

@@ -10,7 +10,7 @@ sources: [
   "[[multiproject-innersource-report]]",
   "[[gcon2025-hashimoto-producer]]"
 ]
-related: ["[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[studio-culture|스튜디오 문화]]"]
+related: ["[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[studio-culture|스튜디오 문화]]", "[[producer-role|프로듀서 역할]]"]
 created: 2026-04-16
 updated: 2026-04-28
 confidence: high
@@ -60,6 +60,8 @@ confidence: high
 
 ## 프로듀서의 역할: Force Multiplier
 
+> 상세: [[producer-role|프로듀서 역할 — Force Multiplier · 함정 3종 · 마인드셋 전환]] 참고
+
 [[gdc26-production-traps|Production Traps]] (Carcich, 2026)는 프로듀서가 빠지기 쉬운 함정을 세 범주로 정리한다:
 - **Sub-Optimizer**: 도구·프로세스·계획에 과잉 투자 (JIRA 완성 ≠ 좋은 게임)
 - **Unskilled Supporter**: 팀이 원하는 것을 해주는 데 집중 (cheerleader·therapist·정보 전달자)
@@ -97,7 +99,7 @@ confidence: high
 
 → [[innersource|이너소스]] 참고
 
-## 프로듀서 vs 디렉터: 하시모토 신지 정의 ([[gcon2025-hashimoto-producer]])
+## 프로듀서 vs 디렉터: 하시모토 신지 정의 ([[gcon2025-hashimoto-producer]] · [[producer-role|프로듀서 역할]])
 
 FF 시리즈 프로듀서 출신 하시모토 신지(Aniplex)의 압축 정의:
 

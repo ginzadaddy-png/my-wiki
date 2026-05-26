@@ -2,6 +2,33 @@
 title: "활동 로그"
 ---
 
+## [2026-05-26] weekly-lint + 고립 해소 + 신규 entity·comparison
+- 트리거: 예약 작업(weekly-wiki-lint) 결과 보고 후 사용자 "2-2 권장 + 2-4 의 2·3·4 진행" 지시
+- lint 요약: 모순 4건(전부 해소형 — 그대로 유지), 콘텐츠-고립 8건(comparison 5건은 catalog 의도 / 실제 보강 대상 3건), 미페이지 빈출 0건
+- 고립 해소 (3 페이지, 5 파일 edit):
+  - entities/alan-wake-2.md: Remedy plain text → [[remedy-entertainment]] wikilink, frontmatter related + relations(developedBy·platform·genre) 추가
+  - concepts/proprietary-engine-strategy.md: related에 remedy-entertainment 추가, 본문 "중간 규모 독자 엔진 — Remedy Northlight" 섹션 신설
+  - concepts/dev-org-structure.md: related에 producer-role 추가, "Force Multiplier" 섹션·하시모토 섹션에서 producer-role wikilink 인용
+  - concepts/multi-project-development.md: related에 producer-role 추가, "자원 잠식" 본문에서 wikilink 인용
+  - concepts/live-service-design.md: related에 mobile-gamedev 추가, 본문 첫줄에서 모바일 분기 안내
+- 신규 entity (2 페이지):
+  - entities/valve.md (신규) — 미국 워싱턴 벨뷰, Steam 운영자, 30/25/20% 수수료, ML 알고리즘(2024-10~), Steam Next Fest, 4축(플랫폼 알고리즘·Next Fest·매출 1차 source·가격 정책 인프라) 정리
+  - entities/nexon.md (신규) — 한국 성남 본사, 도쿄 증시 상장, F2P MMO → 글로벌 프리미엄 PC·콘솔, 4축(이중 트랙 스튜디오 모델·아크 레이더스 프리미엄 전환·자회사 분권·MMO 카탈로그) 정리, relations: parentOf [embark-studios, mint-rocket]
+  - inbound 보강: embark-studios·mint-rocket·arc-raiders·steam-next-fest·steam-revenue-forecasting에서 wikilink로 인용
+- 신규 comparison (1 페이지):
+  - comparisons/forecasting-vs-launch-metrics.md (신규) — Steam 매출 예측 모델 vs 흥행 메트릭의 *시간축 짝* 비교. 한 페이지 비교 표·1차 source 공통점·의사결정 흐름·circular reasoning 함정·사례 적용
+  - inbound 보강: steam-revenue-forecasting·launch-metrics related에 양방향 link
+- 보류 (raw source 부족):
+  - 엔씨소프트 entity: 위키 내 deep dive source 없음 — *추가 조사 주제*에서만 언급되는 수준. raw 보강 후 진행 권장
+  - 일본 대형 퍼블리셔(코나미·세가·반다이·스퀘어에닉스) entity: 캡콤 외 위키 정보 부족 — raw 보강 후 진행 권장
+- 카탈로그·index 갱신:
+  - entities/all.md: 스튜디오 28→29(nexon), 미디어·플랫폼 1→2(valve), updated 2026-05-26
+  - comparisons/all.md: 11→12(forecasting-vs-launch-metrics), updated 2026-05-26
+  - index.md: Last updated 2026-05-26, stat card 스튜디오 28→29 / 비교 11→12, 비교 pill-grid에 forecasting-vs-launch-metrics 행 추가
+  - overview.md: 현재 커버리지 스튜디오·퍼블리셔 29 / 미디어·플랫폼 2 갱신
+- 메타: entity 56→58, concept 53 동일, comparison 11→12, source 114 동일
+- push 안 함 — 사용자 검토 후 직접 요청
+
 ## [2026-05-19] presentation | 스팀 신규 게임 출시의 성공 방정식 (steam-launch-strategy, 35장)
 - 트리거: 사용자 — 기존 steam-marketing-strategy deck을 폐기하고 ZR Forecaster·Carless·Zukowski 1차 source 4종 + 가격·딜·회복까지 확장한 종합 전략 deck으로 재구성
 - 스타일: frontend-slides skill · Phase 2 거쳐 3 preview (Bold Signal · Paper & Ink · Dark Botanical) 비교 후 **Bold Signal 선택** — 다크 배경 + 오렌지 카드 + Archivo Black 영문 display + Pretendard 한글

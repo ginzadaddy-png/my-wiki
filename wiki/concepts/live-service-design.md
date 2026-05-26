@@ -2,13 +2,15 @@
 title: "라이브 서비스 설계"
 type: concept
 sources: ["[[missing-middle-paradigm-shift-2026]]", "[[ukyou-mobile-liveservice-survival]]", "[[ukyou-mobile-liveservice-walls]]", "[[ign-generations-in-play-2026]]"]
-related: ["[[helldivers-2|헬다이버스 2]]", "[[arc-raiders|아크 레이더스]]", "[[arrowhead-game-studios|애로우헤드]]", "[[embark-studios|엠바크 스튜디오]]", "[[community-management|커뮤니티 운영]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[game-utility-systems|게임 유틸리티 시스템]]"]
+related: ["[[helldivers-2|헬다이버스 2]]", "[[arc-raiders|아크 레이더스]]", "[[arrowhead-game-studios|애로우헤드]]", "[[embark-studios|엠바크 스튜디오]]", "[[community-management|커뮤니티 운영]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[mobile-gamedev|모바일 게임 개발]]"]
 created: 2026-04-23
 updated: 2026-05-12
 confidence: high
 ---
 
 출시 후 지속적인 콘텐츠 업데이트로 운영되는 게임 모델. 수익 구조·커뮤니티 신뢰·장기 로드맵 설계가 핵심.
+
+> 모바일 라이브 서비스 특화 분석은 [[mobile-gamedev|모바일 게임 개발]] 참고 — 4대 벽·상업 성립 4요소·원신 쇼크의 역설.
 
 ## 라이브 서비스 피로도의 원인
 
