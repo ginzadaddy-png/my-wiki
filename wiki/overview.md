@@ -17,12 +17,18 @@ title: "위키 개요"
 - [[open-world-design|오픈월드 유도 설계]]: 자유와 방향의 균형 — BotW·엘든링·GTA5의 서로 다른 접근
 - [[marketing-strategy|마케팅·출시 전략]]: 스팀 넥스트 페스트, 크리에이터 중심, 커뮤니티 신뢰 축적, 가격 전략
 - [[game-pricing-strategy|가격 전략]]: 가격대 지형, 지역 차등화, 세일 타이밍, 비즈니스 모델 — 마케팅과 분리된 독립 디스플린
+- [[steam-revenue-forecasting|스팀 매출 예측]]: 8 driver tornado sensitivity·서브장르 매트릭스·review tier multiplier·time distribution — ZR Forecaster + Carless·Zukowski 1차 데이터 결합
+- [[publisher-deal-structures|퍼블리셔 딜 구조]]: Self-publish·Rev share·Recoup-first·MG·Marketing fee 5종 stress test로 본 indie 비즈니스 의사결정
+- [[launch-metrics|런치 메트릭]]: 리뷰 tier multiplier·Year-1 38% 런치월 집중·회복률 0.156%·Demo+8%/Next Fest+4% conversion lift
 - [[dev-org-structure|조직 구조]]: 유동 배치·스크럼·프로듀서-디렉터 분리·인섬니악식 멀티 프로젝트까지 다양한 모델
+- [[multi-project-development|멀티 프로젝트 개발]]: 인섬니악·엠바크·캡콤·CDPR 모델 — 카탈로그 IP·이너소스·인재 파이프라인 3축
 - [[studio-culture|스튜디오 문화]]: 비전 선언문, 심리적 안전, 의사결정 방식이 결과물을 결정
 - [[soulslike|소울라이크 문법]]: 공정한 가혹함·죽음 루프·보스 설계 — 프롬소프트웨어 중심 장르 분석
 - [[live-service-design|라이브 서비스 설계]]: 비약탈적 모델, 헬다이버스2 게임 마스터, F2P 탈출 교훈, 모바일 4대 벽
 - [[mobile-gamedev|모바일 게임 개발]]: 4대 현장 벽, 상업 성립 4요소, 원신 쇼크의 역설
 - [[innersource|이너소스]]: 오픈소스 방식의 사내 기술 공유 — 인섬니악·캡콤 사례
+- [[art-pipeline-design|아트 파이프라인 설계]]: Houdini·USD·Origins node·Edit-in-place·Batching·Cross-project 공유 — Embark 멀티 게임 포트폴리오 기술적 실체
+- [[proprietary-engine-strategy|자체 엔진 전략]]: RE ENGINE·Northlight·Decima·Snowdrop·Frostbite — 인하우스 엔진의 멀티 게임 효율과 학습 곡선
 - [[catalog-economics|카탈로그 이코노믹스]]: 시리즈 IP의 장기 매출 모델 — 캡콤 카탈로그 비중 84% 사례
 - [[dev-talent-pipeline|개발 인재 파이프라인]]: 연간 100명+ 신규 채용·세대 혼합·R&D 인프라·Gen AI 결합 (캡콤 12년 모델)
 - [[subscription-economy-gaming|구독 경제]]: 소유→액세스 전환, discovery engine, Residency Premium (Gen Z·M의 다른 OS)
