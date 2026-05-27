@@ -4,7 +4,7 @@
 매 세션 시작 시 이 파일을 먼저 읽으세요.
 
 ## 운영 환경
-- 사용자: 범준(Ginza) — Nexon Games 게임 개발자, Windows 환경
+- 사용자: Ginza, 게임 개발자, Windows 환경
 - 작업 도구: **Claude Code (데스크톱 앱 또는 CLI) 우선** — 파일·터미널 작업에 가장 적합. Read/Write/Edit/Bash/Grep/Glob 등 풀 toolset으로 위키 파일·셸 명령 직접 조작. Cowork 모드(Claude 데스크톱 앱 자유 채팅)도 병용 가능하나, 파일 작업은 Claude Code가 더 매끄러움이 실사용으로 확인됨. Bash/PowerShell도 GUI/앱 인터페이스로 제한하지 않고 자유롭게 활용. 단 destructive·hard-to-reverse 작업(rm -rf, git push --force, DB drop 등)은 사용자 확인 후 실행
 - vault 위치: `C:\Vault\Ginza\my-wiki` (이 폴더). GitHub 비공개 repo에 sync되어 cross-device 작업
 - Quartz 사이트: `C:\Users\bmjlee\quartz`에서 별도 빌드 → GitHub Pages 배포
