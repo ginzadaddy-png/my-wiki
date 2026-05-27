@@ -38,55 +38,63 @@ LLM 도구는 Claude를 메인으로 사용하되, **Cowork 모드(Claude 데스
 
 ## 도구 스택·아키텍처 다이어그램
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                       데이터 수집 layer                         │
-│  Web Clipper · NotebookLM · 직접 PDF / 트랜스크립트 다운로드    │
-└──────────────────────────────┬──────────────────────────────────┘
-                               │
-                               ▼
-                ┌──────────────────────────┐
-                │  raw/  (read-only 원본)  │
-                │  - articles/ - pdfs/     │
-                │  - transcripts/ - 등     │
-                └──────────────┬───────────┘
-                               │ INGEST 명령
-                               ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                     LLM 처리 (Claude)                           │
-│  · 핵심 요약 추출  · concept / entity 추출  · 모순 검출         │
-│  · wikilink 자동 연결  · frontmatter 구조화                     │
-└──────────────────────────────┬──────────────────────────────────┘
-                               │
-                               ▼
-┌─────────────────────────────────────────────────────────────────┐
-│   wiki/  (관리 대상)                                            │
-│   ├── sources/      원문 요약 (115)                             │
-│   ├── concepts/     개념 페이지 (54)                            │
-│   ├── entities/     스튜디오·게임 (61)                          │
-│   ├── comparisons/  비교 분석 (13)                              │
-│   ├── presentations/ HTML 슬라이드 + wrapper                    │
-│   ├── index.md      전체 카탈로그                               │
-│   └── log.md        ingest·작업 이력                            │
-└──────────────────────────────┬──────────────────────────────────┘
-                               │ git push (GitHub Desktop)
-                               ▼
-              ┌────────────────────────────┐
-              │ GitHub: my-wiki (private)  │
-              └──────────────┬─────────────┘
-                             │ Action 자동 trigger
-                             ▼
-              ┌────────────────────────────┐
-              │ GitHub: quartz (content    │
-              │   submodule 자동 sync)     │
-              └──────────────┬─────────────┘
-                             │ Pages 빌드
-                             ▼
-              ┌────────────────────────────┐
-              │  ginzadaddy-png.github.io  │
-              │       /quartz/             │
-              └────────────────────────────┘
-```
+<div style="font-size:0.83rem;margin:1rem 0 1.6rem;line-height:1.65;max-width:660px">
+
+<div style="border:1.5px dashed var(--gray);border-radius:4px;padding:0.6rem 1.2rem;text-align:center">
+<strong>데이터 수집 layer</strong><br>
+Web Clipper &nbsp;·&nbsp; NotebookLM &nbsp;·&nbsp; 직접 PDF / 트랜스크립트 다운로드
+</div>
+
+<div style="text-align:center;padding:0.3rem 0;opacity:.6">↓</div>
+
+<div style="border:1.5px dashed var(--gray);border-radius:4px;padding:0.6rem 1.2rem;max-width:380px;margin:0 auto">
+<strong>raw/ &nbsp;(read-only 원본)</strong><br>
+- articles/ &nbsp;&nbsp; - pdfs/<br>
+- transcripts/ &nbsp; - 등
+</div>
+
+<div style="text-align:center;padding:0.3rem 0;opacity:.6">↓ &nbsp;INGEST 명령</div>
+
+<div style="border:1.5px dashed var(--gray);border-radius:4px;padding:0.6rem 1.2rem;text-align:center">
+<strong>LLM 처리 (Claude)</strong><br>
+· 핵심 요약 추출 &nbsp;&nbsp; · concept / entity 추출 &nbsp;&nbsp; · 모순 검출<br>
+· wikilink 자동 연결 &nbsp;&nbsp; · frontmatter 구조화
+</div>
+
+<div style="text-align:center;padding:0.3rem 0;opacity:.6">↓</div>
+
+<div style="border:1.5px dashed var(--gray);border-radius:4px;padding:0.6rem 1.2rem;font-family:ui-monospace,'Cascadia Code',monospace;font-size:0.79rem">
+<strong>wiki/ &nbsp;(관리 대상)</strong><br>
+├── sources/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 원문 요약 (115)<br>
+├── concepts/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 개념 페이지 (54)<br>
+├── entities/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 스튜디오·게임 (61)<br>
+├── comparisons/ &nbsp;&nbsp; 비교 분석 (13)<br>
+├── presentations/ &nbsp;HTML 슬라이드 + wrapper<br>
+├── index.md &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 전체 카탈로그<br>
+└── log.md &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ingest·작업 이력
+</div>
+
+<div style="text-align:center;padding:0.3rem 0;opacity:.6">↓ &nbsp;git push (GitHub Desktop)</div>
+
+<div style="border:1.5px dashed var(--gray);border-radius:4px;padding:0.6rem 1.2rem;max-width:280px;margin:0 auto;text-align:center">
+GitHub: my-wiki (private)
+</div>
+
+<div style="text-align:center;padding:0.3rem 0;opacity:.6">↓ &nbsp;Action 자동 trigger</div>
+
+<div style="border:1.5px dashed var(--gray);border-radius:4px;padding:0.6rem 1.2rem;max-width:280px;margin:0 auto;text-align:center">
+GitHub: quartz<br>
+<span style="font-size:0.78rem;opacity:.8">(content submodule 자동 sync)</span>
+</div>
+
+<div style="text-align:center;padding:0.3rem 0;opacity:.6">↓ &nbsp;Pages 빌드</div>
+
+<div style="border:1.5px dashed var(--gray);border-radius:4px;padding:0.6rem 1.2rem;max-width:280px;margin:0 auto;text-align:center">
+ginzadaddy-png.github.io<br>
+/quartz/
+</div>
+
+</div>
 
 ## 작업 흐름
 
