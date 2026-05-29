@@ -1,15 +1,15 @@
 # Game Dev Wiki
 
-Last updated 2026-05-26
+Last updated 2026-05-29
 
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">114</span></a></div>
-  <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">29</span></a></div>
-  <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">29</span></a></div>
+  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">115</span></a></div>
+  <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">37</span></a></div>
+  <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">33</span></a></div>
   <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">52</span></a></div>
-  <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">12</span></a></div>
+  <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">14</span></a></div>
   <div class="stat-card"><a href="presentations/all.md" class="internal"><span class="stat-label">프레젠테이션</span><span class="stat-num">2</span></a></div>
 </div>
 
@@ -109,6 +109,8 @@ Last updated 2026-05-26
 - [[companion-philosophy|RPG 동반자 설계 철학 — BioWare·Larian·CD Projekt·Obsidian·Naughty Dog]]
 - [[aaa-scaling-strategy|중소 스튜디오의 AAA 도전 전략 — 샌드폴·엠바크·애로우헤드·Avalanche·팀 아소비]]
 - [[forecasting-vs-launch-metrics|예측 vs 측정 — Steam 매출 예측 모델과 흥행 메트릭의 시간축 짝 관계]]
+- [[proprietary-engine-vs-ue5|자체 엔진 vs UE5 의사결정 매트릭스 — 규모·타이틀 다양성·장르 정체성 3축 ROI 분기]]
+- [[catalog-economics-3-publishers|카탈로그 이코노믹스 3사 — 캡콤·닌텐도·Take-Two 재발매·가격유지·서비스 3모델 비교]]
 
 </div>
 

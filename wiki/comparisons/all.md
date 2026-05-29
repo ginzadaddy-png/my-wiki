@@ -2,7 +2,7 @@
 title: "전체 비교 분석 목록"
 type: comparison
 created: 2026-04-22
-updated: 2026-05-26
+updated: 2026-05-29
 ---
 
 ← [홈으로](../index.md)
@@ -21,3 +21,5 @@ updated: 2026-05-26
 | [[companion-philosophy]] | **RPG 동반자 설계 철학** — BioWare·Larian·CD Projekt·Obsidian·Naughty Dog |
 | [[aaa-scaling-strategy]] | **중소 스튜디오의 AAA 도전 전략** — 샌드폴·엠바크·애로우헤드·Avalanche·팀 아소비 |
 | [[forecasting-vs-launch-metrics]] | **예측 vs 측정** — Steam 매출 예측 모델과 흥행 메트릭의 시간축 짝 관계 |
+| [[proprietary-engine-vs-ue5]] | **자체 엔진 vs UE5 의사결정 매트릭스** — 규모·타이틀 다양성·장르 정체성 3축 ROI 분기 |
+| [[catalog-economics-3-publishers]] | **카탈로그 이코노믹스 3사** — 캡콤·닌텐도·Take-Two 재발매·가격유지·서비스 3모델 비교 |

@@ -1,8 +1,8 @@
 ﻿---
 title: "독자 엔진 전략"
 type: concept
-sources: ["[[capcom-ir2021-dev-strategy]]", "[[re2023-re-engine-philosophy]]", "[[expedition33-ue5-interview]]", "[[gdc2023-asobo-how-to-make-aaa-small-team]]"]
-related: ["[[capcom|캡콤]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[asobo-studio|Asobo Studio]]", "[[remedy-entertainment|Remedy Entertainment]]", "[[small-team-development|소규모 팀 개발]]"]
+sources: ["[[capcom-ir2021-dev-strategy]]", "[[re2023-re-engine-philosophy]]", "[[expedition33-ue5-interview]]", "[[gdc2023-asobo-how-to-make-aaa-small-team]]", "[[pearl-abyss-blackspace-engine-gdc2025]]"]
+related: ["[[capcom|캡콤]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[asobo-studio|Asobo Studio]]", "[[remedy-entertainment|Remedy Entertainment]]", "[[pearl-abyss|펄어비스]]", "[[small-team-development|소규모 팀 개발]]", "[[proprietary-engine-vs-ue5|자체 엔진 vs UE5 의사결정 매트릭스]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: high
@@ -50,3 +50,14 @@ Asobo 모델의 시사점: 독자 엔진이 꼭 대형 스튜디오만의 선택
 ## 중간 규모 독자 엔진 — Remedy Northlight
 
 [[remedy-entertainment|Remedy Entertainment]] (~380명)도 자체 엔진 Northlight를 장기간 유지하는 사례. [[alan-wake-2|Alan Wake 2]] 개발에서 Northlight는 단순 기술 자산이 아니라 *Remedy의 장르 정체성*(심리 호러·꿈의 논리·초자연적 조명·영상미)을 구현하는 **인프라**로 기능한다. Asobo와 같이 *중간 규모 + 장르 정체성* 케이스 — 캡콤 모델(2,500명 멀티 타이틀)과 샌드폴 모델(40명 단일 타이틀) 사이의 *세 번째 길*.
+
+## MMORPG 라이브 서비스 자체 엔진 — 펄어비스 케이스
+
+[[pearl-abyss|펄어비스]] (~1,500명, 한국 안양)는 *MMORPG 라이브 서비스 + 자체 엔진* 카테고리의 *유일한 representative*. 캡콤·Remedy·Asobo의 *AAA 콘솔 자체 엔진* 모델과 다른 *5번째 ROI 정당화*:
+
+- **검은사막 엔진 (Black Desert Engine, 1세대, 2014~)** — *C++ 기반 in-house*, 2010~2014 4년 R&D. 검은사막 PC(2014)·모바일(2018)·콘솔(2019/2025) *동일 베이스 cross-platform* 적용
+- **블랙스페이스 엔진 (Blackspace Engine, 2세대, 2025-03 GDC 최초 공개)** — *룩앤필·기술 통제·멀티플랫폼 지원* 3대 핵심 가치. 거리 기반 렌더링·심리스 로딩·GPU 물리·FFT 해양·레이 트레이싱·통합 대기 산란 등 *UE5 Nanite·Lumen 표준에 정면 대응하는 자체 솔루션*. *붉은사막* 첫 상용 검증, 이후 *DokeV* 등 적용 예정 ([[pearl-abyss-blackspace-engine-gdc2025|인벤 보도]])
+- *MMO 서버 인프라 + 클라이언트 엔진* 동시 통제 — *외부 엔진(UE5 등) 도입 시 서버 인프라 분리 어려움*이 자체 엔진 유지의 *추가 정당화*
+- *10년+ 라이브 서비스 catalog 모델* — 검은사막 단일 IP가 *시간축 매출 carry*, 자체 엔진 R&D 비용을 *catalog로 회수*
+
+> 💡 **5번째 ROI 정당화 모델**: 캡콤(다장르 IP 공유)·Asobo·Remedy(장르 정체성)·Rockstar(오픈월드 스케일)·FromSoftware(시리즈 게임 필감)에 *MMORPG cross-platform 라이브 서비스 + 자체 IP*가 추가. *NCSoft 리니지·넥슨 메이플*은 *PC·모바일 분리 운영* 측면에서 *펄어비스의 cross-platform 동일 베이스 모델과 분기*.

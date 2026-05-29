@@ -2,10 +2,11 @@
 title: "소스 전체 목록"
 ---
 
-총 114개 | 최신순 정렬
+총 115개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [pearl-abyss-blackspace-engine-gdc2025](pearl-abyss-blackspace-engine-gdc2025.md) | 펄어비스 블랙스페이스 엔진 GDC 2025 공개 (인벤) | 2025-03 |
 | [carless-wishlist-conversions-2025-10](carless-wishlist-conversions-2025-10.md) | GameDiscoverCo — Steam Wishlist Conversions 2024-2025 (Carless) | 2025-10 |
 | [carless-genres-ruled-steam-2025-06](carless-genres-ruled-steam-2025-06.md) | GameDiscoverCo — Which Genres Have 'Ruled' Steam (Single-tag Taxonomy, Carless) | 2025-06 |
 | [zukowski-bad-launch-recovery-2024](zukowski-bad-launch-recovery-2024.md) | Zukowski — Only 28 Games Recovered From a Bad Launch in 2024 | 2026-02 |

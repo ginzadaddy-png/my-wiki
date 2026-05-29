@@ -2,6 +2,85 @@
 title: "활동 로그"
 ---
 
+## [2026-05-29] ingest + 정정 — 펄어비스 블랙스페이스 엔진 (Inven GDC 2025 보도)
+- 트리거: 사용자가 "펄어비스 2세대 엔진 이름은 블랙스페이스(Black Space) 엔진, https://www.inven.co.kr/webzine/news/?news=304278&site=angelstone 참고"
+- 정정 사유: 직전 entity 작성 시 *Heart Engine (가칭)*으로 표기. 실제는 *블랙스페이스 엔진(Blackspace Engine)*, 2025-03 GDC 2025에서 미디어 최초 공개됨. *가칭이 아닌 공식 명칭*
+- 신규 raw:
+  - raw/articles/2026-05-29-pearl-abyss-blackspace-engine-gdc2025.md (인벤 이두현 기자, 2025-03-24)
+- 신규 source 페이지:
+  - wiki/sources/pearl-abyss-blackspace-engine-gdc2025.md (3대 핵심 가치·12개 기술 스택·시연 핵심 장면·UE5 대응 자체 솔루션 정리)
+- 정정·보강:
+  - entities/pearl-abyss.md: Heart Engine 표기 모두 *블랙스페이스 엔진*으로 교체, "자체 엔진 전략" 섹션 대폭 보강 (3대 핵심 가치 + 12개 기술 스택 표), sources 배열에 신규 source 추가, confidence medium→medium-high, "추가 조사" 항목 갱신 (Heart Engine 가칭 확인 → 모바일 지원·상용 빌드 충실도·DokeV 적용 등 새 추가 조사 항목으로 교체)
+  - concepts/proprietary-engine-strategy.md: 펄어비스 섹션 *블랙스페이스 엔진* 정정 + 기술 스택 인용, sources 배열에 신규 source 추가
+  - comparisons/proprietary-engine-vs-ue5.md: 자체 엔진 진영 표 펄어비스 행 정정 (Heart Engine → 블랙스페이스 엔진), "예외 변수 4번" Pearl Abyss 본문 정정, 한국 메이저 표 정정, sources 배열에 신규 source 추가
+- 카탈로그·index 갱신:
+  - sources/all.md: 114→115, 신규 행 추가
+  - index.md: stat card 소스 114→115
+  - about.md: 통계 표 소스 115→116, 다이어그램 sources 115→116, 인라인 수치 264→265
+- 메타: source 114→115 actual (folder 115→116 inc. all.md), entity·concept·comparison 수 동일
+- 핵심 신규 정보 (블랙스페이스 엔진):
+  - 3대 핵심 가치: 룩앤필(Look & Feel) · 기술에 대한 완전한 통제(Control of Technology) · 멀티플랫폼 지원(Multi-Platform Support)
+  - 기술 스택: 거리 기반 렌더링·심리스 로딩·다이내믹 물리·GPU 물리 연산·FFT Ocean Simulation·Shallow Water Simulation·Fluid+Froxel Raymarching·Ray Tracing·Real-time Light Calculation·Unified Atmospheric Scattering with Volumetric Cloud·Shape Variation·임포스터 LOD 전환
+  - UE5 Nanite·Lumen·Niagara·World Partition 표준에 *정면 대응하는 자체 솔루션* — 한국 게임사 중 드문 사례
+  - 첫 상용 검증 = 붉은사막 (2026-03 예정), 이후 DokeV 등 적용
+- 신뢰도: confidence: high (인벤 1차 보도 + Pearl Abyss 관계자 인용 직접 인용)
+- push 안 함 — 사용자 검토 후 직접 요청
+
+## [2026-05-29] entity 보강 — 펄어비스 (자체 엔진 한국 케이스)
+- 트리거: 사용자가 "자체 엔진 사례에 펄어비스 추가, 관련 md 모두 업데이트" 지시
+- 신규 entity (1 페이지):
+  - entities/pearl-abyss.md (2010 한국 안양, KOSDAQ 263750, 직원 ~1,500명, 검은사막 PC·모바일·콘솔 cross-platform, Black Desert Engine 1세대·Heart Engine 2세대(가칭) 2026 붉은사막 출시로 실전 검증, CCP Games 2018 $425M 인수)
+- 기존 페이지 보강:
+  - concepts/proprietary-engine-strategy.md: related에 pearl-abyss 추가, "MMORPG 라이브 서비스 자체 엔진 — 펄어비스 케이스" 섹션 신설 (5번째 ROI 정당화 모델 — *MMORPG cross-platform + MMO 서버 인프라 통합 통제*)
+  - comparisons/proprietary-engine-vs-ue5.md: related에 pearl-abyss 추가, 자체 엔진 진영 사례 테이블에 펄어비스 행 추가, "예외 변수" 섹션에 *MMORPG + 서버 인프라* 4번째 항목 신설, 의사결정 흐름도에 MMORPG 분기 추가, "한국 메이저 자체 엔진 vs UE5 분기" 표 신설 (펄어비스·NCSoft·넥슨·Krafton·Shift Up)
+- 카탈로그·index 갱신:
+  - entities/all.md: 스튜디오 36→37 (펄어비스 추가), updated 2026-05-29
+  - index.md: stat card 스튜디오 36→37
+  - overview.md: 현재 커버리지 스튜디오·퍼블리셔 36→37
+  - about.md: 통계 표 엔티티 72→73, 다이어그램 entities 72→73, 인라인 수치 263→264
+- 메타: entity 71→72 actual (folder 72→73 inc. all.md), source 114·concept 53·comparison 14 동일
+- relations 적용: pearl-abyss는 *parentOf: []* (CCP Games entity 미존재, 향후 ccp-games entity 추가 시 retrofit 가능)
+- 신뢰도: confidence: medium — 사전 학습 지식 + Pearl Abyss IR/언론 종합. *Heart Engine 정확한 이름·기술 스택*, *2026-03 붉은사막 출시 후 실전 검증*, *CCP Games 인수 6년차 ROI* 등 추가 조사 필요 (entity 페이지 "추가 조사" 섹션 명시)
+- push 안 함 — 사용자 검토 후 직접 요청
+
+## [2026-05-29] weekly-lint + 신규 조사 4건 (자체엔진-vs-UE5·카탈로그3사·인디퍼블리셔·라이브서비스)
+- 트리거: 예약 lint 보고 후 사용자가 "다음 조사 주제 + idea backlog 모두 진행 + 미처리 큐 삭제" 지시
+- lint 요약 (실행 결과):
+  - 모순 4건 (전부 기존, 해소형 — 신규 0)
+  - 완전 고립 0건, 콘텐츠-약한고립 7건 (5 comparison + 2 wrapper, 전부 by-design)
+  - 미페이지 빈출 개념 0건 (log.md 내 폐기 deck 잔존만)
+  - raw 미처리 후보 1건 (fandomwire 2차 보도) → 삭제
+- raw 삭제 (1 file):
+  - raw/articles/2026-04-20T143742+0900-Ex-Rockstar Dev (fandomwire) — GTAVIoclock 원전 이미 ingest, 중복 2차 보도
+- 신규 comparison (2 페이지):
+  - comparisons/proprietary-engine-vs-ue5.md — 자체 엔진 vs UE5 의사결정 매트릭스. 규모·타이틀 다양성·장르 정체성 3축 ROI 분기. CDPR Witcher 4 산업 시그널, Asobo·Remedy 장르 정체성 변수, 캡콤 multi-IP carrier 패턴 정리. 위키 내부 자료 종합 (proprietary-engine-strategy + unreal-engine-5 두 concept 페이지 인용)
+  - comparisons/catalog-economics-3-publishers.md — 캡콤·닌텐도·Take-Two 3사 비교. 재발매형·가격유지형·서비스형 3모델 trade-off 표·의사결정 흐름·한국 적용 시사점·시간축 진화 risk. catalog-economics + catalog-economics-cross-company-2026 source 종합
+  - inbound 보강: proprietary-engine-strategy·unreal-engine-5·catalog-economics 3 concept 페이지의 related 배열에 신규 comparison 양방향 link
+- 신규 entity — 라이브 서비스 스튜디오 (4 페이지):
+  - entities/hoyoverse.md (miHoYo 2012 상하이, F2P 가챠 + AAA 비주얼 cross-platform, *원신 쇼크*)
+  - entities/epic-games.md (1991 노스캐롤라이나, 텐센트 40%, UE·Fortnite·EGS·UEFN 수직 통합 5 layer)
+  - entities/riot-games.md (2006 LA, 텐센트 100%, LoL 15년+ transmedia, Arcane Emmy 9관왕)
+  - entities/respawn-entertainment.md (2010 LA, EA 산하, Apex + Star Wars Jedi 라이브+싱글 듀얼)
+- 신규 entity — 라이브 서비스 게임 (4 페이지):
+  - entities/genshin-impact.md (2020, miHoYo, $6~8B+, 6주 사이클, *원신 쇼크* 표본)
+  - entities/fortnite.md (2017, Epic, $20B+, 3단 자기 재정의 BR→콜라보 IP→UEFN)
+  - entities/league-of-legends.md (2009, Riot, $10B+, 15년+ MOBA + Arcane transmedia)
+  - entities/apex-legends.md (2019, Respawn, 1억+ 유저, Surprise drop 마케팅 표본)
+- 신규 entity — 인디 퍼블리셔 (3 페이지):
+  - entities/annapurna-interactive.md (2016 LA, 영화사 산하 작가형, Outer Wilds·Stray·Cocoon, 2024-09 대량 사임)
+  - entities/devolver-digital.md (1998 텍사스 오스틴, LSE 상장 DEVO, Hotline Miami·Cult of the Lamb, 컬트 마케팅)
+  - entities/raw-fury.md (2015 스톡홀름, 비상장 작가형, Sable·Norco, 스웨덴 생태계 퍼블리싱 노드)
+- 카탈로그·index 갱신:
+  - entities/all.md: 스튜디오 29→36 (7개 추가), 게임 29→33 (4개 추가), updated 2026-05-29
+  - comparisons/all.md: 12→14 (proprietary-engine-vs-ue5·catalog-economics-3-publishers), updated 2026-05-29
+  - index.md: Last updated 2026-05-29, stat card 스튜디오 29→36·게임 29→33·비교 12→14, 비교 pill-grid에 2개 신규 행 추가
+  - overview.md: 현재 커버리지 스튜디오·퍼블리셔 29→36 / 게임 29→33 갱신
+  - about.md: 통계 표 엔티티 61→72·비교 13→15, 다이어그램 entities 61→72·comparisons 13→15, "총 약 250개"→"총 약 263개", "현재 통계·규모" 헤더·"마지막 갱신"·frontmatter updated 모두 2026-05-29로 갱신
+- 메타: entity 60→71 actual (folder 61→72 inc. all.md), comparison 12→14 actual (folder 13→15 inc. all.md), source 114·concept 53 동일
+- relations 적용: 라이브 서비스 게임 4 entity에 developedBy·publishedBy 부착 (genshin-impact: developedBy/publishedBy [hoyoverse], fortnite: [epic-games], league-of-legends: [riot-games], apex-legends: developedBy [respawn-entertainment] / publishedBy plain text "EA" — EA entity 미존재). 인디 퍼블리셔·라이브 서비스 스튜디오는 *publishing* 관계가 5개 어휘로 표현 불가해 relations 빈 배열
+- 신뢰도 한계: 라이브 서비스 4사 + 인디 퍼블리셔 3사 + 게임 4개 entity는 confidence: medium — 외부 URL fetch 제약으로 사전 학습 지식 + 공식 IR/언론 종합. 매출 수치·시점 데이터는 1차 자료 재검증 권장 (Sensor Tower·Take-Two/EA/Riot/CDPR IR·Netflix Arcane 발표 등)
+- push 안 함 — 사용자 검토 후 직접 요청
+
 ## [2026-05-26] weekly-lint + 고립 해소 + 신규 entity·comparison
 - 트리거: 예약 작업(weekly-wiki-lint) 결과 보고 후 사용자 "2-2 권장 + 2-4 의 2·3·4 진행" 지시
 - lint 요약: 모순 4건(전부 해소형 — 그대로 유지), 콘텐츠-고립 8건(comparison 5건은 catalog 의도 / 실제 보강 대상 3건), 미페이지 빈출 0건

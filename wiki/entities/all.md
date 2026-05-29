@@ -2,7 +2,7 @@
 title: "전체 개체 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-05-26
+updated: 2026-05-29
 ---
 
 ← [홈으로](../index.md)
@@ -40,6 +40,14 @@ updated: 2026-05-26
 | [[supercell]] | 핀란드 헬싱키, 텐센트 자회사, Clash of Clans, "프로젝트 실패 ≠ 개인 실패" 모델 |
 | [[hazelight-studios]] | 스웨덴 스톡홀름, EA Originals, It Takes Two·Split Fiction, 2인 협동 전용 게임 |
 | [[nexon]] | 한국 성남 본사, 도쿄 증시 상장, F2P MMO 기반 → 글로벌 프리미엄 PC·콘솔 확장 (엠바크·민트로켓 자회사) |
+| [[hoyoverse]] | 중국 상하이, 2012, 원신·Star Rail·ZZZ, F2P 가챠 + AAA 비주얼 cross-platform, *원신 쇼크* 진원지 |
+| [[epic-games]] | 미국 노스캐롤라이나, 1991, 텐센트 40%, Unreal Engine·Fortnite·EGS·UEFN 수직 통합 5 layer |
+| [[riot-games]] | 미국 LA, 2006, 텐센트 100%, LoL·Valorant·Arcane Emmy 9관왕 transmedia |
+| [[respawn-entertainment]] | 미국 LA, 2010, EA 산하, Apex·Star Wars Jedi 라이브+싱글 듀얼 모델 |
+| [[annapurna-interactive]] | 미국 LA, 2016, 영화사 산하 작가형 인디 퍼블리셔, Outer Wilds·Stray·Cocoon, 2024-09 대량 사임 |
+| [[devolver-digital]] | 미국 텍사스 오스틴, 1998, LSE 상장(DEVO), Hotline Miami·Cult of the Lamb·Inscryption, 컬트 마케팅 |
+| [[raw-fury]] | 스웨덴 스톡홀름, 2015, 비상장 작가형 퍼블리셔, Sable·Norco·Kingdom 시리즈 |
+| [[pearl-abyss]] | 한국 안양, 2010, KOSDAQ 상장, 검은사막 PC·모바일·콘솔, 검은사막 엔진·블랙스페이스 엔진(2025-03 GDC 공개) 자체 엔진, CCP Games 자회사 |
 
 ## 미디어·플랫폼
 
@@ -81,3 +89,7 @@ updated: 2026-05-26
 | [[alan-wake-2]] | Remedy, 2023, 두 주인공·꿈의 논리·루핑 진행 미션 구조 |
 | [[a-plague-tale-requiem]] | Asobo, 2022, 20명 아티스트·PS5 전용·클로드 로랭 비주얼 |
 | [[peak]] | Landfall+Aggro Crab, 2025, 4개월 개발·첫 주 100만 본, friendslop 협동 등반 |
+| [[genshin-impact]] | miHoYo, 2020, F2P 액션 RPG, $6~8B+, 6주 사이클·cross-platform, *원신 쇼크* |
+| [[fortnite]] | Epic Games, 2017, F2P BR + UGC, $20B+, 50+ 콜라보 IP·UEFN 메타플랫폼 |
+| [[league-of-legends]] | Riot Games, 2009, F2P MOBA, $10B+, 15년+ 단일 IP, Arcane transmedia |
+| [[apex-legends]] | Respawn, 2019, F2P BR + Hero-shooter, 1억+ 유저, Surprise drop 마케팅 표본 |

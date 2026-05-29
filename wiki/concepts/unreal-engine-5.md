@@ -2,7 +2,7 @@
 title: "Unreal Engine 5"
 type: concept
 sources: ["[[expedition33-ue5-interview]]", "[[missing-middle-paradigm-shift-2026]]", "[[gdc26-expedition33-programmers]]", "[[gdc26-hogwarts-evolving-aaa]]", "[[gdc26-newzoo-market-analysis]]", "[[capcom-fy26-ir]]"]
-related: ["[[proprietary-engine-strategy|독자 엔진 전략]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[clair-obscur-expedition-33|클레르 옵스퀴르: 33원정대]]", "[[small-team-development|소규모 팀 개발]]", "[[designer-empowerment|디자이너 도구화]]", "[[avalanche-software|Avalanche Software]]", "[[hogwarts-legacy|호그와트 레거시]]", "[[game-market-trends|게임 시장 트렌드]]"]
+related: ["[[proprietary-engine-strategy|독자 엔진 전략]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[clair-obscur-expedition-33|클레르 옵스퀴르: 33원정대]]", "[[small-team-development|소규모 팀 개발]]", "[[designer-empowerment|디자이너 도구화]]", "[[avalanche-software|Avalanche Software]]", "[[hogwarts-legacy|호그와트 레거시]]", "[[game-market-trends|게임 시장 트렌드]]", "[[proprietary-engine-vs-ue5|자체 엔진 vs UE5 의사결정 매트릭스]]"]
 created: 2026-05-18
 updated: 2026-05-18
 confidence: high
