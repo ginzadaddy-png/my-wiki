@@ -168,11 +168,29 @@ score = 코사인 유사도 (1 - distance), 높을수록 유사.
 
 → **Phase 2 완료.** Phase 3(graph) 진입 여부는 다중 hop 쿼리 추가 측정 후 결정 (아래).
 
-## Phase 3 진입 측정 (예정)
+## Phase 3 진입 측정 결과 (2026-06-01) — 진입 결정
 
-로드맵 v2 조건: graph 필요 의문 케이스 5개 중 RAG가 3개+ 못 풀면 Phase 3 진입.
-- Q5는 RAG가 부분 해결(4점). 진짜 다중 hop("Astro Bot 만든 팀의 모회사가 소유한 다른 스튜디오는?") 쿼리 4~5개를 추가로 던져 측정 필요.
-- 측정 결과에 따라 Phase 3 진입 / 스킵 후 Phase 4 직행 결정.
+`run_phase3_measure.py`로 진짜 2-hop+ 관계 쿼리 5개를 RAG로 실행. 로드맵 v2 조건: 3개+ 못 풀면 Phase 3 진입.
+
+| # | 쿼리 (필요 추론) | RAG top-3 | 판정 |
+|---|---|---|---|
+| M1 | Astro Bot 팀의 모회사가 소유한 다른 스튜디오 (game→studio→parent→siblings) | arrowhead·team-asobi·embark | ❌ 형제 열거 실패 |
+| M2 | GoW 스튜디오와 같은 모회사 스튜디오들 (2-hop siblings) | god-of-war-2018·gow-combat·io-interactive | ❌ "없음" |
+| M3 | Sucker Punch+Naughty Dog 공통 모회사의 다른 자회사 (join) | naughty-dog·raw-fury·sucker-punch | ❌ 공통=Sony만, 자회사 열거 실패 |
+| M4 | FromSoftware와 같은 소울라이크 다른 스튜디오 (genre hop) | dark-souls·soulslike·fromsoftware | ❌ 게임만, 스튜디오 매핑 실패 |
+| M5 | Ghost of Tsushima 모회사가 퍼블리싱한 PS5 독점작 (2-hop) | sucker-punch·astro-bot·kojima | ❌ 체인만, 독점작 열거 실패 |
+
+**5/5 실패** (조건 3개 초과). **→ Phase 3 진입 확정.**
+
+### 패턴 진단
+RAG는 개별 사실(Team Asobi→Sony)은 정확하나, *"X와 R 관계인 모든 엔티티 열거"* 하는 역방향 traversal·join을 못 함. 형제·자회사 페이지는 쿼리와 의미적으로 가깝지 않고 `parentOf` 엣지로만 연결되기 때문 — 의미 검색의 본질적 한계. graph에 엣지가 있으면 `neighbors(sony, depth=1)` 한 번으로 풀림.
+
+### Phase 3 범위 (전제)
+현재 `relations:`는 신규 entity에만 존재(Phase 1 규칙). graph 작동 전제 = **기존 entity mass-retrofit**(원문 quote 강제 + 사람 spot check) + NetworkX graph build + 쿼리 도구 3개(find_by_relation·path_between·neighbors).
+
+## Phase 4에서 추가할 평가
+
+- 30개 셋으로 확장 (현 8개 + 답 있음 12개 + 답 없음 10개 추가). 사람 채점.
 
 ## Phase 4에서 추가할 평가
 
