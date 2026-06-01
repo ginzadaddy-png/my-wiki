@@ -11,8 +11,11 @@ title: "활동 로그"
   - 답 있음 **20/20 정확** (graph 도구 4개 포함)
   - 답 없음: 8개 정확 거절 + 2개(U02 GTA6 출시일·U05 사이버펑크 판매량) *위키에 실제 데이터 존재*해 정답 (평가 설계 오류 — 봇 retrieval이 사람보다 위키를 더 잘 앎)
   - **환각 0건** — 30개 전부 위키 근거. 로드맵 목표(70%) 압도
-- 생성: chatbot/{DEPLOY.md·run_eval30.py·eval-30-results.md}. 수정: app.py
-- 남은 Phase 4: 실제 HF Spaces 배포(사용자 HF 토큰 대기)
+- **HF Spaces 배포 완료**: ginzadaddy/ginza-wiki-chat (private, Docker SDK). secret ANTHROPIC_API_KEY 등록, 번들(app+core+chroma_db+wiki) 업로드, HTTP 200 서빙 확인
+  - HF create_repo가 streamlit SDK 직접 생성 차단 → Docker SDK + streamlit 실행 Dockerfile로 우회 (torch/BGE-M3 무거운 의존성에 오히려 적합)
+  - 첫 콜드 스타트 시 BGE-M3 모델(~2.3GB) 다운로드로 1~2분
+- 생성: chatbot/{DEPLOY.md·run_eval30.py·eval-30-results.md·deploy/{Dockerfile·README.md·push_space.py}}. 수정: app.py
+- **Phase 4 완료** → 남은 건 Phase 5(Quartz 위키에 챗봇 헤더 링크 추가)뿐
 
 ## [2026-06-01] chatbot Phase 3 — Graph(relations retrofit + NetworkX + tool-use), 다중 hop 5/5 해결
 - 트리거: Phase 2 끝 측정에서 RAG가 다중 hop 5/5 실패 → 로드맵 v2 조건 충족, Phase 3 진입
