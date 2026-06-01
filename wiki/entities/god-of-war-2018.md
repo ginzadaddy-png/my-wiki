@@ -9,6 +9,7 @@ confidence: high
 relations:
   developedBy: [sony-santa-monica]
   publishedBy: [sony-interactive-entertainment]
+  platform: [ps4, pc]
 ---
 
 Sony Santa Monica Studio, 2018. 시리즈의 관점 전환 — 탑다운 광역 전투에서 오버더숄더 밀착 전투로. 2018년 GOTY.

@@ -9,6 +9,7 @@ confidence: high
 relations:
   developedBy: [team-asobi]
   publishedBy: [sony-interactive-entertainment]
+  platform: [ps5]
 ---
 
 [[team-asobi|팀 아소비]]가 개발한 PS5 독점 플랫포머. 2024년 출시.

@@ -9,6 +9,7 @@ confidence: high
 relations:
   developedBy: [insomniac-games]
   publishedBy: [sony-interactive-entertainment]
+  platform: [ps5]
 ---
 
 인섬니악 게임즈(Insomniac Games) 개발, 소니 퍼스트 파티.

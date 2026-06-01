@@ -9,6 +9,7 @@ confidence: high
 relations:
   developedBy: [sucker-punch-productions]
   publishedBy: [sony-interactive-entertainment]
+  platform: [ps4, ps5, pc]
 ---
 
 Sucker Punch Productions, 2020. 13세기 몽골 침략기 쓰시마를 배경으로 한 오픈월드 액션. 사무라이 전투 판타지의 구현이 핵심 과제였던 게임.

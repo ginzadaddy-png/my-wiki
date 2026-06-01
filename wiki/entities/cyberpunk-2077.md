@@ -9,6 +9,7 @@ confidence: high
 relations:
   developedBy: [cd-projekt-red]
   publishedBy: [cd-projekt-red]
+  platform: [pc, ps4, ps5, xbox-one, xbox-series]
 ---
 
 CD Projekt Red, 2020. 나이트시티를 배경으로 한 오픈월드 액션 RPG. 출시 초기 버그 논란 후 대규모 패치와 확장팩(팬텀 리버티)으로 재평가.

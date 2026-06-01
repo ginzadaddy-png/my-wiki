@@ -8,6 +8,7 @@ updated: 2026-06-01
 confidence: high
 relations:
   developedBy: [larian-studios]
+  platform: [pc, ps5, xbox-series]
 ---
 
 [[larian-studios|라리안 스튜디오]]가 개발한 D&D 5판 기반 RPG. 6년 개발 (2017~2023). BG 프랜차이즈 20년 만의 후속작.

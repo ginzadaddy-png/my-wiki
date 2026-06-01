@@ -9,6 +9,7 @@ confidence: high
 relations:
   developedBy: [kojima-productions]
   publishedBy: [sony-interactive-entertainment]
+  platform: [ps4, ps5, pc]
 ---
 
 코지마 히데오 감독, 코지마 프로덕션즈 개발. 독특한 오픈월드 배달 게임.

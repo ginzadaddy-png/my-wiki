@@ -9,6 +9,7 @@ confidence: high
 relations:
   developedBy: [fromsoftware]
   genre: [soulslike]
+  platform: [pc, ps4, xbox-one]
 ---
 
 - **개발사**: FromSoftware

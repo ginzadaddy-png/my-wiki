@@ -62,6 +62,19 @@ updated: 2026-06-01
 | [[ign-entertainment]] | 미국 1996 설립, 글로벌 게이밍·엔터테인먼트 미디어, 470M MAU, Maxroll·Planet Pokemon 운영, IMAGINE AI 플랫폼 |
 | [[valve]] | 미국 워싱턴 벨뷰, 1996 설립, Steam(2003~) 운영자, 30/25/20% 수수료 구조, ML 알고리즘 + Steam Next Fest 분기별 운영 |
 
+## 게임 플랫폼
+
+graph 추론(플랫폼별 게임·독점작 질의)을 위한 플랫폼 노드.
+
+| 파일 | 설명 |
+|------|------|
+| [[ps5]] | PlayStation 5 |
+| [[ps4]] | PlayStation 4 |
+| [[pc]] | PC (Steam 등) |
+| [[xbox-series]] | Xbox Series X\|S |
+| [[xbox-one]] | Xbox One |
+| [[nintendo-switch]] | Nintendo Switch |
+
 ## 게임
 
 | 파일 | 설명 |

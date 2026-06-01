@@ -9,6 +9,7 @@ confidence: high
 relations:
   developedBy: [rockstar-games]
   publishedBy: [rockstar-games]
+  platform: [ps4, xbox-one, pc]
 ---
 
 - **개발사**: Rockstar Games

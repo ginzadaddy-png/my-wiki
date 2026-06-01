@@ -9,6 +9,7 @@ confidence: high
 relations:
   developedBy: [nintendo]
   publishedBy: [nintendo]
+  platform: [nintendo-switch]
 ---
 
 Nintendo, 2017. 젤다 시리즈의 오픈월드 전환점. 2017년 GOTY. 유비소프트식 오픈월드와 자주 대비되는 "자율성 기반 오픈월드"의 대표 사례.

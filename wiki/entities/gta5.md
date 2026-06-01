@@ -9,6 +9,7 @@ confidence: high
 relations:
   developedBy: [rockstar-games]
   publishedBy: [rockstar-games]
+  platform: [ps4, ps5, xbox-one, xbox-series, pc]
 ---
 
 Rockstar Games, 2013. 오픈월드 범죄 액션. 역대 가장 많이 팔린 게임 중 하나. 자유로운 오픈월드와 구조화된 미션이 공존하는 설계의 대표 사례.

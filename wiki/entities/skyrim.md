@@ -8,6 +8,7 @@ updated: 2026-06-01
 confidence: high
 relations:
   developedBy: [bethesda-game-studios]
+  platform: [pc, ps4, xbox-one, nintendo-switch]
 ---
 
 Bethesda Game Studios, 2011. 오픈월드 RPG의 대명사. 수많은 버그에도 불구하고 10년 이상 사랑받는 현상을 MDA 프레임워크로 분석한 사례.

@@ -9,6 +9,7 @@ confidence: high
 relations:
   developedBy: [sucker-punch-productions]
   publishedBy: [sony-interactive-entertainment]
+  platform: [ps5]
 ---
 
 [[sucker-punch-productions|서커펀치 프로덕션]]이 개발한 오픈월드 액션 어드벤처. 고스트 오브 쓰시마의 후속작.

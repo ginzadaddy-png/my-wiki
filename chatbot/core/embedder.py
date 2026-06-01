@@ -18,6 +18,11 @@ def _get_model():
     return SentenceTransformer(MODEL_NAME)
 
 
+def is_warm() -> bool:
+    """BGE-M3 모델이 이미 이 프로세스에 로드됐는지 (콜드스타트 감지용)."""
+    return _get_model.cache_info().currsize > 0
+
+
 def embed_texts(texts: list[str], batch_size: int = 16) -> list[list[float]]:
     """문서 청크 임베딩 (정규화 → cosine 유사도용)."""
     model = _get_model()

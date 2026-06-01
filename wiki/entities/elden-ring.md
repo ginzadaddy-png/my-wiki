@@ -10,6 +10,7 @@ relations:
   developedBy: [fromsoftware]
   publishedBy: [bandai-namco]
   genre: [soulslike]
+  platform: [ps4, ps5, xbox-one, xbox-series, pc]
 ---
 
 FromSoftware, 2022. 조지 R.R. 마틴과 협업한 오픈월드 소울라이크. 2022년 GOTY. 오픈월드와 소울 공식의 결합으로 장르적 전환점.

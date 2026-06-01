@@ -9,6 +9,7 @@ confidence: high
 relations:
   developedBy: [cd-projekt-red]
   publishedBy: [cd-projekt-red]
+  platform: [pc, ps4, ps5, xbox-one, xbox-series, nintendo-switch]
 ---
 
 CD Projekt Red, 2015. 오픈월드 액션 RPG. 2015년 GOTY. CDPR의 퀘스트 설계 철학을 집대성한 작품으로, 사이드 퀘스트의 서사적 깊이로 유명.

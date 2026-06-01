@@ -8,6 +8,7 @@ updated: 2026-06-01
 confidence: high
 relations:
   developedBy: [tango-gameworks]
+  platform: [xbox-series, pc, ps5, nintendo-switch]
 ---
 
 Tango Gameworks, 2023. 뮤직 리듬 액션 게임. 서프라이즈 출시로 화제. 게임의 모든 요소(적·환경·UI)가 음악 박자에 동기화.

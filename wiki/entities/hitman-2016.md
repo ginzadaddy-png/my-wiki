@@ -8,6 +8,7 @@ updated: 2026-06-01
 confidence: medium
 relations:
   developedBy: [io-interactive]
+  platform: [ps4, xbox-one, pc]
 ---
 
 IO Interactive, 2016. 에피소드 방식 오픈 샌드박스 암살 게임. 월드 오브 어새신에이션 시리즈의 시작.

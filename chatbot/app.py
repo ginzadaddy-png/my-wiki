@@ -60,7 +60,12 @@ if query := st.chat_input("위키에 대해 질문하세요"):
         st.markdown(query)
 
     with st.chat_message("assistant"):
-        with st.spinner("위키 검색 + Claude 호출 중..."):
+        from core.embedder import is_warm
+        cold = not is_warm()
+        if cold:
+            st.info("🥶 첫 질문이라 검색 모델(BGE-M3)을 메모리에 올리는 중 — 1~2분 걸릴 수 있어요. 이후 질문은 빠릅니다.")
+        spinner_msg = "검색 모델 로딩 + 위키 검색 + Claude 호출 중... (최대 2분)" if cold else "위키 검색 + Claude 호출 중..."
+        with st.spinner(spinner_msg):
             result = ask(query, VAULT_PATH, API_KEY, model=MODEL)
         st.markdown(result["answer"])
         if result["sources"]:

@@ -8,6 +8,7 @@ updated: 2026-06-01
 confidence: high
 relations:
   developedBy: [avalanche-software]
+  platform: [ps5, ps4, xbox-series, xbox-one, pc, nintendo-switch]
 ---
 
 아발란체 소프트웨어(Avalanche Software) 개발, WB Games 퍼블리싱의 해리포터 IP 오픈월드 RPG. 켈리 머피 리드 게임 디자이너.

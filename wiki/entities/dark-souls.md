@@ -10,6 +10,7 @@ relations:
   developedBy: [fromsoftware]
   publishedBy: [bandai-namco]
   genre: [soulslike]
+  platform: [pc, ps4, xbox-one, nintendo-switch]
 ---
 
 FromSoftware, 2011. 소울라이크 장르를 정립한 액션 RPG. 세계 설계와 공간 스토리텔링 측면에서 가장 많이 분석되는 게임 중 하나.

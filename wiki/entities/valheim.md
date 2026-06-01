@@ -8,6 +8,7 @@ updated: 2026-06-01
 confidence: high
 relations:
   developedBy: [iron-gate-studio]
+  platform: [pc, xbox-series, xbox-one]
 ---
 
 Iron Gate Studio, 2021 (얼리 액세스). 북유럽 신화 기반 오픈월드 생존 크래프팅. 5인 팀이 개발한 게임으로 얼리 액세스 출시 첫 달 200만 장 이상 판매.

@@ -9,6 +9,7 @@ confidence: high
 relations:
   developedBy: [naughty-dog]
   publishedBy: [sony-interactive-entertainment]
+  platform: [ps4, ps5, pc]
 ---
 
 Naughty Dog. TLOU(2013), TLOU Part II(2020). 생존 액션 어드벤처. 서사적 깊이와 게임플레이 통합으로 매체의 표현 가능성을 넓힌 시리즈.

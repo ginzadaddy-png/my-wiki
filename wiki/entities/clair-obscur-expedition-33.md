@@ -8,6 +8,7 @@ updated: 2026-06-01
 confidence: high
 relations:
   developedBy: [sandfall-interactive]
+  platform: [ps5, xbox-series, pc]
 ---
 
 [[sandfall-interactive|샌드폴 인터랙티브]]가 개발한 턴제 액션 RPG. 2025년 출시.

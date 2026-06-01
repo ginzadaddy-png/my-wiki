@@ -9,6 +9,7 @@ confidence: high
 relations:
   developedBy: [embark-studios]
   publishedBy: [nexon]
+  platform: [pc, ps5, xbox-series]
 ---
 
 [[embark-studios|엠바크 스튜디오]]의 익스트랙션 슈터. PVP+PVE 혼합. F2P에서 $40 프리미엄으로 전환해 [[nexon|넥슨]] 역사상 최대 글로벌 론칭 달성.

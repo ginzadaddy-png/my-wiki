@@ -9,6 +9,7 @@ confidence: high
 relations:
   developedBy: [mint-rocket]
   publishedBy: [nexon]
+  platform: [pc, nintendo-switch, ps4, ps5]
 ---
 
 [[mint-rocket|민트로켓]]이 개발한 혼합 장르 어드벤처. 2023년 출시.
