@@ -2,6 +2,18 @@
 title: "활동 로그"
 ---
 
+## [2026-06-01] chatbot Phase 4 (진행) — 배포 준비 + 30개 평가셋 채점(환각 0)
+- 트리거: 로드맵 v2 Phase 4 (hybrid 라우팅 + 클라우드 배포 + 30개 평가셋 사람 채점)
+- **호스팅 결정**: 로컬 BGE-M3(2.3GB)는 Streamlit Cloud 무료(RAM 1GB)에 못 올림 → **Hugging Face Spaces**(16GB RAM 무료) 선택. 검색 품질·한국어·데이터 보존 유지
+- **배포 준비**: DEPLOY.md(HF Spaces 가이드: chroma_db+wiki 번들·secret·private 인증), app.py VAULT_PATH fallback(로컬·Space 양립). 실제 push는 사용자 HF 계정+토큰 필요
+- **하이브리드 라우팅**: Phase 3에서 이미 완성(RAG+graph tool-use 자동 라우팅)
+- **30개 평가셋 채점**(run_eval30.py): 답 있음 20 + 답 없음 10
+  - 답 있음 **20/20 정확** (graph 도구 4개 포함)
+  - 답 없음: 8개 정확 거절 + 2개(U02 GTA6 출시일·U05 사이버펑크 판매량) *위키에 실제 데이터 존재*해 정답 (평가 설계 오류 — 봇 retrieval이 사람보다 위키를 더 잘 앎)
+  - **환각 0건** — 30개 전부 위키 근거. 로드맵 목표(70%) 압도
+- 생성: chatbot/{DEPLOY.md·run_eval30.py·eval-30-results.md}. 수정: app.py
+- 남은 Phase 4: 실제 HF Spaces 배포(사용자 HF 토큰 대기)
+
 ## [2026-06-01] chatbot Phase 3 — Graph(relations retrofit + NetworkX + tool-use), 다중 hop 5/5 해결
 - 트리거: Phase 2 끝 측정에서 RAG가 다중 hop 5/5 실패 → 로드맵 v2 조건 충족, Phase 3 진입
 - **mass-retrofit** (사용자 spot check 거침): 게임 entity 26개에 relations(developedBy·publishedBy·genre) 삽입
