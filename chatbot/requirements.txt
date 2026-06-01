@@ -2,3 +2,8 @@ streamlit>=1.40
 anthropic>=0.40
 python-frontmatter>=1.1
 python-dotenv>=1.0
+
+# Phase 2 — RAG (의미 검색)
+chromadb>=0.5
+sentence-transformers>=3.0
+# torch는 sentence-transformers 의존성으로 자동 설치 (CPU판)

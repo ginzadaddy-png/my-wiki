@@ -25,26 +25,31 @@ QUERIES = [
 
 
 def main() -> None:
+    import sys
+    use_rag = "--keyword" not in sys.argv  # 기본 RAG, --keyword면 키워드 모드
+
     key = os.getenv("ANTHROPIC_API_KEY")
     model = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-6")
     vault = Path(os.getenv("VAULT_PATH", r"C:\Vault\Ginza\my-wiki"))
 
+    print(f"검색 모드: {'RAG (BGE-M3)' if use_rag else 'keyword'}\n")
     results = []
-    total_in = total_out = 0
     for qid, q in QUERIES:
-        res = ask(q, vault, key, model=model)
+        res = ask(q, vault, key, model=model, use_rag=use_rag)
         top3 = [f"{h['slug']}({h['score']})" for h in res["sources"][:3]]
         results.append({
             "id": qid,
             "query": q,
+            "retrieval": res.get("retrieval"),
             "top3": top3,
             "answer": res["answer"],
         })
-        print(f"\n{'='*70}\n[Q{qid}] {q}")
+        print(f"\n{'='*70}\n[Q{qid}] {q}  [{res.get('retrieval')}]")
         print(f"top-3: {', '.join(top3) if top3 else '(검색 결과 없음)'}")
         print(f"답변:\n{res['answer']}")
 
-    out_path = Path(__file__).parent / "eval-results.json"
+    suffix = "rag" if use_rag else "keyword"
+    out_path = Path(__file__).parent / f"eval-results-{suffix}.json"
     out_path.write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\n\n결과 JSON 저장: {out_path}")
 

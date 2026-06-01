@@ -8,4 +8,5 @@ chatbot/.env
 chatbot/__pycache__/
 chatbot/core/__pycache__/
 chatbot/*.pyc
-chatbot/eval-results.json
+chatbot/eval-results*.json
+chatbot/chroma_db/

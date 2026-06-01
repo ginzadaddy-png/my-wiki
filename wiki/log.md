@@ -2,6 +2,21 @@
 title: "활동 로그"
 ---
 
+## [2026-06-01] chatbot Phase 2 — RAG(BGE-M3 + Chroma) 구축, 키워드 실패 3개 전부 해결
+- 트리거: 로드맵 v2 Phase 2. Phase 1이 드러낸 교차언어·길이편향·관계추론 한계를 의미검색으로 해결
+- **임베딩 결정**: 로컬 BGE-M3 (한국어·교차언어 강함, API 비용 0, 데이터 외부 전송 없음). torch+sentence-transformers+chromadb 설치
+- **구축**: core/{chunker,embedder,vectorstore,rag_search}.py + build_index.py. agent.py에 use_rag 플래그(RAG 기본 + 키워드 fallback)
+  - 청크화: heading 단위 + 800자 분할, 한글 제목 프리픽스(교차언어 핵심) → 1409 청크
+  - 색인: BGE-M3 dim=1024, CPU 임베딩 ~349s, Chroma persistent(cosine)
+- **eval 8개 RAG 재실행 — 키워드 대비 극적 개선**:
+  - 품질 5점 4→6개, 1·2점 전멸 (전 항목 4점 이상)
+  - Q1 교차언어 해결(1→5): 한글 제목 프리픽스가 영문 쿼리 의미 매칭
+  - Q3 길이편향 해결(2→5): sekiro 1위 직격, 의미 유사도가 raw 빈도 압도
+  - Q5 관계추론 개선(1→4): Sony 스튜디오 정확 retrieval + Arrowhead=퍼블리셔(모회사 아님) 구별
+  - Q6: 키워드가 놓친 "Switch 2 (2025-06)" catalog 페이지서 발굴 (grounding 정확)
+- 생성: chatbot/core/{chunker,embedder,vectorstore,rag_search}.py·build_index.py. chroma_db/는 gitignore(Phase 4 배포 시 commit 전략 재결정)
+- **Phase 2 완료** → 다음: Phase 3(graph) 진입 여부를 다중 hop 쿼리 추가 측정 후 결정. RAG가 단순 관계는 풀지만 진짜 multi-hop은 graph가 더 정밀할 가능성
+
 ## [2026-06-01] chatbot Phase 1 — 로컬 MVP 검증 완료 + 키워드 한계 실측
 - 트리거: 로드맵 v2 Phase 1 (로컬 Streamlit + 키워드 검색 + Claude API). Anthropic API 키 발급·크레딧 충전 후 end-to-end 검증
 - **셋업**: `chatbot/` (core/ 백엔드 + app.py UI 분리). venv + streamlit·anthropic·python-frontmatter·python-dotenv. 위키 236개 .md 인식

@@ -53,7 +53,8 @@ if query := st.chat_input("위키에 대해 질문하세요"):
             result = ask(query, VAULT_PATH, API_KEY, model=MODEL)
         st.markdown(result["answer"])
         if result["sources"]:
-            with st.expander(f"📄 검색된 페이지 {len(result['sources'])}개"):
+            mode = "🧠 의미검색(RAG)" if result.get("retrieval") == "rag" else "🔑 키워드"
+            with st.expander(f"📄 검색된 페이지 {len(result['sources'])}개 · {mode}"):
                 for src in result["sources"]:
                     st.markdown(
                         f"- **[[{src['slug']}]]** ({src['type']}, score {src['score']}) — {src['title']}"

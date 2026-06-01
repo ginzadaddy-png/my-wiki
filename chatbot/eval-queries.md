@@ -136,7 +136,44 @@
 
 ---
 
-## Phase 2~4에서 추가할 평가
+## Phase 2 RAG 결과 (2026-06-01, BGE-M3 + Chroma)
 
-- **Phase 2 종료 시**: 쿼리 4·5·7을 RAG 도입 후 재실행. 차이 측정 → Phase 3 진입 여부 결정
-- **Phase 4 종료 시**: 30개 셋으로 확장 (현 8개 + 답 있음 12개 + 답 없음 10개 추가). 사람 채점
+색인: 1409 청크, dim=1024, cosine. 검색 = 의미검색(쿼리 임베딩 → top-k 청크 → 페이지 묶음).
+score = 코사인 유사도 (1 - distance), 높을수록 유사.
+
+| # | 쿼리 | RAG top-3 slug(유사도) | 품질 | 키워드 대비 |
+|---|---|---|---|---|
+| 1 | Astro Bot 어느 스튜디오 | team-asobi(0.55)·astro-bot(0.54)·embark(0.49) | **5** | **1→5 교차언어 해결** |
+| 2 | MDA 프레임워크 | mda-framework(0.62)·gmtk-mda(0.56)·player-trust(0.53) | 5 | = (더 풍부) |
+| 3 | Sekiro 전투 디자인 | **sekiro(0.61)**·adam-millard(0.52)·combat-phil(0.49) | **5** | **2→5 길이편향 해결** |
+| 4 | retention 인사이트 | live-service(0.61)·game-utility(0.58)·subscription(0.58) | 5 | = (세대분석 심화) |
+| 5 | Sony 자회사 PS5 독점 | team-asobi(0.55)·arrowhead(0.53)·sony-santa-monica(0.52) | **4** | **1→4 대폭 개선** (Arrowhead=퍼블리셔지 모회사 아님까지 구별) |
+| 6 | Switch 2 출시일 | spiderman-2(0.57)·helldivers-2(0.56)·rdr2(0.55) | 5 | **catalog 페이지서 "Switch 2 2025-06" 발굴** (키워드는 놓침) |
+| 7 | FromSoftware vs Team Asobi | small-team(0.57)·asobo(0.54)·aaa-scaling(0.54) | 4 | = (FromSoftware 페이지 부재 정직 고지) |
+| 8 | AAA 스케일링 | **aaa-scaling(0.67)**·embark-quarter(0.56)·small-studio-goty(0.55) | 5 | = (더 풍부) |
+
+**품질 분포**: 5점 6개 · 4점 2개 (Phase 1: 5점 4·4점 1·2점 1·1점 2 → **전 항목 4점 이상으로 상승**)
+
+### 핵심 성과
+- **Phase 1 키워드 실패 3개(Q1·Q3·Q5) 전부 해결**:
+  - Q1 교차언어 — 청크 임베딩의 한글 제목 프리픽스가 영문 쿼리와 의미 매칭
+  - Q3 길이편향 — 의미 유사도가 raw 빈도 압도. sekiro 1위 직격
+  - Q5 관계추론 — 관련 Sony 스튜디오 정확 retrieval + Arrowhead 구별. 단순 다중 hop은 여전히 graph가 더 정밀할 영역
+- **Q6**: 키워드가 완전히 놓친 "Switch 2 (2025-06)" 언급을 catalog 페이지에서 발굴. grounding 정확(환각 아님)
+
+### Phase 2 완료 트리거 ✅
+- [x] 추상 질문(retention)에 적절한 페이지 top-5 진입 — live-service-design 1위(0.61)
+- [x] 임베딩 갱신 워크플로우 end-to-end 작동 — `build_index.py` 1409 청크 색인 성공
+- [x] RAG가 키워드 대비 품질 향상 실측 — 5점 4→6개, 1·2점 전멸
+
+→ **Phase 2 완료.** Phase 3(graph) 진입 여부는 다중 hop 쿼리 추가 측정 후 결정 (아래).
+
+## Phase 3 진입 측정 (예정)
+
+로드맵 v2 조건: graph 필요 의문 케이스 5개 중 RAG가 3개+ 못 풀면 Phase 3 진입.
+- Q5는 RAG가 부분 해결(4점). 진짜 다중 hop("Astro Bot 만든 팀의 모회사가 소유한 다른 스튜디오는?") 쿼리 4~5개를 추가로 던져 측정 필요.
+- 측정 결과에 따라 Phase 3 진입 / 스킵 후 Phase 4 직행 결정.
+
+## Phase 4에서 추가할 평가
+
+- 30개 셋으로 확장 (현 8개 + 답 있음 12개 + 답 없음 10개 추가). 사람 채점.
