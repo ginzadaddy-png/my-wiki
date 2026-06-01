@@ -4,8 +4,10 @@ type: entity
 sources: ["[[skyrim-not-perfect-mda]]", "[[gdc2024-skyrim-starfield-design-collab]]"]
 related: ["[[bethesda-game-studios|베데스다 게임 스튜디오]]", "[[open-world-design|오픈월드 설계]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]"]
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [bethesda-game-studios]
 ---
 
 Bethesda Game Studios, 2011. 오픈월드 RPG의 대명사. 수많은 버그에도 불구하고 10년 이상 사랑받는 현상을 MDA 프레임워크로 분석한 사례.

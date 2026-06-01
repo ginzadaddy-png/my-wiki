@@ -4,8 +4,11 @@ type: entity
 sources: ["[[rdr2-story-behind-the-story]]"]
 related: ["[[rockstar-games|록스타 게임즈]]", "[[gta5|GTA5]]", "[[quest-narrative-design|퀘스트·내러티브 설계]]", "[[open-world-design|오픈월드 설계]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [rockstar-games]
+  publishedBy: [rockstar-games]
 ---
 
 - **개발사**: Rockstar Games

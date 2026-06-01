@@ -4,8 +4,10 @@ type: entity
 sources: ["[[gdc2016-hitman-nonlinear-sandbox]]"]
 related: ["[[io-interactive|IO 인터랙티브]]", "[[level-design-principles|레벨 디자인 원칙]]"]
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-06-01
 confidence: medium
+relations:
+  developedBy: [io-interactive]
 ---
 
 IO Interactive, 2016. 에피소드 방식 오픈 샌드박스 암살 게임. 월드 오브 어새신에이션 시리즈의 시작.

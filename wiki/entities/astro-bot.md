@@ -1,11 +1,14 @@
-﻿---
+---
 title: "아스트로봇"
 type: entity
 sources: ["[[gdc25-astrobot]]"]
 related: ["[[team-asobi|팀 아소비]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [team-asobi]
+  publishedBy: [sony-interactive-entertainment]
 ---
 
 [[team-asobi|팀 아소비]]가 개발한 PS5 독점 플랫포머. 2024년 출시.

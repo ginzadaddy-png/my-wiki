@@ -1,11 +1,14 @@
-﻿---
+---
 title: "고스트 오브 요테이"
 type: entity
 sources: ["[[gdc26-ghost-of-yotei]]", "[[gdc26-spark]]"]
 related: ["[[sucker-punch-productions|서커펀치 프로덕션]]", "[[vision-statement|비전 선언문]]", "[[playtesting|플레이테스팅]]"]
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [sucker-punch-productions]
+  publishedBy: [sony-interactive-entertainment]
 ---
 
 [[sucker-punch-productions|서커펀치 프로덕션]]이 개발한 오픈월드 액션 어드벤처. 고스트 오브 쓰시마의 후속작.

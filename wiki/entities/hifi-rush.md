@@ -4,8 +4,10 @@ type: entity
 sources: ["[[gdc2024-hifi-rush-backwards]]"]
 related: ["[[tango-gameworks|탱고 게임웍스]]", "[[level-design-principles|레벨 디자인 원칙]]"]
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [tango-gameworks]
 ---
 
 Tango Gameworks, 2023. 뮤직 리듬 액션 게임. 서프라이즈 출시로 화제. 게임의 모든 요소(적·환경·UI)가 음악 박자에 동기화.

@@ -1,11 +1,14 @@
-﻿---
+---
 title: "아크 레이더스 (ARC Raiders)"
 type: entity
 sources: ["[[gdc26-arc-raiders-reset]]", "[[missing-middle-paradigm-shift-2026]]"]
 related: ["[[embark-studios|엠바크 스튜디오]]", "[[data-driven-development|데이터 기반 개발]]", "[[small-team-development|소규모 팀 개발]]", "[[playtesting|플레이테스팅]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[live-service-design|라이브 서비스 설계]]"]
 created: 2026-04-13
-updated: 2026-04-23
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [embark-studios]
+  publishedBy: [nexon]
 ---
 
 [[embark-studios|엠바크 스튜디오]]의 익스트랙션 슈터. PVP+PVE 혼합. F2P에서 $40 프리미엄으로 전환해 [[nexon|넥슨]] 역사상 최대 글로벌 론칭 달성.

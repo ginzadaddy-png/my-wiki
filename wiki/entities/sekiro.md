@@ -4,8 +4,11 @@ type: entity
 sources: []
 related: ["[[fromsoftware|프롬소프트웨어]]", "[[combat-design|전투 디자인]]", "[[game-balance|게임 밸런싱]]", "[[dark-souls|다크소울]]", "[[elden-ring|엘든 링]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [fromsoftware]
+  genre: [soulslike]
 ---
 
 - **개발사**: FromSoftware

@@ -4,8 +4,11 @@ type: entity
 sources: ["[[open-world-linearization-gta5]]"]
 related: ["[[rockstar-games|록스타 게임즈]]", "[[open-world-design|오픈월드 설계]]"]
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [rockstar-games]
+  publishedBy: [rockstar-games]
 ---
 
 Rockstar Games, 2013. 오픈월드 범죄 액션. 역대 가장 많이 팔린 게임 중 하나. 자유로운 오픈월드와 구조화된 미션이 공존하는 설계의 대표 사례.

@@ -4,8 +4,11 @@ type: entity
 sources: ["[[gdc2019-god-of-war-combat]]", "[[gdc2019-god-of-war-axe]]"]
 related: ["[[sony-santa-monica|소니 산타모니카 스튜디오]]", "[[combat-design|전투 디자인]]"]
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [sony-santa-monica]
+  publishedBy: [sony-interactive-entertainment]
 ---
 
 Sony Santa Monica Studio, 2018. 시리즈의 관점 전환 — 탑다운 광역 전투에서 오버더숄더 밀착 전투로. 2018년 GOTY.

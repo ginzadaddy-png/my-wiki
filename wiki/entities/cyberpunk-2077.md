@@ -4,8 +4,11 @@ type: entity
 sources: ["[[gdc2023-cyberpunk-nonlinear-level-design]]", "[[gdc2023-quest-design-lessons-cdpr]]"]
 related: ["[[cd-projekt-red|CD 프로젝트 레드]]", "[[level-design-principles|레벨 디자인 원칙]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]"]
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [cd-projekt-red]
+  publishedBy: [cd-projekt-red]
 ---
 
 CD Projekt Red, 2020. 나이트시티를 배경으로 한 오픈월드 액션 RPG. 출시 초기 버그 논란 후 대규모 패치와 확장팩(팬텀 리버티)으로 재평가.

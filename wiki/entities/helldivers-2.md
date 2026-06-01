@@ -4,8 +4,11 @@ type: entity
 sources: ["[[missing-middle-paradigm-shift-2026]]"]
 related: ["[[arrowhead-game-studios|애로우헤드]]", "[[live-service-design|라이브 서비스 설계]]", "[[community-management|커뮤니티 운영]]", "[[player-trust-design|플레이어 신뢰 설계]]"]
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [arrowhead-game-studios]
+  publishedBy: [sony-interactive-entertainment]
 ---
 
 [[arrowhead-game-studios|애로우헤드 게임 스튜디오]] 개발, 소니 유통의 3인칭 코옵 슈터. 게임 마스터 기반 라이브 서비스와 비약탈적 수익화 모델로 2,000만장 달성.

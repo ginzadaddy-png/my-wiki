@@ -4,8 +4,10 @@ type: entity
 sources: ["[[gdc2023-asobo-how-to-make-aaa-small-team]]"]
 related: ["[[asobo-studio|Asobo Studio]]", "[[small-team-development|소규모 팀 전략]]", "[[environmental-storytelling|환경 스토리텔링]]"]
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [asobo-studio]
 ---
 
 Asobo Studio, 2022. 14세기 프랑스 페스트를 배경으로 한 3인칭 액션 어드벤처. PS5·Xbox Series·PC 전용 출시. 약 20명 아티스트 팀이 AAA급 비주얼을 달성한 소규모 팀 개발의 대표 사례.

@@ -4,8 +4,11 @@ type: entity
 sources: ["[[gdc2014-tlou-melee-system]]", "[[gdc2022-tlou2-museum-flashback]]"]
 related: ["[[naughty-dog|너티독]]", "[[combat-design|전투 디자인]]", "[[cinematic-production|시네마틱 제작]]", "[[level-design-principles|레벨 디자인 원칙]]"]
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [naughty-dog]
+  publishedBy: [sony-interactive-entertainment]
 ---
 
 Naughty Dog. TLOU(2013), TLOU Part II(2020). 생존 액션 어드벤처. 서사적 깊이와 게임플레이 통합으로 매체의 표현 가능성을 넓힌 시리즈.

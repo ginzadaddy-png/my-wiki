@@ -4,8 +4,11 @@ type: entity
 sources: ["[[gdc24-spiderman2-open-world]]", "[[gdc2019-spiderman-animation]]"]
 related: ["[[insomniac-games|인섬니악 게임즈]]", "[[open-world-design|오픈월드 설계]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[cinematic-production|시네마틱 제작]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [insomniac-games]
+  publishedBy: [sony-interactive-entertainment]
 ---
 
 인섬니악 게임즈(Insomniac Games) 개발, 소니 퍼스트 파티.

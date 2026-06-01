@@ -2,6 +2,21 @@
 title: "활동 로그"
 ---
 
+## [2026-06-01] chatbot Phase 3 — Graph(relations retrofit + NetworkX + tool-use), 다중 hop 5/5 해결
+- 트리거: Phase 2 끝 측정에서 RAG가 다중 hop 5/5 실패 → 로드맵 v2 조건 충족, Phase 3 진입
+- **mass-retrofit** (사용자 spot check 거침): 게임 entity 26개에 relations(developedBy·publishedBy·genre) 삽입
+  - frontmatter 외과적 삽입(최소 diff), 본문 근거로만 추출, 환각 금지. ⚠️추론 항목(first-party→SIE 등)은 사용자 검수 후 적용
+  - 사용자 정정 반영: tango→크래프톤 인수(MS 아님), SIE 약어, sekiro genre soulslike, dark-souls·elden-ring 퍼블=반다이남코
+- **모회사 entity 5개 신규**: sony-interactive-entertainment(자회사 5)·microsoft(2)·krafton(tango)·take-two-interactive(rockstar)·bandai-namco(퍼블리셔, parentOf 비움)
+- **graph**: core/graph.py NetworkX MultiDiGraph (266 노드·73 엣지). 쿼리 함수(parent_of·children_of·siblings·find_by_relation·path_between·neighbors)
+- **agent 통합**: core/graph_tools.py — Claude tool-use 6개 도구. 관계 질문 시 agent가 자동 호출. 시스템 프롬프트에 라우팅 지침
+- **M1~M5 재실행**: RAG 0/5 → RAG+graph **5/5 해결**
+  - 형제 스튜디오 열거·공통 모회사 join·장르 게임·퍼블리싱 게임 전부 정확. arrowhead는 퍼블리싱이지 자회사 아님 구별 유지
+  - M5 platform 데이터 부재 시 agent가 "graph에 platform 부족" 정직 고지 (환각 0)
+- 생성: chatbot/core/{graph,graph_tools}.py·apply_relations.py + entity 5개. 수정: agent.py(tool-use 루프)·entity 26개 relations
+- 알려진 갭: platform·genre 희소(platform 노드 미도입). 일부 퍼블리셔 entity 미생성
+- **Phase 3 완료** → 다음: Phase 4(hybrid 라우팅 정리 + Streamlit Cloud 배포 + 30개 평가셋 사람 채점)
+
 ## [2026-06-01] chatbot Phase 2 — RAG(BGE-M3 + Chroma) 구축, 키워드 실패 3개 전부 해결
 - 트리거: 로드맵 v2 Phase 2. Phase 1이 드러낸 교차언어·길이편향·관계추론 한계를 의미검색으로 해결
 - **임베딩 결정**: 로컬 BGE-M3 (한국어·교차언어 강함, API 비용 0, 데이터 외부 전송 없음). torch+sentence-transformers+chromadb 설치

@@ -4,8 +4,11 @@ type: entity
 sources: ["[[botw-eldenring-visual-guidance]]", "[[zelda-vs-ubisoft-open-world]]"]
 related: ["[[nintendo|닌텐도]]", "[[elden-ring|엘든링]]", "[[open-world-design|오픈월드 설계]]", "[[emergent-systems-design|창발적 시스템 설계]]"]
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [nintendo]
+  publishedBy: [nintendo]
 ---
 
 Nintendo, 2017. 젤다 시리즈의 오픈월드 전환점. 2017년 GOTY. 유비소프트식 오픈월드와 자주 대비되는 "자율성 기반 오픈월드"의 대표 사례.

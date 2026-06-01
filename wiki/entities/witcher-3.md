@@ -4,8 +4,11 @@ type: entity
 sources: ["[[gdc2023-quest-design-lessons-cdpr]]"]
 related: ["[[cd-projekt-red|CD 프로젝트 레드]]", "[[cyberpunk-2077|사이버펑크 2077]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]", "[[dlc-expansion-design|DLC·확장팩 설계]]"]
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [cd-projekt-red]
+  publishedBy: [cd-projekt-red]
 ---
 
 CD Projekt Red, 2015. 오픈월드 액션 RPG. 2015년 GOTY. CDPR의 퀘스트 설계 철학을 집대성한 작품으로, 사이드 퀘스트의 서사적 깊이로 유명.

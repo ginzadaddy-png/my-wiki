@@ -4,8 +4,11 @@ type: entity
 sources: ["[[gdc2021-death-stranding-ai]]"]
 related: ["[[kojima-productions|코지마 프로덕션즈]]", "[[ai-navigation|AI 내비게이션]]", "[[open-world-design|오픈월드 설계]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [kojima-productions]
+  publishedBy: [sony-interactive-entertainment]
 ---
 
 코지마 히데오 감독, 코지마 프로덕션즈 개발. 독특한 오픈월드 배달 게임.

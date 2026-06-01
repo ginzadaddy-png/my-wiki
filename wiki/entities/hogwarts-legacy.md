@@ -4,8 +4,10 @@ type: entity
 sources: ["[[gdc24-hogwarts-legacy-design]]"]
 related: ["[[avalanche-software|아발란체 소프트웨어]]", "[[playtesting|플레이테스팅]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[ip-adaptation-design|IP 적응 설계]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [avalanche-software]
 ---
 
 아발란체 소프트웨어(Avalanche Software) 개발, WB Games 퍼블리싱의 해리포터 IP 오픈월드 RPG. 켈리 머피 리드 게임 디자이너.

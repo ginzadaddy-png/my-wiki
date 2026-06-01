@@ -1,11 +1,13 @@
-﻿---
+---
 title: "발더스 게이트3"
 type: entity
 sources: ["[[gdc24-baldurs-gate-3]]"]
 related: ["[[larian-studios|라리안 스튜디오]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[rapid-prototyping|빠른 프로토타이핑]]"]
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [larian-studios]
 ---
 
 [[larian-studios|라리안 스튜디오]]가 개발한 D&D 5판 기반 RPG. 6년 개발 (2017~2023). BG 프랜차이즈 20년 만의 후속작.

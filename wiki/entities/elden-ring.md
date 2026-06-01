@@ -4,8 +4,12 @@ type: entity
 sources: ["[[gmtk-world-design-elden-ring]]", "[[botw-eldenring-visual-guidance]]"]
 related: ["[[fromsoftware|프롬소프트웨어]]", "[[dark-souls|다크소울]]", "[[open-world-design|오픈월드 설계]]"]
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [fromsoftware]
+  publishedBy: [bandai-namco]
+  genre: [soulslike]
 ---
 
 FromSoftware, 2022. 조지 R.R. 마틴과 협업한 오픈월드 소울라이크. 2022년 GOTY. 오픈월드와 소울 공식의 결합으로 장르적 전환점.

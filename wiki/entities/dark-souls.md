@@ -4,8 +4,12 @@ type: entity
 sources: ["[[gmtk-world-design-dark-souls]]", "[[dark-souls-world-hides-lore]]", "[[dark-souls-lordran-layout]]"]
 related: ["[[fromsoftware|프롬소프트웨어]]", "[[elden-ring|엘든링]]", "[[open-world-design|오픈월드 설계]]", "[[level-design-principles|레벨 디자인 원칙]]"]
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-06-01
 confidence: high
+relations:
+  developedBy: [fromsoftware]
+  publishedBy: [bandai-namco]
+  genre: [soulslike]
 ---
 
 FromSoftware, 2011. 소울라이크 장르를 정립한 액션 RPG. 세계 설계와 공간 스토리텔링 측면에서 가장 많이 분석되는 게임 중 하나.
