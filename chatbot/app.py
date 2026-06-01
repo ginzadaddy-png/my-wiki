@@ -12,8 +12,19 @@ from core import ask
 
 load_dotenv(override=True)  # .env가 셸 환경의 빈 ANTHROPIC_API_KEY를 덮어쓰도록
 
-DEFAULT_VAULT = Path(r"C:\Vault\Ginza\my-wiki")
-VAULT_PATH = Path(os.getenv("VAULT_PATH", DEFAULT_VAULT))
+def _resolve_vault() -> Path:
+    """vault 경로 결정: 환경변수 > 로컬 경로 > Space 번들(앱 옆 wiki/)."""
+    env = os.getenv("VAULT_PATH")
+    if env:
+        return Path(env)
+    local = Path(r"C:\Vault\Ginza\my-wiki")
+    if local.exists():
+        return local
+    # HF Spaces 등 배포 환경: app.py와 같은 디렉터리에 wiki/ 번들
+    return Path(__file__).resolve().parent
+
+
+VAULT_PATH = _resolve_vault()
 MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-6")
 API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 
