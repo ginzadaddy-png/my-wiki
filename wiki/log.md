@@ -2,6 +2,22 @@
 title: "활동 로그"
 ---
 
+## [2026-06-01] chatbot Phase 1 — 로컬 MVP 검증 완료 + 키워드 한계 실측
+- 트리거: 로드맵 v2 Phase 1 (로컬 Streamlit + 키워드 검색 + Claude API). Anthropic API 키 발급·크레딧 충전 후 end-to-end 검증
+- **셋업**: `chatbot/` (core/ 백엔드 + app.py UI 분리). venv + streamlit·anthropic·python-frontmatter·python-dotenv. 위키 236개 .md 인식
+- **검증**: eval 쿼리 8개 배치 실행 (`chatbot/run_eval.py`, 결과 `eval-results.json`·`eval-queries.md` 표)
+  - 품질 5점 4개(Q2 MDA·Q4 retention·Q6 Switch2거절·Q8 AAA스케일링)·4점 1개(Q7)·2점 1개(Q3)·1점 2개(Q1·Q5)
+- **키워드 검색 한계 3가지 실측** (Phase 2·3 동기 데이터):
+  1. 교차언어 매칭 불가 (Q1) — 영문 쿼리"Astro Bot" ↔ 한글 제목"아스트로봇" 안 맞음 → multilingual 임베딩 동기
+  2. 길이 편향 (Q3) — 긴 concept 페이지가 raw 빈도로 짧은 entity 압도 → 의미 검색 동기
+  3. 관계 추론 불가 (Q5) — "Sony 자회사 중 X" 다중 hop → Phase 3 graph 동기
+- **긍정 신호**: hallucination 회피 작동(Q6 정직 거절), 영어 키워드 본문 적중 시 우수(Q4)
+- 버그 수정 2건:
+  - **BOM 버그**: 위키 .md 20개가 UTF-8 BOM으로 시작 → frontmatter 파싱 실패(type=unknown). `wiki_loader`를 `utf-8-sig`로 읽도록 수정
+  - **.env override**: 셸 환경 빈 ANTHROPIC_API_KEY가 .env 가림 → `load_dotenv(override=True)`
+- 생성: chatbot/core/{wiki_loader,search,agent}.py·app.py·run_eval.py·eval-queries.md·eval-results.json·README.md·.env.example
+- **Phase 1 완료** → Phase 2(RAG) 진입 동기가 실측으로 뒷받침됨. 다음: 청크화 + Chroma + BGE-M3/Voyage 임베딩
+
 ## [2026-06-01] weekly-lint 후속 — Zelda 크로스체크 ingest + BioWare/Obsidian 내러티브 통합 + EA entity
 - 트리거: 2026-06-01 예약 lint 보고 후 사용자가 "조사주제 1·3 진행 + Zelda raw 큐 크로스체크 후 ingest" 지시
 - **lint 정정**: 직전 보고의 *bioware·obsidian-entertainment 신규 고립 2건은 false-positive*. 두 entity는 comparisons/companion-philosophy.md에서 escaped-pipe 테이블 셀(`[[bioware\|BioWare]]`)로 이미 link됨 — 고립 탐지 regex가 `\|`를 미처리한 버그. 실제 콘텐츠 고립은 by-design 7건(5 comparison + 2 wrapper)으로 직전 lint와 동일

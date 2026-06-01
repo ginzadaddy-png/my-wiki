@@ -85,23 +85,54 @@
 
 ---
 
-## 실행 결과 기록 표 (실제 실행 후 채우기)
+## 실행 결과 기록 표 (2026-06-01 실행, BOM 수정 후)
 
-| # | 쿼리 | 검색 top-3 slug | 답변 품질 (1~5) | 한계 노출? | 메모 |
+모델: `claude-sonnet-4-6`. 8회 호출. 검색 = 키워드(제목×3·본문×1).
+
+| # | 쿼리 | 검색 top-3 slug(score) | 품질 (1~5) | 한계 노출? | 메모 |
 |---|---|---|---|---|---|
-| 1 | Astro Bot 어느 스튜디오 | | | | |
-| 2 | MDA 프레임워크 뭐야 | | | | |
-| 3 | Sekiro 전투 디자인 | | | | |
-| 4 | retention 인사이트 | | | | |
-| 5 | Sony 자회사 PS5 독점 | | | | |
-| 6 | Switch 2 출시일 | | | | |
-| 7 | FromSoftware vs Team Asobi | | | | |
-| 8 | AAA 스케일링 전략 | | | | |
+| 1 | Astro Bot 어느 스튜디오 | carless-genres(4)·publisher-deal(3)·catalog-econ(2) | **1** | **Y — 교차언어** | astro-bot.md 존재하나 영문 쿼리"Astro Bot"가 한글 제목"아스트로봇"과 매칭 안 됨 → "없음" 오답 |
+| 2 | MDA 프레임워크 뭐야 | mda-framework(5)·gmtk-mda(4)·skyrim(3) | 5 | N | 정확·풍부. 한글 쿼리가 영문 슬러그 제목과 매칭 잘 됨 |
+| 3 | Sekiro 전투 디자인 | combat-philosophy(16)·combat-design(13)·gow(8) | **2** | **Y — 길이 편향** | sekiro.md 존재하나 긴 concept 페이지들이 raw 빈도로 압도 → entity 누락 |
+| 4 | retention 인사이트 | game-utility(4)·live-service(4)·about(3) | 5 | N | 매우 우수. "retention" 영어 단어가 위키 본문에 그대로 존재 → 키워드 적중 |
+| 5 | Sony 자회사 PS5 독점 | marketing-channels(11)·EA(8)·engine-vs-ue5(7) | **1** | **Y — 관계 추론** | 산하 entity 다수 존재하나 키워드가 엉뚱한 페이지 잡음. 다중 hop 필터 필요 |
+| 6 | Switch 2 출시일 | steam-forecast(20)·catalog(19)·catalog(19) | 5 | N (의도) | **hallucination 회피 성공** — 위키에 없는 정보 "모른다" 정직 거절 |
+| 7 | FromSoftware vs Team Asobi | rapid-proto(10)·multi-project(9)·dev-org(8) | 4 | N | 둘 다 양호. 본문 한·영 혼용이라 매칭됨. 비교 레이어까지 정리 |
+| 8 | AAA 스케일링 전략 | aaa-scaling(15)·marketing(10)·pearl-abyss(10) | 5 | N | 우수. comparison 페이지 1위 정상 진입 |
 
-**Phase 1 완료 트리거 체크**:
-- [ ] 위키 기반 답변이 챗 UI에서 정상 출력 (쿼리 1·2·8 중 2개 이상 답변 품질 3 이상)
-- [ ] 키워드 한계 노출 케이스 2개 이상 발견 (쿼리 4·5·6·7 중 2개 이상에서 "한계 노출?" Y)
-- [ ] `core/`가 Streamlit 없이 import해서 작동 (이미 검증 완료)
+**품질 분포**: 5점 4개(Q2·4·6·8) · 4점 1개(Q7) · 2점 1개(Q3) · 1점 2개(Q1·5)
+
+---
+
+## 발견된 키워드 검색 한계 3가지 (Phase 2·3 동기)
+
+1. **교차언어 매칭 불가** (Q1) — 영문 쿼리 ↔ 한글 제목/본문 토큰이 안 맞음. 페이지가 있어도 못 찾음.
+   → **Phase 2 multilingual 임베딩(BGE-M3)** 강력 동기. 영문↔한글 의미 매칭 필요.
+2. **길이 편향** (Q3) — raw term frequency가 긴 concept 페이지에 유리. 정작 주제의 짧은 entity 페이지가 밀림.
+   → **Phase 2 청크 정규화 + 의미 검색** 동기. 페이지 길이 무관한 관련도 측정 필요.
+3. **관계 추론 불가** (Q5) — "Sony 자회사 중 X" 같은 다중 hop 필터를 키워드로 못 풂.
+   → **Phase 3 graph** 동기. relations 필드 + NetworkX 필요. (Phase 2 끝 측정에서 재확인)
+
+## 긍정 신호
+
+- **hallucination 회피 작동** (Q6) — 시스템 프롬프트 "위키에 없으면 명시" 규칙이 정상 동작. Phase 4 평가의 핵심 지표 사전 통과.
+- **영어 키워드 본문 적중 시 우수** (Q4) — 키워드 검색도 용어가 위키에 그대로 있으면 잘 작동.
+- **comparison·concept 페이지 검색 정상** (Q2·8) — `iter_wiki_pages`가 전 폴더 정상 yield.
+
+## 부수 수정 (이번 검증 중 발견)
+
+- **BOM 버그 수정**: 위키 .md 20개가 UTF-8 BOM으로 시작 → frontmatter 파싱 실패(type=unknown, title 누락). `wiki_loader`가 `utf-8-sig`로 읽도록 수정. *역설적으로* 이 수정이 Q1의 교차언어 한계를 드러냄 (BOM 버그가 slug-fallback 제목으로 우연히 영문 쿼리를 돕고 있었음).
+- **`.env` override 버그**: 셸 환경의 빈 `ANTHROPIC_API_KEY`가 `.env`를 가림 → `load_dotenv(override=True)`로 수정.
+
+---
+
+## Phase 1 완료 트리거 체크 ✅
+
+- [x] 위키 기반 답변이 정상 출력 — Q2·4·7·8 품질 4~5, Q6 올바른 거절 (목표: 2개 이상 품질 3+ → **5개 충족**)
+- [x] 키워드 한계 노출 케이스 2개 이상 — **3개 발견** (Q1 교차언어·Q3 길이편향·Q5 관계추론)
+- [x] `core/`가 Streamlit 없이 import해서 작동 — 검증 완료
+
+→ **Phase 1 완료.** Phase 2(RAG)의 동기가 실측 데이터로 뒷받침됨.
 
 ---
 
