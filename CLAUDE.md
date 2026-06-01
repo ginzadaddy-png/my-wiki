@@ -106,6 +106,10 @@ relations:
    - 새 concept/comparison 페이지가 생겼으면 해당 섹션의 `<div class="pill-grid">` 리스트에 항목 추가 (형식: `- [[slug|짧은 라벨 — 부연 설명]]`)
    - 소스 섹션은 최신 10개만 표시. 전체 행은 `wiki/sources/all.md`에 추가
 8. wiki/log.md에 기록 추가
+9. **챗봇 갱신 확인** (ingest로 위키 내용이 바뀌었으므로): 사용자에게 *"챗봇도 갱신할까요? (재색인 + HF Space 재배포)"* 물어보기. OK 하면 `chatbot/update_and_deploy.py` 실행 (Claude Code가 대행). 거절하면 스킵
+   - 이유: ingest는 위키 텍스트만 바꾸고, 챗봇은 별도 색인(chroma_db)·배포본을 가져서 명시적 동기화가 필요. 안 하면 챗봇이 옛 위키로 답함
+   - 실행: `cd chatbot && python update_and_deploy.py` (재색인 BGE-M3 ~5분 + Space 업로드)
+   - relations 신규/수정이 포함된 ingest면 graph도 함께 갱신되니 특히 권장
 
 로그 형식:
 ## [YYYY-MM-DD] ingest | [제목]
