@@ -2,7 +2,7 @@
 title: "Respawn Entertainment"
 type: entity
 sources: []
-related: ["[[live-service-design|라이브 서비스 설계]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[combat-design|전투 디자인]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]"]
+related: ["[[electronic-arts|Electronic Arts]]", "[[live-service-design|라이브 서비스 설계]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[combat-design|전투 디자인]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]"]
 created: 2026-05-29
 updated: 2026-05-29
 confidence: medium
@@ -10,7 +10,7 @@ relations:
   parentOf: []
 ---
 
-**Respawn Entertainment**는 2010 설립 미국 LA. 창업자 Vince Zampella·Jason West 등 *Infinity Ward 출신* (Call of Duty: Modern Warfare 시리즈 제작). 2017 **EA 인수** ($400M+). [[live-service-design|라이브 서비스 설계]]와 [[combat-design|전투 디자인]] 양쪽에서 *Movement-shooter 장르 정의*·*F2P BR + 싱글플레이 듀얼 모델*의 사례로 인용된다.
+**Respawn Entertainment**는 2010 설립 미국 LA. 창업자 Vince Zampella·Jason West 등 *Infinity Ward 출신* (Call of Duty: Modern Warfare 시리즈 제작). 2017 **[[electronic-arts|EA]] 인수** ($400M+). [[live-service-design|라이브 서비스 설계]]와 [[combat-design|전투 디자인]] 양쪽에서 *Movement-shooter 장르 정의*·*F2P BR + 싱글플레이 듀얼 모델*의 사례로 인용된다.
 
 > 💡 **핵심 포지셔닝:** *F2P 라이브 서비스(Apex) + 싱글플레이 AAA(Star Wars Jedi)*의 *듀얼 모델*. 1개 스튜디오에서 *완전히 다른 두 비즈니스 모델*을 동시 운영하는 *멀티 프로젝트*([[multi-project-development|멀티 프로젝트 개발]])의 표본. *Apex Legends가 5년 누적 1억+ 유저*인 동시에 *Star Wars Jedi 시리즈가 2,000만+* — 두 모델의 *cash flow 균형*이 회사 안정성.
 

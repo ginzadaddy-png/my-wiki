@@ -5,7 +5,7 @@ title: "위키 개요"
 이 위키는 **게임 개발 사례 연구**를 중심으로 구축된 개인 지식베이스입니다. GDC 강연, 개발사 인터뷰, 포스트모템 등을 수집해 반복적으로 등장하는 개발 방법론과 패턴을 정리합니다. ^wiki-intro
 
 ## 현재 커버리지
-- **스튜디오·퍼블리셔 (37개)**: 팀 아소비, 라리안 스튜디오, 샌드폴 인터랙티브, 서커펀치, 민트로켓, 엠바크 스튜디오, 캡콤, 프롬소프트웨어, 너티독, 닌텐도, CD 프로젝트 레드, 코지마 프로덕션, 인섬니악, IO 인터랙티브, 소니 산타모니카, 베데스다, 탱고 게임웍스, 아이언 게이트, 록스타, 아발란체 소프트웨어, 애로우헤드, 슈퍼자이언트, Remedy, Asobo Studio, BioWare, Obsidian Entertainment, Supercell, Hazelight Studios, Nexon, miHoYo/HoYoverse, Epic Games, Riot Games, Respawn Entertainment, Annapurna Interactive, Devolver Digital, Raw Fury, 펄어비스
+- **스튜디오·퍼블리셔 (38개)**: 팀 아소비, 라리안 스튜디오, 샌드폴 인터랙티브, 서커펀치, 민트로켓, 엠바크 스튜디오, 캡콤, 프롬소프트웨어, 너티독, 닌텐도, CD 프로젝트 레드, 코지마 프로덕션, 인섬니악, IO 인터랙티브, 소니 산타모니카, 베데스다, 탱고 게임웍스, 아이언 게이트, 록스타, 아발란체 소프트웨어, 애로우헤드, 슈퍼자이언트, Remedy, Asobo Studio, BioWare, Obsidian Entertainment, Supercell, Hazelight Studios, Nexon, miHoYo/HoYoverse, Epic Games, Riot Games, Respawn Entertainment, Annapurna Interactive, Devolver Digital, Raw Fury, 펄어비스, Electronic Arts(EA)
 - **미디어·플랫폼 (2개)**: IGN Entertainment, Valve
 - **게임 (33개)**: 아스트로봇, 발더스 게이트3, 클레르 옵스퀴르 33원정대, 고스트 오브 요테이, 데이브 더 다이버, 아크 레이더스, 다크 소울, 엘든링, 브레스 오브 더 와일드, 스카이림, 사이버펑크 2077, 위처3, 갓 오브 워, 고스트 오브 쓰시마, 더 라스트 오브 어스, 발하임, GTA5, Hi-Fi RUSH, 히트맨(2016), 발라트로, 호그와트 레거시, 레드 데드 리뎀션 2, 헬다이버스 2, 세키로, 데스 스트랜딩, 마블 스파이더맨 2, 알란 웨이크 2, A Plague Tale: Requiem, PEAK, 원신 Genshin Impact, Fortnite, League of Legends, Apex Legends
 - **주요 출처**: GDC 2024·2025·2026 강연, 개발사 공식 인터뷰·포스트모템, 시장 분석 보고서(Newzoo·Sensor Tower·Matthew Ball·IGN Audience Insights), 상장 게임사 IR(캡콤 FY26/3 등), 일본·한국 개발자 블로그

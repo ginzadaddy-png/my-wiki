@@ -2,15 +2,16 @@
 title: "Apex Legends"
 type: entity
 sources: []
-related: ["[[respawn-entertainment|Respawn Entertainment]]", "[[live-service-design|라이브 서비스 설계]]", "[[combat-design|전투 디자인]]", "[[marketing-strategy|마케팅 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[catalog-economics|카탈로그 이코노믹스]]"]
+related: ["[[respawn-entertainment|Respawn Entertainment]]", "[[electronic-arts|Electronic Arts]]", "[[live-service-design|라이브 서비스 설계]]", "[[combat-design|전투 디자인]]", "[[marketing-strategy|마케팅 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[catalog-economics|카탈로그 이코노믹스]]"]
 created: 2026-05-29
 updated: 2026-05-29
 confidence: medium
 relations:
   developedBy: [respawn-entertainment]
+  publishedBy: [electronic-arts]
 ---
 
-**Apex Legends**는 [[respawn-entertainment|Respawn Entertainment]]가 2019-02-04 출시한 F2P Battle Royale. *Titanfall 세계관*에 *티탄 제거 + Hero-shooter 메커닉* 결합. *Pre-launch surprise drop* 마케팅으로 *출시 1주 5천만 유저* 기록, [[marketing-strategy|마케팅 전략]]에서 *발표 zero, 출시 즉시 Fortnite 도전*의 표본 사례로 인용된다. EA 퍼블리싱.
+**Apex Legends**는 [[respawn-entertainment|Respawn Entertainment]]가 2019-02-04 출시한 F2P Battle Royale. *Titanfall 세계관*에 *티탄 제거 + Hero-shooter 메커닉* 결합. *Pre-launch surprise drop* 마케팅으로 *출시 1주 5천만 유저* 기록, [[marketing-strategy|마케팅 전략]]에서 *발표 zero, 출시 즉시 Fortnite 도전*의 표본 사례로 인용된다. [[electronic-arts|EA]] 퍼블리싱.
 
 > 💡 **핵심 시그널:** *Movement-shooter + Hero-shooter + BR* 3장르 결합. *2019 BR 황금기*에 *Fortnite·PUBG가 시장 양강* 시점에서 *마케팅 시그널 노출 zero*로 *Fortnite 메인 스트리머를 24시간 안에 모두 영입*. *발표 → 마케팅 → 출시*의 표준 시퀀스를 깬 *surprise drop 마케팅*의 산업 시그널.
 

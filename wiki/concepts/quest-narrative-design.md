@@ -8,7 +8,7 @@ sources: [
   "[[gdc2024-skyrim-starfield-design-collab]]",
   "[[rdr2-story-behind-the-story]]"
 ]
-related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[open-world-design|오픈월드 설계]]", "[[red-dead-redemption-2|레드 데드 리뎀션 2]]", "[[rockstar-games|록스타 게임즈]]"]
+related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[open-world-design|오픈월드 설계]]", "[[red-dead-redemption-2|레드 데드 리뎀션 2]]", "[[rockstar-games|록스타 게임즈]]", "[[bioware|BioWare]]", "[[obsidian-entertainment|Obsidian Entertainment]]"]
 created: 2026-04-15
 updated: 2026-04-20
 confidence: high
@@ -32,6 +32,15 @@ confidence: high
 - 선택지는 결과가 달라야 의미 있다 — 결과 없는 선택은 환상
 - 퀘스트의 감정적 목표를 먼저 정의하라 (무엇을 느끼게 할 것인가)
 - NPC는 게임 세계에 존재 이유가 있어야 한다 — 심부름꾼이 아닌 캐릭터
+
+## RPG 반응형 퀘스트 — BioWare·Obsidian 계보
+
+CDPR의 *"결과 없는 선택은 환상"* 원칙은 사실 서구 RPG 반응형 퀘스트 전통의 연장선이다. 그 두 축이 [[bioware|BioWare]]와 [[obsidian-entertainment|Obsidian]]이다.
+
+- **[[bioware|BioWare]] — 관계를 퀘스트 분기에 연결**: *"characters, not causes"* — 세력이 아닌 캐릭터가 스토리를 전달. 수치 승인 시스템(Approval Points)으로 동반자 관계를 퀘스트 결과에 직접 묶어, KOTOR·Mass Effect·Dragon Age로 *동반자 중심 반응형 내러티브*의 서구 표준을 정립. 동반자 설계 상세는 [[companion-design|동반자 설계]] 참조.
+- **[[obsidian-entertainment|Obsidian]] — 다중 해법·진영 결말**: Black Isle/Fallout 계보. New Vegas·Pillars of Eternity·Outer Worlds에서 *한 퀘스트에 다중 해법과 진영별 결말*을 구현. 공식 승인 시스템을 없애고 *플레이어 행동에 유기적으로 반응*하는 방향으로 진화 — *선택의 결과가 실제로 달라지는* 퀘스트의 깊이를 추구.
+
+> 두 스튜디오 모두 퀘스트를 *"심부름 목록"이 아니라 세계·캐릭터가 플레이어 선택을 기억하고 반응하는 시스템*으로 본다. CDPR·Larian과 함께 RPG 반응형 퀘스트의 핵심 계보를 이룬다.
 
 ## 공간이 내러티브를 담는다
 

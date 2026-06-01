@@ -2,6 +2,28 @@
 title: "활동 로그"
 ---
 
+## [2026-06-01] weekly-lint 후속 — Zelda 크로스체크 ingest + BioWare/Obsidian 내러티브 통합 + EA entity
+- 트리거: 2026-06-01 예약 lint 보고 후 사용자가 "조사주제 1·3 진행 + Zelda raw 큐 크로스체크 후 ingest" 지시
+- **lint 정정**: 직전 보고의 *bioware·obsidian-entertainment 신규 고립 2건은 false-positive*. 두 entity는 comparisons/companion-philosophy.md에서 escaped-pipe 테이블 셀(`[[bioware\|BioWare]]`)로 이미 link됨 — 고립 탐지 regex가 `\|`를 미처리한 버그. 실제 콘텐츠 고립은 by-design 7건(5 comparison + 2 wrapper)으로 직전 lint와 동일
+- **Zelda ingest (raw 큐 1건 처리)** — `2026-04-15T121314...Tunes of the Kingdom...md` (+ T122718 중복본):
+  - 크로스체크 결과: 강연 정식 제목은 *"Tunes of the Kingdom"* (Tears 오타 아님 — 물리+사운드 두 분야 말장난, 발표자 0:23 직접 언급). 영상은 자동 캡션이라 고유명사 다수 깨짐("Breath"→"Breast" 등). 핵심 내용이 기존 sources/gdc24-zelda-tears-of-kingdom.md(inven 보도)와 line-by-line 일치 → 상호 검증 완료
+  - 처리: 별도 신규 페이지 생성 대신 *기존 페이지 보강* (DRY). sources 배열에 YouTube 트랜스크립트 raw 추가, "보강 원전(영상)" + "제목 주의" 블록 삽입, **사운드 엔지니어링 상세 섹션 신설**(거리 감쇠 물리화·리버브 파라미터 자동 계산·방향성·인터랙티브 음악 툴 — inven 보도가 한 줄 요약한 "사운드용 물리 엔진"의 실제 구현). updated 2026-05-15→2026-06-01
+- **조사주제 1 — BioWare/Obsidian RPG 내러티브 통합** (고립 보강 아닌 커버리지 확장):
+  - concepts/companion-design.md: 본문에 [[bioware]]·[[obsidian-entertainment]] wikilink + related 배열에 두 entity·companion-philosophy 추가
+  - concepts/quest-narrative-design.md: "RPG 반응형 퀘스트 — BioWare·Obsidian 계보" 섹션 신설(characters not causes·다중 해법·진영 결말), related 배열에 두 entity 추가
+  - 결과: bioware 콘텐츠 inbound 1→4(companion-philosophy·companion-design·quest-narrative-design·electronic-arts), obsidian 1→3. 기존 fragile 테이블 셀 단독 의존 해소
+- **조사주제 3 — EA 퍼블리셔 entity 신규 (1 페이지)**:
+  - entities/electronic-arts.md (1982 레드우드시티, NASDAQ EA, CEO Andrew Wilson, 스포츠 연간 카탈로그+FUT·라이브 서비스·AAA 싱글 3축, 산하 DICE·Respawn·BioWare·Maxis·Codemasters, FIFA→EA Sports FC 전환, 2024 정리해고). relations: parentOf [respawn-entertainment, bioware]
+  - relations 연결: apex-legends.md에 publishedBy [electronic-arts] 추가 + 본문 "EA 퍼블리싱"→wikilink. respawn-entertainment.md·bioware.md 본문 "EA 인수/산하"→[[electronic-arts]] wikilink + related 배열 추가
+  - confidence: medium — 외부 fetch 제약(web_fetch provenance)으로 사전 학습 지식 종합. 매출·직원수·CEO 현황 IR 재검증 필요(페이지 "추가 조사" 명시)
+- 카탈로그·index·overview·about 갱신:
+  - entities/all.md: 스튜디오 섹션에 electronic-arts 행 추가(37→38), updated 2026-06-01
+  - index.md: Last updated 2026-06-01, stat card 스튜디오 37→38, **개념 52→53 정정**(기존 off-by-one 오류 — 실제 concepts 폴더 53개)
+  - overview.md: 현재 커버리지 스튜디오·퍼블리셔 37→38, 목록에 Electronic Arts(EA) 추가
+  - about.md: 누적 INGEST 65→66, 엔티티 73→74, 다이어그램 entities 73→74, 인라인 "총 약 265개"→266. (헤더·frontmatter 날짜는 당일 lint 단계에서 이미 2026-06-01)
+- 메타: entity 72→73 actual (folder 73→74 inc. all.md), source·concept·comparison 수 동일(Zelda는 기존 페이지 보강이라 source 신규 0)
+- push 안 함 — 사용자 검토 후 직접 요청
+
 ## [2026-05-29] ingest + 정정 — 펄어비스 블랙스페이스 엔진 (Inven GDC 2025 보도)
 - 트리거: 사용자가 "펄어비스 2세대 엔진 이름은 블랙스페이스(Black Space) 엔진, https://www.inven.co.kr/webzine/news/?news=304278&site=angelstone 참고"
 - 정정 사유: 직전 entity 작성 시 *Heart Engine (가칭)*으로 표기. 실제는 *블랙스페이스 엔진(Blackspace Engine)*, 2025-03 GDC 2025에서 미디어 최초 공개됨. *가칭이 아닌 공식 명칭*

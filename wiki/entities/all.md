@@ -2,7 +2,7 @@
 title: "전체 개체 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-05-29
+updated: 2026-06-01
 ---
 
 ← [홈으로](../index.md)
@@ -48,6 +48,7 @@ updated: 2026-05-29
 | [[devolver-digital]] | 미국 텍사스 오스틴, 1998, LSE 상장(DEVO), Hotline Miami·Cult of the Lamb·Inscryption, 컬트 마케팅 |
 | [[raw-fury]] | 스웨덴 스톡홀름, 2015, 비상장 작가형 퍼블리셔, Sable·Norco·Kingdom 시리즈 |
 | [[pearl-abyss]] | 한국 안양, 2010, KOSDAQ 상장, 검은사막 PC·모바일·콘솔, 검은사막 엔진·블랙스페이스 엔진(2025-03 GDC 공개) 자체 엔진, CCP Games 자회사 |
+| [[electronic-arts]] | 미국 레드우드시티, 1982, NASDAQ 상장, EA Sports FC·Battlefield·Apex 퍼블리셔, [[respawn-entertainment]]·[[bioware]] 모회사 |
 
 ## 미디어·플랫폼
 

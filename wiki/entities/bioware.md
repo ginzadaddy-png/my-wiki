@@ -2,13 +2,13 @@
 title: "BioWare"
 type: entity
 sources: ["[[companion-design-research-2026]]", "[[gdc26-designing-companions]]"]
-related: ["[[companion-design|동반자 설계]]", "[[companion-philosophy|RPG 동반자 설계 철학]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]", "[[live-service-design|라이브 서비스 설계]]"]
+related: ["[[companion-design|동반자 설계]]", "[[companion-philosophy|RPG 동반자 설계 철학]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]", "[[live-service-design|라이브 서비스 설계]]", "[[electronic-arts|Electronic Arts]]"]
 created: 2026-04-28
 updated: 2026-04-28
 confidence: medium
 ---
 
-캐나다 에드먼턴 기반 RPG 명가. EA 산하. Mass Effect·Dragon Age·KOTOR 시리즈로 "서구 RPG 동반자 설계의 표준"을 정의한 스튜디오.
+캐나다 에드먼턴 기반 RPG 명가. [[electronic-arts|EA]] 산하. Mass Effect·Dragon Age·KOTOR 시리즈로 "서구 RPG 동반자 설계의 표준"을 정의한 스튜디오.
 
 ## 핵심 설계 철학
 

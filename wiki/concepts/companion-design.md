@@ -2,13 +2,13 @@
 title: "동반자(Companion) 설계"
 type: concept
 sources: ["[[gdc26-designing-companions]]"]
-related: ["[[quest-narrative-design|퀘스트·내러티브 디자인]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[mda-framework|MDA 프레임워크]]"]
+related: ["[[quest-narrative-design|퀘스트·내러티브 디자인]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[mda-framework|MDA 프레임워크]]", "[[bioware|BioWare]]", "[[obsidian-entertainment|Obsidian Entertainment]]", "[[companion-philosophy|RPG 동반자 설계 철학 비교]]"]
 created: 2026-04-22
 updated: 2026-04-22
 confidence: high
 ---
 
-RPG 동반자 캐릭터를 설계하는 방법론. Obsidian의 Kate Dollarhyde + Lis Moberly 제안 (GDC 2026).
+RPG 동반자 캐릭터를 설계하는 방법론. [[obsidian-entertainment|Obsidian]]의 Kate Dollarhyde + Lis Moberly 제안 (GDC 2026). 이 방법론의 원형은 [[bioware|BioWare]]가 Mass Effect·Dragon Age로 정립한 *수치 승인 시스템*이며, Obsidian은 그 공식을 *"시스템 없는 유기적 관계"*로 재해석한다 — 세대별 진화는 [[companion-philosophy|RPG 동반자 설계 철학 비교]] 참조.
 
 ## 세 가지 동반자 패턴
 
