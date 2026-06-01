@@ -40,7 +40,10 @@ def load_page(file_path: Path) -> dict:
         }
     """
     file_path = Path(file_path)
-    post = frontmatter.load(file_path)
+    # utf-8-sig: BOM이 붙은 파일(notepad 등이 저장)도 frontmatter가 정상 파싱하도록.
+    # BOM이 있으면 frontmatter.load가 여는 '---'를 인식 못 해 metadata가 비어버림.
+    text = file_path.read_text(encoding="utf-8-sig")
+    post = frontmatter.loads(text)
     meta = dict(post.metadata)
     return {
         "slug": file_path.stem,

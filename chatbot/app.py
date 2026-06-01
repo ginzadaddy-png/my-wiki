@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 from core import ask
 
-load_dotenv()
+load_dotenv(override=True)  # .env가 셸 환경의 빈 ANTHROPIC_API_KEY를 덮어쓰도록
 
 DEFAULT_VAULT = Path(r"C:\Vault\Ginza\my-wiki")
 VAULT_PATH = Path(os.getenv("VAULT_PATH", DEFAULT_VAULT))
