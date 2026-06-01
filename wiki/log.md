@@ -2,6 +2,17 @@
 title: "활동 로그"
 ---
 
+## [2026-06-01] chatbot Phase 4 후속 + Phase 5 — platform 노드·갱신 자동화·Quartz 링크
+- **platform 노드 (M5 완전 해결)**: 게임 26개에 platform 관계 + platform entity 6개(ps5·ps4·pc·xbox-series·xbox-one·nintendo-switch) 신규
+  - 위키 본문 platform 명시가 7개뿐이라 공인 출시 플랫폼으로 보강(사용자 승인). graph platform 엣지 88개
+  - M5 "Sony 퍼블리싱 PS5 독점작" 정밀 해결: astro-bot·ghost-of-yotei·marvel-spiderman-2 (platform==[ps5])
+  - entities/all.md 게임 플랫폼 섹션 추가
+- **갱신 자동화**: update_and_deploy.py (build_index → push_space 한 방). 이번 재배포로 실전 검증
+- **UX**: 콜드스타트 안내 메시지(첫 질문 모델 로딩 1~2분), 인용 wikilink 완전성 프롬프트 보강
+- **Phase 5 (Quartz 링크)**: quartz repo WikiNav.tsx에 "💬 위키에 질문하기" 외부 링크 추가(사이드바 최상단). HF Space로 새 탭. 로컬 빌드 검증 후 quartz v4 push (별도 사이클)
+- 생성: chatbot/{apply_platforms.py·update_and_deploy.py} + platform entity 6 + quartz WikiNav 수정
+- **로드맵 Phase 1~5 전부 완료.** 챗봇 배포·운영 + 위키 연결 완성
+
 ## [2026-06-01] chatbot Phase 4 (진행) — 배포 준비 + 30개 평가셋 채점(환각 0)
 - 트리거: 로드맵 v2 Phase 4 (hybrid 라우팅 + 클라우드 배포 + 30개 평가셋 사람 채점)
 - **호스팅 결정**: 로컬 BGE-M3(2.3GB)는 Streamlit Cloud 무료(RAM 1GB)에 못 올림 → **Hugging Face Spaces**(16GB RAM 무료) 선택. 검색 품질·한국어·데이터 보존 유지
