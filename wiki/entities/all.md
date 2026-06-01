@@ -49,6 +49,11 @@ updated: 2026-06-01
 | [[raw-fury]] | 스웨덴 스톡홀름, 2015, 비상장 작가형 퍼블리셔, Sable·Norco·Kingdom 시리즈 |
 | [[pearl-abyss]] | 한국 안양, 2010, KOSDAQ 상장, 검은사막 PC·모바일·콘솔, 검은사막 엔진·블랙스페이스 엔진(2025-03 GDC 공개) 자체 엔진, CCP Games 자회사 |
 | [[electronic-arts]] | 미국 레드우드시티, 1982, NASDAQ 상장, EA Sports FC·Battlefield·Apex 퍼블리셔, [[respawn-entertainment]]·[[bioware]] 모회사 |
+| [[sony-interactive-entertainment]] | 소니 게임 부문, PlayStation, [[team-asobi]]·[[sony-santa-monica]]·[[naughty-dog]]·[[sucker-punch-productions]]·[[insomniac-games]] 모회사 |
+| [[microsoft]] | Xbox Game Studios, [[bethesda-game-studios]]·[[obsidian-entertainment]] 모회사 |
+| [[take-two-interactive]] | 미국 퍼블리셔, [[rockstar-games]] 모회사 (GTA·레드 데드) |
+| [[bandai-namco]] | 일본 퍼블리셔, [[dark-souls]]·[[elden-ring]] 글로벌 퍼블리싱 |
+| [[krafton]] | 한국 게임사, MS 폐쇄 후 [[tango-gameworks]] 인수 |
 
 ## 미디어·플랫폼
 
