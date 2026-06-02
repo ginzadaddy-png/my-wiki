@@ -4,8 +4,8 @@ python-frontmatter>=1.1
 python-dotenv>=1.0
 
 # Phase 2 — RAG (의미 검색)
-# chromadb는 색인을 만든 버전과 읽는 버전의 HNSW 포맷이 일치해야 함 (불일치 시
-# "Error finding id" 쿼리 오류). 로컬 색인 생성 버전으로 정확히 핀.
-chromadb==1.5.9
+# 벡터 검색은 numpy brute-force (core/vectorstore.py). chromadb의 영속 HNSW
+# 인덱스 reload 불안정성('Error finding id')을 피하려 제거. ~1,400벡터엔 numpy로 충분.
+numpy>=1.26
 sentence-transformers>=3.0
 # torch는 sentence-transformers 의존성으로 자동 설치 (CPU판)

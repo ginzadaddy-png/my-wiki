@@ -10,3 +10,4 @@ chatbot/core/__pycache__/
 chatbot/*.pyc
 chatbot/eval-*.json
 chatbot/chroma_db/
+chatbot/index/

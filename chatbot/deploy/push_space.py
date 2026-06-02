@@ -27,16 +27,13 @@ def assemble() -> Path:
     shutil.copy(CHATBOT / "requirements.txt", STAGE / "requirements.txt")
     shutil.copytree(CHATBOT / "core", STAGE / "core",
                     ignore=shutil.ignore_patterns("__pycache__"))
-    # 색인 + 위키 (graph용)
-    shutil.copytree(CHATBOT / "chroma_db", STAGE / "chroma_db")
+    # 색인(numpy embeddings.npy + meta.json) + 위키 (graph용)
+    shutil.copytree(CHATBOT / "index", STAGE / "index")
     shutil.copytree(WIKI, STAGE / "wiki",
                     ignore=shutil.ignore_patterns("__pycache__", ".obsidian"))
     # Docker + Space 메타
     shutil.copy(CHATBOT / "deploy" / "Dockerfile", STAGE / "Dockerfile")
     shutil.copy(CHATBOT / "deploy" / "README.md", STAGE / "README.md")
-    # .gitattributes: sqlite를 LFS로
-    (STAGE / ".gitattributes").write_text(
-        "*.sqlite3 filter=lfs diff=lfs merge=lfs -text\n", encoding="utf-8")
     return STAGE
 
 
@@ -45,11 +42,14 @@ def main() -> None:
     n = sum(1 for _ in stage.rglob("*") if _.is_file())
     print(f"스테이징 조립: {stage} ({n} 파일)")
     api = HfApi()
+    # upload_folder는 로컬에 없는 원격 파일을 안 지우므로, delete_patterns로
+    # 더 이상 쓰지 않는 chroma_db 잔재(과거 세그먼트 등)를 함께 정리.
     api.upload_folder(
         folder_path=str(stage),
         repo_id=REPO,
         repo_type="space",
-        commit_message="deploy: Phase 4 chatbot (RAG+graph) bundle",
+        commit_message="deploy: numpy 벡터 검색으로 교체 (chromadb 제거)",
+        delete_patterns=["chroma_db/**", "*.sqlite3", ".gitattributes"],
     )
     print(f"업로드 완료 → https://huggingface.co/spaces/{REPO}")
 

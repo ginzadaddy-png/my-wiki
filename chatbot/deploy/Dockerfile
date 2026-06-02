@@ -1,4 +1,4 @@
-# HF Spaces (Docker SDK) — Streamlit + BGE-M3 + Chroma
+# HF Spaces (Docker SDK) — Streamlit + BGE-M3 + numpy 벡터 검색
 FROM python:3.11-slim
 
 # 비root 사용자 (HF Spaces 권장: uid 1000)
@@ -17,7 +17,7 @@ COPY --chown=user requirements.txt .
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
-# 앱 + 데이터 (app.py·core/·chroma_db/·wiki/)
+# 앱 + 데이터 (app.py·core/·index/·wiki/)
 COPY --chown=user . .
 
 # HF Spaces는 7860 포트 기대

@@ -34,11 +34,11 @@ def main() -> None:
     embeddings = embed_texts([c["embed_text"] for c in chunks])
     print(f"      {len(embeddings)}개 벡터, dim={len(embeddings[0])} ({time.perf_counter()-t0:.1f}s)")
 
-    print("[3/3] Chroma 재색인 (reset)")
+    print("[3/3] 인덱스 저장 (embeddings.npy + meta.json)")
     t0 = time.perf_counter()
-    count = vectorstore.upsert_chunks(chunks, embeddings, reset=True)
-    print(f"      컬렉션 총 {count}개 ({time.perf_counter()-t0:.1f}s)")
-    print(f"\n완료. 저장 위치: {vectorstore.CHROMA_DIR}")
+    count = vectorstore.save_index(chunks, embeddings)
+    print(f"      총 {count}개 벡터 ({time.perf_counter()-t0:.1f}s)")
+    print(f"\n완료. 저장 위치: {vectorstore.INDEX_DIR}")
 
 
 if __name__ == "__main__":
