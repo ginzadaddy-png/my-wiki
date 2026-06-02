@@ -164,6 +164,9 @@ def ask(
         )
         answer_text = "\n".join(b.text for b in response.content if b.type == "text")
 
+    from .wikilinks import linkify
+    answer_text = linkify(answer_text, vault_path)
+
     return {
         "answer": answer_text,
         "sources": sources,

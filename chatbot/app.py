@@ -10,6 +10,7 @@ import streamlit as st
 from dotenv import load_dotenv
 
 from core import ask
+from core.wikilinks import to_url
 
 load_dotenv(override=True)  # .env가 셸 환경의 빈 ANTHROPIC_API_KEY를 덮어쓰도록
 
@@ -54,6 +55,16 @@ VAULT_PATH = _resolve_vault()
 MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-6")
 API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 
+
+def _src_md(src: dict) -> str:
+    """검색된 소스 한 줄을 Quartz 링크로 렌더 (페이지 없으면 코드체 평문)."""
+    url = to_url(src["slug"], str(VAULT_PATH))
+    label = (
+        f'<a href="{url}" target="_blank" rel="noopener">{src["slug"]}</a>'
+        if url else f"<code>{src['slug']}</code>"
+    )
+    return f"- {label} · {src['type']} · score {src['score']} — {src['title']}"
+
 st.set_page_config(page_title="Ginza Wiki Chat", page_icon="💬", layout="wide")
 st.title("💬 Ginza Wiki Chat")
 
@@ -74,13 +85,11 @@ if "messages" not in st.session_state:
 
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
-        st.markdown(msg["content"])
+        st.markdown(msg["content"], unsafe_allow_html=True)
         if msg["role"] == "assistant" and msg.get("sources"):
             with st.expander(f"📄 검색된 페이지 {len(msg['sources'])}개"):
                 for src in msg["sources"]:
-                    st.markdown(
-                        f"- **[[{src['slug']}]]** ({src['type']}, score {src['score']}) — {src['title']}"
-                    )
+                    st.markdown(_src_md(src), unsafe_allow_html=True)
                     st.caption(src["snippet"])
 
 if query := st.chat_input("위키에 대해 질문하세요"):
@@ -96,14 +105,12 @@ if query := st.chat_input("위키에 대해 질문하세요"):
         spinner_msg = "검색 모델 로딩 + 위키 검색 + Claude 호출 중... (최대 2분)" if cold else "위키 검색 + Claude 호출 중..."
         with st.spinner(spinner_msg):
             result = ask(query, VAULT_PATH, API_KEY, model=MODEL)
-        st.markdown(result["answer"])
+        st.markdown(result["answer"], unsafe_allow_html=True)
         if result["sources"]:
             mode = "🧠 의미검색(RAG)" if result.get("retrieval") == "rag" else "🔑 키워드"
             with st.expander(f"📄 검색된 페이지 {len(result['sources'])}개 · {mode}"):
                 for src in result["sources"]:
-                    st.markdown(
-                        f"- **[[{src['slug']}]]** ({src['type']}, score {src['score']}) — {src['title']}"
-                    )
+                    st.markdown(_src_md(src), unsafe_allow_html=True)
                     st.caption(src["snippet"])
 
     st.session_state.messages.append({
