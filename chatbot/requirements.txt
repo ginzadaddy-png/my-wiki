@@ -4,6 +4,8 @@ python-frontmatter>=1.1
 python-dotenv>=1.0
 
 # Phase 2 — RAG (의미 검색)
-chromadb>=0.5
+# chromadb는 색인을 만든 버전과 읽는 버전의 HNSW 포맷이 일치해야 함 (불일치 시
+# "Error finding id" 쿼리 오류). 로컬 색인 생성 버전으로 정확히 핀.
+chromadb==1.5.9
 sentence-transformers>=3.0
 # torch는 sentence-transformers 의존성으로 자동 설치 (CPU판)

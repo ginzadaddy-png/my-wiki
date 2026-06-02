@@ -33,7 +33,7 @@ confidence: high
 
 로컬은 Windows 환경에서 `my-wiki` 폴더가 메인 vault입니다. Obsidian으로 wikilink·graph view를 시각적으로 확인하고, Quartz는 별도 repo에서 빌드해 GitHub Pages로 배포됩니다. my-wiki는 비공개 GitHub repo에 sync되어 cross-device 작업이 가능합니다.
 
-LLM 도구는 Claude를 메인으로 사용하며, 실사용 결과 **Claude Code (데스크톱 앱 / CLI)**가 파일·터미널 작업에 가장 적합한 것으로 확인되어 ingest·편집·git·셸 작업의 메인 환경으로 정착했습니다. Read/Write/Edit/Bash/Grep 풀 toolset으로 위키 파일과 셸 명령을 직접 다루며, Cowork 모드(데스크톱 앱 자유 채팅)는 병용합니다. 단 destructive·되돌리기 어려운 작업(`rm -rf`, `git push --force`, DB drop 등)은 사용자 확인 후 실행합니다.
+LLM 도구는 Claude를 메인으로 사용하며, 실사용 결과 **Claude Code** (데스크톱 앱 / CLI)가 파일·터미널 작업에 가장 적합한 것으로 확인되어 ingest·편집·git·셸 작업의 메인 환경으로 정착했습니다. Read/Write/Edit/Bash/Grep 풀 toolset으로 위키 파일과 셸 명령을 직접 다루며, Cowork 모드(데스크톱 앱 자유 채팅)는 병용합니다. 단 destructive·되돌리기 어려운 작업(`rm -rf`, `git push --force`, DB drop 등)은 사용자 확인 후 실행합니다.
 
 원문 자료는 NotebookLM MCP, Web Clipper 등으로 수집해 `raw/` 폴더에 적재하며, *raw는 절대 수정하지 않는 read-only 원본 저장소*로 유지합니다.
 
@@ -150,7 +150,7 @@ entity 페이지에는 `relations:` 필드(developedBy·publishedBy·parentOf·g
 
 ## 챗봇 (위키 Q&A 에이전트)
 
-2026년 6월, 위키 전체를 검색·추론하는 **Hybrid Agent 챗봇**을 `chatbot/` 폴더에 구축했습니다. *"위키에 정리된 내용을 자연어로 물어보면 출처와 함께 답한다"*가 목표이고, 사이트 사이드바의 **💬 위키에 질문하기** 링크에서 접근합니다 (HF Spaces, 본인 HF 로그인 필요).
+2026년 6월, 위키 전체를 검색·추론하는 **Hybrid Agent 챗봇**을 `chatbot/` 폴더에 구축했습니다. *"위키에 정리된 내용을 자연어로 물어보면 출처와 함께 답한다"*가 목표이고, 사이트 사이드바의 **💬 위키에 질문하기** 링크에서 접근합니다 (HF Spaces 공개 + 앱 비밀번호 게이트 — iOS Safari 등 모든 브라우저에서 접근 가능).
 
 ### 핵심 설계
 

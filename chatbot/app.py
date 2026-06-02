@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import hmac
 import os
 from pathlib import Path
 
@@ -11,6 +12,31 @@ from dotenv import load_dotenv
 from core import ask
 
 load_dotenv(override=True)  # .env가 셸 환경의 빈 ANTHROPIC_API_KEY를 덮어쓰도록
+
+
+def _require_auth() -> None:
+    """공개 Space 접근 게이트. `APP_PASSWORD` secret과 대조.
+
+    fail-closed: APP_PASSWORD가 비어 있으면 입장 자체를 막는다(설정 누락이
+    전체 공개로 이어지지 않도록). 인증은 session_state에 1회만 저장돼
+    이후 질문마다 다시 묻지 않는다.
+    """
+    expected = os.getenv("APP_PASSWORD", "")
+    if not expected:
+        st.error("서버 설정 오류: `APP_PASSWORD`가 설정되지 않았습니다. (관리자 전용 — HF Space Secrets 확인)")
+        st.stop()
+    if st.session_state.get("authed"):
+        return
+    with st.form("auth"):
+        pw = st.text_input("비밀번호", type="password", placeholder="접근 비밀번호를 입력하세요")
+        ok = st.form_submit_button("입장")
+    if not ok:
+        st.stop()
+    if hmac.compare_digest(pw, expected):  # 타이밍 공격 회피용 상수시간 비교
+        st.session_state.authed = True
+        st.rerun()
+    st.error("비밀번호가 틀렸습니다.")
+    st.stop()
 
 def _resolve_vault() -> Path:
     """vault 경로 결정: 환경변수 > 로컬 경로 > Space 번들(앱 옆 wiki/)."""
@@ -30,6 +56,9 @@ API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 
 st.set_page_config(page_title="Ginza Wiki Chat", page_icon="💬", layout="wide")
 st.title("💬 Ginza Wiki Chat")
+
+_require_auth()  # 공개 Space 접근 게이트 (chat·API 호출보다 먼저)
+
 st.caption(f"vault: `{VAULT_PATH}` · model: `{MODEL}`")
 
 if not API_KEY:
