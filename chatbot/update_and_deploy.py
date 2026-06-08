@@ -33,9 +33,9 @@ def main() -> None:
     # 2) HF Space 재배포 (번들 조립 + upload)
     if deploy:
         run("deploy/push_space.py")
-        print("\n✅ 갱신 + 배포 완료. Space가 자동 재빌드됩니다.")
+        print("\n[OK] 갱신 + 배포 완료. Space가 자동 재빌드됩니다.")
     else:
-        print("\n✅ 재색인 완료 (배포 생략). 배포하려면 --no-deploy 없이 재실행.")
+        print("\n[OK] 재색인 완료 (배포 생략). 배포하려면 --no-deploy 없이 재실행.")
 
 
 if __name__ == "__main__":
