@@ -65,8 +65,8 @@ def _src_md(src: dict) -> str:
     )
     return f"- {label} · {src['type']} · score {src['score']} — {src['title']}"
 
-st.set_page_config(page_title="Ginza Wiki Chat", page_icon="💬", layout="wide")
-st.title("💬 Ginza Wiki Chat")
+st.set_page_config(page_title="Game Dev Wiki Chat", page_icon="💬", layout="wide")
+st.title("💬 Game Dev Wiki Chat")
 
 _require_auth()  # 공개 Space 접근 게이트 (chat·API 호출보다 먼저)
 

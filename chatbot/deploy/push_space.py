@@ -48,7 +48,7 @@ def main() -> None:
         folder_path=str(stage),
         repo_id=REPO,
         repo_type="space",
-        commit_message="deploy: numpy 벡터 검색으로 교체 (chromadb 제거)",
+        commit_message="앱 제목 변경: Game Dev Wiki Chat",
         delete_patterns=["chroma_db/**", "*.sqlite3", ".gitattributes"],
     )
     print(f"업로드 완료 → https://huggingface.co/spaces/{REPO}")
