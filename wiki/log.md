@@ -2,6 +2,13 @@
 title: "활동 로그"
 ---
 
+## [2026-06-08] QUERY 후속 — platform-fees 비교 페이지에 플랫폼 약관 분석 섹션 추가
+- 트리거: 웹샵/D2C가 Steam·콘솔에서도 가능한지 질문 → 플랫폼 약관 1차 확인 후 비교 페이지 보강 요청
+- comparisons/platform-fees-vs-direct-sales.md 두 섹션 신규:
+  - **플랫폼 약관상 적용 가능성**: Steam SSA(§1 Valve 판매자·§2 E·F 키 외부판매 허용)·PSN 약관(§14.2.1 모든 인게임 구매 SIE 거래·§14.10.2 외부 가상아이템 취득 금지)·Xbox Gaming Web Purchase Service(MS 1st-party 웹 D2C) — 1차 출처 URL 3건 인라인
+  - **콘솔 크로스플랫폼 커머스**: Sony 파트너 정책의 *패리티 의무*·*도매가 상한*(~30% 마진 유지)만 방향성 기록. **0.85 레비뉴셰어 룰·산식·임계값·예시 수치 등 비공개 수치는 의도적으로 제외**. 근거 PDF(SIE Cross-platform Policy, confidential)는 ingest하지 않음 — 비공개 정책임을 ⚠️ 블록에 명시
+- 신규 페이지·카운트 변동 없음 (기존 비교 페이지 본문 보강만)
+
 ## [2026-06-08] weekly-lint 후속 — Xsolla 웹샵/D2C ingest + parent-company wikilink retrofit + 수수료 비교
 - 트리거: 2026-06-08 예약 lint 보고 후 사용자가 Xsolla ingest + Steam 입문 보강 + 조사주제 3건(결제·웹샵 / parent wikilink / 수수료 비교 페이지) 진행 지시
 - **Xsolla ingest** (raw 큐 1건): `raw/articles/2026-06-01...엑솔라(Xsolla)의 웹샵 생태계`
