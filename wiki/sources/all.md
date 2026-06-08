@@ -2,10 +2,11 @@
 title: "소스 전체 목록"
 ---
 
-총 115개 | 최신순 정렬
+총 116개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [xsolla-webshop-ecosystem](xsolla-webshop-ecosystem.md) | 엑솔라 커넥트 서울 2026 — 웹샵·D2C 생태계 (인벤) | 2026-06 |
 | [pearl-abyss-blackspace-engine-gdc2025](pearl-abyss-blackspace-engine-gdc2025.md) | 펄어비스 블랙스페이스 엔진 GDC 2025 공개 (인벤) | 2025-03 |
 | [carless-wishlist-conversions-2025-10](carless-wishlist-conversions-2025-10.md) | GameDiscoverCo — Steam Wishlist Conversions 2024-2025 (Carless) | 2025-10 |
 | [carless-genres-ruled-steam-2025-06](carless-genres-ruled-steam-2025-06.md) | GameDiscoverCo — Which Genres Have 'Ruled' Steam (Single-tag Taxonomy, Carless) | 2025-06 |

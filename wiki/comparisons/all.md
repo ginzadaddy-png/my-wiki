@@ -2,7 +2,7 @@
 title: "전체 비교 분석 목록"
 type: comparison
 created: 2026-04-22
-updated: 2026-05-29
+updated: 2026-06-08
 ---
 
 ← [홈으로](../index.md)
@@ -23,3 +23,4 @@ updated: 2026-05-29
 | [[forecasting-vs-launch-metrics]] | **예측 vs 측정** — Steam 매출 예측 모델과 흥행 메트릭의 시간축 짝 관계 |
 | [[proprietary-engine-vs-ue5]] | **자체 엔진 vs UE5 의사결정 매트릭스** — 규모·타이틀 다양성·장르 정체성 3축 ROI 분기 |
 | [[catalog-economics-3-publishers]] | **카탈로그 이코노믹스 3사** — 캡콤·닌텐도·Take-Two 재발매·가격유지·서비스 3모델 비교 |
+| [[platform-fees-vs-direct-sales]] | **플랫폼 수수료 vs 직접 판매(D2C)** — Steam·모바일 30% vs 웹샵 채널 분담 |

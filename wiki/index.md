@@ -1,15 +1,15 @@
 # Game Dev Wiki
 
-Last updated 2026-06-01
+Last updated 2026-06-08
 
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">115</span></a></div>
+  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">116</span></a></div>
   <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">43</span></a></div>
   <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">33</span></a></div>
-  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">53</span></a></div>
-  <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">14</span></a></div>
+  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">54</span></a></div>
+  <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">15</span></a></div>
   <div class="stat-card"><a href="presentations/all.md" class="internal"><span class="stat-label">프레젠테이션</span><span class="stat-num">2</span></a></div>
 </div>
 
@@ -59,6 +59,7 @@ Last updated 2026-06-01
 - [[subscription-economy-gaming|구독 경제와 게이밍 — 소유→액세스 전환, discovery engine, Residency Premium]]
 - [[creator-economy-trust|크리에이터 경제와 신뢰 — Earned·Validated·Built in real time 3-tier 모델]]
 - [[game-utility-systems|게임 유틸리티 시스템 — Map vs Manual, Resident 인프라, 90% 유틸리티 사용]]
+- [[webshop-direct-monetization|웹샵·D2C 직접 수익화 — 플랫폼 30% 회피·하이브리드·발견/락인 분담]]
 
 </div>
 
@@ -111,6 +112,7 @@ Last updated 2026-06-01
 - [[forecasting-vs-launch-metrics|예측 vs 측정 — Steam 매출 예측 모델과 흥행 메트릭의 시간축 짝 관계]]
 - [[proprietary-engine-vs-ue5|자체 엔진 vs UE5 의사결정 매트릭스 — 규모·타이틀 다양성·장르 정체성 3축 ROI 분기]]
 - [[catalog-economics-3-publishers|카탈로그 이코노믹스 3사 — 캡콤·닌텐도·Take-Two 재발매·가격유지·서비스 3모델 비교]]
+- [[platform-fees-vs-direct-sales|플랫폼 수수료 vs 직접 판매 — Steam·모바일 30% vs D2C 웹샵 채널 분담]]
 
 </div>
 

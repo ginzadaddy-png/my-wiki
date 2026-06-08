@@ -8,7 +8,7 @@ updated: 2026-04-13
 confidence: high
 ---
 
-소니 산하 미국 퍼스트파티 스튜디오 (설립 28년+). 중형 규모, 의도적으로 천천히 성장.
+[[sony-interactive-entertainment|소니]] 산하 미국 퍼스트파티 스튜디오 (설립 28년+). 중형 규모, 의도적으로 천천히 성장.
 
 - **공동창립자**: 크리스 짐머만(Chris Zimmerman)
 - **크리에이티브 디렉터**: 네이트 폭스(Nate Fox), 제이슨 코넬(Jason Connell)

@@ -7,6 +7,7 @@ chatbot/.venv/
 chatbot/.env
 chatbot/__pycache__/
 chatbot/core/__pycache__/
+chatbot/deploy/__pycache__/
 chatbot/*.pyc
 chatbot/eval-*.json
 chatbot/chroma_db/

@@ -8,7 +8,7 @@ updated: 2026-04-16
 confidence: medium
 ---
 
-Tango Gameworks. 일본 도쿄. 베데스다/제니맥스 산하였으나 마이크로소프트 인수 후 2024년 폐쇄(Hi-Fi RUSH IP는 네반 스튜디오로 이전). The Evil Within·Hi-Fi RUSH 개발사.
+Tango Gameworks. 일본 도쿄. 베데스다/제니맥스 산하였으나 [[microsoft|마이크로소프트]] 인수 후 2024년 폐쇄되었다가 한국 [[krafton|크래프톤]]이 인수해 존속(Hi-Fi RUSH IP는 네반 스튜디오로 이전). The Evil Within·Hi-Fi RUSH 개발사.
 
 ## 주요 작품
 - **The Evil Within** 시리즈 (2014, 2017): 서바이벌 호러

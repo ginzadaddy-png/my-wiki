@@ -8,7 +8,7 @@ updated: 2026-04-28
 confidence: medium
 ---
 
-미국 캘리포니아 어바인 기반 RPG 스튜디오. Microsoft(Xbox Game Studios) 산하. KOTOR II·Fallout: New Vegas·Pillars of Eternity·Outer Worlds·Avowed 개발사. Black Isle Studios 핵심 인력 출신으로 CRPG 장르 유산을 계승.
+미국 캘리포니아 어바인 기반 RPG 스튜디오. [[microsoft|Microsoft]] (Xbox Game Studios) 산하. KOTOR II·Fallout: New Vegas·Pillars of Eternity·Outer Worlds·Avowed 개발사. Black Isle Studios 핵심 인력 출신으로 CRPG 장르 유산을 계승.
 
 ## 동반자 설계 철학 — 3세대 "유기적 관계"
 

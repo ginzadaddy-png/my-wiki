@@ -13,7 +13,7 @@ relations:
   platform: [ps4, ps5, xbox-one, xbox-series, pc]
 ---
 
-FromSoftware, 2022. 조지 R.R. 마틴과 협업한 오픈월드 소울라이크. 2022년 GOTY. 오픈월드와 소울 공식의 결합으로 장르적 전환점.
+FromSoftware 개발, [[bandai-namco|반다이 남코]] 퍼블리싱, 2022. 조지 R.R. 마틴과 협업한 오픈월드 소울라이크. 2022년 GOTY. 오픈월드와 소울 공식의 결합으로 장르적 전환점.
 
 ## 월드 설계 특징
 - **레거시 던전 + 오픈 필드 분리** ([[gmtk-world-design-elden-ring]]): 기존 소울 구조(던전)를 오픈 필드로 확장. 소프트 가이던스로 플레이어를 유도

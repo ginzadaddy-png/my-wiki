@@ -8,7 +8,7 @@ updated: 2026-04-16
 confidence: medium
 ---
 
-Bethesda Game Studios. 메릴랜드 록빌. 마이크로소프트 산하(2021년 제니맥스 인수). The Elder Scrolls·Fallout·Starfield 개발사.
+Bethesda Game Studios. 메릴랜드 록빌. [[microsoft|마이크로소프트]] 산하(2021년 제니맥스 인수). The Elder Scrolls·Fallout·Starfield 개발사.
 
 ## 주요 작품
 - **엘더스크롤 5: 스카이림** (2011): 오픈월드 RPG의 대명사

@@ -8,7 +8,7 @@ updated: 2026-04-16
 confidence: medium
 ---
 
-Sony Santa Monica Studio. 소니 인터랙티브 엔터테인먼트 산하 퍼스트 파티 스튜디오. 캘리포니아 산타모니카.
+Sony Santa Monica Studio. [[sony-interactive-entertainment|소니 인터랙티브 엔터테인먼트]] 산하 퍼스트 파티 스튜디오. 캘리포니아 산타모니카.
 
 ## 주요 작품
 - **갓 오브 워** 시리즈 (2005~): 크레이토스 중심 액션

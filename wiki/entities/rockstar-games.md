@@ -8,7 +8,7 @@ updated: 2026-04-16
 confidence: medium
 ---
 
-Rockstar Games. 뉴욕 본사, 전 세계 멀티 스튜디오 체제. Take-Two Interactive 산하. GTA·레드 데드 리뎀션 시리즈 개발사.
+Rockstar Games. 뉴욕 본사, 전 세계 멀티 스튜디오 체제. [[take-two-interactive|Take-Two Interactive]] 산하. GTA·레드 데드 리뎀션 시리즈 개발사.
 
 ## 주요 작품
 - **Grand Theft Auto** 시리즈: GTA III(2001)부터 GTA V(2013)까지. GTA VI 개발 중

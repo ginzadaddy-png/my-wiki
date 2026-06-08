@@ -2,7 +2,7 @@
 title: "전체 개체 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-06-01
+updated: 2026-06-08
 ---
 
 ← [홈으로](../index.md)
@@ -61,6 +61,7 @@ updated: 2026-06-01
 |------|------|
 | [[ign-entertainment]] | 미국 1996 설립, 글로벌 게이밍·엔터테인먼트 미디어, 470M MAU, Maxroll·Planet Pokemon 운영, IMAGINE AI 플랫폼 |
 | [[valve]] | 미국 워싱턴 벨뷰, 1996 설립, Steam(2003~) 운영자, 30/25/20% 수수료 구조, ML 알고리즘 + Steam Next Fest 분기별 운영 |
+| [[xsolla]] | 글로벌 게임 결제·커머스 B2B 인프라, merchant of record, 130개국+ APM, 웹샵·D2C 솔루션 |
 
 ## 게임 플랫폼
 

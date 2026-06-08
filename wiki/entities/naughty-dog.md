@@ -8,7 +8,7 @@ updated: 2026-04-14
 confidence: high
 ---
 
-미국 산타모니카 소재 게임 스튜디오. 소니 퍼스트 파티. 언차티드 시리즈, The Last of Us 시리즈로 유명.
+미국 산타모니카 소재 게임 스튜디오. [[sony-interactive-entertainment|소니]] 퍼스트 파티. 언차티드 시리즈, The Last of Us 시리즈로 유명.
 
 | 항목 | 내용 |
 |------|------|

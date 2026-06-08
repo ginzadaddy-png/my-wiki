@@ -2,7 +2,7 @@
 title: "전체 개념 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-05-18
+updated: 2026-06-08
 ---
 
 ← [홈으로](../index.md)
@@ -48,6 +48,7 @@ updated: 2026-05-18
 | [[subscription-economy-gaming]] | **구독 경제와 게이밍** — 소유→액세스 전환, discovery engine, Residency Premium |
 | [[creator-economy-trust]] | **크리에이터 경제와 신뢰** — Earned·Validated·Built in real time 3-tier 모델 |
 | [[game-utility-systems]] | **게임 유틸리티 시스템** — Map vs Manual, Resident 인프라, 90% 유틸리티 사용 |
+| [[webshop-direct-monetization]] | **웹샵·D2C 직접 수익화** — 플랫폼 30% 회피·하이브리드 채널·발견/락인 분담 |
 
 ## 게임 디자인
 

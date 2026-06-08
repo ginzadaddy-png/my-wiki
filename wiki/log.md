@@ -2,6 +2,18 @@
 title: "활동 로그"
 ---
 
+## [2026-06-08] weekly-lint 후속 — Xsolla 웹샵/D2C ingest + parent-company wikilink retrofit + 수수료 비교
+- 트리거: 2026-06-08 예약 lint 보고 후 사용자가 Xsolla ingest + Steam 입문 보강 + 조사주제 3건(결제·웹샵 / parent wikilink / 수수료 비교 페이지) 진행 지시
+- **Xsolla ingest** (raw 큐 1건): `raw/articles/2026-06-01...엑솔라(Xsolla)의 웹샵 생태계`
+  - 생성: sources/xsolla-webshop-ecosystem.md · concepts/webshop-direct-monetization.md · entities/xsolla.md
+  - 핵심: D2C·웹샵 패러다임 전환(30% 회피→필수 비즈니스), 하이브리드(스토어=발견/웹샵=락인), 운영 3단계(발견-전환-확장), 라이브옵스 캔버스 노코드·인스턴트 웹샵·PWA, merchant of record + 130개국 APM, 조이시티 5개월 ~400% 사례
+  - confidence medium — 결제 솔루션사 자사 행사 리뷰, 수치는 자체/익명 데이터 (출처 주의 블록 명시). Xsolla는 결제 인프라사라 graph relations 어휘 미적용
+- **Steam 마케팅 입문 보강** (중복 clipping — 신규 source 페이지 없이 기존 entity 보강): entities/valve.md 기본정보에 2025 규모 수치 추가 (MAU ~1.4억 +11%, CCU 4,200만+ 2020 대비 2배, PC·콘솔 매출 +13%·다운로드 +6%). 출처 AB180 'Game UA 2026'(2026-06)
+- **조사주제 — 퍼블리셔 딜·플랫폼 수수료 비교**: comparisons/platform-fees-vs-direct-sales.md 신규 (Steam·모바일 30% vs D2C 웹샵 채널 분담, publisher-deal-structures·valve·xsolla 연계)
+- **조사주제 — parent-company wikilink retrofit** (lint 고립 보강): 산하 스튜디오 9개 본문에 모회사 프로즈 wikilink 추가 → SIE(team-asobi·sony-santa-monica·naughty-dog·sucker-punch·insomniac)·microsoft(bethesda·obsidian·tango)·krafton(tango)·take-two(rockstar) + elden-ring에 [[bandai-namco]] 퍼블리셔 링크. 모회사 entity 프로즈 inbound 0→1+ 해소. 플랫폼 entity(ps5 등)는 graph 전용 노드로 의도적 유지
+- 갱신: index.md(소스 116·개념 54·비교 15·pill 2)·sources/all·concepts/all·comparisons/all·entities/all·overview.md(미디어·플랫폼 3개·신규 테마)·about.md(통계·lint 날짜)
+- 모순: 없음 (Xsolla는 신규 영역, 기존 위키와 충돌 없음)
+
 ## [2026-06-01] chatbot Phase 4 후속 + Phase 5 — platform 노드·갱신 자동화·Quartz 링크
 - **platform 노드 (M5 완전 해결)**: 게임 26개에 platform 관계 + platform entity 6개(ps5·ps4·pc·xbox-series·xbox-one·nintendo-switch) 신규
   - 위키 본문 platform 명시가 7개뿐이라 공인 출시 플랫폼으로 보강(사용자 승인). graph platform 엣지 88개

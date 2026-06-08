@@ -8,7 +8,7 @@ updated: 2026-04-16
 confidence: medium
 ---
 
-소니 산하 퍼스트 파티 스튜디오(2019년 인수). 버번카운티(버지니아), 마블·소니 IP 중심. Ratchet & Clank, Resistance 시리즈에서 마블 스파이더맨으로 IP 확장.
+[[sony-interactive-entertainment|소니]] 산하 퍼스트 파티 스튜디오(2019년 인수). 버번카운티(버지니아), 마블·소니 IP 중심. Ratchet & Clank, Resistance 시리즈에서 마블 스파이더맨으로 IP 확장.
 
 ## 주요 작품
 - **Marvel's Spider-Man** (2018): 오픈월드 슈퍼히어로 액션. 90분 스토리 시네마틱 + 모캡 기반 복잡한 파이프라인
