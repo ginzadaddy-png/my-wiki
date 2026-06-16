@@ -31,7 +31,13 @@ Last updated 2026-06-16
 - [[dev-talent-pipeline|개발 인재 파이프라인 — 연 100명·세대 혼합·R&D 인프라·Gen AI (캡콤 12년 모델)]]
 - [[producer-role|프로듀서 역할 — Force Multiplier·정렬·함정 3종·마인드셋 전환]]
 - [[psychological-safety|심리적 안전 — 처벌 두려움 없는 의견 표현, 고성과 팀 1순위 요인]]
+- [[multi-project-development|멀티 프로젝트 동시 개발 전략과 위험]]
 - [[art-pipeline-design|아트 파이프라인 설계 — Houdini·USD·kit-bash·late lock-down·90/10 도구화 (Embark·Asobo·Sandfall)]]
+- [[proprietary-engine-strategy|독자 엔진 전략 — RE ENGINE vs 서드파티 무수정]]
+- [[unreal-engine-5|Unreal Engine 5 — Nanite·Lumen·MetaHuman·Blueprint 95% (33원정대)]]
+- [[innersource|이너소스 — 오픈소스 방식의 사내 기술 공유 모델]]
+- [[ai-gamedev|게임 개발에서의 생성형 AI — 정서 데이터·도입 원칙·역할 변화]]
+- [[ai-asset-pipeline|AI 게임 에셋 산업화 파이프라인 — 단점 생성 한계·포맷 통일·경험 침전·노드 캔버스 (텐센트 Light AI)]]
 
 </div>
 
@@ -45,12 +51,6 @@ Last updated 2026-06-16
 - [[data-driven-development|데이터 기반 개발 의사결정 — 3일 버스트·바구니 시스템]]
 - [[indie-business-strategy|인디 비즈니스 전략 — 창업·마케팅·생존]]
 - [[game-market-trends|게임 시장 트렌드 — 저가 프리미엄 부상, 세분화]]
-- [[multi-project-development|멀티 프로젝트 동시 개발 전략과 위험]]
-- [[proprietary-engine-strategy|독자 엔진 전략 — RE ENGINE vs 서드파티 무수정]]
-- [[unreal-engine-5|Unreal Engine 5 — Nanite·Lumen·MetaHuman·Blueprint 95% (33원정대)]]
-- [[innersource|이너소스 — 오픈소스 방식의 사내 기술 공유 모델]]
-- [[ai-gamedev|게임 개발에서의 생성형 AI — 정서 데이터·도입 원칙·역할 변화]]
-- [[ai-asset-pipeline|AI 게임 에셋 산업화 파이프라인 — 단점 생성 한계·포맷 통일·경험 침전·노드 캔버스 (텐센트 Light AI)]]
 - [[game-pricing-strategy|게임 가격 전략 — 가격대 지형, 지역 차등화, 세일 타이밍, 비즈니스 모델]]
 - [[catalog-economics|카탈로그 이코노믹스 — 시리즈 IP의 장기 매출 모델, 캡콤 카탈로그 84%]]
 - [[steam-revenue-forecasting|Steam 매출 예측 모델 — 8 driver sensitivity, sub-genre conversion 매트릭스, ZR Forecaster]]
