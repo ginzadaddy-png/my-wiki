@@ -2,7 +2,7 @@
 title: "전체 개념 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-06-08
+updated: 2026-06-16
 ---
 
 ← [홈으로](../index.md)
@@ -39,6 +39,7 @@ updated: 2026-06-08
 | [[unreal-engine-5]] | **Unreal Engine 5** — Nanite·Lumen·MetaHuman·Blueprint 95% (33원정대) |
 | [[innersource]] | **이너소스** — 오픈소스 방식의 사내 기술 공유 모델 |
 | [[ai-gamedev]] | **게임 개발에서의 생성형 AI** — 정서 데이터·도입 원칙·역할 변화 |
+| [[ai-asset-pipeline]] | **AI 게임 에셋 산업화 파이프라인** — 단점 생성 한계·포맷 통일·경험 침전·노드 캔버스 (텐센트 Light AI) |
 | [[game-pricing-strategy]] | **게임 가격 전략** — 가격대 지형, 지역 차등화, 세일 타이밍, 비즈니스 모델 |
 | [[catalog-economics]] | **카탈로그 이코노믹스** — 시리즈 IP의 장기 매출 모델, 캡콤 카탈로그 84% |
 | [[steam-revenue-forecasting]] | **Steam 매출 예측 모델** — 8 driver sensitivity, sub-genre conversion 매트릭스, ZR Forecaster |
@@ -64,6 +65,9 @@ updated: 2026-06-08
 | [[emergent-systems-design]] | **창발적 시스템 설계** — 규칙이 자유를 만든다 (닌텐도 TotK) |
 | [[extraction-genre-design]] | **익스트랙션 장르 설계** — 진입장벽 완화 공식 |
 | [[soulslike]] | **소울라이크** — 공정한 가혹함·죽음 루프·방법론적 전투의 장르 문법 |
+| [[roguelike]] | **로그라이크** — 절차적 생성·런 기반·메타 진행성, 발라트로·하데스, Action Roguelike healthy 분포 |
+| [[sound-design]] | **사운드·음악 디자인** — 적응형 음악·미들웨어·공간/절차적 오디오·믹싱·접근성 (젤다·Hades·Celeste·Returnal) |
+| [[gameplay-feedback-audio]] | **게임플레이 피드백 오디오** — 소리를 1차 전투 입력 채널로, 주파수 위계·소닉 검증 (오버워치·세키로) |
 | [[environmental-storytelling]] | **환경 스토리텔링** — 공간이 내러티브를 전달하는 방법 |
 | [[cinematic-production]] | **시네마틱 제작** — 파이프라인·카메라·편집 |
 | [[ai-navigation]] | **AI 내비게이션** — 복잡 지형 경로탐색 (데스 스트랜딩) |

@@ -39,6 +39,9 @@ title: "위키 개요"
 - [[subscription-economy-gaming|구독 경제]]: 소유→액세스 전환, discovery engine, Residency Premium (Gen Z·M의 다른 OS)
 - [[game-market-trends|시장 구조 변화]]: 미싱 미들 부상, 저가 프리미엄, 스웨덴 생태계, 서구 개발사 구조적 불이익
 - [[webshop-direct-monetization|웹샵·D2C 직접 수익화]]: 플랫폼 30% 수수료 회피를 넘어 진성 유저 락인·데이터 내재화 — 발견(스토어)/락인(웹샵) 하이브리드
+- [[roguelike|로그라이크]]: 절차적 생성·런 기반·메타 진행성 — 발라트로·하데스, Action Roguelike의 healthy 분포가 인디 진입을 부른다
+- [[sound-design|사운드·음악 디자인]]: 적응형 음악·미들웨어·공간/절차적 오디오·다이내믹 믹싱·접근성 — 사운드를 설계 초기 제약으로 끌어올린 방식
+- [[gameplay-feedback-audio|게임플레이 피드백 오디오]]: 소리를 시각보다 빠른 1차 전투 입력 채널로 — 주파수 위계·소닉 검증 (오버워치 Play by Sound·세키로 체간 청각 피드백)
 
 ## 폴더 구조
 ```

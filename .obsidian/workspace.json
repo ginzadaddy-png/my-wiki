@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/presentations/studio-risk-defense.md",
+                "file": "raw/articles/2026-06-04T182928+0900-Steam 마케팅 입문, 정답은 없지만 문법은 있다  웹진 인벤.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "studio-risk-defense"
+              "title": "2026-06-04T182928+0900-Steam 마케팅 입문, 정답은 없지만 문법은 있다  웹진 인벤"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/presentations/studio-risk-defense.md",
+                "file": "raw/articles/2026-06-04T182928+0900-Steam 마케팅 입문, 정답은 없지만 문법은 있다  웹진 인벤.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "studio-risk-defense 의 백링크"
+              "title": "2026-06-04T182928+0900-Steam 마케팅 입문, 정답은 없지만 문법은 있다  웹진 인벤 의 백링크"
             }
           },
           {
@@ -184,6 +184,11 @@
   },
   "active": "3fe76bcb6a95c484",
   "lastOpenFiles": [
+    "wiki/about.md",
+    "raw/articles/2026-06-04T182928+0900-Steam 마케팅 입문, 정답은 없지만 문법은 있다  웹진 인벤.md",
+    "README.md",
+    "raw/articles/2026-06-01T185427+0900-기획 게이머와 개발사 모두 윈윈하는 엑솔라(Xsolla)의 웹샵 생태계  웹진 인벤.md",
+    "wiki/presentations/studio-risk-defense.md",
     "raw/articles/2026-05-18T111613+0900-Game Character Pipelines at Embark Freedom Through Structure  GDC 2026.md",
     "wiki/presentations/steam-marketing-strategy.md",
     "wiki/presentations/steam-marketing-strategy-deck.html",
@@ -207,11 +212,6 @@
     "wiki/sources/vilehyperion-combat-system.md",
     "wiki/sources/ukyou-sweden-steam-2025.md",
     "wiki/sources/ukyou-project-failure-structure.md",
-    "wiki/sources/ukyou-mobile-liveservice-walls.md",
-    "wiki/sources/ukyou-mobile-liveservice-survival.md",
-    "raw/articles/2026-04-27T174428+0900-運営型モバイルゲーム開発の『壁』を越える思考法 ― 任天堂などから学ぶ現代開発の生存戦略｜ゲーム設計×仕事の設計論 by うきょう.md",
-    "raw/articles/2026-04-27T174435+0900-運営型モバイルゲームが生き残りづらい構造的理由と、その突破口｜ゲーム設計×仕事の設計論 by うきょう.md",
-    "raw/articles/2026-04-27T174656+0900-GCON 거장 하시모토 신지의 '프로듀서'란 무엇인가.md",
     "wiki/index.md.tmp.43472.1777018921249",
     "wiki/entities/supergiant-games.md.tmp.43472.1777018888991",
     "wiki/overview.md.tmp.43472.1777016170993",

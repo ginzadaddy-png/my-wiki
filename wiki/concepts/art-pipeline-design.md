@@ -2,7 +2,7 @@
 title: "아트 파이프라인 설계 (Art Pipeline Design)"
 type: concept
 sources: ["[[gdc2026-embark-character-pipeline]]", "[[gdc2023-asobo-how-to-make-aaa-small-team]]", "[[gdc26-expedition33-programmers]]"]
-related: ["[[embark-studios|엠바크 스튜디오]]", "[[asobo-studio|Asobo]]", "[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[proprietary-engine-strategy|독자 엔진 전략]]", "[[innersource|이너소스]]", "[[designer-empowerment|디자이너 도구화]]"]
+related: ["[[embark-studios|엠바크 스튜디오]]", "[[asobo-studio|Asobo]]", "[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[proprietary-engine-strategy|독자 엔진 전략]]", "[[innersource|이너소스]]", "[[designer-empowerment|디자이너 도구화]]", "[[ai-asset-pipeline|AI 게임 에셋 산업화 파이프라인]]"]
 created: 2026-05-18
 updated: 2026-05-18
 confidence: high

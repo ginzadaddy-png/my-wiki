@@ -2,6 +2,47 @@
 title: "활동 로그"
 ---
 
+## [2026-06-16] ingest | Gemini Deep Research 2건 — 사운드 디자인 + 세키로 전투 효과음
+- 트리거: 사용자가 Gemini Enterprise Deep Research를 직접 실행해 공유링크 2건 전달(사운드 b722d20eeed3 / 세키로 c963d0d4f312). 브라우저(Claude in Chrome get_page_text)로 본문 추출 → 검증 후 "전체로" ingest 지시
+- Source: raw/articles/2026-06-16-gemini-deepresearch-sound-design.md · raw/articles/2026-06-16-gemini-deepresearch-sekiro-combat-sound.md (둘 다 1차 출처 인용 포함 2차 합성물)
+- **세키로 보고서 = 2차 시도(검증판)**. 1차 시도(무출처)의 의심 항목이 거의 판정됨: Ogawa Sound 'KATANA'/'MOTION SFX' 실사용 *확인*(공식 포스트), 작곡 크레딧 *확인*(키타무라 리드 + 아사쿠라 8트랙, vgmdb), CEDEC 2020 *정정 확인*(세키로=우수상/FF7R=최우수상), 공중부양 폴리 *1차 미확인*(David Dumais 재현 가이드 유래)
+- 생성 source 5: gdc16-overwatch-play-by-sound · project-triton-acoustics · gdc23-tunic-audio · ogawa-katana-sekiro · sword-sfx-satisfaction-2020 (모두 confidence medium, 1차 미직접확인 출처주의 명시)
+- 생성 concept 1: gameplay-feedback-audio (두 보고서 수렴 — 소리를 1차 전투 입력 채널로. 오버워치 Greatest Threat·세키로 체간 청각피드백)
+- 생성 comparison 1: sekiro-vs-melee-combat-audio (세키로·엘든링·고스트 오브 쓰시마·MGR·인왕 — "효과음 품질"이 아닌 "사운드에 부여한 역할"이 갈림길)
+- 심화: sound-design(적응형 음악 수직/수평·미들웨어 Wwise/FMOD·공간 Triton·절차적 VocAlien·다이내믹 믹싱/무음·접근성·합류시점) · sekiro 엔티티(전투 효과음 섹션 + sources/related)
+- 양방향 link: sekiro↔gameplay-feedback-audio·sekiro-vs-melee-combat-audio·신규 source 2 / sound-design↔gameplay-feedback-audio·신규 source 3
+- 갱신: sources/all(→124, linter가 텐센트행 포함 정합)·concepts/all(→58, ai-asset-pipeline 외부추가 포함)·comparisons/all(→17)·index(소스124·개념58·비교17·pill 2)·about(INGEST 68→71[ai-asset+사운드+세키로]·소스124·개념58·비교17·총286→295·마지막갱신 2026-06-16·다이어그램)·overview(핵심 테마 2)
+- 참고: 작업 중 다른 기기/세션에서 ai-asset-pipeline(텐센트 Light AI) ingest가 동시 반영됨 — 카운트 재측정으로 정합
+- 모순 없음. push 안 함 — 사용자 검토 후 직접
+
+## [2026-06-16] ingest | 텐센트 광자 Light AI — AI 게임 에셋 산업화 파이프라인 (GameLook)
+- 트리거: 사용자가 GameLook 기사 URL(gamelook.com.cn/2026/06/595139) 직접 전달 → ingest 지시. WebFetch 본문 미반환(JS 렌더링)으로 Claude in Chrome get_page_text로 본문 추출
+- Source: http://www.gamelook.com.cn/2026/06/595139/ (2026-06-10, 텐센트 광자 LAP 강연 실록, 薛小黎·凡开俊). 벤더 자기 발표 + 강연 실록이라 confidence medium
+- 생성: sources/tencent-light-ai-pipeline-2026.md · concepts/ai-asset-pipeline.md
+- 양방향 link: ai-asset-pipeline ↔ ai-gamedev(related)·art-pipeline-design(related)
+- 갱신: index(소스118→119·개념56→57·개발방법론 pill 추가)·concepts/all(ai-asset-pipeline 행)·sources/all(123→124, 행 추가)
+- 참고: index 소스 카운트(119)와 sources/all 실제 파일수(124)·표 행수(115) 간 기존 drift 존재 — 이번 ingest 범위 밖, LINT 시 재정합 권고
+- 모순 없음. push 안 함 — 사용자 검토 후 직접
+
+## [2026-06-16] ingest | Gemini Deep Research 로그라이크 — PCG·난이도사다리·의도적 불균형 심화
+- 트리거: 브라우저 자동화(Claude in Chrome)로 Gemini Enterprise Deep Research 실행 → 로그라이크 보고서 공유링크(gemini.google.com/share/3b0ba2d01796) 확인 후 사용자가 ⓐ본문 심화 + ⓑ비교 페이지 신설 + ⓒ우선순위1 출처 2건 ingest 범위 지시
+- Source: raw/articles/2026-06-16-gemini-deepresearch-roguelike.md (Gemini Deep Research 산출물, 8개 주제 + 표 A/B 포함. 2차 합성물이라 1차 GDC Vault 재검증 권장)
+- 생성: sources/gdc22-returnal-procedural-world.md · sources/gdc19-slay-the-spire-metrics.md (둘 다 confidence medium, 1차 미검증 출처주의 블록 명시) · comparisons/pcg-pure-vs-hybrid.md
+- 심화: concepts/roguelike.md — "절차적 생성: 완전무작위 vs 하이브리드"(Spelunky 해결경로·Dead Cells Concept Graph+spawn budget·Hades 수공예 큐레이션·Returnal AAA 자유형) + "난이도 사다리와 의도적 불균형"(StS Ascension A1/10/15/20·Hades 형벌규약 *공식 Heat40·보상32 vs 커뮤니티 역산 64 구분*·Corruption 무한엔진 희소화·메트릭 밸런싱) 섹션 추가. sources+related 갱신
+- 양방향 link: roguelike ↔ pcg-pure-vs-hybrid·신규 source 2건
+- 갱신: sources/all(116→118)·comparisons/all(15→16)·index(소스118·비교16·비교 pill)·about(INGEST 67→68·소스118·비교16·총283→286·다이어그램)
+- 보류: 한국·아시아 인디(Skul 등)는 보고서 자체가 confidence Low-Medium·GDC급 피어리뷰 부재로 ingest 후순위 보류 권고 → 이번 반영 제외
+- 모순 없음. push 안 함 — 사용자 검토 후 직접
+
+## [2026-06-16] weekly-lint 후속 — roguelike·sound-design 두 concept 페이지 신규 (위키 내부 재구성)
+- 트리거: 2026-06-16 예약 lint 보고 후 사용자가 추천 조사주제 중 로그라이크·사운드 디자인 2건 선택, *"위키 내부 재구성"* 방식 지시 (외부 web search 없이 기존 페이지 재구성 — 이 세션엔 WebSearch 미제공)
+- **concepts/roguelike.md 신규**: 절차적 생성·런 기반·퍼머데스·빌드 시너지·메타 진행성 정의. 로그라이크 vs 로그라이트 구분, 하데스 내러티브 결합 모델, 발라트로 "한 판 더" 루프. Carless taxonomy 근거 Action Roguelike 104개($1M+, 70+ since 2020) healthy 분포 = 인디 진입 친화. [[soulslike]]와 대비 프레임. sources: kasavin-hades-ea·gdc25-balatro-marketing·carless-genres-ruled-steam-2025-06
+- **concepts/sound-design.md 신규**: 세 접근(시스템 기반 사운드 / 음악 우선 역설계 / 시네마틱 오디오). 젤다 TotK 거리감쇠 물리화·리버브 자동계산·방향성, Hi-Fi RUSH 비트 우선 역설계, 인소믹·TLOU 다운스트림 배포. sources: gdc24-zelda-tears-of-kingdom·gdc2024-hifi-rush-backwards
+- 정정: 데이브 더 다이버는 혼합장르(다이빙+경영)라 roguelike 앵커에서 제외 — 발라트로·하데스만 사용
+- 양방향 wikilink: balatro(본문+related)·soulslike(related)·hifi-rush(본문+related)·emergent-systems-design(관계 bullet+related)에 신규 페이지 link
+- 갱신: concepts/all.md(2행·updated)·index.md(개념 54→56·게임디자인 pill 2개·Last updated)·overview.md(핵심 테마 2개)·about.md(개념 54→56·총 281→283·다이어그램 54→56)
+- 모순 없음. push 안 함 — 사용자 검토 후 직접
+
 ## [2026-06-08] QUERY 후속 — platform-fees 비교 페이지에 플랫폼 약관 분석 섹션 추가
 - 트리거: 웹샵/D2C가 Steam·콘솔에서도 가능한지 질문 → 플랫폼 약관 1차 확인 후 비교 페이지 보강 요청
 - comparisons/platform-fees-vs-direct-sales.md 두 섹션 신규:

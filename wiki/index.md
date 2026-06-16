@@ -1,15 +1,15 @@
 # Game Dev Wiki
 
-Last updated 2026-06-08
+Last updated 2026-06-16
 
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">116</span></a></div>
+  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">124</span></a></div>
   <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">43</span></a></div>
   <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">33</span></a></div>
-  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">54</span></a></div>
-  <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">15</span></a></div>
+  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">58</span></a></div>
+  <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">17</span></a></div>
   <div class="stat-card"><a href="presentations/all.md" class="internal"><span class="stat-label">프레젠테이션</span><span class="stat-num">2</span></a></div>
 </div>
 
@@ -50,6 +50,7 @@ Last updated 2026-06-08
 - [[unreal-engine-5|Unreal Engine 5 — Nanite·Lumen·MetaHuman·Blueprint 95% (33원정대)]]
 - [[innersource|이너소스 — 오픈소스 방식의 사내 기술 공유 모델]]
 - [[ai-gamedev|게임 개발에서의 생성형 AI — 정서 데이터·도입 원칙·역할 변화]]
+- [[ai-asset-pipeline|AI 게임 에셋 산업화 파이프라인 — 단점 생성 한계·포맷 통일·경험 침전·노드 캔버스 (텐센트 Light AI)]]
 - [[game-pricing-strategy|게임 가격 전략 — 가격대 지형, 지역 차등화, 세일 타이밍, 비즈니스 모델]]
 - [[catalog-economics|카탈로그 이코노믹스 — 시리즈 IP의 장기 매출 모델, 캡콤 카탈로그 84%]]
 - [[steam-revenue-forecasting|Steam 매출 예측 모델 — 8 driver sensitivity, sub-genre conversion 매트릭스, ZR Forecaster]]
@@ -88,6 +89,9 @@ Last updated 2026-06-08
 - [[design-sense|디자인 감각 개발 — 더 갭, 4가지 요소, 취향과 기술의 차이]]
 - [[game-trailer-design|게임 트레일러 설계 — 유형별 전략, 캔버스별 접근, 킬러 샷]]
 - [[soulslike|소울라이크 — 공정한 가혹함·죽음 루프·방법론적 전투의 장르 문법]]
+- [[roguelike|로그라이크 — 절차적 생성·런 기반·메타 진행성, 발라트로·하데스의 healthy 시장 분포]]
+- [[sound-design|사운드·음악 디자인 — 적응형 음악·미들웨어·공간/절차적 오디오·믹싱·접근성 (젤다·Hades·Celeste·Returnal)]]
+- [[gameplay-feedback-audio|게임플레이 피드백 오디오 — 소리를 1차 전투 입력 채널로, 주파수 위계·소닉 검증 (오버워치·세키로)]]
 - [[live-service-design|라이브 서비스 설계 — 비약탈적 모델·게임 마스터·F2P 탈출 교훈]]
 
 </div>
@@ -113,6 +117,8 @@ Last updated 2026-06-08
 - [[proprietary-engine-vs-ue5|자체 엔진 vs UE5 의사결정 매트릭스 — 규모·타이틀 다양성·장르 정체성 3축 ROI 분기]]
 - [[catalog-economics-3-publishers|카탈로그 이코노믹스 3사 — 캡콤·닌텐도·Take-Two 재발매·가격유지·서비스 3모델 비교]]
 - [[platform-fees-vs-direct-sales|플랫폼 수수료 vs 직접 판매 — Steam·모바일 30% vs D2C 웹샵 채널 분담]]
+- [[pcg-pure-vs-hybrid|완전 절차생성 vs 하이브리드 — 무작위↔수공예 스펙트럼·공정성 보장 장치 (Spelunky·Dead Cells·Hades·Returnal)]]
+- [[sekiro-vs-melee-combat-audio|세키로 vs 검술 액션 전투 효과음 — 소리로 전투를 읽는 설계 (세키로·엘든링·고스트 오브 쓰시마·MGR·인왕)]]
 
 </div>
 

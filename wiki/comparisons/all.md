@@ -2,7 +2,7 @@
 title: "전체 비교 분석 목록"
 type: comparison
 created: 2026-04-22
-updated: 2026-06-08
+updated: 2026-06-16
 ---
 
 ← [홈으로](../index.md)
@@ -24,3 +24,5 @@ updated: 2026-06-08
 | [[proprietary-engine-vs-ue5]] | **자체 엔진 vs UE5 의사결정 매트릭스** — 규모·타이틀 다양성·장르 정체성 3축 ROI 분기 |
 | [[catalog-economics-3-publishers]] | **카탈로그 이코노믹스 3사** — 캡콤·닌텐도·Take-Two 재발매·가격유지·서비스 3모델 비교 |
 | [[platform-fees-vs-direct-sales]] | **플랫폼 수수료 vs 직접 판매(D2C)** — Steam·모바일 30% vs 웹샵 채널 분담 |
+| [[pcg-pure-vs-hybrid]] | **완전 절차생성 vs 하이브리드 타일 재조합** — 무작위↔수공예 스펙트럼·공정성 보장 장치 (Spelunky·Dead Cells·Hades·Returnal) |
+| [[sekiro-vs-melee-combat-audio]] | **세키로 vs 검술 액션 전투 효과음** — 소리로 전투를 읽는 설계 (세키로·엘든링·고스트 오브 쓰시마·MGR·인왕) |

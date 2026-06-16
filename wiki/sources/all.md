@@ -2,10 +2,18 @@
 title: "소스 전체 목록"
 ---
 
-총 116개 | 최신순 정렬
+총 124개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [tencent-light-ai-pipeline-2026](tencent-light-ai-pipeline-2026.md) | 텐센트 광자 Light AI 첫 공개 — AI 구동 게임 에셋 산업화 파이프라인 재구축 (GameLook) | 2026-06 |
+| [gdc16-overwatch-play-by-sound](gdc16-overwatch-play-by-sound.md) | [GDC16] Overwatch — The Elusive Goal: Play by Sound (Lawlor·Neumann / Blizzard) | 2016-03 |
+| [project-triton-acoustics](project-triton-acoustics.md) | Project Triton/Acoustics — Pre-Computed Wave Acoustics (Raghuvanshi / MS Research) | 2017-03 |
+| [gdc23-tunic-audio](gdc23-tunic-audio.md) | [GDC23] The 'TUNIC' Audio Talk (Kevin Regamey / Power Up Audio) | 2023-03 |
+| [ogawa-katana-sekiro](ogawa-katana-sekiro.md) | OGAWA SOUND 'KATANA'·'MOTION SFX' 세키로 적용 (공식 성과) | 2022-02 |
+| [sword-sfx-satisfaction-2020](sword-sfx-satisfaction-2020.md) | The Satisfaction of Sword's Sound Effect — MGR & Sekiro (Thiparpakul 외 / 학술) | 2020-03 |
+| [gdc22-returnal-procedural-world](gdc22-returnal-procedural-world.md) | [GDC22] Never The Same Twice: Returnal 절차적 월드 처리 (Ethan Watson / Housemarque) | 2022-03 |
+| [gdc19-slay-the-spire-metrics](gdc19-slay-the-spire-metrics.md) | [GDC19] Slay the Spire: Metrics Driven Design and Balance (Giovannetti / Mega Crit) | 2019-03 |
 | [xsolla-webshop-ecosystem](xsolla-webshop-ecosystem.md) | 엑솔라 커넥트 서울 2026 — 웹샵·D2C 생태계 (인벤) | 2026-06 |
 | [pearl-abyss-blackspace-engine-gdc2025](pearl-abyss-blackspace-engine-gdc2025.md) | 펄어비스 블랙스페이스 엔진 GDC 2025 공개 (인벤) | 2025-03 |
 | [carless-wishlist-conversions-2025-10](carless-wishlist-conversions-2025-10.md) | GameDiscoverCo — Steam Wishlist Conversions 2024-2025 (Carless) | 2025-10 |

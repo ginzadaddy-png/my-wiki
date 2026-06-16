@@ -1,8 +1,8 @@
 ---
 title: "세키로: 섀도우 다이 트와이스 (Sekiro)"
 type: entity
-sources: []
-related: ["[[fromsoftware|프롬소프트웨어]]", "[[combat-design|전투 디자인]]", "[[game-balance|게임 밸런싱]]", "[[dark-souls|다크소울]]", "[[elden-ring|엘든 링]]"]
+sources: ["[[ogawa-katana-sekiro]]", "[[sword-sfx-satisfaction-2020]]"]
+related: ["[[fromsoftware|프롬소프트웨어]]", "[[combat-design|전투 디자인]]", "[[sound-design|사운드·음악 디자인]]", "[[gameplay-feedback-audio|게임플레이 피드백 오디오]]", "[[sekiro-vs-melee-combat-audio|전투 효과음 비교]]", "[[game-balance|게임 밸런싱]]", "[[dark-souls|다크소울]]", "[[elden-ring|엘든 링]]"]
 created: 2026-04-20
 updated: 2026-06-01
 confidence: high
@@ -25,3 +25,13 @@ relations:
 - **적 학습 패턴**: 보스가 페이즈별로 새 기술 추가 → 숙달의 쾌감 극대화
 
 > 소울즈라이크의 한계였던 HP 스폰지 문제를 자세 시스템으로 해결한 전투 설계의 참고 사례.
+
+## 전투 효과음 — 소리로 읽는 공방
+
+세키로 전투 설계는 *청각으로도* 작동한다 — 소드 액션 중 효과음 완성도의 정점으로 평가된다.
+
+- **주파수로 분화된 공방 상태**: 완벽 패링(맑은 고주파 "CLANG")과 일반 가드(둔탁한 저주파 "ding")가 주파수·잔향에서 극명히 갈려, 체간 바를 보지 않고 *소리만으로 주도권 전환을 인지*한다. 위험(危) 경보음·간파(미키리)·인살 파열음까지 합쳐 전투가 "칼날 사이의 리듬 게임"이 된다. → [[gameplay-feedback-audio|게임플레이 피드백 오디오]]
+- **검격 4단계 레이어링**: 예비음(공기 마찰)→물리 타격음→관통·쓸림음→이탈 공진·잔향. 긴 배음 꼬리가 조작 쾌감·공간 정위감을 만든다. ([[sword-sfx-satisfaction-2020]])
+- **효과음 제작**: 인하우스 폴리에 더해 일본 OGAWA SOUND의 조립식 라이브러리 'KATANA'(칼-칼 충돌)·'MOTION SFX'(갈고리 액션)를 프레임 단위로 재조립. ([[ogawa-katana-sekiro]]) *공중 부양 폴리 기법은 1차 출처상 미확인 — 외부 사운드 엔지니어 재현 가이드에서 유래.*
+- **다이내믹 오디오·음악**: 탐색→경계→전투 상태 전이, 파계승 보스는 체력 단계에 따라 템포 가속. 작곡은 키타무라 유카 리드(~60%) + 아사쿠라 노리유키(천주 작곡가, 올빼미·원령 등 8트랙). 질서정연한 클래식(아시나가)과 불협 록-국악(올빼미)의 대비가 전술 인지를 자극.
+- 타 검술 액션과의 차이는 [[sekiro-vs-melee-combat-audio|전투 효과음 비교]] 참조.

@@ -2,7 +2,7 @@
 title: "창발적 시스템 설계 (Emergent Systems Design)"
 type: concept
 sources: ["[[gdc24-zelda-tears-of-kingdom]]"]
-related: ["[[nintendo|닌텐도]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[designer-empowerment|디자이너 도구화]]", "[[vision-statement|비전 선언문]]"]
+related: ["[[nintendo|닌텐도]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[designer-empowerment|디자이너 도구화]]", "[[vision-statement|비전 선언문]]", "[[sound-design|사운드·음악 디자인]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: high
@@ -51,5 +51,6 @@ confidence: high
 
 - [[designer-empowerment|디자이너 도구화]]와 연결: 규칙(시스템)을 만들면 비개발자도 그 위에서 콘텐츠를 창출할 수 있다
 - [[vision-statement|비전 선언문]]과 연결: TotK의 "자유로운 세계"라는 비전이 "전용 구현 없는 물리 시스템"이라는 구체적 설계 원칙으로 이어졌다
+- [[sound-design|사운드·음악 디자인]]과 연결: 위 표의 사운드 행처럼, TotK는 *소리를 일일이 만드는 대신 소리 나는 규칙*을 설계해 창발 철학을 오디오에도 적용했다
 
 > 💡 **핵심 인사이트:** 무한한 가능성은 무한한 콘텐츠에서 오지 않는다. 플레이어가 배우고 확장할 수 있는 **일관된 규칙의 집합**에서 온다. 설계자의 역할은 콘텐츠 제작자에서 법칙 설계자로 바뀐다.
