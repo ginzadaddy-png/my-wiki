@@ -132,6 +132,6 @@ Last updated 2026-06-17
 
 - [[presentations/steam-launch-strategy|스팀 신규 게임 출시의 성공 방정식 — Pre·Launch·Post funnel · 8 driver 정량 모델]]
 - [[presentations/studio-risk-defense|스튜디오 리스크 방어 — 정리해고·자원 잠식·인재 유실을 차단하는 5축 메커니즘]]
-- [[presentations/ai-asset-pipeline-2026|AI 게임 에셋 산업화 파이프라인 — 분석 보고서: 표준·생성·조직 세 계층 + Light AI·Embark 파이프라인 심층 프로파일]]
+- [[presentations/ai-asset-pipeline-2026-report|AI 게임 에셋 산업화 파이프라인 — 분석 보고서: 표준·생성·조직 세 계층 + Light AI·Embark 파이프라인 심층 프로파일]]
 
 </div>

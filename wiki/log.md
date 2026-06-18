@@ -2,6 +2,13 @@
 title: "활동 로그"
 ---
 
+## [2026-06-18] 정리 | 보고서 캐러셀 3종·시각 정돈·슬러그 리네이밍
+- 발표 슬라이드 캐러셀 3종 추가: Embark 캐릭터 파이프라인(5장)·Asset Processor(7장)·Light AI(13장, 원본 중국어→이미지 생성 AI 영어 변환)
+- 시각 정돈: 파트 밴드(표준·생성·조직 색코딩)·SVG 중앙정렬/텍스트 겹침 수정(그림4 라벨 가독·5 PDG·7 skill마켓·9 진화)·짧은 도식 폭 정규화·캐러셀 CSS/JS 중복 제거·비표시 이미지 lazy
+- 폰트: 한글 라벨 mono→Pretendard 교체 (monospace 폰트 한글 글리프 부재로 가독성 저하)
+- 리네이밍: wrapper ai-asset-pipeline-2026.md → ai-asset-pipeline-2026-report.md, 보고서 html → ai-asset-pipeline-2026-report-deck.html (-deck 접미사로 slug 충돌 회피). index pill·presentations/all·wrapper iframe/링크 갱신
+- 삭제: 루트 stray ai-asset-pipeline-report-2026.html (구 복사본)
+
 ## [2026-06-16] ingest | Gemini Deep Research 2건 — 사운드 디자인 + 세키로 전투 효과음
 - 트리거: 사용자가 Gemini Enterprise Deep Research를 직접 실행해 공유링크 2건 전달(사운드 b722d20eeed3 / 세키로 c963d0d4f312). 브라우저(Claude in Chrome get_page_text)로 본문 추출 → 검증 후 "전체로" ingest 지시
 - Source: raw/articles/2026-06-16-gemini-deepresearch-sound-design.md · raw/articles/2026-06-16-gemini-deepresearch-sekiro-combat-sound.md (둘 다 1차 출처 인용 포함 2차 합성물)
