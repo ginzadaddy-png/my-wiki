@@ -13,7 +13,7 @@ confidence: high
 
 **원문**: [Game Character Pipelines at Embark — GDC 2026 (YouTube)](https://www.youtube.com/watch?v=UFeC-VBbO90) — Erik Östsjö & Björn Arvidsson (Embark Studios), GDC 2026, SideFX 후원
 
-[[embark-studios|엠바크]]의 캐릭터 파이프라인 발표. The Finals(2023)·[[arc-raiders|Arc Raiders]](2024) 두 게임이 *같은 파이프라인을 공유*하는 메커니즘과 그 설계 원칙. [[small-team-development|적은 인원으로 많이 만들기]]의 기술적 실체 — 도구화가 [[dev-talent-pipeline|인재 파이프라인]]·[[multi-project-development|멀티 프로젝트]]를 어떻게 가능하게 하는지의 케이스 스터디.
+[[embark-studios|엠바크]]의 캐릭터 파이프라인 발표. The Finals(2023)·[[arc-raiders|Arc Raiders]](2025-10-30 출시) 두 게임이 *같은 파이프라인을 공유*하는 메커니즘과 그 설계 원칙. [[small-team-development|적은 인원으로 많이 만들기]]의 기술적 실체 — 도구화가 [[dev-talent-pipeline|인재 파이프라인]]·[[multi-project-development|멀티 프로젝트]]를 어떻게 가능하게 하는지의 케이스 스터디.
 
 ## 5가지 미션 선언 (Mission Statements)
 

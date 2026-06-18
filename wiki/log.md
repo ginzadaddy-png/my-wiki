@@ -15,6 +15,32 @@ title: "활동 로그"
 - 참고: 작업 중 다른 기기/세션에서 ai-asset-pipeline(텐센트 Light AI) ingest가 동시 반영됨 — 카운트 재측정으로 정합
 - 모순 없음. push 안 함 — 사용자 검토 후 직접
 
+## [2026-06-17] report | AI 에셋 파이프라인 분석 보고서 발행 + 구 슬라이드 폐기 + 위키 정정
+- 트리거: 사용자가 ⓐ위키 부정확 기술 정정 ⓑLight AI·Embark 파이프라인 이미지 추가 ⓒ구 슬라이드/wrapper 폐기 후 보고서를 presentations에 발행 지시
+- 위키 정정: sources/gdc2026-embark-character-pipeline "Arc Raiders(2024)" → (2025-10-30 출시) · concepts/ai-asset-pipeline "자동화는 배경까지만" 혼용 → "생성형 AI 생성(배경 한계) vs 절차적 파이프라인 자동화(캐릭터 도달)" 구분으로 정정. (Origins node·kit-bash는 강연 1차 확인되어 정확 → 유지)
+- 이미지: Light AI 발표 화면(Chinaz/AIbase) + Embark 두 강연 썸네일(Freedom Through Structure UFeC·Asset Processor HZd4) 실제 URL 검증 후 보고서 삽입
+- 발행: 보고서를 presentations/ai-asset-pipeline-2026-report.html로 배치, wrapper ai-asset-pipeline-2026.md를 보고서용으로 재작성(iframe), presentations/all 카탈로그·index pill 갱신
+- 폐기: 구 슬라이드 ai-asset-pipeline-2026-deck.html (사용자 확인 후 삭제)
+- 모순 없음. push 안 함 — 사용자가 별도 스레드에서 진행
+
+
+- 트리거: 사용자가 ai-asset-pipeline 검증 종합을 HTML 슬라이드로 요청(상세 12~16장 + 직접 그린 다이어그램)
+- 생성: presentations/ai-asset-pipeline-2026-deck.html (15장, Pretendard 전용, 인라인 SVG 다이어그램 6종 — 단점생성 비교·세 계층·USD 타임라인·히어로 천장·Houdini 백본·METR/GDC 차트) + wrapper presentations/ai-asset-pipeline-2026.md
+- 명명: 슬러그 ai-asset-pipeline-2026 (concept ai-asset-pipeline와 basename 충돌 회피), 슬라이드 -deck.html 접미사
+- 이미지: 외부 사진 미사용(저작권), SVG/CSS 직접 작도로 대체
+- 갱신: presentations/all(행 추가)·index(프레젠테이션 2→3·pill 추가)
+- 검수: JetBrains Mono 미사용 확인, mount 무결성 확인
+- 모순 없음. push 안 함 — 사용자 검토 후 직접 (슬라이드 .html은 quartz Assets emitter가 처리, deploy.yml copy step 기존 메커니즘)
+
+## [2026-06-17] ingest | AI 에셋 파이프라인 기술 지형 — Gemini Deep Research 1차 검증 후 ingest
+- 트리거: 사용자가 ai-asset-pipeline 주제로 Gemini Deep Research 실행 → 공유링크(gemini.google.com/share/248fc43e1e6f) 결과를 Claude in Chrome get_page_text로 확보. 2차 합성물이라 "검증(a) 먼저 → 통과분만 ingest" 방식 합의
+- 검증: 핵심 주장을 3개 병렬 서브에이전트로 1차 출처 팩트체크. 결과 — 기술·모델 주장은 의외로 대부분 CONFIRMED(arXiv·AOUSD·SideFX·METR·GDC 공식), 허구는 사례 귀속에 집중
+- 생성: sources/ai-asset-pipeline-tech-landscape-2026.md (검증 통과분 + § 검증 메모에 허구·오류 분리 기록, confidence high)
+- 심화: concepts/ai-asset-pipeline.md — "2026 기술 지형(표준층 성숙/생성층 천장/조직층 저항)" 섹션 추가. sources에 신규 검증 종합 + related에 unreal-engine-5 추가. updated 2026-06-17
+- 정정 기록(딥리서치 환각): ⓐ엔티티 혼동 — HunyuanWorld(HY-World)는 Tencent Hunyuan 팀, Light AI(Lightspeed)와 별개 → tencent-light-ai 소스에 구분 노트 추가 ⓑEmbark "95% 공유" 수치·Ubisoft 'Flow'·EA Frostbite USD 로드맵·NetEase+Eidos GDC2022 = 허구/오류로 인용 제외 ⓒLIVRPS→LIVERPS, APEX=All-Purpose EXecution, QuadGPT tDPO=Truncated DPO 등 약어 정정
+- 갱신: sources/all(124→125, 행 추가)·index(소스125·Last updated 2026-06-17)
+- 모순 없음. push 안 함 — 사용자 검토 후 직접
+
 ## [2026-06-16] ingest | 텐센트 광자 Light AI — AI 게임 에셋 산업화 파이프라인 (GameLook)
 - 트리거: 사용자가 GameLook 기사 URL(gamelook.com.cn/2026/06/595139) 직접 전달 → ingest 지시. WebFetch 본문 미반환(JS 렌더링)으로 Claude in Chrome get_page_text로 본문 추출
 - Source: http://www.gamelook.com.cn/2026/06/595139/ (2026-06-10, 텐센트 광자 LAP 강연 실록, 薛小黎·凡开俊). 벤더 자기 발표 + 강연 실록이라 confidence medium

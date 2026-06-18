@@ -1,16 +1,16 @@
 # Game Dev Wiki
 
-Last updated 2026-06-16
+Last updated 2026-06-17
 
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">124</span></a></div>
+  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">125</span></a></div>
   <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">43</span></a></div>
   <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">33</span></a></div>
   <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">58</span></a></div>
   <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">17</span></a></div>
-  <div class="stat-card"><a href="presentations/all.md" class="internal"><span class="stat-label">프레젠테이션</span><span class="stat-num">2</span></a></div>
+  <div class="stat-card"><a href="presentations/all.md" class="internal"><span class="stat-label">프레젠테이션</span><span class="stat-num">3</span></a></div>
 </div>
 
 ---
@@ -132,5 +132,6 @@ Last updated 2026-06-16
 
 - [[presentations/steam-launch-strategy|스팀 신규 게임 출시의 성공 방정식 — Pre·Launch·Post funnel · 8 driver 정량 모델]]
 - [[presentations/studio-risk-defense|스튜디오 리스크 방어 — 정리해고·자원 잠식·인재 유실을 차단하는 5축 메커니즘]]
+- [[presentations/ai-asset-pipeline-2026|AI 게임 에셋 산업화 파이프라인 — 분석 보고서: 표준·생성·조직 세 계층 + Light AI·Embark 파이프라인 심층 프로파일]]
 
 </div>
