@@ -2,6 +2,9 @@ _pat.txt
 .claude/
 .claude-design/
 
+# 단독 배포본 (self-contained deck — embed_standalone.py 생성물, 폰트+이미지 임베드)
+dist/
+
 # chatbot 관련
 chatbot/.venv/
 chatbot/.env

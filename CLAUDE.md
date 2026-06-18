@@ -42,6 +42,7 @@
     - **wrapper md link**: wikilink 사용 (`[[presentations/[슬러그]|표시명]]`) — Quartz의 popover·backlinks 자동 활성. 단 *index pill·본문*에서만 가능. 테이블 안에서는 `|` 충돌로 raw HTML 사용 (`<a href="https://ginzadaddy-png.github.io/quartz/presentations/[슬러그]">[슬러그]</a>`)
     - **wrapper md raw HTML link**: trailing slash 없이 (`https://ginzadaddy-png.github.io/quartz/presentations/[슬러그]` ✓ / `.../[슬러그]/` ✗) — Quartz가 .md를 단일 `slug.html`로 빌드해서 trailing slash URL은 폴더 매칭 시도 → 404
   - **슬라이드 폰트: Pretendard 전용, JetBrains Mono 금지** — make-slide skill 호출 시 prompt 명시, 기존 HTML 갱신 시 grep 검수 (메모리 `feedback_slide_fonts.md` 참조)
+  - **단독 배포본(standalone)은 site용 deck과 분리**: site용 `-deck.html`은 가볍게 유지(Pretendard CDN·상대 이미지 — git·Quartz 빌드 가볍게). 폰트(woff2)·이미지를 base64 임베드한 self-contained 사본은 *gitignore된 `dist/`*에 `embed_standalone.py`로 따로 생성(메일·USB 등 오프라인 배포용). dist/는 커밋·Quartz 대상 아님. **deck 신규/수정 후 단독본 재생성은 commit/push 단계에서 사용자에게 확인받고 진행**(챗봇 재배포와 동일 패턴 — 묻고 OK 시 `python embed_standalone.py`). 폰트 woff2는 npm 경로(`cdn.jsdelivr.net/npm/pretendard@1.3.9/...`) 사용, gh 경로는 404. (메모리 `feedback_html_standalone_default.md`)
   - **카탈로그 페이지(`all.md`)는 사용자에게 노출되는 카탈로그 역할만** — 운영 규칙·내부 지침은 *반드시 CLAUDE.md 또는 메모리에만 기록*. 사용자가 사이트에서 보는 카탈로그에는 슬라이드 목록 + 짧은 인트로만
   - **wrapper md는 결과물 노출에 집중 — "갱신 메모"·"변경 이력" 섹션 작성 금지**. 작업 내역·버전 기록은 *이미 `wiki/log.md`에서 추적*되므로 wrapper md에 중복 기록 불필요. wrapper md는 *제목·요약·iframe·구조·sources·관련 위키 페이지*만으로 구성해 사용자가 *결과물 자체*에 집중하도록 유지. 갱신 이력 추적이 필요하면 log.md 또는 git history 사용.
 
