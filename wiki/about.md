@@ -33,7 +33,9 @@ confidence: high
 
 로컬은 Windows 환경에서 `my-wiki` 폴더가 메인 vault입니다. Obsidian으로 wikilink·graph view를 시각적으로 확인하고, Quartz는 별도 repo에서 빌드해 GitHub Pages로 배포됩니다. my-wiki는 비공개 GitHub repo에 sync되어 cross-device 작업이 가능합니다.
 
-LLM 도구는 Claude를 메인으로 사용하며, 실사용 결과 **Claude Code** (데스크톱 앱 / CLI)가 파일·터미널 작업에 가장 적합한 것으로 확인되어 ingest·편집·git·셸 작업의 메인 환경으로 정착했습니다. Read/Write/Edit/Bash/Grep 풀 toolset으로 위키 파일과 셸 명령을 직접 다루며, Cowork 모드(데스크톱 앱 자유 채팅)는 병용합니다. 단 destructive·되돌리기 어려운 작업(`rm -rf`, `git push --force`, DB drop 등)은 사용자 확인 후 실행합니다.
+LLM 도구는 Claude를 메인으로 사용하며, 2026년 6월부터 **Claude Code** (데스크톱 앱 / CLI) 기반으로 작업 환경을 일원화했습니다. ingest·편집·git·셸 작업은 물론 웹 리서치·출처 검증까지 모두 Claude Code에서 수행합니다. Read/Write/Edit/Bash/Grep 풀 toolset으로 위키 파일과 셸 명령을 직접 다루고, 출처 검증은 서버사이드 WebFetch·deep-research로 처리합니다. 단 destructive·되돌리기 어려운 작업(`rm -rf`, `git push --force`, DB drop 등)은 사용자 확인 후 실행합니다.
+
+이전에 병용하던 Cowork(데스크톱 앱 자유 채팅)는 라이브 웹 접근이 막혀 있어(검색 도구 부재 + fetch 잠금) 리서치를 끝까지 마치지 못하고 Claude Code로 넘기는 왕복이 반복됐습니다. Claude Code의 WebFetch는 서버 사이드 실행이라 안정적이어서, **웹·파일에 닿는 작업은 Code로, 순수 발상만 Cowork 보조**로 역할을 정리했습니다.
 
 원문 자료는 NotebookLM MCP, Web Clipper 등으로 수집해 `raw/` 폴더에 적재하며, *raw는 절대 수정하지 않는 read-only 원본 저장소*로 유지합니다.
 

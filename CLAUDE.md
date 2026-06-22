@@ -5,7 +5,8 @@
 
 ## 운영 환경
 - 사용자: Ginza, 게임 개발자, Windows 환경
-- 작업 도구: **Claude Code (데스크톱 앱 또는 CLI) 우선** — 파일·터미널 작업에 가장 적합. Read/Write/Edit/Bash/Grep/Glob 등 풀 toolset으로 위키 파일·셸 명령 직접 조작. Cowork 모드(Claude 데스크톱 앱 자유 채팅)도 병용 가능하나, 파일 작업은 Claude Code가 더 매끄러움이 실사용으로 확인됨. Bash/PowerShell도 GUI/앱 인터페이스로 제한하지 않고 자유롭게 활용. 단 destructive·hard-to-reverse 작업(rm -rf, git push --force, DB drop 등)은 사용자 확인 후 실행
+- 작업 도구: **Claude Code (데스크톱 앱 또는 CLI) 기반으로 일원화** (2026-06-22 결정) — 파일·터미널·웹 작업 전부 Claude Code에서 수행. Read/Write/Edit/Bash/Grep/Glob 등 풀 toolset으로 위키 파일·셸 명령 직접 조작하고, 웹 리서치·출처 검증은 서버사이드 `WebSearch`/`WebFetch`·`deep-research` 스킬로 처리. Bash/PowerShell도 GUI/앱 인터페이스로 제한하지 않고 자유롭게 활용. 단 destructive·hard-to-reverse 작업(rm -rf, git push --force, DB drop 등)은 사용자 확인 후 실행
+  - **Cowork(데스크톱 앱 자유 채팅)는 웹·파일 작업에서 제외**: Cowork은 라이브 웹 접근이 막혀 있어(WebSearch 도구 없음 + `web_fetch` provenance-lock) 리서치·검증을 끝까지 못 하고 Claude Code로 핸드오프하는 왕복 비용이 발생함이 실사용으로 확인됨(player-retention 리서치 사례). 반면 Claude Code의 WebFetch는 Anthropic 서버 사이드 실행이라 안정적. → 웹·파일에 닿는 모든 작업은 Code, 순수 발상·브레인스토밍만 Cowork 보조 사용
 - vault 위치: `C:\Vault\Ginza\my-wiki` (이 폴더). GitHub 비공개 repo에 sync되어 cross-device 작업
 - Quartz 사이트: `C:\Users\bmjlee\quartz`에서 별도 빌드 → GitHub Pages 배포
   - Quartz 컴포넌트/스타일/스크립트 변경은 별도 repo, 별도 push 필요 (my-wiki push 워크플로우와 분리)

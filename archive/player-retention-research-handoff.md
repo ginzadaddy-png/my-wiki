@@ -1,5 +1,7 @@
 # 플레이어 리텐션·인게이지먼트 루프 — Claude Code CLI 재실행 핸드오프
 
+> ✅ **완료 (2026-06-22, archived)** — 이 핸드오프는 Claude Code에서 `deep-research`(28소스·107주장·25 적대검증)로 ③ 출처를 검증해 **`wiki/concepts/player-retention`·`engagement-loop` 두 페이지로 반영 완료**됨. 정정 6건(다크패턴 3분류 = 사회적 자본형, 리텐션 벤치마크 분위 표기, DAU/MAU 30%+, Genshin ~$3.7B, Hades 2020-09-20, Fortnite 배틀패스 Season 2 2017-12·CoC ~$6B)과 인과 단정 기각 결과는 [[log]] 및 두 위키 페이지에 반영됨. 아래 스캐폴드(②~⑤)는 **검증 전 학습지식 초안**이므로 더 이상 truth source 아님 — 현재 진실은 위키 페이지. 기록 보존용으로 archive.
+
 > **목적**: Cowork 세션에서 deep research를 시도했으나 이 환경은 라이브 웹 접근이 차단(WebSearch 도구 없음 + `web_fetch` provenance-lock)되어 출처 검증을 완료하지 못했습니다. 아래는 웹이 되는 **Claude Code CLI(또는 Chrome 연결) 세션에서 재실행**하기 위한 핸드오프입니다. 아래 ②~⑤는 학습지식(컷오프 2026-01) 기반 **미검증 스캐폴드**이므로, Claude Code에서 ③의 URL을 직접 fetch해 수치·인용을 확정한 뒤에만 위키에 반영하세요.
 >
 > 위키 신규 concept 갭: **player-retention / engagement-loop** — `live-service-design`와 짝을 이루는 핵심 빈 고리. 마케팅 *획득(acquisition)*이 아니라 *획득 이후 유지·재방문·습관 형성*을 다룸.
