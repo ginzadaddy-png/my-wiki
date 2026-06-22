@@ -191,7 +191,7 @@ entity 페이지에는 `relations:` 필드(developedBy·publishedBy·parentOf·g
 
 **카탈로그 이코노믹스 / Steam 출시 전략 두 deck의 확장** — 캡콤 9년 catalog 곡선, ZR Consulting 8-driver 모델, Carless wishlist conversion 등 이미 정리된 1차 데이터를 활용해 한국 인디·중소 스튜디오 적용 케이스를 추가할 여지가 있습니다.
 
-**LINT 절차 확장 — raw 폴더 미처리 큐 식별** — LINT는 **Claude Code 스케줄 루틴**으로 매주 자동 실행되고 있으며, 다음 단계는 *위키 내부 갭에서 출발하는 조사 주제 제안*에 더해 *raw 폴더에 이미 모아둔 자료 중 처리 안 된 큐*까지 한 알림에 포함시키는 절차 확장입니다. 두 흐름을 같은 주간 보고에 묶어 자료 누락·정체를 방지합니다.
+**LINT 절차 확장 — raw 폴더 미처리 큐 식별** *(2026-06 완료 — `LLM wiki lint` 루틴에 반영)* — LINT는 **`LLM wiki lint`라는 Claude Code 스케줄 루틴**으로 매주 자동 실행되며, *위키 내부 갭에서 출발하는 조사 주제 제안*에 더해 *raw 폴더에 이미 모아둔 자료 중 처리 안 된 큐* 식별까지 한 주간 보고에 묶여 실행됩니다. 두 흐름을 같은 보고에 묶어 자료 누락·정체를 방지합니다.
 
 ### 장기
 
