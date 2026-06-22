@@ -253,3 +253,9 @@ raw/ 파일에서 아래는 무시·건너뛸 것:
 **wikilink 바로 뒤에 괄호 `(...)` 붙이지 말 것** — 사이에 공백 한 칸 필수. `[[slug|표시명]](괄호)` 패턴은 Quartz가 표준 마크다운 링크 `[text](url)`로 오인 → 404
 - 잘못: `[[team-asobi|팀 아소비]](65명)` ✗
 - 올바름: `[[team-asobi|팀 아소비]] (65명)` ✓
+
+**wikilink alias(표시 라벨)에 슬래시 `/` 넣지 말 것** — Quartz prettyLinks가 내부 링크 텍스트에 `path.basename()`을 적용해서 *마지막 `/` 이전을 전부 잘라냄*. 라벨이 부제 잔여물로 노출됨. index.md pill·테이블·본문 인라인 wikilink 전부 해당 (frontmatter `related` alias 포함). `/` 대신 `·`(열거)·`:`(비율) 사용
+- 잘못: `[[player-retention|플레이어 리텐션 — D1/D7/D30·DAU/MAU stickiness]]` → 화면엔 `MAU stickiness`만 표시 ✗
+- 올바름: `[[player-retention|플레이어 리텐션 — D1·D7·D30·DAU·MAU stickiness]]` ✓
+- 비율: `90/10 도구화` → `90:10 도구화` ✓
+- `[[slug]]`(alias 없음) 형식이나 plain 테이블 텍스트(`**라벨** — …/…`)는 영향 없음 — 링크 *표시 텍스트*에 `/`가 있을 때만 발생
