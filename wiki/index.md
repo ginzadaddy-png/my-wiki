@@ -1,6 +1,6 @@
 # Game Dev Wiki
 
-Last updated 2026-06-17
+Last updated 2026-06-22
 
 ![[overview#^wiki-intro]]
 
@@ -8,7 +8,7 @@ Last updated 2026-06-17
   <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">125</span></a></div>
   <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">43</span></a></div>
   <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">33</span></a></div>
-  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">58</span></a></div>
+  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">60</span></a></div>
   <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">17</span></a></div>
   <div class="stat-card"><a href="presentations/all.md" class="internal"><span class="stat-label">프레젠테이션</span><span class="stat-num">3</span></a></div>
 </div>
@@ -93,6 +93,8 @@ Last updated 2026-06-17
 - [[sound-design|사운드·음악 디자인 — 적응형 음악·미들웨어·공간/절차적 오디오·믹싱·접근성 (젤다·Hades·Celeste·Returnal)]]
 - [[gameplay-feedback-audio|게임플레이 피드백 오디오 — 소리를 1차 전투 입력 채널로, 주파수 위계·소닉 검증 (오버워치·세키로)]]
 - [[live-service-design|라이브 서비스 설계 — 비약탈적 모델·게임 마스터·F2P 탈출 교훈]]
+- [[player-retention|플레이어 리텐션 — D1/D7/D30·classic vs rolling·DAU/MAU stickiness·벤치마크 함정]]
+- [[engagement-loop|인게이지먼트 루프 — core/mid/meta 네스팅·스킬 아톰·Hook 모델·윤리 vs 약탈 경계선]]
 
 </div>
 

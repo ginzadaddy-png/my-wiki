@@ -2,7 +2,7 @@
 title: "전체 개념 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-06-16
+updated: 2026-06-22
 ---
 
 ← [홈으로](../index.md)
@@ -79,3 +79,5 @@ updated: 2026-06-16
 | [[design-sense]] | **디자인 감각 개발** — 더 갭, 4가지 요소, 취향과 기술의 차이 |
 | [[game-trailer-design]] | **게임 트레일러 설계** — 유형별 전략, 캔버스별 접근, 킬러 샷 |
 | [[live-service-design]] | **라이브 서비스 설계** — 비약탈적 모델·게임 마스터·F2P 탈출 교훈 |
+| [[player-retention]] | **플레이어 리텐션** — D1/D7/D30·classic vs rolling·DAU/MAU stickiness·벤치마크 정의 함정 |
+| [[engagement-loop]] | **인게이지먼트 루프** — core/mid/meta 네스팅·스킬 아톰·Hook 모델·윤리 vs 약탈 경계선 |

@@ -2,6 +2,17 @@
 title: "활동 로그"
 ---
 
+## [2026-06-22] ingest | 플레이어 리텐션·인게이지먼트 루프 — Cowork 핸드오프 CLI 재검증 후 신규 2개념
+- Source: player-retention-research-handoff.md (Cowork deep research 스캐폴드, 웹 차단으로 미검증 상태 핸드오프)
+- 처리: deep-research 하니스로 ③ 출처 fetch + ④ 스캐폴드 적대 검증(28소스·107주장·25 적대검증 통과 24/기각 1) + 보충 직접 WebSearch
+- 생성:
+  - concepts/player-retention.md (지표·측정 — D1/D7/D30·classic vs rolling·DAU/MAU·벤치마크)
+  - concepts/engagement-loop.md (설계·이론 + 윤리·규제 압축 — 루프 네스팅·스킬 아톰·Hook·다크패턴·FTC·WHO·루트박스)
+- 업데이트: live-service-design.md·player-trust-design.md (related 양방향), index.md(개념 58→60·날짜·pill 2), concepts/all.md(행 2·날짜)
+- 주요 정정(스캐폴드 오류 검증): 다크패턴 3분류 3번째 "심리형"→"사회적 자본형"(Zagal 2013) / 리텐션 벤치마크 D1 30-35%는 중앙값 아닌 iOS 상위25%(GA Q1'24 중앙값 D1 22.91%·D7 4.2%·D28 0.85%) / DAU/MAU 우수 0.5+→30%+ / Genshin ~$50억→~$3.7B(모바일·Sensor Tower) / Hades 100만 2020.12→2020-09-20 / Fortnite 배틀패스 시즌2 2018→2017-12 / CoC ~$70억→~$6B / FTC 합의 총 $520M 명확화
+- 기각(적대 검증 0-3): "루프=리텐션 / 아크=소진" 강한 인과 단정 → 위키 단정 회피
+- 미확인(추정 표기): 표준 시즌 9-13주·Fortnite 등록 3.5억
+
 ## [2026-06-18] 정리 | 보고서 캐러셀 3종·시각 정돈·슬러그 리네이밍
 - 발표 슬라이드 캐러셀 3종 추가: Embark 캐릭터 파이프라인(5장)·Asset Processor(7장)·Light AI(13장, 원본 중국어→이미지 생성 AI 영어 변환)
 - 시각 정돈: 파트 밴드(표준·생성·조직 색코딩)·SVG 중앙정렬/텍스트 겹침 수정(그림4 라벨 가독·5 PDG·7 skill마켓·9 진화)·짧은 도식 폭 정규화·캐러셀 CSS/JS 중복 제거·비표시 이미지 lazy
