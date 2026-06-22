@@ -2,7 +2,7 @@
 title: "원신 (Genshin Impact)"
 type: entity
 sources: []
-related: ["[[hoyoverse|miHoYo / HoYoverse]]", "[[live-service-design|라이브 서비스 설계]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[game-market-trends|게임 시장 트렌드]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[open-world-design|오픈월드 설계]]"]
+related: ["[[hoyoverse|miHoYo·HoYoverse]]", "[[live-service-design|라이브 서비스 설계]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[game-market-trends|게임 시장 트렌드]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[open-world-design|오픈월드 설계]]"]
 created: 2026-05-29
 updated: 2026-05-29
 confidence: medium
@@ -11,7 +11,7 @@ relations:
   publishedBy: [hoyoverse]
 ---
 
-**원신 (Genshin Impact)**은 [[hoyoverse|miHoYo / HoYoverse]]가 2020-09-28 출시한 F2P 액션 RPG. 모바일·PC·PS4/5·Xbox(2024-08) cross-platform·cross-save·cross-progression 동시 지원. *2020년대 라이브 서비스 게임 산업의 단일 turning point*로 [[mobile-gamedev|모바일 게임 개발]]·[[game-market-trends|시장 트렌드]]에서 *원신 쇼크*라는 표현으로 인용된다.
+**원신 (Genshin Impact)**은 [[hoyoverse|miHoYo·HoYoverse]]가 2020-09-28 출시한 F2P 액션 RPG. 모바일·PC·PS4/5·Xbox(2024-08) cross-platform·cross-save·cross-progression 동시 지원. *2020년대 라이브 서비스 게임 산업의 단일 turning point*로 [[mobile-gamedev|모바일 게임 개발]]·[[game-market-trends|시장 트렌드]]에서 *원신 쇼크*라는 표현으로 인용된다.
 
 > 💡 **핵심 시그널:** *모바일 출신 가챠 게임이 콘솔·PC 시장의 비주얼 기준을 위협한 첫 사례*. AAA 콘솔 개발사가 *모바일 출신 회사의 비주얼 기준에 대응해야 하는 시대*를 연 게임. 한국·일본 모바일 RPG 시장의 dominance, 일본 PS5/4 매출 1위 등 *지역별 모바일 가챠가 콘솔 매출 카테고리를 잠식*하는 *카테고리 경계 파괴*의 표준 사례.
 
@@ -72,7 +72,7 @@ relations:
 
 ## 관련 위키 페이지
 
-- [[hoyoverse|miHoYo / HoYoverse]] — 개발사
+- [[hoyoverse|miHoYo·HoYoverse]] — 개발사
 - [[mobile-gamedev|모바일 게임 개발]] — 원신 쇼크의 역설 인용
 - [[live-service-design|라이브 서비스 설계]] — 비약탈적 가챠 모델
 - [[catalog-economics|카탈로그 이코노믹스]] — 라이브 서비스 변형 catalog

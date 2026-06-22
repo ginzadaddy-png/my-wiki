@@ -12,7 +12,7 @@ confidence: high
 
 ## 스튜디오별 전략 비교
 
-| | [[sandfall-interactive\|샌드폴]] | [[embark-studios\|엠바크]] | [[arrowhead-game-studios\|애로우헤드]] | [[avalanche-software\|Avalanche/WB]] | [[team-asobi\|팀 아소비]] |
+| | [[sandfall-interactive\|샌드폴]] | [[embark-studios\|엠바크]] | [[arrowhead-game-studios\|애로우헤드]] | [[avalanche-software\|Avalanche·WB]] | [[team-asobi\|팀 아소비]] |
 |--|--|--|--|--|--|
 | **인원** | ~40명 | ~250명 | ~100명 | ~250명→성장 | ~65명 |
 | **예산** | $1,000만 미만 | ~$7,500만 | 미공개 | 중형 AA→AAA | 소니 퍼스트 |

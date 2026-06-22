@@ -22,7 +22,7 @@ updated: 2026-06-22
 | [[producer-role]] | **프로듀서 역할** — Force Multiplier·정렬·함정 3종·마인드셋 전환 |
 | [[psychological-safety]] | **심리적 안전** — 처벌 두려움 없는 의견 표현, 고성과 팀 1순위 요인 |
 | [[multi-project-development]] | **멀티 프로젝트 동시 개발 전략과 위험** |
-| [[art-pipeline-design]] | **아트 파이프라인 설계** — Houdini·USD·kit-bash·late lock-down·90/10 도구화 (Embark·Asobo·Sandfall) |
+| [[art-pipeline-design]] | **아트 파이프라인 설계** — Houdini·USD·kit-bash·late lock-down·90:10 도구화 (Embark·Asobo·Sandfall) |
 | [[proprietary-engine-strategy]] | **독자 엔진 전략** — RE ENGINE vs 서드파티 무수정 |
 | [[unreal-engine-5]] | **Unreal Engine 5** — Nanite·Lumen·MetaHuman·Blueprint 95% (33원정대) |
 | [[innersource]] | **이너소스** — 오픈소스 방식의 사내 기술 공유 모델 |
@@ -49,7 +49,7 @@ updated: 2026-06-22
 | [[subscription-economy-gaming]] | **구독 경제와 게이밍** — 소유→액세스 전환, discovery engine, Residency Premium |
 | [[creator-economy-trust]] | **크리에이터 경제와 신뢰** — Earned·Validated·Built in real time 3-tier 모델 |
 | [[game-utility-systems]] | **게임 유틸리티 시스템** — Map vs Manual, Resident 인프라, 90% 유틸리티 사용 |
-| [[webshop-direct-monetization]] | **웹샵·D2C 직접 수익화** — 플랫폼 30% 회피·하이브리드 채널·발견/락인 분담 |
+| [[webshop-direct-monetization]] | **웹샵·D2C 직접 수익화** — 플랫폼 30% 회피·하이브리드 채널·발견·락인 분담 |
 
 ## 게임 디자인
 
@@ -66,18 +66,18 @@ updated: 2026-06-22
 | [[extraction-genre-design]] | **익스트랙션 장르 설계** — 진입장벽 완화 공식 |
 | [[soulslike]] | **소울라이크** — 공정한 가혹함·죽음 루프·방법론적 전투의 장르 문법 |
 | [[roguelike]] | **로그라이크** — 절차적 생성·런 기반·메타 진행성, 발라트로·하데스, Action Roguelike healthy 분포 |
-| [[sound-design]] | **사운드·음악 디자인** — 적응형 음악·미들웨어·공간/절차적 오디오·믹싱·접근성 (젤다·Hades·Celeste·Returnal) |
+| [[sound-design]] | **사운드·음악 디자인** — 적응형 음악·미들웨어·공간·절차적 오디오·믹싱·접근성 (젤다·Hades·Celeste·Returnal) |
 | [[gameplay-feedback-audio]] | **게임플레이 피드백 오디오** — 소리를 1차 전투 입력 채널로, 주파수 위계·소닉 검증 (오버워치·세키로) |
 | [[environmental-storytelling]] | **환경 스토리텔링** — 공간이 내러티브를 전달하는 방법 |
 | [[cinematic-production]] | **시네마틱 제작** — 파이프라인·카메라·편집 |
 | [[ai-navigation]] | **AI 내비게이션** — 복잡 지형 경로탐색 (데스 스트랜딩) |
 | [[dlc-expansion-design]] | **DLC·확장팩 설계** — 테마·장르·감정 리듬 (CDPR) |
-| [[ip-adaptation-design]] | **IP 적응 설계** — 팬/게이머 이중 타겟 설계 |
+| [[ip-adaptation-design]] | **IP 적응 설계** — 팬·게이머 이중 타겟 설계 |
 | [[studio-culture]] | **스튜디오 문화** — 원칙·가치·의사결정 방식 |
 | [[player-trust-design]] | **플레이어 신뢰 설계** — 신뢰를 통화처럼 운용하는 설계 프레임워크 |
 | [[companion-design]] | **동반자(Companion) 설계** — RPG 동반자의 세 패턴과 신뢰 구축 |
 | [[design-sense]] | **디자인 감각 개발** — 더 갭, 4가지 요소, 취향과 기술의 차이 |
 | [[game-trailer-design]] | **게임 트레일러 설계** — 유형별 전략, 캔버스별 접근, 킬러 샷 |
 | [[live-service-design]] | **라이브 서비스 설계** — 비약탈적 모델·게임 마스터·F2P 탈출 교훈 |
-| [[player-retention]] | **플레이어 리텐션** — D1/D7/D30·classic vs rolling·DAU/MAU stickiness·벤치마크 정의 함정 |
-| [[engagement-loop]] | **인게이지먼트 루프** — core/mid/meta 네스팅·스킬 아톰·Hook 모델·윤리 vs 약탈 경계선 |
+| [[player-retention]] | **플레이어 리텐션** — D1·D7·D30·classic vs rolling·DAU·MAU stickiness·벤치마크 정의 함정 |
+| [[engagement-loop]] | **인게이지먼트 루프** — core·mid·meta 네스팅·스킬 아톰·Hook 모델·윤리 vs 약탈 경계선 |
