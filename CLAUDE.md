@@ -222,6 +222,8 @@ raw/ 파일에서 아래는 무시·건너뛸 것:
 | Chris Zukowski (How To Market A Game) | ⭐ 최상 (1차·데이터) | https://howtomarketagame.com/blog/ |
 | Simon Carless (GameDiscoverCo) | ⭐ 최상 (1차·데이터) | https://newsletter.gamediscover.co/archive |
 | Naavik (Digest) | 상 (심층 분석·케이스) | https://naavik.co/digest/ |
+| Game Developer | ⭐ 최상 (개발 craft·편집) | https://www.gamedeveloper.com/latest |
+| 80 Level | 상 (아트·기술 파이프라인) | https://80.lv/articles/ |
 | Game Dev Report | 중상 (2차·애그리게이터) | https://gamedevreport.beehiiv.com/ |
 | Big Games Machine (content hub) | 중 (PR 에이전시 listicle) | https://www.biggamesmachine.com/content-hub/page/1/ |
 
