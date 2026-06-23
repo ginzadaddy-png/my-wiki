@@ -210,6 +210,42 @@ raw/ 파일에서 아래는 무시·건너뛸 것:
 - 시간(예: 3·6·12개월) 지난 후 사용자가 결과 update → wiki에서 직접 편집
 - LINT 작업 시 N개월 이상 사후 갱신 안 된 decision 페이지를 리마인드
 
+## 작업 5: SOURCE RADAR (주간 외부 소스 스캔)
+
+> **자동 실행**: `source radar`라는 Claude Code 스케줄 루틴으로 **매주 자동 실행**됨 (LINT와 별개 독립 루틴, 2026-06-23 신설). 웹 의존 작업이라 Claude Code에서만 동작. 수동으로 "소스 스캔"/"source radar" 요청 시에도 동일 절차.
+
+지정된 외부 소스 사이트들을 주기적으로 스캔해 *ingest할 가치가 있는 신규 아티클*을 발굴·보고하는 작업. **후보 제안만** — 자동 ingest·자동 페이지 생성·push 전부 금지.
+
+### 대상 소스 (신뢰도 티어)
+| 사이트 | 티어 | URL |
+|---|---|---|
+| Chris Zukowski (How To Market A Game) | ⭐ 최상 (1차·데이터) | https://howtomarketagame.com/blog/ |
+| Simon Carless (GameDiscoverCo) | ⭐ 최상 (1차·데이터) | https://newsletter.gamediscover.co/archive |
+| Game Dev Report | 중상 (2차·애그리게이터) | https://gamedevreport.beehiiv.com/ |
+| Big Games Machine (content hub) | 중 (PR 에이전시 listicle) | https://www.biggamesmachine.com/content-hub/page/1/ |
+
+소스 추가·삭제는 사용자 요청 시에만. 선제 확장 금지.
+
+### 절차
+1. 각 사이트 인덱스/아카이브 fetch → **최근 7일 발행** 항목만 추림 (날짜 윈도우 방식 — 별도 상태 파일 없음)
+2. 각 항목 URL을 `wiki/sources/`의 `source_url` 필드와 대조 → 이미 ingest된 건 제외
+3. 신규 후보마다 본문 fetch 후 **ingest 가치 판정**:
+   - **기존 위키 중복도**: 같은 주제 concept/source가 이미 있나? (`wiki/index.md`·`concepts/all.md`·`sources/all.md` 대조) — 중복 높으면 가치 낮음
+   - **출처 티어**: 위 표 기준. 같은 내용이면 1차·데이터 소스 우선, PR listicle은 후순위
+   - **신규성**: 위키에 없는 데이터·사례·관점이 있나
+4. **"이번 주 신규 N건, ingest 후보 M건"** 형식으로 우선순위 정렬 보고. 각 후보에 *URL·한 줄 요약·티어·중복도 판정·신규 포인트* 부착
+5. fetch 실패(403·페이월 등)는 건너뛰되 *"N건 fetch 실패"*로 명시 (silent drop 금지)
+
+### 가드레일 (LINT와 동일)
+- **자동 ingest 금지** — 사용자가 후보 골라 INGEST 절차로 별도 진행 (강조점 확인 단계 보존)
+- **새 페이지 자동 생성 금지 · push 금지 · raw/ 자동 적재 금지** — 보고만
+- 보고는 채팅으로. 위키 파일 변경 없음 (이 루틴은 read-only 탐색)
+
+### 결과 보고 형식
+1. 주간 스캔 요약 (사이트별 신규 N건 / 총 후보 M건 / fetch 실패 N건)
+2. ingest 추천 후보 (우선순위순) — URL·한 줄 요약·티어·"왜 추천"(신규 데이터·관점)
+3. 스킵 권장 항목 — URL·한 줄 + 스킵 사유(기존 위키 중복 등)
+
 ## 세션 시작 체크리스트
 1. wiki/log.md 최근 5개 항목 읽기
 2. wiki/overview.md 읽기
