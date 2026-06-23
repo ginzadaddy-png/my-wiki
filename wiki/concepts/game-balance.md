@@ -2,7 +2,7 @@
 title: "게임 밸런싱"
 type: concept
 sources: ["[[gmtk-game-balancing]]", "[[gmtk-combat-system]]"]
-related: ["[[combat-design|전투 디자인]]", "[[mda-framework|MDA 프레임워크]]", "[[extraction-genre-design|익스트랙션 장르 설계]]"]
+related: ["[[combat-design|전투 디자인]]", "[[mda-framework|MDA 프레임워크]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[risk-and-reward|리스크 앤 리워드]]"]
 created: 2026-04-20
 updated: 2026-04-20
 confidence: high

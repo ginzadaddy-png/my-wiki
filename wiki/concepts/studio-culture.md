@@ -1,10 +1,10 @@
 ---
 title: "스튜디오 문화"
 type: concept
-sources: ["[[gdc25-schell-studio-principles]]", "[[gdc26-spark]]", "[[gdc26-arc-raiders-reset]]", "[[gdc26-three-mindset-shifts]]", "[[gamedev-leadership-dynamics]]", "[[kumhotire-psychological-safety]]"]
-related: ["[[vision-statement|비전 선언문]]", "[[dev-org-structure|개발 조직 구조]]", "[[small-team-development|소규모 팀 개발]]"]
+sources: ["[[gdc25-schell-studio-principles]]", "[[gdc26-spark]]", "[[gdc26-arc-raiders-reset]]", "[[gdc26-three-mindset-shifts]]", "[[gamedev-leadership-dynamics]]", "[[kumhotire-psychological-safety]]", "[[itoi-miyamoto-dialogue-2024]]"]
+related: ["[[vision-statement|비전 선언문]]", "[[dev-org-structure|개발 조직 구조]]", "[[small-team-development|소규모 팀 개발]]", "[[shigeru-miyamoto|미야모토 시게루]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-06-23
 confidence: high
 ---
 
@@ -87,5 +87,13 @@ confidence: high
 - 마케팅·투자자 마감일을 실제 기술 완성도보다 우선시 → 크런치 강요
 - 출시 후 직원 회의에서 분노 폭발 → 리더십-실무자 신뢰 완전 파괴
 - 교훈: 재무적 마감일이 팀 역량보다 우선될 때 문화는 붕괴한다
+
+## 케이스 스터디: 닌텐도 — "롤링 스톤즈" ([[shigeru-miyamoto|미야모토 시게루]])
+
+[[itoi-miyamoto-dialogue-2024|이토이 × 미야모토 대담]]에서 드러난 닌텐도 초기 팀 문화:
+- **칭찬을 아낀다**: 형식적 칭찬은 도움이 안 되고, 진짜 보상은 *대히트*. 피드백은 "좋다/나쁘다" 평가가 아니라 *"그럼 어떻게 할까"*의 문제해결이다 (→ 위 Do/Don't의 "성장 지향 피드백"과 통함).
+- **비장미 없는 위기 대응**: 현장이 난리여도 씩 웃으며 "이것도 저것도 문제라서요" — 솔직하게 불평·상담할 수 있고 "들키면 어쩌지" 걱정이 없다. 이것이 [[psychological-safety|심리적 안전]]의 실제 모습.
+- **팀 지속성**: 패미컴 시절 초기 멤버가 *전원 아직 닌텐도에* 있다(미야모토가 가장 자랑하는 것). "밴드는 다 해체되는데 우리는 롤링 스톤즈." 2D→3D 자기부정적 전환도 함께 넘었다.
+- **평범한 사람들 + 독창**: "다들 평범하고 예의 바른 사람들이 모여 남과 다른 걸 해보자" — 회의실에 "독창"이 붙어 있다.
 
 > 💡 **핵심 인사이트:** 스튜디오 문화는 리더의 변덕에 흔들리지 않아야 한다. 원칙이 문서화되어 있을 때 리더가 바뀌어도 팀의 방향이 유지된다. 좋은 문화는 만들어지는 것이지, 자연발생하는 것이 아니다. 그리고 심리적 안전감이 없는 곳에서는 어떤 원칙도 살아남을 수 없다.

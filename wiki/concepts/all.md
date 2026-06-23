@@ -2,7 +2,7 @@
 title: "전체 개념 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-06-22
+updated: 2026-06-23
 ---
 
 ← [홈으로](../index.md)
@@ -28,6 +28,7 @@ updated: 2026-06-22
 | [[innersource]] | **이너소스** — 오픈소스 방식의 사내 기술 공유 모델 |
 | [[ai-gamedev]] | **게임 개발에서의 생성형 AI** — 정서 데이터·도입 원칙·역할 변화 |
 | [[ai-asset-pipeline]] | **AI 게임 에셋 산업화 파이프라인** — 단점 생성 한계·포맷 통일·경험 침전·노드 캔버스 (텐센트 Light AI) |
+| [[constraint-driven-creativity]] | **제약 기반 창의성** — 한계가 깊이를 만든다, 미야모토의 조각 퍼즐 밀도 |
 
 ## 출시·마케팅
 
@@ -50,6 +51,8 @@ updated: 2026-06-22
 | [[creator-economy-trust]] | **크리에이터 경제와 신뢰** — Earned·Validated·Built in real time 3-tier 모델 |
 | [[game-utility-systems]] | **게임 유틸리티 시스템** — Map vs Manual, Resident 인프라, 90% 유틸리티 사용 |
 | [[webshop-direct-monetization]] | **웹샵·D2C 직접 수익화** — 플랫폼 30% 회피·하이브리드 채널·발견·락인 분담 |
+| [[hit-driven-strategy]] | **홈런 전략** — 신작 대히트 한 발이 회사를 떠받친다, 손익분기 거부 (닌텐도) |
+| [[audience-expansion]] | **오디언스 확장** — 바깥 원을 넓혀야 안쪽도 산다·블루오션·게임 인구 확대 |
 
 ## 게임 디자인
 
@@ -81,3 +84,6 @@ updated: 2026-06-22
 | [[live-service-design]] | **라이브 서비스 설계** — 비약탈적 모델·게임 마스터·F2P 탈출 교훈 |
 | [[player-retention]] | **플레이어 리텐션** — D1·D7·D30·classic vs rolling·DAU·MAU stickiness·벤치마크 정의 함정 |
 | [[engagement-loop]] | **인게이지먼트 루프** — core·mid·meta 네스팅·스킬 아톰·Hook 모델·윤리 vs 약탈 경계선 |
+| [[game-essence]] | **게임의 본질** — 사쿠라이의 리스크/리워드 + 긴장완화 사이클이라는 재미의 보편 구조 |
+| [[risk-and-reward]] | **리스크 앤 리워드** — 위험을 감수해야 보상이 의미를 갖는 재미의 핵심 엔진 |
+| [[game-feel]] | **게임 필** — 히트스톱·버튼 무게감·점프 곡선, 프레임 단위 조작감 설계 |

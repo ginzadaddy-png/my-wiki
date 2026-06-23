@@ -11,7 +11,7 @@ sources: [
   "[[adam-millard-sword-fighting]]",
   "[[vilehyperion-combat-system]]"
 ]
-related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[emergent-systems-design|창발적 시스템 설계]]", "[[ghost-of-tsushima|고스트 오브 쓰시마]]", "[[god-of-war-2018|갓 오브 워 2018]]", "[[the-last-of-us|더 라스트 오브 어스]]", "[[hitman-2016|히트맨 2016]]", "[[combat-philosophy|전투 철학 비교]]", "[[game-balance|게임 밸런싱]]", "[[mda-framework|MDA 프레임워크]]"]
+related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[emergent-systems-design|창발적 시스템 설계]]", "[[ghost-of-tsushima|고스트 오브 쓰시마]]", "[[god-of-war-2018|갓 오브 워 2018]]", "[[the-last-of-us|더 라스트 오브 어스]]", "[[hitman-2016|히트맨 2016]]", "[[combat-philosophy|전투 철학 비교]]", "[[game-balance|게임 밸런싱]]", "[[mda-framework|MDA 프레임워크]]", "[[game-feel|게임 필]]", "[[risk-and-reward|리스크 앤 리워드]]"]
 created: 2026-04-15
 updated: 2026-04-20
 confidence: high

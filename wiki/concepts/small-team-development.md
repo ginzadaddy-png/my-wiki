@@ -1,10 +1,10 @@
 ﻿---
 title: "소규모 팀 개발 전략"
 type: concept
-sources: ["[[gdc25-astrobot]]", "[[gdc26-expedition33-programmers]]", "[[expedition33-ue5-interview]]", "[[gdc26-ghost-of-yotei]]", "[[gdc26-arc-raiders-reset]]", "[[gdc2023-asobo-how-to-make-aaa-small-team]]", "[[gdc2026-embark-character-pipeline]]"]
-related: ["[[team-asobi|팀 아소비]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[sucker-punch-productions|서커펀치 프로덕션]]", "[[embark-studios|엠바크 스튜디오]]", "[[asobo-studio|Asobo Studio]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[designer-empowerment|디자이너 도구화]]", "[[vision-statement|비전 선언문]]", "[[data-driven-development|데이터 기반 개발]]", "[[art-pipeline-design|아트 파이프라인 설계]]"]
+sources: ["[[gdc25-astrobot]]", "[[gdc26-expedition33-programmers]]", "[[expedition33-ue5-interview]]", "[[gdc26-ghost-of-yotei]]", "[[gdc26-arc-raiders-reset]]", "[[gdc2023-asobo-how-to-make-aaa-small-team]]", "[[gdc2026-embark-character-pipeline]]", "[[itoi-miyamoto-dialogue-2024]]"]
+related: ["[[team-asobi|팀 아소비]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[sucker-punch-productions|서커펀치 프로덕션]]", "[[embark-studios|엠바크 스튜디오]]", "[[asobo-studio|Asobo Studio]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[designer-empowerment|디자이너 도구화]]", "[[vision-statement|비전 선언문]]", "[[data-driven-development|데이터 기반 개발]]", "[[art-pipeline-design|아트 파이프라인 설계]]", "[[constraint-driven-creativity|제약 기반 창의성]]", "[[shigeru-miyamoto|미야모토 시게루]]"]
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-06-23
 confidence: high
 ---
 
@@ -45,5 +45,13 @@ confidence: high
 - "One Time Period, One Place, One Style" — 중세·남부 프랑스·클로드 로랭 회화로 창작 범위 고정
 - 레이토모티프 "Focus on what matters": Megascans 보조 에셋 대체, Midpoly 메시, Displacement→Blend Map 재활용
 - Fast Level Building: Day 1 블록아웃 → 1~2주 폴리시 — 방향 검증 먼저, 완성도는 나중
+
+**8. 최소 인원으로 시작하기 — 닌텐도 원점 ([[shigeru-miyamoto|미야모토 시게루]])**
+
+[[itoi-miyamoto-dialogue-2024|이토이 × 미야모토 대담]]에서 미야모토가 밝힌 닌텐도식 팀 구성 — 우리 위키의 여러 사례와 같은 결론에 닿는다:
+- 최종 100~200명 프로젝트도 **처음엔 5명으로 시작**하고 30명을 넘기지 않는다.
+- **초기 팀에 디자이너를 일부러 넣지 않는다**: 디자이너가 있으면 의존하게 되고 그림 완성을 기다리느라 지연된다. TV 화면에 매직으로 그리면 1분, 디자이너 경유하면 이틀 — 초기엔 직접 대충 그려 즉시 실험.
+- **책임자는 디렉터 한 명**: 사람이 많으면 책임자도 애매해지고 반응이 느려진다. 틀리더라도 명확한 비전을 가진 한 명이 빠른 답을 만든다.
+- "올스타 팀을 짜 오면 *너는 필요 없겠네*" — 부족함을 직접 메우다 한계에 부딪힐 때 비로소 인원을 늘린다.
 
 > 💡 **핵심 인사이트:** 소규모의 해답은 '덜 만드는 것'이 아닌 '더 잘 나누는 것'. 제약이 명확한 구조를 설계할 때 팀 전체가 생산적이 된다. Asobo의 사례는 한 가지를 더 추가한다 — **제약이 명확할수록 의사결정 비용이 줄어든다**: 시대·장소·스타일이 정해지면 팀은 "어떻게 만들까"에만 집중할 수 있다.

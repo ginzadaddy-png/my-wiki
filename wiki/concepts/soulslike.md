@@ -2,7 +2,7 @@
 title: "소울라이크"
 type: concept
 sources: ["[[soulslike-game-design-research-2026]]", "[[gmtk-world-design-dark-souls]]", "[[gmtk-world-design-elden-ring]]", "[[dark-souls-world-hides-lore]]"]
-related: ["[[fromsoftware|프롬소프트웨어]]", "[[dark-souls|다크소울]]", "[[elden-ring|엘든링]]", "[[roguelike|로그라이크]]", "[[environmental-storytelling|환경 스토리텔링]]", "[[level-design-principles|레벨 디자인 원칙]]", "[[combat-design|전투 디자인]]", "[[player-guidance-design|플레이어 유도 설계]]"]
+related: ["[[fromsoftware|프롬소프트웨어]]", "[[dark-souls|다크소울]]", "[[elden-ring|엘든링]]", "[[roguelike|로그라이크]]", "[[environmental-storytelling|환경 스토리텔링]]", "[[level-design-principles|레벨 디자인 원칙]]", "[[combat-design|전투 디자인]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[risk-and-reward|리스크 앤 리워드]]"]
 created: 2026-04-24
 updated: 2026-04-24
 confidence: high

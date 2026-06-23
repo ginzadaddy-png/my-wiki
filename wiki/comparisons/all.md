@@ -2,7 +2,7 @@
 title: "전체 비교 분석 목록"
 type: comparison
 created: 2026-04-22
-updated: 2026-06-16
+updated: 2026-06-23
 ---
 
 ← [홈으로](../index.md)
@@ -26,3 +26,4 @@ updated: 2026-06-16
 | [[platform-fees-vs-direct-sales]] | **플랫폼 수수료 vs 직접 판매(D2C)** — Steam·모바일 30% vs 웹샵 채널 분담 |
 | [[pcg-pure-vs-hybrid]] | **완전 절차생성 vs 하이브리드 타일 재조합** — 무작위↔수공예 스펙트럼·공정성 보장 장치 (Spelunky·Dead Cells·Hades·Returnal) |
 | [[sekiro-vs-melee-combat-audio]] | **세키로 vs 검술 액션 전투 효과음** — 소리로 전투를 읽는 설계 (세키로·엘든링·고스트 오브 쓰시마·MGR·인왕) |
+| [[hit-driven-vs-catalog-economics]] | **홈런 전략 vs 카탈로그 이코노믹스** — 신작 대히트(닌텐도) vs 기존작 long-tail(캡콤) |

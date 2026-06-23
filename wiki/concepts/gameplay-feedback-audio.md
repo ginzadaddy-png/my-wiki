@@ -2,7 +2,7 @@
 title: "게임플레이 피드백 오디오"
 type: concept
 sources: ["[[gdc16-overwatch-play-by-sound]]", "[[sword-sfx-satisfaction-2020]]", "[[ogawa-katana-sekiro]]"]
-related: ["[[sound-design|사운드·음악 디자인]]", "[[combat-design|전투 디자인]]", "[[sekiro|세키로]]", "[[soulslike|소울라이크]]", "[[player-guidance-design|플레이어 유도 설계]]"]
+related: ["[[sound-design|사운드·음악 디자인]]", "[[combat-design|전투 디자인]]", "[[sekiro|세키로]]", "[[soulslike|소울라이크]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[game-feel|게임 필]]"]
 created: 2026-06-16
 updated: 2026-06-16
 confidence: high

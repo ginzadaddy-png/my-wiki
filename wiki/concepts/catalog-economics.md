@@ -2,9 +2,9 @@
 title: "카탈로그 이코노믹스 (Catalog Economics)"
 type: concept
 sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]"]
-related: ["[[capcom|캡콤]]", "[[rockstar-games|록스타]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[bethesda-game-studios|베데스다]]", "[[fromsoftware|프롬소프트웨어]]", "[[nintendo|닌텐도]]", "[[larian-studios|라리안]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[live-service-design|라이브 서비스 설계]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[catalog-economics-3-publishers|3사 비교 (캡콤·닌텐도·Take-Two)]]"]
+related: ["[[capcom|캡콤]]", "[[rockstar-games|록스타]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[bethesda-game-studios|베데스다]]", "[[fromsoftware|프롬소프트웨어]]", "[[nintendo|닌텐도]]", "[[larian-studios|라리안]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[live-service-design|라이브 서비스 설계]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[catalog-economics-3-publishers|3사 비교 (캡콤·닌텐도·Take-Two)]]", "[[hit-driven-strategy|홈런 전략]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]"]
 created: 2026-05-18
-updated: 2026-05-18
+updated: 2026-06-23
 confidence: high
 ---
 

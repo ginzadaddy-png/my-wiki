@@ -2,6 +2,30 @@
 title: "활동 로그"
 ---
 
+## [2026-06-23] ingest | 미야모토 시게루 × 이토이 시게사토 신년 대담 (호보니치 2024, 전 12회)
+- Source: C:/Users/bmjlee/Downloads/시게루-이토이대담.md (호보니치 「시게루 대담」 신년 연재 2024-01-01~01-11 한국어 번역 전문, 1차 사료). 사용자 요청으로 가치 평가 후 ingest
+- 생성:
+  - sources/itoi-miyamoto-dialogue-2024.md (source-summary, confidence high — 주제 8묶음 + 명언 발췌)
+  - entities/shigeru-miyamoto.md (entity, 인물·크리에이터 — relations 5-어휘 인물 미적용)
+  - concepts/constraint-driven-creativity.md (제약 기반 창의성 — 1→2비트 4색·조각퍼즐 밀도·무제약 올스타 안티패턴)
+  - concepts/audience-expansion.md (오디언스 확장 — 이타미 두 원·야마우치 새 규칙·이와타 게임인구확대·USJ 실재성)
+  - concepts/hit-driven-strategy.md (홈런 전략 — 3천만 장·손익분기 거부·Wii Fit·흥행=신뢰)
+  - comparisons/hit-driven-vs-catalog-economics.md (닌텐도 홈런 vs 캡콤 카탈로그 정면 비교)
+- 업데이트(보강+양방향): game-feel(마리오 착지 80%·손맛 통합), small-team-development(5명 시작·디자이너 미투입), producer-role("아무것도 못해서 프로듀서"), studio-culture(롤링스톤즈·칭찬절제), rapid-prototyping(TV 매직·버릴 각오·5엔어치), catalog-economics(홈런 대비 링크)
+- 카탈로그: index.md(소스 129→130·개념 63→66·비교 17→18·pill 4), concepts/all.md(행 3), comparisons/all.md(행 1·날짜), sources/all.md(행 1·총계), entities/all.md(미야모토 행)
+- 교차검증 포인트: 소규모 팀·프로듀서·손맛·반복폐기가 팀아소비/라리안/서커펀치/사쿠라이와 닌텐도 원점에서 수렴 확인. 홈런 vs 카탈로그는 정반대 전략을 새 comparison으로 대비
+
+## [2026-06-23] ingest | 사쿠라이 마사히로 「게임 만들기」 유튜브 채널 — 전체 정리
+- Source: youtube.com/@sora_sakurai_en (Masahiro Sakurai on Creating Games, 2022-08~2024-10 / 카테고리 순 재생목록 PLi8SA3sbzYVTdIuHT7AmMgMhM2EDEStQI). 웹 리서치(WebFetch/WebSearch) — Episode Hive 에피소드 목록·TV Tropes 카테고리 분류·Medium 분석글 교차 확인
+- 생성:
+  - sources/sakurai-creating-games.md (source-summary — 카테고리 체계 7묶음 + Input→Library→Output 철학 + 핵심 가르침)
+  - entities/masahiro-sakurai.md (entity, 신규 "인물·크리에이터" 분류 — relations 5-어휘는 게임·회사용이라 인물엔 미적용)
+  - concepts/game-essence.md (게임의 본질 — 리스크/리워드 + 긴장완화 사이클, 본질 너머의 재미, 시스템 속이기)
+  - concepts/risk-and-reward.md (리스크 앤 리워드 — 위험-보상 비례, 악마의 가마솥·소울 회수 사례)
+  - concepts/game-feel.md (게임 필 — 히트스톱 8기법·버튼 무게감·점프 물리·과장 애니메이션)
+- 업데이트: combat-design·game-balance·gameplay-feedback-audio·mda-framework·soulslike (related 양방향), index.md(소스 128→129·개념 60→63·게임디자인 pill ×3), concepts/all.md(행 3·날짜), sources/all.md(행 1·총계), entities/all.md(인물 섹션 신설·날짜)
+- 구조 변경: entities/all.md에 "인물·크리에이터" 분류 신설(wiki/ 내부 마크다운 카탈로그, Quartz 빌드·배포 영향 없음). index 스탯카드는 스튜디오·게임만 카운트해 인물은 미반영(유지)
+
 ## [2026-06-23] ingest | Source Radar 첫 스캔 후보 3건 — Steam Personal Calendar·Twitch 디스커버리·UE6 로드맵
 - Source: source radar 루틴(주간 외부 소스 스캔) 첫 수동 실행 결과 중 추천 후보
 - 생성:

@@ -2,7 +2,7 @@
 title: "MDA 프레임워크"
 type: concept
 sources: ["[[gmtk-mda-framework]]", "[[skyrim-not-perfect-mda]]"]
-related: ["[[combat-design|전투 디자인]]", "[[game-balance|게임 밸런싱]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[open-world-design|오픈월드 설계]]"]
+related: ["[[combat-design|전투 디자인]]", "[[game-balance|게임 밸런싱]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[open-world-design|오픈월드 설계]]", "[[game-essence|게임의 본질]]"]
 created: 2026-04-20
 updated: 2026-04-20
 confidence: high

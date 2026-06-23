@@ -5,11 +5,11 @@ Last updated 2026-06-23
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">128</span></a></div>
+  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">130</span></a></div>
   <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">43</span></a></div>
   <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">33</span></a></div>
-  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">60</span></a></div>
-  <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">17</span></a></div>
+  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">66</span></a></div>
+  <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">18</span></a></div>
   <div class="stat-card"><a href="presentations/all.md" class="internal"><span class="stat-label">프레젠테이션</span><span class="stat-num">3</span></a></div>
 </div>
 
@@ -38,6 +38,7 @@ Last updated 2026-06-23
 - [[innersource|이너소스 — 오픈소스 방식의 사내 기술 공유 모델]]
 - [[ai-gamedev|게임 개발에서의 생성형 AI — 정서 데이터·도입 원칙·역할 변화]]
 - [[ai-asset-pipeline|AI 게임 에셋 산업화 파이프라인 — 단점 생성 한계·포맷 통일·경험 침전·노드 캔버스 (텐센트 Light AI)]]
+- [[constraint-driven-creativity|제약 기반 창의성 — 한계가 깊이를 만든다, 미야모토의 조각 퍼즐 밀도]]
 
 </div>
 
@@ -61,6 +62,8 @@ Last updated 2026-06-23
 - [[creator-economy-trust|크리에이터 경제와 신뢰 — Earned·Validated·Built in real time 3-tier 모델]]
 - [[game-utility-systems|게임 유틸리티 시스템 — Map vs Manual, Resident 인프라, 90% 유틸리티 사용]]
 - [[webshop-direct-monetization|웹샵·D2C 직접 수익화 — 플랫폼 30% 회피·하이브리드·발견·락인 분담]]
+- [[hit-driven-strategy|홈런 전략 — 신작 대히트 한 발이 회사를 떠받친다, 손익분기 거부 (닌텐도)]]
+- [[audience-expansion|오디언스 확장 — 바깥 원을 넓혀야 안쪽도 산다·블루오션·게임 인구 확대]]
 
 </div>
 
@@ -95,6 +98,9 @@ Last updated 2026-06-23
 - [[live-service-design|라이브 서비스 설계 — 비약탈적 모델·게임 마스터·F2P 탈출 교훈]]
 - [[player-retention|플레이어 리텐션 — D1·D7·D30·classic vs rolling·DAU·MAU stickiness·벤치마크 함정]]
 - [[engagement-loop|인게이지먼트 루프 — core·mid·meta 네스팅·스킬 아톰·Hook 모델·윤리 vs 약탈 경계선]]
+- [[game-essence|게임의 본질 — 사쿠라이의 리스크·리워드 + 긴장완화 사이클이라는 재미의 보편 구조]]
+- [[risk-and-reward|리스크 앤 리워드 — 위험을 감수해야 보상이 의미를 갖는 재미의 핵심 엔진]]
+- [[game-feel|게임 필 — 히트스톱·버튼 무게감·점프 곡선, 프레임 단위 조작감 설계]]
 
 </div>
 
@@ -121,6 +127,7 @@ Last updated 2026-06-23
 - [[platform-fees-vs-direct-sales|플랫폼 수수료 vs 직접 판매 — Steam·모바일 30% vs D2C 웹샵 채널 분담]]
 - [[pcg-pure-vs-hybrid|완전 절차생성 vs 하이브리드 — 무작위↔수공예 스펙트럼·공정성 보장 장치 (Spelunky·Dead Cells·Hades·Returnal)]]
 - [[sekiro-vs-melee-combat-audio|세키로 vs 검술 액션 전투 효과음 — 소리로 전투를 읽는 설계 (세키로·엘든링·고스트 오브 쓰시마·MGR·인왕)]]
+- [[hit-driven-vs-catalog-economics|홈런 전략 vs 카탈로그 이코노믹스 — 신작 대히트(닌텐도) vs 기존작 long-tail(캡콤)]]
 
 </div>
 

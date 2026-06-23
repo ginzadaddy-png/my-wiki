@@ -2,10 +2,12 @@
 title: "소스 전체 목록"
 ---
 
-총 128개 | 최신순 정렬
+총 130개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [itoi-miyamoto-dialogue-2024](itoi-miyamoto-dialogue-2024.md) | 미야모토 시게루 × 이토이 시게사토 신년 대담 (호보니치, 전 12회 — 최소 팀·프로듀서·손맛·홈런 전략) | 2024-01 |
+| [sakurai-creating-games](sakurai-creating-games.md) | 사쿠라이 마사히로 「게임 만들기」 채널 — 전체 정리 (게임의 본질·게임 필·직업 윤리·팀 매니지먼트) | 2022–2024 |
 | [unreal-engine-6-roadmap-2026-06](unreal-engine-6-roadmap-2026-06.md) | Epic — The Road to Unreal Engine 6 (UE5·UEFN 통합·Blueprint 폐기 예고) | 2026-06 |
 | [carless-steam-personal-calendar-2026-06](carless-steam-personal-calendar-2026-06.md) | GameDiscoverCo — Steam Personal Calendar가 사전 출시 디스커버리를 폭증 (Carless) | 2026-06 |
 | [carless-twitch-discovery-2026-06](carless-twitch-discovery-2026-06.md) | GameDiscoverCo — Twitch 데이터가 게임 디스커버리 분석에 더하는 것 (Carless) | 2026-06 |

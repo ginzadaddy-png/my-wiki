@@ -1,10 +1,10 @@
 ﻿---
 title: "빠른 프로토타이핑과 반복 개발"
 type: concept
-sources: ["[[gdc25-astrobot]]", "[[gdc24-baldurs-gate-3]]", "[[gdc26-spark]]"]
-related: ["[[team-asobi|팀 아소비]]", "[[larian-studios|라리안 스튜디오]]", "[[sucker-punch-productions|서커펀치 프로덕션]]", "[[small-team-development|소규모 팀 개발]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[vision-statement|비전 선언문]]"]
+sources: ["[[gdc25-astrobot]]", "[[gdc24-baldurs-gate-3]]", "[[gdc26-spark]]", "[[itoi-miyamoto-dialogue-2024]]"]
+related: ["[[team-asobi|팀 아소비]]", "[[larian-studios|라리안 스튜디오]]", "[[sucker-punch-productions|서커펀치 프로덕션]]", "[[small-team-development|소규모 팀 개발]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[vision-statement|비전 선언문]]", "[[shigeru-miyamoto|미야모토 시게루]]"]
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-06-23
 confidence: high
 ---
 
@@ -25,5 +25,10 @@ confidence: high
 - GotS 패링 시스템: 6개월 기반 작업 + 4개월 실험 = 10개월 만에 발견
 - "프로토타입의 목표는 기능 추가가 아니라, 처음에 설정한 질문에 답하는 것"
 - 목표는 일관성이 아닌 마법(반짝임). 일관성은 발견 후에 만들 수 있다
+
+**닌텐도 방식 (미야모토 시게루)**
+- TV 화면에 매직으로 1분 만에 그려 즉시 실험 — 디자이너 경유(이틀)보다 최단 루트로 "내가 원하는 게 뭔지"를 찾는다. → [[constraint-driven-creativity|제약 기반 창의성]]
+- **버릴 각오로 만든다**: "애써 만들었으니 꼭 써야 해" 강박을 버리면 3개월 실험이 1개월로 줄어든다. 5년 프로젝트의 앞 3년을 최소 팀 실험에 쓰면 총 개발비도 준다.
+- 유기적 가치 채우기 ([[itoi-miyamoto-dialogue-2024]]): 팀원이 "여긴 5엔어치, 여긴 10엔 추가" 식으로 작은 재미를 더하며, 누군가의 시안이 자극이 돼 다음 아이디어를 낳는다 (피크민 잎사귀·초점 안 맞는 눈).
 
 > 💡 **핵심 인사이트:** 프로토타이핑의 목적은 '완성도'가 아닌 '반짝임 검증'이다. 검증 가능한 최소 단위로 빠르게 만들고, 틀리면 빠르게 버리는 것이 핵심.
