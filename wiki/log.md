@@ -2,6 +2,15 @@
 title: "활동 로그"
 ---
 
+## [2026-06-23] ingest | Source Radar 첫 스캔 후보 3건 — Steam Personal Calendar·Twitch 디스커버리·UE6 로드맵
+- Source: source radar 루틴(주간 외부 소스 스캔) 첫 수동 실행 결과 중 추천 후보
+- 생성:
+  - sources/carless-steam-personal-calendar-2026-06.md (Carless 2026-06-19, 페이월·confidence medium — Steam 홈 Personal Calendar propensity 디스커버리)
+  - sources/carless-twitch-discovery-2026-06.md (Carless 2026-06-16 — Twitch 시청 데이터로 스트리밍 의존 vs 오가닉 흥행 구분)
+  - sources/unreal-engine-6-roadmap-2026-06.md (Epic 2026-06-17, 원문 403 → gamedeveloper.com 미러 검증 — UE5·UEFN 통합·Blueprint 폐기·Verse·2027말 EA)
+- 업데이트: concepts/unreal-engine-5.md(UE6 로드맵 섹션 + sources), concepts/steam-next-fest.md(Personal Calendar 섹션 + sources ×2), index.md(소스 125→128·날짜), sources/all.md(행 3·총계)
+- 보류: Zukowski "June 2026 Next Fest Has Started"는 신규성 낮아 스킵. Meccha Chameleon(2소스 교차 등장)은 entity 후보로 보류
+
 ## [2026-06-22] ingest | 플레이어 리텐션·인게이지먼트 루프 — Cowork 핸드오프 CLI 재검증 후 신규 2개념
 - Source: player-retention-research-handoff.md (Cowork deep research 스캐폴드, 웹 차단으로 미검증 상태 핸드오프)
 - 처리: deep-research 하니스로 ③ 출처 fetch + ④ 스캐폴드 적대 검증(28소스·107주장·25 적대검증 통과 24/기각 1) + 보충 직접 WebSearch

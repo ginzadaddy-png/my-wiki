@@ -1,7 +1,7 @@
 ---
 title: "Unreal Engine 5"
 type: concept
-sources: ["[[expedition33-ue5-interview]]", "[[missing-middle-paradigm-shift-2026]]", "[[gdc26-expedition33-programmers]]", "[[gdc26-hogwarts-evolving-aaa]]", "[[gdc26-newzoo-market-analysis]]", "[[capcom-fy26-ir]]"]
+sources: ["[[expedition33-ue5-interview]]", "[[missing-middle-paradigm-shift-2026]]", "[[gdc26-expedition33-programmers]]", "[[gdc26-hogwarts-evolving-aaa]]", "[[gdc26-newzoo-market-analysis]]", "[[capcom-fy26-ir]]", "[[unreal-engine-6-roadmap-2026-06]]"]
 related: ["[[proprietary-engine-strategy|독자 엔진 전략]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[clair-obscur-expedition-33|클레르 옵스퀴르: 33원정대]]", "[[small-team-development|소규모 팀 개발]]", "[[designer-empowerment|디자이너 도구화]]", "[[avalanche-software|Avalanche Software]]", "[[hogwarts-legacy|호그와트 레거시]]", "[[game-market-trends|게임 시장 트렌드]]", "[[proprietary-engine-vs-ue5|자체 엔진 vs UE5 의사결정 매트릭스]]"]
 created: 2026-05-18
 updated: 2026-05-18
@@ -99,6 +99,16 @@ UE5 Blueprint는 [[designer-empowerment]]의 *기술적 인프라*:
 | [[arc-raiders]] | ~100명 | UE5 + 자체 네트워크 레이어 |
 | Black Myth: Wukong | ~140명 | UE5 + 중국 시장 특화 |
 | Witcher 4 (개발 중) | CDPR 1,000+명 | REDengine 포기, UE5 채택 결정 — 산업 시그널 |
+
+## UE6 로드맵 — Blueprint 폐기 예고 ([[unreal-engine-6-roadmap-2026-06]])
+
+2026-06 Epic이 UE5와 UEFN을 단일 엔진 **UE6**로 통합한다고 발표:
+- **언어**: C++ → **Verse**(대규모 멀티플레이·크로스게임 로직·지속 경제용)로 primary 전환
+- **Blueprint·Actors 점진 폐기** — 신 프레임워크 *"충분히 성숙"* 후. 초기 UE6엔 유지되고 이후 변환 툴 제공 (즉시 제거 아님)
+- **Roblox식 상호운용 생태계**(콘텐츠·코드·경제 크로스게임) + AI(Claude·Gemini) 에디터 내장
+- **타임라인**: 2027년 말 Early Access, 정식은 +12~18개월
+
+> ⚠️ 위 *Blueprint 95%* 모델([[clair-obscur-expedition-33|33원정대]])이 장기적으로 폐기 대상 — 소규모 팀의 비주얼 스크립팅 접근성 경로가 재편될 수 있고, 아래 "한계와 우려"의 *Epic 의존성* 리스크가 심화되는 방향.
 
 ## 추가 조사 주제
 

@@ -1,7 +1,7 @@
 ---
 title: "Steam Next Fest"
 type: concept
-sources: ["[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[airbridge-steam-marketing-playbook]]", "[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]"]
+sources: ["[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[airbridge-steam-marketing-playbook]]", "[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[carless-steam-personal-calendar-2026-06]]", "[[carless-twitch-discovery-2026-06]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[playtesting|플레이테스팅]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[valve|Valve]]"]
 created: 2026-05-18
 updated: 2026-05-18
@@ -104,6 +104,12 @@ confidence: high
 - Summer Game Fest·Day of the Devs·gamescom 등 다른 비트는 *준결승*
 - 페스트 전 6개월: 트레일러·데모 비공개 테스트·크리에이터 빌드 배포로 사전 위시리스트 누적
 - 페스트 후 3개월: 출시 — 위시리스트 → 구매 전환 곡선 활용
+
+## Steam Personal Calendar — 상시 디스커버리로 확장 ([[carless-steam-personal-calendar-2026-06]])
+
+2026-06 Steam 홈페이지 리뉴얼의 **Personal Calendar**(향후 30일 출시작)는 *소유가 아니라 playtime-profile 성향 매칭*으로 추천 → 넥스트 페스트 알고리즘의 propensity 원리가 *상시 홈페이지 디스커버리*로 확장됐다. 사전 위시리스트 폭증 관측(Solarpunk 14k~35k/일, 한 게임 300-500 → 5-6k/일, 프론트 위젯 노출 시 10k/일).
+
+> ⚠️ 단 *drive-by·캐주얼 위시리스트*라 D1 전환율은 낮을 수 있음 — velocity 신호로는 강력하나 출시 매출 보장은 아니다. *공개 관심이 없는 게임은 이것으로도 못 구한다.*
 
 ## 추가 조사 주제
 
