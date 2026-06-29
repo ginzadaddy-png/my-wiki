@@ -1,10 +1,10 @@
 ---
 title: "Steam Next Fest"
 type: concept
-sources: ["[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[airbridge-steam-marketing-playbook]]", "[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[carless-steam-personal-calendar-2026-06]]", "[[carless-twitch-discovery-2026-06]]"]
+sources: ["[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[airbridge-steam-marketing-playbook]]", "[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[carless-steam-personal-calendar-2026-06]]", "[[carless-twitch-discovery-2026-06]]", "[[carless-next-fest-june-2026]]", "[[zukowski-personal-calendar-launch]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[playtesting|플레이테스팅]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[valve|Valve]]"]
 created: 2026-05-18
-updated: 2026-05-18
+updated: 2026-06-29
 confidence: high
 ---
 
@@ -40,6 +40,9 @@ confidence: high
 - **2024-10**: Valve가 "open to everyone" 알고리즘 도입 (첫 2일 모두에게 노출). 게임 3,000개 폭증과 미세조정 부재로 *전 등급 동반 하락*
 - **2025-02 이후**: 알고리즘 재보정 → 상위 등급 회복, 하위 70p는 보합 정체
 - **2026-02**: How Many Dudes? — 64만 노출 → 14,740 위시리스트. *노출 1/10이지만 위시리스트는 거의 같음*. Valve가 "낭비된 노출"을 정밀화한 결과
+- **2026-06** ([[carless-next-fest-june-2026]]): 데모 **4,382개** (2025-06 2,645개 대비 **+66%**)로 *공급 폭증*. 상위 10% 팔로워 **+121**(전년 +163, **-25%**)·상위 1% **+1,330**(전년 +1,759, **-25%**) → *데모 증가량이 개별 게임 가시성을 직접 잠식*. Godot 점유 9.2%→**12.6%**, AI 콘텐츠 공시 데모 21.2%→**26.5%**
+
+> 💡 **필터버블·모노컬처 소멸 (2026-06):** 상위권을 하나의 트렌드로 요약 불가 — 협동 디퓨절·솔로 터릿심·솔로 ARPG·소울라이크 추출·RTS·한국 MMO가 혼재. Carless: *"모노컬처는 사라졌고, 게임은 분리된 미디어 채널의 필터버블을 통해 발견된다."* → 단일 대형 태그 클러스터를 노리기보다 *특정 버블 정조준*이 유효.
 
 > ⚠️ 알고리즘은 *성향 매칭(propensity)*을 본다. 게임 장르·태그·플레이 패턴이 명확할수록 유리. 타겟이 모호한 게임은 노출 자체가 줄어드는 구조.
 
@@ -110,6 +113,10 @@ confidence: high
 2026-06 Steam 홈페이지 리뉴얼의 **Personal Calendar**(향후 30일 출시작)는 *소유가 아니라 playtime-profile 성향 매칭*으로 추천 → 넥스트 페스트 알고리즘의 propensity 원리가 *상시 홈페이지 디스커버리*로 확장됐다. 사전 위시리스트 폭증 관측(Solarpunk 14k~35k/일, 한 게임 300-500 → 5-6k/일, 프론트 위젯 노출 시 10k/일).
 
 > ⚠️ 단 *drive-by·캐주얼 위시리스트*라 D1 전환율은 낮을 수 있음 — velocity 신호로는 강력하나 출시 매출 보장은 아니다. *공개 관심이 없는 게임은 이것으로도 못 구한다.*
+
+**Popular Upcoming 문턱 상향 (2026-06)** ([[zukowski-personal-calendar-launch]]): 같은 시기 Valve가 **Popular Upcoming 진입 기준을 위시리스트 ~7,000개 → ~10만개 (~14배)로 상향**(Zukowski 추정치)해 인디 커뮤니티가 반발. Personal Calendar는 그 충격을 부분 상쇄하는 *보상 가시성*으로 작동 — 대형 게임 전용이 된 Popular Upcoming을 인디는 Personal Calendar로 우회해 출시 전 위시리스트를 미리 쌓는 구조.
+
+> ⚠️ 7천→10만은 **Valve 비공식 추정치**라 절대 수치는 정량 모델에 직접 쓰지 말 것. 다만 *대형 게임 쏠림 가속 + 인디 진입 면(面) 이동*이라는 방향성 시그널은 사전 가시성 전략에서 무시 못 할 요소.
 
 ## 추가 조사 주제
 

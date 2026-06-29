@@ -2,6 +2,25 @@
 title: "활동 로그"
 ---
 
+## [2026-06-29] update | steam-launch-strategy deck — Source Radar 신규 3건 반영 (concept → deck 동기화, 정석 a)
+- 트리거: 위 ingest 3건(June Next Fest·Small Spaces·Personal Calendar)을 기존 분석 deck에 반영할지 사용자 검토 → ①②③ 모두 반영, concept 먼저 보강 후 deck 동기화 방식 선택
+- concept 보강:
+  - concepts/steam-next-fest.md — 알고리즘 타임라인에 2026-06 추가(데모 4,382 +66%·상위 팔로워 -25%·Godot 12.6%·AI공시 26.5%) + 필터버블 블록 + Popular Upcoming ~7천→~10만 문턱·Personal Calendar 보상 가시성. sources +2(carless-next-fest-june-2026·zukowski-personal-calendar-launch), updated
+  - concepts/marketing-strategy.md — "출시 후 롱테일 — 지속 발견 설계 (Small Spaces)" 섹션 신설(Week1→Year1 14.3x·Unpacking Mode·Sims 인접 ~50% overlap·숏폼). sources +1(carless-small-spaces-longtail), updated
+- deck(steam-launch-strategy-deck.html): 신규 슬라이드 27 "2026-06 디스커버리 변화"(①넥페 공급폭증+③Popular Upcoming·Personal Calendar) launch 섹션 끝 삽입 + 슬라이드 32(캡콤 카탈로그) callout에 ②Small Spaces 인디 롱테일 14.3x 실증 통합. page-num 36→37 전체 재넘버링(POST 슬라이드 +1), 버전 스탬프 v1·36slides → v2·37slides. JS는 querySelectorAll('.slide') 자동 카운트라 nav-dots 무수정
+- wrapper(steam-launch-strategy.md): sources frontmatter +3·updated·인트로 장수 35→37·구조 2부 12→13장(신규 항목)·4부 2→3장(시뮬레이터 누락 정정)·주요 출처 3행 추가
+- 미push: 사용자 검토 후 deck push + (확인 시)단독본 재생성·챗봇 재색인 진행 예정
+
+## [2026-06-29] ingest | Source Radar 후보 3건 — June 2026 Next Fest·Small Spaces 롱테일·Personal Calendar 출시 영향
+- Source: source radar 루틴(주간 외부 소스 스캔) 결과 중 추천 후보 ①②③ (사용자 "1,2,3 하자" 선택)
+- 생성:
+  - sources/carless-next-fest-june-2026.md (Carless 2026-06-23, 페이월·confidence medium — 데모 4,382개 +66%·상위 팔로워 -25%·Godot 12.6%·필터버블 테제)
+  - sources/carless-small-spaces-longtail.md (Carless 2026-06-26, 페이월·confidence medium — Week1→Year1 14.3x·Unpacking Mode·Sims 인접 50% overlap·숏폼 1,100만 뷰)
+  - sources/zukowski-personal-calendar-launch.md (Zukowski 2026-06-25 — Popular Upcoming 문턱 ~7천→~10만 위시리스트·Personal Calendar 보상 가시성, 정량 없음)
+- 업데이트(양방향): carless-steam-personal-calendar-2026-06.md(zukowski 페이지로 짝 자료 교차링크 — 데이터 각도 ↔ 정책·실무 각도)
+- 카탈로그: index.md(소스 130→133·날짜 2026-06-29), sources/all.md(행 3·총계 130→133)
+- 신규성 포인트: 기존 Next Fest 자료(2026-02)의 6월 시계열 갱신 + 롱테일·인접 오디언스 침투 신규 케이스 + Popular Upcoming 10만 문턱이라는 신규 정책 데이터. 새 concept/entity 없이 source-summary 3건만 추가
+
 ## [2026-06-23] ingest | 미야모토 시게루 × 이토이 시게사토 신년 대담 (호보니치 2024, 전 12회)
 - Source: C:/Users/bmjlee/Downloads/시게루-이토이대담.md (호보니치 「시게루 대담」 신년 연재 2024-01-01~01-11 한국어 번역 전문, 1차 사료). 사용자 요청으로 가치 평가 후 ingest
 - 생성:

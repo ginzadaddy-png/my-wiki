@@ -1,10 +1,10 @@
 ---
 title: "마케팅 전략"
 type: concept
-sources: ["[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc24-steam-secrets]]", "[[airbridge-steam-marketing-playbook]]", "[[gdc26-steam-page-needs-soul]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[gdc26-integrated-marketing]]", "[[gdc26-game-trailers]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[steam-page-optimization-guide-2026]]", "[[game-marketing-strategy-2026]]", "[[indiebi-game-pricing-strategy]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[capcom-fy26-ir]]", "[[zrconsulting-steam-forecaster-2026]]"]
+sources: ["[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc24-steam-secrets]]", "[[airbridge-steam-marketing-playbook]]", "[[gdc26-steam-page-needs-soul]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[gdc26-integrated-marketing]]", "[[gdc26-game-trailers]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[steam-page-optimization-guide-2026]]", "[[game-marketing-strategy-2026]]", "[[indiebi-game-pricing-strategy]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[capcom-fy26-ir]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-small-spaces-longtail]]"]
 related: ["[[mint-rocket|민트로켓]]", "[[dave-the-diver|데이브 더 다이버]]", "[[balatro|발라트로]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]"]
 created: 2026-04-13
-updated: 2026-05-18
+updated: 2026-06-29
 confidence: high
 ---
 
@@ -230,3 +230,14 @@ ZR Forecaster의 paid acquisition signals:
 - 60%+ 시 wishlist count가 실제 매출 예측에 *과대평가*되는 상태
 
 → wishlist 절대 수치만 보고 매출 예측하지 말 것. *paid 비중을 함께 검토*해야 함.
+
+## 출시 후 롱테일 — 지속 발견 설계 (Small Spaces 사례) ([[carless-small-spaces-longtail]])
+
+런치 모멘텀이 아니라 *출시 후 콘텐츠 업데이트 + 인접 오디언스 침투*로 매출을 키운 인디 사례. 아파트 꾸미기 게임 Small Spaces는 **Week1 9,980장/$97K → Year1 141,000장/$1.4M = 14.3x 매출**(업계 median 2.7x 대비 이례적)을 기록.
+
+**2단 재점화 메커니즘**
+1. **2025-11 콘텐츠 업데이트** (Unpacking Mode — 커뮤니티 제작 방) + Steam Daily Deal + 신규 크리에이터 ~700명 → 1차 스파이크
+2. **2026-02 숏폼 캠페인**: 크리에이터 영상 1,100만 뷰·100만 좋아요 + 유료 숏폼 묶음 ~100만 뷰 추가 → 2차 스파이크
+- 핵심: **The Sims 4·House Flipper 인접 오디언스(~50% overlap)**를 숏폼으로 정조준 침투
+
+> 💡 **핵심 인사이트:** "쉽게 시작하되 끝없이 깊어지는" 설계로 *지속 발견(continuous discovery)*의 토대를 만들고, GaaS식 패치·디스코드·커뮤니티 콘텐츠로 *재점화 계기*를 주기적으로 생성. 오가닉 크리에이터 도입 → *유료 숏폼으로 인접 장르 오디언스 정조준* 확장. 출시 한 번의 폭발이 아니라 **업데이트마다 새 발견 계기를 설계**하는 것이 롱테일의 본질. (대형 시리즈 IP의 [[catalog-economics|카탈로그 롱테일]]과 달리, 단일작 인디도 *콘텐츠 리듬 + 인접 오디언스*로 롱테일을 만들 수 있음을 보여준 케이스)
