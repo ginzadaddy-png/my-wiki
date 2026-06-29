@@ -233,7 +233,7 @@ ZR Forecaster의 paid acquisition signals:
 
 ## 출시 후 롱테일 — 지속 발견 설계 (Small Spaces 사례) ([[carless-small-spaces-longtail]])
 
-런치 모멘텀이 아니라 *출시 후 콘텐츠 업데이트 + 인접 오디언스 침투*로 매출을 키운 인디 사례. 아파트 꾸미기 게임 Small Spaces는 **Week1 9,980장/$97K → Year1 141,000장/$1.4M = 14.3x 매출**(업계 median 2.7x 대비 이례적)을 기록.
+런치 모멘텀이 아니라 *출시 후 콘텐츠 업데이트 + 인접 오디언스 침투*로 매출을 키운 인디 사례. 아파트 꾸미기 게임 Small Spaces는 **Week1 9,980장 / \$97K → Year1 141,000장 / \$1.4M = 14.3x 매출**(업계 median 2.7x 대비 이례적)을 기록.
 
 **2단 재점화 메커니즘**
 1. **2025-11 콘텐츠 업데이트** (Unpacking Mode — 커뮤니티 제작 방) + Steam Daily Deal + 신규 크리에이터 ~700명 → 1차 스파이크
