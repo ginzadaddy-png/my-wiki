@@ -114,7 +114,7 @@ confidence: high
 
 > ⚠️ 단 *drive-by·캐주얼 위시리스트*라 D1 전환율은 낮을 수 있음 — velocity 신호로는 강력하나 출시 매출 보장은 아니다. *공개 관심이 없는 게임은 이것으로도 못 구한다.*
 
-**Popular Upcoming 문턱 상향 (2026-06)** ([[zukowski-personal-calendar-launch]]): 같은 시기 Valve가 **Popular Upcoming 진입 기준을 위시리스트 ~7,000개 → ~10만개 (~14배)로 상향**(Zukowski 추정치)해 인디 커뮤니티가 반발. Personal Calendar는 그 충격을 부분 상쇄하는 *보상 가시성*으로 작동 — 대형 게임 전용이 된 Popular Upcoming을 인디는 Personal Calendar로 우회해 출시 전 위시리스트를 미리 쌓는 구조.
+**Popular Upcoming 문턱 상향 (2026-06)** ([[zukowski-personal-calendar-launch]]): 같은 시기 Valve가 **Popular Upcoming 진입 기준을 위시리스트 약 7,000개 → 약 10만 개 (약 14배)로 상향**(Zukowski 추정치)해 인디 커뮤니티가 반발. Personal Calendar는 그 충격을 부분 상쇄하는 *보상 가시성*으로 작동 — 대형 게임 전용이 된 Popular Upcoming을 인디는 Personal Calendar로 우회해 출시 전 위시리스트를 미리 쌓는 구조.
 
 > ⚠️ 7천→10만은 **Valve 비공식 추정치**라 절대 수치는 정량 모델에 직접 쓰지 말 것. 다만 *대형 게임 쏠림 가속 + 인디 진입 면(面) 이동*이라는 방향성 시그널은 사전 가시성 전략에서 무시 못 할 요소.
 

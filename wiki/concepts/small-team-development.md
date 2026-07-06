@@ -18,7 +18,7 @@ confidence: high
 - 엔진에 손대지 않기: 버전 업 비용 방지, 최신 버그 수정 무상 획득 (샌드폴)
 - 서드파티 플러그인·UE 마켓플레이스 적극 활용 (샌드폴)
 - UE5 고수준 기능(루멘, 나나이트, 메타사운드, 메타휴먼)을 한계까지 밀어붙이기
-- *아트 파이프라인 공유*: Embark는 Arc Raiders + The Finals가 같은 Houdini/USD 파이프라인 공유 → 멀티 프로젝트 가능 → [[art-pipeline-design|아트 파이프라인 설계]]. ⚠️ 흔히 인용되는 "360명"은 **회사 전체 규모**(엠바크 자사 목표 표현; 제3자 집계는 ~300명대)이지 *특정 게임 개발팀이 아니다* — Arc Raiders 프로젝트 팀은 리셋 후 ~25명 코어(아래 6번)
+- *아트 파이프라인 공유*: Embark는 Arc Raiders + The Finals가 같은 Houdini/USD 파이프라인 공유 → 멀티 프로젝트 가능 → [[art-pipeline-design|아트 파이프라인 설계]]. ⚠️ 흔히 인용되는 "360명"은 **회사 전체 규모**(엠바크 자사 목표 표현; 제3자 집계는 약 300명대)이지 *특정 게임 개발팀이 아니다* — Arc Raiders 프로젝트 팀은 리셋 후 약 25명 코어(아래 6번)
 
 **3. 범위 통제**
 - 불필요한 콘텐츠 과감히 삭제: 아스트로봇 오픈 레벨 1개 폐기
@@ -41,7 +41,7 @@ confidence: high
 
 **7. 제약으로 공통 언어 만들기 (Asobo)**
 
-[[asobo-studio|Asobo Studio]] (~20명 아티스트, [[a-plague-tale-requiem|A Plague Tale: Requiem]]):
+[[asobo-studio|Asobo Studio]] (약 20명 아티스트, [[a-plague-tale-requiem|A Plague Tale: Requiem]]):
 - "One Time Period, One Place, One Style" — 중세·남부 프랑스·클로드 로랭 회화로 창작 범위 고정
 - 레이토모티프 "Focus on what matters": Megascans 보조 에셋 대체, Midpoly 메시, Displacement→Blend Map 재활용
 - Fast Level Building: Day 1 블록아웃 → 1~2주 폴리시 — 방향 검증 먼저, 완성도는 나중
@@ -56,8 +56,8 @@ confidence: high
 
 **9. 스케일업의 함정 — 헬다이버스 2 반면교사 ([[arrowhead-game-studios|애로우헤드]])**
 
-~105명으로 2,000만+ 히트를 낸 [[helldivers-2|헬다이버스 2]]는 "소규모 대작"의 전형이지만, *어떻게 만들면 안 되는지*도 함께 보여준다:
-- 개발 시작 ~20명 → 출시 ~105명 → 현재 ~130명. 그러나 총 7년 11개월(계획보다 4년+ 초과)
+약 105명으로 2,000만+ 히트를 낸 [[helldivers-2|헬다이버스 2]]는 "소규모 대작"의 전형이지만, *어떻게 만들면 안 되는지*도 함께 보여준다:
+- 개발 시작 약 20명 → 출시 약 105명 → 현재 약 130명. 그러나 총 7년 11개월(계획보다 4년+ 초과)
 - 원인: **프리프로덕션(비전·범위 검증)을 생략하고 곧장 대규모 프로덕션 직행** — Pilestedt "정말 나쁜 생각이었다"
 - 교훈(차기작): *작은 팀으로 프리프로덕션부터.* → 위 8번(닌텐도 최소 인원 시작)·[[rapid-prototyping|검증 먼저]]와 정확히 수렴. **검증 없이 스케일업하면 결정 비용을 가장 비싼 단계(프로덕션)에서 치른다.**
 

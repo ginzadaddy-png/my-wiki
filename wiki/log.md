@@ -40,7 +40,7 @@ title: "활동 로그"
 - 미push — 사용자 검토 후 직접 — Source Radar 신규 3건 반영 (concept → deck 동기화, 정석 a)
 - 트리거: 위 ingest 3건(June Next Fest·Small Spaces·Personal Calendar)을 기존 분석 deck에 반영할지 사용자 검토 → ①②③ 모두 반영, concept 먼저 보강 후 deck 동기화 방식 선택
 - concept 보강:
-  - concepts/steam-next-fest.md — 알고리즘 타임라인에 2026-06 추가(데모 4,382 +66%·상위 팔로워 -25%·Godot 12.6%·AI공시 26.5%) + 필터버블 블록 + Popular Upcoming ~7천→~10만 문턱·Personal Calendar 보상 가시성. sources +2(carless-next-fest-june-2026·zukowski-personal-calendar-launch), updated
+  - concepts/steam-next-fest.md — 알고리즘 타임라인에 2026-06 추가(데모 4,382 +66%·상위 팔로워 -25%·Godot 12.6%·AI공시 26.5%) + 필터버블 블록 + Popular Upcoming 약 7천→약 10만 문턱·Personal Calendar 보상 가시성. sources +2(carless-next-fest-june-2026·zukowski-personal-calendar-launch), updated
   - concepts/marketing-strategy.md — "출시 후 롱테일 — 지속 발견 설계 (Small Spaces)" 섹션 신설(Week1→Year1 14.3x·Unpacking Mode·Sims 인접 ~50% overlap·숏폼). sources +1(carless-small-spaces-longtail), updated
 - deck(steam-launch-strategy-deck.html): 신규 슬라이드 27 "2026-06 디스커버리 변화"(①넥페 공급폭증+③Popular Upcoming·Personal Calendar) launch 섹션 끝 삽입 + 슬라이드 32(캡콤 카탈로그) callout에 ②Small Spaces 인디 롱테일 14.3x 실증 통합. page-num 36→37 전체 재넘버링(POST 슬라이드 +1), 버전 스탬프 v1·36slides → v2·37slides. JS는 querySelectorAll('.slide') 자동 카운트라 nav-dots 무수정
 - wrapper(steam-launch-strategy.md): sources frontmatter +3·updated·인트로 장수 35→37·구조 2부 12→13장(신규 항목)·4부 2→3장(시뮬레이터 누락 정정)·주요 출처 3행 추가
@@ -51,7 +51,7 @@ title: "활동 로그"
 - 생성:
   - sources/carless-next-fest-june-2026.md (Carless 2026-06-23, 페이월·confidence medium — 데모 4,382개 +66%·상위 팔로워 -25%·Godot 12.6%·필터버블 테제)
   - sources/carless-small-spaces-longtail.md (Carless 2026-06-26, 페이월·confidence medium — Week1→Year1 14.3x·Unpacking Mode·Sims 인접 50% overlap·숏폼 1,100만 뷰)
-  - sources/zukowski-personal-calendar-launch.md (Zukowski 2026-06-25 — Popular Upcoming 문턱 ~7천→~10만 위시리스트·Personal Calendar 보상 가시성, 정량 없음)
+  - sources/zukowski-personal-calendar-launch.md (Zukowski 2026-06-25 — Popular Upcoming 문턱 약 7천→약 10만 위시리스트·Personal Calendar 보상 가시성, 정량 없음)
 - 업데이트(양방향): carless-steam-personal-calendar-2026-06.md(zukowski 페이지로 짝 자료 교차링크 — 데이터 각도 ↔ 정책·실무 각도)
 - 카탈로그: index.md(소스 130→133·날짜 2026-06-29), sources/all.md(행 3·총계 130→133)
 - 신규성 포인트: 기존 Next Fest 자료(2026-02)의 6월 시계열 갱신 + 롱테일·인접 오디언스 침투 신규 케이스 + Popular Upcoming 10만 문턱이라는 신규 정책 데이터. 새 concept/entity 없이 source-summary 3건만 추가
@@ -96,7 +96,7 @@ title: "활동 로그"
   - concepts/player-retention.md (지표·측정 — D1/D7/D30·classic vs rolling·DAU/MAU·벤치마크)
   - concepts/engagement-loop.md (설계·이론 + 윤리·규제 압축 — 루프 네스팅·스킬 아톰·Hook·다크패턴·FTC·WHO·루트박스)
 - 업데이트: live-service-design.md·player-trust-design.md (related 양방향), index.md(개념 58→60·날짜·pill 2), concepts/all.md(행 2·날짜)
-- 주요 정정(스캐폴드 오류 검증): 다크패턴 3분류 3번째 "심리형"→"사회적 자본형"(Zagal 2013) / 리텐션 벤치마크 D1 30-35%는 중앙값 아닌 iOS 상위25%(GA Q1'24 중앙값 D1 22.91%·D7 4.2%·D28 0.85%) / DAU/MAU 우수 0.5+→30%+ / Genshin ~$50억→~$3.7B(모바일·Sensor Tower) / Hades 100만 2020.12→2020-09-20 / Fortnite 배틀패스 시즌2 2018→2017-12 / CoC ~$70억→~$6B / FTC 합의 총 $520M 명확화
+- 주요 정정(스캐폴드 오류 검증): 다크패턴 3분류 3번째 "심리형"→"사회적 자본형"(Zagal 2013) / 리텐션 벤치마크 D1 30-35%는 중앙값 아닌 iOS 상위25%(GA Q1'24 중앙값 D1 22.91%·D7 4.2%·D28 0.85%) / DAU/MAU 우수 0.5+→30%+ / Genshin 약 $50억→약 $3.7B(모바일·Sensor Tower) / Hades 100만 2020.12→2020-09-20 / Fortnite 배틀패스 시즌2 2018→2017-12 / CoC 약 $70억→약 $6B / FTC 합의 총 $520M 명확화
 - 기각(적대 검증 0-3): "루프=리텐션 / 아크=소진" 강한 인과 단정 → 위키 단정 회피
 - 미확인(추정 표기): 표준 시즌 9-13주·Fortnite 등록 3.5억
 

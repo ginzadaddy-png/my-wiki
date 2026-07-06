@@ -23,4 +23,4 @@ confidence: medium
 
 > 💡 **핵심 인사이트:** 클릭 없이 홈페이지에서 노출되는 구조라 위시리스트 속도(velocity)를 가속. 단 *"drive-by·캐주얼 위시리스트"*라 **D1 전환율은 낮을 수 있음** — 향후 할인 캠페인엔 유용하나 출시 매출 보장은 아님. *"공개적 관심이 없는 게임은 이것으로도 못 구한다"*는 캐비엣 명시.
 
-> 관련: [[zukowski-personal-calendar-launch|Zukowski — Personal Calendar와 Popular Upcoming 10만 문턱]] — 같은 기능을 *정책·출시 실무* 각도에서 본 짝 자료. (Popular Upcoming 문턱 ~7천→~10만 위시리스트 상향)
+> 관련: [[zukowski-personal-calendar-launch|Zukowski — Personal Calendar와 Popular Upcoming 10만 문턱]] — 같은 기능을 *정책·출시 실무* 각도에서 본 짝 자료. (Popular Upcoming 문턱 약 7천→약 10만 위시리스트 상향)

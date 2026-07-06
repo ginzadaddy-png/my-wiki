@@ -41,7 +41,7 @@ confidence: high
 - [[indiebi-game-pricing-strategy]] · [[missing-middle-paradigm-shift-2026]] · [[gdc26-newzoo-market-analysis]] — 가격대 지형 ($30 미만 +156% / $30-50 +195% / $70+ 정체)
 - [[carless-next-fest-june-2026]] — GameDiscoverCo Carless · 2026-06 Next Fest 데모 4,382(+66%) · 상위 가시성 −25% · Godot 12.6% · 필터버블
 - [[carless-small-spaces-longtail]] — GameDiscoverCo Carless · Small Spaces Week1→Year1 14.3× · 콘텐츠 리듬 + Sims 인접 ~50% overlap 숏폼
-- [[zukowski-personal-calendar-launch]] — How To Market A Game Zukowski · Popular Upcoming ~7천→~10만 문턱 · Personal Calendar 보상 가시성
+- [[zukowski-personal-calendar-launch]] — How To Market A Game Zukowski · Popular Upcoming 약 7천→약 10만 문턱 · Personal Calendar 보상 가시성
 
 ## 관련 위키 페이지
 
