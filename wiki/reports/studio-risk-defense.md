@@ -10,10 +10,10 @@ confidence: high
 
 인재 파이프라인과 멀티 프로젝트 개발을 *리스크 중심으로 재구성*한 22장 슬라이드. 정리해고·자원 잠식·인재 유실이라는 3대 구조 리스크를 진단하고, 이를 차단하는 5축 방어 메커니즘(상시 채용+세대 혼합, 유동 배치, 이너소스, 카탈로그 이코노믹스, 도구화)을 케이스로 검증. 한국 시장·Nexon Games 적용 시사점까지 포함.
 
-<p><strong>전체 화면으로 보기</strong>: <a href="https://ginzadaddy-png.github.io/quartz/presentations/studio-risk-defense-deck.html" target="_blank" rel="noopener">슬라이드 열기 ↗</a></p>
+<p><strong>전체 화면으로 보기</strong>: <a href="https://ginzadaddy-png.github.io/quartz/reports/studio-risk-defense-deck.html" target="_blank" rel="noopener">슬라이드 열기 ↗</a></p>
 
 <iframe
-  src="https://ginzadaddy-png.github.io/quartz/presentations/studio-risk-defense-deck.html"
+  src="https://ginzadaddy-png.github.io/quartz/reports/studio-risk-defense-deck.html"
   width="100%"
   height="600"
   style="border: 1px solid var(--lightgray); border-radius: 6px;"

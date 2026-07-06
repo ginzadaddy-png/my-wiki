@@ -10,7 +10,7 @@ Last updated 2026-07-06
   <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">33</span></a></div>
   <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">67</span></a></div>
   <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">18</span></a></div>
-  <div class="stat-card"><a href="presentations/all.md" class="internal"><span class="stat-label">프레젠테이션</span><span class="stat-num">3</span></a></div>
+  <div class="stat-card"><a href="reports/all.md" class="internal"><span class="stat-label">보고서</span><span class="stat-num">3</span></a></div>
 </div>
 
 ---
@@ -134,14 +134,14 @@ Last updated 2026-07-06
 
 ---
 
-## 프레젠테이션 (Presentations)
+## 보고서 (Reports)
 
-위키 콘텐츠를 슬라이드로 재구성한 HTML 발표 자료. 전체 카탈로그는 [[presentations/all|프레젠테이션 카탈로그]] 참조.
+위키 소스를 재구성한 발표 deck·분석 보고서·소스 기반 아티클. 전체 카탈로그는 [[reports/all|보고서 카탈로그]] 참조.
 
 <div class="pill-grid">
 
-- [[presentations/steam-launch-strategy|스팀 신규 게임 출시의 성공 방정식 — Pre·Launch·Post funnel · 8 driver 정량 모델]]
-- [[presentations/studio-risk-defense|스튜디오 리스크 방어 — 정리해고·자원 잠식·인재 유실을 차단하는 5축 메커니즘]]
-- [[presentations/ai-asset-pipeline-2026-report|AI 게임 에셋 산업화 파이프라인 — 분석 보고서: 표준·생성·조직 세 계층 + Light AI·Embark 파이프라인 심층 프로파일]]
+- [[reports/steam-launch-strategy|스팀 신규 게임 출시의 성공 방정식 — Pre·Launch·Post funnel · 8 driver 정량 모델]]
+- [[reports/studio-risk-defense|스튜디오 리스크 방어 — 정리해고·자원 잠식·인재 유실을 차단하는 5축 메커니즘]]
+- [[reports/ai-asset-pipeline-2026-report|AI 게임 에셋 산업화 파이프라인 — 분석 보고서: 표준·생성·조직 세 계층 + Light AI·Embark 파이프라인 심층 프로파일]]
 
 </div>

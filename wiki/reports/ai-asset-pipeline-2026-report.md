@@ -10,10 +10,10 @@ confidence: high
 
 AI 게임 에셋 산업화 파이프라인의 2026년 기술 지형을 *표준층·생성층·조직층* 세 계층으로 다룬 장문 분석 보고서. "개별 생성(single-point)"의 한계에서 출발해 OpenUSD 표준화·3D 생성 모델 스택·Game Ready 천장·Houdini 오케스트레이션·개발자 저항(METR·GDC)을 짚고, **Light AI(텐센트 라이트스피드)와 Embark의 빠른 캐릭터 제작 파이프라인을 심층 프로파일**로 대비한다. 도식 9종 + 실제 발표 이미지 수록. 모든 기술·수치는 1차 출처 검증을 거쳤다.
 
-<p><strong>전체 화면으로 보기</strong>: <a href="https://ginzadaddy-png.github.io/quartz/presentations/ai-asset-pipeline-2026-report-deck.html" target="_blank" rel="noopener">보고서 열기 ↗</a></p>
+<p><strong>전체 화면으로 보기</strong>: <a href="https://ginzadaddy-png.github.io/quartz/reports/ai-asset-pipeline-2026-report-deck.html" target="_blank" rel="noopener">보고서 열기 ↗</a></p>
 
 <iframe
-  src="https://ginzadaddy-png.github.io/quartz/presentations/ai-asset-pipeline-2026-report-deck.html"
+  src="https://ginzadaddy-png.github.io/quartz/reports/ai-asset-pipeline-2026-report-deck.html"
   width="100%"
   height="760"
   style="border: 1px solid var(--lightgray); border-radius: 6px;"

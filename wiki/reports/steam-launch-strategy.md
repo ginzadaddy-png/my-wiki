@@ -10,10 +10,10 @@ confidence: high
 
 인디·중소 스튜디오용 Steam 신규 게임 출시 종합 전략 deck. 마케팅에 국한하지 않고 *Pre-launch (장르·서브장르·가격·딜) → Launch (8 driver·conversion·buzz·review·timing) → Post-launch (회복·long tail)* 의사결정 흐름 전체를 정량 프레임으로 다룬다. Carless·Zukowski 1차 데이터 + ZR Forecaster 모델 종합, 37장.
 
-<p><strong>전체 화면으로 보기</strong>: <a href="https://ginzadaddy-png.github.io/quartz/presentations/steam-launch-strategy-deck.html" target="_blank" rel="noopener">슬라이드 열기 ↗</a></p>
+<p><strong>전체 화면으로 보기</strong>: <a href="https://ginzadaddy-png.github.io/quartz/reports/steam-launch-strategy-deck.html" target="_blank" rel="noopener">슬라이드 열기 ↗</a></p>
 
 <iframe
-  src="https://ginzadaddy-png.github.io/quartz/presentations/steam-launch-strategy-deck.html"
+  src="https://ginzadaddy-png.github.io/quartz/reports/steam-launch-strategy-deck.html"
   width="100%"
   height="600"
   style="border: 1px solid var(--lightgray); border-radius: 6px;"
