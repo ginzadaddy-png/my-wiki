@@ -2,10 +2,12 @@
 title: "소스 전체 목록"
 ---
 
-총 142개 | 최신순 정렬
+총 144개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [gdc-helldivers2-team-scaling](gdc-helldivers2-team-scaling.md) | GDC — 헬다이버스 2 팀 규모 스케일링 (20→105→130, Lemaire/Arrowhead) — 소규모 팀 대작 | 2025 |
+| [pilestedt-helldivers2-preproduction-lesson](pilestedt-helldivers2-preproduction-lesson.md) | 헬다이버스 2 개발 교훈 — 프리프로덕션 생략으로 4년+ 초과 (Pilestedt) — 검증 먼저·작게 시작 | 2025 |
 | [naavik-creator-led-growth](naavik-creator-led-growth.md) | Naavik — The Next Wave of Creator-Led Growth (크리에이터를 커머스 인프라로, Bush) — 크리에이터 코드 GMV·LTV·멱법칙 | 2026-07-05 |
 | [zukowski-demos-wishlist-conversion](zukowski-demos-wishlist-conversion.md) | How To Market A Game — 데모 대부분은 위시리스트로 안 이어진다 (Zukowski) — 전환율 19.3% median·Sickos | 2026-06-30 |
 | [carless-meccha-chameleon-breakout](carless-meccha-chameleon-breakout.md) | GameDiscoverCo — Meccha Chameleon 브레이크아웃 해부 ($6·1,150만 장, Carless) — 포맷형 히트·프로토타입 축적 | 2026-06-30 |

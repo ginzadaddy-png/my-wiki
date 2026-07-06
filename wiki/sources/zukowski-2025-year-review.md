@@ -15,7 +15,7 @@ source_published: 2026-01-27
 
 Zukowski의 연례 *Steam 출시 전수 분석*. 2025년 출시 20,282 게임 중 1,000+ review 달성 *608개 (2.99%) — 역대 최고*. "인디 골든 에이지" 가설의 정량 증거. ZR Consulting Forecaster가 인용한 "Open World Survival Craft 24.5%" 수치는 *2024 데이터*이며 *2025에는 20.8%로 하락*. 위키 [[steam-revenue-forecasting]] 매트릭스 *재정정 필요*.
 
-> 💡 **핵심 인사이트:** Steam 출시 시장은 *통념과 달리 매년 거의 같은 장르가 hit*. Top 10 중 9개가 전년과 동일. 단 narrative 게임이 2025년 #1로 부상 — 중국 FMV games 영향. NSFW는 *flood 통념과 달리 10% 일정*. 진짜 변화는 "indie 1000-review 달성률"이 매년 점진 상승 (2.74%→2.99%) — 시장이 커지면서 hit 절대 수도 증가.
+> 💡 **핵심 인사이트:** Steam 출시 시장은 *통념과 달리 매년 거의 같은 장르가 hit*. Top 10 중 9개가 전년과 동일. 단 narrative 게임이 2025년 1위로 부상 — 중국 FMV games 영향. NSFW는 *flood 통념과 달리 10% 일정*. 진짜 변화는 "indie 1000-review 달성률"이 매년 점진 상승 (2.74%→2.99%) — 시장이 커지면서 hit 절대 수도 증가.
 
 ## 분석 방법론
 

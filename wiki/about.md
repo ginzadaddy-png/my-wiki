@@ -18,16 +18,16 @@ confidence: high
 
 | 항목 | 수치 |
 |---|---|
-| 누적 INGEST 건수 | 88건 |
-| 소스 요약 (`wiki/sources/`) | 142개 |
+| 누적 INGEST 건수 | 90건 |
+| 소스 요약 (`wiki/sources/`) | 144개 |
 | 개념 페이지 (`wiki/concepts/`) | 67개 |
 | 엔티티 페이지 (스튜디오·게임·플랫폼, `wiki/entities/`) | 87개 |
 | 비교 페이지 (`wiki/comparisons/`) | 18개 |
-| 슬라이드 deck (HTML + wrapper) | 3개 ([[reports/steam-launch-strategy|Steam 출시 전략]] / [[reports/studio-risk-defense|스튜디오 리스크 방어]] / [[reports/ai-asset-pipeline-2026-report|AI 에셋 파이프라인 보고서]]) |
+| 보고서 (`wiki/reports/`) | 4개 — deck 3 ([[reports/steam-launch-strategy|Steam 출시 전략]] / [[reports/studio-risk-defense|스튜디오 리스크 방어]] / [[reports/ai-asset-pipeline-2026-report|AI 에셋 파이프라인 보고서]]) + 아티클 1 ([[reports/how-small-teams-ship-big-games|소규모 팀 종합]]) |
 | 챗봇 (위키 Q&A 에이전트) | RAG + graph hybrid, HF Spaces 배포 ([아래](#챗봇-위키-qa-에이전트) 참조) |
 | 마지막 갱신 | 2026-07-06 |
 
-총 약 326개 md 페이지가 wikilink로 연결되어 있고, 모두 frontmatter(`type`, `sources`, `related`, `confidence` 등) 기반으로 구조화되어 있어 graph 추론·검색에 활용되고 있습니다. 2026년 6월부터는 이 위키 전체를 검색·추론하는 **챗봇 에이전트**가 별도 트랙으로 가동 중입니다.
+총 약 328개 md 페이지가 wikilink로 연결되어 있고, 모두 frontmatter(`type`, `sources`, `related`, `confidence` 등) 기반으로 구조화되어 있어 graph 추론·검색에 활용되고 있습니다. 2026년 6월부터는 이 위키 전체를 검색·추론하는 **챗봇 에이전트**가 별도 트랙으로 가동 중입니다.
 
 ## 작업 환경
 
@@ -144,11 +144,14 @@ entity 페이지에는 `relations:` 필드(developedBy·publishedBy·parentOf·g
 
 ### DECISION
 
-본인의 결정이나 가설 검증을 wiki에 누적합니다. 결정 텍스트를 자유 채팅으로 던지면 템플릿에 분배해 `wiki/decisions/`에 정리하고, 근거가 된 concept 페이지에 양방향 링크를 답니다. 3·6·12개월 후 결과를 사후 갱신하는 archive 구조입니다.
+본인의 결정·가설 검증을 `wiki/decisions/`에 누적하도록 설계된 트랙입니다(자유 채팅으로 던진 결정을 템플릿에 분배 → 근거 concept에 양방향 링크 → 3·6·12개월 후 사후 갱신하는 archive 구조). 다만 실제 운영에서는 이 방식을 **채택하지 않기로 했습니다**(2026-07-06 결정) — 축적된 개념은 개별 decision 페이지가 아니라 아래 **보고서·아티클 트랙**으로 종합하는 것이 저자의 워크플로우에 더 맞기 때문입니다. 트랙 자체(템플릿·양방향 링크 인프라)는 필요 시 되살릴 수 있도록 남겨 둡니다.
 
-### 슬라이드 산출물
+### 보고서 산출물 (deck · 아티클)
 
-별도 트랙으로, `wiki/reports/[슬러그]-deck.html` + wrapper md 짝을 만들어 사이트에 iframe으로 embed합니다. Pretendard 단일 폰트, `-deck` 접미사 필수(Quartz slug 충돌 회피), wrapper는 결과물만 노출(작업 이력은 [[log]]에서) 같은 명명 규칙이 운영 지침에 박혀 있습니다.
+별도 트랙으로, 위키 소스를 재구성한 산출물을 `wiki/reports/`(사이트 표기 "보고서", 2026-07-06 `presentations/`에서 rename)에 모읍니다. 두 형식이 공존합니다:
+
+- **발표 deck** — `[슬러그]-deck.html` + wrapper md 짝을 사이트에 iframe으로 embed. Pretendard 단일 폰트, `-deck` 접미사 필수(Quartz slug 충돌 회피), wrapper는 결과물만 노출(작업 이력은 [[log]]에서) 같은 명명 규칙이 운영 지침에 박혀 있습니다.
+- **소스 종합 아티클** — `-deck`·iframe 없는 순수 .md 글. 두껍게 읽은 영역을 하나의 *관점적 논지*로 꿰되, 쓰기 전 **커버리지 감사**로 주장 범위를 자료가 받쳐주는 곳으로 제한하고 한계(생존자 편향 등)를 명시합니다. (장기 목표 "관점적 종합"의 실행 단위 — 아래 [진행 예정](#진행-예정) 참조)
 
 ## 챗봇 (위키 Q&A 에이전트)
 

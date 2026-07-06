@@ -2,6 +2,15 @@
 title: "활동 로그"
 ---
 
+## [2026-07-06] ingest | 헬다이버스 2 개발 프로세스 (팀 규모 + 프리프로덕션 교훈) — 소규모 팀 논지 보강
+- 트리거: 소규모 팀 종합 아티클(장기 종합 테스트) 근거 보강 — 사용자 "헬다이버스2 사례 + 발표자료 찾아보기"
+- Source: 웹 1차(GDC 발표·CEO 발언) 보도 — GamesRadar(Lemaire 팀규모)·PC Gamer/GamingBolt(Pilestedt 프리프로덕션). 1차 트랜스크립트 미확인 → confidence medium
+- 생성(sources 2): gdc-helldivers2-team-scaling(20→105→130명), pilestedt-helldivers2-preproduction-lesson(7년11개월·프리프로덕션 생략으로 4년+ 초과·차기작 작은팀 UE5·"모두를 위한 차는 누구를 위한 것도 아니다")
+- 보강: arrowhead-game-studios(개발 프로세스·팀 규모 섹션 신설 + sources·related), helldivers-2(개발 규모·기간 섹션 + sources), small-team-development(9번 "스케일업의 함정" 신설 + **Embark 360=회사 전체(개발팀 아님) 명확화** + sources·related)
+- 카탈로그: index(소스 142→144), sources/all(142→144·행 2), about(INGEST 88→90·소스 144·총 328)
+- 신규성: 기존 arrowhead/helldivers entity는 라이브서비스·게임마스터 각도만 존재 → 소규모·의사결정 각도 신규. HD2 = "소규모 대작"이자 "검증 없이 스케일업한 대가(4년+)"의 반전 사례로 논지를 부정형 입증
+- 미push — 커밋 대기 (사용자 지시)
+
 ## [2026-07-06] ingest | Source Radar 3건 (데모 전환·크리에이터 커머스·Meccha breakout)
 - 배경: 2026-07-06 source radar 주간 스캔 → 사용자가 추천 후보 1·2·3 전부 진행 지시
 - Source: 웹 1차·심층 소스 3건 (HTMAG·Naavik·GameDiscoverCo, 발행 2026-06-30~07-05)

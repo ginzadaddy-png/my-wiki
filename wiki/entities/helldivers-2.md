@@ -1,10 +1,10 @@
 ---
 title: "헬다이버스 2 (Helldivers 2)"
 type: entity
-sources: ["[[missing-middle-paradigm-shift-2026]]"]
-related: ["[[arrowhead-game-studios|애로우헤드]]", "[[live-service-design|라이브 서비스 설계]]", "[[community-management|커뮤니티 운영]]", "[[player-trust-design|플레이어 신뢰 설계]]"]
+sources: ["[[missing-middle-paradigm-shift-2026]]", "[[gdc-helldivers2-team-scaling]]", "[[pilestedt-helldivers2-preproduction-lesson]]"]
+related: ["[[arrowhead-game-studios|애로우헤드]]", "[[live-service-design|라이브 서비스 설계]]", "[[community-management|커뮤니티 운영]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[small-team-development|소규모 팀 개발]]"]
 created: 2026-04-23
-updated: 2026-06-01
+updated: 2026-07-06
 confidence: high
 relations:
   developedBy: [arrowhead-game-studios]
@@ -23,6 +23,11 @@ relations:
 | 판매량 | 2,000만장+ |
 | 수익 | $7억+ |
 | Steam 비중 | 1,310만장 (65%+) |
+
+## 개발 규모·기간 ([[gdc-helldivers2-team-scaling]] · [[pilestedt-helldivers2-preproduction-lesson]])
+
+- 개발팀: ~20명 시작 → 출시 시 ~105명 → 현재 ~130명 ([[small-team-development|소규모 팀]] 대작)
+- 개발 기간: 7년 11개월 — *프리프로덕션 생략*으로 계획보다 4년+ 초과 + 지원 종료 Stingray 엔진 부채. 차기작은 UE5·작은 팀 프리프로덕션
 
 ## 게임 마스터 '조엘' 시스템
 

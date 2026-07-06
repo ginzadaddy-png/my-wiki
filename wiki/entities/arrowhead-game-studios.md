@@ -1,10 +1,10 @@
 ---
 title: "애로우헤드 게임 스튜디오 (Arrowhead Game Studios)"
 type: entity
-sources: ["[[missing-middle-paradigm-shift-2026]]"]
-related: ["[[helldivers-2|헬다이버스 2]]", "[[live-service-design|라이브 서비스 설계]]", "[[community-management|커뮤니티 운영]]"]
+sources: ["[[missing-middle-paradigm-shift-2026]]", "[[gdc-helldivers2-team-scaling]]", "[[pilestedt-helldivers2-preproduction-lesson]]"]
+related: ["[[helldivers-2|헬다이버스 2]]", "[[live-service-design|라이브 서비스 설계]]", "[[community-management|커뮤니티 운영]]", "[[small-team-development|소규모 팀 개발]]", "[[rapid-prototyping|빠른 프로토타이핑]]"]
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-07-06
 confidence: high
 ---
 
@@ -22,6 +22,12 @@ confidence: high
 - 모토: **"모두를 위한 게임은 누구를 위한 게임도 아니다 (A game for everyone is a game for no one)"**
 - 목표: "다음 프롬소프트웨어 또는 블리자드가 되겠다"
 - CEO 샴스 조르자니: "우리는 콜 오브 듀티 600만 유저를 위해 게임을 만들지 않는다"
+
+## 개발 프로세스·팀 규모 ([[gdc-helldivers2-team-scaling]] · [[pilestedt-helldivers2-preproduction-lesson]])
+
+- **팀 규모**: [[helldivers-2]] 개발 시작 ~20명 → 출시(2024-02) ~105명 → 현재 ~130명. ~105명이 2,000만+ 히트 = [[small-team-development|소규모 팀]] 대작 전형
+- **프리프로덕션 생략의 대가**: 총 7년 11개월(계획보다 4년+ 초과). 원인은 *프리프로덕션 생략 후 프로덕션 직행* — Pilestedt: "정말 나쁜 생각. 수백만 달러 쓰기 전에 숙제부터." 지원 종료 Stingray 엔진 부채도 겹침
+- **교훈**: 차기작(UE5)은 *작은 팀으로 프리프로덕션 시작* → 검증 먼저·작게 시작 원칙([[rapid-prototyping]])을 자기비판으로 도출
 
 ## 헬다이버스 2 성과
 
