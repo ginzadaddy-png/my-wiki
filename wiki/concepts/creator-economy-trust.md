@@ -1,10 +1,10 @@
 ---
 title: "크리에이터 경제와 신뢰 — 세대별 신뢰 모델"
 type: concept
-sources: ["[[ign-generations-in-play-2026]]"]
+sources: ["[[ign-generations-in-play-2026]]", "[[naavik-creator-led-growth]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[community-management|커뮤니티 운영]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[ai-gamedev|게임 개발에서의 생성형 AI]]"]
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-07-06
 confidence: high
 ---
 
@@ -88,6 +88,29 @@ confidence: high
 - 해결: *콘텐츠 모드별 AI 사용 차등화* — 검색·요약은 AI OK, 의견·해석·신뢰 형성은 인간 voice 필수
 
 > 💡 **핵심 인사이트:** "Gen Z는 인플루언서를 신뢰한다"는 단순화는 틀렸다. Gen Z는 *engaged community와 함께 검증된 distinct voice*를 신뢰한다. 구독자 수가 많은 인플루언서라도 sterile broadcasting이면 즉시 거부. 신뢰는 일방 발신이 아닌 *대화의 결과*다.
+
+## 크리에이터 = 커머스 인프라 (신뢰의 매출화) ([[naavik-creator-led-growth]])
+
+세대별 *신뢰 모델*이 "왜 크리에이터가 통하는가"의 이론이라면, Naavik의 크리에이터-코드 데이터는 그 신뢰가 *어떻게 매출로 전환되는가*의 실증이다. 신뢰는 결제 마찰을 견디게 하는 통화다.
+
+**Tebex 리포트 데이터 (2024–2026)**
+
+| 지표 | 값 |
+|---|---|
+| 크리에이터 코드 GMV | $61.3M (플랫폼 매출 8.6→9.4%) |
+| 코드 사용자 중 첫 D2C 구매자 | 80.4% |
+| 신규 유입 LTV vs 기존 코드 사용 LTV | $81.18 vs $511.43 (6.3×) |
+| 거래액 증가 (코드 사용 시) | +31% 데스크톱 / +93% 모바일 웹 |
+| 상위 100 크리에이터(1.6%)의 GMV 점유 | 75.9% (멱법칙) |
+| Minecraft Java 코드 침투율 | 29.7% ($118.6M GMV) |
+
+**측정·설계 원칙**
+- 평가 기준: 팔로워 수 ✗ → **장르별 신뢰도 · LTV 기여 · 포지셔닝 정렬** ✓ (본 페이지의 "engagement 깊이" 명제와 정확히 일치)
+- 코드 UI를 "할인 필드"가 아니라 **후원·attribution**으로 재프레이밍
+- 상위 크리에이터에 VIP 대시보드·우대 정산
+- 런치(관심→전환) vs 리텐션(커뮤니티 혜택) 전략 분리
+
+> 💡 **핵심 인사이트:** "engaged community와 검증된 voice를 신뢰한다"는 명제의 매출판(版). 고인텐트 플레이어는 *지지하는 크리에이터와 연결되면 결제 마찰을 감수* — 신뢰가 곧 커머스 인프라다. 크리에이터 성과는 노출(reach)이 아니라 downstream 매출(LTV)로 측정해야 한다. D2C 웹샵 채널([[webshop-direct-monetization]])과 결합 시 플랫폼 수수료 회피 + 신뢰 기반 전환이 겹쳐 효과 극대화.
 
 ## 기존 위키와의 연결
 

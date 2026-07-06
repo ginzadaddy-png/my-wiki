@@ -10,13 +10,15 @@ sources: [
   "[[multiproject-innersource-report]]",
   "[[gcon2025-hashimoto-producer]]"
 ]
-related: ["[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[studio-culture|스튜디오 문화]]", "[[producer-role|프로듀서 역할]]"]
+related: ["[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[studio-culture|스튜디오 문화]]", "[[producer-role|프로듀서 역할]]", "[[studio-org-structure|스튜디오 조직 구조 비교]]"]
 created: 2026-04-16
-updated: 2026-04-28
+updated: 2026-07-06
 confidence: high
 ---
 
 게임 스튜디오가 팀을 어떻게 구성하고 조율하는가. 소규모 팀 개발이 "팀 규모"의 문제라면, 개발 조직 구조는 **팀을 어떻게 나누고 연결하는가**의 문제다.
+
+규모별(프롬소프트 300명·캡콤 2,500명·베데스다·스크럼 이론) 조직 구성 방식을 나란히 비교한 표는 → [[studio-org-structure|스튜디오 조직 구조 비교]] 참고.
 
 ## 팀 구성의 기본 단위
 

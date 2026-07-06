@@ -2,7 +2,33 @@
 title: "활동 로그"
 ---
 
-## [2026-06-29] update | steam-launch-strategy deck — Source Radar 신규 3건 반영 (concept → deck 동기화, 정석 a)
+## [2026-07-06] ingest | Source Radar 3건 (데모 전환·크리에이터 커머스·Meccha breakout)
+- 배경: 2026-07-06 source radar 주간 스캔 → 사용자가 추천 후보 1·2·3 전부 진행 지시
+- Source: 웹 1차·심층 소스 3건 (HTMAG·Naavik·GameDiscoverCo, 발행 2026-06-30~07-05)
+- 생성(sources): zukowski-demos-wishlist-conversion(Zukowski, 데모→위시리스트 19.3% median·Sickos)·naavik-creator-led-growth(Bush, 크리에이터 코드 GMV·LTV 6.3×·멱법칙)·carless-meccha-chameleon-breakout(Carless, $6·1,150만 장·포맷형 히트)
+- 업데이트(concepts): marketing-strategy(데모 전환율 truth·크리에이터 커머스·스트리머 breakout 3섹션 + sources 2건)·creator-economy-trust(크리에이터=커머스 인프라 섹션 + Tebex 표 + source)·rapid-prototyping(breakout의 그물 섹션 + source)
+- 업데이트(카탈로그): index.md(소스 139→142)·sources/all.md(139→142 + 3행)
+- entity: 신규 생성 안 함 — Meccha Chameleon은 source 본문 사례로만 언급(단발 breakout, entity 페이지 불요)
+- 미push — 사용자 검토 후. 챗봇 재색인도 확인 후
+
+## [2026-07-06] ingest | 전투·조력 AI 동반자 설계 (신규 축 — 스토리텔링이 아닌 전투 시스템 동반자)
+- 배경: 2026-07-06 lint 조사 2에서 식별한 갭(*액션·전투 AI 동반자*) 후속. 기존 companion-design·companion-philosophy(내러티브 축)와 별개 concept으로 분리, related 양방향 연결
+- Source: 웹 리서치 1차/준1차 6건 (GDC 강연·개발자 인터뷰)
+- 생성(concepts): combat-companion-ai (전투·조력 AI 동반자 설계, confidence medium)
+- 생성(sources): gdc14-tlou-buddy-ai(Dyckhoff/ND)·gdc14-elizabeth-ai-postmortem(Abercrombie/Irrational)·gdc06-fear-goap(Orkin/Monolith)·gdc05-halo2-ai-complexity(Isla/Bungie)·escort-mission-design-bycer(Bycer/Game Developer)·miyazaki-elden-ring-spirit-ashes(Miyazaki/FromSoftware)
+- 업데이트: companion-design·companion-philosophy(related 역링크)·index.md(개념 66→67·소스 133→139·pill·Last updated)·concepts/all.md·sources/all.md
+- entity: 신규 생성 안 함(사용자 결정) — BioShock·F.E.A.R.·Halo는 concept 본문 사례로만 언급, 기존 entity(elden-ring·the-last-of-us) 활용
+- 미push — 사용자 검토 후. 챗봇 재색인도 확인 후
+
+## [2026-07-06] lint | 주간 점검 + 사용자 지시 후속 조사 (조사 1·2·4 + 분기 검토)
+- 트리거: `LLM wiki lint` 주간 스케줄 실행 → 결과 보고 후 사용자가 추천 조사 1·2·4 진행 + 분기 검토 응답 지시
+- 자동 갱신(수치·날짜): about.md — 소스 125→133·개념 60→66·엔티티 85→87·비교 17→18·누적 INGEST 71→79·"총 약 299→316개 md"·통계 날짜/updated 2026-07-06. overview.md 변경 없음(커버리지·테마 정합)
+- 조사 1 (비교 4건 본문 재연결): 카탈로그에서만 링크되던 비교 4건을 개념 홈에서 양방향 연결 — rapid-prototyping→[[iteration-cycles]], marketing-strategy→[[marketing-channels]], playtesting→[[player-feedback]], dev-org-structure→[[studio-org-structure]] (related frontmatter + 본문 교차참조 라인, 각 updated 2026-07-06)
+- 조사 2 (companion 심화): 조사 결과 companion-design·[[companion-philosophy]]가 이미 confidence high·raw 완전 소진 상태로 확인 → 콘텐츠 편집 불필요. 진짜 갭은 *액션·전투 AI 동반자*(엘든링 유령·escort AI·TLOU 전투 AI)라는 별개 축 — 전용 sourced ingest 필요 후보로 보고만
+- 조사 4 (roguelike 1차 재검증): 2차 합성물(Gemini deepresearch) 플래그 해소 — Slay the Spire Ascension(A10 저주·A15 상점·A20 이중보스) 웹 재검증 *전부 정확 확인*. 하데스 형벌 규약은 오류 정정 — "개발사 공식 테스트 Heat 40"(미입증) 삭제, 현상금 상한 Heat 20·마지막 보상 Heat 32·이론상 최대 63(헬 64)로 교정. updated 2026-07-06
+- 분기 검토(7월 첫째 주): about.md 진행 예정 단기에서 **decisions 트랙 본격 가동 항목 제거**(사용자: 위키에 decision 안 올림, 슬라이드화가 실 워크플로우). 장기 "ingest 압축" 결과물 정의는 사용자 의견 대기 중
+- lint 점검 결과: 모순 0(문서화된 대립 4건 정상)·고립 0·미페이지 개념 0·raw 미처리 0
+- 미push — 사용자 검토 후 직접 — Source Radar 신규 3건 반영 (concept → deck 동기화, 정석 a)
 - 트리거: 위 ingest 3건(June Next Fest·Small Spaces·Personal Calendar)을 기존 분석 deck에 반영할지 사용자 검토 → ①②③ 모두 반영, concept 먼저 보강 후 deck 동기화 방식 선택
 - concept 보강:
   - concepts/steam-next-fest.md — 알고리즘 타임라인에 2026-06 추가(데모 4,382 +66%·상위 팔로워 -25%·Godot 12.6%·AI공시 26.5%) + 필터버블 블록 + Popular Upcoming ~7천→~10만 문턱·Personal Calendar 보상 가시성. sources +2(carless-next-fest-june-2026·zukowski-personal-calendar-launch), updated

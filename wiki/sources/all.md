@@ -2,10 +2,19 @@
 title: "소스 전체 목록"
 ---
 
-총 133개 | 최신순 정렬
+총 142개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [naavik-creator-led-growth](naavik-creator-led-growth.md) | Naavik — The Next Wave of Creator-Led Growth (크리에이터를 커머스 인프라로, Bush) — 크리에이터 코드 GMV·LTV·멱법칙 | 2026-07-05 |
+| [zukowski-demos-wishlist-conversion](zukowski-demos-wishlist-conversion.md) | How To Market A Game — 데모 대부분은 위시리스트로 안 이어진다 (Zukowski) — 전환율 19.3% median·Sickos | 2026-06-30 |
+| [carless-meccha-chameleon-breakout](carless-meccha-chameleon-breakout.md) | GameDiscoverCo — Meccha Chameleon 브레이크아웃 해부 ($6·1,150만 장, Carless) — 포맷형 히트·프로토타입 축적 | 2026-06-30 |
+| [gdc14-tlou-buddy-ai](gdc14-tlou-buddy-ai.md) | Endure and Survive: The AI of The Last of Us (Dyckhoff / Naughty Dog, GDC14) — 버디 AI·스텔스 투명화 | 2014-08 |
+| [gdc14-elizabeth-ai-postmortem](gdc14-elizabeth-ai-postmortem.md) | Bringing BioShock Infinite's Elizabeth to Life (Abercrombie / Irrational, GDC14) — 짐 아닌 동반자·무적·자원 공급 | 2014-03 |
+| [gdc06-fear-goap](gdc06-fear-goap.md) | Three States and a Plan: The AI of F.E.A.R. (Orkin / Monolith, GDC06) — GOAP·지능 착시 | 2006-03 |
+| [gdc05-halo2-ai-complexity](gdc05-halo2-ai-complexity.md) | Handling Complexity in the Halo 2 AI (Isla / Bungie, GDC05) — 지식 모델·속을 수 있는 AI | 2005-03 |
+| [escort-mission-design-bycer](escort-mission-design-bycer.md) | Can we Fix Escort Mission Game Design? (Bycer / Game Developer) — 호위 미션 실패 4대 원인·해법 | 2016-12 |
+| [miyazaki-elden-ring-spirit-ashes](miyazaki-elden-ring-spirit-ashes.md) | Elden Ring 디자인 인터뷰 — Spirit Ashes (Miyazaki / FromSoftware) — 어그로 분산·난이도 옵션 | 2022-03 |
 | [carless-small-spaces-longtail](carless-small-spaces-longtail.md) | GameDiscoverCo — Small Spaces가 1년 만에 Week1의 ~15배 판매 (롱테일·인접 오디언스, Carless) | 2026-06 |
 | [carless-next-fest-june-2026](carless-next-fest-june-2026.md) | GameDiscoverCo — 2026-06 Steam Next Fest 결산 (데모 +66%·가시성 -25%·필터버블, Carless) | 2026-06 |
 | [zukowski-personal-calendar-launch](zukowski-personal-calendar-launch.md) | How To Market A Game — Personal Calendar와 Popular Upcoming 10만 문턱 (Zukowski) | 2026-06 |

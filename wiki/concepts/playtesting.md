@@ -2,13 +2,15 @@
 title: "플레이테스팅 방법론"
 type: concept
 sources: ["[[gdc26-spark]]", "[[gdc26-ghost-of-yotei]]", "[[gdc25-astrobot]]", "[[gdc26-arc-raiders-reset]]", "[[gmtk-10-lessons]]", "[[gdc26-too-much-playtesting]]", "[[kasavin-hades-ea]]", "[[vincke-bg3-ea]]", "[[fares-hazelight-playtesting]]", "[[tornqvist-valheim-ea]]", "[[zukowski-next-fest-strategy]]"]
-related: ["[[sucker-punch-productions|서커펀치 프로덕션]]", "[[team-asobi|팀 아소비]]", "[[embark-studios|엠바크 스튜디오]]", "[[larian-studios|라리안 스튜디오]]", "[[iron-gate-studio|아이언 게이트]]", "[[supergiant-games|슈퍼자이언트]]", "[[hazelight-studios|하즐라이트]]", "[[sandfall-interactive|샌드폴]]", "[[vision-statement|비전 선언문]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[data-driven-development|데이터 기반 개발]]", "[[early-access-strategy|얼리 액세스 전략]]"]
+related: ["[[sucker-punch-productions|서커펀치 프로덕션]]", "[[team-asobi|팀 아소비]]", "[[embark-studios|엠바크 스튜디오]]", "[[larian-studios|라리안 스튜디오]]", "[[iron-gate-studio|아이언 게이트]]", "[[supergiant-games|슈퍼자이언트]]", "[[hazelight-studios|하즐라이트]]", "[[sandfall-interactive|샌드폴]]", "[[vision-statement|비전 선언문]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[data-driven-development|데이터 기반 개발]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[player-feedback|플레이어 피드백 수집 전략 비교]]"]
 created: 2026-04-13
-updated: 2026-05-07
+updated: 2026-07-06
 confidence: high
 ---
 
 게임을 실제 플레이어에게 보여주고 피드백을 수집하는 방법론. 반짝임을 검증하고 치명적 실수를 사전에 잡아내는 핵심 도구.
+
+스튜디오별 피드백 수집 시점·대상·규모를 나란히 비교한 표는 → [[player-feedback|플레이어 피드백 수집 전략 비교]] 참고 (팀 아소비·서커펀치·라리안·민트로켓).
 
 **올바른 테스트 방법 (크리스 짐머만)**
 - 무엇을 테스트하는지, 어떻게 측정할지 사전에 명확히 정하기

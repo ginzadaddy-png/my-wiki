@@ -1,14 +1,16 @@
 ---
 title: "마케팅 전략"
 type: concept
-sources: ["[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc24-steam-secrets]]", "[[airbridge-steam-marketing-playbook]]", "[[gdc26-steam-page-needs-soul]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[gdc26-integrated-marketing]]", "[[gdc26-game-trailers]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[steam-page-optimization-guide-2026]]", "[[game-marketing-strategy-2026]]", "[[indiebi-game-pricing-strategy]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[capcom-fy26-ir]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-small-spaces-longtail]]"]
-related: ["[[mint-rocket|민트로켓]]", "[[dave-the-diver|데이브 더 다이버]]", "[[balatro|발라트로]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]"]
+sources: ["[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc24-steam-secrets]]", "[[airbridge-steam-marketing-playbook]]", "[[gdc26-steam-page-needs-soul]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[gdc26-integrated-marketing]]", "[[gdc26-game-trailers]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[steam-page-optimization-guide-2026]]", "[[game-marketing-strategy-2026]]", "[[indiebi-game-pricing-strategy]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[capcom-fy26-ir]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-small-spaces-longtail]]", "[[zukowski-demos-wishlist-conversion]]", "[[carless-meccha-chameleon-breakout]]"]
+related: ["[[mint-rocket|민트로켓]]", "[[dave-the-diver|데이브 더 다이버]]", "[[balatro|발라트로]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[marketing-channels|인디 마케팅 채널 전략 비교]]"]
 created: 2026-04-13
-updated: 2026-06-29
+updated: 2026-07-06
 confidence: high
 ---
 
 게임의 출시와 마케팅을 성공시키기 위한 전략. 스팀 플랫폼 전략부터 통합 마케팅 채널 운영, 트레일러, 크리에이터, PR까지 포괄한다. 데이브 더 다이버(민트로켓), SGC 패널, Dotemu, ICO Partners 등 실전 사례 기반.
+
+채널별(PR·크리에이터·유료·커뮤니티·스팀 데모·트레일러) 비용·리스크·규모별 우선순위를 나란히 비교한 표는 → [[marketing-channels|인디 마케팅 채널 전략 비교]] 참고.
 
 **스토어 페이지**
 - 개발과 동시에 설계하는 첫 마케팅 무대 (출시 후 꾸미는 전시 공간이 아님)
@@ -57,6 +59,28 @@ confidence: high
 - 단계: 데모 → 플레이테스트 → 넥스트 페스트(그랜드 피날레) → 출시
 - **Real Steam(비공식)**: 출시 후 6~9개월 내 약 $15만 달러 달성 시 데일리 딜·세일 피처링 혜택
 - 디스커버리 큐가 전체 트래픽 45%. 출시 첫 2일에 25,000회 노출 → 3일 째 성과가 이후 결정
+
+## 데모 전환율의 진실 — funnel이 아니다 ([[zukowski-demos-wishlist-conversion]])
+
+데모를 "위시리스트 전환 기계"로 보면 오독. Zukowski 데이터:
+- **데모→위시리스트 전환율 중앙값 19.3%** (범위 ~15~24%)
+- **전환율과 위시리스트 총량 간 상관 거의 없음** — 15,000개 이상 모은 게임이 전환율 15% 미만이기도, 1,000개 게임이 30% 전환이기도
+- 즉 전환율은 성공 예측 지표가 **아님** → KPI로 최적화하려는 시도 자체가 오독
+
+**"Sickos"**: 취향 불문 거의 모든 신작을 깔아보는 소수 열성층. 개별 전환 기여는 낮지만 콘텐츠 제작·입소문으로 불균형적 영향력. 데모의 진짜 역할은 직접 전환이 아니라 *이 층을 통한 증폭*.
+
+> 💡 **함의:** 데모 전환율이 낮다고 실망하지 말 것. 데모는 넥스트 페스트 위시리스트 벤치마크([[steam-next-fest-2026-analysis]])나 정량 lift([[zrconsulting-steam-forecaster-2026]])와 별개로, *열성층 발굴 → 크리에이터/입소문 증폭*이 본질. (funnel 통념 vs 실제 행동의 괴리)
+
+## 크리에이터를 커머스 인프라로 ([[naavik-creator-led-growth]])
+
+크리에이터 = "reach 채널"이라는 통념을 넘어 **UA·커머스·리텐션 인프라**로 재정의. 실행 이론·신뢰 모델은 [[creator-economy-trust]] 참조. 핵심 데이터(Tebex):
+- 크리에이터 코드 GMV $61.3M = 플랫폼 매출 8.6→9.4%, **코드 사용자 80.4%가 첫 D2C 구매자**
+- 상위 100 크리에이터(1.6%)가 코드 GMV 75.9% (멱법칙) → 선정은 **팔로워가 아니라 장르 신뢰도·LTV 기여**로
+- 고인텐트 플레이어는 지지 크리에이터와 연결되면 결제 마찰을 감수 → D2C 웹샵([[webshop-direct-monetization]])과 결합 시 강력
+
+## 스트리머 breakout — "게임"이 아니라 "포맷" ([[carless-meccha-chameleon-breakout]])
+
+Meccha Chameleon($6, 3주 1,150만 장, Twitch #3): 완성된 메카닉이 아니라 *플레이 중 만들어지는 상황*(웃김·기억)이 스트리머 친화를 낳은 케이스. 발라트로식 "안 이쁜 게임 극복"과 달리 여기선 **상황 생성기 자체가 마케팅**. 단 재현 가능성은 낮음("벼락 맞을 확률") — [[rapid-prototyping|프로토타입 축적]]이 벼락을 잡는 그물.
 
 ## 주목의 수레바퀴 (발라트로 사례)
 

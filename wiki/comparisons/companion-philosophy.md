@@ -2,7 +2,7 @@
 title: "RPG 동반자 설계 철학 비교"
 type: comparison
 sources: ["[[gdc26-designing-companions]]", "[[companion-design-research-2026]]"]
-related: ["[[companion-design|동반자 설계]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[studio-culture|스튜디오 문화]]"]
+related: ["[[companion-design|동반자 설계]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[studio-culture|스튜디오 문화]]", "[[combat-companion-ai|전투·조력 AI 동반자 설계]]"]
 created: 2026-04-23
 updated: 2026-04-23
 confidence: high

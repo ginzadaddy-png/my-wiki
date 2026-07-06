@@ -1,14 +1,16 @@
 ﻿---
 title: "빠른 프로토타이핑과 반복 개발"
 type: concept
-sources: ["[[gdc25-astrobot]]", "[[gdc24-baldurs-gate-3]]", "[[gdc26-spark]]", "[[itoi-miyamoto-dialogue-2024]]"]
-related: ["[[team-asobi|팀 아소비]]", "[[larian-studios|라리안 스튜디오]]", "[[sucker-punch-productions|서커펀치 프로덕션]]", "[[small-team-development|소규모 팀 개발]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[vision-statement|비전 선언문]]", "[[shigeru-miyamoto|미야모토 시게루]]"]
+sources: ["[[gdc25-astrobot]]", "[[gdc24-baldurs-gate-3]]", "[[gdc26-spark]]", "[[itoi-miyamoto-dialogue-2024]]", "[[carless-meccha-chameleon-breakout]]"]
+related: ["[[team-asobi|팀 아소비]]", "[[larian-studios|라리안 스튜디오]]", "[[sucker-punch-productions|서커펀치 프로덕션]]", "[[small-team-development|소규모 팀 개발]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[vision-statement|비전 선언문]]", "[[shigeru-miyamoto|미야모토 시게루]]", "[[iteration-cycles|반복 개발 주기 비교]]"]
 created: 2026-04-13
-updated: 2026-06-23
+updated: 2026-07-06
 confidence: high
 ---
 
 짧은 주기로 프로토타입을 제작·검증하는 개발 방법론. [[team-asobi|팀 아소비]]와 [[larian-studios|라리안 스튜디오]] 모두 핵심 개발 철학으로 채택.
+
+각 스튜디오의 주기 길이·검증 단위·참여 범위를 나란히 놓고 본 표는 → [[iteration-cycles|반복 개발 주기 비교]] 참고 (2주·6주·액트 단위·빌드 안정성 주기).
 
 **팀 아소비 방식 (아스트로봇)**
 - 2주 단위: 기획 → 프로토타입(1인이 3D·애니·사운드·햅틱·코드 전담) → 전 팀원 금요일 리뷰
@@ -31,4 +33,9 @@ confidence: high
 - **버릴 각오로 만든다**: "애써 만들었으니 꼭 써야 해" 강박을 버리면 3개월 실험이 1개월로 줄어든다. 5년 프로젝트의 앞 3년을 최소 팀 실험에 쓰면 총 개발비도 준다.
 - 유기적 가치 채우기 ([[itoi-miyamoto-dialogue-2024]]): 팀원이 "여긴 5엔어치, 여긴 10엔 추가" 식으로 작은 재미를 더하며, 누군가의 시안이 자극이 돼 다음 아이디어를 낳는다 (피크민 잎사귀·초점 안 맞는 눈).
 
-> 💡 **핵심 인사이트:** 프로토타이핑의 목적은 '완성도'가 아닌 '반짝임 검증'이다. 검증 가능한 최소 단위로 빠르게 만들고, 틀리면 빠르게 버리는 것이 핵심.
+**breakout의 그물 (Meccha Chameleon)** ([[carless-meccha-chameleon-breakout]])
+- $6·3주 1,150만 장 breakout은 기존 UE 프레임워크 + **수년치 축적된 프로토타입 자산** + 선행작(Link Penguins ~5,000장)에서 학습한 취향 위에 성립
+- 히트 자체는 예측 불가("벼락 맞을 확률")지만, *축적된 프로토타입 재고*가 벼락을 잡을 그물이 됨 — 팀 아소비의 "6년 전 폐기 프로토타입 재활용"과 같은 원리
+- 저비용 인프라(무료 Epic Online Services 매칭)로 실험 리스크를 더 낮춤 → 버릴 각오(닌텐도)의 실전판
+
+> 💡 **핵심 인사이트:** 프로토타이핑의 목적은 '완성도'가 아닌 '반짝임 검증'이다. 검증 가능한 최소 단위로 빠르게 만들고, 틀리면 빠르게 버리는 것이 핵심. 그리고 *버린 프로토타입도 재고로 축적*하면, 예측 불가능한 breakout이 왔을 때 즉시 꺼내 쓸 그물이 된다.

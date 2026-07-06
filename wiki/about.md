@@ -4,7 +4,7 @@ type: concept
 sources: []
 related: ["[[index|전체 카탈로그]]", "[[log|활동 로그]]"]
 created: 2026-05-27
-updated: 2026-06-22
+updated: 2026-07-06
 confidence: high
 ---
 
@@ -14,20 +14,20 @@ confidence: high
 
 핵심 가치 — 같은 자료를 두 번 읽지 않고, 출처와 인사이트가 항상 wikilink로 연결되어 있어 *"이 주장 어디서 봤더라"* 가 해소됩니다.
 
-## 현재 통계·규모 (2026-06-22 기준)
+## 현재 통계·규모 (2026-07-06 기준)
 
 | 항목 | 수치 |
 |---|---|
-| 누적 INGEST 건수 | 71건 |
-| 소스 요약 (`wiki/sources/`) | 125개 |
-| 개념 페이지 (`wiki/concepts/`) | 60개 |
-| 엔티티 페이지 (스튜디오·게임·플랫폼, `wiki/entities/`) | 85개 |
-| 비교 페이지 (`wiki/comparisons/`) | 17개 |
+| 누적 INGEST 건수 | 88건 |
+| 소스 요약 (`wiki/sources/`) | 142개 |
+| 개념 페이지 (`wiki/concepts/`) | 67개 |
+| 엔티티 페이지 (스튜디오·게임·플랫폼, `wiki/entities/`) | 87개 |
+| 비교 페이지 (`wiki/comparisons/`) | 18개 |
 | 슬라이드 deck (HTML + wrapper) | 3개 ([[presentations/steam-launch-strategy|Steam 출시 전략]] / [[presentations/studio-risk-defense|스튜디오 리스크 방어]] / [[presentations/ai-asset-pipeline-2026-report|AI 에셋 파이프라인 보고서]]) |
 | 챗봇 (위키 Q&A 에이전트) | RAG + graph hybrid, HF Spaces 배포 ([아래](#챗봇-위키-qa-에이전트) 참조) |
-| 마지막 갱신 | 2026-06-22 |
+| 마지막 갱신 | 2026-07-06 |
 
-총 약 299개 md 페이지가 wikilink로 연결되어 있고, 모두 frontmatter(`type`, `sources`, `related`, `confidence` 등) 기반으로 구조화되어 있어 graph 추론·검색에 활용되고 있습니다. 2026년 6월부터는 이 위키 전체를 검색·추론하는 **챗봇 에이전트**가 별도 트랙으로 가동 중입니다.
+총 약 326개 md 페이지가 wikilink로 연결되어 있고, 모두 frontmatter(`type`, `sources`, `related`, `confidence` 등) 기반으로 구조화되어 있어 graph 추론·검색에 활용되고 있습니다. 2026년 6월부터는 이 위키 전체를 검색·추론하는 **챗봇 에이전트**가 별도 트랙으로 가동 중입니다.
 
 ## 작업 환경
 
@@ -183,8 +183,6 @@ entity 페이지에는 `relations:` 필드(developedBy·publishedBy·parentOf·g
 
 ### 단기
 
-**decisions 트랙 본격 가동** — 지금까지 ingest·정리에 집중했는데, 그동안 누적된 개념을 *의사결정에 인용*하는 단계로 넘어갈 시점입니다. 첫 decision 페이지가 작성되면 양방향 링크가 작동하면서 wiki의 가치가 한 단계 올라갑니다.
-
 **챗봇 운영·품질 다지기** *(graph relations + 챗봇 구축은 2026-06 완료 — [위 챗봇 섹션](#챗봇-위키-qa-에이전트) 참조)* — entity `relations:` 부착과 기존 entity retrofit을 마치고, RAG + graph hybrid 챗봇까지 배포된 상태입니다. *"Astro Bot 만든 팀의 모회사가 다른 어떤 스튜디오를 소유했지"* 같은 multi-hop query가 실제로 동작합니다. 다음 단계는 운영 안정화 — 답변 품질 회귀 점검, 갱신 자동화 정착(ingest 후 *"챗봇도 갱신할까요?"* 루틴), 비용 모니터링입니다.
 
 ### 중기
@@ -195,4 +193,6 @@ entity 페이지에는 `relations:` 필드(developedBy·publishedBy·parentOf·g
 
 ### 장기
 
-**수집된 65건 ingest를 종합 사고 정리물로 압축** — 흩어진 개념 페이지들을 *"게임 개발 산업이 2026년 어디로 향하는가"* 같은 메타 분석 글로 합성하는 단계입니다. wiki는 그 자체로 끝이 아니라 사고를 누적하는 archive이고, 일정 시점에서 한 번 회수해 정리물을 만들어야 가치가 닫힌다는 인식입니다.
+**두껍게 읽은 영역에 한정한 관점적 종합** — 흩어진 개념 페이지들을 한 편의 정리물로 합성하는 단계. 단 *"게임 산업 전체가 어디로 향하는가"* 같은 대표성 주장은 피한다 (수집 자료에 한정된 종합은 그 수집의 편향을 그대로 상속하므로). 대신 *두껍게 읽은 축*(개발 방법론·소규모 팀·출시 전략·시장 구조)에 스코프를 좁혀, *"내가 읽은 자료에서 본 2026 프리미엄·인디 생존 전략"* 같은 **명시적으로 관점적인 논지**(citation 달린 thesis, 서베이 아님)로 만든다.
+
+전제 — **쓰기 전 커버리지 감사**를 선행: 개념별 소스 수·교차 인용 빈도로 *두꺼운/얇은 영역 지도*를 그리고, 논지에 치명적인데 자료가 없는 갭은 타깃 ingest로 메우거나 글에서 *"여긴 커버리지 밖"이라고 경계를 명시*한다. 얇은 데서 억지로 결론 내지 않고 두꺼운 데서만 강하게 주장 → 편향된 글이 아니라 *범위가 정직한* 글. 결과물 형태(장문 글 vs 상위 데크)는 미정 — 기존 주제별 deck의 상위 버전 성격.

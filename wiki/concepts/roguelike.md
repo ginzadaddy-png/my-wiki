@@ -4,7 +4,7 @@ type: concept
 sources: ["[[kasavin-hades-ea]]", "[[gdc25-balatro-marketing]]", "[[carless-genres-ruled-steam-2025-06]]", "[[gdc19-slay-the-spire-metrics]]", "[[gdc22-returnal-procedural-world]]"]
 related: ["[[balatro|발라트로]]", "[[supergiant-games|슈퍼자이언트]]", "[[soulslike|소울라이크]]", "[[pcg-pure-vs-hybrid|완전 절차생성 vs 하이브리드]]", "[[game-balance|게임 밸런싱]]", "[[data-driven-development|데이터 기반 개발]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[mda-framework|MDA 프레임워크]]"]
 created: 2026-06-16
-updated: 2026-06-16
+updated: 2026-07-06
 confidence: high
 ---
 
@@ -47,7 +47,7 @@ confidence: high
 
 ## 난이도 사다리와 의도적 불균형
 
-메타 진행성은 진입장벽을 낮추지만 마스터리 가치를 훼손할 위험이 있어, 명작은 **난이도 사다리**로 완충한다. [[gdc19-slay-the-spire-metrics|Slay the Spire]] 승천(Ascension)은 엘리트 빈도↑ → 저주 카드 강제(A10) → 상점 물가↑(A15) → 이중 보스 검증(A20)으로 *런 이코노미 규칙*을 건드린다. 하데스 형벌 규약은 플레이어가 페널티를 직접 조합하는데, *개발사 공식 테스트(Heat 40·보상 종결 32)와 커뮤니티 역산 한계(Heat 64)를 구분*하는 게 중요하다.
+메타 진행성은 진입장벽을 낮추지만 마스터리 가치를 훼손할 위험이 있어, 명작은 **난이도 사다리**로 완충한다. [[gdc19-slay-the-spire-metrics|Slay the Spire]] 승천(Ascension)은 엘리트 빈도↑ → 저주 카드 강제(A10) → 상점 물가↑(A15) → 이중 보스 검증(A20)으로 *런 이코노미 규칙*을 건드린다. 하데스 형벌 규약(Pact of Punishment)은 플레이어가 페널티를 직접 조합해 난이도를 올리는데, *보상 체계(무기별 현상금은 Heat 20에서 상한, 마지막 코스메틱 보상은 Heat 32)와 이론상 최대치(기본 63 / 헬 모드 64)를 구분*하는 게 중요하다.
 
 빌드 설계의 핵심은 **평균적 밸런싱 거부**다. 강력한 시너지(StS Corruption 무한 엔진 등)를 *허용하되 동시 출현 확률을 희소화*해 매 판 재현을 막고, [[data-driven-development|메트릭]](픽률·승률)으로 아웃라이어를 메커니즘 삭제가 아닌 *상황적 페널티*로 유기적으로 다듬는다.
 

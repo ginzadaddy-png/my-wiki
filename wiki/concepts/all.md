@@ -79,6 +79,7 @@ updated: 2026-06-23
 | [[studio-culture]] | **스튜디오 문화** — 원칙·가치·의사결정 방식 |
 | [[player-trust-design]] | **플레이어 신뢰 설계** — 신뢰를 통화처럼 운용하는 설계 프레임워크 |
 | [[companion-design]] | **동반자(Companion) 설계** — RPG 동반자의 세 패턴과 신뢰 구축 |
+| [[combat-companion-ai]] | **전투·조력 AI 동반자 설계** — 짐이 아닌 자산·투명화·어그로 분산·지능 착시 (Elizabeth·엘리·Spirit Ashes·F.E.A.R.·Halo) |
 | [[design-sense]] | **디자인 감각 개발** — 더 갭, 4가지 요소, 취향과 기술의 차이 |
 | [[game-trailer-design]] | **게임 트레일러 설계** — 유형별 전략, 캔버스별 접근, 킬러 샷 |
 | [[live-service-design]] | **라이브 서비스 설계** — 비약탈적 모델·게임 마스터·F2P 탈출 교훈 |
