@@ -88,7 +88,7 @@ confidence: medium
 | 닌텐도 가격유지형 | **불가능** | 1st-party platform 보유가 절대 조건 |
 | Take-Two 서비스형 | **중간** | 단일 메가 IP + Online infrastructure |
 
-→ 한국 게임사 중 [[nexon|넥슨]] 메이플스토리·던파, NCSoft 리니지의 *MMO recurrent 모델*은 *별개의 5번째 모델* (라이브 MMO catalog). 본 3사 모델과 다른 카테고리로 분류 필요. 인디·중견의 *현실적 진입로*는 *catalog 자체보다 시리즈화 결정* — [[supergiant-games|슈퍼자이언트]] 하데스1→하데스2처럼.
+→ 한국 게임사 중 [[nexon|넥슨]] 메이플스토리·던파, NCSoft 리니지의 *MMO recurrent 모델*은 *별개의 5번째 모델* (라이브 MMO catalog) — [[catalog-economics|카탈로그 이코노믹스]]에 정식 편입됨(2026-07, [[nexon-ncsoft-mmo-recurrent-2026|IR 종합]]). 넥슨=분산 회복탄력형 / 엔씨=단일 집중 취약형. 인디·중견의 *현실적 진입로*는 *catalog 자체보다 시리즈화 결정* — [[supergiant-games|슈퍼자이언트]] 하데스1→하데스2처럼.
 
 ## 시간축 진화 — 어떤 모델이 가장 길게 갈까
 
@@ -111,7 +111,7 @@ confidence: medium
 
 ## 추가 조사 권장
 
-- *한국 MMO catalog model*: 넥슨·NCSoft 리니지·메이플 등 *recurrent live service*의 catalog economics 분류 — 5번째 모델로 정의 가치
+- ✅ *한국 MMO catalog model*: 넥슨·NCSoft의 *recurrent live service* 분류 — 5번째 모델로 정식 편입 완료 ([[nexon-ncsoft-mmo-recurrent-2026]], 2026-07)
 - Square Enix FF7R 사이클이 캡콤 재발매형의 *유일한 모방 사례*인지 정량 검증
 - Take-Two GTA 6 출시 후 GTA V 카탈로그 *자기잠식 vs 동반 부양* — 2027~28에 외부에서 검증 가능
 - 닌텐도 Switch 2 cross-gen이 *catalog reset*인지 *동반 carry*인지 — Mario Kart 8 Deluxe FY27 데이터로 확인

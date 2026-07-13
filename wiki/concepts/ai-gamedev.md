@@ -2,7 +2,7 @@
 title: "게임 개발에서의 생성형 AI"
 type: concept
 sources: ["[[gamedev-leadership-dynamics]]"]
-related: ["[[studio-culture|스튜디오 문화]]", "[[dev-org-structure|개발 조직 구조]]", "[[data-driven-development|데이터 기반 개발]]", "[[ai-asset-pipeline|AI 게임 에셋 산업화 파이프라인]]"]
+related: ["[[studio-culture|스튜디오 문화]]", "[[dev-org-structure|개발 조직 구조]]", "[[data-driven-development|데이터 기반 개발]]", "[[ai-asset-pipeline|AI 게임 에셋 산업화 파이프라인]]", "[[ai-disclosure-player-sentiment|AI 디스클로저 플레이어 정서]]"]
 created: 2026-04-23
 updated: 2026-04-23
 confidence: high

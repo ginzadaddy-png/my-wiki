@@ -1,10 +1,10 @@
 ---
 title: "카탈로그 이코노믹스 (Catalog Economics)"
 type: concept
-sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]"]
-related: ["[[capcom|캡콤]]", "[[rockstar-games|록스타]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[bethesda-game-studios|베데스다]]", "[[fromsoftware|프롬소프트웨어]]", "[[nintendo|닌텐도]]", "[[larian-studios|라리안]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[live-service-design|라이브 서비스 설계]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[catalog-economics-3-publishers|3사 비교 (캡콤·닌텐도·Take-Two)]]", "[[hit-driven-strategy|홈런 전략]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]"]
+sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-ncsoft-mmo-recurrent-2026]]"]
+related: ["[[capcom|캡콤]]", "[[rockstar-games|록스타]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[bethesda-game-studios|베데스다]]", "[[fromsoftware|프롬소프트웨어]]", "[[nintendo|닌텐도]]", "[[nexon|넥슨]]", "[[larian-studios|라리안]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[live-service-design|라이브 서비스 설계]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[catalog-economics-3-publishers|3사 비교 (캡콤·닌텐도·Take-Two)]]", "[[nexon-ncsoft-mmo-recurrent-2026|한국 MMO recurrent]]", "[[hit-driven-strategy|홈런 전략]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]"]
 created: 2026-05-18
-updated: 2026-06-23
+updated: 2026-07-13
 confidence: high
 ---
 
@@ -96,6 +96,21 @@ confidence: high
 - Creation Club (2017) + Creations 플랫폼 (2023) — paid mods 매출
 - MS 인수 (2021-03, $7.5B) 후 Game Pass — unit sales 비공개 전환
 
+### 한국 MMO — 넥슨 vs 엔씨 (recurrent형, 신규 5번째 모델)
+
+[[nexon-ncsoft-mmo-recurrent-2026|넥슨·엔씨 IR 종합]]. 패키지 카탈로그와 근본이 다른 *라이브 서비스 MMO* 축. 유닛을 다시 파는 게 아니라 *같은 게임을 수십 년 운영*해 아이템·시즌패스 recurrent를 만든다. 같은 모델의 **회복탄력형(넥슨)**과 **취약형(엔씨)**을 나란히 보여준다.
+
+- **[[nexon|넥슨]] — 복수 장수 IP 분산**: FY2025 ¥475.1B(+6%). 메이플스토리(2003) franchise +43%로 *22년 역사상 최고 연매출*, 던파(2005) 중국 텐센트 *10년 재계약*. 신작 프리미엄([[arc-raiders|아크 레이더스]])이 라이브 카탈로그 위에 얹힘 → Q1 2026 분기 최고 ¥152.2B(+34%). **단 vertical(3대 프랜차이즈) 매출은 FY23 ¥139.4B→FY25 ¥130.8B로 감소, 성장은 전부 horizontal(신작 +188% YoY)**
+- **[[ncsoft|엔씨]] — 집중형 trough → 신작·클래식 반등**: 리니지(1998)가 모바일 매출을 *100% 점유*(franchise ~70%). FY2024 **26년 만의 첫 연간 영업손실**(user fatigue). 그러나 **Q1 2026 매출 ₩557.4B(+55%)·영업이익 +2,070%**로 반등 — [[aion-2|아이온2]](신작, PC 매출 3배)+**리니지 클래식(클래식 서버 재출시, 90일 ₩1,924억)** 쌍끌이. 단 기존 리니지 모바일은 계속 하향
+
+> 💡 **핵심 인사이트:** MMO recurrent의 long-tail은 *연 단위가 아니라 수십 년 단위*(메이플 22년·리니지 27년)지만, 위력은 재발매가 아니라 *live-ops 지속 투자*에서 나오고 리스크는 *프랜차이즈 집중*이다. 넥슨식 *복수 장수 IP + 신작 파이프라인* 분산이 회복탄력형, 엔씨식 *단일 IP 의존*이 취약형. [[live-service-design|라이브 서비스 설계]]가 이 모델의 게임 디자인 실체.
+
+> ⚠️ **recurrent = floor ≠ ceiling:** [[nexon-cmb-2026-transformation|넥슨 2026 CMB]]에서 2027 매출 ¥750B(₩7조) 목표를 철회한 사건이 이 모델의 한계를 드러낸다. 넥슨 공식 IR이 이를 하드 데이터로 확증 — **vertical(3대 프랜차이즈) 매출이 FY23 ¥139.4B → FY25 ¥130.8B로 감소**하는 동안 전체 매출은 신작(horizontal +188% YoY)이 끌어올렸다. 견고한 recurrent 바닥(메이플 최고매출·현금 >¥800B)은 *회복탄력성*을 주지만 *성장 엔진*은 아니다. 즉 recurrent 카탈로그는 *안정적 바닥을 깔되 top-line 성장은 별도 리스크 축(신작·M&A)*이라는 점이 패키지 카탈로그와의 또 다른 차이.
+
+> 💡 **MMO판 "재발매형" — 클래식 서버 재출시:** 패키지 카탈로그의 재발매형(캡콤 리메이크·Skyrim SE)에 대응하는 MMO 고유 메커니즘이 2026년 동시 부상. [[ncsoft|엔씨]] **리니지 클래식**(구버전 서버 재출시, 출시 90일 ₩1,924억)과 넥슨 **던파 클래식**(2027 예정)이 대표. *같은 IP의 과거 버전을 별도 서비스로 다시 파는* 구조로, recurrent 모델 안에서 카탈로그를 재점화하는 방식이다.
+
+> ⚠️ 이 5번째 모델은 앞 4모델과 *경쟁이 아니라 다른 카테고리*다. 한국 인디·중견에게 직접 이식은 어렵지만(수십 년 live-ops 인프라 필요), *"신작을 SKU로 팔 것인가 / 라이브로 운영할 것인가"*라는 상위 분기 자체가 catalog 진입 설계의 첫 결정임을 보여준다.
+
 ## 마케팅 전략 시사점
 
 [[marketing-strategy|마케팅 전략]] 관점에서 카탈로그 이코노믹스는 *런치 마케팅 ROI 계산법을 바꾼다*.
@@ -117,9 +132,9 @@ confidence: high
 - [[balatro|발라트로]]·[[peak]] 같은 단일 히트작은 *그 자체가 카탈로그*가 되어야 함 (지속 업데이트/모드 지원)
 - [[supergiant-games|슈퍼자이언트]]의 하데스1→하데스2처럼 시리즈화 결정이 카탈로그 이코노믹스로의 진입 조건
 
-## Catalog Economics — 4가지 모델 분기
+## Catalog Economics — 5가지 모델 분기
 
-[[catalog-economics-cross-company-2026|타사 사례 종합]]에서 확인된 메커니즘 분기:
+[[catalog-economics-cross-company-2026|타사 사례 종합]] + [[nexon-ncsoft-mmo-recurrent-2026|한국 MMO IR]]에서 확인된 메커니즘 분기:
 
 | 모델 | 대표 회사 | 메커니즘 | catalog 비중 |
 |---|---|---|---|
@@ -127,8 +142,11 @@ confidence: high
 | **재발매형** | [[bethesda-game-studios|Bethesda]] · [[capcom|캡콤]] | 풀가격·할인가 재판매 반복 (RE 리메이크, Skyrim SE) | 캡콤 84% |
 | **Cross-sell형** | [[larian-studios|Larian]] · [[fromsoftware|FromSoftware]] | 신작 출시가 구작 판매 견인 (BG3→DOS2, Elden Ring→DS3) | Kadokawa Game 부문 ~60% Elden Ring |
 | **가격유지형** | [[nintendo|Nintendo]] | 세일 안 함, 정가 long-tail (Mario Kart 8 DX) | 1st-party 정가 유지 |
+| **MMO recurrent형** | [[nexon|넥슨]] · [[ncsoft|엔씨]] | *유닛 판매 아님* — 동일 라이브 타이틀 20년+ 아이템·시즌패스 recurrent | 엔씨 리니지 franchise ~70% |
 
 > 💡 **공통 성공 요건:** ① long product life (5년+) ② cross-platform 재발매 ③ DLC·무료 업데이트로 retention ④ 시리즈·미디어 cross-pollination. **이 4가지가 모두 갖춰진 IP만 catalog 비중 70%+** 가능. Capcom RE/MH는 4가지 모두 적용 (RE 시리즈 4세대 재발매·MH World→Rise→Wilds cross-sell·디지털 93%·시리즈 통합 마케팅).
+
+> ⚠️ **MMO recurrent형은 앞 4모델과 축이 다르다:** 나머지 4모델이 *완성된 게임의 SKU를 시간축·플랫폼축으로 다시 파는* 구조라면, MMO recurrent는 *게임이 출시로 끝나지 않고 20년+ 계속 운영*되며 매출이 유닛이 아니라 *잔존·복귀 유저 × ARPU*에서 나온다. 재발매 사이클도, 세일 가격곡선도 없다. 아래 *한국 MMO* 사례 + [[nexon-ncsoft-mmo-recurrent-2026|IR 종합 source]] 참조.
 
 ## 캡콤만의 특이점
 
@@ -137,8 +155,11 @@ confidence: high
 - 다른 회사들은 한두 축에 집중 (Take-Two = RCS, Bethesda = 재발매, Larian = cross-sell)
 
 ## 추가 조사 주제
-- 시리즈 2번째 작품 출시 시 1번째 카탈로그 매출 증가 배수 (캡콤 RE Requiem ↔ RE4·Village, BG3 ↔ DOS2 등 정량 비교)
-- 디지털 세일 가격대별 unit sales 분포 — 풀가격/50%세일/80%세일 비중
-- 카탈로그 재발매(Switch·Steam Deck) ROI 추정
-- 한국 게임사 catalog economics — 넥슨 메이플스토리·던파, 엔씨 리니지 등 *MMO recurrent 모델*은 별도 분기로 분류 가능
-- catalog 매출이 *신작 마케팅 ROI 계산*을 어떻게 바꾸는가 — 캡콤 promo 100억엔이 시리즈 전체에 attribute되는 점 정량 검증
+
+공개 데이터 가용성 기준으로 우선순위를 재정렬 (두꺼운 데서만 강하게 주장하는 원칙 적용):
+
+- ✅ **한국 MMO recurrent — 착수·5번째 모델 편입 완료** ([[nexon-ncsoft-mmo-recurrent-2026|IR 종합 source]], 2026-07-13). 넥슨·엔씨 IR이 두꺼워 정량화 가능했던 케이스. 다음 심화: 넥슨 재팬↔코리아 IP·인력 흐름, 리니지 이후 엔씨의 탈-집중 시도 검증
+- **[범위 축소 권장] 시리즈 cross-sell 배수 — 캡콤 RE 단일 케이스로 한정**. RE Requiem 출시 분기 RE4·Village·3·2 동시 200~370만은 캡콤 IR로 받쳐짐. 단 *BG3↔DOS2 등 프랜차이즈 횡단 배수*는 라리안 비상장(추정치뿐)이라 정량 비교 시 얇은 데서 억지 결론 위험 → 캡콤으로 좁혀야 유효
+- **[데이터 천장 — framework만] 디지털 세일 가격대별 unit 분포**. 가격점별 unit split은 퍼블리셔가 그 granularity로 공개 안 함. Carless/Zukowski 애그리게이트로 *대략적 벤치마크*만 가능, "분포" 수치 주장은 confidence low 자초
+- **[데이터 천장 — framework만] 재발매(Switch 2·Steam Deck) ROI 추정**. 포팅 비용 비공개 → 추정 모델링. numbers가 아니라 *휴리스틱 + "커버리지 밖" 경계 명시* 형태로만. [[nintendo-switch-2|Switch 2]] cross-gen carry 데이터가 일부 단서
+- **[대체로 완료] promo attribute 정량 검증**. [마케팅 전략 시사점](#마케팅-전략-시사점)에 캡콤 promo 100억엔 → unit당 1/5 attribution이 *이미 계산됨*. 더 정밀히 가려면 캡콤이 promo를 타이틀별로 쪼개 공개해야 하는데 안 함 → 공개 데이터 천장 도달, 신규 가치 낮음

@@ -47,6 +47,7 @@ updated: 2026-06-23
 | [[supercell]] | 핀란드 헬싱키, 텐센트 자회사, Clash of Clans, "프로젝트 실패 ≠ 개인 실패" 모델 |
 | [[hazelight-studios]] | 스웨덴 스톡홀름, EA Originals, It Takes Two·Split Fiction, 2인 협동 전용 게임 |
 | [[nexon]] | 한국 성남 본사, 도쿄 증시 상장, F2P MMO 기반 → 글로벌 프리미엄 PC·콘솔 확장 (엠바크·민트로켓 자회사) |
+| [[ncsoft]] | 한국 코스피 상장, 리니지(1998~) 중심 MMORPG 퍼블리셔 — 집중형 recurrent, FY24 첫 적자→Q1 26 아이온2·리니지 클래식 반등 |
 | [[hoyoverse]] | 중국 상하이, 2012, 원신·Star Rail·ZZZ, F2P 가챠 + AAA 비주얼 cross-platform, *원신 쇼크* 진원지 |
 | [[epic-games]] | 미국 노스캐롤라이나, 1991, 텐센트 40%, Unreal Engine·Fortnite·EGS·UEFN 수직 통합 5 layer |
 | [[riot-games]] | 미국 LA, 2006, 텐센트 100%, LoL·Valorant·Arcane Emmy 9관왕 transmedia |
@@ -82,6 +83,7 @@ graph 추론(플랫폼별 게임·독점작 질의)을 위한 플랫폼 노드.
 | [[xbox-series]] | Xbox Series X\|S |
 | [[xbox-one]] | Xbox One |
 | [[nintendo-switch]] | Nintendo Switch |
+| [[nintendo-switch-2]] | Nintendo Switch 2 — 2025-06, $499 저가 우위·cross-gen carry |
 
 ## 게임
 
@@ -93,6 +95,7 @@ graph 추론(플랫폼별 게임·독점작 질의)을 위한 플랫폼 노드.
 | [[ghost-of-yotei]] | 서커펀치, 오픈월드 액션, 2026 |
 | [[dave-the-diver]] | 민트로켓, 혼합 장르, 스팀 성공 사례 |
 | [[arc-raiders]] | 엠바크, 익스트랙션 슈터, 120→25명 리셋 |
+| [[aion-2]] | 엔씨소프트 MMORPG, 아이온(2008) 후속 — Q1 26 ₩1,368억, 엔씨 PC 매출 3배 견인 |
 | [[dark-souls]] | 프롬소프트웨어, 소울라이크 원점, 로드란 3D 구조 |
 | [[elden-ring]] | 프롬소프트웨어, 2022 GOTY, 레거시던전+오픈필드 |
 | [[breath-of-the-wild]] | 닌텐도, 2017 GOTY, 자율성 기반 오픈월드 |

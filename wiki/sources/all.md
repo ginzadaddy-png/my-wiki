@@ -2,10 +2,14 @@
 title: "소스 전체 목록"
 ---
 
-총 144개 | 최신순 정렬
+총 148개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [nexon-cmb-2026-transformation](nexon-cmb-2026-transformation.md) | 넥슨 2026 CMB — Transformation Plan (2027 매출 7조 목표 철회·비용 규율·선별 M&A·투톱) | 2026-03-31 |
+| [nexon-ncsoft-mmo-recurrent-2026](nexon-ncsoft-mmo-recurrent-2026.md) | 한국 MMO recurrent 카탈로그 — 넥슨 vs 엔씨 (IR 종합) — 메이플 22년 최고매출·리니지 집중 26년만 첫 적자 | 2026-05-14 |
+| [naavik-ai-memory-console-economics-2026-07](naavik-ai-memory-console-economics-2026-07.md) | Naavik — AI 붐이 콘솔 하드웨어 경제를 재편 (메모리 쇼크·PS5 $649·Xbox $799·수요 −43%) | 2026-07-12 |
+| [carless-steam-fans-ai-sentiment-2026-07](carless-steam-fans-ai-sentiment-2026-07.md) | GameDiscoverCo — Steam 팬은 게임 속 AI를 어떻게 보나 (설문, Carless) — 무관심 43%·신뢰 17%·MAU ~1.98억 | 2026-07-07 |
 | [gdc-helldivers2-team-scaling](gdc-helldivers2-team-scaling.md) | GDC — 헬다이버스 2 팀 규모 스케일링 (20→105→130, Lemaire/Arrowhead) — 소규모 팀 대작 | 2025 |
 | [pilestedt-helldivers2-preproduction-lesson](pilestedt-helldivers2-preproduction-lesson.md) | 헬다이버스 2 개발 교훈 — 프리프로덕션 생략으로 4년+ 초과 (Pilestedt) — 검증 먼저·작게 시작 | 2025 |
 | [naavik-creator-led-growth](naavik-creator-led-growth.md) | Naavik — The Next Wave of Creator-Led Growth (크리에이터를 커머스 인프라로, Bush) — 크리에이터 코드 GMV·LTV·멱법칙 | 2026-07-05 |

@@ -2,6 +2,57 @@
 title: "활동 로그"
 ---
 
+## [2026-07-13] ingest | 넥슨·엔씨 공식 Q1 2026 IR (PDF) 확인 — primary 데이터로 recurrent 논지 확증 + 엔씨 반등 반영
+- 트리거: 사용자가 공식 IR PDF 3건 제공(넥슨 Q1 2026 Investor Presentation·Earnings Letter, 엔씨 2026 1Q 실적발표 KOR). WebFetch가 PDF 바이너리 파싱 실패 → 디스크 저장분을 python(fitz/PyMuPDF)으로 텍스트 추출(글로벌 python, poppler 미설치로 Read PDF 렌더 불가)
+- Source: 공식 IR 1차 자료 (confidence high). 엔씨는 이미지 기반이라 텍스트 일부만 추출 → 웹 보도로 게임별 수치 교차검증(아이온2 ₩1,368억·리니지클래식 ₩835억 등)
+- 핵심 신규/교정:
+  - **넥슨 vertical 감소 확증**: 3대 프랜차이즈 FY23 ¥139.4B→FY25 ¥130.8B(감소), 성장은 전부 horizontal(신작 +188% YoY, ARC Raiders 16M+ units·BAFTA). → floor≠ceiling을 하드데이터로 뒷받침. 주주환원 배당 ¥60/주+¥300억 자사주매입, 신작 15+
+  - **엔씨 "취약형" 교정**: FY24 첫 적자(trough)에서 **Q1 2026 극적 반등**(매출 ₩557.4B +55%·영업이익 ₩113.3B +2,070%·PC 3배). 드라이버 아이온2(신작)+리니지 클래식(클래식 서버 재출시)
+  - **신규 인사이트**: *클래식 서버 재출시*(리니지 클래식·던파 클래식 2027)가 패키지 재발매형에 대응하는 MMO판 메커니즘으로 부상
+- 생성(entities 2): ncsoft(엔씨 — 넥슨과 대칭 대비 케이스), aion-2(반등 드라이버 게임, relations developedBy·publishedBy ncsoft·platform pc)
+- 보강: nexon-ncsoft-mmo-recurrent-2026(원문을 공식 IR PDF로 교체·confidence medium-high→high·양사 Q1 2026 primary 수치·클래식 메커니즘 인사이트), catalog-economics(5모델 표 엔씨 링크·한국 MMO 섹션 반등·vertical 하드데이터·클래식 재출시 💡), nexon.md(섹션5 vertical·주주환원)
+- 카탈로그: index(스튜디오 43→44·게임 33→34)·entities/all(ncsoft·aion-2 행)·overview(스튜디오 44·게임 34·NCSoft·아이온2 추가)·about(INGEST 93→94·엔티티 88→90·총 336)
+- 미push — 사용자 검토 후. 챗봇 재색인도 확인 후 (aion-2 relations 신규라 graph 갱신 권장)
+
+## [2026-07-13] ingest | 넥슨 2026 CMB (Transformation Plan) — 매출 7조 목표 철회, recurrent floor≠ceiling 정교화
+- 트리거: 사용자가 dealsite.co.kr/issue/5411(넥슨 2026-04 CMB 보도) 확인 요청. 본문 유료라 businesswire 공식 릴리스(2026-03-31)+한국 보도(ZDNet·서울파이낸스·이투데이) 교차 검증
+- Source: 웹 1차(Nexon IR CMB 2026-03-31)+2차 보도. confidence high(공식 릴리스 기반)
+- 생성(sources 1): nexon-cmb-2026-transformation — 2024 CMB 목표(2027 매출 ¥750B≈₩7조·영업이익 ¥250B) 공식 철회. 쇠더룬드 "프랜차이즈 실적→신작 확대 가정이 현실화 안 됨". 비용 규율(인건비 전년수준·채용중단·해고없음)·선별 M&A·AI(30년 플레이데이터+엠바크 소수정예 전사확산)·던파클래식 신작·쇠더룬드·이정헌 투톱. FY2025 매출 ¥475B·영익 ¥124B·현금 >¥800B
+- 정교화(교정 아님): 기존 "넥슨=회복탄력형" 프레이밍을 **recurrent=floor≠ceiling**으로 날카롭게. recurrent 바닥은 재편 감당 여력을 주지만 성장엔진은 아님(7조 목표는 신작·M&A 베팅 위에 섰다 무너짐)
+- 보강: nexon.md(4개축→5개축, 신규 "5. 2026 Transformation Plan" 섹션 + 섹션2 인사이트 갱신 + source), nexon-ncsoft-mmo-recurrent-2026(회복탄력≠무한성장 ⚠️ + related), catalog-economics.md(MMO recurrent 섹션에 floor≠ceiling ⚠️ 블록)
+- 카탈로그: index(147→148)·sources/all(147→148·CMB 행 top)·about(INGEST 92→93·소스 148·총 334)
+- 미push — 사용자 검토 후. 챗봇 재색인도 확인 후
+
+## [2026-07-13] ingest | 한국 MMO recurrent 카탈로그 — catalog-economics 5번째 모델 편입 (넥슨 vs 엔씨)
+- 트리거: catalog-economics.md 추가 조사 주제 #4 → 사용자 지시 "(a) 넥슨·엔씨 IR 웹 리서치 + sources deep-dive + 5번째 모델 편입". nexon.md가 예약해둔 갭("위키 보강 대기 — Phase 2, deep dive source 없음") 해소
+- Source: 웹 1차/2차 IR 리포팅 — Nexon Q1 2026·FY2025 실적(businesswire/yahoo), NCSOFT FY2025 Q4(InvestGame), Korea Herald(26년만 첫 적자). confidence medium-high(2차 리포팅 종합)
+- 생성(sources 1): nexon-ncsoft-mmo-recurrent-2026 — 넥슨 FY2025 ¥475.1B·메이플 franchise +43%(22년 최고)·던파 텐센트 10년 재계약 / 엔씨 FY2024 첫 영업손실·리니지 모바일 100%(전체 53%)·franchise ~70%. "패키지 카탈로그와 달리 재발매·가격곡선 없음, 같은 게임 수십 년 운영"
+- 보강(concept): catalog-economics.md — 4모델→**5모델**(MMO recurrent형 행 추가 + ⚠️ 축 차이 블록), "한국 MMO — 넥슨 vs 엔씨" 케이스 섹션 신설(회복탄력형/취약형 대비), sources·related frontmatter +2, updated. **추가 조사 주제 5개 전면 재작성**(데이터 가용성 기준 triage — #4 착수완료·#1 캡콤 한정·#2/#3 framework만·#5 대체로 완료)
+- 보강(entity): nexon.md 섹션4 "Phase 2 대기" → 정식 편입 내용으로 교체 + source·updated. confidence 주석 갱신
+- stale 정리: catalog-economics-3-publishers.md 2곳("5번째 모델 분류 필요" → "편입 완료" + source 링크)
+- 카탈로그: index(소스 146→147)·sources/all(146→147·1행)·about(INGEST 91→92·소스 147·총 333)
+- 신규성: 기존 catalog economics는 패키지 게임(캡콤·닌텐도·Take-Two·라리안·프롬·베데스다) 축만 → *라이브 MMO recurrent*라는 근본적으로 다른 5번째 축 + 한국 게임사(사용자 도메인) 케이스 최초 정량 편입
+- 미push — 사용자 검토 후. 챗봇 재색인도 확인 후
+
+## [2026-07-13] lint 후속 | Nintendo Switch 2 entity 생성 (naavik 핵심 논거 plain text → 노드화)
+- 트리거: 2026-07-13 주간 lint 추천 조사 4 → 사용자 지시. naavik 소스가 Switch 2 $499 저가 우위를 핵심 논거로 쓰나 대응 entity 없어 plain text 처리되던 문제 해소
+- 생성: entities/nintendo-switch-2(2025-06·$499·cross-gen carry — 위키 소스에만 근거, confidence medium). 가격·시점은 naavik 단일 digest 기준 명시
+- 연결: naavik-ai-memory-console-economics-2026-07의 plain "Switch 2" 2곳 → [[nintendo-switch-2]] wikilink (고립 회피). entities/all.md 플랫폼 표 1행 추가
+- 자동 갱신(수치): about.md 엔티티 87→88·총 md 331→332. overview.md 미디어·플랫폼 9→10(Switch 2 추가). index.md 무변경(플랫폼은 stat card 비대상)
+- relations: 플랫폼 노드라 기존 nintendo-switch·ps5와 동일하게 relations 필드 미부착(5어휘 game-centric). 프로세 [[nintendo]]·[[nintendo-switch]] 링크만
+- 미push — 사용자 검토 후
+
+## [2026-07-13] ingest | Source Radar 2건 (Steam 팬 AI 정서 + AI 붐 콘솔 경제)
+- 배경: 2026-07-13 source radar 주간 스캔 → 사용자가 추천 후보 ①② 진행 지시 (③④는 중복 감안 보류)
+- Source: 웹 1차·심층 소스 2건 (GameDiscoverCo·Naavik, 발행 2026-07-07·07-12)
+- 생성(sources 2): carless-steam-fans-ai-sentiment-2026-07(Carless, 코어 Steam팬 ~3,800명 설문·AI 구매 무관심 43%/부정 31%·개발자 신뢰 17%·조건부 수용 51%·MAU ~1.98억 추정)·naavik-ai-memory-console-economics-2026-07(Naavik, AI 메모리 쇼크→PS5 $649·Xbox $799·DRAM +100%·PS5 수요 5월 −43%·Switch2 우위·GTA VI 촉매)
+- 생성(concepts 1): ai-disclosure-player-sentiment(신규 — 개발자 정서 ai-gamedev와 별개인 *소비자·구매* 축. "AI 자체보다 불투명성에 반응" 논지). ai-gamedev와 related 양방향 링크
+- 모순 명시: carless 소스에 "> ⚠️ 모순:" — Steam MAU 기존 valve.md ~1.4억(AB180) vs Carless ~1.98억(DSA 외삽), 방법론 차이 병기
+- entity: 신규 생성 안 함 — PS5·닌텐도는 기존 entity 링크만, Xbox·Switch2는 링크 대상 없어 plain(retrofit 안 함)
+- 카탈로그: index(소스 144→146·개념 67→68·Last updated 07-13·AI concept pill 추가)·sources/all(144→146·2행)·concepts/all(1행·updated 07-13)
+- 신규성: 기존 AI concepts(ai-gamedev·ai-asset-pipeline)는 전부 *개발자·파이프라인* 각도 → *소비자 구매 정서* + *하드웨어 거시경제* 각도 신규
+- 미push — 사용자 검토 후. 챗봇 재색인도 확인 후
+
 ## [2026-07-06] ingest | 헬다이버스 2 개발 프로세스 (팀 규모 + 프리프로덕션 교훈) — 소규모 팀 논지 보강
 - 트리거: 소규모 팀 종합 아티클(장기 종합 테스트) 근거 보강 — 사용자 "헬다이버스2 사례 + 발표자료 찾아보기"
 - Source: 웹 1차(GDC 발표·CEO 발언) 보도 — GamesRadar(Lemaire 팀규모)·PC Gamer/GamingBolt(Pilestedt 프리프로덕션). 1차 트랜스크립트 미확인 → confidence medium

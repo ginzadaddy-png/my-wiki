@@ -2,7 +2,7 @@
 title: "전체 개념 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-06-23
+updated: 2026-07-13
 ---
 
 ← [홈으로](../index.md)
@@ -28,6 +28,7 @@ updated: 2026-06-23
 | [[innersource]] | **이너소스** — 오픈소스 방식의 사내 기술 공유 모델 |
 | [[ai-gamedev]] | **게임 개발에서의 생성형 AI** — 정서 데이터·도입 원칙·역할 변화 |
 | [[ai-asset-pipeline]] | **AI 게임 에셋 산업화 파이프라인** — 단점 생성 한계·포맷 통일·경험 침전·노드 캔버스 (텐센트 Light AI) |
+| [[ai-disclosure-player-sentiment]] | **AI 디스클로저 플레이어 정서** — 구매자는 AI보다 불투명성에 반응·무관심 43%·신뢰 17%·조건부 수용 51% |
 | [[constraint-driven-creativity]] | **제약 기반 창의성** — 한계가 깊이를 만든다, 미야모토의 조각 퍼즐 밀도 |
 
 ## 출시·마케팅

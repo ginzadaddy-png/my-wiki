@@ -1,14 +1,14 @@
 # Game Dev Wiki
 
-Last updated 2026-07-06
+Last updated 2026-07-13
 
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">144</span></a></div>
-  <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">43</span></a></div>
-  <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">33</span></a></div>
-  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">67</span></a></div>
+  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">148</span></a></div>
+  <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">44</span></a></div>
+  <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">34</span></a></div>
+  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">68</span></a></div>
   <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">18</span></a></div>
   <div class="stat-card"><a href="reports/all.md" class="internal"><span class="stat-label">보고서</span><span class="stat-num">4</span></a></div>
 </div>
@@ -38,6 +38,7 @@ Last updated 2026-07-06
 - [[innersource|이너소스 — 오픈소스 방식의 사내 기술 공유 모델]]
 - [[ai-gamedev|게임 개발에서의 생성형 AI — 정서 데이터·도입 원칙·역할 변화]]
 - [[ai-asset-pipeline|AI 게임 에셋 산업화 파이프라인 — 단점 생성 한계·포맷 통일·경험 침전·노드 캔버스 (텐센트 Light AI)]]
+- [[ai-disclosure-player-sentiment|AI 디스클로저 플레이어 정서 — 구매자는 AI보다 불투명성에 반응·무관심 43%·신뢰 17%·조건부 수용 51%]]
 - [[constraint-driven-creativity|제약 기반 창의성 — 한계가 깊이를 만든다, 미야모토의 조각 퍼즐 밀도]]
 
 </div>
