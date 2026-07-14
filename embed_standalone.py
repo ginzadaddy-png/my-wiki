@@ -10,7 +10,7 @@
 """
 import re, sys, base64, pathlib, urllib.request
 
-PRES = pathlib.Path("wiki/presentations")
+PRES = pathlib.Path("wiki/reports")
 DIST = pathlib.Path("dist")
 FONT_URL = "https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/woff2/PretendardVariable.woff2"
 FONT_CACHE = DIST / ".fonts" / "PretendardVariable.woff2"   # dist/ 안(gitignore)
@@ -19,6 +19,7 @@ DECKS = [
     "ai-asset-pipeline-2026-report-deck.html",
     "steam-launch-strategy-deck.html",
     "studio-risk-defense-deck.html",
+    "how-small-teams-ship-big-games-deck.html",
 ]
 
 if not FONT_CACHE.exists() or FONT_CACHE.stat().st_size < 100_000:
