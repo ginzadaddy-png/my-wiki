@@ -2,6 +2,18 @@
 title: "활동 로그"
 ---
 
+## [2026-07-15] ingest | Alinea — Steam Is Having Another Record Year (H1 2026) — 백카탈로그 79% 플랫폼 레벨 확증
+- Source: raw N/A (웹 원문 https://alineaanalytics.substack.com/p/steam-is-having-another-record-year), Rhys Elliott / Alinea Analytics, 2026-07-09 (1차·데이터 티어, 위키 신규 소스 조직)
+- 강조점(사용자 지정): **백카탈로그 79%**
+- 핵심: H1 2026 Steam 플랫폼 매출 $11.1B(역대 최고 반기·+14.5% YoY). 신작 대 백카탈로그 매출 비중 H1 2024 71% → 2025 73% → **2026 79%** — 그동안 개별사 IR로만 받쳐지던 catalog-economics 테제를 *플랫폼 전체 레벨*에서 하드넘버로 확인한 첫 사례
+- 성장 드라이버 5개(아시아·중국 확산 / 신작 가격 인상 / 바이럴 co-op / 대형사 백카탈로그 전략 / 서드파티 Steam 복귀) 중 3개가 카탈로그 직결
+- 타이틀 데이터: Forza Horizon 6 $197.7M·RE Requiem $194.5M·Crimson Desert $190M+·Slay the Spire 2 $141.7M·Subnautica 2 $133.6M·Meccha Chameleon $71.3M(판매량 1위·$6). 가격 양극화 스냅샷
+- 생성(sources 1): alinea-steam-record-year-2026
+- 보강: catalog-economics(플랫폼 레벨 증거 섹션 신설·79% 💡·sources 배열·updated), game-market-trends(sources 배열), missing-middle-paradigm-shift-2026(related 양방향)
+- 신규 concept·entity 없음 (기존 catalog-economics·missing-middle·game-market-trends에 corroboration 주입). Meccha Chameleon은 기존 carless-meccha-chameleon-breakout 소스 존재 — 데이터 포인트로만 참조
+- 카탈로그: index(소스 148→149·Last updated 2026-07-15)·sources/all(총 149·행 추가)
+- 미push — 사용자 검토 후. 챗봇 재색인도 확인 후
+
 ## [2026-07-13] ingest | 넥슨·엔씨 공식 Q1 2026 IR (PDF) 확인 — primary 데이터로 recurrent 논지 확증 + 엔씨 반등 반영
 - 트리거: 사용자가 공식 IR PDF 3건 제공(넥슨 Q1 2026 Investor Presentation·Earnings Letter, 엔씨 2026 1Q 실적발표 KOR). WebFetch가 PDF 바이너리 파싱 실패 → 디스크 저장분을 python(fitz/PyMuPDF)으로 텍스트 추출(글로벌 python, poppler 미설치로 Read PDF 렌더 불가)
 - Source: 공식 IR 1차 자료 (confidence high). 엔씨는 이미지 기반이라 텍스트 일부만 추출 → 웹 보도로 게임별 수치 교차검증(아이온2 ₩1,368억·리니지클래식 ₩835억 등)

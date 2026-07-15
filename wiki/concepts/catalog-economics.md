@@ -1,16 +1,30 @@
 ---
 title: "카탈로그 이코노믹스 (Catalog Economics)"
 type: concept
-sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-ncsoft-mmo-recurrent-2026]]"]
+sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[alinea-steam-record-year-2026]]"]
 related: ["[[capcom|캡콤]]", "[[rockstar-games|록스타]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[bethesda-game-studios|베데스다]]", "[[fromsoftware|프롬소프트웨어]]", "[[nintendo|닌텐도]]", "[[nexon|넥슨]]", "[[larian-studios|라리안]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[live-service-design|라이브 서비스 설계]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[catalog-economics-3-publishers|3사 비교 (캡콤·닌텐도·Take-Two)]]", "[[nexon-ncsoft-mmo-recurrent-2026|한국 MMO recurrent]]", "[[hit-driven-strategy|홈런 전략]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]"]
 created: 2026-05-18
-updated: 2026-07-13
+updated: 2026-07-15
 confidence: high
 ---
 
 **카탈로그 이코노믹스**는 신작이 아닌 *기존 출시작*이 장기간 안정적인 매출을 만들어내는 비즈니스 모델 구조다. 신작은 화제·헤드라인을 만들고 카탈로그는 실제 캐시플로를 만든다. 디지털 유통·세일 가격대·시리즈 IP 강화가 동시에 성숙해진 2020년대 중반의 산업 구조에서 발생한 패턴.
 
 > 💡 **핵심 인사이트:** 캡콤은 FY26/3 unit sales 5,907만 중 4,946만(83.7%)이 카탈로그. 신작은 빙산의 일각이고, *5~9년 전 출시작이 매년 백만 단위로 팔리는 것*이 13년 연속 영업이익 성장의 실체. 신작 매출 회사가 아니라 *카탈로그 매출 회사*라는 점이 본질.
+
+## 플랫폼 전체 레벨 증거 — Steam H1 2026 ([[alinea-steam-record-year-2026]])
+
+카탈로그 이코노믹스는 그동안 캡콤·록스타·CDPR 등 *개별사 IR*로만 뒷받침됐는데, Alinea Analytics의 H1 2026 Steam 분석이 이를 **플랫폼 전체 레벨**에서 확인한다.
+
+| 기간 | 신작 | 백카탈로그 |
+|---|---|---|
+| H1 2024 | 29% | 71% |
+| H1 2025 | 27% | 73% |
+| H1 2026 | 21% | **79%** |
+
+> 💡 **핵심 인사이트 — Steam 매출의 79%가 백카탈로그:** H1 2026 Steam 플랫폼 매출 $11.1B(역대 최고 반기, +14.5% YoY) 중 **신작은 21%뿐**. 2년 만에 71%→79%로 카탈로그 쪽 이동이 가속. 캡콤이 보인 "신작 unit이 늘어도 카탈로그가 더 빨리 늘어 비중이 기움" 메커니즘이 *단일 회사가 아니라 스토어 전체*에서 재현된다. Elliott: "모든 신작은 이제 올해의 경쟁작이 아니라 *10년치 검증된 히트작이 몇 분의 1 가격에 깔린 카탈로그*와 경쟁한다." → 위 캡콤 84%·Take-Two RCS 78% 같은 개별 수치의 *상위 집계*가 이 79%라고 볼 수 있다.
+
+플랫폼 성장 드라이버 5개 중 3개가 카탈로그 직결: **아시아(특히 중국) 확산**(캡콤 아시아 5년 +247%와 동형), **대형 퍼블리셔의 스마트한 백카탈로그 전략**(세일·번들·시리즈 cross-sell), **서드파티의 Steam 복귀**(자체 런처 실험 종료). 나머지 둘은 신작 축(가격 인상·바이럴 co-op).
 
 ## 캡콤의 카탈로그 비중 추이 ([[capcom-fy26-ir]])
 

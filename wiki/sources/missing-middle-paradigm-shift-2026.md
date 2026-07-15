@@ -5,7 +5,7 @@ source_url: ""
 source_author: ""
 source_published: 2026-04
 sources: []
-related: ["[[sandfall-interactive|샌드폴 인터랙티브]]", "[[clair-obscur-expedition-33|클레어 옵스큐어]]", "[[embark-studios|엠바크 스튜디오]]", "[[arc-raiders|아크 레이더스]]", "[[arrowhead-game-studios|애로우헤드]]", "[[helldivers-2|헬다이버스 2]]", "[[game-market-trends|게임 시장 트렌드]]", "[[live-service-design|라이브 서비스 설계]]"]
+related: ["[[sandfall-interactive|샌드폴 인터랙티브]]", "[[clair-obscur-expedition-33|클레어 옵스큐어]]", "[[embark-studios|엠바크 스튜디오]]", "[[arc-raiders|아크 레이더스]]", "[[arrowhead-game-studios|애로우헤드]]", "[[helldivers-2|헬다이버스 2]]", "[[game-market-trends|게임 시장 트렌드]]", "[[live-service-design|라이브 서비스 설계]]", "[[alinea-steam-record-year-2026]]"]
 created: 2026-04-23
 updated: 2026-05-15
 confidence: high

@@ -2,10 +2,11 @@
 title: "소스 전체 목록"
 ---
 
-총 148개 | 최신순 정렬
+총 149개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [alinea-steam-record-year-2026](alinea-steam-record-year-2026.md) | Alinea — Steam Is Having Another Record Year (H1 2026, Elliott) — H1 매출 $11.1B·백카탈로그 79%·신작 21% | 2026-07-09 |
 | [nexon-cmb-2026-transformation](nexon-cmb-2026-transformation.md) | 넥슨 2026 CMB — Transformation Plan (2027 매출 7조 목표 철회·비용 규율·선별 M&A·투톱) | 2026-03-31 |
 | [nexon-ncsoft-mmo-recurrent-2026](nexon-ncsoft-mmo-recurrent-2026.md) | 한국 MMO recurrent 카탈로그 — 넥슨 vs 엔씨 (IR 종합) — 메이플 22년 최고매출·리니지 집중 26년만 첫 적자 | 2026-05-14 |
 | [naavik-ai-memory-console-economics-2026-07](naavik-ai-memory-console-economics-2026-07.md) | Naavik — AI 붐이 콘솔 하드웨어 경제를 재편 (메모리 쇼크·PS5 $649·Xbox $799·수요 −43%) | 2026-07-12 |
