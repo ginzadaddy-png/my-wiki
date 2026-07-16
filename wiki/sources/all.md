@@ -2,10 +2,11 @@
 title: "소스 전체 목록"
 ---
 
-총 149개 | 최신순 정렬
+총 150개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [sp-kagan-console-shipments-2026](sp-kagan-console-shipments-2026.md) | S&P Kagan — 2026 콘솔 출하 −19.5%(33.9M) 전망 (McEvoy/GamesIndustry.biz) — Switch2 17.1M·PS5 13.2M·Xbox 2.5M "0으로 wind-down"·2030 회복 | 2026-07-13 |
 | [alinea-steam-record-year-2026](alinea-steam-record-year-2026.md) | Alinea — Steam Is Having Another Record Year (H1 2026, Elliott) — H1 매출 $11.1B·백카탈로그 79%·신작 21% | 2026-07-09 |
 | [nexon-cmb-2026-transformation](nexon-cmb-2026-transformation.md) | 넥슨 2026 CMB — Transformation Plan (2027 매출 7조 목표 철회·비용 규율·선별 M&A·투톱) | 2026-03-31 |
 | [nexon-ncsoft-mmo-recurrent-2026](nexon-ncsoft-mmo-recurrent-2026.md) | 한국 MMO recurrent 카탈로그 — 넥슨 vs 엔씨 (IR 종합) — 메이플 22년 최고매출·리니지 집중 26년만 첫 적자 | 2026-05-14 |

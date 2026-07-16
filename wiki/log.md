@@ -2,6 +2,18 @@
 title: "활동 로그"
 ---
 
+## [2026-07-16] ingest | S&P Kagan — 2026 콘솔 출하 −19.5%(33.9M) 전망 — 콘솔 수요붕괴 테제 하드넘버 확증 + Xbox 철수 신호
+- Source: raw N/A (웹 원문 https://www.gamesindustry.biz/analyst-game-console-shipments-expected-to-decline-195-to-339m-units-in-2026), Sophie McEvoy / GamesIndustry.biz, 2026-07-13. 원 데이터 S&P Global Market Intelligence Kagan(애널리스트 Neil Barbour). confidence medium (forecast)
+- **크롬 폴백 적용**: gamesindustry.biz가 WebFetch 403 차단 → claude-in-chrome MCP(navigate+get_page_text)로 원문 직접 확인. 2차 인용엔 없던 세부(PS6 2028 4M→2030 17.2M·Xbox Project Helix·PS5 정확 가격) 확보. (신규 지침 메모리 feedback-webfetch-chrome-fallback 반영)
+- 핵심: 2026 콘솔 출하 −19.5% → 33.9M(2025 42.1M에서, Switch2 출시로 +13.5% 반짝 후 반락). 2027 저점 27.1M → 2030 37.4M 회복(부품위기 2028 완화 + 차세대기 $600–800 전제)
+- 기종별 2026: Switch2 17.1M(닌텐도 자체 16.5M·소프트 텐트폴 부재)·PS5 13.2M(2025 17.1M −15.2%·base $550→$650·Pro $750→$900)·Xbox 2.5M(2025 3.2M 사상최저 → "0으로 wind-down", Project Helix는 PC수렴)
+- 신규 관점: Xbox 하드웨어 사실상 철수 → 콘솔 3파전이 소니·닌텐도 2파전 + Xbox PC수렴으로 재편 신호
+- 중복도: Naavik AI메모리 소스(2026-07-12)가 동일 테제 深 커버 → 신규 concept·entity 없음. 이 소스는 *티어-1 정량 출하 forecast*로 corroboration
+- 생성(sources 1): sp-kagan-console-shipments-2026
+- 보강: naavik-ai-memory-console-economics-2026-07(수요붕괴 섹션 S&P 출하 forecast 교차검증 💡·related 양방향·updated), game-market-trends("콘솔 하드웨어 수축" 섹션 신설·설치기반 TAM 압박·sources 배열)
+- 카탈로그: index(소스 149→150·Last updated 2026-07-16)·sources/all(총 150·행 추가)
+- 미push — 사용자 검토 후. 챗봇 재색인도 확인 후
+
 ## [2026-07-15] ingest | Alinea — Steam Is Having Another Record Year (H1 2026) — 백카탈로그 79% 플랫폼 레벨 확증
 - Source: raw N/A (웹 원문 https://alineaanalytics.substack.com/p/steam-is-having-another-record-year), Rhys Elliott / Alinea Analytics, 2026-07-09 (1차·데이터 티어, 위키 신규 소스 조직)
 - 강조점(사용자 지정): **백카탈로그 79%**

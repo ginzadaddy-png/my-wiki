@@ -5,9 +5,9 @@ source_url: "https://naavik.co/digest/the-ai-boom-is-repricing-gaming-hardware-a
 source_author: "Naavik"
 source_published: 2026-07-12
 sources: []
-related: ["[[game-market-trends|게임 시장 트렌드]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[ps5|PS5]]", "[[nintendo|닌텐도]]"]
+related: ["[[game-market-trends|게임 시장 트렌드]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[ps5|PS5]]", "[[nintendo|닌텐도]]", "[[sp-kagan-console-shipments-2026]]"]
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-07-16
 confidence: medium
 ---
 
@@ -34,6 +34,8 @@ confidence: medium
 ## 수요 붕괴 신호
 
 - PS5 하드웨어 지출 **5월 YoY −43%**, 유닛 **−58%** ("수십 년래 최악의 5월")
+
+> 💡 **교차검증 — S&P 출하 forecast ([[sp-kagan-console-shipments-2026]]):** 이 "지출 신호"를 티어-1 데이터 기업(S&P Global Kagan)이 *출하 forecast*로 확증. 2026 콘솔 출하 **−19.5% → 33.9M**(2025 42.1M에서), 2027 저점 27.1M → 2030 37.4M 회복. 기종별: Switch 2 17.1M · PS5 13.2M(2025 17.1M에서) · Xbox 2.5M. **Xbox는 2025년 3.2M(사상 최저) 후 "0으로 wind-down"** — 콘솔 3파전이 소니·닌텐도 2파전 + Xbox의 PC 수렴으로 재편될 신호. 회복 전제는 Naavik과 동일하게 *부품 위기 2028 완화 + 차세대기 $600–800*.
 
 ## 신규 관점 — punctuated equilibrium
 
