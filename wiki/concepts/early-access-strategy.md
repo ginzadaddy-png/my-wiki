@@ -1,10 +1,10 @@
 ---
 title: "얼리 액세스 전략"
 type: concept
-sources: ["[[gdc24-baldurs-gate-3]]", "[[kasavin-hades-ea]]", "[[vincke-bg3-ea]]", "[[ign-generations-in-play-2026]]"]
-related: ["[[larian-studios|라리안 스튜디오]]", "[[baldurs-gate-3|발더스 게이트3]]", "[[supergiant-games|슈퍼자이언트]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[playtesting|플레이테스팅]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]"]
+sources: ["[[gdc24-baldurs-gate-3]]", "[[kasavin-hades-ea]]", "[[vincke-bg3-ea]]", "[[ign-generations-in-play-2026]]", "[[carless-paralives-million-2026-07]]"]
+related: ["[[larian-studios|라리안 스튜디오]]", "[[baldurs-gate-3|발더스 게이트3]]", "[[supergiant-games|슈퍼자이언트]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[playtesting|플레이테스팅]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[player-trust-design|플레이어 신뢰 설계]]"]
 created: 2026-04-13
-updated: 2026-05-12
+updated: 2026-07-20
 confidence: high
 ---
 
@@ -36,6 +36,15 @@ confidence: high
 - **게임의 일부만 EA 공개**: 라리안 = Act 1만 / 슈퍼자이언트 = 엔딩 보류
 - **나머지는 1.0까지 보존**: 스토리 서프라이즈·완성도 모먼트 유지
 - **EA = 검증 루프, 마케팅 도구 아님** ([[vincke-bg3-ea]] 빈케 발언: "EA를 성공적으로 졸업한 게임은 모델을 남용하지 않는다")
+
+## 커뮤니티 펀딩 선행 모델 — Paralives ([[carless-paralives-million-2026-07]])
+
+라리안·하데스가 *EA 기간* 안에서 신뢰를 쌓았다면, [[paralives|Paralives]]는 **EA 이전 7년의 Patreon 커뮤니티**로 신뢰를 선적립한 케이스. 15명 팀이 EA 첫 달 100만 장을 판매했다.
+
+- **환불률 6.5%** (업계 중앙값 9.5% 하회) + **긍정 90%** + 잔여 위시리스트 180만 — 기대·실제가 정합하는 건강 신호
+- **Patreon 2019~ 월 ~$50k·누적 $3M**: EA 진입 전에 이미 discovery engine을 확보. "유료 DLC 없음, 무료 확장만" 약속으로 The Sims 4 대비 [[player-trust-design|신뢰 차별화]]
+- **첫 달 Workshop 모드 ~25,000개**: EA 커뮤니티가 곧 창작 커뮤니티로 전환
+- 교훈: EA의 신뢰는 *EA 시작 시점부터* 쌓는 것이 아니라, 그 이전 커뮤니티 단계에서 선행 적립하면 런치 전환이 극대화됨
 
 ## 구독 시대의 EA — "Discovery Engine" 관점 ([[ign-generations-in-play-2026]])
 

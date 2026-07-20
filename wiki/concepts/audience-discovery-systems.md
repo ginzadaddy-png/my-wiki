@@ -1,10 +1,10 @@
 ---
 title: "오디언스 발견 시스템 — Intent vs Algorithm"
 type: concept
-sources: ["[[ign-generations-in-play-2026]]"]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[community-management|커뮤니티 운영]]", "[[launch-metrics|흥행 예측 지표]]"]
+sources: ["[[ign-generations-in-play-2026]]", "[[carless-dear-passengers-wishlists-2026-07]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[community-management|커뮤니티 운영]]", "[[launch-metrics|흥행 예측 지표]]", "[[steam-next-fest|Steam Next Fest]]"]
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-07-20
 confidence: high
 ---
 
@@ -63,6 +63,14 @@ confidence: high
 같은 IP라도 Gen X는 utility로 들어와 "마스터"하고, Gen Z는 social로 들어와 "참여"한다. 단일 채널·단일 메시지 전략은 두 모드를 동시에 잡을 수 없다.
 
 > 💡 **핵심 인사이트:** 발견 시스템은 *플랫폼이 결정하지 않는다* — 세대의 운영 체제가 결정한다. 같은 플랫폼(예: YouTube)에서도 Gen X는 검색 후 본다, Gen Z는 추천을 받아 본다. 마케팅 KPI를 "노출"이 아닌 "어떤 인텐트 모드를 활성화했는가"로 재설계할 필요.
+
+## 숏폼 바이럴 디스커버리 — 위시리스트:팔로워 배수 ([[carless-dear-passengers-wishlists-2026-07]])
+
+Feed-First 발견의 극단 사례. [[dear-passengers|Dear Passengers]]는 클리퍼블 트레일러 하나로 **3일 만에 위시리스트 100만**을 기록 — 숏폼 알고리즘 증폭이 전통적 위시리스트 축적을 압도하는 신작 발견의 1차 드라이버로 부상.
+
+- **위시리스트:팔로워 배수가 실행 리스크 신호**: 35배(Dear Passengers)=폭발적이나 검증 안 된 캐주얼 관심 / 11.8배(Rogue Carrier)=확신된 팬층. 절대 위시리스트량보다 *배수*가 전환 품질을 예고
+- **클리퍼블 트레일러 설계**: "스트리머 사운드얼라이크" + 진짜 게임플레이처럼 느껴지는 순간 → 자연 공유
+- **friendslop 부상**: "친구와 공유 세계에서 어울려 노는" 저가 소셜 게임이 2026 Steam 유닛 top 20 중 5개. 플레이어가 단일 타이틀 정착 대신 저가 소셜 게임을 로테이션 ([[steam-next-fest]] 개념도 friendslop 언급, [[carless-meccha-chameleon-breakout]]이 또 다른 사례)
 
 ## 시사 — 마케팅·런칭 전략 (참고: [[marketing-strategy|마케팅 전략]])
 
