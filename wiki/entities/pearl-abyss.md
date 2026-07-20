@@ -1,16 +1,18 @@
 ---
 title: "펄어비스 (Pearl Abyss)"
 type: entity
-sources: ["[[pearl-abyss-blackspace-engine-gdc2025]]"]
-related: ["[[proprietary-engine-strategy|독자 엔진 전략]]", "[[proprietary-engine-vs-ue5|자체 엔진 vs UE5 의사결정 매트릭스]]", "[[unreal-engine-5|Unreal Engine 5]]", "[[live-service-design|라이브 서비스 설계]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[game-market-trends|게임 시장 트렌드]]"]
+sources: ["[[pearl-abyss-blackspace-engine-gdc2025]]", "[[pearl-abyss-ir-1q26]]"]
+related: ["[[proprietary-engine-strategy|독자 엔진 전략]]", "[[proprietary-engine-vs-ue5|자체 엔진 vs UE5 의사결정 매트릭스]]", "[[unreal-engine-5|Unreal Engine 5]]", "[[live-service-design|라이브 서비스 설계]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[crimson-desert|붉은사막]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[game-market-trends|게임 시장 트렌드]]"]
 created: 2026-05-29
-updated: 2026-05-29
-confidence: medium-high
+updated: 2026-07-20
+confidence: high
 relations:
   parentOf: []
 ---
 
-**펄어비스 (Pearl Abyss)**는 2010 한국 안양 본사 설립, 창업자 김대일(Daeil Kim). 2017 KOSDAQ 상장(263750). [[proprietary-engine-strategy|독자 엔진 전략]]의 *한국 케이스이자 MMORPG 진영의 정점 사례* — *Black Desert Engine* 자체 개발, *PC·모바일·콘솔 cross-platform*에 동일 엔진 적용. CCP Games 인수(2018, $425M)로 *EVE Online IP 확보*, *멀티 IP 포트폴리오* 진입.
+**펄어비스 (Pearl Abyss)**는 2010 한국 안양 본사 설립, 창업자 김대일(Daeil Kim). 2017 KOSDAQ 상장(263750). [[proprietary-engine-strategy|독자 엔진 전략]]의 *한국 케이스이자 MMORPG 진영의 정점 사례* — *Black Desert Engine* 자체 개발, *PC·모바일·콘솔 cross-platform*에 동일 엔진 적용. 2018 CCP Games 인수($425M)로 EVE Online IP를 확보했으나 **2026-05-06 전량 매각**(아래 참조)으로 8년 만에 정리. 2026년 신규 IP [[crimson-desert|붉은사막]] 출시로 *검은사막 recurrent + 프리미엄 패키지 런치* 이중 구조로 전환했다.
+
+> 💡 **핵심 포지셔닝(2026 갱신):** 검은사막(MMORPG live-ops recurrent)이 10년+ *바닥*을 받치는 동안 [[crimson-desert|붉은사막]]이라는 *프리미엄 패키지 AAA*가 천장을 뚫은 **floor≠ceiling 교과서 사례**. 1Q26 영업수익 3,285억(+419.8%)의 81%가 붉은사막이며, 그 80%+가 미주/유럽에서 발생 — **비서구 스튜디오의 서구 프리미엄 시장 정면 돌파**([[pearl-abyss-ir-1q26|1Q26 IR]]).
 
 > 💡 **핵심 포지셔닝:** *MMORPG 자체 엔진 + cross-platform 적용*의 검증 사례. [[capcom|캡콤]]·[[fromsoftware|프롬소프트]]·[[remedy-entertainment|Remedy]]의 *AAA 자체 엔진* 모델과 달리 *MMORPG 라이브 서비스 + 자체 엔진*이라는 *제5의 카테고리*. *검은사막 엔진(Black Desert Engine)*은 *2014 출시 시점에 한국 MMO에서 드물게 콘솔급 비주얼*을 보였고, *모바일·콘솔 포팅*에서도 *동일 엔진 베이스*를 유지. 차세대 *블랙스페이스 엔진(Blackspace Engine)*은 2025-03 GDC 2025에서 미디어 최초 공개, *룩앤필·기술 통제·멀티플랫폼 지원* 3대 핵심 가치 아래 *붉은사막* 첫 상용 검증, 이후 *DokeV* 등 적용 예정.
 
@@ -27,6 +29,22 @@ relations:
 | 검은사막 PC 누적 (한국) | 2,800만+ 등록 계정 (2023 추정) |
 | 검은사막 글로벌 누적 매출 (외부 추정) | $2B+ (시리즈 전체) |
 
+## 1Q26 실적 — 붉은사막 출시 임팩트 ([[pearl-abyss-ir-1q26]])
+
+FY2025(계속영업기준)는 검은사막 단일 프랜차이즈에 의존한 *성장 없는 바닥*(영업수익 약 2,727억·영업이익 약 322억)이었으나, [[crimson-desert|붉은사막]] 출시로 1Q26에 폭발.
+
+| 항목 | FY2025 | 1Q26 | 2026 가이던스 |
+|---|---|---|---|
+| 영업수익 | 약 2,727억 | 3,285억 (+419.8% YoY) | 8,790~9,754억 |
+| 영업이익 | 약 322억 | 2,121억 (+2,584.8%) | 4,876~5,726억 (이익률 55.5~58.7%) |
+| IP 구성 | 검은사막 100% | 검은사막 616억(19%) · 붉은사막 2,665억(81%) | 붉은사막 6,441~7,348억 |
+
+- **지역**: 미주/유럽 81%(+25%p) · 아시아 13% · 국내 6%. 붉은사막 매출 80%+가 미주/유럽 → *비서구 스튜디오의 서구 프리미엄 성공* ([[game-market-trends]])
+- **플랫폼**: PC 59% · 콘솔 38%(+31%p) · 모바일 3%. 붉은사막 콘솔:PC ≈ 5:5
+- 신작 파이프라인: 도깨비(DokeV) 프리프로덕션 · Plan 8 컨셉. 2~3년 신작 사이클 목표
+
+> 💡 검은사막(recurrent floor)과 붉은사막(프리미엄 패키지 런치)이 한 회사에 공존하는 **하이브리드 catalog 구조**. 넥슨·엔씨(순수 MMO recurrent)·크래프톤(단일 메가IP+포트폴리오)과 함께 [[catalog-economics|카탈로그 이코노믹스]] 한국 4사 패널을 구성. 단 붉은사막은 초기 판매 집중형 패키지라 2분기부터 자연 감쇠 예상.
+
 ## 주요 작품
 
 | 게임 | 출시 | 플랫폼 | 비고 |
@@ -36,7 +54,7 @@ relations:
 | 검은사막 콘솔 | 2019 (PS4·XB1) / 2025 (PS5·XSX) | 콘솔 | cross-platform 동일 베이스 |
 | Shadow Arena | 2020 | PC | BR 모드, 2022 종료 |
 | EVE Online (CCP) | 2003 운영 | PC | 2018 인수 |
-| **붉은사막 (Crimson Desert)** | 2026-03 예정 | PC·콘솔 | *블랙스페이스 엔진* 첫 상용 검증, 오픈월드 액션 어드벤처 |
+| [[crimson-desert]] | **2026 1Q 출시** | PC·PS5·XSX | *블랙스페이스 엔진* 첫 상용 검증, 오픈월드 액션 어드벤처. 26일 500만장·1Q26 매출 2,665억 |
 | **DokeV (도깨비)** | 미정 | PC·콘솔 | 오픈월드 어드벤처 |
 | 검은사막 후속 (가칭 BD2) | 미정 | TBA | 차세대 IP |
 
@@ -95,13 +113,14 @@ relations:
 
 > ⚠️ **다른 catalog 4모델과의 분기**: [[catalog-economics-3-publishers|캡콤·닌텐도·Take-Two 3사 비교]]에서 *MMO recurrent 모델은 별개 5번째 모델*로 분류 권장됨. 펄어비스 검은사막이 그 표본 — *PC·모바일·콘솔 cross-platform 라이브 서비스 + 자체 엔진 + 단일 IP carry* 결합 모델.
 
-## CCP Games 인수 (2018) — 멀티 IP 진입
+## CCP Games 인수(2018) → 매각(2026-05) — 멀티 IP 실험의 종료
 
 - 2018-09 *$425M 전액 현금 인수* — *아이슬란드 CCP Games (EVE Online 운영)*
 - *목적*: ① EVE Online IP 확보 ② SF MMO 노하우 ③ 글로벌 운영 인프라
-- *결과*: EVE Online 서비스 지속 + 펄어비스의 *멀티 IP 포트폴리오* 진입 ([[multi-project-development|멀티 프로젝트 개발]] 모델)
-- *Cash 흐름 risk*: 인수 후 *현금 자산 감소*, 2018~2020 *주가 변동성 큼*
-- *시너지 한계*: EVE Online과 검은사막의 *플레이어 base·운영 모델 분리* — *공통 인프라 활용 어려움*
+- *시너지 한계*: EVE Online과 검은사막의 *플레이어 base·운영 모델 분리* — 인수 6년차에도 *공통 인프라 활용 사례 부재*
+- **2026-05-06 매각 완료**: 손자회사 펜리스 크리에이션(전 CCP ehf.)을 *현 경영진에게 전량 매각*. 손자회사 PAI(Pearl Abyss Iceland) 이사회 결정(2026-04-30). "중장기 성장전략 종합 검토 결과" — 계속영업 재무제표 재작성 사유. 협업 가능성은 열어둠
+
+> ⚠️ **인수 ROI 미검증 채 정리:** 8년 만의 EVE Online IP 분리는 아래 risk #4("시너지 미흡")가 현실화한 결과. 붉은사막 출시로 본업(검은사막·붉은사막) 집중이 명확해지며 *멀티 IP 포트폴리오 실험*을 접은 신호. [[pearl-abyss-ir-1q26|1Q26 IR]] 참조.
 
 ## 시그니처 차별점
 
@@ -112,12 +131,13 @@ relations:
 
 ## risk
 
-> ⚠️ **risk:**
-> 1. *블랙스페이스 엔진 상용 검증 미완* — 2025-03 GDC 시연 영상은 공개됐으나 *실제 상용 빌드 충실도*는 *2026-03 붉은사막 출시 후* 검증. 시연 영상 대비 출시 빌드 *충실도 다운그레이드* risk
-> 2. *붉은사막 다년 지연* — 2019 첫 공개 후 *6년 누적 지연*. *cash flow 부담* (검은사막 매출에 전적 의존)
-> 3. *MMORPG 시장 성숙기* — 한국 MMO 시장이 *원신·로블록스·신규 장르*에 점유 잠식. *검은사막 매출 정체* 가능성
-> 4. *CCP Games 시너지 미흡* — 인수 6년차에도 *공통 인프라 활용 사례 부재*. *인수 ROI 검증 어려움*
-> 5. *EU·미국 규제* — 한국 MMO의 *확률형 아이템 규제* 강화 시 *글로벌 매출 충격*
+> ⚠️ **risk (2026 갱신):**
+> 1. ✅ *블랙스페이스 엔진 상용 검증* — [[crimson-desert|붉은사막]] 2026 1Q 출시로 첫 상용 검증 완료(26일 500만장). 초기 다운그레이드 우려는 해소됐으나 *DokeV 등 타 장르 이식*은 미검증
+> 2. **붉은사막 초기 판매 감쇠** — *다년 지연*은 출시로 해소됐으나, 이제 리스크는 반대편으로 이동: 초기 판매 집중형 패키지라 *2분기부터 자연 감쇠* 예상(회사 명시). 라이브 카탈로그화(DLC·플랫폼 확장) 성공 여부가 관건
+> 3. *검은사막 매출 정체* — 2026 가이던스상 검은사막 전년比 −8~10%. MMORPG 시장 성숙기(원신·신규 장르 잠식) 진행형 → recurrent floor 자체가 완만한 하향
+> 4. ✅→ *CCP Games 정리* — 시너지 미검증 채 2026-05 매각 완료. 인수 ROI risk는 *실현된 손실*로 종결(멀티 IP 실험 접음)
+> 5. *단일작 편중* — 2026 전사 매출의 73~75%가 붉은사막 단일작. 신작 사이클(도깨비·Plan 8)이 2~3년 뒤라 *붉은사막 감쇠 ↔ 차기작 공백* 사이 매출 골 리스크
+> 6. *EU·미국 규제* — 확률형 아이템 규제 강화 시 검은사막 글로벌 매출 충격
 
 ## 비교 — 자체 엔진 진영 사례별
 

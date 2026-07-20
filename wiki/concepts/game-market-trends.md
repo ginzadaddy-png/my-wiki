@@ -1,7 +1,7 @@
 ---
 title: "게임 시장 트렌드"
 type: concept
-sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[alinea-steam-record-year-2026]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]"]
+sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[alinea-steam-record-year-2026]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[pearl-abyss-ir-1q26]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]"]
 created: 2026-04-20
 updated: 2026-05-18
@@ -63,6 +63,16 @@ AI 메모리 쇼크발 가격 인상으로 콘솔 출하가 꺾인다. S&P Globa
 - **미래 성장 시장**: 브라질·멕시코·동남아·중동 (기존 핵심 시장은 2020년 이후 하락)
 
 > ⚠️ 모순: 뉴주는 저가 프리미엄·인디 부상을 강조, 매튜 볼은 서구 독립 개발사의 구조적 불이익을 강조. **시장 전체(+) vs. 개별 기업 수익(-)** 프레임 차이로 해소 — 파이는 커졌으나 서구 개발사 몫은 줄었다.
+
+## 역방향 사례 — 비서구 스튜디오의 서구 프리미엄 돌파 ([[pearl-abyss-ir-1q26]])
+
+매튜 볼 논지가 *"서구 개발사가 접근 못 하는 곳(중국·로블록스·구독)에 성장이 몰린다"*였다면, 그 거울상으로 **비서구 스튜디오가 서구 프리미엄 시장에 진입하는 흐름**도 2026년 하드 데이터로 나타난다.
+
+- [[pearl-abyss|펄어비스]]([[crimson-desert|붉은사막]]): 1Q26 영업수익 3,285억(+419.8%)의 81%가 붉은사막, 그중 **80%+가 미주/유럽**·**콘솔 비중 38%**. 한국 스튜디오의 신규 IP가 *서구 프리미엄 콘솔/PC AAA 시장*에서 정면 성공
+- 캡콤(위 [이머징 마켓](#이머징-마켓-—-캡콤-글로벌-매출-5년) 참조): 반대 방향 — 일본 스튜디오가 244개국 카탈로그로 아시아·중동 +247%/+276% 흡수
+- 넥슨([[nexon]]) [[arc-raiders|ARC Raiders]]: 스웨덴 [[embark-studios|엠바크]]를 통해 서구 프리미엄 IP를 스케일화(누적 16M+)
+
+> 💡 **핵심 인사이트:** "서구 개발사 구조적 불이익"과 "비서구 스튜디오의 서구 프리미엄 성공"은 모순이 아니라 *같은 동전의 양면*이다. 불이익받는 건 *서구에 갇힌 개발사*이지 *서구 시장 자체*가 아니다 — 프리미엄 AAA·콘솔 지대는 여전히 미주/유럽 80%의 큰 파이이고([위 PC vs 콘솔](#pc-vs-콘솔-수익-구조)), *글로벌 자본·엔진·퍼블리싱을 갖춘 비서구 스튜디오*(펄어비스·크래프톤·미호요)가 그 파이에 진입하고 있다. [[missing-middle-paradigm-shift-2026|미싱 미들]]($30–50 AA)과 별개로, *풀프라이스 프리미엄 AAA*로도 비서구 신규 IP가 통한다는 반례.
 
 ## 미싱 미들(Missing Middle)의 부상 ([[missing-middle-paradigm-shift-2026]])
 

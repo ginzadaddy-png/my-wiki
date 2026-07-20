@@ -5,7 +5,7 @@ source_url: "https://www.businesswire.com/news/home/20260514529375/en/Nexon-Rele
 source_author: "Nexon IR · NCSOFT IR (종합)"
 source_published: 2026-05-14
 sources: []
-related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[nexon|넥슨]]", "[[nexon-cmb-2026-transformation|넥슨 2026 CMB]]", "[[live-service-design|라이브 서비스 설계]]", "[[game-market-trends|게임 시장 트렌드]]"]
+related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[nexon|넥슨]]", "[[ncsoft|엔씨소프트]]", "[[krafton|크래프톤]]", "[[pearl-abyss|펄어비스]]", "[[nexon-cmb-2026-transformation|넥슨 2026 CMB]]", "[[live-service-design|라이브 서비스 설계]]", "[[game-market-trends|게임 시장 트렌드]]"]
 created: 2026-07-13
 updated: 2026-07-13
 confidence: high
@@ -35,4 +35,13 @@ confidence: high
 - 지역: 한국 58%(65%→하락)·아시아 27%·북미·유럽 15% (신작 글로벌화로 탈-한국 진행)
 
 > 💡 **핵심 인사이트:** primary IR이 드러낸 두 가지. **①** MMO recurrent 바닥(넥슨 vertical·엔씨 리니지 모바일)은 *flat 또는 하향*이고, 두 회사의 **성장은 전부 신작에서** 나온다(넥슨 ARC Raiders horizontal +188% / 엔씨 아이온2 PC 3배) — **recurrent = 안정적 floor ≠ 성장 ceiling**을 하드 데이터로 확증. **②** 두 회사가 동시에 *클래식 서버 재출시*(엔씨 리니지 클래식 90일 ₩1,924억 / 넥슨 던파 클래식 2027)로 향한다 — 패키지 게임의 "재발매형"에 대응하는 **MMO판 재발매 메커니즘**의 부상. "취약형(엔씨)"은 고정 라벨이 아니라 *FY24 trough*였고, 신작+클래식으로 반등 중(단 지속성은 미검증 — MMO 런치 매출은 전형적으로 front-load 후 감쇠).
+
+## 한국 4사로 확장 — 크래프톤·펄어비스 편입
+
+이 소스는 *순수 MMO recurrent*(넥슨·엔씨)에 집중하지만, 2026 IR 심화로 [[krafton|크래프톤]]([[krafton-ir-fy2025-1q26|FY2025·1Q26 IR]])과 [[pearl-abyss|펄어비스]]([[pearl-abyss-ir-1q26|1Q26 IR]])를 더한 **한국 4사 패널**이 [[catalog-economics|카탈로그 이코노믹스]]의 "한국 4사 IR 패널" 섹션에 구성됐다. 핵심 대비:
+
+- **크래프톤** — 단일 메가IP(PUBG) + Big Franchise 포트폴리오. 넥슨이 [[nexon-cmb-2026-transformation|7조 목표를 철회]]한 것과 정반대로 **7조 목표를 유지**하며 floor의 현금을 신작·M&A에 재투자(영익률 43.6→31.7% 감수)
+- **펄어비스** — 검은사막 recurrent floor + [[crimson-desert|붉은사막]] 프리미엄 패키지 런치. 1Q26 붉은사막이 매출 81%(+419.8%), 미주/유럽 80%+ — MMO recurrent와 이질적인 *1회성 패키지 축*을 얹은 하이브리드
+
+→ 네 회사 모두 recurrent 바닥을 갖되 *성장 천장을 뚫는 방식*(목표 하향/재투자 베팅/신작·클래식/프리미엄 런치)이 갈린다는 것이 4사 패널의 논지.
 

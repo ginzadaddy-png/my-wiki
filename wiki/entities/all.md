@@ -55,13 +55,13 @@ updated: 2026-06-23
 | [[annapurna-interactive]] | 미국 LA, 2016, 영화사 산하 작가형 인디 퍼블리셔, Outer Wilds·Stray·Cocoon, 2024-09 대량 사임 |
 | [[devolver-digital]] | 미국 텍사스 오스틴, 1998, LSE 상장(DEVO), Hotline Miami·Cult of the Lamb·Inscryption, 컬트 마케팅 |
 | [[raw-fury]] | 스웨덴 스톡홀름, 2015, 비상장 작가형 퍼블리셔, Sable·Norco·Kingdom 시리즈 |
-| [[pearl-abyss]] | 한국 안양, 2010, KOSDAQ 상장, 검은사막 PC·모바일·콘솔, 검은사막 엔진·블랙스페이스 엔진(2025-03 GDC 공개) 자체 엔진, CCP Games 자회사 |
+| [[pearl-abyss]] | 한국 안양, 2010, KOSDAQ 상장, 검은사막(recurrent floor)+[[crimson-desert]](프리미엄 런치) 하이브리드, 블랙스페이스 자체 엔진, CCP Games 2026-05 매각 |
 | [[electronic-arts]] | 미국 레드우드시티, 1982, NASDAQ 상장, EA Sports FC·Battlefield·Apex 퍼블리셔, [[respawn-entertainment]]·[[bioware]] 모회사 |
 | [[sony-interactive-entertainment]] | 소니 게임 부문, PlayStation, [[team-asobi]]·[[sony-santa-monica]]·[[naughty-dog]]·[[sucker-punch-productions]]·[[insomniac-games]] 모회사 |
 | [[microsoft]] | Xbox Game Studios, [[bethesda-game-studios]]·[[obsidian-entertainment]] 모회사 |
 | [[take-two-interactive]] | 미국 퍼블리셔, [[rockstar-games]] 모회사 (GTA·레드 데드) |
 | [[bandai-namco]] | 일본 퍼블리셔, [[dark-souls]]·[[elden-ring]] 글로벌 퍼블리싱 |
-| [[krafton]] | 한국 게임사, MS 폐쇄 후 [[tango-gameworks]] 인수 |
+| [[krafton]] | 한국 게임사(PUBG), 단일 메가IP + Big Franchise 포트폴리오 전략 — FY2025 매출 3.3조(영익 −10.8% 재투자), 넥슨과 달리 7조 목표 유지, [[tango-gameworks]] 인수 |
 
 ## 미디어·플랫폼
 
@@ -96,6 +96,7 @@ graph 추론(플랫폼별 게임·독점작 질의)을 위한 플랫폼 노드.
 | [[dave-the-diver]] | 민트로켓, 혼합 장르, 스팀 성공 사례 |
 | [[arc-raiders]] | 엠바크, 익스트랙션 슈터, 120→25명 리셋 |
 | [[aion-2]] | 엔씨소프트 MMORPG, 아이온(2008) 후속 — Q1 26 ₩1,368억, 엔씨 PC 매출 3배 견인 |
+| [[crimson-desert]] | 펄어비스, 오픈월드 액션 어드벤처, 2026 1Q 출시 — 26일 500만장·1Q26 매출 2,665억(미주/유럽 80%+), 블랙스페이스 엔진 첫 상용작 |
 | [[dark-souls]] | 프롬소프트웨어, 소울라이크 원점, 로드란 3D 구조 |
 | [[elden-ring]] | 프롬소프트웨어, 2022 GOTY, 레거시던전+오픈필드 |
 | [[breath-of-the-wild]] | 닌텐도, 2017 GOTY, 자율성 기반 오픈월드 |

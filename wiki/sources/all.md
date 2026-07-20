@@ -2,14 +2,19 @@
 title: "소스 전체 목록"
 ---
 
-총 150개 | 최신순 정렬
+총 155개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [naavik-xbox-strategy-reset-2026-07](naavik-xbox-strategy-reset-2026-07.md) | Naavik — 10년 Xbox 전략을 뒤집은 메모 (Ahonen) — 마진 3%·Game Pass 3천만 정체·감원 3,200·관리계층 14→3~5·익스클루시브 복귀 | 2026-07-19 |
+| [carless-dear-passengers-wishlists-2026-07](carless-dear-passengers-wishlists-2026-07.md) | GameDiscoverCo — Dear Passengers 위시리스트 100만(3일)이 말하는 디스커버리 (Carless) — WL:팔로워 35배·friendslop top20 5개·클리퍼블 트레일러 | 2026-07-17 |
+| [carless-paralives-million-2026-07](carless-paralives-million-2026-07.md) | GameDiscoverCo — Paralives 첫 달 100만 장 (Carless) — 환불 6.5%·잔여 위시리스트 180만·7년 Patreon $3M·모드 25k | 2026-07-14 |
 | [sp-kagan-console-shipments-2026](sp-kagan-console-shipments-2026.md) | S&P Kagan — 2026 콘솔 출하 −19.5%(33.9M) 전망 (McEvoy/GamesIndustry.biz) — Switch2 17.1M·PS5 13.2M·Xbox 2.5M "0으로 wind-down"·2030 회복 | 2026-07-13 |
 | [alinea-steam-record-year-2026](alinea-steam-record-year-2026.md) | Alinea — Steam Is Having Another Record Year (H1 2026, Elliott) — H1 매출 $11.1B·백카탈로그 79%·신작 21% | 2026-07-09 |
 | [nexon-cmb-2026-transformation](nexon-cmb-2026-transformation.md) | 넥슨 2026 CMB — Transformation Plan (2027 매출 7조 목표 철회·비용 규율·선별 M&A·투톱) | 2026-03-31 |
 | [nexon-ncsoft-mmo-recurrent-2026](nexon-ncsoft-mmo-recurrent-2026.md) | 한국 MMO recurrent 카탈로그 — 넥슨 vs 엔씨 (IR 종합) — 메이플 22년 최고매출·리니지 집중 26년만 첫 적자 | 2026-05-14 |
+| [pearl-abyss-ir-1q26](pearl-abyss-ir-1q26.md) | 펄어비스 1Q26 IR — 붉은사막 출시로 recurrent floor + 프리미엄 런치 실증 — 매출 3,285억(+419.8%)·붉은사막 81%·미주유럽 80%+·CCP 매각 | 2026-05-13 |
+| [krafton-ir-fy2025-1q26](krafton-ir-fy2025-1q26.md) | 크래프톤 FY2025·1Q26 IR — 매출↑ 영익↓ 재투자 국면 + Big Franchise IP 전략 — FY25 3.3조(영익 −10.8%)·1Q26 1.37조·PUBG IP 첫 분기 1조·7조 목표 유지 | 2026-04-30 |
 | [naavik-ai-memory-console-economics-2026-07](naavik-ai-memory-console-economics-2026-07.md) | Naavik — AI 붐이 콘솔 하드웨어 경제를 재편 (메모리 쇼크·PS5 $649·Xbox $799·수요 −43%) | 2026-07-12 |
 | [carless-steam-fans-ai-sentiment-2026-07](carless-steam-fans-ai-sentiment-2026-07.md) | GameDiscoverCo — Steam 팬은 게임 속 AI를 어떻게 보나 (설문, Carless) — 무관심 43%·신뢰 17%·MAU ~1.98억 | 2026-07-07 |
 | [gdc-helldivers2-team-scaling](gdc-helldivers2-team-scaling.md) | GDC — 헬다이버스 2 팀 규모 스케일링 (20→105→130, Lemaire/Arrowhead) — 소규모 팀 대작 | 2025 |

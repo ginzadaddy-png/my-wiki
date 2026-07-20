@@ -2,6 +2,34 @@
 title: "활동 로그"
 ---
 
+## [2026-07-20] ingest | 크래프톤·펄어비스 FY2025·1Q26 공식 IR — 한국 게임사 4사 패널 완성
+- 트리거: 2026-07-20 주간 lint 추천 조사 #5(한국 게임사 IR 심화) → 사용자가 크래프톤·펄어비스 4개 공식 IR PDF 제공 + "강조점 3개·붉은사막 엔티티·넥슨엔씨 4사 확장" 지시
+- Source: 공식 IR PDF 4건 (크래프톤 FY2025/4Q25·1Q26, 펄어비스 4Q25 덱·1Q26 Earnings Letter). confidence high. poppler 미설치로 Read 렌더 실패 → pdfplumber로 텍스트 추출(글로벌 python). 펄어비스 4Q25 덱은 순수 이미지(텍스트 0)라 1Q26 Letter 부록의 FY2025 계속영업 분기수치로 커버
+- 강조점(사용자 승인 3축): ① 크래프톤 "매출↑ 영익↓" 재투자 국면(FY25 영익률 43.6→31.7%, 7조 목표 유지 — 넥슨 CMB 7조 철회와 정반대) ② 펄어비스 붉은사막 = recurrent floor(검은사막)+프리미엄 패키지 런치 ③ 비서구 스튜디오 서구 프리미엄 돌파(붉은사막 미주/유럽 80%·콘솔 38%)
+- 핵심 수치: 크래프톤 FY25 매출 3.3조(+22.8%)·영익 1.05조(−10.8%), 1Q26 1.37조(+56.9%, PUBG IP 첫 분기 1조). 펄어비스 1Q26 3,285억(+419.8%)·영익 2,121억(붉은사막 81%), 2026 가이던스 8,790~9,754억
+- 생성(sources 2): krafton-ir-fy2025-1q26·pearl-abyss-ir-1q26
+- 생성(entities 1): crimson-desert(붉은사막 — relations developedBy·publishedBy pearl-abyss·platform pc/ps5/xbox-series)
+- 보강(entity): krafton(스텁 → IR 심화·전략·재무·주주환원·relations·sources), pearl-abyss(1Q26 붉은사막 섹션·2026 가이던스·**CCP 2026-05 매각 반영**·risk 6종 재작성·붉은사막 wikilink·sources·updated)
+- 보강(concept): catalog-economics("한국 4사 IR 패널" 섹션 신설 — 넥슨·엔씨·크래프톤·펄어비스 floor≠ceiling 4가지 답·sources 2·related 2), game-market-trends("역방향 사례 — 비서구 스튜디오 서구 프리미엄 돌파" 섹션·source)
+- 보강(source): nexon-ncsoft-mmo-recurrent-2026("한국 4사로 확장" 섹션·related 4)
+- 카탈로그: index(소스 153→155·게임 34→35)·sources/all(153→155·2행)·entities/all(crimson-desert 행+krafton·pearl-abyss 설명 갱신)·overview(게임 34→35 붉은사막)·about(INGEST 97→98·소스 155·엔티티 91·총 345)
+- 정합 메모: 이번 세션 lint에서 소스를 150으로 오산 → 실제 153(index·Source Radar 07-20 반영분 포함) 확인 후 155로 교정. about.md 카운트는 07-13 이후 미갱신분(Alinea·S&P·Source Radar) 소급 반영
+- 미push — 사용자 검토 후. 챗봇 재색인도 확인 후 (crimson-desert relations 신규라 graph 갱신 권장)
+
+## [2026-07-20] ingest | Source Radar 후속 3건 — Naavik Xbox 전략 리셋 + Paralives 100만 + Dear Passengers 위시리스트 100만
+- Source: 전부 웹 원문 (raw N/A). Source Radar 2026-07-20 스캔에서 사용자가 ①②③ 선정
+  - ① Naavik — The Memo That Undid 10 Years of XBOX Strategy (Miikka Ahonen, 2026-07-19, https://naavik.co/digest/the-memo-that-undid-10-years-of-xbox-strategy/)
+  - ② GameDiscoverCo — How Paralives sold a million copies in its first month (Simon Carless, 2026-07-14, https://newsletter.gamediscover.co/p/how-paralives-sold-a-million-copies)
+  - ③ GameDiscoverCo — What 1 million wishlists for Dear Passengers says about discovery (Simon Carless, 2026-07-17, https://newsletter.gamediscover.co/p/what-1-million-immediate-wishlists)
+- ① Xbox: 마진 3%·Game Pass ~3천만 정체(피크 3,400만·목표 1억)·5년 $20B+ 지출에 매출 ~5억↓·감원 3,200(즉시 1,600)·관리계층 14→3~5·Helen Chiang 초대 COO·Mojang·King CEO 직속·익스클루시브 복귀. sp-kagan "Xbox 0 wind-down"과 하드웨어 축소는 일치하나 "완전철수 vs 모델전환" 해석 갈림 → ⚠️ 모순 블록
+- ② Paralives: EA 첫달 100만·환불 6.5%(중앙값 9.5%↓)·긍정 90%·잔여 위시리스트 180만·평균 플레이 11h40m·모드 25k·7년 Patreon 월$50k 누적$3M·"유료 DLC 없음". EA 이전 커뮤니티 펀딩이 선행 discovery engine
+- ③ Dear Passengers: 트레일러 하나로 3일 위시리스트 100만·WL:팔로워 35배(Rogue Carrier 11.8배 대비)=실행 리스크 신호·friendslop(2026 Steam 유닛 top20 중 5개)·클리퍼블 트레일러
+- 생성(sources 3): naavik-xbox-strategy-reset-2026-07, carless-paralives-million-2026-07, carless-dear-passengers-wishlists-2026-07
+- 보강(concepts 3): subscription-economy-gaming("Game Pass 정체" 반례 섹션·sources·updated), early-access-strategy("커뮤니티 펀딩 선행 모델—Paralives" 섹션·sources·related·updated), audience-discovery-systems("숏폼 바이럴 디스커버리—WL:팔로워 배수" 섹션·sources·related·updated)
+- 미생성 entity: mojang·paralives·paralives-studio·dear-passengers·flexus (본문 wikilink만, 향후 필요 시 entity 페이지화)
+- 카탈로그: index(소스 150→153·Last updated 2026-07-20)·sources/all(총 153·행 3 추가)
+- 미push — 사용자 검토 후. 챗봇 재색인도 확인 후
+
 ## [2026-07-16] ingest | S&P Kagan — 2026 콘솔 출하 −19.5%(33.9M) 전망 — 콘솔 수요붕괴 테제 하드넘버 확증 + Xbox 철수 신호
 - Source: raw N/A (웹 원문 https://www.gamesindustry.biz/analyst-game-console-shipments-expected-to-decline-195-to-339m-units-in-2026), Sophie McEvoy / GamesIndustry.biz, 2026-07-13. 원 데이터 S&P Global Market Intelligence Kagan(애널리스트 Neil Barbour). confidence medium (forecast)
 - **크롬 폴백 적용**: gamesindustry.biz가 WebFetch 403 차단 → claude-in-chrome MCP(navigate+get_page_text)로 원문 직접 확인. 2차 인용엔 없던 세부(PS6 2028 4M→2030 17.2M·Xbox Project Helix·PS5 정확 가격) 확보. (신규 지침 메모리 feedback-webfetch-chrome-fallback 반영)
