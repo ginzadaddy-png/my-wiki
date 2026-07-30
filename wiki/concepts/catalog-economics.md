@@ -1,10 +1,10 @@
 ---
 title: "카탈로그 이코노믹스 (Catalog Economics)"
 type: concept
-sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[alinea-steam-record-year-2026]]", "[[krafton-ir-fy2025-1q26]]", "[[pearl-abyss-ir-1q26]]"]
+sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[alinea-steam-record-year-2026]]", "[[krafton-ir-fy2025-1q26]]", "[[krafton-ir-2q26]]", "[[pearl-abyss-ir-1q26]]"]
 related: ["[[capcom|캡콤]]", "[[rockstar-games|록스타]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[bethesda-game-studios|베데스다]]", "[[fromsoftware|프롬소프트웨어]]", "[[nintendo|닌텐도]]", "[[nexon|넥슨]]", "[[krafton|크래프톤]]", "[[pearl-abyss|펄어비스]]", "[[larian-studios|라리안]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[live-service-design|라이브 서비스 설계]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[catalog-economics-3-publishers|3사 비교 (캡콤·닌텐도·Take-Two)]]", "[[nexon-ncsoft-mmo-recurrent-2026|한국 MMO recurrent]]", "[[hit-driven-strategy|홈런 전략]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]"]
 created: 2026-05-18
-updated: 2026-07-15
+updated: 2026-07-30
 confidence: high
 ---
 
@@ -133,10 +133,10 @@ confidence: high
 |---|---|---|---|---|
 | [[nexon]] | 다IP MMO recurrent | 메이플·던파 등 복수 장수 IP + 신작 horizontal | Q1 2026 ¥152.2B(+34%), 성장은 신작(+188%) | **7조 목표 철회** — floor를 성장으로 착각 안 함 |
 | [[ncsoft]] | 집중형 MMO recurrent | 리니지 단일 의존 → 신작·클래식 반등 | Q1 2026 매출 +55%·영익 +2,070%(아이온2+리니지 클래식) | trough(FY24 첫 적자) 후 반등, 지속성 미검증 |
-| [[krafton]] | 단일 메가IP + Big Franchise 포트폴리오 | PUBG 프랜차이즈 심화 + M&A·인큐베이션 | 1Q26 매출 1.37조(+56.9%), PUBG IP 첫 분기 1조 | **7조 목표 유지** — floor를 성장 실탄으로 재투자(영익률 43.6→31.7%) |
+| [[krafton]] | 단일 메가IP + Big Franchise 포트폴리오 | PUBG 프랜차이즈 심화 + M&A·인큐베이션 | 1H26 매출 2.66조(+73.3%, 역대 최대 반기), **[[subnautica-2]] EA 22일 500만장+로 두 번째 축 결실** | **7조 목표 유지** — floor 재투자 베팅이 2번째 Franchise IP로 실증 |
 | [[pearl-abyss]] | recurrent floor + 프리미엄 패키지 런치 | 검은사막 live-ops + 붉은사막 1회성 패키지 | 1Q26 매출 3,285억(+419.8%), 붉은사막 81% | floor(검은사막) 위에 프리미엄 런치로 천장 돌파 |
 
-> 💡 **핵심 인사이트 — floor≠ceiling에 대한 4가지 답:** 네 회사 모두 *안정적 recurrent 바닥*을 갖고 있으나 *성장 천장을 어떻게 뚫느냐*에서 갈린다. **넥슨**은 floor가 성장엔진이 아님을 인정하고 목표를 낮췄고(7조 철회), **크래프톤**은 정반대로 floor의 현금을 신작·M&A에 쏟아부어 7조 목표를 밀어붙인다(그 대가로 영익 역성장 감수). **엔씨**는 집중형 floor의 trough를 신작+클래식 서버로 틀어막았고, **펄어비스**는 recurrent floor 위에 *프리미엄 패키지 AAA 런치*라는 이질적 축을 얹었다. → 같은 "한국 MMO/게임사"도 catalog 진입 이후의 *성장 축 선택*이 회사 운명을 가른다.
+> 💡 **핵심 인사이트 — floor≠ceiling에 대한 4가지 답:** 네 회사 모두 *안정적 recurrent 바닥*을 갖고 있으나 *성장 천장을 어떻게 뚫느냐*에서 갈린다. **넥슨**은 floor가 성장엔진이 아님을 인정하고 목표를 낮췄고(7조 철회), **크래프톤**은 정반대로 floor의 현금을 신작·M&A에 쏟아부었고(FY25 영익 역성장 감수), 그 베팅이 1H26 [[subnautica-2|Subnautica 2]]라는 두 번째 Franchise IP로 결실나며 영익 회복까지 이뤘다(순이익은 M&A 후속 일회성으로 흔들림). **엔씨**는 집중형 floor의 trough를 신작+클래식 서버로 틀어막았고, **펄어비스**는 recurrent floor 위에 *프리미엄 패키지 AAA 런치*라는 이질적 축을 얹었다. → 같은 "한국 MMO/게임사"도 catalog 진입 이후의 *성장 축 선택*이 회사 운명을 가른다.
 
 > 💡 **크래프톤·펄어비스가 5모델 표에 안 들어가는 이유:** 크래프톤 PUBG는 *배틀로얄 프랜차이즈 플랫폼*(MMO recurrent와 라이브서비스 축은 같으나 장르·BM이 다름), 펄어비스 붉은사막은 *프리미엄 패키지 런치*(재발매형과 서비스형 어느 쪽도 아닌 1회성 신작). 둘 다 기존 5모델의 *경계 사례* — 순수 분류보다 *"floor를 어떻게 성장으로 전환하나"*라는 상위 질문이 더 설명력이 크다.
 

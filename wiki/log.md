@@ -2,6 +2,28 @@
 title: "활동 로그"
 ---
 
+## [2026-07-30] ingest | GameDiscoverCo — 플레이어 리뷰가 스팀 구매를 얼마나 좌우하나 (설문 3,800명)
+- 트리거: 2026-07-30 source radar 추천 #2 → 사용자가 "2번 ingest" 지시
+- Source: GameDiscoverCo 뉴스레터 (Simon Carless, 2026-07-24, confidence high). WebFetch로 전체 수치 추출
+- 강조점: "그대로 진행" — 별도 강조 없이 5대 핵심(리뷰 확인 습관화 72.5%·Mixed 절벽 30.8% 이탈·최근급락 조건부 관용 47.4%·기술이슈 리뷰 최유용 14%·밈/봇 리뷰 무용)
+- 생성(sources 1): carless-steam-reviews-purchase-2026-07
+- 보강(concept): launch-metrics("리뷰 등급의 소비자 행동 근거 — Mixed 절벽" 섹션 신규 — ZR review multiplier의 소비자 행동 근거로 연결·sources·updated)
+- 카탈로그: index(소스 156→157)·sources/all(157·행 07-24 위치 삽입)
+- 비고: krafton-ir-2q26 ingest와 동시 진행돼 카운트 충돌 → 156(krafton) 기준에서 157로 조정
+- 미push — 사용자 검토 후
+
+## [2026-07-30] ingest | 크래프톤 2Q26·1H26 공식 IR — 복수 성장축(PUBG+Subnautica 2) 확립 + 순이익 적자전환
+- 트리거: 사용자가 KRAFTON 2Q26 실적발표 PDF(17p, 2026-07-29) + 인벤 기사(이두현, 2026-07-29) 제공 → "읽고 업데이트 진행" 지시
+- Source: 공식 IR PDF (confidence high, 외부감사 전). poppler 미설치·fitz 없음 → pdfplumber로 텍스트 추출(글로벌 python, UTF-8 파일 경유 — 셸 cp949 mojibake 회피). 인벤 기사 WebFetch로 교차검증
+- 강조점(3축): ① 복수 성장축 확립 — 07-20 "floor를 성장 실탄으로 쓰는 베팅"이 두 번째 Franchise IP(Subnautica 2 EA 22일 500만장+)로 결실 ② 영업 회복 vs 순이익 충격의 괴리(2Q26 순이익 −299억 적자전환 — 언노운월즈 일회성+FX) ③ floor는 여전히 두꺼워지는 중(PUBG PC 분기 첫 5천억·MAU +20%)
+- 핵심 수치: 1H26 매출 2조 6,616억(+73.3%, 역대 최대 반기)·영익 9,725억(+38.3%, FY25 연간 영익의 92%)·순이익 4,842억(+25.1%). 2Q26 매출 1조 2,902억(+94.9%)·영익 4,109억(+67.0%, 이익률 31.8%)·순이익 −299억. PC 2Q26 5,604억(+155.1%, 분기 첫 5천억). 주주환원 1H26 자사주 3,000억+감액배당 996억, 소각 4,315억(3.5%), 3Q26 1,000억 추가 소각
+- 생성(sources 1): krafton-ir-2q26
+- 생성(entities 2): subnautica-2(게임 — relations developedBy unknown-worlds·publishedBy krafton·platform pc), unknown-worlds(스튜디오 — 2021 크래프톤 인수)
+- 보강(entity): krafton(2Q26·1H26 재무 테이블 4열 확장·복수 성장축 💡·gamescom 5신작 라인업·sources·relations parentOf에 unknown-worlds 추가·related·updated)
+- 보강(concept): catalog-economics(한국 4사 패널 krafton 행 2Q26 결실 갱신·floor≠ceiling 4답 블록 크래프톤 절 갱신·sources·updated)
+- 카탈로그: index(소스 155→156·스튜디오 44→45·게임 35→36·Last updated 2026-07-30)·sources/all(156·행 top)·entities/all(krafton 행 갱신+unknown-worlds·subnautica-2 행·updated)·overview(스튜디오 45·게임 36·Unknown Worlds·Subnautica 2 추가)
+- 미push — 사용자 검토 후. 챗봇 재색인도 확인 후 (subnautica-2·unknown-worlds relations 신규라 graph 갱신 권장)
+
 ## [2026-07-20] ingest | 크래프톤·펄어비스 FY2025·1Q26 공식 IR — 한국 게임사 4사 패널 완성
 - 트리거: 2026-07-20 주간 lint 추천 조사 #5(한국 게임사 IR 심화) → 사용자가 크래프톤·펄어비스 4개 공식 IR PDF 제공 + "강조점 3개·붉은사막 엔티티·넥슨엔씨 4사 확장" 지시
 - Source: 공식 IR PDF 4건 (크래프톤 FY2025/4Q25·1Q26, 펄어비스 4Q25 덱·1Q26 Earnings Letter). confidence high. poppler 미설치로 Read 렌더 실패 → pdfplumber로 텍스트 추출(글로벌 python). 펄어비스 4Q25 덱은 순수 이미지(텍스트 0)라 1Q26 Letter 부록의 FY2025 계속영업 분기수치로 커버

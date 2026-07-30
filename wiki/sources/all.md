@@ -2,10 +2,12 @@
 title: "소스 전체 목록"
 ---
 
-총 155개 | 최신순 정렬
+총 157개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [krafton-ir-2q26](krafton-ir-2q26.md) | 크래프톤 2Q26·1H26 IR — 역대 최대 반기 매출·영익 + 복수 성장축(PUBG+Subnautica 2) — 1H26 매출 2.66조(+73.3%)·영익 9,725억·2Q26 순이익 −299억·Subnautica 2 EA 22일 500만장 | 2026-07-29 |
+| [carless-steam-reviews-purchase-2026-07](carless-steam-reviews-purchase-2026-07.md) | GameDiscoverCo — 플레이어 리뷰가 스팀 구매를 얼마나 좌우하나 (Carless) — 설문 3,800명·72.5% 확인·Mixed 절벽 30.8% 이탈·조건부 관용 47.4%·기술이슈 리뷰 최유용 14% | 2026-07-24 |
 | [naavik-xbox-strategy-reset-2026-07](naavik-xbox-strategy-reset-2026-07.md) | Naavik — 10년 Xbox 전략을 뒤집은 메모 (Ahonen) — 마진 3%·Game Pass 3천만 정체·감원 3,200·관리계층 14→3~5·익스클루시브 복귀 | 2026-07-19 |
 | [carless-dear-passengers-wishlists-2026-07](carless-dear-passengers-wishlists-2026-07.md) | GameDiscoverCo — Dear Passengers 위시리스트 100만(3일)이 말하는 디스커버리 (Carless) — WL:팔로워 35배·friendslop top20 5개·클리퍼블 트레일러 | 2026-07-17 |
 | [carless-paralives-million-2026-07](carless-paralives-million-2026-07.md) | GameDiscoverCo — Paralives 첫 달 100만 장 (Carless) — 환불 6.5%·잔여 위시리스트 180만·7년 Patreon $3M·모드 25k | 2026-07-14 |

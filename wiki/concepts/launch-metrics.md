@@ -1,10 +1,10 @@
 ---
 title: "흥행 예측 지표"
 type: concept
-sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]"]
+sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[forecasting-vs-launch-metrics|예측 vs 측정 비교]]"]
 created: 2026-04-20
-updated: 2026-05-18
+updated: 2026-07-30
 confidence: high
 ---
 
@@ -155,6 +155,26 @@ ZR Consulting의 Steam Revenue Forecaster (2026)는 위 행동 기반 지표들�
 8. Seasonal/launch discount
 
 > ⚠️ ZR 본인 명시: *"30~50% 편차 가능. 예측이 아닌 계획 도구."* 1차 데이터(GameDiscoverCo·Zukowski·Valve)는 high confidence, ZR 자체 calibration(buzz multiplier·post-launch ratio·time distribution 등)은 medium confidence.
+
+## 리뷰 등급의 소비자 행동 근거 — "Mixed 절벽" ([[carless-steam-reviews-purchase-2026-07]])
+
+위 ZR review multiplier가 매출 *결과* 배수라면, GameDiscoverCo 설문(~3,800명, 2026-06)은 그 배수를 만드는 *소비자 구매 행동*을 정량화한다. **왜 한 tier drop이 매출을 반토막 내는지**를 설명.
+
+- **리뷰 확인은 기본값**: 항상 40.5% + 대체로 32.0% = **72.5% 습관적 확인**. "안 봄" 2.5%
+- **이탈 임계선 = "Mixed" 라벨**:
+
+| 이탈 트리거 등급 | 이탈 비율 |
+|---|---|
+| Very Positive 미만 (Mostly Positive 이하) | 20.3% |
+| **Mixed 이하** | **30.8%** |
+| Mostly Negative 이하라야 | 34.9% |
+| 등급 무관 | 9.7% |
+
+→ Mostly Positive는 20.3%만 거부(상업성 유지선), **Mixed로 떨어지면 30.8% 이탈**. ZR의 Mixed 0.55× → Mostly Positive 1.0× 배수 점프와 정합.
+
+- **최근<전체 괴리엔 "조건부 관용" 다수**: 매우 꼼꼼히 확인 32.9% vs *단기 불만으로 이해* 47.4% vs 무시 14.5% → 일시적 리뷰 급락은 회복 여지 있음
+- **가장 유용한 리뷰 = 버그·기술 이슈(14%)** > 총평(8%) > 필터·정렬(7%) > 플레이타임(6%) → 첫날 crash 0·성능 안정이 리뷰 유용성 인식에도 직결
+- **가장 무용 = 밈·트롤(20%)·리뷰 밤(11%)·AI 생성(6%)** → 플레이어 스스로 조작 리뷰를 노이즈로 할인, 리뷰 밤 과잉 공포 불필요
 
 ## Bad Launch Recovery — 런치 첫 달이 90% 결정 ([[zukowski-bad-launch-recovery-2024]])
 

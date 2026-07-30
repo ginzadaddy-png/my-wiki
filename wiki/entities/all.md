@@ -2,7 +2,7 @@
 title: "전체 개체 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-06-23
+updated: 2026-07-30
 ---
 
 ← [홈으로](../index.md)
@@ -61,7 +61,8 @@ updated: 2026-06-23
 | [[microsoft]] | Xbox Game Studios, [[bethesda-game-studios]]·[[obsidian-entertainment]] 모회사 |
 | [[take-two-interactive]] | 미국 퍼블리셔, [[rockstar-games]] 모회사 (GTA·레드 데드) |
 | [[bandai-namco]] | 일본 퍼블리셔, [[dark-souls]]·[[elden-ring]] 글로벌 퍼블리싱 |
-| [[krafton]] | 한국 게임사(PUBG), 단일 메가IP + Big Franchise 포트폴리오 전략 — FY2025 매출 3.3조(영익 −10.8% 재투자), 넥슨과 달리 7조 목표 유지, [[tango-gameworks]] 인수 |
+| [[krafton]] | 한국 게임사(PUBG), 단일 메가IP + Big Franchise 포트폴리오 전략 — 1H26 역대 최대 반기 매출 2.66조·[[subnautica-2]]로 두 번째 성장축 결실, 7조 목표 유지, [[tango-gameworks]]·[[unknown-worlds]] 인수 |
+| [[unknown-worlds]] | Subnautica 시리즈 개발사, 2021 [[krafton]] 인수 — [[subnautica-2]]로 크래프톤 두 번째 Franchise IP |
 
 ## 미디어·플랫폼
 
@@ -97,6 +98,7 @@ graph 추론(플랫폼별 게임·독점작 질의)을 위한 플랫폼 노드.
 | [[arc-raiders]] | 엠바크, 익스트랙션 슈터, 120→25명 리셋 |
 | [[aion-2]] | 엔씨소프트 MMORPG, 아이온(2008) 후속 — Q1 26 ₩1,368억, 엔씨 PC 매출 3배 견인 |
 | [[crimson-desert]] | 펄어비스, 오픈월드 액션 어드벤처, 2026 1Q 출시 — 26일 500만장·1Q26 매출 2,665억(미주/유럽 80%+), 블랙스페이스 엔진 첫 상용작 |
+| [[subnautica-2]] | [[unknown-worlds]]·[[krafton]], 수중 생존 어드벤처, 2026.5.15 EA — 22일 500만장·1H26 Subnautica IP 2,325억, 크래프톤 두 번째 Franchise IP |
 | [[dark-souls]] | 프롬소프트웨어, 소울라이크 원점, 로드란 3D 구조 |
 | [[elden-ring]] | 프롬소프트웨어, 2022 GOTY, 레거시던전+오픈필드 |
 | [[breath-of-the-wild]] | 닌텐도, 2017 GOTY, 자율성 기반 오픈월드 |

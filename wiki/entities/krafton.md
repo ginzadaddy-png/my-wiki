@@ -1,29 +1,33 @@
 ---
 title: "크래프톤 (KRAFTON)"
 type: entity
-sources: ["[[krafton-ir-fy2025-1q26]]"]
-related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]", "[[nexon-cmb-2026-transformation|넥슨 2026 CMB]]", "[[game-market-trends|게임 시장 트렌드]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[tango-gameworks|탱고 게임웍스]]"]
+sources: ["[[krafton-ir-2q26]]", "[[krafton-ir-fy2025-1q26]]"]
+related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]", "[[nexon-cmb-2026-transformation|넥슨 2026 CMB]]", "[[game-market-trends|게임 시장 트렌드]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[tango-gameworks|탱고 게임웍스]]", "[[subnautica-2|Subnautica 2]]", "[[unknown-worlds|Unknown Worlds]]"]
 created: 2026-06-01
-updated: 2026-07-20
+updated: 2026-07-30
 confidence: high
 relations:
-  parentOf: [tango-gameworks]
+  parentOf: [tango-gameworks, unknown-worlds]
 ---
 
 **크래프톤 (KRAFTON)**은 한국 게임 회사(대표이사 김창한). *배틀그라운드(PUBG)* 단일 초대형 IP를 축으로 **"단일 메가 라이브 IP 현금창출 + M&A·인큐베이션으로 차기 Big Franchise IP 포트폴리오 구축"** 전략을 편다. [[catalog-economics|카탈로그 이코노믹스]]의 *또 다른 변종* — 넥슨식 다IP recurrent도, 캡콤식 패키지 카탈로그도 아니다. 2024년 마이크로소프트가 폐쇄한 [[tango-gameworks|탱고 게임웍스]]를 인수해 존속시켰다.
 
 > 💡 **핵심 포지셔닝:** 넥슨이 [[nexon-cmb-2026-transformation|2026 CMB]]에서 "7조 매출 목표"를 철회한 것과 **정반대로, 크래프톤은 "5년 내 소수 Big Franchise IP로 전사 매출 7조·기업가치 2배"를 유지·재천명**한다. 단일 메가 IP(PUBG)의 두꺼운 현금흐름을 신작·M&A에 재투입하는 *floor를 성장 실탄으로 쓰는* 선택. 그 대가로 FY2025 영업이익률을 43.6%→31.7%로 스스로 낮췄다.
 
+> 💡 **2Q26 업데이트 — 베팅이 두 번째 축으로 결실:** FY2025의 *"floor를 성장 실탄으로 쓰는 베팅"*이 2026 상반기에 **두 번째 Franchise IP([[subnautica-2|Subnautica 2]], EA 22일 500만장+)로 결실**을 냈다. 1H26 역대 최대 반기 매출·영업이익을 기록하며 영업이익 회복 국면에 진입 — 김창한 CEO "펍지와 서브노티카 복수 성장축" 공식화. 단 2Q26 순이익은 [[unknown-worlds|언노운월즈]] 관련 일회성·외환손실로 **적자전환(−299억)** — 영업 회복과 순이익 노이즈가 한 분기에 공존.
+
 ## 핵심 재무 (공식 IR — [[krafton-ir-fy2025-1q26]])
 
-| 항목 | FY2025 | 1Q26 |
-|---|---|---|
-| 매출 | 3조 3,266억 (+22.8% YoY) | 1조 3,714억 (+56.9% YoY, 역대 최대 분기) |
-| 영업이익 | 1조 544억 (**−10.8%**, 이익률 31.7%) | 5,616억 (+22.8%, 역대 최대 분기) |
-| 순이익 | 7,337억 (−43.7%) | 5,141억 (+38.4%) |
-| PUBG IP 프랜차이즈 | +13% YoY | +24% YoY (분기 매출 첫 **1조** 상회) |
+| 항목 | FY2025 | 1Q26 | 2Q26 | 1H26 |
+|---|---|---|---|---|
+| 매출 | 3조 3,266억 (+22.8%) | 1조 3,714억 (+56.9%) | 1조 2,902억 (+94.9%) | **2조 6,616억 (+73.3%, 역대 최대 반기)** |
+| 영업이익 | 1조 544억 (**−10.8%**, 31.7%) | 5,616억 (+22.8%, 40.9%) | 4,109억 (+67.0%, 31.8%) | **9,725억 (+38.3%, 36.5%)** |
+| 순이익 | 7,337억 (−43.7%) | 5,141억 (+38.4%) | **−299억 (적자전환)** | 4,842억 (+25.1%) |
+| PUBG IP 프랜차이즈 | +13% YoY | +24% (분기 첫 **1조**) | — | **+25%** (연간 두 자릿수 가시성) |
 
-- 플랫폼(FY2025): PC 1조 1,846억(+25.8%) · 모바일 1조 7,407억(+3.0%) · 콘솔 428억 · 기타 3,585억(+963%)
+- 1H26 영업이익 9,725억 = **FY2025 연간 영업이익의 92%를 반기 만에 달성**
+- 플랫폼(2Q26): **PC 5,604억(+155.1% — 분기 첫 5천억 돌파)** · 모바일 4,510억(+5.5%) · 콘솔 238억(+143.3%). PC/Console MAU +20% YoY
+- 2Q26 순이익 적자전환은 [[unknown-worlds|언노운월즈]] 관련 일회성 + 외환 환산손실(영업외비용 4,187억·기타비용 4,130억 급증) — 영업 실적과 무관한 노이즈
 - PUBG PC/콘솔 5년 연속 매출 성장, 9년 연속 Steam Platinum
 
 ## 전략 — Big Franchise IP 확보
@@ -43,11 +47,15 @@ relations:
 
 | 게임 | 스튜디오 | 장르 | 시점 |
 |---|---|---|---|
-| Subnautica 2 | Unknown Worlds | 수중 생존 어드벤처 | 2026 EA (시리즈 누적 1,850만+·Steam 위시리스트 1위) |
-| PUBG: Black Budget | PUBG STUDIOS | 익스트랙션 슈터 | 개발중 (알파) |
-| PUBG: Blindspot (Valor) | Neon Giant | 오픈월드 슈터 RPG | 2027 |
+| [[subnautica-2]] | [[unknown-worlds]] | 수중 생존 어드벤처 | **2026.5.15 EA 출시 → 22일 500만장+** |
+| Neon Giant (신작) | Neon Giant | 1인칭 오픈월드 슈터 RPG | gamescom 공개 |
+| Nirvanana | KRAFTON | Multi-Team Tactical Arena (Hero-PvP) | gamescom 공개, Open Dev. |
+| (신작) | Piccolo Studio | 2인 Co-op Puzzle Adventure | gamescom 공개 |
+| (신작) | Boundary Studio | 동양판타지 Action RPG | gamescom 공개 |
+| 1PP 신작 | PUBG STUDIOS | PUBG 기반 신규 배경·경험 | gamescom 최초공개 |
 | inZOI | inZOI Studio | 라이프 시뮬레이션 | EA중 → 정식출시 폴리싱 |
-| Palworld Mobile (가칭) | 5minlab | 오픈월드 생존 크래프팅 | 2026 CBT |
+
+2026년 gamescom에서 5개 신작을 공개하며 Franchise 잠재력을 검증. Subnautica 2가 첫 결실을 낸 데 이어, 각 신작을 "IP 발굴→검증→Scale-up" 시스템에 투입.
 
 ## 관련 위키 페이지
 
