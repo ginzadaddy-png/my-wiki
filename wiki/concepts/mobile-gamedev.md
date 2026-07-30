@@ -3,11 +3,12 @@ title: "모바일 게임 개발"
 type: concept
 sources: [
   "[[ukyou-mobile-liveservice-survival]]",
-  "[[ukyou-mobile-liveservice-walls]]"
+  "[[ukyou-mobile-liveservice-walls]]",
+  "[[cedec2026-cyberagent-mobile-marketing]]"
 ]
-related: ["[[live-service-design|라이브 서비스 설계]]", "[[studio-culture|스튜디오 문화]]", "[[data-driven-development|데이터 기반 개발]]", "[[supercell|Supercell]]", "[[game-market-trends|게임 시장 트렌드]]"]
+related: ["[[live-service-design|라이브 서비스 설계]]", "[[studio-culture|스튜디오 문화]]", "[[data-driven-development|데이터 기반 개발]]", "[[supercell|Supercell]]", "[[game-market-trends|게임 시장 트렌드]]", "[[marketing-strategy|마케팅 전략]]"]
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-07-30
 confidence: high
 ---
 
@@ -63,3 +64,14 @@ confidence: high
 > "**천재 한 명이 만든 재미를 조직이 지속적으로 재현하는 방법**" — 이것이 해결되지 않은 채 업계 전체가 운영하고 있다.
 
 > 💡 **핵심 인사이트:** 모바일 운영형 게임에서 실패의 가장 큰 원인은 기술·예산 부족이 아니라 **인센티브 구조의 왜곡**이다. 고용 구조가 실패 인정을 막고, 평가 구조가 재미 측정을 어렵게 만들고, 매출 구조가 체험을 훼손한다. 세 구조를 동시에 설계하지 않으면 4요소 중 어느 하나도 제대로 작동하지 않는다.
+
+## 모바일 UA·사전예약 마케팅 — 통념의 데이터 반박 ([[cedec2026-cyberagent-mobile-marketing]])
+
+사이버에이전트(가몬 마사아키, CEDEC 2026)가 자사 ~30개 타이틀 데이터로 모바일 UA(User Acquisition) 통념을 반박. 위 4대 벽 중 "매출의 벽" 첫 요소인 *발견 가능성(Discoverability)*의 실전 정량.
+
+- **사전등록은 짧을수록 좋다? → 거짓.** 캠페인 시작 후 **약 4개월간 인지도 지속 상승** 후 둔화. 예산 집중은 비효율 — 월 150만엔 × 2개월이 월 300만엔 1개월보다 **약 1.25배** 유저 확보. *길고 분산 집행*이 정답
+- **OS별 사전등록 전환율**: iOS ~90%(강제 다운로드) vs Android ~50%(자동 인스톨 미대응)
+- **출시 후 광고 타이밍**: 출시 직후가 아니라 *순위 하락이 시작된 뒤* 방어적 집행이 상위권 유지에 유리 (iOS 2일째·Android 3일째 이후)
+- **측정의 한계**: 인터넷 광고 효과 완벽 측정 불가. 계측툴 170건 → App Store 10건 미만, 동일 타이틀 7월 신규 DL **약 3배 차이**
+
+> ⚠️ 모순: 이 모바일 UA 최적해(*예산 분산·순위 하락 후 광고*)는 [[marketing-strategy|마케팅 전략]]·[[launch-metrics|흥행 예측 지표]]가 정리한 Steam 모델(*런치월 ~38% 집중·출시 직후 몰빵*)과 표면적으로 상충한다. **모순이 아니라 플랫폼 차이** — 모바일 앱스토어는 랭킹을 *지속 방어*하는 구조, Steam은 출시 시점 *디스커버리 큐 단발 노출*. 반면 *사전예약 4개월 롱런웨이*와 *측정 불가능성*은 두 플랫폼 공통(마케팅은 출시 전 오랜 빌드업 + 겉보기 지표 불신).

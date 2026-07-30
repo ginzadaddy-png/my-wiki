@@ -1,10 +1,10 @@
 ---
 title: "마케팅 전략"
 type: concept
-sources: ["[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc24-steam-secrets]]", "[[airbridge-steam-marketing-playbook]]", "[[gdc26-steam-page-needs-soul]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[gdc26-integrated-marketing]]", "[[gdc26-game-trailers]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[steam-page-optimization-guide-2026]]", "[[game-marketing-strategy-2026]]", "[[indiebi-game-pricing-strategy]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[capcom-fy26-ir]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-small-spaces-longtail]]", "[[zukowski-demos-wishlist-conversion]]", "[[carless-meccha-chameleon-breakout]]"]
+sources: ["[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc24-steam-secrets]]", "[[airbridge-steam-marketing-playbook]]", "[[gdc26-steam-page-needs-soul]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[gdc26-integrated-marketing]]", "[[gdc26-game-trailers]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[steam-page-optimization-guide-2026]]", "[[game-marketing-strategy-2026]]", "[[indiebi-game-pricing-strategy]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[capcom-fy26-ir]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-small-spaces-longtail]]", "[[zukowski-demos-wishlist-conversion]]", "[[carless-meccha-chameleon-breakout]]", "[[cedec2026-cyberagent-mobile-marketing]]"]
 related: ["[[mint-rocket|민트로켓]]", "[[dave-the-diver|데이브 더 다이버]]", "[[balatro|발라트로]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[marketing-channels|인디 마케팅 채널 전략 비교]]"]
 created: 2026-04-13
-updated: 2026-07-06
+updated: 2026-07-30
 confidence: high
 ---
 
@@ -132,6 +132,15 @@ Meccha Chameleon($6, 3주 1,150만 장, Twitch #3): 완성된 메카닉이 아�
 **크리에이티브 원칙**
 - 장르·USP 모호하지 않게: "슈터 게임"이 아닌 "80년대 공포 테마의 로그라이크 협동 FPS"
 - AA→AAA 인식 점프는 **비주얼 '분위기'**로 전달
+
+## 모바일 UA는 정반대 최적해 — 플랫폼 차이 ([[cedec2026-cyberagent-mobile-marketing]])
+
+위 Steam/PC 마케팅 논지는 *출시 시점 집중*(런치월 ~38%·첫 2일 노출)이 핵심이다. 사이버에이전트(CEDEC 2026)의 모바일 UA 데이터는 이와 **표면적으로 상충**한다 — 상세는 [[mobile-gamedev|모바일 게임 개발]]의 UA 섹션.
+
+- 사전등록은 *길수록*(4개월 인지도 상승), 예산은 *분산*(150만엔×2개월 = 1.25배)이 유리
+- 출시 후 광고는 직후가 아니라 *순위 하락 후* 방어적 집행
+
+> ⚠️ 모순: Steam은 *출시 스파이크에 몰빵*, 모바일은 *분산+순위 방어*. **모순이 아니라 플랫폼 알고리즘 차이** — Steam 디스커버리 큐(단발 노출) vs 앱스토어 랭킹(지속 방어). 단 *출시 전 롱런웨이*와 *겉보기 지표 불신*(측정 한계)은 두 플랫폼 공통. → 마케팅 통념을 이식할 때 *플랫폼 메커니즘*을 먼저 확인해야 정반대 실수를 피한다.
 
 ## 스팀 넥스트 페스트 정량 데이터 (2025–2026)
 
