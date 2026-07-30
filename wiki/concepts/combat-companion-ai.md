@@ -1,10 +1,10 @@
 ---
 title: "전투·조력 AI 동반자 설계"
 type: concept
-sources: ["[[gdc14-tlou-buddy-ai]]", "[[gdc14-elizabeth-ai-postmortem]]", "[[gdc06-fear-goap]]", "[[gdc05-halo2-ai-complexity]]", "[[escort-mission-design-bycer]]", "[[miyazaki-elden-ring-spirit-ashes]]"]
-related: ["[[companion-design|동반자(Companion) 설계]]", "[[companion-philosophy|RPG 동반자 설계 철학 비교]]", "[[combat-design|전투 디자인]]", "[[game-feel|게임 필]]", "[[ai-navigation|AI 내비게이션]]", "[[game-balance|게임 밸런싱]]", "[[soulslike|소울라이크]]"]
+sources: ["[[gdc14-tlou-buddy-ai]]", "[[gdc14-elizabeth-ai-postmortem]]", "[[gdc06-fear-goap]]", "[[gdc05-halo2-ai-complexity]]", "[[escort-mission-design-bycer]]", "[[miyazaki-elden-ring-spirit-ashes]]", "[[cedec2026-granblue-relink-battle]]"]
+related: ["[[companion-design|동반자(Companion) 설계]]", "[[companion-philosophy|RPG 동반자 설계 철학 비교]]", "[[combat-design|전투 디자인]]", "[[game-feel|게임 필]]", "[[ai-navigation|AI 내비게이션]]", "[[game-balance|게임 밸런싱]]", "[[soulslike|소울라이크]]", "[[granblue-fantasy-relink|GRANBLUE FANTASY: Relink]]", "[[cygames|Cygames]]", "[[ip-adaptation-design|IP 적응 설계]]"]
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-07-30
 confidence: medium
 ---
 
@@ -44,7 +44,23 @@ confidence: medium
 - [[gdc06-fear-goap|F.E.A.R.의 GOAP]]: 실제 지능감은 알고리즘이 아니라 *올바른 타이밍에 재생되는 애니메이션 + 무전 대사(bark)*에서 나온다 — "측면 잡아!"를 들려주는 것이 측면포위 계산보다 중요할 수 있다
 - [[gdc05-halo2-ai-complexity|Halo 2의 지식 모델]]: AI 지식을 실제 월드와 분리(perception filter)해 *AI가 틀린 것을 믿고, 속고, 놀랄 수 있게* — 지능감은 AI를 더 똑똑하게가 아니라 *지식을 제한*해서 만든다
 
-## 5. 내비게이션 전제
+## 5. 2계층 구조와 접근성의 겸용 — Relink 모델
+
+[[cedec2026-granblue-relink-battle|GRANBLUE FANTASY: Relink]]([[cygames|Cygames]])는 동료 AI를 두 층으로 나눴다. 28캐릭터 × 3 스타일 = 84 플레이 스타일을 감당해야 했기 때문에, *캐릭터마다 전용 AI를 짜지 않는 것*이 전제였다.
+
+| 계층 | 역할 | 유지보수 이점 |
+|--|--|--|
+| Character AI | 비헤이비어 트리 + FSM으로 **플레이어 입력을 모사** | 플레이어측 밸런스·기술 변경이 AI에 자동 반영 — 전용 로직이 없으므로 이중 관리가 사라짐 |
+| Meta AI | 전장 지휘관 — 포지셔닝, 어빌리티 낭비 방지, 체인 어택 조율, 게이지 계산으로 풀 콤보 보장 | 개별 캐릭터를 건드리지 않고 *팀 전체 거동*을 조정 |
+
+- **의도적 감속**: "자세 잡고 걷기" 정지 상태를 넣어 AI가 플레이어보다 먼저 적을 정리하는 것을 방지 — 위 3번의 *의도적 비현실*이 이번엔 「너무 유능한 동료」를 억제하는 방향으로 쓰였다
+- 회피는 예측 회피가 아니라 **피격 후 무효화**로 구현 — 4번 *지능 착시* 계열(결과만 맞추고 계산은 생략)
+- **어시스트 모드와 아키텍처 공유**: 어시스트 모드(이동+공격) / 풀 어시스트(이동만)가 동료 AI와 같은 구조 위에서 동작한다. 즉 조력 AI를 잘 만들면 그것이 곧 접근성 기능이 된다 → [[ip-adaptation-design|IP 적응 설계]]
+- **부수 효과 — QA 도구화**: 어시스트 모드가 자동 플레이 테스트 겸 AI 버그 탐지기로 기능. 캐릭터가 화면 중앙에 고정되니 평소 놓치던 미세 거동 이상이 드러났다
+
+> 💡 하나의 구조가 *동료 AI · 접근성 · 자동 QA* 세 문제를 동시에 푼다. 동반자 AI를 "부가 기능"이 아니라 *플레이어 조작을 대행하는 공용 레이어*로 설계했을 때 얻어지는 배당이다.
+
+## 6. 내비게이션 전제
 
 전투 동반자는 [[ai-navigation|AI 내비게이션]] 품질에 종속된다. follow region·동적 엄폐 선택([[gdc14-tlou-buddy-ai|TLOU]]의 raycast cover pack)이 무너지면 곧바로 호위 미션의 "끼임" 문제로 회귀한다. 동반자 이동 자유도의 상한은 AI의 지형 이해도가 정한다.
 

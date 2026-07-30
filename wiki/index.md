@@ -5,10 +5,10 @@ Last updated 2026-07-30
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">157</span></a></div>
-  <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">45</span></a></div>
-  <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">36</span></a></div>
-  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">68</span></a></div>
+  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">165</span></a></div>
+  <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">48</span></a></div>
+  <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">40</span></a></div>
+  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">69</span></a></div>
   <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">18</span></a></div>
   <div class="stat-card"><a href="reports/all.md" class="internal"><span class="stat-label">보고서</span><span class="stat-num">4</span></a></div>
 </div>
@@ -103,6 +103,7 @@ Last updated 2026-07-30
 - [[game-essence|게임의 본질 — 사쿠라이의 리스크·리워드 + 긴장완화 사이클이라는 재미의 보편 구조]]
 - [[risk-and-reward|리스크 앤 리워드 — 위험을 감수해야 보상이 의미를 갖는 재미의 핵심 엔진]]
 - [[game-feel|게임 필 — 히트스톱·버튼 무게감·점프 곡선, 프레임 단위 조작감 설계]]
+- [[aesthetic-emotion-design|미적 감정 설계 — 심리적 거리·혼합 감정·가상 감정, 슬픔과 여백이 쾌감이 되는 구조]]
 
 </div>
 

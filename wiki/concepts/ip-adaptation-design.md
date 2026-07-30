@@ -1,10 +1,10 @@
 ---
 title: "IP 적응 설계"
 type: concept
-sources: ["[[gdc24-hogwarts-legacy-design]]", "[[gdc26-hogwarts-evolving-aaa]]", "[[gdc26-comics-to-games]]"]
-related: ["[[hogwarts-legacy|호그와트 레거시]]", "[[avalanche-software|아발란체 소프트웨어]]", "[[playtesting|플레이테스팅]]", "[[player-guidance-design|플레이어 유도 설계]]"]
+sources: ["[[gdc24-hogwarts-legacy-design]]", "[[gdc26-hogwarts-evolving-aaa]]", "[[gdc26-comics-to-games]]", "[[cedec2026-silent-hill-producing]]", "[[cedec2026-granblue-relink-battle]]"]
+related: ["[[hogwarts-legacy|호그와트 레거시]]", "[[avalanche-software|아발란체 소프트웨어]]", "[[playtesting|플레이테스팅]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[silent-hill-f|SILENT HILL f]]", "[[granblue-fantasy-relink|GRANBLUE FANTASY: Relink]]", "[[community-management|커뮤니티 운영]]"]
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-07-30
 confidence: high
 ---
 
@@ -31,5 +31,21 @@ confidence: high
 - AAA IP 게임은 팬덤만을 노릴 수 없다 — 구매력이 증명되지 않은 팬층만으로는 규모를 정당화하기 어렵다
 - 게이머와 팬이 **같은 콘텐츠에서 서로 다른 경험을 찾을 수 있도록** 설계해야 한다
 - 강제가 아닌 **선택과 분리**가 핵심
+
+## 「推し」 시대의 IP 설계 ([[cedec2026-silent-hill-producing]])
+
+[[konami|코나미]] 오카모토 모토이의 시대 진단: **"批評から考察へ"**(비평에서 고찰로), **"萌えから推しへ"**(모에에서 최애로). 위 표가 *게이머 vs 팬*의 시스템 니즈 차이를 다룬다면, 이쪽은 **팬덤이 콘텐츠를 재생산하는 시대의 정보 설계**다.
+
+- **의도적 정보 소출**: Reveal → Story → Launch 트레일러를 수개월에 걸쳐 배치. 멀티 엔딩으로 회차마다 진실이 조금씩 드러나 *고찰의 재료*를 남긴다 → [[silent-hill-f|SILENT HILL f]]는 팬 고찰 영상 50편+, 출시 4개월 후에도 주간 기사 노출
+- **캐릭터 주도 팬덤은 설계 대상이지만 결과는 통제 불가**: 여우 가면 캐릭터가 여성층 유입을 견인했으나 오카모토 본인이 *"노렸다기보다 맞았다"*고 인정. 설계할 수 있는 것은 *팬덤이 붙을 표면적을 많이 만드는 것*까지
+- **열량 유지 장치**: 정사/비정사 아트 교대 게시, 캐릭터 생일 일러스트, 팬 감정 분석 연동 굿즈·팝업 → [[community-management|커뮤니티 운영]]
+
+## 액션 문법을 모르는 IP 팬 받아들이기 ([[cedec2026-granblue-relink-battle]])
+
+호그와트 레거시가 *시스템 단순화·풀 분리*로 팬을 받았다면, [[granblue-fantasy-relink|Relink]]는 **조작 자체를 AI에 위임**하는 경로를 택했다.
+
+- 어시스트 모드(이동+공격) / 풀 어시스트 모드(이동만) 2단계 — 버튼 입력을 *상황 최적 행동*으로 치환
+- 핵심은 이것이 **동료 AI와 동일 아키텍처**라는 점: 접근성 기능을 위해 별도 시스템을 만들지 않았다 → [[combat-companion-ai|전투·조력 AI]]
+- 단조로움 방지를 위해 콤보 루트를 다양화 — *"모두가 멋있어 보이는 전투"*라는 목표가 자동화에도 적용
 
 > 💡 **핵심 인사이트:** "IP 게임을 만드는 것은 팬을 만족시키는 것만이 아니다. 팬이 아닌 사람도 입문할 수 있는 문을 설계하는 것이다."

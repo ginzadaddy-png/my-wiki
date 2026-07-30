@@ -1,10 +1,10 @@
 ﻿---
 title: "닌텐도 (Nintendo)"
 type: entity
-sources: ["[[gdc24-zelda-tears-of-kingdom]]"]
-related: ["[[emergent-systems-design|창발적 시스템 설계]]", "[[gdc24-zelda-tears-of-kingdom|젤다의 전설: 티어스 오브 더 킹덤]]"]
+sources: ["[[gdc24-zelda-tears-of-kingdom]]", "[[cedec2026-donkey-kong-bananza-destruction-cycle]]"]
+related: ["[[emergent-systems-design|창발적 시스템 설계]]", "[[gdc24-zelda-tears-of-kingdom|젤다의 전설: 티어스 오브 더 킹덤]]", "[[donkey-kong-bananza|동키콩 바난자]]", "[[level-design-principles|레벨 디자인 원칙]]"]
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-07-30
 confidence: high
 ---
 

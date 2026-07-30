@@ -10,11 +10,12 @@ sources: [
   "[[gdc2021-level-design-studio-wide]]",
   "[[gdc2022-tlou2-museum-flashback]]",
   "[[gdc2023-cyberpunk-nonlinear-level-design]]",
-  "[[gdc2024-skyrim-starfield-design-collab]]"
+  "[[gdc2024-skyrim-starfield-design-collab]]",
+  "[[cedec2026-donkey-kong-bananza-destruction-cycle]]"
 ]
-related: ["[[open-world-design|오픈월드 설계]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]", "[[hifi-rush|Hi-Fi RUSH]]", "[[io-interactive|IO 인터랙티브]]", "[[environmental-storytelling|환경 스토리텔링]]"]
+related: ["[[open-world-design|오픈월드 설계]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]", "[[hifi-rush|Hi-Fi RUSH]]", "[[io-interactive|IO 인터랙티브]]", "[[environmental-storytelling|환경 스토리텔링]]", "[[donkey-kong-bananza|동키콩 바난자]]", "[[emergent-systems-design|창발적 시스템 설계]]"]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-07-30
 confidence: high
 ---
 
@@ -65,6 +66,17 @@ confidence: high
 - Hi-Fi RUSH: 뮤지컬 임팩트 포인트(박자)를 먼저 결정 → 레벨·적 배치를 역설계
 - 장르의 핵심 경험(리듬감)을 먼저 확정하면, 그 경험이 레벨 전체에 일관되게 스며든다
 - 원칙: "제약 조건(음악 비트)이 설계 자유보다 앞선다"
+
+## 파괴 가능 지형의 레벨 디자인 4원칙
+
+[[cedec2026-donkey-kong-bananza-destruction-cycle|동키콩 바난자]]는 지형이 전부 파괴 가능할 때 레벨 디자인이 어떻게 달라지는지 보여준다 — 공간을 *배치*하는 대신 공간이 *변형되는 방식*을 설계해야 한다.
+
+1. **보상의 가시:은닉 비율 역전** — 마리오 오디세이는 보상 대부분이 눈에 보였다. 바난자는 **8할 이상을 지하에 매장**해 파괴 없이는 발견 불가. 보이지 않는 보상이 파괴 동기를 만든다
+2. **트리거의 다양성** — 같은 보상에 이르는 경로를 복수로: 적 넉백 충돌 / 파편 투척 / 하부 굴착. 위 [[gdc2019-nonlinear-level-design|비선형]] 원칙("경로 선택 자체가 의미")이 파괴 수단 선택으로 치환된 형태
+3. **보상의 연쇄** — 1차 보상이 2차를 연다: 소리 갈림 → 소나 발동 → 수집품 → 새 구역
+4. **안전한 우회로** — 층 단위 수직 던전 + 배럴 캐논·광차 레일 허브로, 자유롭게 벗어나도 *역주행 없이* 본선 복귀
+
+수작업 배치(화석)와 절차적 생성(파괴 반응 골드·보물 지도)을 겹쳐 쓴 점도 [[pcg-pure-vs-hybrid|하이브리드 절차생성]]의 사례에 해당한다.
 
 ## 스튜디오 협업
 

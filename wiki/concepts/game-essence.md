@@ -2,9 +2,9 @@
 title: "게임의 본질 (Game Essence)"
 type: concept
 sources: ["[[sakurai-creating-games|「게임 만들기」 채널]]"]
-related: ["[[risk-and-reward|리스크 앤 리워드]]", "[[game-feel|게임 필]]", "[[mda-framework|MDA 프레임워크]]", "[[combat-design|전투 디자인]]", "[[masahiro-sakurai|사쿠라이 마사히로]]"]
+related: ["[[risk-and-reward|리스크 앤 리워드]]", "[[game-feel|게임 필]]", "[[mda-framework|MDA 프레임워크]]", "[[combat-design|전투 디자인]]", "[[masahiro-sakurai|사쿠라이 마사히로]]", "[[aesthetic-emotion-design|미적 감정 설계]]"]
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-07-30
 confidence: high
 ---
 

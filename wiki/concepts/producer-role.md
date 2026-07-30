@@ -1,10 +1,10 @@
 ---
 title: "프로듀서 역할 (Producer Role)"
 type: concept
-sources: ["[[gcon2025-hashimoto-producer]]", "[[gdc26-production-traps]]", "[[gdc26-three-mindset-shifts]]", "[[gdc26-hogwarts-evolving-aaa]]", "[[gamedev-leadership-dynamics]]", "[[multiproject-innersource-report]]", "[[gdc2023-no-budget-marketing]]", "[[rdr2-story-behind-the-story]]", "[[gdc24-baldurs-gate-3]]", "[[fromsoftware-300-devs]]", "[[itoi-miyamoto-dialogue-2024]]"]
-related: ["[[dev-org-structure|개발 조직 구조]]", "[[leadership-production|게임 개발 리더십 스타일]]", "[[studio-culture|스튜디오 문화]]", "[[psychological-safety|심리적 안전]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[shigeru-miyamoto|미야모토 시게루]]"]
+sources: ["[[gcon2025-hashimoto-producer]]", "[[gdc26-production-traps]]", "[[gdc26-three-mindset-shifts]]", "[[gdc26-hogwarts-evolving-aaa]]", "[[gamedev-leadership-dynamics]]", "[[multiproject-innersource-report]]", "[[gdc2023-no-budget-marketing]]", "[[rdr2-story-behind-the-story]]", "[[gdc24-baldurs-gate-3]]", "[[fromsoftware-300-devs]]", "[[itoi-miyamoto-dialogue-2024]]", "[[cedec2026-silent-hill-producing]]"]
+related: ["[[dev-org-structure|개발 조직 구조]]", "[[leadership-production|게임 개발 리더십 스타일]]", "[[studio-culture|스튜디오 문화]]", "[[psychological-safety|심리적 안전]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[shigeru-miyamoto|미야모토 시게루]]", "[[konami|코나미]]", "[[ip-adaptation-design|IP 적응 설계]]"]
 created: 2026-05-18
-updated: 2026-06-23
+updated: 2026-07-30
 confidence: high
 ---
 
@@ -120,6 +120,16 @@ Kristie Fisher: *90%+ 리더가 크래프트 전문가로 자리에 올랐지 �
 - 팀이 클수록 자신이 *할 일이 줄어든다*: 프로듀서는 팀의 *빈틈을 메우는* 역할이라, 팀이 굴러가기 전까지 자기 역할이 뭔지 알 수 없다.
 - *"제가 할 일이 전혀 없는 팀이야말로 최고의 프로듀싱이고, 제가 뭔가 해야 하는 순간부터 이미 팀에 문제가 있는 것"* — 위 *Force Multiplier*("잘 작동하면 보이지 않는다")의 가장 순수한 표현.
 - 흔적 남기기의 목표: *"저 사람 있어서 다행이었어, 다음에도 같이 하고 싶어"* 라는 말을 듣는 것. 분야가 영화처럼 낯설어도 동일.
+
+### [[konami|코나미]] 오카모토 모토이 — 동면 IP 부활 프로듀싱 ([[cedec2026-silent-hill-producing]])
+
+2013년 이후 멈춰 있던 사일런트 힐을 되살린 원칙은 **"様子見をしない"**(관망하지 않는다).
+
+- **결의의 가시화가 곧 마케팅**: 리메이크 한 편으로 시장을 시험하는 대신 최초 예산 제안서에 *3타이틀 + 영화*를 담았다. 논리 — 기업이 진심을 보이면 유저도 따라오고, 망설이면 망설임이 전염된다. 신뢰가 훼손된 IP에서만 성립하는 특수 전술이자, 하시모토의 *"초기 기획부터 글로벌 동시 발매 전제"*와 같은 계열(초기 설계에 최종 규모를 담는다)
+- **언어보다 실력**: 코어 15명 중 영어 가능 20%. 기계번역·통역으로 회의 시간이 2~3배 늘어도 *최고의 해외 스튜디오가 평범한 국내 스튜디오보다 낫다*는 판단을 유지. *"공통 언어는 게임"*
+- **직접성의 규율**: 파트너에게 일본식 우회 표현을 쓰지 않는다. 양보 불가 항목·일정을 명시적으로 못 박는 것이 일정 붕괴를 막는다. 마스터 품질 기준의 문화 차(사전 폴리시 vs Day 1 패치)도 *사전 문서화*로 해결
+- **읽는 프로듀서**: 크리에이터에게 발주하기 전 전작을 다 읽는다(竜騎士07 작품 90%+). 강점만 아니라 *약점을 아는 것*이 목적
+- **프로덕션 현실 인정**: *"완성시킨다고 말한 기일이 와도 완성되어 있지 않다"* — 퍼블리셔의 역할은 인내와 버퍼 확보. 위 하시모토의 *"한 달 지연 = 손익분기 직결"*과 나란히 놓으면, **버퍼를 미리 예산에 넣는 것**이 두 진술을 화해시키는 답이 된다
 
 ## 프로듀서가 *심리적 안전*과 연결되는 지점
 

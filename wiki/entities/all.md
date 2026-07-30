@@ -63,6 +63,9 @@ updated: 2026-07-30
 | [[bandai-namco]] | 일본 퍼블리셔, [[dark-souls]]·[[elden-ring]] 글로벌 퍼블리싱 |
 | [[krafton]] | 한국 게임사(PUBG), 단일 메가IP + Big Franchise 포트폴리오 전략 — 1H26 역대 최대 반기 매출 2.66조·[[subnautica-2]]로 두 번째 성장축 결실, 7조 목표 유지, [[tango-gameworks]]·[[unknown-worlds]] 인수 |
 | [[unknown-worlds]] | Subnautica 시리즈 개발사, 2021 [[krafton]] 인수 — [[subnautica-2]]로 크래프톤 두 번째 Franchise IP |
+| [[konami]] | 일본 대형 퍼블리셔 — 동면 IP를 해외 스튜디오 주도로 부활, 코어 15명 프로듀싱 팀, 매출 90%+ 해외, "様子見をしない" |
+| [[cygames]] | 일본 도쿄, 2011, 사이버에이전트 계열 — 모바일 IP의 콘솔·PC 액션 확장, [[granblue-fantasy-relink]], "80점보다 30점을 최속으로" |
+| [[tvt]] | 일본 소규모 개발사 — [[ratatan]] 첫 풀 콘솔 게임, 15~20명 4기종 10언어, 자사 Theory Engine |
 
 ## 미디어·플랫폼
 
@@ -126,3 +129,7 @@ graph 추론(플랫폼별 게임·독점작 질의)을 위한 플랫폼 노드.
 | [[fortnite]] | Epic Games, 2017, F2P BR + UGC, $20B+, 50+ 콜라보 IP·UEFN 메타플랫폼 |
 | [[league-of-legends]] | Riot Games, 2009, F2P MOBA, $10B+, 15년+ 단일 IP, Arcane transmedia |
 | [[apex-legends]] | Respawn, 2019, F2P BR + Hero-shooter, 1억+ 유저, Surprise drop 마케팅 표본 |
+| [[donkey-kong-bananza]] | 닌텐도, 3D 액션 플랫포머, 복셀 전면 파괴 — "부수는 것이 다음에 부술 이유", 보상 8할 지하 매장 |
+| [[silent-hill-f]] | [[konami]]·NeoBards(대만), 사이코로지컬 호러 — 일본 무대(기후현), 竜騎士07 시나리오, 「推し」 팬덤 설계 |
+| [[granblue-fantasy-relink]] | [[cygames]], 4인 협동 액션 RPG — 28캐릭×3스타일, 동료 AI 2계층 + 어시스트 모드 아키텍처 공유 |
+| [[ratatan]] | [[tvt]], 리듬 액션·로그라이트, 2026-10-15 — 콘솔 심사로 연기, 10언어 1,200만 자 |

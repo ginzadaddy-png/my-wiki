@@ -2,12 +2,20 @@
 title: "소스 전체 목록"
 ---
 
-총 157개 | 최신순 정렬
+총 165개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
 | [krafton-ir-2q26](krafton-ir-2q26.md) | 크래프톤 2Q26·1H26 IR — 역대 최대 반기 매출·영익 + 복수 성장축(PUBG+Subnautica 2) — 1H26 매출 2.66조(+73.3%)·영익 9,725억·2Q26 순이익 −299억·Subnautica 2 EA 22일 500만장 | 2026-07-29 |
 | [carless-steam-reviews-purchase-2026-07](carless-steam-reviews-purchase-2026-07.md) | GameDiscoverCo — 플레이어 리뷰가 스팀 구매를 얼마나 좌우하나 (Carless) — 설문 3,800명·72.5% 확인·Mixed 절벽 30.8% 이탈·조건부 관용 47.4%·기술이슈 리뷰 최유용 14% | 2026-07-24 |
+| [cedec2026-nobori-garage-talent](cedec2026-nobori-garage-talent.md) | CEDEC 2026 — 「가레지」 인재 육성: 자주성·놀이·실패 허용 (登大遊) — ASV 평가척도·조직요건 4·SoftEther 연 4~6천억엔 사회편익·기술자 1명 연 100억엔 | 2026-07-24 |
+| [cedec2026-cyberagent-mobile-marketing](cedec2026-cyberagent-mobile-marketing.md) | CEDEC 2026 — 사이버에이전트 '스마트폰 게임 마케팅의 거짓말' (家門真明) — 사전등록 4개월 롱런웨이·분산 1.25배·전환율 iOS90%·Android50%·순위 하락 후 광고·측정 3배 괴리 | 2026-07-23 |
+| [cedec2026-donkey-kong-bananza-destruction-cycle](cedec2026-donkey-kong-bananza-destruction-cycle.md) | CEDEC 2026 — 동키콩 바난자: 파괴의 연쇄로 이어지는 게임 사이클 (닌텐도) — "부수는 것이 다음에 부술 이유"·5시스템 접속구·보상 8할 지하 매장·재질별 경도 | 2026-07-23 |
+| [cedec2026-crimson-desert-world-first](cedec2026-crimson-desert-world-first.md) | CEDEC 2026 — 붉은사막: 200명 대규모 오픈월드 프로세스 (펄어비스) — 월드 퍼스트 3층·전사 공통 XML 4차트·페이즈 스위칭·역할 수렴·메인스토리 약화 인정 | 2026-07-23 |
+| [cedec2026-silent-hill-producing](cedec2026-silent-hill-producing.md) | CEDEC 2026 — SILENT HILL 프로듀싱: 様子見をしない와 推し 시대 팬덤 설계 (코나미) — 3타이틀+영화 일괄 제안·해외 90%·영어 20%·고찰 영상 50편+ | 2026-07-22 |
+| [cedec2026-ratatan-small-team-console](cedec2026-ratatan-small-team-console.md) | CEDEC 2026 — Ratatan: 15~20명이 4기종 10언어 (TVT) — 연기 원인 콘솔 심사·플랫폼당 3~4개월·1,200만 자·Steam 평가 반전 | 2026-07-22 |
+| [cedec2026-granblue-relink-battle](cedec2026-granblue-relink-battle.md) | CEDEC 2026 — GRANBLUE FANTASY: Relink 배틀 제작 (Cygames) — 28캐릭×3스타일=84·동료 AI 2계층·어시스트 모드 아키텍처 공유·자동 QA 겸용 | 2026-07-22 |
+| [cedec2026-neuroaesthetics-aesthetic-emotion](cedec2026-neuroaesthetics-aesthetic-emotion.md) | CEDEC 2026 — 우는 게임·조용한 게임의 신경과학 (石津智大) — 심리적 거리·혼합 감정·가상 감정·내측 안와전두피질·애틋함 62% 기쁨 영역·최적 침묵 5초 | 2026-07-22 |
 | [naavik-xbox-strategy-reset-2026-07](naavik-xbox-strategy-reset-2026-07.md) | Naavik — 10년 Xbox 전략을 뒤집은 메모 (Ahonen) — 마진 3%·Game Pass 3천만 정체·감원 3,200·관리계층 14→3~5·익스클루시브 복귀 | 2026-07-19 |
 | [carless-dear-passengers-wishlists-2026-07](carless-dear-passengers-wishlists-2026-07.md) | GameDiscoverCo — Dear Passengers 위시리스트 100만(3일)이 말하는 디스커버리 (Carless) — WL:팔로워 35배·friendslop top20 5개·클리퍼블 트레일러 | 2026-07-17 |
 | [carless-paralives-million-2026-07](carless-paralives-million-2026-07.md) | GameDiscoverCo — Paralives 첫 달 100만 장 (Carless) — 환불 6.5%·잔여 위시리스트 180만·7년 Patreon $3M·모드 25k | 2026-07-14 |

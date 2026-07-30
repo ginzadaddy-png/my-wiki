@@ -2,6 +2,41 @@
 title: "활동 로그"
 ---
 
+## [2026-07-30] ingest | CEDEC 2026 A급 7건 배치 — 동키콩 바난자·붉은사막·SILENT HILL·Ratatan·Relink·신경미학·가레지
+- 트리거: 사용자가 "위키 ingest 자료를 토대로 관심 가질 강연 추천" 요청 → 위키 프로필(158소스·68개념·18비교) 대비 CEDEC 221세션 매칭해 A/B/C 3등급 숏리스트 작성 → 사용자가 *"3번(B급 리포트 존재 조사) 하고 2번(A급 7건 전부) 진행"* 지시
+- Source: 4Gamer CEDEC 2026 세션 리포트 7건(7/28~29 공개분, WebFetch 전문 추출). 보조: 게임메이커즈(동키콩·SILENT HILL). confidence 전부 medium(단일 강연·2차 리포팅)
+- 사전 조사(B급 3건 리포트 존재 여부): DEATH STRANDING 엔진 선택 → Gamer.ne.jp 리포트 확인 / AI NPC 정착률 2배 → PANORA 기사 확인(체류 2.2배·익일 로그인율 +33.5%) / 스펠토나엘 → 리포트 없음(개인 개발, 미디어 커버 부재)
+- 강조점(위키 갭 기준 선정): ① 창발 설계의 두 번째 닌텐도 사례 ② 한국 스튜디오 대규모 오픈월드 프로세스(위키 첫 사례) ③ 동면 IP 부활 프로듀싱 ④ 소규모 팀 *반례*(성공담 편중 교정) ⑤ 동료 AI·접근성·QA 아키텍처 공유 ⑥ 재미가 아닌 *감동*의 구조(위키 완전 공백) ⑦ 제도형(캡콤) 대비 환경형 인재 육성
+- 생성(sources 7): cedec2026-donkey-kong-bananza-destruction-cycle · cedec2026-crimson-desert-world-first · cedec2026-silent-hill-producing · cedec2026-ratatan-small-team-console · cedec2026-granblue-relink-battle · cedec2026-neuroaesthetics-aesthetic-emotion · cedec2026-nobori-garage-talent
+- 생성(concept 1): aesthetic-emotion-design(미적 감정 설계 — 심리적 거리·혼합 감정·가상 감정 3장치 + 침묵 5초 "음악 접착제" + AI가 부재를 못 다루는 이유)
+- 생성(entities 7): donkey-kong-bananza(developedBy·publishedBy nintendo·platform switch2) · konami · silent-hill-f(publishedBy konami·platform ps5·xbox-series·pc) · cygames · granblue-fantasy-relink(developedBy·publishedBy cygames·platform ps5·ps4·pc) · tvt · ratatan(developedBy tvt·platform 4종)
+- 보강(concepts 9): emergent-systems-design(파괴=규칙 두 번째 증명·⚠️ 균질성 역설) · level-design-principles(파괴 가능 지형 4원칙) · open-world-design(월드 퍼스트 3층·⚠️ 소통비용↔내러티브 통제 trade-off) · dev-org-structure(전사 공통 XML·역할 수렴 표) · producer-role(오카모토 사례 5항목·버퍼 예산화로 하시모토와 화해) · ip-adaptation-design(推し 시대 정보 소출 + 조작 위임형 접근성) · small-team-development(10번 항목 신설 — 콘솔 대응이 숨은 병목·⚠️ 외부 게이트는 별도 예산) · combat-companion-ai(5번 신설 — Relink 2계층·기존 5→6번 이동) · dev-talent-pipeline(가레지 환경형 모델·⚠️ 상업 스튜디오 복제 단서) · game-essence(related만)
+- 보강(entities 2): crimson-desert(개발 프로세스 섹션·sources·related) · nintendo(sources·related)
+- 카탈로그: index(소스 158→165·스튜디오 45→48·게임 36→40·개념 68→69·게임 디자인 pill 추가)·sources/all(165·행 7건 날짜순 삽입)·entities/all(스튜디오 3·게임 4 행)·concepts/all(aesthetic-emotion-design 행·updated)·overview(스튜디오 48·게임 40·명단 추가)
+- 모순: 하드 모순 없음. ⚠️ 블록 4곳 신설 — 복셀 균질성 역설(emergent), 월드 퍼스트 trade-off(open-world·crimson-desert), 외부 게이트 예산(small-team), 가레지 ASV 복제 한계(dev-talent)
+- 스케줄 루틴 변경: cedec2026-ingest-reminder를 07-31 → **08-03(월) 11:00**로 이동 + 임무 교체(B급 11건 기사화 재확인 + C급 재리서치). 사용자 추가 요청으로 **Kingdom Come: Deliverance II를 C급→B급 승격**
+- 미push — 사용자 검토 후. 챗봇 재색인도 확인 후 (신규 entity 7건 relations 포함이라 graph 갱신 권장)
+
+## [2026-07-30] ingest | CEDEC 2026 사이버에이전트 '스마트폰 게임 마케팅의 거짓말' — 모바일 UA 통념 데이터 반박 (CEDEC 2026 큐 첫 ingest)
+- 트리거: 사용자가 게임뷰 기사(gamevu.co.kr/59667) 확인 요청 → "ingest 진행, 4Gamer 원문 확인, 기존 마케팅 자료 모순 여부" 지시
+- Source: 4Gamer CEDEC 강연 리포트(원출처) + 게임뷰 한국어 경유. 발표 家門真明(가몬 마사아키, 사이버에이전트 퍼블리싱파트너 사업부장, ~30타이틀·"누적 사전등록 일본1위(아마도)"). WebFetch로 4Gamer 원문 수치 교차확인(발표자명 게임뷰 표기 검증). confidence medium(단일 강연·자사 데이터·2차 리포팅)
+- 강조점(3축): ① 통념 반박(사전등록 4개월 롱런웨이+예산 분산 150만엔×2개월=1.25배) ② 모바일 UA vs Steam 런치 스파이크 플랫폼 차이 ③ 광고 효과 측정 근본 한계(계측툴 170건 vs 스토어 10건 미만·7월 DL 3배 괴리)
+- 핵심 수치: 사전등록 전환율 iOS~90%·Android~50%. 출시 후 광고는 순위 하락 후(iOS 2일째·Android 3일째 이후) 방어적 집행
+- 모순 분석(사용자 질문): 하드 모순 없음. Steam(집중·직후 몰빵) vs 모바일(분산·순위 방어)은 *플랫폼 알고리즘 차이*(디스커버리 큐 단발 vs 앱스토어 랭킹 지속)로 해소 → ⚠️ 블록 2곳(source·mobile-gamedev·marketing-strategy). 롱런웨이·측정 불신은 두 플랫폼 정합
+- 생성(sources 1): cedec2026-cyberagent-mobile-marketing
+- 보강(concepts 2): mobile-gamedev("모바일 UA·사전예약 마케팅" 섹션 신설 — 위키 모바일 UA 공백 메움·⚠️·sources·related·updated), marketing-strategy("모바일 UA는 정반대 최적해" 섹션·⚠️·sources·updated)
+- 신규 entity 없음 (사이버에이전트는 본문 언급만)
+- 카탈로그: index(소스 157→158)·sources/all(158·행 추가, 07-23 위치)
+- 미push — 사용자 검토 후. 챗봇 재색인도 확인 후
+- 메모리: CEDEC 2026 ingest 큐 첫 처리 (project_cedec2026_ingest_queue)
+
+## [2026-07-30] 보강 | Alinea Steam Record Year — 공급과잉·롱테일 하드넘버 추가
+- 트리거: 사용자가 인벤 심층기획(news=318830, 강승진, 2026-07-24 — Alinea 원문 한국어 커버리지) 확인 요청 → 핵심 수치 중복 확인 후 "2번(기존 페이지 보강)" 선택
+- 처리: 별도 소스 페이지 생성 안 함(중복 회피). 기존 [[alinea-steam-record-year-2026]]에 "공급과잉·롱테일 압박 — 신작의 익사" 섹션 신규
+- 추가 데이터(인벤이 SteamDB·VG Insights로 보강한 공급 측): 2025 신작 ~2.1만개·등록비 미회수 40%·리뷰 10개 미만 65.9%·적극소비자 풀프라이스 미구매 62%
+- 보강: related에 launch-metrics 추가·updated 2026-07-30. 인벤 기사는 본문 인라인 출처로만 표기(source_url은 Alinea 원문 유지)
+- 카탈로그: 변동 없음(신규 페이지 아님). 미push
+
 ## [2026-07-30] ingest | GameDiscoverCo — 플레이어 리뷰가 스팀 구매를 얼마나 좌우하나 (설문 3,800명)
 - 트리거: 2026-07-30 source radar 추천 #2 → 사용자가 "2번 ingest" 지시
 - Source: GameDiscoverCo 뉴스레터 (Simon Carless, 2026-07-24, confidence high). WebFetch로 전체 수치 추출

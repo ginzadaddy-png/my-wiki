@@ -1,10 +1,10 @@
 ﻿---
 title: "창발적 시스템 설계 (Emergent Systems Design)"
 type: concept
-sources: ["[[gdc24-zelda-tears-of-kingdom]]"]
-related: ["[[nintendo|닌텐도]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[designer-empowerment|디자이너 도구화]]", "[[vision-statement|비전 선언문]]", "[[sound-design|사운드·음악 디자인]]"]
+sources: ["[[gdc24-zelda-tears-of-kingdom]]", "[[cedec2026-donkey-kong-bananza-destruction-cycle]]"]
+related: ["[[nintendo|닌텐도]]", "[[donkey-kong-bananza|동키콩 바난자]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[designer-empowerment|디자이너 도구화]]", "[[vision-statement|비전 선언문]]", "[[sound-design|사운드·음악 디자인]]", "[[level-design-principles|레벨 디자인 원칙]]"]
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-07-30
 confidence: high
 ---
 
@@ -46,6 +46,16 @@ confidence: high
 - 엔지니어: 규칙을 설계하고 예외 케이스를 물리적으로 해결
 
 사례: 휴대 냄비(경사면에서 내용물 흘림 문제) → 디자이너가 문제 발견 → 아티스트+엔지니어가 "상부만 수평 유지" 해결책 공동 개발
+
+## 두 번째 증명 — 파괴를 규칙으로 ([[donkey-kong-bananza|동키콩 바난자]])
+
+TotK가 *물리 법칙*을 일관 규칙으로 삼았다면, [[cedec2026-donkey-kong-bananza-destruction-cycle|동키콩 바난자]]는 *파괴 가능성*을 규칙으로 삼아 같은 구조를 다시 만들었다. 명제: **"부수는 것이 다음에 부술 이유가 된다."**
+
+- **복셀 = 최소 단위의 일관성**: 오브젝트 단위가 아니라 물질 단위로 부서지기 때문에, 적을 날려 지형을 부수는 것 같은 *설계되지 않은 연쇄*가 자동으로 성립
+- **연쇄의 고리**: 파괴 → 보상(골드·화석·파편) → 파괴 수단·탐색 단서 → 다시 파괴. 파괴 자체가 아니라 *고리가 닫히는 것*이 사이클을 만든다
+- 파괴에 접속구를 가진 5개 시스템(캐릭터 3방향 펀치·지하 카메라·재질별 경도 배치물·소나 유발 수집품·시간제한 변신)이 모두 같은 규칙 위에 얹힘
+
+> ⚠️ **일관성의 역설이 다시 나타난다:** 복셀로 *모든 것이 똑같이 부서지자* 파괴가 균질해져 지루해졌다. 해법은 규칙을 깨는 것이 아니라 **재질별 경도라는 하위 규칙을 추가**해 변주를 만든 것 — TotK가 예외 처리 대신 물리 일관성으로 문제를 푼 것과 같은 방향의 해결.
 
 ## 다른 개념과의 관계
 

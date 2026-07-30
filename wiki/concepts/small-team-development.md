@@ -1,10 +1,10 @@
 ﻿---
 title: "소규모 팀 개발 전략"
 type: concept
-sources: ["[[gdc25-astrobot]]", "[[gdc26-expedition33-programmers]]", "[[expedition33-ue5-interview]]", "[[gdc26-ghost-of-yotei]]", "[[gdc26-arc-raiders-reset]]", "[[gdc2023-asobo-how-to-make-aaa-small-team]]", "[[gdc2026-embark-character-pipeline]]", "[[itoi-miyamoto-dialogue-2024]]", "[[gdc-helldivers2-team-scaling]]", "[[pilestedt-helldivers2-preproduction-lesson]]"]
-related: ["[[team-asobi|팀 아소비]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[sucker-punch-productions|서커펀치 프로덕션]]", "[[embark-studios|엠바크 스튜디오]]", "[[asobo-studio|Asobo Studio]]", "[[arrowhead-game-studios|애로우헤드]]", "[[helldivers-2|헬다이버스 2]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[designer-empowerment|디자이너 도구화]]", "[[vision-statement|비전 선언문]]", "[[data-driven-development|데이터 기반 개발]]", "[[art-pipeline-design|아트 파이프라인 설계]]", "[[constraint-driven-creativity|제약 기반 창의성]]", "[[shigeru-miyamoto|미야모토 시게루]]", "[[reports/how-small-teams-ship-big-games|소규모 팀 종합 아티클]]"]
+sources: ["[[gdc25-astrobot]]", "[[gdc26-expedition33-programmers]]", "[[expedition33-ue5-interview]]", "[[gdc26-ghost-of-yotei]]", "[[gdc26-arc-raiders-reset]]", "[[gdc2023-asobo-how-to-make-aaa-small-team]]", "[[gdc2026-embark-character-pipeline]]", "[[itoi-miyamoto-dialogue-2024]]", "[[gdc-helldivers2-team-scaling]]", "[[pilestedt-helldivers2-preproduction-lesson]]", "[[cedec2026-ratatan-small-team-console]]"]
+related: ["[[team-asobi|팀 아소비]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[sucker-punch-productions|서커펀치 프로덕션]]", "[[embark-studios|엠바크 스튜디오]]", "[[asobo-studio|Asobo Studio]]", "[[arrowhead-game-studios|애로우헤드]]", "[[helldivers-2|헬다이버스 2]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[designer-empowerment|디자이너 도구화]]", "[[vision-statement|비전 선언문]]", "[[data-driven-development|데이터 기반 개발]]", "[[art-pipeline-design|아트 파이프라인 설계]]", "[[constraint-driven-creativity|제약 기반 창의성]]", "[[shigeru-miyamoto|미야모토 시게루]]", "[[reports/how-small-teams-ship-big-games|소규모 팀 종합 아티클]]", "[[tvt|TVT]]", "[[ratatan|Ratatan]]", "[[early-access-strategy|얼리 액세스 전략]]"]
 created: 2026-04-13
-updated: 2026-07-06
+updated: 2026-07-30
 confidence: high
 ---
 
@@ -60,5 +60,16 @@ confidence: high
 - 개발 시작 약 20명 → 출시 약 105명 → 현재 약 130명. 그러나 총 7년 11개월(계획보다 4년+ 초과)
 - 원인: **프리프로덕션(비전·범위 검증)을 생략하고 곧장 대규모 프로덕션 직행** — Pilestedt "정말 나쁜 생각이었다"
 - 교훈(차기작): *작은 팀으로 프리프로덕션부터.* → 위 8번(닌텐도 최소 인원 시작)·[[rapid-prototyping|검증 먼저]]와 정확히 수렴. **검증 없이 스케일업하면 결정 비용을 가장 비싼 단계(프로덕션)에서 치른다.**
+
+**10. 숨은 병목은 콘텐츠가 아니라 플랫폼 대응 ([[tvt|TVT]] · [[ratatan|Ratatan]])**
+
+위 1~9번은 모두 *무엇을 만들고 무엇을 자를지*의 문제였다. [[cedec2026-ratatan-small-team-console|Ratatan]]은 그 바깥에 있는 비용을 보여준다 — 최대 15~20명으로 4기종·10언어를 시도한 결과, 일정을 무너뜨린 것은 **콘솔 심사·대응**이었다.
+
+- 출시가 2026-10-15로 연기된 직접 원인은 lot check 미완료. 사후 산정 공수는 **플랫폼당 3~4개월**, 권고는 *플랫폼당 전담 1명 × 최소 3개월 + TRC·규정 사전 일괄 점검*
+- 대응 전략은 **최대공약수 방식** — 공통 기능을 먼저 완성하고 플랫폼 차이는 분리 처리(Switch 2 ~4개월, PS5·Xbox 각 ~3개월). 단일 코드베이스(Unity + 자사 엔진) 유지
+- 로컬라이즈도 같은 성격의 숨은 비용: 커뮤니티 요청으로 6개 → 10개 언어, 합계 약 1,200만 자. 우선도 낮은 텍스트의 기계번역은 *평가가 나빠 철회*
+- 철학 전환: 단계마다 완벽을 노리는 대신 **"3개월에 가능한 것을 하고 사이클을 반복"** — 위 8번(닌텐도 최소 인원 시작)과 같은 결론에 *일정 압박* 쪽에서 도달
+
+> ⚠️ 이 사례가 위키의 다른 소규모 성공담과 다른 점: 팀 규모·범위 통제·도구화를 다 했는데도 *제3자 심사라는 통제 불가 변수*에서 무너졌다. 스코프 관리는 자기 팀 안에서만 유효하고, **외부 게이트는 별도 예산 항목**으로 잡아야 한다.
 
 > 💡 **핵심 인사이트:** 소규모의 해답은 '덜 만드는 것'이 아닌 '더 잘 나누는 것'. 제약이 명확한 구조를 설계할 때 팀 전체가 생산적이 된다. Asobo의 사례는 한 가지를 더 추가한다 — **제약이 명확할수록 의사결정 비용이 줄어든다**: 시대·장소·스타일이 정해지면 팀은 "어떻게 만들까"에만 집중할 수 있다.

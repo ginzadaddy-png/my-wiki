@@ -8,11 +8,12 @@ sources: [
   "[[capcom-ir2021-dev-strategy]]",
   "[[gdc26-production-traps]]",
   "[[multiproject-innersource-report]]",
-  "[[gcon2025-hashimoto-producer]]"
+  "[[gcon2025-hashimoto-producer]]",
+  "[[cedec2026-crimson-desert-world-first]]"
 ]
-related: ["[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[studio-culture|스튜디오 문화]]", "[[producer-role|프로듀서 역할]]", "[[studio-org-structure|스튜디오 조직 구조 비교]]"]
+related: ["[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[studio-culture|스튜디오 문화]]", "[[producer-role|프로듀서 역할]]", "[[studio-org-structure|스튜디오 조직 구조 비교]]", "[[pearl-abyss|펄어비스]]", "[[designer-empowerment|디자이너 도구화]]"]
 created: 2026-04-16
-updated: 2026-07-06
+updated: 2026-07-30
 confidence: high
 ---
 
@@ -110,5 +111,26 @@ FF 시리즈 프로듀서 출신 하시모토 신지(Aniplex)의 압축 정의:
 - **책임 구조**: 프로듀서는 변명 없이 결과로만 평가. "한 달 지연 = 월급일 하나 추가"
 - **글로벌 IP**: 초기 기획부터 동시 발매 전제 설계. 각국 현지 '아군' 확보 필수
 - **핵심 역량**: 커뮤니케이션. 개발·유저·경영·투자자를 잇는 '연결자'
+
+## 공통 데이터 언어로 의존을 없앤다: 펄어비스 모델 ([[cedec2026-crimson-desert-world-first]])
+
+약 200명·7년의 [[crimson-desert|붉은사막]]에서 [[pearl-abyss|펄어비스]]는 조직 문제를 *회의 구조*가 아니라 **데이터 포맷**으로 풀었다. 엑셀을 버리고 모든 콘텐츠 타입을 **전사 공통 XML**로 통일 — Action Chart(캐릭터 거동)·AI Chart(NPC 로직)·Gimmick Chart(상호작용 오브젝트)·Stage Chart(이벤트 진행).
+
+XML을 고른 근거가 조직 관점에서 읽힌다:
+- 비프로그래머에게 Python·Lua보다 읽기 쉽다 → 직군 장벽 낮춤
+- 비주얼 에디터보다 유지비가 낮다 → *전용 UI를 개발·보수하는 팀*이 필요 없다
+- 버전 관리 친화적·다수 동시 편집 가능 → 병렬 워크플로우의 전제
+- AI 어시스트 도구와 호환(강연에서 Claude 명시)
+
+**결과 — 역할 수렴(Role Convergence)**
+
+| | 기존 | XML 이후 |
+|---|---|---|
+| 흐름 | 디자이너 → 환경팀 → 프로그래머 (선형 의존) | 직군 간 병렬 협업 |
+| 아티스트 | 프로그래머 경유해 변경 | 직접 변경 적용 |
+| 디자이너 | 사양서 작성 후 대기 | 엔진 안에서 즉시 프로토타이핑 |
+| 프로그래머 | 요청 처리 | 시스템의 실제 사용 패턴 관찰 |
+
+핵심 효과는 *한 명의 디자이너가 서로 다른 파이프라인을 배우지 않고 여러 콘텐츠 영역을 담당*할 수 있게 된 것. 위 스크럼의 "크로스 디시플린 팀"이 사람 배치로 소통 비용을 줄이는 방식이라면, 이것은 **공통 데이터 포맷으로 소통 자체를 불필요하게 만드는** 방식이다. → [[designer-empowerment|디자이너 도구화]]
 
 > 💡 **핵심 인사이트:** 조직 구조는 게임 개발의 숨겨진 변수다. 같은 인원이라도 팀을 어떻게 나누고, 언제 합치고, 어떻게 소통하게 하느냐에 따라 결과물의 품질 상한선이 달라진다. 프롬소프트웨어의 유동 배치와 캡콤의 파이프라인은 서로 다른 규모에서의 해답이다. 그리고 어떤 규모에서도 프로듀서의 핵심은 "결정하는 사람"이 아니라 "팀을 정렬시키는 사람"이다.

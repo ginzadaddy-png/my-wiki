@@ -1,10 +1,10 @@
 ---
 title: "붉은사막 (Crimson Desert)"
 type: entity
-sources: ["[[pearl-abyss-ir-1q26]]", "[[pearl-abyss-blackspace-engine-gdc2025]]", "[[alinea-steam-record-year-2026]]"]
-related: ["[[pearl-abyss|펄어비스]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[game-market-trends|게임 시장 트렌드]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[proprietary-engine-strategy|독자 엔진 전략]]"]
+sources: ["[[pearl-abyss-ir-1q26]]", "[[pearl-abyss-blackspace-engine-gdc2025]]", "[[alinea-steam-record-year-2026]]", "[[cedec2026-crimson-desert-world-first]]"]
+related: ["[[pearl-abyss|펄어비스]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[game-market-trends|게임 시장 트렌드]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[proprietary-engine-strategy|독자 엔진 전략]]", "[[open-world-design|오픈월드 설계]]", "[[dev-org-structure|개발 조직 구조]]"]
 created: 2026-07-20
-updated: 2026-07-20
+updated: 2026-07-30
 confidence: high
 relations:
   developedBy: [pearl-abyss]
@@ -41,9 +41,20 @@ relations:
 - 콘솔은 플랫폼 수수료 차감 후 매출 인식, 오프라인 패키지는 계약상 인식 매출 < 실판매량
 - 플랫폼 확장·DLC 등 *다른 차원의 확장* 연구 중 — 향후 [[catalog-economics|카탈로그화]](long-tail·재발매) 여부가 관전 포인트
 
+## 개발 프로세스 ([[cedec2026-crimson-desert-world-first]])
+
+CEDEC 2026에서 펄어비스가 공개한 제작 방식 — 약 **200명·7년**.
+
+- **월드 퍼스트**: 퀘스트가 아니라 세계를 먼저 만든다. 환경 층 / 콘텐츠 층 / 메타게임 층을 병렬 진행해 팀 간 대기를 없앰 → *"퀘스트 안내 없이 단서만으로 플레이 가능"*
+- **전사 공통 XML**: 엑셀을 버리고 Action·AI·Gimmick·Stage 차트를 XML로 통일. 비프로그래머 가독성·버전 관리·다수 동시 편집·AI 도구 호환이 선택 근거 → [[dev-org-structure|역할 수렴]]
+- **페이즈 스위칭**: 베이스 레벨(지형)과 게임플레이 레벨(건물·적·퍼즐)을 분리해 맵 복제 없이 같은 장소를 다른 상태로 전환
+- 배치는 Houdini + 절차적 분포, 기억에 남을 순간만 수작업
+- ⚠️ 발표자들이 인정한 대가: **메인 스토리의 존재감 약화** — "물리적 세계의 제약이 내러티브를 규정했고, 그 역이 아니었다"
+
 ## 관련 위키 페이지
 
 - [[pearl-abyss|펄어비스]] — 개발·퍼블리싱사, 검은사막 엔진 계보
+- [[open-world-design|오픈월드 설계]] — 월드 퍼스트 제작 순서
 - [[pearl-abyss-ir-1q26|펄어비스 1Q26 IR]] — 실적 원천
 - [[catalog-economics|카탈로그 이코노믹스]] — recurrent floor + 프리미엄 런치 하이브리드
 - [[game-market-trends|게임 시장 트렌드]] — 비서구 스튜디오 서구 프리미엄 성공
