@@ -5,9 +5,9 @@ source_url: "https://alineaanalytics.substack.com/p/steam-is-having-another-reco
 source_author: "Rhys Elliott (Alinea Analytics)"
 source_published: 2026-07-09
 sources: []
-related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[game-market-trends|게임 시장 트렌드]]", "[[missing-middle-paradigm-shift-2026|미싱 미들 패러다임 전환]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[zukowski-2025-year-review]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]"]
+related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[game-market-trends|게임 시장 트렌드]]", "[[missing-middle-paradigm-shift-2026|미싱 미들 패러다임 전환]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[zukowski-2025-year-review]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[launch-metrics|흥행 예측 지표]]"]
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-07-30
 confidence: high
 ---
 
@@ -39,6 +39,21 @@ Alinea Analytics의 H1 2026 Steam 플랫폼 매출 분석. Steam 전체 매출�
 | H1 2026 | **21%** | **79%** |
 
 > 💡 신작 매출 절대액이 준 게 아니라 *백카탈로그가 더 빨리 커져서* 비중이 계속 카탈로그 쪽으로 기운다 — [[catalog-economics|카탈로그 이코노믹스]]에서 캡콤이 보인 "신작 unit이 늘어도 카탈로그가 더 빨리 늘어 비중이 카탈로그로 기움"과 동일한 메커니즘이 *플랫폼 전체*에서 재현.
+
+## 공급과잉·롱테일 압박 — "신작의 익사"
+
+인벤 심층기획([최대 매출 스팀, 사라진 '신작'의 자리](https://www.inven.co.kr/webzine/news/?news=318830), 강승진, 2026-07-24)이 본 Alinea 분석을 한국어로 옮기며 SteamDB·VG Insights 등으로 보강한 *공급 측* 하드넘버. "플랫폼 매출은 역대 최대인데 개별 신작 대부분은 바닥에서 익사한다"는 역설을 정량화.
+
+| 지표 | 값 | 의미 |
+|---|---|---|
+| 2025년 스팀 신작 출시 수 | 약 **2.1만 개** | 매년 2만+ 신작 간 과포화 |
+| 신작 중 등록비($100) 미회수 | **40%** | 10개 중 4개는 $100도 못 벌고 소멸 |
+| 신작 중 리뷰 10개 미만 | **65.9%** | 3분의 2가 가시성 자체를 못 얻음 |
+| 미·영·호주 적극 소비자 중 풀프라이스 미구매 | **62%** | 신작 정가 구매 저항 |
+
+압박 요인 4종: ① 수천 개 할인 중인 검증된 구작과의 경쟁 ② 매년 2만+ 신작 과포화 ③ 그래픽 진화 둔화로 구작 노후화 지연(구작이 안 낡음) ④ 라이브 서비스 게임의 지속 업데이트로 이탈 방지.
+
+> 💡 **수요 최대 ≠ 신작 기회:** 79% 백카탈로그 편중(수요 측)과 신작 65.9%가 리뷰 10개 미만(공급 측)은 같은 동전의 양면. 신작은 *플랫폼 파이가 커져도* 검증된 구작·과포화·구작 노후화 지연이라는 3중 벽에 막힌다. [[launch-metrics|흥행 예측 지표]]의 "런치 첫 달이 90% 결정"·[[missing-middle-paradigm-shift-2026|미싱 미들]]과 정합.
 
 ## 성장 드라이버 (5개)
 
