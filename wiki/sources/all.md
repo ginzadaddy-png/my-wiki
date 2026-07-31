@@ -2,13 +2,14 @@
 title: "소스 전체 목록"
 ---
 
-총 165개 | 최신순 정렬
+총 166개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [fromsoftware-graphics-cedec2021](fromsoftware-graphics-cedec2021.md) | 프롬소프트웨어 그래픽스 제작 철학 (CEDEC+KYUSHU 2021, 4Gamer) — 배경 3원칙(콘셉트→에셋→리얼리티)·광원/시야 유도·실루엣·캐릭터 러프→디테일(경도)→리토폴로지→텍스처 | 2021-11-30 |
+| [fromsoftware-information-map-cedec2021](fromsoftware-information-map-cedec2021.md) | 프롬소프트웨어 레벨디자인 툴 '情報地図' (CEDEC 2021, IGN Japan) — Leaflet 조감 지도·플레이 경로/데스/히트맵·부하 계측·다중 통계로 드랍/난이도 밸런싱 | 2021-08-27 |
 | [krafton-ir-2q26](krafton-ir-2q26.md) | 크래프톤 2Q26·1H26 IR — 역대 최대 반기 매출·영익 + 복수 성장축(PUBG+Subnautica 2) — 1H26 매출 2.66조(+73.3%)·영익 9,725억·2Q26 순이익 −299억·Subnautica 2 EA 22일 500만장 | 2026-07-29 |
 | [carless-steam-reviews-purchase-2026-07](carless-steam-reviews-purchase-2026-07.md) | GameDiscoverCo — 플레이어 리뷰가 스팀 구매를 얼마나 좌우하나 (Carless) — 설문 3,800명·72.5% 확인·Mixed 절벽 30.8% 이탈·조건부 관용 47.4%·기술이슈 리뷰 최유용 14% | 2026-07-24 |
-| [cedec2026-nobori-garage-talent](cedec2026-nobori-garage-talent.md) | CEDEC 2026 — 「가레지」 인재 육성: 자주성·놀이·실패 허용 (登大遊) — ASV 평가척도·조직요건 4·SoftEther 연 4~6천억엔 사회편익·기술자 1명 연 100억엔 | 2026-07-24 |
 | [cedec2026-cyberagent-mobile-marketing](cedec2026-cyberagent-mobile-marketing.md) | CEDEC 2026 — 사이버에이전트 '스마트폰 게임 마케팅의 거짓말' (家門真明) — 사전등록 4개월 롱런웨이·분산 1.25배·전환율 iOS90%·Android50%·순위 하락 후 광고·측정 3배 괴리 | 2026-07-23 |
 | [cedec2026-donkey-kong-bananza-destruction-cycle](cedec2026-donkey-kong-bananza-destruction-cycle.md) | CEDEC 2026 — 동키콩 바난자: 파괴의 연쇄로 이어지는 게임 사이클 (닌텐도) — "부수는 것이 다음에 부술 이유"·5시스템 접속구·보상 8할 지하 매장·재질별 경도 | 2026-07-23 |
 | [cedec2026-crimson-desert-world-first](cedec2026-crimson-desert-world-first.md) | CEDEC 2026 — 붉은사막: 200명 대규모 오픈월드 프로세스 (펄어비스) — 월드 퍼스트 3층·전사 공통 XML 4차트·페이즈 스위칭·역할 수렴·메인스토리 약화 인정 | 2026-07-23 |

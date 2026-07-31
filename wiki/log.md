@@ -2,6 +2,24 @@
 title: "활동 로그"
 ---
 
+## [2026-07-31] ingest | 프롬소프트웨어 CEDEC 2021 강연 2건 — 그래픽스 제작 철학 + 레벨디자인 툴 '情報地図'
+- Source: 웹 2건 (사용자 제공 vgbaike 중국어 번역 → 크롬으로 일본어 원문 대조 후 원문 우선 표기)
+  - ① 4Gamer(川崎政一郎, 2021-11-30) 「フロム・ソフトウェアのゲームグラフィックス制作の拘り」(CEDEC+KYUSHU 2021)
+  - ② IGN Japan(あでゆ, 2021-08-27) 「『情報地図』で俯瞰するマップ情報の可視化」(CEDEC 2021, 발표 川崎涼太·古田島裕斗)
+- **크롬 폴백 적용**: vgbaike WebFetch가 SSL 인증서 오류 → claude-in-chrome로 원문 확인. 4Gamer는 상단 PR 배너가 <article>로 잡혀 javascript_tool로 본문 추출. **교차검증으로 오탈자 발견**: 중국어판 개발자명 "川崎良太"→원문 川崎涼太, 툴명은 "至高의 툴"(헤드라인)이 아니라 '情報地図'
+- 판단: 위키 프롬소프트 커버리지가 월드/레벨디자인·유도에 집중된 반면 ① 아트 제작 craft ② 데이터 주도 레벨디자인 툴링은 공백 → 신규성 확보. 5년 전(2021, 엘든링 출시 전) 강연이나 craft·툴 방법론은 시의성 덜 탐
+- 생성(sources 2): fromsoftware-graphics-cedec2021, fromsoftware-information-map-cedec2021 (신규 concept·entity 없음 — 기존에 흡수)
+- 보강: player-guidance-design(환경 아트로 유도 실행 섹션 신설·sources 2건·히트맵 계측 근거), data-driven-development(계측·툴링 인프라 섹션 신설·情報地図 AAA + Slay the Spire 인디 카운터파트·sources 2건), fromsoftware(sources 2건·related 3개)
+- 카탈로그: index(소스 164→166·Last updated 2026-07-31)·sources/all(총 166·행 2건)
+- 미push — 사용자 검토 후. 챗봇 재색인도 확인 후
+
+## [2026-07-30] 삭제 | cedec2026-nobori-garage-talent — 위키 주제 범위 밖 판정
+- 트리거: 사용자 검토 — *"인재육성인데 게임 인재가 아니고 IT 환경 얘기, 위키 주제와 관련이 거의 없다"* → 삭제 지시
+- 삭제: sources/cedec2026-nobori-garage-talent (「가레지」 인재 육성 · 登大遊 · ASV 평가척도)
+- 되돌림: concepts/dev-talent-pipeline — "반대편 모델 — 「가레지」 환경 설계" 섹션 전체 제거, frontmatter sources·related·updated를 ingest 이전 상태(2026-05-18)로 복원
+- 카탈로그: sources/all 행 제거 + 총계 165→164, index.md 소스 통계 165→164
+- 판단 근거 기록: A급 선정 시 dev-talent-pipeline·psychological-safety 연결을 근거로 삼았으나, 실제 내용은 공공 IT 인프라 인재 정책이라 게임 개발 맥락 전이가 약함. 향후 CEDEC 후보 선별 시 "게임 개발 현장 적용 가능성"을 티어 판정에 반영
+
 ## [2026-07-30] ingest | CEDEC 2026 A급 7건 배치 — 동키콩 바난자·붉은사막·SILENT HILL·Ratatan·Relink·신경미학·가레지
 - 트리거: 사용자가 "위키 ingest 자료를 토대로 관심 가질 강연 추천" 요청 → 위키 프로필(158소스·68개념·18비교) 대비 CEDEC 221세션 매칭해 A/B/C 3등급 숏리스트 작성 → 사용자가 *"3번(B급 리포트 존재 조사) 하고 2번(A급 7건 전부) 진행"* 지시
 - Source: 4Gamer CEDEC 2026 세션 리포트 7건(7/28~29 공개분, WebFetch 전문 추출). 보조: 게임메이커즈(동키콩·SILENT HILL). confidence 전부 medium(단일 강연·2차 리포팅)

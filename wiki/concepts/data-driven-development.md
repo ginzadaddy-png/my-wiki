@@ -1,10 +1,10 @@
 ﻿---
 title: "데이터 기반 개발 의사결정"
 type: concept
-sources: ["[[gdc26-arc-raiders-reset]]"]
-related: ["[[embark-studios|엠바크 스튜디오]]", "[[arc-raiders|아크 레이더스]]", "[[playtesting|플레이테스팅]]", "[[small-team-development|소규모 팀 개발]]", "[[vision-statement|비전 선언문]]"]
+sources: ["[[gdc26-arc-raiders-reset]]", "[[fromsoftware-information-map-cedec2021]]", "[[gdc19-slay-the-spire-metrics]]"]
+related: ["[[embark-studios|엠바크 스튜디오]]", "[[arc-raiders|아크 레이더스]]", "[[fromsoftware|프롬소프트웨어]]", "[[playtesting|플레이테스팅]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[small-team-development|소규모 팀 개발]]", "[[vision-statement|비전 선언문]]"]
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-07-31
 confidence: high
 ---
 
@@ -56,6 +56,21 @@ UXR(사용자 경험 리서치) 없이는 내부 평가와 외부 반응이 완�
 - 의도 불명확한 디렉션 → 팀이 "의도와 데이터가 있나요?"로 되물음
 - 데이터: 보상은 좋지만 위험도 지각이 낮음
 - 해결: 화면 어둡게 ❌ → 중거리 시야 제한 안개로 정보 감소, 긴장감 증가
+
+## 계측·툴링 인프라: 데이터가 나오려면 도구가 먼저
+
+데이터 주도 의사결정이 작동하려면 *데이터를 뽑아내는 계측 도구*가 선행돼야 한다. 방법론(위)과 툴링(아래)은 한 쌍이다.
+
+**프롬소프트웨어 情報地図** ([[fromsoftware-information-map-cedec2021|CEDEC 2021]]) — AAA 사례:
+- 맵이 커져 *데이터 추출이 속인화*되는 문제를 웹 기반 조감 지도 툴로 해소 (Leaflet 기반)
+- 플레이 경로·데스·아이템 획득을 시계열 재생, **이동 히트맵**으로 자주/드문 경로 시각화 → 유도·배치 재조정
+- 프로그래머용 **부하 히트맵**·메모리 초과 자동 핀으로 성능 지점까지 계측
+- 다중 플레이로그 통계로 드랍 기대값·적 강도(사망 횟수)를 조정 → *"같은 개발 기간에 더 깊은 레벨디자인"*
+
+**Mega Crit Slay the Spire** ([[gdc19-slay-the-spire-metrics|GDC 2019]]) — 인디 카운터파트:
+- 얼리 액세스 텔레메트리로 카드 픽률·승률을 밸런싱. AAA(프롬)와 인디(Mega Crit)가 *규모는 달라도 같은 계측→조정 루프*를 돌린다.
+
+> 💡 엠바크의 UXR(정성)·프롬의 텔레메트리 툴(정량)·Mega Crit의 EA 메트릭이 모두 같은 명제로 수렴 — *내부 확신이 아니라 계측된 데이터가 설계를 교정한다*. 차이는 "무엇을 계측하느냐"(경험 리서치 vs 플레이로그 vs 카드 통계)일 뿐.
 
 ## 핵심 원칙
 

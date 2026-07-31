@@ -6,11 +6,13 @@ sources: [
   "[[botw-eldenring-visual-guidance]]",
   "[[gdc2016-hitman-nonlinear-sandbox]]",
   "[[gdc2019-nonlinear-level-design]]",
-  "[[gdc2023-cyberpunk-nonlinear-level-design]]"
+  "[[gdc2023-cyberpunk-nonlinear-level-design]]",
+  "[[fromsoftware-graphics-cedec2021]]",
+  "[[fromsoftware-information-map-cedec2021]]"
 ]
-related: ["[[open-world-design|오픈월드 설계]]", "[[level-design-principles|레벨 디자인 원칙]]", "[[emergent-systems-design|창발적 시스템 설계]]"]
+related: ["[[open-world-design|오픈월드 설계]]", "[[level-design-principles|레벨 디자인 원칙]]", "[[emergent-systems-design|창발적 시스템 설계]]", "[[data-driven-development|데이터 기반 개발]]"]
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-07-31
 confidence: high
 ---
 
@@ -65,4 +67,14 @@ UI 없이 플레이어를 이끄는 설계 철학. 자율성을 빼앗지 않으
   - **배타성(Exclusivity)**: 이 경로를 택하면 저 경로를 포기했다는 느낌
   - **독자성(Uniqueness)**: 각 경로가 고유한 경험을 제공한다는 기대
 
-> 💡 **핵심 인사이트:** 유도의 역설 — 최고의 가이던스는 플레이어가 "유도받고 있다"는 것을 모른다. 마커가 아닌 공간의 형태, 시야, 보상의 배치로 이동 욕구를 만들어야 한다.
+## 환경 아트로 유도를 실행하다 (프롬소프트웨어)
+
+위 원칙들이 *디자인 이론*이라면, 프롬소프트웨어의 배경 아트 담당자는 그 유도를 **환경 그래픽스로 실제 구현**하는 실행층을 공개했다 ([[fromsoftware-graphics-cedec2021|프롬 그래픽스 제작 철학]]):
+
+- **행동 가능 범위를 애매하게 두지 않기**: 못 넘는 벽은 애매한 높이로 만들지 않아 오해를 차단, 못 지나는 틈은 기둥·모래주머니로 막아 "통과 가능?"의 기대→실망을 방지, 죽는 높이는 *바닥이 안 보이게* 해 "착지 가능"이라는 오판을 없앰
+- **광원으로 자연 유도**: 어두운 지하에서 가야 할 방향에 광원을 배치하는 것이 "가장 정통적·효과적". 특징적 랜드마크도 *유도당한다는 느낌 없이* 자연스럽게
+- **진행 방향 시야 확보**: 전투·탐색 루트에 시야를 막는 오브젝트를 두지 않되, 보스방은 단조로움을 피하며 시야도 확보(양립 난제)
+
+계측 측면에서는 [[fromsoftware-information-map-cedec2021|情報地図]] 툴의 **플레이어 이동 히트맵**이 "자주 지나는 길 vs 안 지나는 길"을 시각화해, 중요 아이템에 안 들르면 배치를 재조정하는 *유도의 정량 근거*로 쓰인다.
+
+> 💡 **핵심 인사이트:** 유도의 역설 — 최고의 가이던스는 플레이어가 "유도받고 있다"는 것을 모른다. 마커가 아닌 공간의 형태, 시야, 보상의 배치로 이동 욕구를 만들어야 한다. 그리고 그 배치는 *감*이 아니라 히트맵 텔레메트리로 검증된다.

@@ -1,10 +1,10 @@
 ---
 title: "프롬소프트웨어 (FromSoftware)"
 type: entity
-sources: ["[[fromsoftware-300-devs]]"]
-related: ["[[multi-project-development|멀티 프로젝트 개발]]", "[[small-team-development|소규모 팀 개발]]"]
+sources: ["[[fromsoftware-300-devs]]", "[[fromsoftware-graphics-cedec2021]]", "[[fromsoftware-information-map-cedec2021]]"]
+related: ["[[multi-project-development|멀티 프로젝트 개발]]", "[[small-team-development|소규모 팀 개발]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[data-driven-development|데이터 기반 개발]]", "[[art-pipeline-design|아트 파이프라인 설계]]"]
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-07-31
 confidence: high
 ---
 
