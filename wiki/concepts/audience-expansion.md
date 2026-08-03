@@ -2,9 +2,9 @@
 title: "오디언스 확장 (Audience Expansion)"
 type: concept
 sources: ["[[itoi-miyamoto-dialogue-2024|이토이 × 미야모토 대담]]"]
-related: ["[[game-market-trends|게임 시장 트렌드]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[marketing-strategy|마케팅 전략]]", "[[hit-driven-strategy|홈런 전략]]", "[[nintendo|닌텐도]]", "[[shigeru-miyamoto|미야모토 시게루]]"]
+related: ["[[game-market-trends|게임 시장 트렌드]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[marketing-strategy|마케팅 전략]]", "[[hit-driven-strategy|홈런 전략]]", "[[nintendo|닌텐도]]", "[[shigeru-miyamoto|미야모토 시게루]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-08-03
 confidence: high
 ---
 

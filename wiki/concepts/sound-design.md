@@ -2,9 +2,9 @@
 title: "사운드·음악 디자인"
 type: concept
 sources: ["[[gdc24-zelda-tears-of-kingdom]]", "[[gdc2024-hifi-rush-backwards]]", "[[gdc16-overwatch-play-by-sound]]", "[[project-triton-acoustics]]", "[[gdc23-tunic-audio]]"]
-related: ["[[nintendo|닌텐도]]", "[[hifi-rush|Hi-Fi RUSH]]", "[[tango-gameworks|탱고 게임웍스]]", "[[gameplay-feedback-audio|게임플레이 피드백 오디오]]", "[[emergent-systems-design|창발적 시스템 설계]]", "[[cinematic-production|시네마틱 제작]]", "[[combat-design|전투 디자인]]", "[[level-design-principles|레벨 디자인 원칙]]"]
+related: ["[[nintendo|닌텐도]]", "[[hifi-rush|Hi-Fi RUSH]]", "[[tango-gameworks|탱고 게임웍스]]", "[[gameplay-feedback-audio|게임플레이 피드백 오디오]]", "[[emergent-systems-design|창발적 시스템 설계]]", "[[cinematic-production|시네마틱 제작]]", "[[combat-design|전투 디자인]]", "[[level-design-principles|레벨 디자인 원칙]]", "[[accessibility-design|접근성 설계]]"]
 created: 2026-06-16
-updated: 2026-06-16
+updated: 2026-08-03
 confidence: high
 ---
 
@@ -30,7 +30,7 @@ confidence: high
 
 ## 음악 우선 역방향 설계 (Hi-Fi RUSH)
 
-[[hifi-rush|Hi-Fi RUSH]]([[tango-gameworks|탱고 게임웍스]])는 일반적 순서(레벨 → 음악 → 동기화)를 뒤집어, **뮤지컬 임팩트 포인트(비트)를 먼저 확정하고 레벨·적·시퀀스를 역설계**했다. 음악을 *선택지가 아닌 제약 조건*으로 대우하면 시각 효과·적 행동·환경 애니메이션까지 박자에 동기화돼 리듬감이 게임 전체에 일관되게 스며든다. ([[gdc2024-hifi-rush-backwards]] 참조)
+[[hifi-rush|Hi-Fi RUSH]] ([[tango-gameworks|탱고 게임웍스]])는 일반적 순서(레벨 → 음악 → 동기화)를 뒤집어, **뮤지컬 임팩트 포인트(비트)를 먼저 확정하고 레벨·적·시퀀스를 역설계**했다. 음악을 *선택지가 아닌 제약 조건*으로 대우하면 시각 효과·적 행동·환경 애니메이션까지 박자에 동기화돼 리듬감이 게임 전체에 일관되게 스며든다. ([[gdc2024-hifi-rush-backwards]] 참조)
 
 ## 시네마틱 오디오 통합
 

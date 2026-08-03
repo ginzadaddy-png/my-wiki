@@ -5,9 +5,9 @@ source_url: "https://newsletter.gamediscover.co/p/what-do-steam-fans-really-thin
 source_author: "Simon Carless (GameDiscoverCo)"
 source_published: 2026-07-07
 sources: []
-related: ["[[ai-disclosure-player-sentiment|AI 디스클로저 플레이어 정서]]", "[[ai-gamedev|게임 개발에서의 생성형 AI]]", "[[audience-discovery-systems|오디언스 발견 시스템]]"]
+related: ["[[ai-disclosure-player-sentiment|AI 디스클로저 플레이어 정서]]", "[[ai-gamedev|게임 개발에서의 생성형 AI]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[valve|Valve]]"]
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-08-03
 confidence: high
 ---
 
@@ -36,6 +36,6 @@ GameDiscoverCo의 *Steam Fan Snapshot*(경품 기반 모집, 6/25–7/2 필드, 
 
 EU DSA 공시(H2 2025 EU **3,110만** MAU) + 대역폭 분포 외삽 → **글로벌 ≈1.98억 MAU** (2025 말, 연말 2.1억까지 성장 가능성).
 
-> ⚠️ 모순: 기존 [[valve|Valve]] 페이지는 Steam MAU를 **~1.4억**(2025, AB180 'Game UA 2026')으로 기재. Carless의 DSA 기반 추정은 **~1.98억**으로 격차가 큼 — 모집·외삽 방법론 차이(AB180 광고 UA 데이터 vs DSA 공시+대역폭 역산). 단일 확정치로 쓰지 말고 *출처·방법론 병기* 필요.
+> ⚠️ 모순 (2026-08-03 **해소**): 기존 [[valve|Valve]] 페이지의 **~1.4억**과 Carless의 **~1.98억** 격차를 재조사한 결과, *대등한 두 추정의 대립이 아니라 한쪽의 기준선 오류*로 판명됐다. 1.4억은 Valve의 **2021년 공식 수치(1.32억 MAU·6,900만 DAU)를 최신치로 오표기한 애그리게이터 계보**에 +11%를 얹은 파생값이다. Carless 쪽은 Valve의 **DSA 법정 공시(H2 2025 EU 3,110만)** 라는 최신 공식 숫자에서 대역폭 분포로 역산한 값이고, 2021 MAU:피크CCU 비율(4.8배)을 2026-01 피크 CCU 4,204만에 대입한 독립 검증(약 2.02억)과도 일치한다. → **위키는 Carless 추정(약 2억, 추정 병기)을 채택**하고 1.4억은 사용하지 않는다. 상세 계보 표는 [[valve|Valve]] "MAU 규모 — 수치 계보와 채택 기준" 절.
 
 > 💡 **핵심 인사이트:** 개발자 정서([[ai-gamedev]])는 2026년 부정 52%로 격앙됐지만, *구매자* 정서는 무관심 43% > 부정 31%로 온도차가 크다. 소비자 저항은 "AI 자체"보다 **불투명한 공개**에 집중 — 신뢰 17%가 이를 방증. 즉 AI 사용 시 리스크를 낮추는 레버는 *숨기기*가 아니라 *명확한 디스클로저*이며, 코딩·프로토타입 같은 비-플레이어페이싱 용도는 이미 폭넓게 용인된다.

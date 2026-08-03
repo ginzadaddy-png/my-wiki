@@ -1,10 +1,10 @@
 ---
 title: "구독 경제와 게이밍 — 소유에서 거주로"
 type: concept
-sources: ["[[ign-generations-in-play-2026]]", "[[naavik-xbox-strategy-reset-2026-07]]"]
-related: ["[[live-service-design|라이브 서비스 설계]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[game-utility-systems|게임 유틸리티 시스템]]"]
+sources: ["[[ign-generations-in-play-2026]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]"]
+related: ["[[live-service-design|라이브 서비스 설계]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
 created: 2026-05-12
-updated: 2026-07-20
+updated: 2026-08-03
 confidence: high
 ---
 
@@ -50,6 +50,24 @@ confidence: high
 4. **Ecosystem Model**: Stranger Things처럼 access가 거대 audience 형성 → 고마진 라이선싱·머천다이즈로 회수
 
 → Try before buy는 더 이상 데모의 일이 아니라 *구독의 일*. 게임 마케팅은 "구매 결정"보다 "거주 결정"을 먼저 잡아야 한다.
+
+## 구독 = 트랜스미디어 헤일로 수신 안테나 ([[alinea-ps-physical-fc27-odyssey-2026-07]])
+
+Discovery engine 명제가 *플랫폼 내부* 발견을 다룬다면, 이 사례는 **외부 문화 이벤트가 만든 수요를 구독이 얼마나 증폭하는가**를 보여준다.
+
+크리스토퍼 놀란의 《The Odyssey》 7/17 개봉 → 2018년작 Assassin's Creed Odyssey의 합산 DAU가 10일 만에 **122K → 233K (+90%, 기준선 1.8배)**.
+
+| 플랫폼 | 증가율 | 비고 |
+|---|---|---|
+| Steam | +26% | 구매 필요 |
+| PlayStation | **+94%** | PS Plus 수록, 114K DAU |
+| Xbox | **+134%** | Game Pass 수록, 36K → 84K (2.5배) |
+
+- 같은 문화적 자극인데 **구독 침투가 깊은 플랫폼일수록 반응 폭이 5배 이상 컸다** — 금전적 마찰 0이 결정 변수
+- 소프트웨어 판매는 연초 이후 약 400K 카피로 소폭. 영화가 만든 것은 *구매*가 아니라 **플레이 복귀**
+- 유비소프트는 개봉 타이밍 소셜 캠페인 + 전투 없는 Discovery Tour 모드 재부각으로 활성화
+
+> 💡 **핵심 인사이트:** 카탈로그 타이틀의 구독 배치는 판매를 잠식하는 *비용*이 아니라, 언제 올지 모르는 외부 화제를 수신하는 **안테나**다. 화제성이 플레이로 전환되려면 게임이 *마찰 없이 실행 가능한 위치*에 있어야 한다. IP 크로스오버·영상화 계획이 있다면 그 시점의 구독 수록 여부가 인게이지먼트 회수량을 좌우한다. ([[ip-adaptation-design]]·[[catalog-economics]] 참조)
 
 ## 빈지와 출시 일정의 압박
 

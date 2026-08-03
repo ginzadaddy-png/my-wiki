@@ -34,7 +34,7 @@ relations:
 
 1. **PUBG IP 프랜차이즈 심화** — 콘텐츠 플랫폼화(PUBG 2.0·Well-made 모드·UGC), 팬덤 마케팅으로 트래픽 구조적 확장. 9년차 IP의 체류·결제 심화가 성장 동력
 2. **자체 제작 확대** — 2025년 신규 1PP 프로젝트 15개 착수(파이프라인 26개), 제작 리더십 15인 영입. "최대 20명/1년·최대 50명/3년" 단계별 게이트로 신작 개발비 ~40% 효율화
-3. **M&A·인큐베이션** — 확보 IP: Subnautica(Unknown Worlds)·[[hifi-rush|Hi-Fi RUSH]]([[tango-gameworks]])·Last Epoch. "Another PUBG급 Mega IP" 대형 M&A 상시 탐색
+3. **M&A·인큐베이션** — 확보 IP: Subnautica(Unknown Worlds)·[[hifi-rush|Hi-Fi RUSH]] ([[tango-gameworks]])·Last Epoch. "Another PUBG급 Mega IP" 대형 M&A 상시 탐색
 4. **신규 IP 검증** — inZOI(EA 7일 100만장+, Steam Best of 2025)·MIMESIS(EA 50일 100만장+)
 5. **AI** — 자체 멀티모달 모델 Raon(음성·대화·이미지 4종, 영·한 벤치마크 1위)·PUBG Ally, 나아가 게임 역량을 Physical AI·휴머노이드 로보틱스로 이전("Game for AI")
 

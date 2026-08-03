@@ -1,10 +1,10 @@
 ---
 title: "Valve"
 type: entity
-sources: ["[[zrconsulting-steam-forecaster-2026]]", "[[carless-wishlist-conversions-2025-10]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-2026-analysis]]", "[[gdc24-steam-secrets]]"]
-related: ["[[steam-revenue-forecasting|스팀 매출 예측]]", "[[steam-next-fest|Steam Next Fest]]", "[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|런치 메트릭]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[game-pricing-strategy|가격 전략]]"]
+sources: ["[[zrconsulting-steam-forecaster-2026]]", "[[carless-wishlist-conversions-2025-10]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-2026-analysis]]", "[[gdc24-steam-secrets]]", "[[carless-steam-fans-ai-sentiment-2026-07]]"]
+related: ["[[steam-revenue-forecasting|스팀 매출 예측]]", "[[steam-next-fest|Steam Next Fest]]", "[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|런치 메트릭]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[game-pricing-strategy|가격 전략]]", "[[game-market-trends|시장 구조 변화]]"]
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-03
 confidence: high
 ---
 
@@ -17,7 +17,27 @@ confidence: high
 - **사업**: Steam 플랫폼 운영, Source / Source 2 엔진, 자체 게임 개발, Steam Deck 하드웨어
 - **수수료 구조**: 매출 기준 30% (~$10M 이상 25%, $50M 이상 20%) — [[publisher-deal-structures|퍼블리셔 딜 구조]]에서 self-publish 시 인디에게 가장 중요한 변수
 - **비공개 기업**: IPO 없음, 외부 보고 의무 없음 → 위키 분석은 *외부 관찰·1차 source 분석*에 의존
-- **규모(2025)**: 월간 활성 이용자(MAU) 약 1.4억(전년 대비 +11%), 동시접속자(CCU)가 2025년 처음 4,000만 명 돌파 → 최근 4,200만+ (2020년 대비 ~2배). PC·콘솔 시장은 매출 +13%·다운로드 +6% 성장으로, 다운로드 감소·매출 +1%대 정체인 모바일과 대조 — *AB180 'Game UA 2026' 세미나(2026-06, Steam 공개자료 인용)*
+- **동시접속자(CCU)**: 2025년 처음 4,000만 명 돌파 → 2026-01-11 4,204만 최고 기록, 이후 4,230만 (2020년 대비 ~2배)
+- **시장 배경**: PC·콘솔 매출 +13%·다운로드 +6% 성장 — 다운로드 감소·매출 +1%대 정체인 모바일과 대조 (*AB180 'Game UA 2026' 세미나, 2026-06*)
+
+### MAU 규모 — 수치 계보와 채택 기준
+
+Valve는 비공개 기업이라 **헤드라인 MAU를 2021년 이후 공표하지 않았다.** 위키에서 쓰는 숫자는 반드시 계보를 밝혀야 한다.
+
+| 수치 | 성격 | 시점 | 출처·산출 |
+|---|---|---|---|
+| **1.32억 MAU** (DAU 6,900만, 피크 CCU 2,740만) | **Valve 공식** | **2021** | Steam Year in Review 2021 — *마지막 공식 헤드라인 수치* |
+| **3,110만 EU MAU** | **Valve 공식(법적 의무 공시)** | **H2 2025** | EU 디지털서비스법(DSA) 이용자 수 공시 — *현존하는 유일한 최신 공식 숫자* |
+| **약 1.98억 글로벌 MAU** → 2026 상반기 2억+ | 1차 추정 | H2 2025 → H1 2026 | [[carless-steam-fans-ai-sentiment-2026-07]] — DSA 3,110만 × Steam 공개 대역폭 분포로 유럽 비중 역산, 2021 기준선 성장률 대입으로 교차 확인 |
+| 약 1.4억 (+11%) | **채택 철회** | "2025"로 유통 | 통계 애그리게이터 계보 — Valve의 **2021년 1.32억을 최신치로 오표기한 뒤 성장률을 얹은 값** |
+
+> 💡 **핵심 인사이트 — 1.4억은 왜 틀렸나:** 이 수치를 싣는 애그리게이터들은 DAU를 *6,900만*으로 함께 적는데, 이는 Valve의 **2021년 Year in Review 수치 그대로다.** 즉 1.32억 → "2024년치"로 오표기 → +11% → "2025년 1.4~1.47억"이라는 한 갈래에서 나온 파생값이며, *2025년에 측정된 값이 아니다.* AB180 세미나 인용도 이 계보 위에 있다.
+
+**독립 검증 (CCU 비율)**: 2021년 MAU 1.32억 ÷ 피크 CCU 2,740만 = **4.8배**. 이 비율을 2026-01 피크 CCU 4,204만에 대입하면 **약 2.02억** — Carless 추정과 일치하고, 1.4억(비율 3.3배로 급락해야 성립)과는 맞지 않는다.
+
+> **위키 채택 기준**: ① 하드 숫자가 필요하면 **3,110만 EU MAU (H2 2025, 공식)** 를 쓴다. ② 글로벌 규모는 **약 2억 (2026 상반기, Carless 추정)** 으로 쓰되 *추정임을 반드시 병기*한다. ③ 1.4억은 사용하지 않는다.
+
+**규모 비교 기준점**: 소니 공식 PSN MAU **1.25억** (2026-03 기준, Q1 실적) → Steam이 PSN 대비 약 **60% 크다**. [[game-market-trends|시장 구조]]에서 "PC 우위 전환"을 말할 때의 정량 근거.
 
 ## 위키에서 Valve를 다루는 4개 축
 

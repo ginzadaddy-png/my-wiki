@@ -61,4 +61,4 @@ DICE 출신 [[embark-studios|패트릭 수더룬드]]가 2018년 설립한 스�
 - 한국 게임사 *연간 신규 채용* vs 캡콤 12년 모델 ([[dev-talent-pipeline]] 참고)
 - *민트로켓 모델 확장 가능성* — 이중 트랙 스튜디오를 몇 개까지 운영할 수 있는지
 
-> ⚠️ confidence medium-high — 자회사 사례(엠바크·민트로켓·아크 레이더스·데이브 더 다이버)는 1차 source 기반 high. MMO 카탈로그는 [[nexon-ncsoft-mmo-recurrent-2026|IR 종합]](2026-07)으로 보강됨(2차 리포팅 기반 medium-high). 모회사 재팬↔코리아 의사결정 흐름은 여전히 deep dive source 없어 medium.
+> ⚠️ confidence medium-high — 자회사 사례(엠바크·민트로켓·아크 레이더스·데이브 더 다이버)는 1차 source 기반 high. MMO 카탈로그는 [[nexon-ncsoft-mmo-recurrent-2026|IR 종합]] (2026-07)으로 보강됨(2차 리포팅 기반 medium-high). 모회사 재팬↔코리아 의사결정 흐름은 여전히 deep dive source 없어 medium.

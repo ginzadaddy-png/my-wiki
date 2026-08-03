@@ -55,7 +55,7 @@ updated: 2026-07-30
 | [[annapurna-interactive]] | 미국 LA, 2016, 영화사 산하 작가형 인디 퍼블리셔, Outer Wilds·Stray·Cocoon, 2024-09 대량 사임 |
 | [[devolver-digital]] | 미국 텍사스 오스틴, 1998, LSE 상장(DEVO), Hotline Miami·Cult of the Lamb·Inscryption, 컬트 마케팅 |
 | [[raw-fury]] | 스웨덴 스톡홀름, 2015, 비상장 작가형 퍼블리셔, Sable·Norco·Kingdom 시리즈 |
-| [[pearl-abyss]] | 한국 안양, 2010, KOSDAQ 상장, 검은사막(recurrent floor)+[[crimson-desert]](프리미엄 런치) 하이브리드, 블랙스페이스 자체 엔진, CCP Games 2026-05 매각 |
+| [[pearl-abyss]] | 한국 안양, 2010, KOSDAQ 상장, 검은사막(recurrent floor)+[[crimson-desert]] (프리미엄 런치) 하이브리드, 블랙스페이스 자체 엔진, CCP Games 2026-05 매각 |
 | [[electronic-arts]] | 미국 레드우드시티, 1982, NASDAQ 상장, EA Sports FC·Battlefield·Apex 퍼블리셔, [[respawn-entertainment]]·[[bioware]] 모회사 |
 | [[sony-interactive-entertainment]] | 소니 게임 부문, PlayStation, [[team-asobi]]·[[sony-santa-monica]]·[[naughty-dog]]·[[sucker-punch-productions]]·[[insomniac-games]] 모회사 |
 | [[microsoft]] | Xbox Game Studios, [[bethesda-game-studios]]·[[obsidian-entertainment]] 모회사 |

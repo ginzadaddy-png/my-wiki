@@ -38,7 +38,7 @@ confidence: high
 
 ## 한국 4사로 확장 — 크래프톤·펄어비스 편입
 
-이 소스는 *순수 MMO recurrent*(넥슨·엔씨)에 집중하지만, 2026 IR 심화로 [[krafton|크래프톤]]([[krafton-ir-fy2025-1q26|FY2025·1Q26 IR]])과 [[pearl-abyss|펄어비스]]([[pearl-abyss-ir-1q26|1Q26 IR]])를 더한 **한국 4사 패널**이 [[catalog-economics|카탈로그 이코노믹스]]의 "한국 4사 IR 패널" 섹션에 구성됐다. 핵심 대비:
+이 소스는 *순수 MMO recurrent*(넥슨·엔씨)에 집중하지만, 2026 IR 심화로 [[krafton|크래프톤]] ([[krafton-ir-fy2025-1q26|FY2025·1Q26 IR]])과 [[pearl-abyss|펄어비스]] ([[pearl-abyss-ir-1q26|1Q26 IR]])를 더한 **한국 4사 패널**이 [[catalog-economics|카탈로그 이코노믹스]]의 "한국 4사 IR 패널" 섹션에 구성됐다. 핵심 대비:
 
 - **크래프톤** — 단일 메가IP(PUBG) + Big Franchise 포트폴리오. 넥슨이 [[nexon-cmb-2026-transformation|7조 목표를 철회]]한 것과 정반대로 **7조 목표를 유지**하며 floor의 현금을 신작·M&A에 재투자(영익률 43.6→31.7% 감수)
 - **펄어비스** — 검은사막 recurrent floor + [[crimson-desert|붉은사막]] 프리미엄 패키지 런치. 1Q26 붉은사막이 매출 81%(+419.8%), 미주/유럽 80%+ — MMO recurrent와 이질적인 *1회성 패키지 축*을 얹은 하이브리드

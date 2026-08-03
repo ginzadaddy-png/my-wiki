@@ -2,7 +2,7 @@
 title: "전체 개념 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-07-30
+updated: 2026-08-03
 ---
 
 ← [홈으로](../index.md)
@@ -43,6 +43,7 @@ updated: 2026-07-30
 | [[indie-business-strategy]] | **인디 비즈니스 전략** — 창업·마케팅·생존 |
 | [[game-market-trends]] | **게임 시장 트렌드** — 저가 프리미엄 부상, 세분화 |
 | [[game-pricing-strategy]] | **게임 가격 전략** — 가격대 지형, 지역 차등화, 세일 타이밍, 비즈니스 모델 |
+| [[console-retail-strategy]] | **콘솔 리테일·유통 전략** — 디스크 vs 디지털 단위 경제, 패키지 비중 편차, 에디션 티어링, 진입 사다리 |
 | [[catalog-economics]] | **카탈로그 이코노믹스** — 시리즈 IP의 장기 매출 모델, 캡콤 카탈로그 84% |
 | [[steam-revenue-forecasting]] | **Steam 매출 예측 모델** — 8 driver sensitivity, sub-genre conversion 매트릭스, ZR Forecaster |
 | [[publisher-deal-structures]] | **퍼블리셔 딜 구조** — Rev share·Recoup-first·MG·Marketing fee 5종 비교·stress test |
@@ -79,6 +80,7 @@ updated: 2026-07-30
 | [[ip-adaptation-design]] | **IP 적응 설계** — 팬·게이머 이중 타겟 설계 |
 | [[studio-culture]] | **스튜디오 문화** — 원칙·가치·의사결정 방식 |
 | [[player-trust-design]] | **플레이어 신뢰 설계** — 신뢰를 통화처럼 운용하는 설계 프레임워크 |
+| [[accessibility-design]] | **접근성 설계** — 난이도 자기조절 레버·조력 AI 겸용·청각 채널·신뢰 적립 (Relink·Celeste·Spirit Ashes·오버워치) |
 | [[companion-design]] | **동반자(Companion) 설계** — RPG 동반자의 세 패턴과 신뢰 구축 |
 | [[combat-companion-ai]] | **전투·조력 AI 동반자 설계** — 짐이 아닌 자산·투명화·어그로 분산·지능 착시 (Elizabeth·엘리·Spirit Ashes·F.E.A.R.·Halo) |
 | [[design-sense]] | **디자인 감각 개발** — 더 갭, 4가지 요소, 취향과 기술의 차이 |

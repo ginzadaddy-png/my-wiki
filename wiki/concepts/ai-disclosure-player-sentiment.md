@@ -12,7 +12,7 @@ confidence: medium
 
 ## 정서는 "AI 자체"가 아니라 "불투명성"에 반응한다
 
-[[carless-steam-fans-ai-sentiment-2026-07|GameDiscoverCo 2026-07 설문]](코어 Steam 팬 ~3,800명) 기준:
+[[carless-steam-fans-ai-sentiment-2026-07|GameDiscoverCo 2026-07 설문]] (코어 Steam 팬 ~3,800명) 기준:
 
 - AI 공개 게임 구매에 **무관심 43% > 부정 31%**(구매 거부 8%). *대체로 관용적*.
 - 그러나 개발자가 AI 사용을 완전 공개한다고 믿는 유저는 **17%뿐** — 저항의 뿌리는 AI 사용 자체보다 *숨긴다는 의심*.

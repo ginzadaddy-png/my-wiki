@@ -13,7 +13,7 @@ confidence: high
 
 **원문**: [What 1 million (immediate!) wishlists for Dear Passengers says about discovery](https://newsletter.gamediscover.co/p/what-1-million-immediate-wishlists) — GameDiscoverCo, Simon Carless, 2026-07-17
 
-트레일러 하나로 3일 만에 위시리스트 100만을 찍은 [[dear-passengers|Dear Passengers]](우크라이나 [[flexus|Flexus]], 70명+·모바일 다운로드 3억+)를 통해 숏폼 바이럴 디스커버리와 "friendslop" 장르 부상을 분석. 위시리스트:팔로워 배수를 품질·변동성 신호로 읽는 프레임이 핵심.
+트레일러 하나로 3일 만에 위시리스트 100만을 찍은 [[dear-passengers|Dear Passengers]] (우크라이나 [[flexus|Flexus]], 70명+·모바일 다운로드 3억+)를 통해 숏폼 바이럴 디스커버리와 "friendslop" 장르 부상을 분석. 위시리스트:팔로워 배수를 품질·변동성 신호로 읽는 프레임이 핵심.
 
 ## 하드 넘버
 

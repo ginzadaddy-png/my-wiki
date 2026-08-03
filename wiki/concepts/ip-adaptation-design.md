@@ -1,10 +1,10 @@
 ---
 title: "IP 적응 설계"
 type: concept
-sources: ["[[gdc24-hogwarts-legacy-design]]", "[[gdc26-hogwarts-evolving-aaa]]", "[[gdc26-comics-to-games]]", "[[cedec2026-silent-hill-producing]]", "[[cedec2026-granblue-relink-battle]]"]
-related: ["[[hogwarts-legacy|호그와트 레거시]]", "[[avalanche-software|아발란체 소프트웨어]]", "[[playtesting|플레이테스팅]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[silent-hill-f|SILENT HILL f]]", "[[granblue-fantasy-relink|GRANBLUE FANTASY: Relink]]", "[[community-management|커뮤니티 운영]]"]
+sources: ["[[gdc24-hogwarts-legacy-design]]", "[[gdc26-hogwarts-evolving-aaa]]", "[[gdc26-comics-to-games]]", "[[cedec2026-silent-hill-producing]]", "[[cedec2026-granblue-relink-battle]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]"]
+related: ["[[hogwarts-legacy|호그와트 레거시]]", "[[avalanche-software|아발란체 소프트웨어]]", "[[playtesting|플레이테스팅]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[silent-hill-f|SILENT HILL f]]", "[[granblue-fantasy-relink|GRANBLUE FANTASY: Relink]]", "[[community-management|커뮤니티 운영]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[accessibility-design|접근성 설계]]"]
 created: 2026-04-20
-updated: 2026-07-30
+updated: 2026-08-03
 confidence: high
 ---
 
@@ -49,3 +49,18 @@ confidence: high
 - 단조로움 방지를 위해 콤보 루트를 다양화 — *"모두가 멋있어 보이는 전투"*라는 목표가 자동화에도 적용
 
 > 💡 **핵심 인사이트:** "IP 게임을 만드는 것은 팬을 만족시키는 것만이 아니다. 팬이 아닌 사람도 입문할 수 있는 문을 설계하는 것이다."
+
+## 역방향 낙수 — 영상 IP가 기존 게임을 재점화 ([[alinea-ps-physical-fc27-odyssey-2026-07]])
+
+지금까지 항목이 전부 *원작 IP → 신작 게임* 방향이라면, 이 사례는 **무관한 영상 작품이 같은 소재의 기존 게임을 끌어올리는** 반대 방향이다. 원작-각색 관계가 아니라 **소재 인접성**만으로 작동한다.
+
+크리스토퍼 놀란의 《The Odyssey》 7/17 개봉 → 2018년작 Assassin's Creed Odyssey 합산 DAU **122K → 233K (+90%, 10일)**. 관객이 영화의 고대 그리스 배경을 유비소프트의 8년 된 게임과 자연스럽게 연결.
+
+작동 조건 3가지:
+1. **소재 인접성** — 각색작일 필요 없음. 같은 세계·시대·모티프면 관객이 스스로 다리를 놓는다
+2. **마찰 0의 접근 경로** — Game Pass·PS Plus 수록 플랫폼이 +94~134%, 구매가 필요한 Steam은 +26%. 구독 수록 여부가 증폭률을 5배 갈랐다 ([[subscription-economy-gaming]])
+3. **퍼블리셔의 능동 활성화** — 유비소프트는 개봉 타이밍 소셜 캠페인 + 전투 없는 교육 모드 Discovery Tour를 재부각해 *영화관을 나온 관객용 인터랙티브 동반 콘텐츠*로 포지셔닝
+
+> ⚠️ 전환된 것은 **플레이 복귀이지 구매가 아니다** — 소프트웨어 판매는 연초 이후 약 400K 카피 수준. 헤일로의 회수 지점은 판매고가 아니라 *인게이지먼트·구독 유지·후속작 근거*다. 저자는 이 데이터가 향후 리마스터의 사내 명분이 될 것으로 관측.
+
+→ 설계 시사: IP 로드맵을 짤 때 *우리 게임의 소재와 인접한 영상·출판 작품의 개봉 캘린더*가 마케팅 타이밍 자산이 된다. 각색 판권이 없어도 활용 가능한 창구.

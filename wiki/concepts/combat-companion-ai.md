@@ -2,9 +2,9 @@
 title: "전투·조력 AI 동반자 설계"
 type: concept
 sources: ["[[gdc14-tlou-buddy-ai]]", "[[gdc14-elizabeth-ai-postmortem]]", "[[gdc06-fear-goap]]", "[[gdc05-halo2-ai-complexity]]", "[[escort-mission-design-bycer]]", "[[miyazaki-elden-ring-spirit-ashes]]", "[[cedec2026-granblue-relink-battle]]"]
-related: ["[[companion-design|동반자(Companion) 설계]]", "[[companion-philosophy|RPG 동반자 설계 철학 비교]]", "[[combat-design|전투 디자인]]", "[[game-feel|게임 필]]", "[[ai-navigation|AI 내비게이션]]", "[[game-balance|게임 밸런싱]]", "[[soulslike|소울라이크]]", "[[granblue-fantasy-relink|GRANBLUE FANTASY: Relink]]", "[[cygames|Cygames]]", "[[ip-adaptation-design|IP 적응 설계]]"]
+related: ["[[companion-design|동반자(Companion) 설계]]", "[[companion-philosophy|RPG 동반자 설계 철학 비교]]", "[[combat-design|전투 디자인]]", "[[game-feel|게임 필]]", "[[ai-navigation|AI 내비게이션]]", "[[game-balance|게임 밸런싱]]", "[[soulslike|소울라이크]]", "[[granblue-fantasy-relink|GRANBLUE FANTASY: Relink]]", "[[cygames|Cygames]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[accessibility-design|접근성 설계]]"]
 created: 2026-07-06
-updated: 2026-07-30
+updated: 2026-08-03
 confidence: medium
 ---
 
@@ -46,7 +46,7 @@ confidence: medium
 
 ## 5. 2계층 구조와 접근성의 겸용 — Relink 모델
 
-[[cedec2026-granblue-relink-battle|GRANBLUE FANTASY: Relink]]([[cygames|Cygames]])는 동료 AI를 두 층으로 나눴다. 28캐릭터 × 3 스타일 = 84 플레이 스타일을 감당해야 했기 때문에, *캐릭터마다 전용 AI를 짜지 않는 것*이 전제였다.
+[[cedec2026-granblue-relink-battle|GRANBLUE FANTASY: Relink]] ([[cygames|Cygames]])는 동료 AI를 두 층으로 나눴다. 28캐릭터 × 3 스타일 = 84 플레이 스타일을 감당해야 했기 때문에, *캐릭터마다 전용 AI를 짜지 않는 것*이 전제였다.
 
 | 계층 | 역할 | 유지보수 이점 |
 |--|--|--|

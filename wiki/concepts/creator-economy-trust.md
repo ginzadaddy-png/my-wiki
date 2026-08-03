@@ -1,10 +1,10 @@
 ---
 title: "크리에이터 경제와 신뢰 — 세대별 신뢰 모델"
 type: concept
-sources: ["[[ign-generations-in-play-2026]]", "[[naavik-creator-led-growth]]"]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[community-management|커뮤니티 운영]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[ai-gamedev|게임 개발에서의 생성형 AI]]"]
+sources: ["[[ign-generations-in-play-2026]]", "[[naavik-creator-led-growth]]", "[[gamesight-creator-count-prediction-2026-07]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[community-management|커뮤니티 운영]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[launch-metrics|흥행 예측 지표]]", "[[ai-gamedev|게임 개발에서의 생성형 AI]]"]
 created: 2026-05-12
-updated: 2026-07-06
+updated: 2026-08-03
 confidence: high
 ---
 
@@ -112,9 +112,22 @@ confidence: high
 
 > 💡 **핵심 인사이트:** "engaged community와 검증된 voice를 신뢰한다"는 명제의 매출판(版). 고인텐트 플레이어는 *지지하는 크리에이터와 연결되면 결제 마찰을 감수* — 신뢰가 곧 커머스 인프라다. 크리에이터 성과는 노출(reach)이 아니라 downstream 매출(LTV)로 측정해야 한다. D2C 웹샵 채널([[webshop-direct-monetization]])과 결합 시 플랫폼 수수료 회피 + 신뢰 기반 전환이 겹쳐 효과 극대화.
 
+## 크리에이터 = 예측 지표 (신뢰의 계측화) ([[gamesight-creator-count-prediction-2026-07]])
+
+세대별 신뢰 모델이 *이론*, Tebex 코드 데이터가 *매출 실증*이라면, Gamesight의 런칭 분석은 **크리에이터 층이 흥행 선행 지표로도 작동한다**는 세 번째 축이다.
+
+PvP FPS 25개 런칭 분석 결과 — **출시 3일차의 서로 다른 활성 창작자 수**가 장기 리텐션 등급을 **72% 적중**(런치월 종료 시 82%)으로 예측. 반면 총 시청 시간은 예측력이 떨어진다.
+
+- 대형 스트림 = 단기 가시성 / 넓고 활발한 창작자 층 = 장기 건강 신호
+- 런치 하이프는 게임을 *눈에 띄게* 하고, 활성 창작자 곡선은 관심이 *들러붙는지*를 보여줌
+- 그래서 구조화된 크리에이터 프로그램·지속 활성화·출시 후 커뮤니티 투자가 이 구간에서 가장 크게 회수됨
+
+> 💡 **핵심 인사이트:** 본 페이지의 "구독자 수보다 engagement 깊이" 원칙이 *개별 크리에이터 선정* 기준이었다면, 이 데이터는 **모수의 폭**이라는 포트폴리오 기준을 추가한다. 큰 채널 몇 개에 예산을 몰면 시청 시간은 오르지만 창작자 수 곡선은 평평하다 — 즉 *가장 잘 보이는 지표가 오르는 동안 가장 잘 맞는 지표는 그대로*일 수 있다. 아웃리치 KPI를 도달(reach)에서 **활성 창작자 수**로 바꿔야 하는 이유. (예측 지표 전반은 [[launch-metrics]] 참조)
+
 ## 기존 위키와의 연결
 
 - **마케팅 전략**([[marketing-strategy]]): 크리에이터 중심 전략의 실행 매뉴얼. 본 페이지가 *왜* 그래야 하는지의 이론.
+- **흥행 예측 지표**([[launch-metrics]]): 크리에이터 층은 신뢰 자산인 동시에 런치 리텐션의 선행 지표.
 - **커뮤니티 운영**([[community-management]]): Discord·Reddit·Steam 커뮤니티가 신뢰 구축 메커니즘의 본체.
 - **AI 게임 개발**([[ai-gamedev]]): AI 생성 콘텐츠의 도입 원칙 — 세대 OS에 따른 차등화 시사점.
 - **발견 시스템**([[audience-discovery-systems]]): 발견과 신뢰는 같은 OS의 두 측면. 같이 설계해야 함.

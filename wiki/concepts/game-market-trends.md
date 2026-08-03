@@ -1,10 +1,10 @@
 ---
 title: "게임 시장 트렌드"
 type: concept
-sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[alinea-steam-record-year-2026]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[pearl-abyss-ir-1q26]]"]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]"]
+sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[alinea-steam-record-year-2026]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
 created: 2026-04-20
-updated: 2026-05-18
+updated: 2026-08-03
 confidence: high
 ---
 
@@ -29,6 +29,16 @@ confidence: high
 AI 메모리 쇼크발 가격 인상으로 콘솔 출하가 꺾인다. S&P Global Kagan 전망: 2026 콘솔 출하 **−19.5% → 33.9M**(2025 42.1M에서), 2027 저점 27.1M → 2030 37.4M 회복. 기종별 2026: Switch 2 17.1M · PS5 13.2M · **Xbox 2.5M(사상 최저 3.2M 후 "0으로 wind-down")**. 근인은 [[naavik-ai-memory-console-economics-2026-07|AI 데이터센터 메모리 수요 → DRAM +100%]]로 인한 세대 중 가격 인상(PS5 base $650·Xbox X가 PS5보다 $100 비쌈).
 
 > 💡 **개발사 함의:** 콘솔 *설치기반 성장 정체 → 신작 TAM(총 시장) 압박*. 프리미엄 콘솔 AAA 의존도가 높을수록 리스크. 대응은 (1) 저가 기기(Switch 2)·구세대·PC·클라우드로 **멀티플랫폼 분산**, (2) 위의 [저가 프리미엄 부상](#저가-프리미엄의-부상)·PC 카탈로그 축과 연결. 회복은 부품 위기 2028 완화 + 차세대기 $600–800 전제 → 그 전까진 콘솔 신규 하드웨어 TAM이 좁다.
+
+## 콘솔 리테일 채널의 소멸 — 마진 회수 국면 ([[alinea-ps-physical-fc27-odyssey-2026-07]])
+
+하드웨어 수축과 같은 압박에서 나온 유통 측 대응. 소니는 **2028년 디스크 폐지**를 확정했고, 근거는 단위 경제다 — $70 퍼스트파티 기준 디스크 실수령 약 $45 vs 디지털 사실상 $70(**+54%**), 서드파티는 약 $35 vs $49(약 +40%). 기본가가 $80으로 오르면 전환 1카피당 절대 격차가 더 벌어진다.
+
+패키지 비중은 타이틀 성격에 따라 48.0%(FF7 리버스)~10.8%(Black Myth: Wukong)로 5배 가까이 갈린다 — 컬렉터형 프레스티지 싱글플레이는 상단, PC 선행작·연간 스포츠물은 하단.
+
+단, 플랫폼 전체 기준선은 훨씬 낮다 — PS 물리 비중은 최근 분기 유닛 15%, **매출로는 약 7%**([[ps-physical-digital-share-2026]]). 위 48%는 컬렉터형 프레스티지 타이틀의 라이프타임 누적이다.
+
+> 💡 **개발사 함의:** 판매량을 못 늘리는 시장에서 플랫폼 홀더·퍼블리셔가 당기는 레버는 **플레이어당 매출** 하나다. 고마진 디지털 강제(소니)와 $150 상위 SKU 신설(EA FC 27)은 같은 압박의 두 손잡이. Alinea는 이를 *가장 싼 진입 사다리의 소멸*로 비판하지만, 중고 채널은 애초에 개발사 수익으로 환류되는 경로가 없고 남은 물리 매출도 7% 수준이라 근거 강도가 대칭이 아니다 — 논쟁 정리는 [[console-retail-strategy]], 판단 기록은 [[2026-08-03-console-retail-arpu-focus]] 참조.
 
 ## 저가 프리미엄의 부상
 
@@ -68,11 +78,11 @@ AI 메모리 쇼크발 가격 인상으로 콘솔 출하가 꺾인다. S&P Globa
 
 매튜 볼 논지가 *"서구 개발사가 접근 못 하는 곳(중국·로블록스·구독)에 성장이 몰린다"*였다면, 그 거울상으로 **비서구 스튜디오가 서구 프리미엄 시장에 진입하는 흐름**도 2026년 하드 데이터로 나타난다.
 
-- [[pearl-abyss|펄어비스]]([[crimson-desert|붉은사막]]): 1Q26 영업수익 3,285억(+419.8%)의 81%가 붉은사막, 그중 **80%+가 미주/유럽**·**콘솔 비중 38%**. 한국 스튜디오의 신규 IP가 *서구 프리미엄 콘솔/PC AAA 시장*에서 정면 성공
+- [[pearl-abyss|펄어비스]] ([[crimson-desert|붉은사막]]): 1Q26 영업수익 3,285억(+419.8%)의 81%가 붉은사막, 그중 **80%+가 미주/유럽**·**콘솔 비중 38%**. 한국 스튜디오의 신규 IP가 *서구 프리미엄 콘솔/PC AAA 시장*에서 정면 성공
 - 캡콤(위 [이머징 마켓](#이머징-마켓-—-캡콤-글로벌-매출-5년) 참조): 반대 방향 — 일본 스튜디오가 244개국 카탈로그로 아시아·중동 +247%/+276% 흡수
 - 넥슨([[nexon]]) [[arc-raiders|ARC Raiders]]: 스웨덴 [[embark-studios|엠바크]]를 통해 서구 프리미엄 IP를 스케일화(누적 16M+)
 
-> 💡 **핵심 인사이트:** "서구 개발사 구조적 불이익"과 "비서구 스튜디오의 서구 프리미엄 성공"은 모순이 아니라 *같은 동전의 양면*이다. 불이익받는 건 *서구에 갇힌 개발사*이지 *서구 시장 자체*가 아니다 — 프리미엄 AAA·콘솔 지대는 여전히 미주/유럽 80%의 큰 파이이고([위 PC vs 콘솔](#pc-vs-콘솔-수익-구조)), *글로벌 자본·엔진·퍼블리싱을 갖춘 비서구 스튜디오*(펄어비스·크래프톤·미호요)가 그 파이에 진입하고 있다. [[missing-middle-paradigm-shift-2026|미싱 미들]]($30–50 AA)과 별개로, *풀프라이스 프리미엄 AAA*로도 비서구 신규 IP가 통한다는 반례.
+> 💡 **핵심 인사이트:** "서구 개발사 구조적 불이익"과 "비서구 스튜디오의 서구 프리미엄 성공"은 모순이 아니라 *같은 동전의 양면*이다. 불이익받는 건 *서구에 갇힌 개발사*이지 *서구 시장 자체*가 아니다 — 프리미엄 AAA·콘솔 지대는 여전히 미주/유럽 80%의 큰 파이이고([위 PC vs 콘솔](#pc-vs-콘솔-수익-구조)), *글로벌 자본·엔진·퍼블리싱을 갖춘 비서구 스튜디오*(펄어비스·크래프톤·미호요)가 그 파이에 진입하고 있다. [[missing-middle-paradigm-shift-2026|미싱 미들]] ($30–50 AA)과 별개로, *풀프라이스 프리미엄 AAA*로도 비서구 신규 IP가 통한다는 반례.
 
 ## 미싱 미들(Missing Middle)의 부상 ([[missing-middle-paradigm-shift-2026]])
 

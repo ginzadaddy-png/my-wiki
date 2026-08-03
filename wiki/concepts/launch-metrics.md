@@ -1,10 +1,10 @@
 ---
 title: "흥행 예측 지표"
 type: concept
-sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]"]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[forecasting-vs-launch-metrics|예측 vs 측정 비교]]"]
+sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[forecasting-vs-launch-metrics|예측 vs 측정 비교]]"]
 created: 2026-04-20
-updated: 2026-07-30
+updated: 2026-08-03
 confidence: high
 ---
 
@@ -15,6 +15,7 @@ confidence: high
 - 유튜브 트레일러 조회수 → 수동적 반응, 구매 의도로 이어지지 않음
 - 스팀 위시리스트 → "밸브 달러"로서 알고리즘 가치는 있지만 93%가 예측 실패 경험
 - 소셜 미디어 도달률 · 인플루언서 노출 → 화제성 ≠ 수익
+- 트위치 총 시청 시간 → 대형 스트림 1건에 좌우됨, 커뮤니티 형성 여부와 무관 (아래 "창작자 수 곡선" 참조)
 
 ## 진짜 신호 (행동 기반 지표)
 
@@ -33,6 +34,23 @@ confidence: high
 디스코드는 "가입·참여 비용"이 있는 플랫폼 — 진성 유저만 남는다.
 
 > 💡 **핵심 인사이트:** AAA·AA 개발사 93%가 흥행 예측에 실패했다. 문제는 겉으로 드러나는 수치가 아닌 **유저의 실제 행동**을 측정하지 못한 데 있다.
+
+## 창작자 수 곡선 — 시청 시간보다 강한 예측자 ([[gamesight-creator-count-prediction-2026-07]])
+
+Gamesight가 PvP FPS 25개 런칭을 분석해 *출시 직후 트위치 지표 중 무엇이 장기 성패를 예측하는가*를 정량화.
+
+| 시점 | 리텐션 등급 적중률 |
+|---|---|
+| **출시 3일차** 활성 창작자 수 | **72%** |
+| 런치월 종료 시점 | **82%** |
+
+- 리텐션 3분류: high(장기 창작자 관심 지속) · stable(작지만 일정한 기반) · low(출시 24시간 내 일몰 발표)
+- 분석 대상에 Counter-Strike 2·Valorant·Overwatch 2·Concord·Highguard 포함
+- 슈터 서브장르 중 PvP FPS가 리텐션 최상위 — 리플레이성·매치 가변성·경쟁 진행도·배틀패스·토너먼트가 기여
+
+> 💡 **핵심 인사이트:** 같은 100만 시청 시간이라도 *1명 × 100만*과 *500명 × 2천*은 정반대 신호다. 전자는 노출, 후자는 **커뮤니티 형성**. 봐야 할 것은 시청 시간의 크기가 아니라 **서로 다른 창작자 수의 곡선 형태**이며, 그 판정은 이미 **day 3에 72% 확정**된다. → 런치 전 크리에이터 아웃리치의 목표는 "큰 채널 몇 개"가 아니라 **모수의 폭**이어야 한다. ([[creator-economy-trust]]의 "구독자 수보다 engagement 깊이" 명제의 예측 지표판)
+
+> ⚠️ 범위 한계: 표본이 **PvP FPS 25개**로 한정. 싱글플레이·내러티브 장르는 창작자 커버리지가 플레이스루 소진형이라 수명 곡선 자체가 다름 — 라이브 서비스·경쟁형에 우선 적용.
 
 ## 스팀 넥스트 페스트 위시리스트 벤치마크 ([[steam-next-fest-wishlist-benchmarks-2025]])
 

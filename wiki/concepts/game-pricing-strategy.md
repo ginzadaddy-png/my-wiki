@@ -8,11 +8,12 @@ sources: [
   "[[gdc26-arc-raiders-reset]]",
   "[[gdc26-newzoo-market-analysis]]",
   "[[capcom-fy26-ir]]",
-  "[[zrconsulting-steam-forecaster-2026]]"
+  "[[zrconsulting-steam-forecaster-2026]]",
+  "[[alinea-ps-physical-fc27-odyssey-2026-07]]"
 ]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
 created: 2026-04-28
-updated: 2026-05-18
+updated: 2026-08-03
 confidence: high
 ---
 
@@ -41,6 +42,25 @@ confidence: high
 **대표 사례**: 클레르 옵스퀴르($50, 600만장+), 아크 레이더스($40, 1,400만장), 헬다이버스2($40, 2,000만장+)
 
 > 💡 게이머의 22%가 핵심 게임플레이를, 7%만이 고품질 그래픽을 최우선으로 꼽는다 (Bain & Company 2025). $40~50 가격대가 "AAA급 비주얼은 없어도 AAA급 재미"를 기대하는 새로운 시장의 스위트 스팟.
+
+## 상단 확장 — 에디션 티어링과 $150 SKU ([[alinea-ps-physical-fc27-odyssey-2026-07]])
+
+위 "가격대 지형"이 *기본가*의 하향 압력을 다룬다면, 프리미엄 SKU는 반대 방향으로 상단을 벌리고 있다. EA FC 27이 Standard·Ultimate 위에 **$150 Ultimate Plus**를 신설한 사례.
+
+| 세대 | 상위 에디션이 파는 것 | 한계원가 |
+|---|---|---|
+| 과거 컬렉터 에디션 | 스태츄·스틸북·아트북 등 실물 굿즈 | 실제 제조원가 발생 |
+| 현재 (FC 27 Ultimate Plus) | 시즌 패스 5시즌·FC Points 10,000·**선행 접속 7일** | 거의 0 |
+
+작동 원리 두 가지:
+- **시간 판매** — 9/18 선행 접속 vs 9/25 글로벌 출시. 라이브 경쟁 경제에서 7일 선행은 실질 우위(이적 시장 선점)라 하드코어 층에겐 타협 불가 항목
+- **인위적 희소성** — 사전주문 창구 7/23~8/31 한정, 이후 구매·업그레이드 경로 차단 → 망설임을 즉시 결제로 전환
+
+**대비 사례**: GTA 6는 완화형 변주 — 접근 가능한 $80 기본가로 퍼널 상단을 보호하고, 고가 에디션으로 코어 사전주문만 짜내는 구성.
+
+> ⚠️ **가격 하한선의 영구 재설정**: 상위 티어가 한 번 정상화되면 그것이 다음 사이클의 *기준선*이 된다. 밀어붙이고 → 반발 시 소폭 후퇴하고 → 새 경계를 굳히는 패턴이 반복됨. 설치기반이 정체된 시장에서 판매량을 못 늘릴 때 남는 레버가 **플레이어당 매출**뿐이기 때문. 채널·유통 측면의 같은 압박은 [[console-retail-strategy]] 참조.
+
+**적용 조건**: 실물 굿즈 없이 시간·희소성·재화만으로 상위 티어를 구성하려면 *라이브 경제 또는 경쟁 요소*가 게임 안에 있어야 한다. 싱글플레이 완결형에서 같은 구조를 흉내내면 팔 것이 없다.
 
 ## 지역 가격 차등화
 

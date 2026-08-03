@@ -2,6 +2,97 @@
 title: "활동 로그"
 ---
 
+## [2026-08-03] hypothesis | 콘솔 물리 유통 폐지는 옳은가 — wiki/decisions 첫 기록
+- 트리거: 사용자가 Alinea "진입 사다리" 반론에 대한 본인 견해를 제시 → 검증 조사 → *"이 조사를 하나로 정리하고 싶다"* → decisions/hypothesis 형식 채택 (사후 검증 앵커가 2028-01 디스크 EOL로 명확한 것이 선택 이유)
+- 프레이밍 결정: 사용자가 **(A) 가설 정의 정밀화** 선택 — 미드 프라이스를 별도 가설로 분리하지 않고 *같은 규칙의 양성 사례*로 편입. 가설을 "확장 무용론"이 아니라 **"환류 없는 확장 무용론"**으로 다듬음
+- 생성: raw/decisions/2026-08-03-console-retail-arpu-focus.md (템플릿 기록) + **wiki/decisions/2026-08-03-console-retail-arpu-focus.md** (본문)
+- 생성: **wiki/decisions/all.md** — 카탈로그 신설 (폴더가 비어 있던 첫 기록)
+- verification_status: **partially_supported**
+  - 지지 7: 중고 로열티 0 · PS 물리 매출 7%(유닛 15%) · 캡콤 디지털 93% · 미국 물리 지출 1995년래 최저·GameStop -27% · Game Pass 목표 40% 미만 · ESA 평균연령 37세 · **미드 프라이스(환류 경로 있는 확장은 유효 — 규칙의 양성 사례)**
+  - 반박·유보 5: 컬렉터형 AAA 타이틀 단위 손실 실재 · 볼(소비지출 +40%인데 영업이익 절대액 감소) · 콘솔 순성장 119%를 플랫폼 구독이 흡수 → ARPU 인상분 수취자가 개발사가 아님 · 미드 프라이스도 점유율 이동(eat-or-be-eaten) · Alinea 주장은 미측정이지 반증된 것 아님
+  - 종합: 전반부 지지 / 후반부 조건부. **수익 포커싱은 합리적 대응이지 해법이 아님** → 실질 과제는 중간층 우회(D2C)
+- 양방향 링크(concept 5): console-retail-strategy · game-pricing-strategy · audience-expansion · game-market-trends · subscription-economy-gaming (전부 related 추가·updated 2026-08-03)
+- 정합 수정: game-market-trends "콘솔 리테일 채널의 소멸" 함의 블록이 수정 전 진입 사다리 프레이밍을 유지하고 있어 재작성 + 플랫폼 기준선(유닛 15%·매출 7%) 문단 추가
+- ⏸ 보류(사용자 확인 필요): index.md에 decisions 섹션·stat card 추가 여부 + quartz WikiNav 분류 추가 여부 — 구조 변경이라 별도 확인 후 진행
+- 미push — 사용자 검토 후
+
+## [2026-08-03] ingest | 매튜 볼 2026 원문(167p) + PS 패키지·디지털 비중 실측 — 물리 폐지·ARPU 포커싱 논지 검증
+- 트리거: 사용자 반론 — "중고 디스크는 오디언스 확장엔 몰라도 **개발사·퍼블리셔 수익엔 0**. 캡콤은 디지털이 절대다수, Game Pass 실패, 콘솔 고령화까지 보면 확장보다 수익 포커싱이 정상" → 뒷받침·반증 자료 조사 요청 → 후보 4건 중 1·2번 ingest 지시
+- Source A: https://www.matthewball.co/all/presentation-the-state-of-video-gaming-in-2026 (Matthew Ball / Epyllion, 167p 덱, 2026-04)
+  - 수집 경로: WebFetch가 PDF 바이너리 파싱 실패(디스크 저장) → **pypdf로 167p 추출**(글로벌 python에 fitz 없음, pypdf·pdfplumber·pdfminer.six·pypdfium2는 있음). 메모리 `feedback_pdf_extraction_workflow` 갱신 필요
+  - **기존 페이지 교체·확장**: matthew-ball-2026-report는 2차 요약(gameres.com) 기반이었음 → source_url·수치를 1차 원문으로 교체, 슬러그 유지해 기존 링크 보존. 교체 사실을 페이지 상단에 명시
+  - 추가된 1차 수치: 2025 콘텐츠 지출 $1,952억(+5.3%) · 사모투자 -55% · 감원 9,200(4년 누적 44,000) · 콘텐츠 개발 지출 증가 2019–22 +39% → 2022–25 +6% · **소비지출 +40%인데 비중국·비플랫폼 퍼블리셔 34곳 총 영업이익 절대액 감소** · **콘솔 순성장의 119%를 플랫폼 구독이 흡수, 게임 판매·거래 연 -11%, 구독 제외 시 -13%** · 중국이 콘솔 성장의 150%+ → 개발사 실현 시장 약 -$46억 · 비중국 개발사 실현 시장 2020 대비 +0.9%(2021 대비 -1.8%) · 가격 사다리(마리오카트 $60→$70→$80, V벅스 5,000 $32→$37, PS Plus 티어화) · 미국 참여율 -2.5~4%p · 5대 성장영역(Roblox·논코어·광고·D2C·외주)
+  - ⚠️ 범위 명시: 볼 보고서는 **패키지 vs 디지털 채널을 다루지 않음** — 거시 배경 담당임을 페이지에 못박음
+- Source B: https://www.pushsquare.com/news/2026/07/just-15percent-of-all-ps5-software-was-purchased-physically-last-quarter (Push Square, 2026-07-01, 소니 IR 인용). WebFetch 403 → 크롬 폴백
+  - 생성: **ps-physical-digital-share-2026** — 유닛 디지털 85%(2026 1~3월 분기, 전년 80%)·FY 78%(전년 76%)·**매출 기준 물리 약 $1.09억 vs 디지털 약 $15억 = 물리 약 7%**·PS4 초기 디지털 10% 미만·2024년 디스크 브랜드 매출 3%
+  - **스코프 대조 절**: Alinea 10종 추정(48.0%~10.8%, 라이프타임)과 소니 플랫폼 전체(15% 유닛·7% 매출)는 모순이 아니라 층위 차이임을 표로 정리
+- 업데이트(concept 1): **console-retail-strategy** — 사용자 지시대로 "진입 사다리" 절 전면 재작성
+  - Alinea 주장을 *저자 견해(측정 없음)* 로 격하 — 중고 구매자의 LTV 전환 코호트 데이터 부재 명시
+  - 반대편 데이터 표 신설: 중고 로열티 0 · PS 물리 매출 7% · 캡콤 유닛 7.0%(FY27/3 4.6%) · 미국 물리 지출 2025 $15억(1995년 집계 이래 최저)·영국 -35%·GameStop 소프트웨어 -27% · Game Pass 목표 7,700만 대비 약 3,000만 · ESA 평균 연령 37세 · Gen Alpha 입구는 Roblox
+  - "진짜 리스크는 다른 곳" 절 신설 — 볼의 마진/구독 흡수 데이터로 *물리 폐지는 증상이지 원인도 해법도 아님*, 실질 대응은 중간층 우회(D2C)로 연결
+  - 패키지 비중 절에 플랫폼 전체 기준선 표 추가 · sources 3건 추가 · confidence medium→high
+- 카탈로그: index(소스 168→169) · sources/all(신규 1행 + 매튜 볼 행 설명 갱신)
+- 모순: 없음. 단 Newzoo와의 기존 ⚠️ 모순 블록은 해소 프레임(시장 전체 vs 개별 기업 수익)을 명시해 유지
+- 미push — 사용자 검토 후
+
+## [2026-08-03] ingest | Alinea — PS 패키지 비중·FC 27 Ultimate Plus·놀란 영화의 AC 오디세이 부활
+- Source: https://alineaanalytics.substack.com/p/playstation-physical-shares-fc-27 (The Alinea Insight, Rhys Elliott, 2026-07-30) — raw/ 미적재, 웹 직접 ingest
+- 트리거: 2026-08-03 source radar 스킵 권장 항목 → 사용자가 "콘솔 리테일 가격·판매 전략은 관심 많은 주제, follow up" 지시로 승격
+- 생성(source 1): alinea-ps-physical-fc27-odyssey-2026-07 — 5절 ① 패키지 비중 48.0%(FF7 리버스)~10.8%(Wukong) ② 디스크 $45 vs 디지털 $70(+54%)·서드파티 $35 vs $49(+40%) ③ 저자 반론(임시방편·진입 사다리 소멸) ④ FC 27 Ultimate Plus $150·선행 7일·사전주문 창구 강제 ⑤ AC 오디세이 DAU 122K→233K(+90%)
+- 생성(concept 1): **console-retail-strategy** — 사용자 지정 follow-up 테마의 홈. 채널 단위 경제·패키지 비중의 장르 함수·에디션 티어링(굿즈→시간·희소성)·압박 국면 배경·진입 사다리 2차 효과·개발사 시사
+- 업데이트(concept 4): game-pricing-strategy("상단 확장 — 에디션 티어링과 $150 SKU" 절 신설) · game-market-trends("콘솔 리테일 채널의 소멸" 절 신설) · subscription-economy-gaming("트랜스미디어 헤일로 수신 안테나" 절 신설) · ip-adaptation-design("역방향 낙수 — 영상 IP가 기존 게임을 재점화" 절 신설)
+- 카탈로그: index(소스 166→168·개념 70→71·출시·마케팅 pill 추가) · sources/all(2행) · concepts/all(1행)
+- ⚠️ 데이터 한계 명시: 패키지 비중 표는 원문이 이미지로 제시 — 본문 명시값(48.0%·10.8%)과 티어 구분만 기록, 중간 8종 개별 수치는 미공개로 표기
+- 모순: 없음
+- 미push — 사용자 검토 후
+
+## [2026-08-03] ingest | Gamesight — 흥행 예측은 시청 시간이 아니라 '창작자 수'
+- Source: https://www.gamesindustry.biz/gamesight-creators-are-best-predictor-for-a-games-success-not-viewership (GamesIndustry.biz, Sophie McEvoy, 2026-07-30) — raw/ 미적재, 웹 직접 ingest
+- 트리거: 2026-08-03 source radar 추천 후보 ③ → 사용자가 "흥행 예측 관련 데이터는 매우 높은 관심사" 명시하며 선택
+- 수집 경로: WebFetch가 gamesindustry.biz 도메인 차단(`/`·`/latest` 2회 실패) → **크롬 폴백(claude-in-chrome)** 으로 인덱스·본문 회수. 이후 이 도메인 ingest는 크롬 경유 전제
+- 생성(source 1): gamesight-creator-count-prediction-2026-07 — PvP FPS 25개 런칭 분석·day-3 활성 창작자 수 적중률 72%·런치월 82%·high/stable/low 3분류·CS2·Valorant·OW2·Concord·Highguard 포함
+- 업데이트(concept 2): launch-metrics("창작자 수 곡선 — 시청 시간보다 강한 예측자" 절 신설 + 가짜 신호 목록에 "트위치 총 시청 시간" 추가) · creator-economy-trust("크리에이터 = 예측 지표" 절 신설 — 기존 Tebex 매출 실증에 이은 세 번째 축)
+- 양방향 링크: launch-metrics ↔ creator-economy-trust related 상호 추가
+- ⚠️ 범위 한계 명시: 표본이 PvP FPS 25개 한정 — 싱글플레이·내러티브는 창작자 커버리지가 플레이스루 소진형이라 곡선이 다름. 라이브 서비스·경쟁형 우선 적용
+- 모순: 없음 (기존 [[firstlook-signals-of-success]] 가짜 신호 명제를 정량 보강)
+- 미push — 사용자 검토 후
+
+## [2026-08-03] source radar | 주간 외부 소스 스캔 (스케줄 루틴)
+- 윈도우 2026-07-27~08-03 · 9개 사이트 · 신규 약 47건 / 후보 7건 / fetch 실패 0건(gamesindustry.biz WebFetch 2회 차단 → 크롬 폴백 복구)
+- 추천 후보 7: ①Guildrun 데모 30만(Carless) ②PC 인구통계 50h vs 30min(Carless) ③Gamesight 창작자 수 예측(GI.biz) ④friendslop 포화 판정(Zukowski) ⑤제도적 지식 소실(Game Developer) ⑥중국 플랫폼 게임 실패(Naavik) ⑦side work 조항(Game Developer)
+- 사용자 선택: ③ + 스킵 권장이던 Alinea 07-30(콘솔 리테일 관심 테마로 승격) → 각각 별도 ingest 진행
+- Big Games Machine 윈도우 내 신규 0건 (최신 글 2026-03-18, 4개월 정체)
+
+## [2026-08-03] 조사 | Steam MAU 정합 재조사 — 1.4억 계보 오류 확인, 약 2억(Carless 추정) 채택
+- 트리거: 2026-08-03 주간 lint 추천 조사 #5 → 사용자가 "steam MAU 정합도 조사" 지시
+- 조사: WebSearch + 크롬 폴백(ghacks WebFetch 403 → claude-in-chrome get_page_text로 원문 확인)
+- 판정: **대등한 두 추정의 대립이 아니라 한쪽의 기준선 오류**
+  - Valve 마지막 공식 헤드라인 = **2021 Year in Review 1.32억 MAU·6,900만 DAU·피크 CCU 2,740만**. 이후 헤드라인 MAU 미공표
+  - 1.4억(AB180 경유)은 애그리게이터가 **2021 수치를 최신치로 오표기 후 +11%** 를 얹은 파생값. 같은 통계 페이지들이 DAU를 6,900만(=2021 원본)으로 병기하는 것이 계보 증거
+  - Carless(~1.98억, H2 2025 → 2026 상반기 2억+)는 Valve **DSA 법정 공시 EU 3,110만(H2 2025)** × Steam 공개 대역폭 분포 역산. 현존 유일한 최신 공식 숫자 기반
+  - 독립 검증: 2021 MAU:피크CCU = 4.8배 → 2026-01 피크 CCU 4,204만 대입 시 약 2.02억, Carless와 일치
+- 채택 기준 확정: ① 하드 숫자는 EU 3,110만(공식) ② 글로벌은 약 2억(추정 병기) ③ 1.4억 미사용
+- 보강(entity): valve("MAU 규모 — 수치 계보와 채택 기준" 절 신설 — 4행 계보 표·CCU 비율 검증·PSN 1.25억 비교점·sources·related·updated). 기존 "규모(2025)" 단일 줄을 CCU·시장배경으로 분리
+- 보강(source): carless-steam-fans-ai-sentiment-2026-07(⚠️ 모순 블록을 **해소** 처리로 재작성·related에 valve)
+- 신규 source 페이지 없음 — 웹 재조사이며 별도 원문 ingest 아님(필요 시 별도 ingest 권장)
+- 미push — 사용자 검토 후
+
+## [2026-08-03] 신규 concept | 접근성 설계 — 위키 20개 페이지에 흩어진 언급을 한 페이지로 회수
+- 트리거: 2026-08-03 주간 lint "3회+ 언급인데 페이지 없는 개념" 1순위 → 사용자가 "접근성 concept 페이지 만들어줘" 지시
+- 신규 ingest 없음 — 기존 위키 사례만 종합 (lint에서 "신규 ingest 없이 회수 가능"으로 판정한 대로)
+- 생성(concept 1): accessibility-design — 5절 구성 ① 난이도 자기조절 레버(Celeste 어시스트 모드·Spirit Ashes·선택적 고난도) ② 조력 AI·접근성·QA 한 아키텍처(Relink) ③ 청각 1차 채널화(오버워치 Play by Sound·TLOU2·Hellblade) ④ 신뢰 통화 적립 항목 ⑤ 조직 이식(주간 테스트 정규 종류·아크 레이더스 4기둥)
+- 용어 분기 명시: **플레이어 접근성**(장애·숙련도) vs **개발/유입 접근성**(UE5 엔진 문턱·모바일 진입 용이성) — 위키 20개 언급이 두 뜻으로 갈려 있어 혼동 방지 블록 추가
+- ⚠️ 커버리지 한계 명시: 시각·색각 옵션, 컨트롤러 리매핑·적응형 하드웨어, 자막 규격, 인지 접근성, WCAG·XAG 계열 가이드라인은 위키 자료 부재로 커버리지 밖 — 별도 ingest 필요
+- 양방향 링크(concepts 5): combat-companion-ai · sound-design · gameplay-feedback-audio · player-trust-design · ip-adaptation-design (전부 related 추가·updated)
+- 카탈로그: index(개념 69→70·게임 디자인 pill 추가·Last updated 2026-08-03)·concepts/all(게임 디자인 행 추가·updated)·overview(핵심 테마 추가)
+- 미push — 사용자 검토 후. 챗봇 재색인도 확인 후
+
+## [2026-08-03] lint | 주간 정기 점검 (스케줄 루틴)
+- 모순 12건(전부 해소형, 신규 하드 모순 0) / 완전 고립 0건 / 카탈로그만 참조 5건 / 끊긴 wikilink 7종 / raw 미처리 0건
+- 자동 갱신: overview(인물·크리에이터 2명 카테고리 신설 + 피인용 15회+ 누락 테마 8개 추가) · about(INGEST 98→103·소스 155→166·개념 68→69·엔티티 91→100·총 345→366·날짜 2026-08-03)
+- 미처리로 남긴 것: about 아키텍처 다이어그램 내 카운트(자동 수정 금지 영역), 챗봇 섹션 색인 수치(재색인 시점 갱신 대상)
+- 후속: 추천 조사 #1(접근성)·#5(Steam MAU) 사용자 지시로 같은 날 처리
+
 ## [2026-07-31] ingest | 프롬소프트웨어 CEDEC 2021 강연 2건 — 그래픽스 제작 철학 + 레벨디자인 툴 '情報地図'
 - Source: 웹 2건 (사용자 제공 vgbaike 중국어 번역 → 크롬으로 일본어 원문 대조 후 원문 우선 표기)
   - ① 4Gamer(川崎政一郎, 2021-11-30) 「フロム・ソフトウェアのゲームグラフィックス制作の拘り」(CEDEC+KYUSHU 2021)

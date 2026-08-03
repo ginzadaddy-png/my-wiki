@@ -29,7 +29,7 @@ relations:
 ## 비즈니스 모델 3축
 
 1. **스포츠 연간 카탈로그** — 매년 갱신되는 라이선스 스포츠 타이틀. *FUT* 인게임 경제가 라이브 서비스 매출의 핵심
-2. **라이브 서비스 F2P** — [[apex-legends|Apex Legends]](Respawn) 등. *시즌 + 배틀패스 + 가챠*
+2. **라이브 서비스 F2P** — [[apex-legends|Apex Legends]] (Respawn) 등. *시즌 + 배틀패스 + 가챠*
 3. **AAA 싱글플레이 catalog** — Star Wars Jedi·Dragon Age·Dead Space 리메이크 등. *Anthem(2019) 라이브 서비스 실패* 후 싱글 IP 재평가
 
 ## FIFA → EA Sports FC 전환 (라이선스 moat 실험)

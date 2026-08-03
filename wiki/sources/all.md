@@ -2,10 +2,13 @@
 title: "소스 전체 목록"
 ---
 
-총 166개 | 최신순 정렬
+총 169개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [ps-physical-digital-share-2026](ps-physical-digital-share-2026.md) | PlayStation 패키지·디지털 비중 실측 (Push Square, 소니 IR 인용) — 유닛 물리 15%(디지털 85%)·매출 물리 약 7%·FY 78%·2024년 디스크 브랜드 매출 3% | 2026-07-01 |
+| [gamesight-creator-count-prediction-2026-07](gamesight-creator-count-prediction-2026-07.md) | Gamesight — 흥행 예측은 시청 시간이 아니라 '창작자 수' (GamesIndustry.biz) — PvP FPS 25개 분석·day-3 창작자 수 적중률 72%·런치월 82%·high/stable/low 3분류 | 2026-07-30 |
+| [alinea-ps-physical-fc27-odyssey-2026-07](alinea-ps-physical-fc27-odyssey-2026-07.md) | Alinea — PS 패키지 비중·FC 27 Ultimate Plus·놀란 영화의 AC 오디세이 부활 (Elliott) — 패키지 48.0%~10.8%·디스크 $45 vs 디지털 $70(+54%)·$150 SKU·DAU 122K→233K | 2026-07-30 |
 | [fromsoftware-graphics-cedec2021](fromsoftware-graphics-cedec2021.md) | 프롬소프트웨어 그래픽스 제작 철학 (CEDEC+KYUSHU 2021, 4Gamer) — 배경 3원칙(콘셉트→에셋→리얼리티)·광원/시야 유도·실루엣·캐릭터 러프→디테일(경도)→리토폴로지→텍스처 | 2021-11-30 |
 | [fromsoftware-information-map-cedec2021](fromsoftware-information-map-cedec2021.md) | 프롬소프트웨어 레벨디자인 툴 '情報地図' (CEDEC 2021, IGN Japan) — Leaflet 조감 지도·플레이 경로/데스/히트맵·부하 계측·다중 통계로 드랍/난이도 밸런싱 | 2021-08-27 |
 | [krafton-ir-2q26](krafton-ir-2q26.md) | 크래프톤 2Q26·1H26 IR — 역대 최대 반기 매출·영익 + 복수 성장축(PUBG+Subnautica 2) — 1H26 매출 2.66조(+73.3%)·영익 9,725억·2Q26 순이익 −299억·Subnautica 2 EA 22일 500만장 | 2026-07-29 |
@@ -107,7 +110,7 @@ title: "소스 전체 목록"
 | [gdc26-steam-page-needs-soul](gdc26-steam-page-needs-soul.md) | [GDC26] 당신의 스팀 페이지에는 영혼이 필요하다 (Thomas Reisenegger / Future Friends) | 2026-03 |
 | [gdc25-ghost-of-yotei-combat](gdc25-ghost-of-yotei-combat.md) | [GDC25] 칼날을 벼리다: 고스트 오브 요테이 전투 진화 (Fishman/서커펀치) | 2025 |
 | [sensortower-2026-report](sensortower-2026-report.md) | Sensor Tower 2026 게임 산업 현황 보고서 | 2026-03 |
-| [matthew-ball-2026-report](matthew-ball-2026-report.md) | 매튜 볼 2026년 보고서 — 최고치인데 왜 힘든가 | 2026-03 |
+| [matthew-ball-2026-report](matthew-ball-2026-report.md) | 매튜 볼 2026년 보고서 — 최고치인데 왜 힘든가 (Epyllion 원문 167p) — 콘텐츠 지출 $1,952억(+5.3%)·소비지출 +40%인데 영업이익 절대액 감소·콘솔 순성장 119%를 구독이 흡수·게임 판매 -11%·가격 인상이 성장의 실체 | 2026-04 |
 | [gdc2023-no-budget-marketing](gdc2023-no-budget-marketing.md) | [GDC23] 예산 없는 DIY 인디 마케팅 | 2023 |
 | [gdc2023-indie-starter-kit](gdc2023-indie-starter-kit.md) | [GDC23] 인디 스타터 킷 — 게임 회사 창업 기초 | 2023 |
 | [gdc2019-spiderman-animation](gdc2019-spiderman-animation.md) | [GDC19] 마블 스파이더맨 시네마틱 개발 일지 | 2019 |
