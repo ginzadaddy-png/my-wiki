@@ -2,10 +2,11 @@
 title: "소스 전체 목록"
 ---
 
-총 169개 | 최신순 정렬
+총 170개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [sony-ir-1q-fy2026](sony-ir-1q-fy2026.md) | 소니 Q1 FY2026 IR — 매출 정체·이익 +37%의 실체 — G&NS 환율 제거 시 매출 약 -8.7%·이익 증가는 관세환급+환율·PS5 출하 -36%·플레이타임 -4%·디지털 82%(전년 83%)·FY26 가이던스 매출 -3%·영익 +42% | 2026-07-31 |
 | [ps-physical-digital-share-2026](ps-physical-digital-share-2026.md) | PlayStation 패키지·디지털 비중 실측 (Push Square, 소니 IR 인용) — 유닛 물리 15%(디지털 85%)·매출 물리 약 7%·FY 78%·2024년 디스크 브랜드 매출 3% | 2026-07-01 |
 | [gamesight-creator-count-prediction-2026-07](gamesight-creator-count-prediction-2026-07.md) | Gamesight — 흥행 예측은 시청 시간이 아니라 '창작자 수' (GamesIndustry.biz) — PvP FPS 25개 분석·day-3 창작자 수 적중률 72%·런치월 82%·high/stable/low 3분류 | 2026-07-30 |
 | [alinea-ps-physical-fc27-odyssey-2026-07](alinea-ps-physical-fc27-odyssey-2026-07.md) | Alinea — PS 패키지 비중·FC 27 Ultimate Plus·놀란 영화의 AC 오디세이 부활 (Elliott) — 패키지 48.0%~10.8%·디스크 $45 vs 디지털 $70(+54%)·$150 SKU·DAU 122K→233K | 2026-07-30 |

@@ -5,12 +5,13 @@ Last updated 2026-08-03
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">169</span></a></div>
+  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">170</span></a></div>
   <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">48</span></a></div>
   <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">40</span></a></div>
   <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">71</span></a></div>
   <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">18</span></a></div>
   <div class="stat-card"><a href="reports/all.md" class="internal"><span class="stat-label">보고서</span><span class="stat-num">4</span></a></div>
+  <div class="stat-card"><a href="decisions/all.md" class="internal"><span class="stat-label">결정·가설</span><span class="stat-num">1</span></a></div>
 </div>
 
 ---
@@ -148,5 +149,17 @@ Last updated 2026-08-03
 - [[reports/studio-risk-defense|스튜디오 리스크 방어 — 정리해고·자원 잠식·인재 유실을 차단하는 5축 메커니즘]]
 - [[reports/ai-asset-pipeline-2026-report|AI 게임 에셋 산업화 파이프라인 — 분석 보고서: 표준·생성·조직 세 계층 + Light AI·Embark 파이프라인 심층 프로파일]]
 - [[reports/how-small-teams-ship-big-games|소규모 팀은 어떻게 대작을 만드는가 — 의사결정 비용·정렬 표면·5메커니즘·반례]]
+
+</div>
+
+---
+
+## 결정·가설 (Decisions)
+
+본인의 의사결정과 가설 검증 아카이브. 판단 시점의 근거를 박제해두고 시간이 지난 뒤 사후 검증 섹션에 실제 결과를 채운다. 전체 카탈로그는 [[decisions/all|결정·가설 카탈로그]] 참조.
+
+<div class="pill-grid">
+
+- [[decisions/2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익을 환류 경로로 가르기]]
 
 </div>

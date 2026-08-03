@@ -1,7 +1,7 @@
 ---
 title: "콘솔 리테일·유통 전략"
 type: concept
-sources: ["[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[matthew-ball-2026-report]]", "[[capcom-fy26-ir]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]"]
+sources: ["[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[sony-ir-1q-fy2026]]", "[[matthew-ball-2026-report]]", "[[capcom-fy26-ir]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]"]
 related: ["[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[webshop-direct-monetization|웹샵·D2C 직접 수익화]]", "[[audience-expansion|오디언스 확장]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
 created: 2026-08-03
 updated: 2026-08-03
@@ -41,6 +41,8 @@ confidence: high
 | 캡콤 FY26/3 유닛 ([[capcom-fy26-ir]]) | **7.0%** (FY27/3 계획 4.6%) |
 
 위 10종 표본이 48%~10.8%인 것은 *프레스티지 타이틀 라이프타임 누적*이기 때문이고, 플랫폼 총량은 이미 한 자릿수 매출 비중이다. **경제적 중요도를 판단할 때 봐야 하는 숫자는 유닛 15%가 아니라 매출 7%다.**
+
+> ⚠️ **다만 디지털 전환은 직진하지 않는다** ([[sony-ir-1q-fy2026]]): 2026-01~03 분기 85%(전년 대비 +5%p) 다음 분기인 2026-04~06은 **82%(전년 83%, -1%p)**. 라인업 믹스에 따라 흔들리며 80대 초중반에서 평탄해지고 있다. "곧 90%+"는 언론 추론이었고 한 분기 만에 뒤집혔다 — 물리 채널의 소멸 속도를 과대추정하지 말 것.
 
 ## 에디션 티어링 — 굿즈에서 시간·희소성으로
 
@@ -91,6 +93,8 @@ confidence: high
 - 콘솔 순성장의 **119%를 플랫폼 구독이 흡수**, 게임 판매·인게임 거래 지출은 연 **-11%**
 - 매출을 지킨 리더들은 *플레이어·구매·플레이타임이 아니라 가격을 올려서* 그렇게 했고, **가격 결정력은 상위 프랜차이즈에만** 있음
 - 미국 게임 참여율은 팬데믹 이전 대비 **-2.5~4%p**
+
+**그리고 이 방향이 실제로 성과를 냈는지는 아직 미검증이다** ([[sony-ir-1q-fy2026]]). 소니 Q1 FY2026은 PS5 출하 -36%, G&NS 매출 정체(환율 제거 시 약 -8.7%), 총 플레이타임 -4%인데 영업이익만 +37%였다. 그런데 소니가 명시한 이익 증가 요인은 **미국 관세 환급과 환율 둘뿐**이고, 서드파티 소프트웨어 판매 감소·하드웨어 유닛 감소·차세대 플랫폼 투자·구조조정 비용이 감소 요인이었다. FY26 가이던스는 **매출 -3%·영업이익 +42%** — 방향은 공식화됐지만 성과는 외부 요인이 만들었다.
 
 > ⚠️ 즉 "판매량을 못 늘리니 플레이어당 매출로 간다"는 선택은 **합리적이지만 자기제한적**이다. 지출 총액이 40% 늘어난 구간에서도 마진이 회복되지 않았다는 것은, 가격 인상분이 개발사가 아닌 다른 층(플랫폼 구독·중국·로블록스·유통)에 흡수됐다는 뜻이다. 물리 폐지는 그 흐름의 *증상*이지 원인도 해법도 아니다. 개발사 관점의 실질 대응은 채널 논쟁이 아니라 **중간층을 건너뛰는 경로** — 볼이 2026년 5대 성장 영역에 D2C·대체 결제 채널을 올린 이유이며, [[webshop-direct-monetization|웹샵·D2C]] 논의와 직결된다.
 

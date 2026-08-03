@@ -1,7 +1,7 @@
 ---
 title: "게임 시장 트렌드"
 type: concept
-sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[alinea-steam-record-year-2026]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]"]
+sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[alinea-steam-record-year-2026]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[sony-ir-1q-fy2026]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
 created: 2026-04-20
 updated: 2026-08-03
@@ -27,6 +27,8 @@ confidence: high
 ## 콘솔 하드웨어 수축 — 설치기반 성장 정체 ([[sp-kagan-console-shipments-2026]])
 
 AI 메모리 쇼크발 가격 인상으로 콘솔 출하가 꺾인다. S&P Global Kagan 전망: 2026 콘솔 출하 **−19.5% → 33.9M**(2025 42.1M에서), 2027 저점 27.1M → 2030 37.4M 회복. 기종별 2026: Switch 2 17.1M · PS5 13.2M · **Xbox 2.5M(사상 최저 3.2M 후 "0으로 wind-down")**. 근인은 [[naavik-ai-memory-console-economics-2026-07|AI 데이터센터 메모리 수요 → DRAM +100%]]로 인한 세대 중 가격 인상(PS5 base $650·Xbox X가 PS5보다 $100 비쌈).
+
+**실측 대조** ([[sony-ir-1q-fy2026]]): PS5 2026 Q1(4~6월) 출하는 **160만 대로 전년 동기 250만 대 대비 -36%** — Kagan의 연간 -19.5% 전망보다 가파르다(단 Q1은 계절적 비수기라 연간 추세와 직결되지 않음). 누적 출하 9,530만 대. 한편 소니는 **FY26 판매 예상량에 필요한 메모리를 확보했고 하드웨어 수익성 계획에 변경이 없다**고 밝혀, AI 메모리 쇼크의 원가 압박 논지에 부분적 반증을 제공한다 — 다만 *출하 전망 자체를 낮게 잡은 상태에서의 확보*라는 점은 감안해야 한다.
 
 > 💡 **개발사 함의:** 콘솔 *설치기반 성장 정체 → 신작 TAM(총 시장) 압박*. 프리미엄 콘솔 AAA 의존도가 높을수록 리스크. 대응은 (1) 저가 기기(Switch 2)·구세대·PC·클라우드로 **멀티플랫폼 분산**, (2) 위의 [저가 프리미엄 부상](#저가-프리미엄의-부상)·PC 카탈로그 축과 연결. 회복은 부품 위기 2028 완화 + 차세대기 $600–800 전제 → 그 전까진 콘솔 신규 하드웨어 TAM이 좁다.
 
