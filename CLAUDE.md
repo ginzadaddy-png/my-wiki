@@ -109,8 +109,13 @@ relations:
    - 소스 섹션은 최신 10개만 표시. 전체 행은 `wiki/sources/all.md`에 추가
 8. wiki/log.md에 기록 추가
 9. **챗봇 갱신 확인** (ingest로 위키 내용이 바뀌었으므로): 사용자에게 *"챗봇도 갱신할까요? (재색인 + HF Space 재배포)"* 물어보기. OK 하면 `chatbot/update_and_deploy.py` 실행 (Claude Code가 대행). 거절하면 스킵
-   - 이유: ingest는 위키 텍스트만 바꾸고, 챗봇은 별도 색인(chroma_db)·배포본을 가져서 명시적 동기화가 필요. 안 하면 챗봇이 옛 위키로 답함
-   - 실행: `cd chatbot && python update_and_deploy.py` (재색인 BGE-M3 ~5분 + Space 업로드)
+   - 이유: ingest는 위키 텍스트만 바꾸고, 챗봇은 별도 색인·배포본을 가져서 명시적 동기화가 필요. 안 하면 챗봇이 옛 위키로 답함
+   - **색인 산출물은 `chatbot/index/embeddings.npy` + `chatbot/index/meta.json`** (BGE-M3 임베딩 + 청크 메타). `core/vectorstore.py`가 numpy brute-force로 검색한다
+     - ⚠️ `chatbot/chroma_db/`는 **더 이상 쓰지 않는 잔재**. chromadb의 영속 HNSW 인덱스가 재기동 시 `Error finding id`로 간헐 실패해 npy+json 방식으로 교체됨(`core/vectorstore.py` 참조). `deploy/push_space.py`도 Space에서 `chroma_db/**`·`*.sqlite3`를 삭제 대상으로 둔다. 재색인 검증 시 chroma_db를 보면 안 됨 — 갱신되지 않아 오판하게 됨
+     - 일부 파일 docstring(`build_index.py`·`update_and_deploy.py`·`core/rag_search.py`)에 "Chroma" 표현이 남아 있으나 실제 구현과 무관한 잔여 주석
+   - 실행: `cd chatbot && ./.venv/Scripts/python.exe update_and_deploy.py` (재색인 BGE-M3 ~5분 + Space 업로드)
+     - **글로벌 `python` 금지** — 의존성 스택이 없어 실패한다. 반드시 `chatbot/.venv`의 인터프리터 사용
+   - 재색인 검증: `index/meta.json`의 슬러그 집합에 이번 ingest로 만든 페이지가 들어갔는지 확인 (신규 폴더도 `iter_wiki_pages`의 `rglob` 방식이라 별도 설정 없이 자동 포함, 카탈로그 `all.md`·`log.md`·`overview.md`·`index.md`는 제외 규칙에 의해 빠짐)
    - relations 신규/수정이 포함된 ingest면 graph도 함께 갱신되니 특히 권장
 
 로그 형식:
