@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  # 수동 실행. QUARTZ_TOKEN 만료 등으로 실패한 뒤 시크릿만 갱신했을 때는
+  # push가 없어 자동 재시도가 걸리지 않으므로 Actions 탭에서 직접 돌린다.
+  workflow_dispatch:
 
 jobs:
   update:
