@@ -20,7 +20,7 @@ relations:
 | 항목 | 수치 |
 |---|---|
 | 출시 (BR) | 2017-09-26 |
-| 누적 매출 (외부 추정) | **$20B+** (2024 누적) |
+| 누적 매출 (외부 추정) | **\$20B+** (2024 누적) |
 | 글로벌 등록 계정 | 6.5억+ |
 | 동시 최대 동접 (Travis Scott 콘서트) | **1,200만+** (2020-04-23) |
 | Chapter 시스템 | 1·2·3·4·5·6 — 약 3개월마다 시즌 |
@@ -33,7 +33,7 @@ relations:
 - 2017-03 PUBG 출시 → 2017-09 Fortnite BR 무료 출시
 - *F2P + Battle Pass + V-Bucks* 모델 정착 — 산업 표준
 - *Building 메커닉* 추가로 PUBG와 차별화
-- 2018 매출 $5.4B (단일 게임 매출 사상 최대) — 인디·AAA 가리지 않고 *F2P BR 모델 모방* 폭증
+- 2018 매출 \$5.4B (단일 게임 매출 사상 최대) — 인디·AAA 가리지 않고 *F2P BR 모델 모방* 폭증
 
 ### 2단계: 콜라보 IP 카탈로그 모델 (2019~2023)
 [[ip-adaptation-design|IP 적응 설계]] 관점에서 *외부 IP를 게임 안에 흡수* 표준:
@@ -52,7 +52,7 @@ relations:
 [[live-service-design|라이브 서비스 설계]] 관점:
 
 - **약 3개월 시즌** + **약 2년 챕터** — 시즌은 *Battle Pass 사이클*, 챕터는 *맵 전면 갱신*
-- **Battle Pass $9.99·V-Bucks 환산** — *시즌 패스 + 가챠 일부 박스* 결합
+- **Battle Pass \$9.99·V-Bucks 환산** — *시즌 패스 + 가챠 일부 박스* 결합
 - **이벤트 라이브** — *Travis Scott·Marshmello·Ariana Grande 콘서트*, *Big Bang·블랙홀 이벤트* 등 *게임 전체가 멈추는 라이브 이벤트*
 - **자체 챕터 종료 이벤트** — Chapter 1 종료(2019-10) "The End", Chapter 5 종료 등 *Fortnite Direct 라이브쇼*
 
@@ -75,7 +75,7 @@ relations:
 | 항목 | Fortnite | [[genshin-impact\|Genshin]] | [[league-of-legends\|LoL]] | [[apex-legends\|Apex]] |
 |---|---|---|---|---|
 | 장르 | Battle Royale + UGC | 액션 RPG | MOBA | Battle Royale |
-| 누적 매출 | **$20B+** | $6~8B+ | $10B+ | $3B+ |
+| 누적 매출 | **\$20B+** | \$6~8B+ | \$10B+ | \$3B+ |
 | 시즌 사이클 | 3개월 (챕터·시즌) | 6주 | 2주 패치+연 시즌 | 90일 |
 | 콜라보 IP | **50+ 외부 IP 흡수** | 자사 IP 중심 | 자사 IP transmedia | 별도 (Apex·Star Wars) |
 | UGC 플랫폼 | **UEFN** | 없음 | 없음 | 없음 |
@@ -95,5 +95,5 @@ relations:
 - *Chapter 6·7 매출 곡선* (Sensor Tower)
 - *UEFN 크리에이터 매출 분배* 첫해 실적
 - *Apple·Google 소송 후 EU iOS Fortnite 재진입* 매출 영향
-- *Disney·Fortnite 협업* (2024-02 Disney $1.5B 투자) 후 진행 상황
+- *Disney·Fortnite 협업* (2024-02 Disney \$1.5B 투자) 후 진행 상황
 - 한국 시장 *Fortnite Chapter 5* 매출·이용자 정량 (2024~)

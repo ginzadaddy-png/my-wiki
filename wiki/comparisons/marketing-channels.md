@@ -50,7 +50,7 @@ confidence: high
 ## 유료 미디어 (Paid Media)
 
 소규모 타이틀에서는 예산·플랫폼·타이밍 선택이 관건:
-- **Chicory 케이스**: $5K (트위터 $2K + FB $3K) → 5M 임프레션 달성 — [[gdc26-integrated-marketing]]
+- **Chicory 케이스**: \$5K (트위터 \$2K + FB \$3K) → 5M 임프레션 달성 — [[gdc26-integrated-marketing]]
 - Airbridge 분석 [[airbridge-steam-marketing-playbook]]: PC/콘솔 유저는 충동 설치 없음 — 리뷰·커뮤니티·트레일러 경로를 거쳐 구매. "단순 노출보다 **발견의 순간** 설계"
 - 아시아 스튜디오가 놓치는 채널: 하이터치 프로그래매틱 (상위 퍼널만이 아닌 전체 퍼널), OTT/CTV (미국·유럽 핵심)
 - 크로스 플랫폼 함정: 콘솔 유저에게 App Store 광고 → "모바일 게임" 인식 → 구매 의향 하락

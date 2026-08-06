@@ -142,6 +142,6 @@ Zukowski의 연례 *Steam 출시 전수 분석*. 2025년 출시 20,282 게임 �
 ## 한계
 
 - 1000-review 기준은 임의 (Zukowski 본인 "Goodhart's Law alert" 명시)
-- 500-1000 reviews 게임 ($150K+) 도 "real Steam" — 분석에서 누락
+- 500-1000 reviews 게임 (\$150K+) 도 "real Steam" — 분석에서 누락
 - 영어 미지원 게임 제외 → 중국·일본 시장 일부 누락
 - VGInsights 의존 — 일부 mis-tagging 가능성 본인 언급

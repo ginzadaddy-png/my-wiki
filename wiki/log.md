@@ -38,14 +38,14 @@ title: "활동 로그"
 - Source A: https://www.matthewball.co/all/presentation-the-state-of-video-gaming-in-2026 (Matthew Ball / Epyllion, 167p 덱, 2026-04)
   - 수집 경로: WebFetch가 PDF 바이너리 파싱 실패(디스크 저장) → **pypdf로 167p 추출**(글로벌 python에 fitz 없음, pypdf·pdfplumber·pdfminer.six·pypdfium2는 있음). 메모리 `feedback_pdf_extraction_workflow` 갱신 필요
   - **기존 페이지 교체·확장**: matthew-ball-2026-report는 2차 요약(gameres.com) 기반이었음 → source_url·수치를 1차 원문으로 교체, 슬러그 유지해 기존 링크 보존. 교체 사실을 페이지 상단에 명시
-  - 추가된 1차 수치: 2025 콘텐츠 지출 $1,952억(+5.3%) · 사모투자 -55% · 감원 9,200(4년 누적 44,000) · 콘텐츠 개발 지출 증가 2019–22 +39% → 2022–25 +6% · **소비지출 +40%인데 비중국·비플랫폼 퍼블리셔 34곳 총 영업이익 절대액 감소** · **콘솔 순성장의 119%를 플랫폼 구독이 흡수, 게임 판매·거래 연 -11%, 구독 제외 시 -13%** · 중국이 콘솔 성장의 150%+ → 개발사 실현 시장 약 -$46억 · 비중국 개발사 실현 시장 2020 대비 +0.9%(2021 대비 -1.8%) · 가격 사다리(마리오카트 $60→$70→$80, V벅스 5,000 $32→$37, PS Plus 티어화) · 미국 참여율 -2.5~4%p · 5대 성장영역(Roblox·논코어·광고·D2C·외주)
+  - 추가된 1차 수치: 2025 콘텐츠 지출 \$1,952억(+5.3%) · 사모투자 -55% · 감원 9,200(4년 누적 44,000) · 콘텐츠 개발 지출 증가 2019–22 +39% → 2022–25 +6% · **소비지출 +40%인데 비중국·비플랫폼 퍼블리셔 34곳 총 영업이익 절대액 감소** · **콘솔 순성장의 119%를 플랫폼 구독이 흡수, 게임 판매·거래 연 -11%, 구독 제외 시 -13%** · 중국이 콘솔 성장의 150%+ → 개발사 실현 시장 약 -\$46억 · 비중국 개발사 실현 시장 2020 대비 +0.9%(2021 대비 -1.8%) · 가격 사다리(마리오카트 \$60→\$70→\$80, V벅스 5,000 \$32→\$37, PS Plus 티어화) · 미국 참여율 -2.5~4%p · 5대 성장영역(Roblox·논코어·광고·D2C·외주)
   - ⚠️ 범위 명시: 볼 보고서는 **패키지 vs 디지털 채널을 다루지 않음** — 거시 배경 담당임을 페이지에 못박음
 - Source B: https://www.pushsquare.com/news/2026/07/just-15percent-of-all-ps5-software-was-purchased-physically-last-quarter (Push Square, 2026-07-01, 소니 IR 인용). WebFetch 403 → 크롬 폴백
-  - 생성: **ps-physical-digital-share-2026** — 유닛 디지털 85%(2026 1~3월 분기, 전년 80%)·FY 78%(전년 76%)·**매출 기준 물리 약 $1.09억 vs 디지털 약 $15억 = 물리 약 7%**·PS4 초기 디지털 10% 미만·2024년 디스크 브랜드 매출 3%
+  - 생성: **ps-physical-digital-share-2026** — 유닛 디지털 85%(2026 1~3월 분기, 전년 80%)·FY 78%(전년 76%)·**매출 기준 물리 약 \$1.09억 vs 디지털 약 \$15억 = 물리 약 7%**·PS4 초기 디지털 10% 미만·2024년 디스크 브랜드 매출 3%
   - **스코프 대조 절**: Alinea 10종 추정(48.0%~10.8%, 라이프타임)과 소니 플랫폼 전체(15% 유닛·7% 매출)는 모순이 아니라 층위 차이임을 표로 정리
 - 업데이트(concept 1): **console-retail-strategy** — 사용자 지시대로 "진입 사다리" 절 전면 재작성
   - Alinea 주장을 *저자 견해(측정 없음)* 로 격하 — 중고 구매자의 LTV 전환 코호트 데이터 부재 명시
-  - 반대편 데이터 표 신설: 중고 로열티 0 · PS 물리 매출 7% · 캡콤 유닛 7.0%(FY27/3 4.6%) · 미국 물리 지출 2025 $15억(1995년 집계 이래 최저)·영국 -35%·GameStop 소프트웨어 -27% · Game Pass 목표 7,700만 대비 약 3,000만 · ESA 평균 연령 37세 · Gen Alpha 입구는 Roblox
+  - 반대편 데이터 표 신설: 중고 로열티 0 · PS 물리 매출 7% · 캡콤 유닛 7.0%(FY27/3 4.6%) · 미국 물리 지출 2025 \$15억(1995년 집계 이래 최저)·영국 -35%·GameStop 소프트웨어 -27% · Game Pass 목표 7,700만 대비 약 3,000만 · ESA 평균 연령 37세 · Gen Alpha 입구는 Roblox
   - "진짜 리스크는 다른 곳" 절 신설 — 볼의 마진/구독 흡수 데이터로 *물리 폐지는 증상이지 원인도 해법도 아님*, 실질 대응은 중간층 우회(D2C)로 연결
   - 패키지 비중 절에 플랫폼 전체 기준선 표 추가 · sources 3건 추가 · confidence medium→high
 - 카탈로그: index(소스 168→169) · sources/all(신규 1행 + 매튜 볼 행 설명 갱신)
@@ -55,9 +55,9 @@ title: "활동 로그"
 ## [2026-08-03] ingest | Alinea — PS 패키지 비중·FC 27 Ultimate Plus·놀란 영화의 AC 오디세이 부활
 - Source: https://alineaanalytics.substack.com/p/playstation-physical-shares-fc-27 (The Alinea Insight, Rhys Elliott, 2026-07-30) — raw/ 미적재, 웹 직접 ingest
 - 트리거: 2026-08-03 source radar 스킵 권장 항목 → 사용자가 "콘솔 리테일 가격·판매 전략은 관심 많은 주제, follow up" 지시로 승격
-- 생성(source 1): alinea-ps-physical-fc27-odyssey-2026-07 — 5절 ① 패키지 비중 48.0%(FF7 리버스)~10.8%(Wukong) ② 디스크 $45 vs 디지털 $70(+54%)·서드파티 $35 vs $49(+40%) ③ 저자 반론(임시방편·진입 사다리 소멸) ④ FC 27 Ultimate Plus $150·선행 7일·사전주문 창구 강제 ⑤ AC 오디세이 DAU 122K→233K(+90%)
+- 생성(source 1): alinea-ps-physical-fc27-odyssey-2026-07 — 5절 ① 패키지 비중 48.0%(FF7 리버스)~10.8%(Wukong) ② 디스크 \$45 vs 디지털 \$70(+54%)·서드파티 \$35 vs \$49(+40%) ③ 저자 반론(임시방편·진입 사다리 소멸) ④ FC 27 Ultimate Plus \$150·선행 7일·사전주문 창구 강제 ⑤ AC 오디세이 DAU 122K→233K(+90%)
 - 생성(concept 1): **console-retail-strategy** — 사용자 지정 follow-up 테마의 홈. 채널 단위 경제·패키지 비중의 장르 함수·에디션 티어링(굿즈→시간·희소성)·압박 국면 배경·진입 사다리 2차 효과·개발사 시사
-- 업데이트(concept 4): game-pricing-strategy("상단 확장 — 에디션 티어링과 $150 SKU" 절 신설) · game-market-trends("콘솔 리테일 채널의 소멸" 절 신설) · subscription-economy-gaming("트랜스미디어 헤일로 수신 안테나" 절 신설) · ip-adaptation-design("역방향 낙수 — 영상 IP가 기존 게임을 재점화" 절 신설)
+- 업데이트(concept 4): game-pricing-strategy("상단 확장 — 에디션 티어링과 \$150 SKU" 절 신설) · game-market-trends("콘솔 리테일 채널의 소멸" 절 신설) · subscription-economy-gaming("트랜스미디어 헤일로 수신 안테나" 절 신설) · ip-adaptation-design("역방향 낙수 — 영상 IP가 기존 게임을 재점화" 절 신설)
 - 카탈로그: index(소스 166→168·개념 70→71·출시·마케팅 pill 추가) · sources/all(2행) · concepts/all(1행)
 - ⚠️ 데이터 한계 명시: 패키지 비중 표는 원문이 이미지로 제시 — 본문 명시값(48.0%·10.8%)과 티어 구분만 기록, 중간 8종 개별 수치는 미공개로 표기
 - 모순: 없음
@@ -204,8 +204,8 @@ title: "활동 로그"
   - ① Naavik — The Memo That Undid 10 Years of XBOX Strategy (Miikka Ahonen, 2026-07-19, https://naavik.co/digest/the-memo-that-undid-10-years-of-xbox-strategy/)
   - ② GameDiscoverCo — How Paralives sold a million copies in its first month (Simon Carless, 2026-07-14, https://newsletter.gamediscover.co/p/how-paralives-sold-a-million-copies)
   - ③ GameDiscoverCo — What 1 million wishlists for Dear Passengers says about discovery (Simon Carless, 2026-07-17, https://newsletter.gamediscover.co/p/what-1-million-immediate-wishlists)
-- ① Xbox: 마진 3%·Game Pass ~3천만 정체(피크 3,400만·목표 1억)·5년 $20B+ 지출에 매출 ~5억↓·감원 3,200(즉시 1,600)·관리계층 14→3~5·Helen Chiang 초대 COO·Mojang·King CEO 직속·익스클루시브 복귀. sp-kagan "Xbox 0 wind-down"과 하드웨어 축소는 일치하나 "완전철수 vs 모델전환" 해석 갈림 → ⚠️ 모순 블록
-- ② Paralives: EA 첫달 100만·환불 6.5%(중앙값 9.5%↓)·긍정 90%·잔여 위시리스트 180만·평균 플레이 11h40m·모드 25k·7년 Patreon 월$50k 누적$3M·"유료 DLC 없음". EA 이전 커뮤니티 펀딩이 선행 discovery engine
+- ① Xbox: 마진 3%·Game Pass ~3천만 정체(피크 3,400만·목표 1억)·5년 \$20B+ 지출에 매출 ~5억↓·감원 3,200(즉시 1,600)·관리계층 14→3~5·Helen Chiang 초대 COO·Mojang·King CEO 직속·익스클루시브 복귀. sp-kagan "Xbox 0 wind-down"과 하드웨어 축소는 일치하나 "완전철수 vs 모델전환" 해석 갈림 → ⚠️ 모순 블록
+- ② Paralives: EA 첫달 100만·환불 6.5%(중앙값 9.5%↓)·긍정 90%·잔여 위시리스트 180만·평균 플레이 11h40m·모드 25k·7년 Patreon 월\$50k 누적\$3M·"유료 DLC 없음". EA 이전 커뮤니티 펀딩이 선행 discovery engine
 - ③ Dear Passengers: 트레일러 하나로 3일 위시리스트 100만·WL:팔로워 35배(Rogue Carrier 11.8배 대비)=실행 리스크 신호·friendslop(2026 Steam 유닛 top20 중 5개)·클리퍼블 트레일러
 - 생성(sources 3): naavik-xbox-strategy-reset-2026-07, carless-paralives-million-2026-07, carless-dear-passengers-wishlists-2026-07
 - 보강(concepts 3): subscription-economy-gaming("Game Pass 정체" 반례 섹션·sources·updated), early-access-strategy("커뮤니티 펀딩 선행 모델—Paralives" 섹션·sources·related·updated), audience-discovery-systems("숏폼 바이럴 디스커버리—WL:팔로워 배수" 섹션·sources·related·updated)
@@ -216,8 +216,8 @@ title: "활동 로그"
 ## [2026-07-16] ingest | S&P Kagan — 2026 콘솔 출하 −19.5%(33.9M) 전망 — 콘솔 수요붕괴 테제 하드넘버 확증 + Xbox 철수 신호
 - Source: raw N/A (웹 원문 https://www.gamesindustry.biz/analyst-game-console-shipments-expected-to-decline-195-to-339m-units-in-2026), Sophie McEvoy / GamesIndustry.biz, 2026-07-13. 원 데이터 S&P Global Market Intelligence Kagan(애널리스트 Neil Barbour). confidence medium (forecast)
 - **크롬 폴백 적용**: gamesindustry.biz가 WebFetch 403 차단 → claude-in-chrome MCP(navigate+get_page_text)로 원문 직접 확인. 2차 인용엔 없던 세부(PS6 2028 4M→2030 17.2M·Xbox Project Helix·PS5 정확 가격) 확보. (신규 지침 메모리 feedback-webfetch-chrome-fallback 반영)
-- 핵심: 2026 콘솔 출하 −19.5% → 33.9M(2025 42.1M에서, Switch2 출시로 +13.5% 반짝 후 반락). 2027 저점 27.1M → 2030 37.4M 회복(부품위기 2028 완화 + 차세대기 $600–800 전제)
-- 기종별 2026: Switch2 17.1M(닌텐도 자체 16.5M·소프트 텐트폴 부재)·PS5 13.2M(2025 17.1M −15.2%·base $550→$650·Pro $750→$900)·Xbox 2.5M(2025 3.2M 사상최저 → "0으로 wind-down", Project Helix는 PC수렴)
+- 핵심: 2026 콘솔 출하 −19.5% → 33.9M(2025 42.1M에서, Switch2 출시로 +13.5% 반짝 후 반락). 2027 저점 27.1M → 2030 37.4M 회복(부품위기 2028 완화 + 차세대기 \$600–800 전제)
+- 기종별 2026: Switch2 17.1M(닌텐도 자체 16.5M·소프트 텐트폴 부재)·PS5 13.2M(2025 17.1M −15.2%·base \$550→\$650·Pro \$750→\$900)·Xbox 2.5M(2025 3.2M 사상최저 → "0으로 wind-down", Project Helix는 PC수렴)
 - 신규 관점: Xbox 하드웨어 사실상 철수 → 콘솔 3파전이 소니·닌텐도 2파전 + Xbox PC수렴으로 재편 신호
 - 중복도: Naavik AI메모리 소스(2026-07-12)가 동일 테제 深 커버 → 신규 concept·entity 없음. 이 소스는 *티어-1 정량 출하 forecast*로 corroboration
 - 생성(sources 1): sp-kagan-console-shipments-2026
@@ -228,9 +228,9 @@ title: "활동 로그"
 ## [2026-07-15] ingest | Alinea — Steam Is Having Another Record Year (H1 2026) — 백카탈로그 79% 플랫폼 레벨 확증
 - Source: raw N/A (웹 원문 https://alineaanalytics.substack.com/p/steam-is-having-another-record-year), Rhys Elliott / Alinea Analytics, 2026-07-09 (1차·데이터 티어, 위키 신규 소스 조직)
 - 강조점(사용자 지정): **백카탈로그 79%**
-- 핵심: H1 2026 Steam 플랫폼 매출 $11.1B(역대 최고 반기·+14.5% YoY). 신작 대 백카탈로그 매출 비중 H1 2024 71% → 2025 73% → **2026 79%** — 그동안 개별사 IR로만 받쳐지던 catalog-economics 테제를 *플랫폼 전체 레벨*에서 하드넘버로 확인한 첫 사례
+- 핵심: H1 2026 Steam 플랫폼 매출 \$11.1B(역대 최고 반기·+14.5% YoY). 신작 대 백카탈로그 매출 비중 H1 2024 71% → 2025 73% → **2026 79%** — 그동안 개별사 IR로만 받쳐지던 catalog-economics 테제를 *플랫폼 전체 레벨*에서 하드넘버로 확인한 첫 사례
 - 성장 드라이버 5개(아시아·중국 확산 / 신작 가격 인상 / 바이럴 co-op / 대형사 백카탈로그 전략 / 서드파티 Steam 복귀) 중 3개가 카탈로그 직결
-- 타이틀 데이터: Forza Horizon 6 $197.7M·RE Requiem $194.5M·Crimson Desert $190M+·Slay the Spire 2 $141.7M·Subnautica 2 $133.6M·Meccha Chameleon $71.3M(판매량 1위·$6). 가격 양극화 스냅샷
+- 타이틀 데이터: Forza Horizon 6 \$197.7M·RE Requiem \$194.5M·Crimson Desert \$190M+·Slay the Spire 2 \$141.7M·Subnautica 2 \$133.6M·Meccha Chameleon \$71.3M(판매량 1위·\$6). 가격 양극화 스냅샷
 - 생성(sources 1): alinea-steam-record-year-2026
 - 보강: catalog-economics(플랫폼 레벨 증거 섹션 신설·79% 💡·sources 배열·updated), game-market-trends(sources 배열), missing-middle-paradigm-shift-2026(related 양방향)
 - 신규 concept·entity 없음 (기존 catalog-economics·missing-middle·game-market-trends에 corroboration 주입). Meccha Chameleon은 기존 carless-meccha-chameleon-breakout 소스 존재 — 데이터 포인트로만 참조
@@ -270,8 +270,8 @@ title: "활동 로그"
 - 미push — 사용자 검토 후. 챗봇 재색인도 확인 후
 
 ## [2026-07-13] lint 후속 | Nintendo Switch 2 entity 생성 (naavik 핵심 논거 plain text → 노드화)
-- 트리거: 2026-07-13 주간 lint 추천 조사 4 → 사용자 지시. naavik 소스가 Switch 2 $499 저가 우위를 핵심 논거로 쓰나 대응 entity 없어 plain text 처리되던 문제 해소
-- 생성: entities/nintendo-switch-2(2025-06·$499·cross-gen carry — 위키 소스에만 근거, confidence medium). 가격·시점은 naavik 단일 digest 기준 명시
+- 트리거: 2026-07-13 주간 lint 추천 조사 4 → 사용자 지시. naavik 소스가 Switch 2 \$499 저가 우위를 핵심 논거로 쓰나 대응 entity 없어 plain text 처리되던 문제 해소
+- 생성: entities/nintendo-switch-2(2025-06·\$499·cross-gen carry — 위키 소스에만 근거, confidence medium). 가격·시점은 naavik 단일 digest 기준 명시
 - 연결: naavik-ai-memory-console-economics-2026-07의 plain "Switch 2" 2곳 → [[nintendo-switch-2]] wikilink (고립 회피). entities/all.md 플랫폼 표 1행 추가
 - 자동 갱신(수치): about.md 엔티티 87→88·총 md 331→332. overview.md 미디어·플랫폼 9→10(Switch 2 추가). index.md 무변경(플랫폼은 stat card 비대상)
 - relations: 플랫폼 노드라 기존 nintendo-switch·ps5와 동일하게 relations 필드 미부착(5어휘 game-centric). 프로세 [[nintendo]]·[[nintendo-switch]] 링크만
@@ -280,7 +280,7 @@ title: "활동 로그"
 ## [2026-07-13] ingest | Source Radar 2건 (Steam 팬 AI 정서 + AI 붐 콘솔 경제)
 - 배경: 2026-07-13 source radar 주간 스캔 → 사용자가 추천 후보 ①② 진행 지시 (③④는 중복 감안 보류)
 - Source: 웹 1차·심층 소스 2건 (GameDiscoverCo·Naavik, 발행 2026-07-07·07-12)
-- 생성(sources 2): carless-steam-fans-ai-sentiment-2026-07(Carless, 코어 Steam팬 ~3,800명 설문·AI 구매 무관심 43%/부정 31%·개발자 신뢰 17%·조건부 수용 51%·MAU ~1.98억 추정)·naavik-ai-memory-console-economics-2026-07(Naavik, AI 메모리 쇼크→PS5 $649·Xbox $799·DRAM +100%·PS5 수요 5월 −43%·Switch2 우위·GTA VI 촉매)
+- 생성(sources 2): carless-steam-fans-ai-sentiment-2026-07(Carless, 코어 Steam팬 ~3,800명 설문·AI 구매 무관심 43%/부정 31%·개발자 신뢰 17%·조건부 수용 51%·MAU ~1.98억 추정)·naavik-ai-memory-console-economics-2026-07(Naavik, AI 메모리 쇼크→PS5 \$649·Xbox \$799·DRAM +100%·PS5 수요 5월 −43%·Switch2 우위·GTA VI 촉매)
 - 생성(concepts 1): ai-disclosure-player-sentiment(신규 — 개발자 정서 ai-gamedev와 별개인 *소비자·구매* 축. "AI 자체보다 불투명성에 반응" 논지). ai-gamedev와 related 양방향 링크
 - 모순 명시: carless 소스에 "> ⚠️ 모순:" — Steam MAU 기존 valve.md ~1.4억(AB180) vs Carless ~1.98억(DSA 외삽), 방법론 차이 병기
 - entity: 신규 생성 안 함 — PS5·닌텐도는 기존 entity 링크만, Xbox·Switch2는 링크 대상 없어 plain(retrofit 안 함)
@@ -300,7 +300,7 @@ title: "활동 로그"
 ## [2026-07-06] ingest | Source Radar 3건 (데모 전환·크리에이터 커머스·Meccha breakout)
 - 배경: 2026-07-06 source radar 주간 스캔 → 사용자가 추천 후보 1·2·3 전부 진행 지시
 - Source: 웹 1차·심층 소스 3건 (HTMAG·Naavik·GameDiscoverCo, 발행 2026-06-30~07-05)
-- 생성(sources): zukowski-demos-wishlist-conversion(Zukowski, 데모→위시리스트 19.3% median·Sickos)·naavik-creator-led-growth(Bush, 크리에이터 코드 GMV·LTV 6.3×·멱법칙)·carless-meccha-chameleon-breakout(Carless, $6·1,150만 장·포맷형 히트)
+- 생성(sources): zukowski-demos-wishlist-conversion(Zukowski, 데모→위시리스트 19.3% median·Sickos)·naavik-creator-led-growth(Bush, 크리에이터 코드 GMV·LTV 6.3×·멱법칙)·carless-meccha-chameleon-breakout(Carless, \$6·1,150만 장·포맷형 히트)
 - 업데이트(concepts): marketing-strategy(데모 전환율 truth·크리에이터 커머스·스트리머 breakout 3섹션 + sources 2건)·creator-economy-trust(크리에이터=커머스 인프라 섹션 + Tebex 표 + source)·rapid-prototyping(breakout의 그물 섹션 + source)
 - 업데이트(카탈로그): index.md(소스 139→142)·sources/all.md(139→142 + 3행)
 - entity: 신규 생성 안 함 — Meccha Chameleon은 source 본문 사례로만 언급(단발 breakout, entity 페이지 불요)
@@ -382,7 +382,7 @@ title: "활동 로그"
   - concepts/player-retention.md (지표·측정 — D1/D7/D30·classic vs rolling·DAU/MAU·벤치마크)
   - concepts/engagement-loop.md (설계·이론 + 윤리·규제 압축 — 루프 네스팅·스킬 아톰·Hook·다크패턴·FTC·WHO·루트박스)
 - 업데이트: live-service-design.md·player-trust-design.md (related 양방향), index.md(개념 58→60·날짜·pill 2), concepts/all.md(행 2·날짜)
-- 주요 정정(스캐폴드 오류 검증): 다크패턴 3분류 3번째 "심리형"→"사회적 자본형"(Zagal 2013) / 리텐션 벤치마크 D1 30-35%는 중앙값 아닌 iOS 상위25%(GA Q1'24 중앙값 D1 22.91%·D7 4.2%·D28 0.85%) / DAU/MAU 우수 0.5+→30%+ / Genshin 약 $50억→약 $3.7B(모바일·Sensor Tower) / Hades 100만 2020.12→2020-09-20 / Fortnite 배틀패스 시즌2 2018→2017-12 / CoC 약 $70억→약 $6B / FTC 합의 총 $520M 명확화
+- 주요 정정(스캐폴드 오류 검증): 다크패턴 3분류 3번째 "심리형"→"사회적 자본형"(Zagal 2013) / 리텐션 벤치마크 D1 30-35%는 중앙값 아닌 iOS 상위25%(GA Q1'24 중앙값 D1 22.91%·D7 4.2%·D28 0.85%) / DAU/MAU 우수 0.5+→30%+ / Genshin 약 \$50억→약 \$3.7B(모바일·Sensor Tower) / Hades 100만 2020.12→2020-09-20 / Fortnite 배틀패스 시즌2 2018→2017-12 / CoC 약 \$70억→약 \$6B / FTC 합의 총 \$520M 명확화
 - 기각(적대 검증 0-3): "루프=리텐션 / 아크=소진" 강한 인과 단정 → 위키 단정 회피
 - 미확인(추정 표기): 표준 시즌 9-13주·Fortnite 등록 3.5억
 
@@ -453,7 +453,7 @@ title: "활동 로그"
 
 ## [2026-06-16] weekly-lint 후속 — roguelike·sound-design 두 concept 페이지 신규 (위키 내부 재구성)
 - 트리거: 2026-06-16 예약 lint 보고 후 사용자가 추천 조사주제 중 로그라이크·사운드 디자인 2건 선택, *"위키 내부 재구성"* 방식 지시 (외부 web search 없이 기존 페이지 재구성 — 이 세션엔 WebSearch 미제공)
-- **concepts/roguelike.md 신규**: 절차적 생성·런 기반·퍼머데스·빌드 시너지·메타 진행성 정의. 로그라이크 vs 로그라이트 구분, 하데스 내러티브 결합 모델, 발라트로 "한 판 더" 루프. Carless taxonomy 근거 Action Roguelike 104개($1M+, 70+ since 2020) healthy 분포 = 인디 진입 친화. [[soulslike]]와 대비 프레임. sources: kasavin-hades-ea·gdc25-balatro-marketing·carless-genres-ruled-steam-2025-06
+- **concepts/roguelike.md 신규**: 절차적 생성·런 기반·퍼머데스·빌드 시너지·메타 진행성 정의. 로그라이크 vs 로그라이트 구분, 하데스 내러티브 결합 모델, 발라트로 "한 판 더" 루프. Carless taxonomy 근거 Action Roguelike 104개(\$1M+, 70+ since 2020) healthy 분포 = 인디 진입 친화. [[soulslike]]와 대비 프레임. sources: kasavin-hades-ea·gdc25-balatro-marketing·carless-genres-ruled-steam-2025-06
 - **concepts/sound-design.md 신규**: 세 접근(시스템 기반 사운드 / 음악 우선 역설계 / 시네마틱 오디오). 젤다 TotK 거리감쇠 물리화·리버브 자동계산·방향성, Hi-Fi RUSH 비트 우선 역설계, 인소믹·TLOU 다운스트림 배포. sources: gdc24-zelda-tears-of-kingdom·gdc2024-hifi-rush-backwards
 - 정정: 데이브 더 다이버는 혼합장르(다이빙+경영)라 roguelike 앵커에서 제외 — 발라트로·하데스만 사용
 - 양방향 wikilink: balatro(본문+related)·soulslike(related)·hifi-rush(본문+related)·emergent-systems-design(관계 bullet+related)에 신규 페이지 link
@@ -600,7 +600,7 @@ title: "활동 로그"
 ## [2026-05-29] entity 보강 — 펄어비스 (자체 엔진 한국 케이스)
 - 트리거: 사용자가 "자체 엔진 사례에 펄어비스 추가, 관련 md 모두 업데이트" 지시
 - 신규 entity (1 페이지):
-  - entities/pearl-abyss.md (2010 한국 안양, KOSDAQ 263750, 직원 ~1,500명, 검은사막 PC·모바일·콘솔 cross-platform, Black Desert Engine 1세대·Heart Engine 2세대(가칭) 2026 붉은사막 출시로 실전 검증, CCP Games 2018 $425M 인수)
+  - entities/pearl-abyss.md (2010 한국 안양, KOSDAQ 263750, 직원 ~1,500명, 검은사막 PC·모바일·콘솔 cross-platform, Black Desert Engine 1세대·Heart Engine 2세대(가칭) 2026 붉은사막 출시로 실전 검증, CCP Games 2018 \$425M 인수)
 - 기존 페이지 보강:
   - concepts/proprietary-engine-strategy.md: related에 pearl-abyss 추가, "MMORPG 라이브 서비스 자체 엔진 — 펄어비스 케이스" 섹션 신설 (5번째 ROI 정당화 모델 — *MMORPG cross-platform + MMO 서버 인프라 통합 통제*)
   - comparisons/proprietary-engine-vs-ue5.md: related에 pearl-abyss 추가, 자체 엔진 진영 사례 테이블에 펄어비스 행 추가, "예외 변수" 섹션에 *MMORPG + 서버 인프라* 4번째 항목 신설, 의사결정 흐름도에 MMORPG 분기 추가, "한국 메이저 자체 엔진 vs UE5 분기" 표 신설 (펄어비스·NCSoft·넥슨·Krafton·Shift Up)
@@ -633,9 +633,9 @@ title: "활동 로그"
   - entities/riot-games.md (2006 LA, 텐센트 100%, LoL 15년+ transmedia, Arcane Emmy 9관왕)
   - entities/respawn-entertainment.md (2010 LA, EA 산하, Apex + Star Wars Jedi 라이브+싱글 듀얼)
 - 신규 entity — 라이브 서비스 게임 (4 페이지):
-  - entities/genshin-impact.md (2020, miHoYo, $6~8B+, 6주 사이클, *원신 쇼크* 표본)
-  - entities/fortnite.md (2017, Epic, $20B+, 3단 자기 재정의 BR→콜라보 IP→UEFN)
-  - entities/league-of-legends.md (2009, Riot, $10B+, 15년+ MOBA + Arcane transmedia)
+  - entities/genshin-impact.md (2020, miHoYo, \$6~8B+, 6주 사이클, *원신 쇼크* 표본)
+  - entities/fortnite.md (2017, Epic, \$20B+, 3단 자기 재정의 BR→콜라보 IP→UEFN)
+  - entities/league-of-legends.md (2009, Riot, \$10B+, 15년+ MOBA + Arcane transmedia)
   - entities/apex-legends.md (2019, Respawn, 1억+ 유저, Surprise drop 마케팅 표본)
 - 신규 entity — 인디 퍼블리셔 (3 페이지):
   - entities/annapurna-interactive.md (2016 LA, 영화사 산하 작가형, Outer Wilds·Stray·Cocoon, 2024-09 대량 사임)
@@ -683,7 +683,7 @@ title: "활동 로그"
 - 트리거: 사용자 — 기존 steam-marketing-strategy deck을 폐기하고 ZR Forecaster·Carless·Zukowski 1차 source 4종 + 가격·딜·회복까지 확장한 종합 전략 deck으로 재구성
 - 스타일: frontend-slides skill · Phase 2 거쳐 3 preview (Bold Signal · Paper & Ink · Dark Botanical) 비교 후 **Bold Signal 선택** — 다크 배경 + 오렌지 카드 + Archivo Black 영문 display + Pretendard 한글
 - 구조: 0부 서론(4) → 1부 Pre-launch(10) → 2부 Launch(12) → 3부 Post-launch(7) → 4부 적용(2), 35장
-- 핵심 정량 포인트: Carless Action 58.37% TAM · winner-take-all vs healthy 분포 (Arena 29 vs Roguelike 104·JRPG 121·Psych Horror 44) · $10 단절선 (0.15× → 0.10×) · ZR 8 driver tornado · Carless 원전 PEAK 266× (ZR 29× 한 자릿수 정정) · Mostly Positive 70% 알고리즘 게이트 · Demo +8% / Next Fest +4% / Year-1 38% 런치월 / 캡콤 9년 곡선 / Zukowski 28/18,239 회복률 0.156%
+- 핵심 정량 포인트: Carless Action 58.37% TAM · winner-take-all vs healthy 분포 (Arena 29 vs Roguelike 104·JRPG 121·Psych Horror 44) · \$10 단절선 (0.15× → 0.10×) · ZR 8 driver tornado · Carless 원전 PEAK 266× (ZR 29× 한 자릿수 정정) · Mostly Positive 70% 알고리즘 게이트 · Demo +8% / Next Fest +4% / Year-1 38% 런치월 / 캡콤 9년 곡선 / Zukowski 28/18,239 회복률 0.156%
 - 생성:
   - wiki/presentations/steam-launch-strategy-deck.html (35장, 약 107KB, 인라인 편집 기능 포함)
   - wiki/presentations/steam-launch-strategy.md (wrapper)
@@ -719,7 +719,7 @@ title: "활동 로그"
   - wiki/concepts/steam-revenue-forecasting.md (Carless taxonomy 1차 source 추가)
   - wiki/concepts/game-market-trends.md (Carless taxonomy + Zukowski 2025 retro 1차 source 추가)
 - 메타: wiki/index.md 소스 113→114, sources/all.md 1행 추가
-- 핵심 인사이트: Steam Genre TAM 분배는 *Action 58.37% 압도적 우위*. 그 안에서 Arena Shooter·Battle Royale·Hero Shooter는 평균 매출 높지만 진입 어려움(전 역사 29개만 $1M+, 2020 이후 $25M+는 Naraka·Overwatch 2·Marvel Rivals 단 3개). 신규 진입 추천: Action Roguelike (104개)·Psychological Horror (44개)·JRPG (121개) — *healthy 분포*. ZR이 인용한 "104·44·121" 수치 정확 일치 — Carless 원전 source citation 추가 완료.
+- 핵심 인사이트: Steam Genre TAM 분배는 *Action 58.37% 압도적 우위*. 그 안에서 Arena Shooter·Battle Royale·Hero Shooter는 평균 매출 높지만 진입 어려움(전 역사 29개만 \$1M+, 2020 이후 \$25M+는 Naraka·Overwatch 2·Marvel Rivals 단 3개). 신규 진입 추천: Action Roguelike (104개)·Psychological Horror (44개)·JRPG (121개) — *healthy 분포*. ZR이 인용한 "104·44·121" 수치 정확 일치 — Carless 원전 source citation 추가 완료.
 - 신뢰도: high (GameDiscoverCo 자체 단일-tag 강제 할당 연구)
 
 ## [2026-05-18] ingest | 1차 데이터 source 3종 (Carless · Zukowski recovery · Zukowski 2025 retro)
@@ -728,7 +728,7 @@ title: "활동 로그"
   - https://howtomarketagame.com/2026/02/12/only-28-games-recovered-from-a-bad-launch-in-2024-what-do-they-have-in-common/
   - https://howtomarketagame.com/2026/01/27/what-the-hell-happened-in-2025/
 - 생성 (3 sources):
-  - wiki/sources/carless-wishlist-conversions-2025-10.md (median 0.15× / >$10 0.10× / PEAK 266× 정정·1차 데이터)
+  - wiki/sources/carless-wishlist-conversions-2025-10.md (median 0.15× / >\$10 0.10× / PEAK 266× 정정·1차 데이터)
   - wiki/sources/zukowski-bad-launch-recovery-2024.md (28/18,239 회복·5가지 메커니즘·Free-to-Keep 비추천)
   - wiki/sources/zukowski-2025-year-review.md (골든 에이지 2.99%·Narrative #1·OWSC 2024 24.5%→2025 20.8% 정정·Farming 20.8%→8.3% 대폭 하락)
 - 업데이트:
@@ -751,7 +751,7 @@ title: "활동 로그"
   - wiki/concepts/publisher-deal-structures.md (Self-publish·Rev share·Recoup-first·MG·Marketing fee 5종 stress test)
 - 업데이트 (sources·related·ZR 정량 보강):
   - wiki/concepts/launch-metrics.md (ZR Forecaster 정량 모델 섹션 — review tier multiplier·time distribution·8 driver sensitivity·refund 벤치마크)
-  - wiki/concepts/game-pricing-strategy.md ($10 threshold conversion 단절선·regional haircut 정량·ARPU 정확 공식)
+  - wiki/concepts/game-pricing-strategy.md (\$10 threshold conversion 단절선·regional haircut 정량·ARPU 정확 공식)
   - wiki/concepts/marketing-strategy.md (8 driver 마케팅 ROI 우선순위·Demo +8%/Next Fest +4% lift·paid acquisition 함정)
   - wiki/concepts/indie-business-strategy.md (break-even·매출 예측·publisher deal·median vs 평균)
 - 메타: wiki/index.md 소스 →110·개념 50→52, sources/all.md 1행 추가 (총 110), concepts/all.md 2행 추가, pill-grid 2개 추가
@@ -893,7 +893,7 @@ title: "활동 로그"
   - 통합 마케팅 안에서의 트레일러 (트레일러 = 크리에이티브 레이어, 여러 레이어 동시 발화)
   - 런치 플래닝 — 트레일러 비트 매핑 (핵심 비트·CTA·레이어 선택, 타임라인 고려사항)
   - 사례 BG3 단계별 트레일러 활용 (PC출시전·PC출시·PS5·Xbox 4단계 비교표)
-  - 사례 소예산 트레일러 효과 (Tunic 미디어스코어 4.5, Chicory $5K → 5M 임프레션)
+  - 사례 소예산 트레일러 효과 (Tunic 미디어스코어 4.5, Chicory \$5K → 5M 임프레션)
 - 추가 인사이트 callout: "트레일러를 어느 레이어와 함께 발화시킬지가 진짜 디자인"
 - 신규 raw fetch 없음 — 두 GDC26 소스 모두 기존 위키에 보유
 

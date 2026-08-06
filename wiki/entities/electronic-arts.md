@@ -20,10 +20,10 @@ relations:
 |---|---|---|
 | EA Sports | 내부 | EA Sports FC(구 FIFA)·Madden NFL·NHL |
 | DICE | 2006 인수 | Battlefield 시리즈·Frostbite 엔진 |
-| [[respawn-entertainment]] | 2017 인수 ($400M+) | Apex Legends·Titanfall·Star Wars Jedi |
+| [[respawn-entertainment]] | 2017 인수 (\$400M+) | Apex Legends·Titanfall·Star Wars Jedi |
 | [[bioware]] | 2007 인수 | Mass Effect·Dragon Age |
 | Maxis | 1997 인수 | The Sims 시리즈 |
-| Codemasters | 2021 인수 ($1.2B) | F1·Dirt 레이싱 |
+| Codemasters | 2021 인수 (\$1.2B) | F1·Dirt 레이싱 |
 | Criterion·Motive | 내부 | Need for Speed·기술 지원 |
 
 ## 비즈니스 모델 3축

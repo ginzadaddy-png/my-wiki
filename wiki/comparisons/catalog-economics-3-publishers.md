@@ -20,9 +20,9 @@ confidence: medium
 | **대표 IP** | RE·MH·SF·DMC·메가맨 (5+ 시리즈) | Mario·Zelda·Pokemon (3 메가 IP) | GTA (단일 IP의 압도적 carry) |
 | **카탈로그 비중** | FY26/3 **83.7%** (4,946만/5,907만 unit) | 1st-party 정가 유지, attach rate ~45% | Take-Two FY24 RCS **78%** of net bookings |
 | **대표 long-tail 작품** | RE7 (2017) — 9년차 260만 unit | Mario Kart 8 Deluxe (2017) — 8년차 누적 68.2M | GTA V (2013) — 13년차 분기당 5M+ 출하 |
-| **가격 정책** | 풀프라이스 → 80%→50%→30%→20% 세일 곡선 | *세일 최대 33%*, 정가 $59.99 유지 | GTA V 풀프라이스 12년 유지 + RCS 무한 |
+| **가격 정책** | 풀프라이스 → 80%→50%→30%→20% 세일 곡선 | *세일 최대 33%*, 정가 \$59.99 유지 | GTA V 풀프라이스 12년 유지 + RCS 무한 |
 | **재발매 빈도** | RE 시리즈 *3년 리메이크 사이클* | 거의 없음 (Switch 단일 8년) | 3회 cross-gen (PS3→PS4→PS5) |
-| **DLC 전략** | RE Requiem 90억엔 deferred 등 본편 후 DLC | Booster Course Pass (Mario Kart) — Online 가입자 무료 + $24.99 | GTA Online 무료 업데이트 + Shark Cards |
+| **DLC 전략** | RE Requiem 90억엔 deferred 등 본편 후 DLC | Booster Course Pass (Mario Kart) — Online 가입자 무료 + \$24.99 | GTA Online 무료 업데이트 + Shark Cards |
 | **Cross-sell 메커니즘** | RE Requiem → RE4·Village·3·2 동시 200~370만 | Switch attach rate (Mario Kart 1대 본체당 0.45개) | Online → 본편 재구매 + Epic Store 무료 7M |
 | **엔진 전략** | [[proprietary-engine-strategy\|RE ENGINE 자체]] | 자체 (NES 시절부터 수직 통합) | RAGE 자체 |
 | **마진 구조** | 자체 엔진 + 디지털 93% — *영업이익 13년 연속 성장* | 정가 유지 + 1st-party 마진 100% | RCS *한계비용 0* — long-tail 마진 극대화 |
@@ -47,8 +47,8 @@ confidence: medium
 **핵심 메커니즘:** *플랫폼 attach rate + 정가 유지*. Switch 8년 단일 platform의 152M 본체에 1st-party 게임이 attach.
 
 - Mario Kart 8 Deluxe (2017-04): FY25 누적 **68.20M**, 본체 attach rate ~45%
-- *세일 최대 33%* — 정가 $59.99 8년 유지. *long-tail에서 가격이 떨어지지 않는 catalog* — 산업 내 유일
-- Booster Course Pass DLC: Switch Online 가입자 무료 + 단독 $24.99 — *구독 link*
+- *세일 최대 33%* — 정가 \$59.99 8년 유지. *long-tail에서 가격이 떨어지지 않는 catalog* — 산업 내 유일
+- Booster Course Pass DLC: Switch Online 가입자 무료 + 단독 \$24.99 — *구독 link*
 - Pokemon 시리즈 본편 **480M+** — cross-media (카드·애니·영화·GO) 효과
 - Switch 2 (2025-06) cross-gen 후에도 Deluxe 판매 지속
 
@@ -60,7 +60,7 @@ confidence: medium
 
 - GTA V (2013-09): FY25 Q3 누적 **210M+ units**, *13년차에도 분기당 5M units 출하*
 - 3회 cross-gen 재발매: PS3/X360 → PS4/XB1 (2014) → PS5/XSX (2021)
-- *GTA Online RCS*: Take-Two FY24 net bookings의 **78%**가 recurrent (GTA Online + NBA 2K MyTeam). Shark Cards 외부 추정 누적 매출 $8B+
+- *GTA Online RCS*: Take-Two FY24 net bookings의 **78%**가 recurrent (GTA Online + NBA 2K MyTeam). Shark Cards 외부 추정 누적 매출 \$8B+
 - Epic Store 무료 배포 (2020-05) → 7M+ 다운로드 추가
 - GTA 6 (2026 예정) 발표 후 *GTA V 재구매·신규 진입* ↑
 

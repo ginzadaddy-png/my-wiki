@@ -17,7 +17,7 @@ GameDiscoverCo가 10년+ Twitch 데이터(일 시청시간·활성 채널·top �
 
 **사례**
 - **Manor Lords**: 출시 전 스트리머 독점으로 시청 폭발 → 이후 시청 급감하나 판매는 1.7m → 3.3m (1.0 대기 중 유저 누적). *전형적 궤적*.
-- **Path of Exile 2**: 상시 top-10 시청 + 콘텐츠 업데이트마다 매출 스파이크, Steam 직접 매출 $300m+. *예외적 지속형*.
+- **Path of Exile 2**: 상시 top-10 시청 + 콘텐츠 업데이트마다 매출 스파이크, Steam 직접 매출 \$300m+. *예외적 지속형*.
 - **Meccha Chameleon**: 3m 판매·주 3m 시청 — 코옵 스트리밍 바이럴. (cf. [[engagement-loop|friendslop]] 맥락)
 - 스트리머 리더보드 + 오버랩 분석으로 *유사 관객을 가진 경쟁작* 식별.
 

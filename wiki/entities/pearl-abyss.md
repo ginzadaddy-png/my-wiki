@@ -10,7 +10,7 @@ relations:
   parentOf: []
 ---
 
-**펄어비스 (Pearl Abyss)**는 2010 한국 안양 본사 설립, 창업자 김대일(Daeil Kim). 2017 KOSDAQ 상장(263750). [[proprietary-engine-strategy|독자 엔진 전략]]의 *한국 케이스이자 MMORPG 진영의 정점 사례* — *Black Desert Engine* 자체 개발, *PC·모바일·콘솔 cross-platform*에 동일 엔진 적용. 2018 CCP Games 인수($425M)로 EVE Online IP를 확보했으나 **2026-05-06 전량 매각**(아래 참조)으로 8년 만에 정리. 2026년 신규 IP [[crimson-desert|붉은사막]] 출시로 *검은사막 recurrent + 프리미엄 패키지 런치* 이중 구조로 전환했다.
+**펄어비스 (Pearl Abyss)**는 2010 한국 안양 본사 설립, 창업자 김대일(Daeil Kim). 2017 KOSDAQ 상장(263750). [[proprietary-engine-strategy|독자 엔진 전략]]의 *한국 케이스이자 MMORPG 진영의 정점 사례* — *Black Desert Engine* 자체 개발, *PC·모바일·콘솔 cross-platform*에 동일 엔진 적용. 2018 CCP Games 인수(\$425M)로 EVE Online IP를 확보했으나 **2026-05-06 전량 매각**(아래 참조)으로 8년 만에 정리. 2026년 신규 IP [[crimson-desert|붉은사막]] 출시로 *검은사막 recurrent + 프리미엄 패키지 런치* 이중 구조로 전환했다.
 
 > 💡 **핵심 포지셔닝(2026 갱신):** 검은사막(MMORPG live-ops recurrent)이 10년+ *바닥*을 받치는 동안 [[crimson-desert|붉은사막]]이라는 *프리미엄 패키지 AAA*가 천장을 뚫은 **floor≠ceiling 교과서 사례**. 1Q26 영업수익 3,285억(+419.8%)의 81%가 붉은사막이며, 그 80%+가 미주/유럽에서 발생 — **비서구 스튜디오의 서구 프리미엄 시장 정면 돌파**([[pearl-abyss-ir-1q26|1Q26 IR]]).
 
@@ -25,9 +25,9 @@ relations:
 | 상장 | KOSDAQ 2017 (263750) |
 | 직원 수 | 약 1,500명+ (2024 기준 외부 추정) |
 | 주력 IP | 검은사막 (Black Desert) — PC·모바일·콘솔 멀티 플랫폼 |
-| 자회사 | CCP Games (2018-09 인수, $425M) — EVE Online |
+| 자회사 | CCP Games (2018-09 인수, \$425M) — EVE Online |
 | 검은사막 PC 누적 (한국) | 2,800만+ 등록 계정 (2023 추정) |
-| 검은사막 글로벌 누적 매출 (외부 추정) | $2B+ (시리즈 전체) |
+| 검은사막 글로벌 누적 매출 (외부 추정) | \$2B+ (시리즈 전체) |
 
 ## 1Q26 실적 — 붉은사막 출시 임팩트 ([[pearl-abyss-ir-1q26]])
 
@@ -115,7 +115,7 @@ FY2025(계속영업기준)는 검은사막 단일 프랜차이즈에 의존한 *
 
 ## CCP Games 인수(2018) → 매각(2026-05) — 멀티 IP 실험의 종료
 
-- 2018-09 *$425M 전액 현금 인수* — *아이슬란드 CCP Games (EVE Online 운영)*
+- 2018-09 *\$425M 전액 현금 인수* — *아이슬란드 CCP Games (EVE Online 운영)*
 - *목적*: ① EVE Online IP 확보 ② SF MMO 노하우 ③ 글로벌 운영 인프라
 - *시너지 한계*: EVE Online과 검은사막의 *플레이어 base·운영 모델 분리* — 인수 6년차에도 *공통 인프라 활용 사례 부재*
 - **2026-05-06 매각 완료**: 손자회사 펜리스 크리에이션(전 CCP ehf.)을 *현 경영진에게 전량 매각*. 손자회사 PAI(Pearl Abyss Iceland) 이사회 결정(2026-04-30). "중장기 성장전략 종합 검토 결과" — 계속영업 재무제표 재작성 사유. 협업 가능성은 열어둠

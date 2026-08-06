@@ -13,7 +13,7 @@ source_published: 2025-10-17
 
 **원문**: [newsletter.gamediscover.co](https://newsletter.gamediscover.co/p/the-state-of-steam-wishlist-conversions) — Simon Carless, GameDiscoverCo, 2025-10-17
 
-GameDiscoverCo의 창업자 Simon Carless가 *GDCo Pro의 외부 추정 데이터*를 처음 macro-analysis로 공개. ZR Consulting Steam Forecaster가 인용한 wishlist conversion median 0.15× / >$10 0.10× / 10-20× variance 수치의 **1차 데이터 source**.
+GameDiscoverCo의 창업자 Simon Carless가 *GDCo Pro의 외부 추정 데이터*를 처음 macro-analysis로 공개. ZR Consulting Steam Forecaster가 인용한 wishlist conversion median 0.15× / >\$10 0.10× / 10-20× variance 수치의 **1차 데이터 source**.
 
 > 💡 **핵심 인사이트:** "Wishlist conversion 평균 X%"라는 단일 숫자는 *의미가 거의 없다*. 동일 카테고리 게임이 *10-20배 차이*로 분포한다. 의사결정에 쓰려면 *median + 분산*을 함께 보아야 하고, 자신의 게임이 분포 어디에 들어갈지는 *서브장르·co-op 여부·NSFW 여부·가격·content creator 활동* 등 multi-factor로 결정된다.
 
@@ -24,7 +24,7 @@ GameDiscoverCo의 창업자 Simon Carless가 *GDCo Pro의 외부 추정 데이�
 |---|---|
 | All games (>25k wishlists) | **0.15×** |
 | Adult 제외 | 0.14× |
-| **>$10 게임만** | **0.10×** |
+| **>\$10 게임만** | **0.10×** |
 
 100,000 launch wishlist 게임 → median 10,000 Week-1 sales
 
@@ -76,7 +76,7 @@ GameDiscoverCo의 창업자 Simon Carless가 *GDCo Pro의 외부 추정 데이�
 | 항목 | ZR Forecaster (2026-05) 표기 | Carless 원전 (2025-10) |
 |---|---|---|
 | Median Week-1 conversion | 0.15× | **0.15×** ✓ |
-| >$10 conversion | 0.10× | **0.10×** ✓ |
+| >\$10 conversion | 0.10× | **0.10×** ✓ |
 | Variance | 10× | **10-20×** (더 큼) |
 | PEAK multiplier | 29× | **266×** (한 자릿수 차이!) |
 | Mage Arena | 8.7× | **78×** |
@@ -94,7 +94,7 @@ GameDiscoverCo의 창업자 Simon Carless가 *GDCo Pro의 외부 추정 데이�
 
 - [[steam-revenue-forecasting|Steam 매출 예측 모델]] — 핵심 정량의 1차 source citation 승격
 - [[launch-metrics|흥행 예측 지표]] — Under converter 패턴 (review score gating·411 days stale wishlist)
-- [[game-pricing-strategy|게임 가격 전략]] — $10 threshold 1차 데이터
+- [[game-pricing-strategy|게임 가격 전략]] — \$10 threshold 1차 데이터
 - [[zrconsulting-steam-forecaster-2026]] — 보조 layer (Carless가 원전, ZR이 인용·재구성)
 - [[peak|PEAK]] — 266× outlier 사례 (29× 정정)
 - [[zukowski-next-fest-strategy]] — 같은 산업 분석 사이클의 다른 source

@@ -27,7 +27,7 @@ source_published: 2026-05-18
 | Take-Two FY24 RCS 비중 | net bookings의 **78%** |
 
 - *3회 cross-gen 재발매*: PS3/X360 → PS4/XB1 (2014) → PS5/XSX (2021)
-- *GTA Online* recurrent consumer spending — Shark Cards 외부 추정 누적 매출 $8B+
+- *GTA Online* recurrent consumer spending — Shark Cards 외부 추정 누적 매출 \$8B+
 - Epic Store 무료 배포 (2020-05) → 7M+ 다운로드 추가
 - GTA 6 (2026 예정) 발표 후 GTA V 재구매·신규 진입 ↑
 - 출처: Take-Two IR (https://www.take2games.com/ir), 10-K SEC EDGAR 공시
@@ -57,7 +57,7 @@ source_published: 2026-05-18
   - 2021-11 Anniversary Edition (10주년, Creation Club 포함)
   - 2023-11 PS5/XSX 무료 업그레이드
 - *Creation Club* (2017) + *Creations* 플랫폼 (2023) — paid mods
-- MS 인수 (2021-03, $7.5B) 후 Game Pass — unit sales 비공개 전환
+- MS 인수 (2021-03, \$7.5B) 후 Game Pass — unit sales 비공개 전환
 - ⚠️ *60M 수치는 Todd Howard 인터뷰 기반 비공식*. Microsoft FY24·25 10-K는 개별 게임 매출 비공개
 
 ## 4. FromSoftware / Kadokawa — Dark Souls·Elden Ring
@@ -72,7 +72,7 @@ source_published: 2026-05-18
 - Elden Ring 출시 후 *Dark Souls III 2022 연간 판매가 6년차에 전년 대비 ↑*, Steam 동접 50K 회복
 - Bloodborne·Sekiro Steam 위시리스트 급증
 - Kadokawa Game 부문 매출 FY24/3 95.6B JPY (전년 +9%), Elden Ring 카탈로그 ~60% 기여 추정
-- *Sony 지분 인수 시도* (2025) — FromSoftware IP valuation 외부 추정 ~$2B
+- *Sony 지분 인수 시도* (2025) — FromSoftware IP valuation 외부 추정 ~\$2B
 - 출처: Kadokawa IR (https://group.kadokawa.co.jp/ir/), Bandai Namco 발표
 
 ## 5. Nintendo — Mario Kart 8 Deluxe·Pokemon
@@ -88,7 +88,7 @@ source_published: 2026-05-18
 | FY25 (2025-03-31) | **68.20** |
 
 - Switch 본체 152M, attach rate ~45%
-- Booster Course Pass DLC (2022-03~2023-11) — Switch Online 가입자 무료 + 단독 $24.99
+- Booster Course Pass DLC (2022-03~2023-11) — Switch Online 가입자 무료 + 단독 \$24.99
 
 ### Pokemon
 - 시리즈 본편 RPG 누적 **480M+** (2024)
@@ -97,7 +97,7 @@ source_published: 2026-05-18
 
 ### 메커니즘 차별점
 - *Platform 단일화*: Switch 8년 단일
-- *가격탄력성 낮음* — 정가 $59.99 유지, 세일 최대 33% — *long-tail에서도 가격이 떨어지지 않는 카탈로그*
+- *가격탄력성 낮음* — 정가 \$59.99 유지, 세일 최대 33% — *long-tail에서도 가격이 떨어지지 않는 카탈로그*
 - Switch 2 (2025-06) cross-gen 후에도 Deluxe 판매 지속
 - 출처: Nintendo IR (https://www.nintendo.co.jp/ir/en/finance/software/)
 

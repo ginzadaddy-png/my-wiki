@@ -22,7 +22,7 @@ confidence: high
 | H1 2025 | 27% | 73% |
 | H1 2026 | 21% | **79%** |
 
-> 💡 **핵심 인사이트 — Steam 매출의 79%가 백카탈로그:** H1 2026 Steam 플랫폼 매출 $11.1B(역대 최고 반기, +14.5% YoY) 중 **신작은 21%뿐**. 2년 만에 71%→79%로 카탈로그 쪽 이동이 가속. 캡콤이 보인 "신작 unit이 늘어도 카탈로그가 더 빨리 늘어 비중이 기움" 메커니즘이 *단일 회사가 아니라 스토어 전체*에서 재현된다. Elliott: "모든 신작은 이제 올해의 경쟁작이 아니라 *10년치 검증된 히트작이 몇 분의 1 가격에 깔린 카탈로그*와 경쟁한다." → 위 캡콤 84%·Take-Two RCS 78% 같은 개별 수치의 *상위 집계*가 이 79%라고 볼 수 있다.
+> 💡 **핵심 인사이트 — Steam 매출의 79%가 백카탈로그:** H1 2026 Steam 플랫폼 매출 \$11.1B(역대 최고 반기, +14.5% YoY) 중 **신작은 21%뿐**. 2년 만에 71%→79%로 카탈로그 쪽 이동이 가속. 캡콤이 보인 "신작 unit이 늘어도 카탈로그가 더 빨리 늘어 비중이 기움" 메커니즘이 *단일 회사가 아니라 스토어 전체*에서 재현된다. Elliott: "모든 신작은 이제 올해의 경쟁작이 아니라 *10년치 검증된 히트작이 몇 분의 1 가격에 깔린 카탈로그*와 경쟁한다." → 위 캡콤 84%·Take-Two RCS 78% 같은 개별 수치의 *상위 집계*가 이 79%라고 볼 수 있다.
 
 플랫폼 성장 드라이버 5개 중 3개가 카탈로그 직결: **아시아(특히 중국) 확산**(캡콤 아시아 5년 +247%와 동형), **대형 퍼블리셔의 스마트한 백카탈로그 전략**(세일·번들·시리즈 cross-sell), **서드파티의 Steam 복귀**(자체 런처 실험 종료). 나머지 둘은 신작 축(가격 인상·바이럴 co-op).
 
@@ -83,13 +83,13 @@ confidence: high
 - *Shadow of the Erdtree* (2024-06) 첫 3일 **5M** — DLC 신기록
 - **Elden Ring 출시 후 Dark Souls III 2022 연간 판매가 6년차에 전년 대비 상승**, Steam 동접 50K 회복 — *cross-sell의 가장 명확한 정량 증거*
 - Bloodborne·Sekiro Steam 위시리스트 급증, Kadokawa Game 부문 매출 FY24/3 95.6B JPY (~60% Elden Ring 카탈로그 추정)
-- *Sony 지분 인수 시도* (2025) — IP valuation 외부 추정 ~$2B
+- *Sony 지분 인수 시도* (2025) — IP valuation 외부 추정 ~\$2B
 
 ### [[nintendo|닌텐도]] — Mario Kart 8 Deluxe (가격유지형)
 - 출시 2017-04-28, 누적 **68.20M units** (FY25/3, 2025-03-31) — Switch 본체 152M, attach rate ~45%
 - 연도별 누적: FY18 9.22M → FY20 24.77M → FY22 46.59M → FY24 64.27M → FY25 68.20M (8년 우상향)
-- Booster Course Pass DLC (2022-03~2023-11): 48 코스 추가, Switch Online 가입자 무료 + 단독 $24.99
-- *세일 최대 33%, 정가 $59.99 유지* — long-tail에서도 가격이 떨어지지 않는 가격유지형 catalog
+- Booster Course Pass DLC (2022-03~2023-11): 48 코스 추가, Switch Online 가입자 무료 + 단독 \$24.99
+- *세일 최대 33%, 정가 \$59.99 유지* — long-tail에서도 가격이 떨어지지 않는 가격유지형 catalog
 - Pokemon 시리즈 본편 RPG 누적 **480M+** (2024) — cross-media (카드·애니·영화·GO) 효과
 
 ### [[larian-studios|라리안]] — DOS2 → BG3 cross-sell
@@ -108,7 +108,7 @@ confidence: high
   - 2023-11 PS5/XSX 무료 업그레이드
 - *"Skyrim에 또 나오나요"* 밈 — 7개+ platform/SKU 재판매의 산업 상징
 - Creation Club (2017) + Creations 플랫폼 (2023) — paid mods 매출
-- MS 인수 (2021-03, $7.5B) 후 Game Pass — unit sales 비공개 전환
+- MS 인수 (2021-03, \$7.5B) 후 Game Pass — unit sales 비공개 전환
 
 ### 한국 MMO — 넥슨 vs 엔씨 (recurrent형, 신규 5번째 모델)
 

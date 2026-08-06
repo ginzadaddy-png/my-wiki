@@ -33,7 +33,7 @@ relations:
 
 - 붉은사막 단독으로 펄어비스 1Q26 영업수익을 **+419.8% YoY**(3,285억) 끌어올림 → 영업이익 2,121억(+2,584.8%). [[pearl-abyss-ir-1q26|1Q26 IR 종합]] 참조
 - 2026 연간 붉은사막 매출 가이던스 **6,441~7,348억원** (전사 8,790~9,754억의 약 73~75%)
-- [[alinea-steam-record-year-2026|Alinea H1 2026 Steam 분석]]에서 Crimson Desert $190M+로 반기 Steam 상위 타이틀에 등재 (프리미엄 가격대 양극화 스냅샷)
+- [[alinea-steam-record-year-2026|Alinea H1 2026 Steam 분석]]에서 Crimson Desert \$190M+로 반기 Steam 상위 타이틀에 등재 (프리미엄 가격대 양극화 스냅샷)
 
 ## 가격·상품 특성
 

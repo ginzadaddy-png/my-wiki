@@ -13,11 +13,11 @@ source_published: 2025-06-27
 
 **원문**: [newsletter.gamediscover.co](https://newsletter.gamediscover.co/p/which-genres-have-ruled-steam-a-new) — Simon Carless, GameDiscoverCo, 2025-06-27
 
-GameDiscoverCo의 "exclusive tag taxonomy" 연구. *>$1M lifetime revenue를 달성한 모든 Steam 게임에 1 genre + 1 subgenre를 강제 할당*해 만든 첫 TAM(total addressable market) 매트릭스. ZR Consulting Steam Forecaster가 인용한 "Action Roguelike 104 games, Psychological Horror 44, JRPG 121"의 **1차 데이터 source**.
+GameDiscoverCo의 "exclusive tag taxonomy" 연구. *>\$1M lifetime revenue를 달성한 모든 Steam 게임에 1 genre + 1 subgenre를 강제 할당*해 만든 첫 TAM(total addressable market) 매트릭스. ZR Consulting Steam Forecaster가 인용한 "Action Roguelike 104 games, Psychological Horror 44, JRPG 121"의 **1차 데이터 source**.
 
 > 💡 **핵심 인사이트:** Steam 매출 분포는 *극단적으로 비대칭*이다. **Action 장르 1개가 전체의 58.37%**를 차지하고, Action 안에서도 Arena Shooter·Battle Royale·Hero Shooter는 *평균 매출이 높지만 게임 수 적음* (winner-take-all). 반대로 Action Roguelike (104개)·Psych Horror (44개)·JRPG (121개)는 *평균 매출은 낮지만 분포가 healthy* — 신규 진입 가능성 큼. "어느 장르가 돈 잘 벌어?"보다 "어느 장르가 *내 게임도 1M+을 달성할 가능성*이 있어?"가 더 중요한 질문.
 
-## Steam Lifetime Revenue — Genre 분포 (>$1M 게임)
+## Steam Lifetime Revenue — Genre 분포 (>\$1M 게임)
 
 | Genre | % of total revenue |
 |---|---|
@@ -33,10 +33,10 @@ GameDiscoverCo의 "exclusive tag taxonomy" 연구. *>$1M lifetime revenue를 달
 
 | Subgenre | LTD revenue | Standouts |
 |---|---|---|
-| **Arena Shooter** | $9.52B | Counter-Strike 2, CS: Source |
-| **FPS** | $6.67B | Call of Duty, Left 4 Dead 2, Ready or Not |
-| **Action-Adventure** | $5.70B | RDR2, Hogwarts Legacy, Sea of Thieves |
-| **OWSC** | $5.34B | Rust, ARK, Palworld |
+| **Arena Shooter** | \$9.52B | Counter-Strike 2, CS: Source |
+| **FPS** | \$6.67B | Call of Duty, Left 4 Dead 2, Ready or Not |
+| **Action-Adventure** | \$5.70B | RDR2, Hogwarts Legacy, Sea of Thieves |
+| **OWSC** | \$5.34B | Rust, ARK, Palworld |
 
 기타 Battle Royale 9.89%, Souls-like 5.65%, Survival Horror 5.17%, Hero Shooter 4.12%, TPS 2.86%, Hack and Slash 2.55%
 
@@ -44,10 +44,10 @@ GameDiscoverCo의 "exclusive tag taxonomy" 연구. *>$1M lifetime revenue를 달
 
 | Subgenre | LTD revenue | Standouts |
 |---|---|---|
-| **Action RPG** | $3.89B | Warframe, MH World, MH Wilds |
-| **MMORPG** | $3.69B | ESO, Lost Ark |
-| **CRPG** | $2.69B | [[cyberpunk-2077]], Witcher 3, Fallout 4 |
-| **RPG** | $1.60B | DOS2, Kingdom Come: Deliverance |
+| **Action RPG** | \$3.89B | Warframe, MH World, MH Wilds |
+| **MMORPG** | \$3.69B | ESO, Lost Ark |
+| **CRPG** | \$2.69B | [[cyberpunk-2077]], Witcher 3, Fallout 4 |
+| **RPG** | \$1.60B | DOS2, Kingdom Come: Deliverance |
 
 JRPG 6.20%, Visual Novel 3.18% (낮은 비중 — Zukowski 2025 retro에서도 한 자릿수)
 
@@ -55,35 +55,35 @@ JRPG 6.20%, Visual Novel 3.18% (낮은 비중 — Zukowski 2025 retro에서도 �
 
 | Subgenre | LTD revenue | Standouts |
 |---|---|---|
-| **MOBA** | $2.31B | DOTA 2, SMITE |
-| **RTS** | $1.84B | Total War: Warhammer II/III |
-| **Grand Strategy** | $1.16B | Stellaris, HoI4, EU4 |
-| **4X** | $1.01B | Civ VI, Civ V |
+| **MOBA** | \$2.31B | DOTA 2, SMITE |
+| **RTS** | \$1.84B | Total War: Warhammer II/III |
+| **Grand Strategy** | \$1.16B | Stellaris, HoI4, EU4 |
+| **4X** | \$1.01B | Civ VI, Civ V |
 
 ## Simulation (9.76%) — 4대 서브장르
 
 | Subgenre | LTD revenue | Standouts |
 |---|---|---|
-| **Simulation** | $3.74B | War Thunder, Arma 3, Cities: Skylines |
-| **Job Simulator** | $1.36B | Euro Truck Sim 2, ATS, Schedule I |
-| **Racing** | $942.89M | Forza Horizon 5, Assetto Corsa |
-| **Farming Sim** | $851.29M | Stardew Valley, Farming Sim 22 |
+| **Simulation** | \$3.74B | War Thunder, Arma 3, Cities: Skylines |
+| **Job Simulator** | \$1.36B | Euro Truck Sim 2, ATS, Schedule I |
+| **Racing** | \$942.89M | Forza Horizon 5, Assetto Corsa |
+| **Farming Sim** | \$851.29M | Stardew Valley, Farming Sim 22 |
 
 ## 매출 분포의 두 함정 — Avg Revenue Per Game
 
-### Highest Avg ($/game) — winner-take-all 함정
+### Highest Avg (\$/game) — winner-take-all 함정
 
 평균 매출 높음 = 진입 어려움.
-- **Arena Shooter · Battle Royale · Hero Shooter**: 전 Steam 역사 통틀어 **29개 게임만** $1M+ 달성
-- **2020 이후 출시 + $25M+ 매출**: *Naraka Bladepoint, Overwatch 2, Marvel Rivals* **단 3개**
+- **Arena Shooter · Battle Royale · Hero Shooter**: 전 Steam 역사 통틀어 **29개 게임만** \$1M+ 달성
+- **2020 이후 출시 + \$25M+ 매출**: *Naraka Bladepoint, Overwatch 2, Marvel Rivals* **단 3개**
 
 신규 진입 시 winner-take-all 시장 — *대형 자본 + 차별화 + 빠른 출시*가 동시에 필요. 인디·중소 적합도 매우 낮음.
 
-### Lowest Avg ($/game) — healthy 분포 (가장 추천)
+### Lowest Avg (\$/game) — healthy 분포 (가장 추천)
 
 평균 매출 낮음 = 한두 메가히트가 시장 잠식 안 함 = 신규 진입 가능성 큼.
 
-| Subgenre | $1M+ 게임 수 | 비고 |
+| Subgenre | \$1M+ 게임 수 | 비고 |
 |---|---|---|
 | **Action Roguelike** | **104개** | *70개+ 2020 이후 출시*, 신생 장르 |
 | **JRPG** | **121개** | 가장 많은 진입자 |
@@ -97,7 +97,7 @@ JRPG 6.20%, Visual Novel 3.18% (낮은 비중 — Zukowski 2025 retro에서도 �
 
 | 척도 | Carless 2025-06 (본 자료) | Zukowski 2025-01 ([[zukowski-2025-year-review]]) |
 |---|---|---|
-| 기준 | **$1M+ lifetime revenue** | **1,000+ reviews** ≈ $150K+ |
+| 기준 | **\$1M+ lifetime revenue** | **1,000+ reviews** ≈ \$150K+ |
 | 표본 | 전 Steam 역사 누적 | 단년 출시 게임 |
 | 출력 | TAM 매트릭스 (revenue 분배) | 성공률 % (장르별) |
 | 강점 | *어느 장르가 큰 시장* | *어느 장르가 newcomer에게 friendly* |
@@ -115,7 +115,7 @@ JRPG 6.20%, Visual Novel 3.18% (낮은 비중 — Zukowski 2025 retro에서도 �
 
 ## 핵심 caveat (Carless 본인 명시)
 
-- ">$1M LTD 게임만 분석" — *대다수 인디는 그 미만*. 진입 후 1M 달성률은 별도
+- ">\$1M LTD 게임만 분석" — *대다수 인디는 그 미만*. 진입 후 1M 달성률은 별도
 - "One subgenre per game is never going to be definitionally perfect" — 단일 tag 강제 정의상 한계
 - All-time history 기준 — 월/연도별 trend는 별도 분석 (GDCo Pro 유료)
 - 1 genre + 1 subgenre — hybrid 게임 분리 불가 (Action-RPG는 Action 또는 RPG 중 하나로)

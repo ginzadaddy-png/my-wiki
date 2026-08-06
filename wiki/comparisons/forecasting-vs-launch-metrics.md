@@ -15,7 +15,7 @@ confidence: high
 | 차원 | [[steam-revenue-forecasting\|매출 예측 모델]] | [[launch-metrics\|흥행 메트릭]] |
 |---|---|---|
 | 시점 | 런치 전 (6~12개월) | 런치 전후 (데모 + 런치 첫 달) |
-| 출력 | Year-1 매출 범위 ($) | 흥행 신호 진위 판단 |
+| 출력 | Year-1 매출 범위 (\$) | 흥행 신호 진위 판단 |
 | 핵심 입력 | 위시리스트 수, 서브장르 conversion, review tier, pre-launch buzz, 8 driver | 플레이 시간·재플레이·1·7일 유지율·디스코드 active |
 | 변동성 | ZR 명시: 30~50% 편차 | First Look: AAA·AA 93%가 예측 실패 경험 |
 | 의사결정 용도 | 자원 배분·publisher deal 협상·break-even 계산 | 마케팅 push·post-launch patch·시리즈 IP 투자 |

@@ -53,6 +53,6 @@ confidence: high
 
 ## 시장 분포 — 신규 진입 친화 장르
 
-[[carless-genres-ruled-steam-2025-06|Carless 장르 taxonomy]] 기준, **Action Roguelike는 $1M+ 달성작 104개**이며 그중 *70개 이상이 2020년 이후 출시*다. 평균 매출은 낮지만 분포가 **healthy**(메가히트 독점 없음)해, Arena Shooter·Battle Royale 같은 winner-take-all 장르와 달리 *인디·중소의 신규 진입 가능성이 큰* 장르로 분류된다.
+[[carless-genres-ruled-steam-2025-06|Carless 장르 taxonomy]] 기준, **Action Roguelike는 \$1M+ 달성작 104개**이며 그중 *70개 이상이 2020년 이후 출시*다. 평균 매출은 낮지만 분포가 **healthy**(메가히트 독점 없음)해, Arena Shooter·Battle Royale 같은 winner-take-all 장르와 달리 *인디·중소의 신규 진입 가능성이 큰* 장르로 분류된다.
 
 > 💡 **핵심 인사이트:** 로그라이크의 본질은 난이도가 아니라 **재생성(re-generation)**. 절차적 생성·빌드 시너지·메타 진행성이 결합해 "매번 다른 한 판"을 값싸게 양산하고, 이것이 인디가 적은 예산으로 긴 플레이타임과 healthy한 시장 분포를 동시에 얻는 이유다.

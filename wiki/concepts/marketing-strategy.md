@@ -57,7 +57,7 @@ confidence: high
 
 - "모든 마케팅 활동은 데모에 비하면 미미하다"
 - 단계: 데모 → 플레이테스트 → 넥스트 페스트(그랜드 피날레) → 출시
-- **Real Steam(비공식)**: 출시 후 6~9개월 내 약 $15만 달러 달성 시 데일리 딜·세일 피처링 혜택
+- **Real Steam(비공식)**: 출시 후 6~9개월 내 약 \$15만 달러 달성 시 데일리 딜·세일 피처링 혜택
 - 디스커버리 큐가 전체 트래픽 45%. 출시 첫 2일에 25,000회 노출 → 3일 째 성과가 이후 결정
 
 ## 데모 전환율의 진실 — funnel이 아니다 ([[zukowski-demos-wishlist-conversion]])
@@ -74,13 +74,13 @@ confidence: high
 ## 크리에이터를 커머스 인프라로 ([[naavik-creator-led-growth]])
 
 크리에이터 = "reach 채널"이라는 통념을 넘어 **UA·커머스·리텐션 인프라**로 재정의. 실행 이론·신뢰 모델은 [[creator-economy-trust]] 참조. 핵심 데이터(Tebex):
-- 크리에이터 코드 GMV $61.3M = 플랫폼 매출 8.6→9.4%, **코드 사용자 80.4%가 첫 D2C 구매자**
+- 크리에이터 코드 GMV \$61.3M = 플랫폼 매출 8.6→9.4%, **코드 사용자 80.4%가 첫 D2C 구매자**
 - 상위 100 크리에이터(1.6%)가 코드 GMV 75.9% (멱법칙) → 선정은 **팔로워가 아니라 장르 신뢰도·LTV 기여**로
 - 고인텐트 플레이어는 지지 크리에이터와 연결되면 결제 마찰을 감수 → D2C 웹샵([[webshop-direct-monetization]])과 결합 시 강력
 
 ## 스트리머 breakout — "게임"이 아니라 "포맷" ([[carless-meccha-chameleon-breakout]])
 
-Meccha Chameleon($6, 3주 1,150만 장, Twitch #3): 완성된 메카닉이 아니라 *플레이 중 만들어지는 상황*(웃김·기억)이 스트리머 친화를 낳은 케이스. 발라트로식 "안 이쁜 게임 극복"과 달리 여기선 **상황 생성기 자체가 마케팅**. 단 재현 가능성은 낮음("벼락 맞을 확률") — [[rapid-prototyping|프로토타입 축적]]이 벼락을 잡는 그물.
+Meccha Chameleon(\$6, 3주 1,150만 장, Twitch #3): 완성된 메카닉이 아니라 *플레이 중 만들어지는 상황*(웃김·기억)이 스트리머 친화를 낳은 케이스. 발라트로식 "안 이쁜 게임 극복"과 달리 여기선 **상황 생성기 자체가 마케팅**. 단 재현 가능성은 낮음("벼락 맞을 확률") — [[rapid-prototyping|프로토타입 축적]]이 벼락을 잡는 그물.
 
 ## 주목의 수레바퀴 (발라트로 사례)
 
@@ -258,7 +258,7 @@ ZR Forecaster의 tornado chart는 마케팅 결정의 *어디에 시간·돈을 
 ## Paid acquisition 함정 ([[zrconsulting-steam-forecaster-2026]])
 
 ZR Forecaster의 paid acquisition signals:
-- **Cost per wishlist (CAC)**: $2 미만 exceptional / $5~10 평균 / $10+ 손익 어려움
+- **Cost per wishlist (CAC)**: \$2 미만 exceptional / \$5~10 평균 / \$10+ 손익 어려움
 - **Paid 비중**: 40%+ 시 *risk flag* — 유료로 산 wishlist는 organic 대비 conversion이 낮음
 - 60%+ 시 wishlist count가 실제 매출 예측에 *과대평가*되는 상태
 

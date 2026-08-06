@@ -18,10 +18,10 @@ relations:
 
 | 게임 | 출시 | 플랫폼 | 누적 매출 (외부 추정) |
 |---|---|---|---|
-| Honkai Impact 3rd | 2014 (CN) / 2017 (글로벌) | 모바일·PC | ~$1B+ |
-| 원신 (Genshin Impact) | 2020-09-28 | 모바일·PC·PS·Xbox(2024) | **$6~8B+** (2024 기준 외부 추정) |
-| Honkai: Star Rail | 2023-04-26 | 모바일·PC·PS5 | ~$2B+ (출시 1년) |
-| Zenless Zone Zero | 2024-07-04 | 모바일·PC·PS5 | ~$500M+ (출시 6개월) |
+| Honkai Impact 3rd | 2014 (CN) / 2017 (글로벌) | 모바일·PC | ~\$1B+ |
+| 원신 (Genshin Impact) | 2020-09-28 | 모바일·PC·PS·Xbox(2024) | **\$6~8B+** (2024 기준 외부 추정) |
+| Honkai: Star Rail | 2023-04-26 | 모바일·PC·PS5 | ~\$2B+ (출시 1년) |
+| Zenless Zone Zero | 2024-07-04 | 모바일·PC·PS5 | ~\$500M+ (출시 6개월) |
 | Genshin Concert·애니 (2026 예정) | TBA | 미디어 cross | - |
 
 ## 핵심 성공 요인

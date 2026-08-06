@@ -134,7 +134,7 @@ ZR Consulting의 Steam Revenue Forecaster (2026)는 위 행동 기반 지표들�
 
 ### Wishlist conversion 정량 기준
 - Week-1 median: **0.15×** (15%)
-- 가격 $10 초과 시 **0.10×** (33% drop)
+- 가격 \$10 초과 시 **0.10×** (33% drop)
 - 서브장르 분산: median에서 ±10×
 
 ### Review tier multiplier (discoverability gate)
@@ -210,7 +210,7 @@ Zukowski가 2024년 출시 게임 전수 분석. **런치 후 첫 달이 결과�
 | **Slow & Steady** (word of mouth) | 10 | HOLE 3,237 reviews·Pih 1,070 | 낮음 (게임이 본질적으로 좋아야) |
 | **Viral Moment** (단일 creator) | 6 | BRUTALISTICK VR 920 (Bucky 41-video) | 매우 낮음 (luck) |
 | **Slow + Viral 결합** | 6 | The Bonerooms 2,256·Inari 2,126 | 매우 낮음 |
-| **Free-to-Keep trick** ⚠️ 비추천 | 4 | Caribbean Crashers ($0.99): 1,337 reviews 중 *유료 37개만* | 평점·미래 할인 파괴 |
+| **Free-to-Keep trick** ⚠️ 비추천 | 4 | Caribbean Crashers (\$0.99): 1,337 reviews 중 *유료 37개만* | 평점·미래 할인 파괴 |
 | **Abnormal behavior** (봇 추정) | 1 | SPY-der PIG: 매월 정확히 100 reviews·전원 4.6시간 플레이 | 추천 안 함 |
 
 ### 회복 시도 가치 있는 6가지 조건 (Zukowski 진단)

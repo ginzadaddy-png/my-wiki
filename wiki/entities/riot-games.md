@@ -18,10 +18,10 @@ relations:
 
 | 게임 | 출시 | 장르 | 비고 |
 |---|---|---|---|
-| **League of Legends** | 2009-10 | MOBA | 누적 매출 $10B+, 월 활성 1.5억+ |
+| **League of Legends** | 2009-10 | MOBA | 누적 매출 \$10B+, 월 활성 1.5억+ |
 | Teamfight Tactics (TFT) | 2019-06 | Auto Battler | LoL 클라이언트 내 |
 | Legends of Runeterra | 2020-04 | TCG | 2024 운영 축소 |
-| **Valorant** | 2020-06 | Tactical FPS | 누적 매출 $4B+ (2024 외부 추정) |
+| **Valorant** | 2020-06 | Tactical FPS | 누적 매출 \$4B+ (2024 외부 추정) |
 | Wild Rift | 2020-10 (CN) / 2021 (글로벌) | 모바일 MOBA | LoL 모바일 변형 |
 | Ruined King | 2021 | LoL 기반 RPG (Airship Syndicate 개발) |
 | Hextech Mayhem | 2021 | 리듬 게임 |

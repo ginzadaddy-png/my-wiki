@@ -40,7 +40,7 @@ confidence: medium
 ## 윤리적 vs 약탈적 — 경계선
 
 - **게임 다크패턴 3분류** (Zagal·Björk·Lewis, FDG 2013): **시간형(Temporal) / 금전형(Monetary) / 사회적 자본형(Social Capital-Based)**. ⚠️ 스캐폴드의 "심리형"은 오기 — 원 논문 세 번째 범주는 *사회적 자본형*(데일리 로그인 강요·소셜 피라미드). '심리형'은 후속 문헌(Karlsen 2019 등)이 추가한 차원.
-- **규제 사례** — FTC가 Epic Games에 총 **$520M**($275M COPPA 벌금 + $245M 다크패턴 환불, 2022-12) 부과, "dark patterns"를 공식 명시. ([FTC 보도자료](https://www.ftc.gov/news-events/news/press-releases/2022/12/fortnite-video-game-maker-epic-games-pay-more-half-billion-dollars-over-ftc-allegations))
+- **규제 사례** — FTC가 Epic Games에 총 **\$520M**(\$275M COPPA 벌금 + \$245M 다크패턴 환불, 2022-12) 부과, "dark patterns"를 공식 명시. ([FTC 보도자료](https://www.ftc.gov/news-events/news/press-releases/2022/12/fortnite-video-game-maker-epic-games-pay-more-half-billion-dollars-over-ftc-allegations))
 - **루트박스 규제 분기**(양측 병기): **벨기에(2018)** — 신법이 아니라 기존 도박법 *재해석*, 실효성 낮음(상위 iPhone 게임 82.0%가 여전히 운영, Xiao 2023). **영국 DCMS** — 도박 *불분류* 유지(자율규제, 조건부).
 - **WHO ICD-11 게이밍 장애(6C51**, 2022-01-01 발효) = 통제력 손상·우선순위 증가·부정적 결과에도 지속의 *행동* 기준(시간량 아님) ↔ **Aarseth et al.(2017, 33인)** 반론: 근거 부족·정상 게이머 위양성·낙인·도덕적 공황 → 학계 미해결. WHO 채택 입장과 반론을 *병기*해야 함.
 

@@ -33,7 +33,7 @@ GameDiscoverCo Simon Carless 2025-10 데이터 (>25k wishlist 게임, 2024-09~20
 |---|---|
 | All games (>25k wishlists) | **0.15×** |
 | Adult 게임 제외 | 0.14× |
-| **>$10 가격 게임만** | **0.10×** |
+| **>\$10 가격 게임만** | **0.10×** |
 
 **Variance**: 게임마다 *10-20×* 차이 (median의 10% ~ 10× 사이 분포). 가장 중요한 단일 caveat — *median 단일 숫자로 자기 게임 예측 시도 자체가 near-fatally flawed*.
 

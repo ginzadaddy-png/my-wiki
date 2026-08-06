@@ -9,7 +9,7 @@ title: "소스 전체 목록"
 | [sony-ir-1q-fy2026](sony-ir-1q-fy2026.md) | 소니 Q1 FY2026 IR — 매출 정체·이익 +37%의 실체 — G&NS 환율 제거 시 매출 약 -8.7%·이익 증가는 관세환급+환율·PS5 출하 -36%·플레이타임 -4%·디지털 82%(전년 83%)·FY26 가이던스 매출 -3%·영익 +42% | 2026-07-31 |
 | [ps-physical-digital-share-2026](ps-physical-digital-share-2026.md) | PlayStation 패키지·디지털 비중 실측 (Push Square, 소니 IR 인용) — 유닛 물리 15%(디지털 85%)·매출 물리 약 7%·FY 78%·2024년 디스크 브랜드 매출 3% | 2026-07-01 |
 | [gamesight-creator-count-prediction-2026-07](gamesight-creator-count-prediction-2026-07.md) | Gamesight — 흥행 예측은 시청 시간이 아니라 '창작자 수' (GamesIndustry.biz) — PvP FPS 25개 분석·day-3 창작자 수 적중률 72%·런치월 82%·high/stable/low 3분류 | 2026-07-30 |
-| [alinea-ps-physical-fc27-odyssey-2026-07](alinea-ps-physical-fc27-odyssey-2026-07.md) | Alinea — PS 패키지 비중·FC 27 Ultimate Plus·놀란 영화의 AC 오디세이 부활 (Elliott) — 패키지 48.0%~10.8%·디스크 $45 vs 디지털 $70(+54%)·$150 SKU·DAU 122K→233K | 2026-07-30 |
+| [alinea-ps-physical-fc27-odyssey-2026-07](alinea-ps-physical-fc27-odyssey-2026-07.md) | Alinea — PS 패키지 비중·FC 27 Ultimate Plus·놀란 영화의 AC 오디세이 부활 (Elliott) — 패키지 48.0%~10.8%·디스크 \$45 vs 디지털 \$70(+54%)·\$150 SKU·DAU 122K→233K | 2026-07-30 |
 | [fromsoftware-graphics-cedec2021](fromsoftware-graphics-cedec2021.md) | 프롬소프트웨어 그래픽스 제작 철학 (CEDEC+KYUSHU 2021, 4Gamer) — 배경 3원칙(콘셉트→에셋→리얼리티)·광원/시야 유도·실루엣·캐릭터 러프→디테일(경도)→리토폴로지→텍스처 | 2021-11-30 |
 | [fromsoftware-information-map-cedec2021](fromsoftware-information-map-cedec2021.md) | 프롬소프트웨어 레벨디자인 툴 '情報地図' (CEDEC 2021, IGN Japan) — Leaflet 조감 지도·플레이 경로/데스/히트맵·부하 계측·다중 통계로 드랍/난이도 밸런싱 | 2021-08-27 |
 | [krafton-ir-2q26](krafton-ir-2q26.md) | 크래프톤 2Q26·1H26 IR — 역대 최대 반기 매출·영익 + 복수 성장축(PUBG+Subnautica 2) — 1H26 매출 2.66조(+73.3%)·영익 9,725억·2Q26 순이익 −299억·Subnautica 2 EA 22일 500만장 | 2026-07-29 |
@@ -23,20 +23,20 @@ title: "소스 전체 목록"
 | [cedec2026-neuroaesthetics-aesthetic-emotion](cedec2026-neuroaesthetics-aesthetic-emotion.md) | CEDEC 2026 — 우는 게임·조용한 게임의 신경과학 (石津智大) — 심리적 거리·혼합 감정·가상 감정·내측 안와전두피질·애틋함 62% 기쁨 영역·최적 침묵 5초 | 2026-07-22 |
 | [naavik-xbox-strategy-reset-2026-07](naavik-xbox-strategy-reset-2026-07.md) | Naavik — 10년 Xbox 전략을 뒤집은 메모 (Ahonen) — 마진 3%·Game Pass 3천만 정체·감원 3,200·관리계층 14→3~5·익스클루시브 복귀 | 2026-07-19 |
 | [carless-dear-passengers-wishlists-2026-07](carless-dear-passengers-wishlists-2026-07.md) | GameDiscoverCo — Dear Passengers 위시리스트 100만(3일)이 말하는 디스커버리 (Carless) — WL:팔로워 35배·friendslop top20 5개·클리퍼블 트레일러 | 2026-07-17 |
-| [carless-paralives-million-2026-07](carless-paralives-million-2026-07.md) | GameDiscoverCo — Paralives 첫 달 100만 장 (Carless) — 환불 6.5%·잔여 위시리스트 180만·7년 Patreon $3M·모드 25k | 2026-07-14 |
+| [carless-paralives-million-2026-07](carless-paralives-million-2026-07.md) | GameDiscoverCo — Paralives 첫 달 100만 장 (Carless) — 환불 6.5%·잔여 위시리스트 180만·7년 Patreon \$3M·모드 25k | 2026-07-14 |
 | [sp-kagan-console-shipments-2026](sp-kagan-console-shipments-2026.md) | S&P Kagan — 2026 콘솔 출하 −19.5%(33.9M) 전망 (McEvoy/GamesIndustry.biz) — Switch2 17.1M·PS5 13.2M·Xbox 2.5M "0으로 wind-down"·2030 회복 | 2026-07-13 |
-| [alinea-steam-record-year-2026](alinea-steam-record-year-2026.md) | Alinea — Steam Is Having Another Record Year (H1 2026, Elliott) — H1 매출 $11.1B·백카탈로그 79%·신작 21% | 2026-07-09 |
+| [alinea-steam-record-year-2026](alinea-steam-record-year-2026.md) | Alinea — Steam Is Having Another Record Year (H1 2026, Elliott) — H1 매출 \$11.1B·백카탈로그 79%·신작 21% | 2026-07-09 |
 | [nexon-cmb-2026-transformation](nexon-cmb-2026-transformation.md) | 넥슨 2026 CMB — Transformation Plan (2027 매출 7조 목표 철회·비용 규율·선별 M&A·투톱) | 2026-03-31 |
 | [nexon-ncsoft-mmo-recurrent-2026](nexon-ncsoft-mmo-recurrent-2026.md) | 한국 MMO recurrent 카탈로그 — 넥슨 vs 엔씨 (IR 종합) — 메이플 22년 최고매출·리니지 집중 26년만 첫 적자 | 2026-05-14 |
 | [pearl-abyss-ir-1q26](pearl-abyss-ir-1q26.md) | 펄어비스 1Q26 IR — 붉은사막 출시로 recurrent floor + 프리미엄 런치 실증 — 매출 3,285억(+419.8%)·붉은사막 81%·미주유럽 80%+·CCP 매각 | 2026-05-13 |
 | [krafton-ir-fy2025-1q26](krafton-ir-fy2025-1q26.md) | 크래프톤 FY2025·1Q26 IR — 매출↑ 영익↓ 재투자 국면 + Big Franchise IP 전략 — FY25 3.3조(영익 −10.8%)·1Q26 1.37조·PUBG IP 첫 분기 1조·7조 목표 유지 | 2026-04-30 |
-| [naavik-ai-memory-console-economics-2026-07](naavik-ai-memory-console-economics-2026-07.md) | Naavik — AI 붐이 콘솔 하드웨어 경제를 재편 (메모리 쇼크·PS5 $649·Xbox $799·수요 −43%) | 2026-07-12 |
+| [naavik-ai-memory-console-economics-2026-07](naavik-ai-memory-console-economics-2026-07.md) | Naavik — AI 붐이 콘솔 하드웨어 경제를 재편 (메모리 쇼크·PS5 \$649·Xbox \$799·수요 −43%) | 2026-07-12 |
 | [carless-steam-fans-ai-sentiment-2026-07](carless-steam-fans-ai-sentiment-2026-07.md) | GameDiscoverCo — Steam 팬은 게임 속 AI를 어떻게 보나 (설문, Carless) — 무관심 43%·신뢰 17%·MAU ~1.98억 | 2026-07-07 |
 | [gdc-helldivers2-team-scaling](gdc-helldivers2-team-scaling.md) | GDC — 헬다이버스 2 팀 규모 스케일링 (20→105→130, Lemaire/Arrowhead) — 소규모 팀 대작 | 2025 |
 | [pilestedt-helldivers2-preproduction-lesson](pilestedt-helldivers2-preproduction-lesson.md) | 헬다이버스 2 개발 교훈 — 프리프로덕션 생략으로 4년+ 초과 (Pilestedt) — 검증 먼저·작게 시작 | 2025 |
 | [naavik-creator-led-growth](naavik-creator-led-growth.md) | Naavik — The Next Wave of Creator-Led Growth (크리에이터를 커머스 인프라로, Bush) — 크리에이터 코드 GMV·LTV·멱법칙 | 2026-07-05 |
 | [zukowski-demos-wishlist-conversion](zukowski-demos-wishlist-conversion.md) | How To Market A Game — 데모 대부분은 위시리스트로 안 이어진다 (Zukowski) — 전환율 19.3% median·Sickos | 2026-06-30 |
-| [carless-meccha-chameleon-breakout](carless-meccha-chameleon-breakout.md) | GameDiscoverCo — Meccha Chameleon 브레이크아웃 해부 ($6·1,150만 장, Carless) — 포맷형 히트·프로토타입 축적 | 2026-06-30 |
+| [carless-meccha-chameleon-breakout](carless-meccha-chameleon-breakout.md) | GameDiscoverCo — Meccha Chameleon 브레이크아웃 해부 (\$6·1,150만 장, Carless) — 포맷형 히트·프로토타입 축적 | 2026-06-30 |
 | [gdc14-tlou-buddy-ai](gdc14-tlou-buddy-ai.md) | Endure and Survive: The AI of The Last of Us (Dyckhoff / Naughty Dog, GDC14) — 버디 AI·스텔스 투명화 | 2014-08 |
 | [gdc14-elizabeth-ai-postmortem](gdc14-elizabeth-ai-postmortem.md) | Bringing BioShock Infinite's Elizabeth to Life (Abercrombie / Irrational, GDC14) — 짐 아닌 동반자·무적·자원 공급 | 2014-03 |
 | [gdc06-fear-goap](gdc06-fear-goap.md) | Three States and a Plan: The AI of F.E.A.R. (Orkin / Monolith, GDC06) — GOAP·지능 착시 | 2006-03 |
@@ -111,7 +111,7 @@ title: "소스 전체 목록"
 | [gdc26-steam-page-needs-soul](gdc26-steam-page-needs-soul.md) | [GDC26] 당신의 스팀 페이지에는 영혼이 필요하다 (Thomas Reisenegger / Future Friends) | 2026-03 |
 | [gdc25-ghost-of-yotei-combat](gdc25-ghost-of-yotei-combat.md) | [GDC25] 칼날을 벼리다: 고스트 오브 요테이 전투 진화 (Fishman/서커펀치) | 2025 |
 | [sensortower-2026-report](sensortower-2026-report.md) | Sensor Tower 2026 게임 산업 현황 보고서 | 2026-03 |
-| [matthew-ball-2026-report](matthew-ball-2026-report.md) | 매튜 볼 2026년 보고서 — 최고치인데 왜 힘든가 (Epyllion 원문 167p) — 콘텐츠 지출 $1,952억(+5.3%)·소비지출 +40%인데 영업이익 절대액 감소·콘솔 순성장 119%를 구독이 흡수·게임 판매 -11%·가격 인상이 성장의 실체 | 2026-04 |
+| [matthew-ball-2026-report](matthew-ball-2026-report.md) | 매튜 볼 2026년 보고서 — 최고치인데 왜 힘든가 (Epyllion 원문 167p) — 콘텐츠 지출 \$1,952억(+5.3%)·소비지출 +40%인데 영업이익 절대액 감소·콘솔 순성장 119%를 구독이 흡수·게임 판매 -11%·가격 인상이 성장의 실체 | 2026-04 |
 | [gdc2023-no-budget-marketing](gdc2023-no-budget-marketing.md) | [GDC23] 예산 없는 DIY 인디 마케팅 | 2023 |
 | [gdc2023-indie-starter-kit](gdc2023-indie-starter-kit.md) | [GDC23] 인디 스타터 킷 — 게임 회사 창업 기초 | 2023 |
 | [gdc2019-spiderman-animation](gdc2019-spiderman-animation.md) | [GDC19] 마블 스파이더맨 시네마틱 개발 일지 | 2019 |

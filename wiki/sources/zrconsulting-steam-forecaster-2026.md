@@ -22,7 +22,7 @@ source_published: 2026-05
 [GameDiscoverCo 2025-10 연구](https://newsletter.gamediscover.co/p/the-state-of-steam-wishlist-conversions)(Simon Carless) 데이터를 기반으로:
 
 - **Week-1 median conversion: 0.15×** (15% of wishlists)
-- **가격 $10 초과 시: 0.10×** (33% 감소) — *가격이 가장 직접적인 conversion 영향 요인*
+- **가격 \$10 초과 시: 0.10×** (33% 감소) — *가격이 가장 직접적인 conversion 영향 요인*
 - 분산: median에서 ±10× 변동 가능
 - 42개 sub-genre × 12 parent family 별도 벤치마크
 
@@ -84,7 +84,7 @@ Phenom tier는 *연 1회 수준*. 의도된 희소성: "part craft, part timing,
 
 - **Regional pricing haircut**: 글로벌 20-30% / US·EU 중심 5-15%
 - **Refund rate**: 평균 7% (단편 10-15%, 장편 3-7%)
-- **Steam cut**: 30% (≤$10M), 25% ($10-50M), 20% (>$50M) — 인디는 사실상 30%만 해당
+- **Steam cut**: 30% (≤\$10M), 25% (\$10-50M), 20% (>\$50M) — 인디는 사실상 30%만 해당
 
 ## 8 Drivers — Sensitivity Ranking
 
@@ -136,7 +136,7 @@ ZR이 *DACH + Central Europe 인디 publishing 협상* 경험으로 모델링한
 - [[steam-revenue-forecasting|Steam 매출 예측 모델]] — 본 자료가 만든 신규 concept (모델·매트릭스·sensitivity 정량 정리)
 - [[publisher-deal-structures|퍼블리셔 딜 구조]] — 본 자료가 만든 신규 concept (4종 구조·stress test)
 - [[launch-metrics|흥행 예측 지표]] — 가짜 신호 vs 행동 기반 + ZR conversion·refund·time distribution 보강
-- [[game-pricing-strategy|게임 가격 전략]] — $10 threshold drop · regional haircut 정량 보강
+- [[game-pricing-strategy|게임 가격 전략]] — \$10 threshold drop · regional haircut 정량 보강
 - [[marketing-strategy|마케팅 전략]] — Demo·Next Fest lift · 8-driver sensitivity 보강
 - [[indie-business-strategy|인디 비즈니스 전략]] — break-even · publisher deal stress test 보강
 - [[zukowski-next-fest-strategy|Zukowski Next Fest 분석]] — 같은 데이터 소스 (Chris Zukowski 2024 success rate)

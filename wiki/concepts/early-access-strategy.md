@@ -42,7 +42,7 @@ confidence: high
 라리안·하데스가 *EA 기간* 안에서 신뢰를 쌓았다면, [[paralives|Paralives]]는 **EA 이전 7년의 Patreon 커뮤니티**로 신뢰를 선적립한 케이스. 15명 팀이 EA 첫 달 100만 장을 판매했다.
 
 - **환불률 6.5%** (업계 중앙값 9.5% 하회) + **긍정 90%** + 잔여 위시리스트 180만 — 기대·실제가 정합하는 건강 신호
-- **Patreon 2019~ 월 ~$50k·누적 $3M**: EA 진입 전에 이미 discovery engine을 확보. "유료 DLC 없음, 무료 확장만" 약속으로 The Sims 4 대비 [[player-trust-design|신뢰 차별화]]
+- **Patreon 2019~ 월 ~\$50k·누적 \$3M**: EA 진입 전에 이미 discovery engine을 확보. "유료 DLC 없음, 무료 확장만" 약속으로 The Sims 4 대비 [[player-trust-design|신뢰 차별화]]
 - **첫 달 Workshop 모드 ~25,000개**: EA 커뮤니티가 곧 창작 커뮤니티로 전환
 - 교훈: EA의 신뢰는 *EA 시작 시점부터* 쌓는 것이 아니라, 그 이전 커뮤니티 단계에서 선행 적립하면 런치 전환이 극대화됨
 

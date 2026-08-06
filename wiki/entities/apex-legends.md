@@ -21,7 +21,7 @@ relations:
 |---|---|
 | 출시 | 2019-02-04 |
 | 누적 유저 (외부 추정) | **1억+** (2024) |
-| 누적 매출 (외부 추정) | **$3B+** (2024) |
+| 누적 매출 (외부 추정) | **\$3B+** (2024) |
 | 출시 1일 동접 | 250만 |
 | 출시 1주 동접 | **2,500만** |
 | 출시 1달 동접 | **5,000만** |
@@ -52,7 +52,7 @@ relations:
 [[live-service-design|라이브 서비스 설계]] 관점:
 
 1. **90일 시즌** — 신규 레전드·맵·이벤트·시즌 패스
-2. **Battle Pass + Apex Packs (가챠 박스)** — Battle Pass $9.99/시즌, *Apex Packs는 외형 가챠*
+2. **Battle Pass + Apex Packs (가챠 박스)** — Battle Pass \$9.99/시즌, *Apex Packs는 외형 가챠*
 3. **무료 ranked play** — 경쟁 모드 완전 무료
 4. **레전드별 ability + 무기 메타** — *시즌마다 균형 조정*. 일부 레전드는 *시즌 메타 dominance* → *대거 nerf* 사이클
 5. **Collection Events** — *시즌 중간* 한정 외형 이벤트 (가챠 + 직접 구매)
@@ -71,7 +71,7 @@ relations:
 | 항목 | Apex | [[genshin-impact\|Genshin]] | [[fortnite\|Fortnite]] | [[league-of-legends\|LoL]] |
 |---|---|---|---|---|
 | 장르 | BR + Hero-shooter | 액션 RPG | BR + UGC | MOBA |
-| 누적 매출 | $3B+ | $6~8B+ | $20B+ | $10B+ |
+| 누적 매출 | \$3B+ | \$6~8B+ | \$20B+ | \$10B+ |
 | 시즌 사이클 | 90일 | 6주 | 3개월 | 2주 패치+연 시즌 |
 | 캐릭터/콘텐츠 | 26+ 레전드 | 80+ 캐릭터 | 외부 IP 흡수 | 165+ 챔피언 |
 | 마케팅 시그니처 | **Surprise drop** | 글로벌 launch | 콜라보 IP | e스포츠·Arcane |

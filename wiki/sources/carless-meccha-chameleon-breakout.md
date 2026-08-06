@@ -13,7 +13,7 @@ confidence: high
 
 **원문**: [newsletter.gamediscover.co](https://newsletter.gamediscover.co/p/look-we-have-to-talk-about-meccha) — GameDiscoverCo, Simon Carless, 2026-06-30
 
-$6짜리 멀티플레이 숨바꼭질 게임 Meccha Chameleon(플레이어가 자신을 칠해 환경에 위장)이 2026-06-09 출시 후 **3주 만에 1,150만 장·$50M+ 매출**, Twitch #3(10.4M 시청 시간)을 기록한 브레이크아웃 케이스 해부.
+\$6짜리 멀티플레이 숨바꼭질 게임 Meccha Chameleon(플레이어가 자신을 칠해 환경에 위장)이 2026-06-09 출시 후 **3주 만에 1,150만 장·\$50M+ 매출**, Twitch #3(10.4M 시청 시간)을 기록한 브레이크아웃 케이스 해부.
 
 ## 왜 성립했나 — 저비용 축적
 - 기존 Unreal Engine 프레임워크 + **수년간 쌓인 프로토타입 자산** 위에 구축

@@ -10,7 +10,7 @@ relations:
   parentOf: []
 ---
 
-**Respawn Entertainment**는 2010 설립 미국 LA. 창업자 Vince Zampella·Jason West 등 *Infinity Ward 출신* (Call of Duty: Modern Warfare 시리즈 제작). 2017 **[[electronic-arts|EA]] 인수** ($400M+). [[live-service-design|라이브 서비스 설계]]와 [[combat-design|전투 디자인]] 양쪽에서 *Movement-shooter 장르 정의*·*F2P BR + 싱글플레이 듀얼 모델*의 사례로 인용된다.
+**Respawn Entertainment**는 2010 설립 미국 LA. 창업자 Vince Zampella·Jason West 등 *Infinity Ward 출신* (Call of Duty: Modern Warfare 시리즈 제작). 2017 **[[electronic-arts|EA]] 인수** (\$400M+). [[live-service-design|라이브 서비스 설계]]와 [[combat-design|전투 디자인]] 양쪽에서 *Movement-shooter 장르 정의*·*F2P BR + 싱글플레이 듀얼 모델*의 사례로 인용된다.
 
 > 💡 **핵심 포지셔닝:** *F2P 라이브 서비스(Apex) + 싱글플레이 AAA(Star Wars Jedi)*의 *듀얼 모델*. 1개 스튜디오에서 *완전히 다른 두 비즈니스 모델*을 동시 운영하는 *멀티 프로젝트*([[multi-project-development|멀티 프로젝트 개발]])의 표본. *Apex Legends가 5년 누적 1억+ 유저*인 동시에 *Star Wars Jedi 시리즈가 2,000만+* — 두 모델의 *cash flow 균형*이 회사 안정성.
 
@@ -20,7 +20,7 @@ relations:
 |---|---|---|---|
 | Titanfall | 2014-03 | 멀티플레이 슈터 | ~10M (외부 추정) |
 | Titanfall 2 | 2016-10 | 싱글+멀티 | 컬트 클래식, 약 5M |
-| **Apex Legends** | 2019-02-04 | F2P BR | **1억+** 누적, 매출 $3B+ (외부 추정) |
+| **Apex Legends** | 2019-02-04 | F2P BR | **1억+** 누적, 매출 \$3B+ (외부 추정) |
 | Star Wars Jedi: Fallen Order | 2019-11 | 싱글 액션 어드벤처 | ~10M (EA IR) |
 | Medal of Honor: Above and Beyond | 2020-12 | VR (Respawn LA + Oculus) | 종료 |
 | **Star Wars Jedi: Survivor** | 2023-04 | 싱글 액션 어드벤처 | ~10M+ (EA IR) |
@@ -38,7 +38,7 @@ relations:
 
 [[live-service-design|라이브 서비스 설계]] 관점:
 - **시즌 시스템 90일** — 신규 레전드·맵·이벤트·시즌 패스
-- **Battle Pass + 가챠 박스** — Apex Packs (가챠), Battle Pass(시즌별 $9.99)
+- **Battle Pass + 가챠 박스** — Apex Packs (가챠), Battle Pass(시즌별 \$9.99)
 - **무료 ranked play** — 경쟁 모드 무료
 - ***레전드별 ability + 무기 메타***가 *시즌마다 균형 조정*
 - *Pinging system* — 음성 채팅 없이도 *팀워크 가능한 UX*가 표준이 됨

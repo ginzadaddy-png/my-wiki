@@ -19,9 +19,9 @@ relations:
 | 사업 | 출시 | 비고 |
 |---|---|---|
 | Unreal Engine | 1998 ~ | UE1·2·3·4·5, 게임 엔진 표준 |
-| Gears of War | 2006 | MS 인수 후 IP 매각 (2014, $99M) |
+| Gears of War | 2006 | MS 인수 후 IP 매각 (2014, \$99M) |
 | Fortnite Save the World | 2017-07 | 원래 PvE 게임 |
-| **Fortnite Battle Royale** | 2017-09 | F2P BR, 누적 매출 $20B+ (외부 추정) |
+| **Fortnite Battle Royale** | 2017-09 | F2P BR, 누적 매출 \$20B+ (외부 추정) |
 | Epic Games Store | 2018-12 | 12% 수수료 (Steam 30% 도전) |
 | Fortnite Chapter 2·3·4·5·6 | 2019~2025 | 시즌·챕터 시스템 |
 | Fall Guys (Mediatonic 인수) | 2020 | 2021 EGS 인수 |
@@ -33,7 +33,7 @@ relations:
 
 ### 1. Unreal Engine ([[unreal-engine-5|UE5]])
 - UE1(1998)부터 30년+ 운영
-- *5% 로열티 + $1M까지 무료* 라이선스 모델
+- *5% 로열티 + \$1M까지 무료* 라이선스 모델
 - AAA 표준 — [[clair-obscur-expedition-33|33원정대]]·[[hogwarts-legacy|호그와트 레거시]]·[[cd-projekt-red|CDPR]] Witcher 4
 - *수직 통합 효과* — Fortnite의 엔진 요구사항이 UE5 기능 우선순위 결정
 

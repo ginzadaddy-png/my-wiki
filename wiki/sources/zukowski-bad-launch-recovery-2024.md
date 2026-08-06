@@ -32,8 +32,8 @@ Chris Zukowski가 2024년 출시 18,239 게임 전부를 분석. *Week 1 sales <
 선형 성장 — *word of mouth* (친구→친구). 컨텐츠 크리에이터 대규모 발화는 아님.
 
 대표 사례:
-- **HOLE** ($4.99 shooter): 3,237 reviews — 진짜 "hidden gem" 케이스
-- **Pih** ($8.99 shooter): 1,070 reviews — 460일 후 exponential 가속
+- **HOLE** (\$4.99 shooter): 3,237 reviews — 진짜 "hidden gem" 케이스
+- **Pih** (\$8.99 shooter): 1,070 reviews — 460일 후 exponential 가속
 
 공통 패턴:
 - *마케팅 메타 미준수*: coming soon page 짧음, wishlist 5000개 미만, 데모 없음 등
@@ -46,7 +46,7 @@ Chris Zukowski가 2024년 출시 18,239 게임 전부를 분석. *Week 1 sales <
 평평한 성장 → 단일 사건(주로 컨텐츠 크리에이터)으로 폭발.
 
 대표 사례:
-- **BRUTALISTICK VR** ($9.99 VR shooter): 920 reviews — VR 크리에이터 Bucky가 41개 video 시리즈 제작. *Bucky 본인이 "댓글에서 추천받음"이라고 시작점 언급* (= word of mouth → creator)
+- **BRUTALISTICK VR** (\$9.99 VR shooter): 920 reviews — VR 크리에이터 Bucky가 41개 video 시리즈 제작. *Bucky 본인이 "댓글에서 추천받음"이라고 시작점 언급* (= word of mouth → creator)
 - **Pit of Goblin / Welcome to Dustown** — 호러 friendslop
 
 공통 패턴:
@@ -61,7 +61,7 @@ Chris Zukowski가 2024년 출시 18,239 게임 전부를 분석. *Week 1 sales <
 처음에는 천천히 자라다가 magic moment.
 
 대표 사례:
-- **Inari** ($14.99 adult): 2,126 reviews
+- **Inari** (\$14.99 adult): 2,126 reviews
 - **The Bonerooms** (free 호러 friendslop): 2,256 reviews
 - **New Day** (free narrative): 747 reviews
 
@@ -70,9 +70,9 @@ Chris Zukowski가 2024년 출시 18,239 게임 전부를 분석. *Week 1 sales <
 Steamworks support에 *undocumented setting* 요청. 한 주 동안 100% 할인.
 
 대표 사례:
-- **Caribbean Crashers** ($0.99): 1,337 reviews — 그러나 **유료 review는 37개**, CCU 122 peak
-- **Rat Quest** ($4.99): 1,474 reviews / 유료 17개
-- **WHAT THE PAK?!** ($5.99): 1,255 reviews / 유료 48개
+- **Caribbean Crashers** (\$0.99): 1,337 reviews — 그러나 **유료 review는 37개**, CCU 122 peak
+- **Rat Quest** (\$4.99): 1,474 reviews / 유료 17개
+- **WHAT THE PAK?!** (\$5.99): 1,255 reviews / 유료 48개
 
 문제점:
 - 무료 기간 review는 *총 review 카운트에 안 들어감*
@@ -136,4 +136,4 @@ Valve: "Steam algorithm은 과거 부진을 처벌하지 않음, 매출만 본�
 
 - 28개 중 일부는 통계적 outlier (Bucky 1명에 의해 살아남은 BRUTALISTICK VR 같은 luck)
 - VGInsights 데이터에 EA→1.0 transition 게임은 제외됨
-- 28개 회복 게임의 절대 매출 분포는 미공개 (1000+ review = $150K+ 추정)
+- 28개 회복 게임의 절대 매출 분포는 미공개 (1000+ review = \$150K+ 추정)

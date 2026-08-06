@@ -87,7 +87,7 @@ graph 추론(플랫폼별 게임·독점작 질의)을 위한 플랫폼 노드.
 | [[xbox-series]] | Xbox Series X\|S |
 | [[xbox-one]] | Xbox One |
 | [[nintendo-switch]] | Nintendo Switch |
-| [[nintendo-switch-2]] | Nintendo Switch 2 — 2025-06, $499 저가 우위·cross-gen carry |
+| [[nintendo-switch-2]] | Nintendo Switch 2 — 2025-06, \$499 저가 우위·cross-gen carry |
 
 ## 게임
 
@@ -125,9 +125,9 @@ graph 추론(플랫폼별 게임·독점작 질의)을 위한 플랫폼 노드.
 | [[alan-wake-2]] | Remedy, 2023, 두 주인공·꿈의 논리·루핑 진행 미션 구조 |
 | [[a-plague-tale-requiem]] | Asobo, 2022, 20명 아티스트·PS5 전용·클로드 로랭 비주얼 |
 | [[peak]] | Landfall+Aggro Crab, 2025, 4개월 개발·첫 주 100만 본, friendslop 협동 등반 |
-| [[genshin-impact]] | miHoYo, 2020, F2P 액션 RPG, $6~8B+, 6주 사이클·cross-platform, *원신 쇼크* |
-| [[fortnite]] | Epic Games, 2017, F2P BR + UGC, $20B+, 50+ 콜라보 IP·UEFN 메타플랫폼 |
-| [[league-of-legends]] | Riot Games, 2009, F2P MOBA, $10B+, 15년+ 단일 IP, Arcane transmedia |
+| [[genshin-impact]] | miHoYo, 2020, F2P 액션 RPG, \$6~8B+, 6주 사이클·cross-platform, *원신 쇼크* |
+| [[fortnite]] | Epic Games, 2017, F2P BR + UGC, \$20B+, 50+ 콜라보 IP·UEFN 메타플랫폼 |
+| [[league-of-legends]] | Riot Games, 2009, F2P MOBA, \$10B+, 15년+ 단일 IP, Arcane transmedia |
 | [[apex-legends]] | Respawn, 2019, F2P BR + Hero-shooter, 1억+ 유저, Surprise drop 마케팅 표본 |
 | [[donkey-kong-bananza]] | 닌텐도, 3D 액션 플랫포머, 복셀 전면 파괴 — "부수는 것이 다음에 부술 이유", 보상 8할 지하 매장 |
 | [[silent-hill-f]] | [[konami]]·NeoBards(대만), 사이코로지컬 호러 — 일본 무대(기후현), 竜騎士07 시나리오, 「推し」 팬덤 설계 |

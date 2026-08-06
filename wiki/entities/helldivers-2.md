@@ -18,10 +18,10 @@ relations:
 |------|------|
 | 개발사 | [[arrowhead-game-studios]] |
 | 출시 | 2024년 2월 (PC+PS5), 2025년 8월 (Xbox 추가) |
-| 가격 | $40 |
+| 가격 | \$40 |
 | 장르 | 3인칭 코옵 슈터 |
 | 판매량 | 2,000만장+ |
-| 수익 | $7억+ |
+| 수익 | \$7억+ |
 | Steam 비중 | 1,310만장 (65%+) |
 
 ## 개발 규모·기간 ([[gdc-helldivers2-team-scaling]] · [[pilestedt-helldivers2-preproduction-lesson]])
