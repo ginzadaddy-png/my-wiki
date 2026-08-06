@@ -1,6 +1,6 @@
 ---
 date: 2026-08-03
-topic: "콘솔 물리 유통 폐지는 옳은가 — 환류 경로 없는 확장은 무효하며, 설치기반 정체 국면의 수익 포커싱은 정상적 대응이다"
+topic: "콘솔 물리 유통 폐지는 옳은가 — 늘어난 이용자가 매출로 이어질 때만 의미가 있고, 기기 판매가 정체된 상황에서 수익을 보는 것은 정상적 대응이다"
 type: hypothesis
 verification_status: partially_supported
 related_wiki: ["[[console-retail-strategy]]", "[[game-pricing-strategy]]", "[[audience-expansion]]", "[[game-market-trends]]", "[[subscription-economy-gaming]]"]
