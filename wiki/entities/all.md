@@ -2,7 +2,7 @@
 title: "전체 개체 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-07-30
+updated: 2026-08-03
 ---
 
 ← [홈으로](../index.md)
@@ -24,6 +24,7 @@ updated: 2026-07-30
 | [[sucker-punch-productions]] | 소니 퍼스트 파티, 미국, 고스트 시리즈 |
 | [[mint-rocket]] | 넥슨 계열, 데이브 더 다이버 |
 | [[embark-studios]] | 넥슨 자회사, 스웨덴, 아크 레이더스 |
+| [[bungie]] | SIE 자회사, Halo·Destiny, 2026-06 감원 후 Marathon 단일 체제 |
 | [[capcom]] | 일본 대형 퍼블리셔, RE ENGINE, 2500명 전략 |
 | [[fromsoftware]] | 소울 시리즈, 300명 개발 인력, 유동적 팀 배치 |
 | [[naughty-dog]] | 소니 퍼스트 파티, 언차티드·TLOU, 멀티 개발 고민 |
@@ -99,6 +100,8 @@ graph 추론(플랫폼별 게임·독점작 질의)을 위한 플랫폼 노드.
 | [[ghost-of-yotei]] | 서커펀치, 오픈월드 액션, 2026 |
 | [[dave-the-diver]] | 민트로켓, 혼합 장르, 스팀 성공 사례 |
 | [[arc-raiders]] | 엠바크, 익스트랙션 슈터, 120→25명 리셋 |
+| [[marathon]] | 번지, 익스트랙션 슈터, F2P→\$39.99 프리미엄 전환 |
+| [[elden-ring-nightreign]] | 프롬소프트웨어, 3인 협동 독립작, 본편 대비 \$39.99 |
 | [[aion-2]] | 엔씨소프트 MMORPG, 아이온(2008) 후속 — Q1 26 ₩1,368억, 엔씨 PC 매출 3배 견인 |
 | [[crimson-desert]] | 펄어비스, 오픈월드 액션 어드벤처, 2026 1Q 출시 — 26일 500만장·1Q26 매출 2,665억(미주/유럽 80%+), 블랙스페이스 엔진 첫 상용작 |
 | [[subnautica-2]] | [[unknown-worlds]]·[[krafton]], 수중 생존 어드벤처, 2026.5.15 EA — 22일 500만장·1H26 Subnautica IP 2,325억, 크래프톤 두 번째 Franchise IP |

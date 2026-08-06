@@ -6,8 +6,8 @@ Last updated 2026-08-03
 
 <div class="wiki-stats">
   <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">170</span></a></div>
-  <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">48</span></a></div>
-  <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">40</span></a></div>
+  <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">49</span></a></div>
+  <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">42</span></a></div>
   <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">71</span></a></div>
   <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">18</span></a></div>
   <div class="stat-card"><a href="reports/all.md" class="internal"><span class="stat-label">보고서</span><span class="stat-num">5</span></a></div>
