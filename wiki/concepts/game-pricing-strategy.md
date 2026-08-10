@@ -9,11 +9,13 @@ sources: [
   "[[gdc26-newzoo-market-analysis]]",
   "[[capcom-fy26-ir]]",
   "[[zrconsulting-steam-forecaster-2026]]",
-  "[[alinea-ps-physical-fc27-odyssey-2026-07]]"
+  "[[alinea-ps-physical-fc27-odyssey-2026-07]]",
+  "[[alinea-ps-july-2026-cod-catalog]]",
+  "[[alinea-remakes-remasters-ranking-2026-07]]"
 ]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
 created: 2026-04-28
-updated: 2026-08-03
+updated: 2026-08-10
 confidence: high
 ---
 
@@ -121,6 +123,29 @@ confidence: high
 - **시간축 가격 곡선** (캡콤 모델) — *5~9년 누적 ROI*에 집중
 
 > ⚠️ 시간축 가격 다변화는 *시리즈 IP가 있는 회사*만 가능. 단일작 인디는 출시 첫 1~2년 안에 ROI 회수해야 하며, 시간축 가격 곡선의 ROI를 노리려면 *지속 업데이트·시리즈화* 같은 추가 투자가 필요. → [[catalog-economics|카탈로그 이코노믹스]]
+
+## 구작 재발매 가격 — 자연 실험 ([[alinea-ps-july-2026-cod-catalog]])
+
+위 캡콤 모델이 *같은 타이틀을 시간에 따라 내리는* 곡선이라면, 구작을 새 SKU로 다시 낼 때의 **최초 가격 설정**은 별도 결정이다. 2026년 7월 PlayStation에서 그 결정의 크기가 대조군까지 갖춰 드러났다.
+
+| | Call of Duty 이식작 2종 (2010·2012 원작) | Halo: Campaign Evolved (2001 원작) |
+|---|---|---|
+| 가격 | **\$40** (PS Plus 가입자 한정 \$20) | **\$50–60** |
+| PS 판매 | **1,120만 장** | **45.2만 장** |
+
+같은 달·같은 플랫폼·같은 향수 층. 판매 격차 약 25배가 콘텐츠 품질이 아니라 가격 구간에서 나왔다. Elliott의 평가는 *2001년 게임의 그래픽 손질에 \$50는 애초에 어려운 판매였고 \$60은 너무 비쌌다*는 것.
+
+**왜 구작에서 가격 민감도가 더 큰가**
+
+- 신작은 *무엇을 받는지 모르는 상태*에서 가격이 품질 신호로 작동한다(장르 평균 이하면 품질 의심). 구작은 **이미 아는 물건**이라 그 신호가 없다 — 남는 건 순수한 지불 의향 비교
+- 핵심 구매층(28–40세)은 가처분 소득은 정점이지만 **가용 시간은 계속 줄고 있다**. 확실히 아는 물건을 싸게 집는 쪽으로 기운다
+- 즉 구작 가격은 마진 조절 손잡이가 아니라 **진입 여부를 결정하는 스위치**에 가깝다
+
+> 💡 위의 "\$10 단절선"이 인디 신작 구간의 관측이라면, 이건 **구작 재발매 구간에도 비슷한 단절선이 있다**는 관측이다. 다만 단일 월·단일 플랫폼의 두 사례이므로 위치(\$40과 \$50 사이 어딘가)는 확정된 것이 아니다.
+
+**구작의 할인 곡선은 신작보다 가파르게 설계한다** ([[alinea-remakes-remasters-ranking-2026-07]]). 캡콤·코나미 모두 출시 몇 달 후 가격을 크게 떨어뜨려 판매 속도를 유지하는 롱테일 할인을 쓴다 — Silent Hill 2를 **\$28**로 내렸을 때 판매가 실측으로 늘었고 매출 잠식은 관측되지 않았다. 신작은 조기 인하가 품질 신호를 깎지만 구작은 평판이 이미 확정돼 있어 **인하가 순수한 모수 확장으로만 작용**하기 때문이다.
+
+> 📎 구작 SKU의 나머지 결정(이식·리마스터·리메이크 3층 구분, 노후도의 창, 플랫폼별 카피당 실수령, 대상 IP 선정)은 [[remaster-rerelease-strategy|구작 재발매·리마스터 전략]] 참조.
 
 ## \$10 threshold — conversion 단절선 ([[zrconsulting-steam-forecaster-2026]])
 

@@ -1,10 +1,10 @@
 ---
 title: "오디언스 발견 시스템 — Intent vs Algorithm"
 type: concept
-sources: ["[[ign-generations-in-play-2026]]", "[[carless-dear-passengers-wishlists-2026-07]]"]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[community-management|커뮤니티 운영]]", "[[launch-metrics|흥행 예측 지표]]", "[[steam-next-fest|Steam Next Fest]]"]
+sources: ["[[ign-generations-in-play-2026]]", "[[carless-dear-passengers-wishlists-2026-07]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[community-management|커뮤니티 운영]]", "[[launch-metrics|흥행 예측 지표]]", "[[steam-next-fest|Steam Next Fest]]", "[[player-retention|플레이어 리텐션]]"]
 created: 2026-05-12
-updated: 2026-07-20
+updated: 2026-08-10
 confidence: high
 ---
 
@@ -71,6 +71,19 @@ Feed-First 발견의 극단 사례. [[dear-passengers|Dear Passengers]]는 클�
 - **위시리스트:팔로워 배수가 실행 리스크 신호**: 35배(Dear Passengers)=폭발적이나 검증 안 된 캐주얼 관심 / 11.8배(Rogue Carrier)=확신된 팬층. 절대 위시리스트량보다 *배수*가 전환 품질을 예고
 - **클리퍼블 트레일러 설계**: "스트리머 사운드얼라이크" + 진짜 게임플레이처럼 느껴지는 순간 → 자연 공유
 - **friendslop 부상**: "친구와 공유 세계에서 어울려 노는" 저가 소셜 게임이 2026 Steam 유닛 top 20 중 5개. 플레이어가 단일 타이틀 정착 대신 저가 소셜 게임을 로테이션 ([[steam-next-fest]] 개념도 friendslop 언급, [[carless-meccha-chameleon-breakout]]이 또 다른 사례)
+
+## 알고리즘의 목적함수가 곧 생태계의 매출 구조 ([[roblox-retention-algorithm-tradeoff-2026-08]])
+
+발견을 알고리즘에 맡긴 환경에서는 **플랫폼이 무엇을 최대화하도록 설정했는지가 그 위 창작자 전체의 수입 구조를 결정한다.** Roblox가 2026 Q2에 이를 실측으로 보여줬다.
+
+- 추천 시스템 목적함수를 **시간당 매출 → 장기 리텐션**으로 변경
+- 결과: 리텐션 높은 게임의 노출이 늘고, 수익화율 높은 바이럴 타이틀의 노출이 줄었다
+- 플랫폼 수익화가 가이던스 대비 2% 미달, Q3 부킹 가이던스 전년 대비 14–18% 감소
+- 회사는 부진을 *"대형 바이럴 신작이 안 나와서"*로 설명했지만, **플레이어를 그런 타이틀에서 밀어낸 것은 플랫폼 자신**이다
+
+> 💡 **핵심 인사이트:** 위 Seek→Feed 논의가 *이용자가 발견의 노동을 플랫폼에 넘겼다*는 이야기였다면, 이건 그 다음 이야기다 — **넘겨받은 쪽이 목적함수를 바꾸면 창작자는 아무것도 안 했는데 매출이 바뀐다.** 플랫폼 위에서 게임을 운영한다면 트래픽은 자산이 아니라 *임차물*이고, 임대 조건은 예고 없이 바뀐다. Steam·모바일 스토어·Roblox 어디든 같은 구조이며, [[creator-economy-trust|크리에이터 경제]]에서 크리에이터가 채널 의존을 분산하는 이유와 정확히 같다.
+
+**개발사 관점 대응**: 단일 플랫폼 추천에 유입의 대부분을 의존하고 있다면, 목적함수 변경은 대응 가능한 리스크가 아니라 *사업 모델 리스크*다. 알고리즘 밖 경로(커뮤니티·크리에이터·D2C)의 비중을 관리 지표로 둘 것 → [[community-management]], [[webshop-direct-monetization]]
 
 ## 시사 — 마케팅·런칭 전략 (참고: [[marketing-strategy|마케팅 전략]])
 

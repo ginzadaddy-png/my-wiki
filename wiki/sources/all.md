@@ -2,14 +2,18 @@
 title: "소스 전체 목록"
 ---
 
-총 170개 | 최신순 정렬
+총 174개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [roblox-retention-algorithm-tradeoff-2026-08](roblox-retention-algorithm-tradeoff-2026-08.md) | Roblox — 추천 알고리즘을 리텐션 최적화로 바꾼 대가 (McEvoy·Fahey/GamesIndustry.biz) — 수익화 가이던스 2% 미달·Q3 부킹 -14~-18%·주가 1년 70~73% 하락·EU VLOP로 되돌리기 불가 | 2026-08-06 |
+| [gamedeveloper-one-page-design-2026-08](gamedeveloper-one-page-design-2026-08.md) | Game Developer — 원페이지 디자인 문서 (Riendeau·Librande) — 아무도 안 읽는 GDD 문제·주석 달린 한 장·SimCity 전 주기 실험·한 벽면·한 방 확장·배포 > 접근성 | 2026-08-07 |
+| [alinea-ps-july-2026-cod-catalog](alinea-ps-july-2026-cod-catalog.md) | Alinea — 7월 PS 판매 톱: 15년 된 CoD 이식작 2개가 4.35억 달러 (Elliott) — BO2 820만장·BO1 300만장·\$40 vs Halo \$50~60 45.2만장·소니 컷 \$1.3억·구매층 FC 26 교차 24% | 2026-08-04 |
 | [sony-ir-1q-fy2026](sony-ir-1q-fy2026.md) | 소니 Q1 FY2026 IR — 매출 정체·이익 +37%의 실체 — G&NS 환율 제거 시 매출 약 -8.7%·이익 증가는 관세환급+환율·PS5 출하 -36%·플레이타임 -4%·디지털 82%(전년 83%)·FY26 가이던스 매출 -3%·영익 +42% | 2026-07-31 |
 | [ps-physical-digital-share-2026](ps-physical-digital-share-2026.md) | PlayStation 패키지·디지털 비중 실측 (Push Square, 소니 IR 인용) — 유닛 물리 15%(디지털 85%)·매출 물리 약 7%·FY 78%·2024년 디스크 브랜드 매출 3% | 2026-07-01 |
 | [gamesight-creator-count-prediction-2026-07](gamesight-creator-count-prediction-2026-07.md) | Gamesight — 흥행 예측은 시청 시간이 아니라 '창작자 수' (GamesIndustry.biz) — PvP FPS 25개 분석·day-3 창작자 수 적중률 72%·런치월 82%·high/stable/low 3분류 | 2026-07-30 |
 | [alinea-ps-physical-fc27-odyssey-2026-07](alinea-ps-physical-fc27-odyssey-2026-07.md) | Alinea — PS 패키지 비중·FC 27 Ultimate Plus·놀란 영화의 AC 오디세이 부활 (Elliott) — 패키지 48.0%~10.8%·디스크 \$45 vs 디지털 \$70(+54%)·\$150 SKU·DAU 122K→233K | 2026-07-30 |
+| [alinea-remakes-remasters-ranking-2026-07](alinea-remakes-remasters-ranking-2026-07.md) | Alinea — 이번 세대 리메이크·리마스터 판매 순위 (Elliott) — RE4 1,680만장 \$560M·Silent Hill 2 320만장 \$170M·adored/aged/available 3조건·Game Pass 잠식·롱테일 할인 \$28 | 2026-07-23 |
 | [fromsoftware-graphics-cedec2021](fromsoftware-graphics-cedec2021.md) | 프롬소프트웨어 그래픽스 제작 철학 (CEDEC+KYUSHU 2021, 4Gamer) — 배경 3원칙(콘셉트→에셋→리얼리티)·광원/시야 유도·실루엣·캐릭터 러프→디테일(경도)→리토폴로지→텍스처 | 2021-11-30 |
 | [fromsoftware-information-map-cedec2021](fromsoftware-information-map-cedec2021.md) | 프롬소프트웨어 레벨디자인 툴 '情報地図' (CEDEC 2021, IGN Japan) — Leaflet 조감 지도·플레이 경로/데스/히트맵·부하 계측·다중 통계로 드랍/난이도 밸런싱 | 2021-08-27 |
 | [krafton-ir-2q26](krafton-ir-2q26.md) | 크래프톤 2Q26·1H26 IR — 역대 최대 반기 매출·영익 + 복수 성장축(PUBG+Subnautica 2) — 1H26 매출 2.66조(+73.3%)·영익 9,725억·2Q26 순이익 −299억·Subnautica 2 EA 22일 500만장 | 2026-07-29 |

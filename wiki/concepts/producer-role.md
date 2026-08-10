@@ -2,9 +2,9 @@
 title: "프로듀서 역할 (Producer Role)"
 type: concept
 sources: ["[[gcon2025-hashimoto-producer]]", "[[gdc26-production-traps]]", "[[gdc26-three-mindset-shifts]]", "[[gdc26-hogwarts-evolving-aaa]]", "[[gamedev-leadership-dynamics]]", "[[multiproject-innersource-report]]", "[[gdc2023-no-budget-marketing]]", "[[rdr2-story-behind-the-story]]", "[[gdc24-baldurs-gate-3]]", "[[fromsoftware-300-devs]]", "[[itoi-miyamoto-dialogue-2024]]", "[[cedec2026-silent-hill-producing]]"]
-related: ["[[dev-org-structure|개발 조직 구조]]", "[[leadership-production|게임 개발 리더십 스타일]]", "[[studio-culture|스튜디오 문화]]", "[[psychological-safety|심리적 안전]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[shigeru-miyamoto|미야모토 시게루]]", "[[konami|코나미]]", "[[ip-adaptation-design|IP 적응 설계]]"]
+related: ["[[dev-org-structure|개발 조직 구조]]", "[[leadership-production|게임 개발 리더십 스타일]]", "[[studio-culture|스튜디오 문화]]", "[[psychological-safety|심리적 안전]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[shigeru-miyamoto|미야모토 시게루]]", "[[konami|코나미]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[design-documentation|디자인 문서화]]"]
 created: 2026-05-18
-updated: 2026-07-30
+updated: 2026-08-10
 confidence: high
 ---
 

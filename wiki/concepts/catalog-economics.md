@@ -1,10 +1,10 @@
 ---
 title: "카탈로그 이코노믹스 (Catalog Economics)"
 type: concept
-sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[alinea-steam-record-year-2026]]", "[[krafton-ir-fy2025-1q26]]", "[[krafton-ir-2q26]]", "[[pearl-abyss-ir-1q26]]"]
-related: ["[[capcom|캡콤]]", "[[rockstar-games|록스타]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[bethesda-game-studios|베데스다]]", "[[fromsoftware|프롬소프트웨어]]", "[[nintendo|닌텐도]]", "[[nexon|넥슨]]", "[[krafton|크래프톤]]", "[[pearl-abyss|펄어비스]]", "[[larian-studios|라리안]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[live-service-design|라이브 서비스 설계]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[catalog-economics-3-publishers|3사 비교 (캡콤·닌텐도·Take-Two)]]", "[[nexon-ncsoft-mmo-recurrent-2026|한국 MMO recurrent]]", "[[hit-driven-strategy|홈런 전략]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]"]
+sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[alinea-steam-record-year-2026]]", "[[krafton-ir-fy2025-1q26]]", "[[krafton-ir-2q26]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-remakes-remasters-ranking-2026-07]]"]
+related: ["[[capcom|캡콤]]", "[[rockstar-games|록스타]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[bethesda-game-studios|베데스다]]", "[[fromsoftware|프롬소프트웨어]]", "[[nintendo|닌텐도]]", "[[nexon|넥슨]]", "[[krafton|크래프톤]]", "[[pearl-abyss|펄어비스]]", "[[larian-studios|라리안]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[live-service-design|라이브 서비스 설계]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[catalog-economics-3-publishers|3사 비교 (캡콤·닌텐도·Take-Two)]]", "[[nexon-ncsoft-mmo-recurrent-2026|한국 MMO recurrent]]", "[[hit-driven-strategy|홈런 전략]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]"]
 created: 2026-05-18
-updated: 2026-07-30
+updated: 2026-08-10
 confidence: high
 ---
 
@@ -25,6 +25,27 @@ confidence: high
 > 💡 **핵심 인사이트 — Steam 매출의 79%가 백카탈로그:** H1 2026 Steam 플랫폼 매출 \$11.1B(역대 최고 반기, +14.5% YoY) 중 **신작은 21%뿐**. 2년 만에 71%→79%로 카탈로그 쪽 이동이 가속. 캡콤이 보인 "신작 unit이 늘어도 카탈로그가 더 빨리 늘어 비중이 기움" 메커니즘이 *단일 회사가 아니라 스토어 전체*에서 재현된다. Elliott: "모든 신작은 이제 올해의 경쟁작이 아니라 *10년치 검증된 히트작이 몇 분의 1 가격에 깔린 카탈로그*와 경쟁한다." → 위 캡콤 84%·Take-Two RCS 78% 같은 개별 수치의 *상위 집계*가 이 79%라고 볼 수 있다.
 
 플랫폼 성장 드라이버 5개 중 3개가 카탈로그 직결: **아시아(특히 중국) 확산**(캡콤 아시아 5년 +247%와 동형), **대형 퍼블리셔의 스마트한 백카탈로그 전략**(세일·번들·시리즈 cross-sell), **서드파티의 Steam 복귀**(자체 런처 실험 종료). 나머지 둘은 신작 축(가격 인상·바이럴 co-op).
+
+## 재발매형의 실행 조건 — 같은 달, 같은 전략, 25배 차이 ([[alinea-ps-july-2026-cod-catalog]])
+
+위 5모델 표가 *어떤 IP가 카탈로그가 되는가*(장수·재발매·DLC·cross-pollination)를 다룬다면, 2026년 7월 PlayStation 데이터는 **자격을 갖춘 IP도 실행에서 갈린다**는 것을 대조군까지 갖춰 보여준다.
+
+| | Call of Duty 이식작 2종 | Halo: Campaign Evolved |
+|---|---|---|
+| 원작 | 2010 · 2012 | 2001 |
+| 가격 | **\$40** (PS Plus 가입자 한정 \$20) | **\$50–60** |
+| 출시 | 2026-07-09 셰도우드롭 | 같은 달 |
+| PS 판매 | **1,120만 장 · \$4.35억** | **45.2만 장 · \$28M** |
+
+두 쪽 다 재발매형의 조건(장수 IP·검증된 평판·향수 수요·플랫폼 재진입)을 갖췄고, 같은 달 같은 플랫폼에서 같은 향수 층을 상대했다. 갈린 것은 **가격**이다.
+
+> 💡 **핵심 인사이트:** 카탈로그가 도는 조건은 IP 자산이 만들지만, **얼마가 도는지는 가격과 타이밍이 만든다.** 재발매 대상이 될 자격과 재발매가 성공할 조건은 다른 문제이며, 후자는 다음 세 축이다 — ① **타이밍**(MW4·GTA 6 앞의 여름 빈 창구), ② **가격**(임펄스 구매 구간), ③ **눌린 수요**(PS3 이후 접근 경로 부재로 쌓인 재고 수요). Elliott의 정리: *"검증되고 사랑받는 구작을, 적절한 시점에, 그리고 똑같이 중요하게 적절한 가격에 떨어뜨리면 거의 모든 신작보다 더 벌 수 있다."*
+
+**구매층은 흩어진 개인이 아니다**: Black Ops 2 구매자의 **24%가 FC 26**, 13%가 NBA 2K26을 함께 플레이했다 — 이미 *매년 다시 사는 데 길들여진 층*이 향수 구매의 주력이다. 리마스터 대상 IP 선정 시 원작 평판만 볼 게 아니라 **그 원작을 했던 사람들이 지금 무엇을 반복 구매하고 있는지**가 더 나은 신호다.
+
+> 📎 **재발매 실행 규율은 [[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]으로 분리했다.** 이 페이지가 *어떤 IP가 오래 도는가*라면 그쪽은 *그 IP를 새 SKU로 다시 낼 때 무엇을 틀리면 안 되는가* — 이식·리마스터·리메이크 3층 구분, 노후도의 창, 롱테일 할인 곡선, 세대 톱 실측([[alinea-remakes-remasters-ranking-2026-07]] RE4 1,680만 장·\$560M 등)을 다룬다.
+
+**카탈로그 채굴은 플랫폼 경쟁과 분리된다**: 두 이식작 모두 Xbox 소유 IP인데, 소니는 호스팅만으로 플랫폼 컷 약 **\$1.3억**을 걷었다(개발비·마케팅비 사실상 0). 경쟁사 플랫폼에 얹어도 남는 규모라는 뜻이며, 메인라인 프랜차이즈의 멀티플랫폼 유지를 정당화하는 근거가 된다.
 
 ## 캡콤의 카탈로그 비중 추이 ([[capcom-fy26-ir]])
 

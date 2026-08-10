@@ -2,6 +2,75 @@
 title: "활동 로그"
 ---
 
+## [2026-08-10] ingest | Game Developer — 원페이지 디자인 문서 (Stone Librande)
+- 트리거: 2026-08-10 주간 lint 추천 조사 #5(위키 전체에서 2개 파일만 언급하는 완전 공백) + 같은 날 source radar 미처리 후보 ④ — 사용자가 두 건 동시 지시
+- Source: 웹 3건 (raw/ 미적재, 직접 ingest). 주: [Pushing the limits in Simulating a City, One Page at a Time](https://www.gamedeveloper.com/design/pushing-the-limits-in-simulating-a-city-one-page-at-a-time) — Danielle Riendeau, Game Developer, 2026-08-07
+  - 보조: 같은 저자 [The goal of design is to efficiently communicate ideas](https://www.gamedeveloper.com/design/-the-goal-of-design-is-to-efficiently-communicate-ideas-) (2026-07-16) · [Video: One-page designs](https://www.gamedeveloper.com/design/video-one-page-designs) (2023-08-08, GDC 2010 강연 소개)
+- 핵심: 전통적 GDD의 실패 3종(아무도 안 읽음·위키는 관계 끊김·바이블 포맷 자체가 다루기 어려움) → **주석 달린 한 장**으로 형식 교체. Librande가 SimCity(2013) 전 제작 주기를 원페이지만으로 굴린 실험(5명 팀 시작). 멀티플레이 교역은 한 장에 그려보니 지저분해 **자원 붓기 전 조기 삭제** — 문서 형식이 조기 검증 장치로 작동
+- 한계도 그대로 기록: 복잡도 상승 시 스프레드시트·CSV 혼합 → *한 벽면·한 방 디자인*으로 확장, **복잡한 시스템은 결국 여러 장 필요**. 초안은 예쁘고 틀린다(Spore "드림캐처" 사례)
+- 배포 > 접근성: *"정말 중요한 할 말이 있으면 그걸 그들에게 가져가야 한다"* — 인쇄·벽 게시, 찾아오게 하지 않음
+- 생성(source 1): **gamedeveloper-one-page-design-2026-08**
+- 생성(concept 1): **design-documentation** — 5절 ① GDD 실패 진단 ② 원페이지(제약이 사고를 강제) ③ 데이터 공통 언어(붉은사막 XML·프롬 情報地図·베데스다 프로토콜) ④ 한 문장 압축(vision-statement) ⑤ 공통 판정 기준
+- 서구·일본 독립 수렴 명시: Librande의 *"읽는 사람이 그림을 그릴 수 있는가"* = 사쿠라이 *"기획서는 두께가 아니라 읽는 사람이 그림을 그릴 수 있느냐"*
+- 양방향 링크(concept 5 + entity 1): vision-statement · designer-empowerment · producer-role · studio-culture · data-driven-development · masahiro-sakurai (전부 related 추가·updated)
+- ⚠️ 자료 성격 명시: 3건 모두 편집장이 GDC 강연을 재조명한 **2차 정리물**, 강연 원본(GDC Vault) 미확인. 정량 자료 없음 → **confidence medium**
+- 커버리지 밖 명시: 문서 형식↔효율 인과 연구 부재 · 100명+ 팀 스케일 · 라이브 서비스 운영 문서 · 툴 선택(Confluence·Notion·Miro) 영향
+- 모순: 없음
+
+## [2026-08-10] ingest | Alinea — 이번 세대 리메이크·리마스터 판매 순위 + 신규 concept
+- 트리거: 2026-08-10 주간 lint 추천 조사 #1 — 사용자 지시. lint 판정은 *"신규 ingest 없이 회수 가능"*이었으나 추가 조사에서 **세대 전체 실측 데이터셋(Alinea 2026-07-23)이 미ingest 상태**로 확인돼 소스 ingest를 함께 진행
+- Source: https://alineaanalytics.substack.com/p/this-gens-top-remakes-and-remasters — Rhys Elliott / The Alinea Insight, 2026-07-23 (raw/ 미적재, 웹 직접 ingest)
+- 핵심: RE4 **1,680만 장·\$560M**(PS5 740만·Steam 680만·Xbox 160만) 압도적 1위. Silent Hill 2 320만 장·\$170M. 성공 3조건 **adored · aged · available everywhere** — 가장 자주 틀리는 것이 *aged*(시각은 낡고 메카닉은 멀쩡한 창)
+- 플랫폼별 카피당 실수령 차이: Steam은 신흥시장 지역가+상시할인으로 카피당 낮음 · PS는 정가 오래 유지 · **Xbox 리메이크 저조는 시장 크기가 아니라 Game Pass 잠식**(Dead Space Xbox 15만)
+- 롱테일 할인: 캡콤·코나미 공통 운용. Silent Hill 2 **\$28** 인하 시 판매 실측 증가, 매출 잠식 미관측
+- 구조적 압력 3(리스크 회피·비용 기반·실험 재원) + **자기무력화 함정** — 부푼 예산을 리메이크에 얹으면 유일한 이점이 사라짐
+- 생성(source 1): **alinea-remakes-remasters-ranking-2026-07**
+- 생성(concept 1): **remaster-rerelease-strategy** — 이식·리마스터·리메이크 **3층 구분 표**(비용 위계) + 가격 진입 스위치(\$40 vs \$50, 25배) + 노후도의 창 + 세대 톱 실측 + 플랫폼 폭·카피당 실수령 + 롱테일 할인 + 대상 IP 선정 신호 + 사례 지도 6종
+- 보강(concept 4): catalog-economics(재발매 실행 규율 분리 📎 + 신규 source) · game-pricing-strategy("구작 할인 곡선은 신작보다 가파르게" 단락 신설 + Silent Hill 2 \$28) · subscription-economy-gaming(**discovery engine 명제에 층위 구분 ⚠️ 신설** — 신작에선 성립하나 구작에선 잠식 실측) · console-retail-strategy·ip-adaptation-design(related)
+- 보강(entity 3): capcom · konami · bethesda-game-studios (related)
+- ⚠️ 데이터 한계 명시: ① 구독 카피(Ark 620만·Oblivion 410만)는 유료 판매와 실수령 구조가 달라 같은 줄에 놓을 수 없음 ② 가격 단절선 위치(\$40~\$50)는 단일 월·2사례라 미확정 ③ 포팅·리마스터 **개발비는 전부 비공개** — ROI 논의는 매출만 실측
+- 커버리지 밖 명시: Switch 2 유상 업그레이드 모델 · 리마스터 품질 수용선 정량 자료
+- 모순: 없음
+
+## [2026-08-10] lint | 주간 정기 점검 (스케줄 루틴)
+- 모순 11건(해소형 9 / 미해소 2 — naavik-xbox 하드웨어 해석, gdc26-idg 전망 온도차) / 완전 고립 0건 / 카탈로그만 참조 4건(전부 by-design) / 끊긴 wikilink 7종 / raw 미처리 **0건**
+- 탐지 스크립트 수정: escaped-pipe(`[[capcom\|캡콤]]`) 언이스케이프 처리 추가 → 지난주 지적된 false-positive 27종 제거
+- raw 109개 전수 대조 — 탐지 8건 전부 false-positive 확인(Tunes of the Kingdom 흡수·매튜볼 1차 원문 교체·hades/vincke 파일명 상이·Steam 마케팅 입문 중복 clipping·템플릿 2)
+- 자동 갱신: overview(스튜디오 48→49 번지·게임 40→42 Marathon·나이트레인 / 핵심 테마 **피인용 10회+ 누락 9개 추가** 40→49) · about(INGEST 103→109·소스 166→172·개념 70→71·엔티티 100→103·보고서 4→5·**결정·가설 행 신설**·총 367→380·날짜 2026-08-10)
+- 미반영: about 아키텍처 다이어그램 내 카운트(자동 수정 금지 영역) · 챗봇 섹션 색인 수치(재색인 시점 대상)
+- 추천 조사 5건 중 **#1(구작 재발매)·#5(원페이지 디자인 문서)를 사용자가 선택** → 같은 날 각각 ingest 진행(위 항목). 분기 검토 알림 해당 없음(8월)
+
+## [2026-08-10] source radar | 주간 스캔 (윈도우 08-03~08-10) — 신규 약 30건, 후보 4건
+- 9개 대상 사이트 전량 스캔. 사이트별 신규: GameDiscoverCo 3 · Alinea 1 · Naavik 1 · Game Developer 5 · GamesIndustry.biz 약 12 · 80 Level 6 · Game Dev Report 2 · **How To Market A Game 0**(최신 7/30) · **Big Games Machine 0**(최신 3/18, 5개월 정체)
+- **GamesIndustry.biz는 Anthropic user-agent 차단** — WebFetch·WebSearch 모두 실패(400 "not accessible to our user agent"). **크롬(claude-in-chrome) get_page_text로 전량 복구**. 최종 fetch 실패 0건. 이 도메인은 앞으로 크롬 경로 고정
+- 추천 후보 4건: ① Roblox 리텐션 알고리즘 트레이드오프(GI.biz 2건) ② Naavik friendslop 라이브옵스 ③ Alinea 7월 PS 판매 ④ Game Developer 원페이지 디자인 문서(Stone Librande)
+- 사용자 선택: **① + ③** → 각각 ingest 진행 (아래 항목). ②④는 미처리 큐로 남김
+- 스킵 권장 8건 — Carless 30년 회고·7월 롤업(중복), 80 Level Bartle 인터뷰(데이터 없음), Game Dev Report 2호(애그리게이터), GD 단신 2건, Silent Hill Townfall(미출시 사전 홍보), GI.biz 기업 뉴스
+
+## [2026-08-10] ingest | Roblox — 추천 알고리즘을 리텐션 최적화로 바꾼 대가 (2026 Q2)
+- Source: raw N/A (웹 원문 2건, 크롬으로 확보)
+  - 주: [Roblox shares fall 70%…](https://www.gamesindustry.biz/roblox-shares-fall-70-following-lower-than-expected-monetisation-during-q2) — Sophie McEvoy, GamesIndustry.biz, 2026-08-06
+  - 보조: [Investors hate Roblox' new direction… | Opinion](https://www.gamesindustry.biz/investors-hate-roblox-new-direction-but-a-reversal-may-be-impossible-opinion) — Rob Fahey, 2026-08-07 (본문 인라인 출처)
+- 강조점(사용자 지정): "그대로 진행" → 사전 안내대로 **리텐션 최적화의 비용** 각도 중심, 밸류에이션·규제는 보조
+- 핵심: CFO Naveen Chopra가 실적 발표에서 **추천 시스템 목적함수를 시간당 매출 → 장기 리텐션으로 바꾼 것이 단기 수익화를 희생했다**고 직접 진술. 수익화 가이던스 대비 **2% 미달**, 13세 미만 층 충격이 예상 초과. Q3 부킹 **\$15.8억~16.5억(전년 -14~-18%)**, 주가 1년 **70~73% 하락**, 발표 당일 시총 약 **\$90억** 감소, **연간 가이던스 철회**
+- 되돌릴 수 없는 이유(Fahey): EU **VLOP** 지정 임박 → 원위치 시 글로벌 매출 상당 비율 과징금 위험. 성장 마찰 3종(연령 확인·추천 목적함수·성인층 이동) 전부 자사 선택
+- 생성(sources 1): **roblox-retention-algorithm-tradeoff-2026-08**
+- 보강: player-retention(신설 "리텐션 최적화의 청구서" + 원인 축 추가·sources 최초 등록), audience-discovery-systems(신설 "알고리즘의 목적함수가 곧 생태계의 매출 구조"), engagement-loop(윤리 vs 약탈 절에 "규제보다 먼저 걷어냈을 때의 비용" 추가·sources 최초 등록), live-service-design(비약탈적 모델 절에 가격표 ⚠️ 추가)
+- 데이터 한계 명시: **비용은 확인·편익은 미검증**인 진행 중 사례로 표기. Roblox entity 페이지는 신설 안 함(개념 보강으로 충분)
+- 모순: 없음
+
+## [2026-08-10] ingest | Alinea — 7월 PS 판매 톱: 15년 된 CoD 이식작 2개가 4.35억 달러
+- Source: raw N/A (웹 원문 https://alineaanalytics.substack.com/p/julys-top-playstation-games-by-copies), Rhys Elliott / Alinea Analytics, 2026-08-04
+- 강조점(사용자 지정): "그대로 진행"
+- 핵심: **같은 달·같은 플랫폼·같은 향수 층에서 가격만 다른 대조군**. CoD 이식작(\$40, PS Plus \$20) 1,120만장·\$4.35억 vs Halo: Campaign Evolved(\$50~60) PS 45.2만장·\$28M — **약 25배 격차가 콘텐츠가 아니라 가격 구간에서** 발생
+- 부가 하드넘버: BO2 820만장 \$325M(PS5 93%)·BO1 300만장 \$110M·Black Flag Resynced 160만장 \$109M·College Football 27 110만장 \$86M(미국 97%)·FC 26 130만장·GTA V 84.6만·소니 플랫폼 컷 약 **\$1.3억**(개발·마케팅비 0, Xbox 소유 IP)
+- 구매층 데이터: BO2 주 구매층 30~40대, 교차 플레이 **FC 26 24%**·NBA 2K26 13%·BO1 23%·메인라인 CoD 19%·R6 10%. Black Flag Resynced 구매자 17%가 BO2 이식작 병행
+- 생성(sources 1): **alinea-ps-july-2026-cod-catalog**
+- 보강: catalog-economics(신설 "재발매형의 실행 조건 — 같은 달, 같은 전략, 25배 차이"), game-pricing-strategy(신설 "구작 재발매 가격 — 자연 실험"), console-retail-strategy(디스크 vs 디지털 마진 절에 소니 \$1.3억 사례 💡 추가)
+- 데이터 한계 명시: 구작 가격 단절선의 위치(\$40~\$50 사이)는 **단일 월·단일 플랫폼 2사례** 기반이라 확정 아님으로 표기
+- 모순: 없음
+- 카탈로그: sources/all.md 2행 추가(170→172), index.md 소스 카운트·Last updated 갱신. **미push — 사용자 검토 후**
+
 ## [2026-08-03] ingest | 소니 Q1 FY2026 IR 원문 — 가설 ⓕ 반증 자료 확보
 - Source: 사용자 제공 PDF `26q1_sonypre.pdf` (Sony Group, 2026-07-31 프레젠테이션 덱 20p) + 보충자료 수치 웹 교차확인. 진입점은 인벤 기사(news=319083)였으나 **2차 소스라 1차 IR로 대체**
 - 추출: pypdf (글로벌 python에 fitz 없음). 덱에는 유닛·디지털 비중 없음 → supplemental 수치는 복수 해외 매체 교차로 확정

@@ -2,9 +2,9 @@
 title: "사쿠라이 마사히로 (Masahiro Sakurai)"
 type: entity
 sources: ["[[sakurai-creating-games|「게임 만들기」 채널]]"]
-related: ["[[sakurai-creating-games|「게임 만들기」 채널]]", "[[game-essence|게임의 본질]]", "[[risk-and-reward|리스크 앤 리워드]]", "[[game-feel|게임 필]]"]
+related: ["[[sakurai-creating-games|「게임 만들기」 채널]]", "[[game-essence|게임의 본질]]", "[[risk-and-reward|리스크 앤 리워드]]", "[[game-feel|게임 필]]", "[[design-documentation|디자인 문서화]]"]
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-08-10
 confidence: high
 ---
 

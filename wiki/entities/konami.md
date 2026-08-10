@@ -2,9 +2,9 @@
 title: "코나미 디지털 엔터테인먼트 (Konami Digital Entertainment)"
 type: entity
 sources: ["[[cedec2026-silent-hill-producing|CEDEC 2026 SILENT HILL 프로듀싱]]"]
-related: ["[[silent-hill-f|SILENT HILL f]]", "[[producer-role|프로듀서 역할]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[community-management|커뮤니티 운영]]"]
+related: ["[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[silent-hill-f|SILENT HILL f]]", "[[producer-role|프로듀서 역할]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[community-management|커뮤니티 운영]]"]
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-10
 confidence: medium
 ---
 

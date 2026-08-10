@@ -1,10 +1,10 @@
 ---
 title: "라이브 서비스 설계"
 type: concept
-sources: ["[[missing-middle-paradigm-shift-2026]]", "[[ukyou-mobile-liveservice-survival]]", "[[ukyou-mobile-liveservice-walls]]", "[[ign-generations-in-play-2026]]"]
+sources: ["[[missing-middle-paradigm-shift-2026]]", "[[ukyou-mobile-liveservice-survival]]", "[[ukyou-mobile-liveservice-walls]]", "[[ign-generations-in-play-2026]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]"]
 related: ["[[helldivers-2|헬다이버스 2]]", "[[arc-raiders|아크 레이더스]]", "[[arrowhead-game-studios|애로우헤드]]", "[[embark-studios|엠바크 스튜디오]]", "[[community-management|커뮤니티 운영]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[player-retention|플레이어 리텐션]]", "[[engagement-loop|인게이지먼트 루프]]"]
 created: 2026-04-23
-updated: 2026-06-22
+updated: 2026-08-10
 confidence: high
 ---
 
@@ -24,6 +24,8 @@ confidence: high
 - 워본드(배틀패스) 기간 제한 없이 영구 존재
 - 프리미엄 재화를 인게임 파밍으로 획득 가능
 - 결과: 더 강한 팬덤과 유지율 형성
+
+> ⚠️ **비약탈적 모델의 가격표** ([[roblox-retention-algorithm-tradeoff-2026-08]]): Roblox가 2026 Q2에 추천 목적함수를 시간당 매출에서 장기 리텐션으로 바꾸자 수익화가 가이던스 대비 2% 미달했고, Q3 부킹 가이던스도 전년 대비 14–18% 감소로 잡혔다. 헬다이버스 워본드 같은 사례는 *비약탈적 설계가 더 강한 팬덤을 만든다*는 쪽을 보여주지만, **플랫폼 규모에서 그 전환의 단기 비용이 실제로 얼마인지**는 이 건이 처음 숫자로 보여준 축이다. 두 사례를 함께 둘 것 — 편익은 기간이 길고 비용은 분기 단위로 먼저 온다.
 
 ## F2P → 프리미엄 전환 ([[arc-raiders]])
 

@@ -2,9 +2,9 @@
 title: "데이터 기반 개발 의사결정"
 type: concept
 sources: ["[[gdc26-arc-raiders-reset]]", "[[fromsoftware-information-map-cedec2021]]", "[[gdc19-slay-the-spire-metrics]]"]
-related: ["[[embark-studios|엠바크 스튜디오]]", "[[arc-raiders|아크 레이더스]]", "[[fromsoftware|프롬소프트웨어]]", "[[playtesting|플레이테스팅]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[small-team-development|소규모 팀 개발]]", "[[vision-statement|비전 선언문]]"]
+related: ["[[embark-studios|엠바크 스튜디오]]", "[[arc-raiders|아크 레이더스]]", "[[fromsoftware|프롬소프트웨어]]", "[[playtesting|플레이테스팅]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[small-team-development|소규모 팀 개발]]", "[[vision-statement|비전 선언문]]", "[[design-documentation|디자인 문서화]]"]
 created: 2026-04-13
-updated: 2026-07-31
+updated: 2026-08-10
 confidence: high
 ---
 

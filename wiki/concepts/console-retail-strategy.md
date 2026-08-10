@@ -1,10 +1,10 @@
 ---
 title: "콘솔 리테일·유통 전략"
 type: concept
-sources: ["[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[sony-ir-1q-fy2026]]", "[[matthew-ball-2026-report]]", "[[capcom-fy26-ir]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]"]
-related: ["[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[webshop-direct-monetization|웹샵·D2C 직접 수익화]]", "[[audience-expansion|오디언스 확장]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
+sources: ["[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[sony-ir-1q-fy2026]]", "[[matthew-ball-2026-report]]", "[[capcom-fy26-ir]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[alinea-ps-july-2026-cod-catalog]]"]
+related: ["[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[webshop-direct-monetization|웹샵·D2C 직접 수익화]]", "[[audience-expansion|오디언스 확장]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
 created: 2026-08-03
-updated: 2026-08-03
+updated: 2026-08-10
 confidence: high
 ---
 
@@ -20,6 +20,8 @@ confidence: high
 | 서드파티 | 약 \$35 | 약 \$49 | 약 **+40%** |
 
 디스크는 리테일 마진과 제조·물류비를 통과하지만 디지털은 자사 스토어프런트에서 전액이 남는다. **기본가가 \$80으로 오르면 한 장 옮길 때마다 벌어지는 금액 차이가 더 커진다** — 가격을 올릴수록 디지털로 몰아갈 이유도 같이 커지는 구조다.
+
+> 💡 **이 마진 구조가 가장 극단적으로 드러난 사례** ([[alinea-ps-july-2026-cod-catalog]]): 2026년 7월 소니는 **Xbox 소유 IP**인 Call of Duty 구작 이식작 두 개를 자사 스토어에 올려놓은 것만으로 플랫폼 컷 약 **\$1.3억**을 걷었다. 개발비도 마케팅비도 지속 운영비도 사실상 0. 채널을 통제한다는 것이 무엇을 의미하는지에 대한 가장 선명한 숫자다 — 나머지 몫은 Microsoft로 흘러가 그쪽 분기 퍼스트파티 운영비를 충당했다.
 
 ## 패키지 비중은 장르와 이용자층에 따라 갈린다
 

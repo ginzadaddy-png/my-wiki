@@ -2,9 +2,9 @@
 title: "캡콤 (Capcom)"
 type: entity
 sources: ["[[capcom-ir2021-dev-strategy]]", "[[re2023-re-engine-philosophy]]", "[[multiproject-innersource-report]]", "[[capcom-fy26-ir]]"]
-related: ["[[proprietary-engine-strategy|독자 엔진 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[innersource|이너소스]]"]
+related: ["[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[proprietary-engine-strategy|독자 엔진 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[innersource|이너소스]]"]
 created: 2026-04-14
-updated: 2026-05-18
+updated: 2026-08-10
 confidence: high
 ---
 

@@ -2,9 +2,9 @@
 title: "디자이너 도구화 (Designer Empowerment)"
 type: concept
 sources: ["[[gdc26-expedition33-programmers]]", "[[expedition33-ue5-interview]]"]
-related: ["[[sandfall-interactive|샌드폴 인터랙티브]]", "[[small-team-development|소규모 팀 개발]]", "[[clair-obscur-expedition-33|클레르 옵스퀴르: 33원정대]]"]
+related: ["[[sandfall-interactive|샌드폴 인터랙티브]]", "[[small-team-development|소규모 팀 개발]]", "[[clair-obscur-expedition-33|클레르 옵스퀴르: 33원정대]]", "[[design-documentation|디자인 문서화]]"]
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-08-10
 confidence: high
 ---
 

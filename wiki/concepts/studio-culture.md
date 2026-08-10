@@ -2,9 +2,9 @@
 title: "스튜디오 문화"
 type: concept
 sources: ["[[gdc25-schell-studio-principles]]", "[[gdc26-spark]]", "[[gdc26-arc-raiders-reset]]", "[[gdc26-three-mindset-shifts]]", "[[gamedev-leadership-dynamics]]", "[[kumhotire-psychological-safety]]", "[[itoi-miyamoto-dialogue-2024]]"]
-related: ["[[vision-statement|비전 선언문]]", "[[dev-org-structure|개발 조직 구조]]", "[[small-team-development|소규모 팀 개발]]", "[[shigeru-miyamoto|미야모토 시게루]]"]
+related: ["[[vision-statement|비전 선언문]]", "[[dev-org-structure|개발 조직 구조]]", "[[small-team-development|소규모 팀 개발]]", "[[shigeru-miyamoto|미야모토 시게루]]", "[[design-documentation|디자인 문서화]]"]
 created: 2026-04-20
-updated: 2026-06-23
+updated: 2026-08-10
 confidence: high
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "구독 경제와 게이밍 — 소유에서 거주로"
 type: concept
-sources: ["[[ign-generations-in-play-2026]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]"]
-related: ["[[live-service-design|라이브 서비스 설계]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
+sources: ["[[ign-generations-in-play-2026]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-remakes-remasters-ranking-2026-07]]"]
+related: ["[[live-service-design|라이브 서비스 설계]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
 created: 2026-05-12
-updated: 2026-08-03
+updated: 2026-08-10
 confidence: high
 ---
 
@@ -50,6 +50,8 @@ confidence: high
 4. **Ecosystem Model**: Stranger Things처럼 access가 거대 audience 형성 → 고마진 라이선싱·머천다이즈로 회수
 
 → Try before buy는 더 이상 데모의 일이 아니라 *구독의 일*. 게임 마케팅은 "구매 결정"보다 "거주 결정"을 먼저 잡아야 한다.
+
+> ⚠️ **구작 카탈로그에서는 잠식이 실제로 관측된다** ([[alinea-remakes-remasters-ranking-2026-07]]). 이번 세대 리메이크 판매에서 Xbox 몫이 유독 낮은 것(Dead Space Xbox 15만 장 vs Steam 280만·PS5 140만)은 시장 크기가 아니라 **Game Pass가 유료 구매를 흡수한 결과**라는 것이 Elliott의 진단이다. Ark: Survival Ascended·Oblivion Remastered는 데이 원 구독 수록으로 유료 판매(각 700만·450만)와 맞먹는 구독 접근(620만·410만)이 잡혔다. → 위 discovery engine 명제는 *신작·화제 유입* 쪽에서 성립하고, **이미 평판이 확정된 구작**에서는 진입 마찰 제거가 곧 구매 이유 제거가 된다. 층위를 구분해야 한다. ([[remaster-rerelease-strategy]])
 
 ## 구독 = 트랜스미디어 헤일로 수신 안테나 ([[alinea-ps-physical-fc27-odyssey-2026-07]])
 

@@ -1,10 +1,10 @@
 ---
 title: "인게이지먼트 루프"
 type: concept
-sources: []
+sources: ["[[roblox-retention-algorithm-tradeoff-2026-08]]"]
 related: ["[[player-retention|플레이어 리텐션]]", "[[live-service-design|라이브 서비스 설계]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[mda-framework|MDA 프레임워크]]", "[[game-balance|게임 밸런싱]]", "[[mobile-gamedev|모바일 게임 개발]]"]
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-08-10
 confidence: medium
 ---
 
@@ -43,6 +43,16 @@ confidence: medium
 - **규제 사례** — FTC가 Epic Games에 총 **\$520M**(\$275M COPPA 벌금 + \$245M 다크패턴 환불, 2022-12) 부과, "dark patterns"를 공식 명시. ([FTC 보도자료](https://www.ftc.gov/news-events/news/press-releases/2022/12/fortnite-video-game-maker-epic-games-pay-more-half-billion-dollars-over-ftc-allegations))
 - **루트박스 규제 분기**(양측 병기): **벨기에(2018)** — 신법이 아니라 기존 도박법 *재해석*, 실효성 낮음(상위 iPhone 게임 82.0%가 여전히 운영, Xiao 2023). **영국 DCMS** — 도박 *불분류* 유지(자율규제, 조건부).
 - **WHO ICD-11 게이밍 장애(6C51**, 2022-01-01 발효) = 통제력 손상·우선순위 증가·부정적 결과에도 지속의 *행동* 기준(시간량 아님) ↔ **Aarseth et al.(2017, 33인)** 반론: 근거 부족·정상 게이머 위양성·낙인·도덕적 공황 → 학계 미해결. WHO 채택 입장과 반론을 *병기*해야 함.
+
+### 규제보다 먼저 걷어냈을 때의 비용 ([[roblox-retention-algorithm-tradeoff-2026-08]])
+
+위 규제 사례들이 *사후 벌금*(FTC의 Epic \$5.2억 등)이라면, Roblox 2026 Q2는 **규제가 오기 전에 스스로 걷어냈을 때 얼마가 드는지**를 보여준다.
+
+- 걷어낸 것 3종: 소셜 기능 연령 확인 / 추천 목적함수를 시간당 매출에서 장기 리텐션으로 변경 / 성인 이용자(약 20%)로 무게중심 일부 이동
+- 대가: 수익화 가이던스 2% 미달, Q3 부킹 전년 대비 14–18% 감소, 주가 1년간 70–73% 하락
+- 되돌릴 수 없는 이유: EU VLOP 지정이 걸리면 원위치는 **글로벌 매출의 상당 비율에 달하는 과징금** 위험
+
+> ⚠️ 경계선 논의를 *윤리 문제*로만 다루면 조직 안에서 이기기 어렵다. 이 사례가 주는 실무적 교훈은 **약탈적 설계를 걷어내는 비용이 분기 단위로 먼저 청구되고 편익은 나중에 온다**는 것 — 그래서 자율적으로 걷어낸 회사는 대개 주가로 벌을 받고, 규제가 강제할 때까지 안 걷어낸 회사는 벌금으로 낸다. 어느 쪽이든 무료는 아니다.
 
 ## 비약탈적 모범
 

@@ -2,7 +2,7 @@
 title: "전체 개념 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-08-03
+updated: 2026-08-10
 ---
 
 ← [홈으로](../index.md)
@@ -20,6 +20,7 @@ updated: 2026-08-03
 | [[dev-org-structure]] | **개발 조직 구조** — 팀 구성·유동 배치·스크럼 |
 | [[dev-talent-pipeline]] | **개발 인재 파이프라인** — 연 100명·세대 혼합·R&D 인프라·Gen AI (캡콤 12년 모델) |
 | [[producer-role]] | **프로듀서 역할** — Force Multiplier·정렬·함정 3종·마인드셋 전환 |
+| [[design-documentation]] | **디자인 문서화** — 원페이지 디자인, 데이터 공통 언어, 한 문장 압축, 배포 > 접근성 |
 | [[psychological-safety]] | **심리적 안전** — 처벌 두려움 없는 의견 표현, 고성과 팀 1순위 요인 |
 | [[multi-project-development]] | **멀티 프로젝트 동시 개발 전략과 위험** |
 | [[art-pipeline-design]] | **아트 파이프라인 설계** — Houdini·USD·kit-bash·late lock-down·90:10 도구화 (Embark·Asobo·Sandfall) |
@@ -45,6 +46,7 @@ updated: 2026-08-03
 | [[game-pricing-strategy]] | **게임 가격 전략** — 가격대 지형, 지역 차등화, 세일 타이밍, 비즈니스 모델 |
 | [[console-retail-strategy]] | **콘솔 리테일·유통 전략** — 디스크 vs 디지털 단위 경제, 패키지 비중 편차, 에디션 티어링, 진입 사다리 |
 | [[catalog-economics]] | **카탈로그 이코노믹스** — 시리즈 IP의 장기 매출 모델, 캡콤 카탈로그 84% |
+| [[remaster-rerelease-strategy]] | **구작 재발매·리마스터 전략** — 이식·리마스터·리메이크 3층, 노후도의 창, 가격 진입 스위치, 롱테일 할인 |
 | [[steam-revenue-forecasting]] | **Steam 매출 예측 모델** — 8 driver sensitivity, sub-genre conversion 매트릭스, ZR Forecaster |
 | [[publisher-deal-structures]] | **퍼블리셔 딜 구조** — Rev share·Recoup-first·MG·Marketing fee 5종 비교·stress test |
 | [[mobile-gamedev]] | **모바일 게임 개발** — 4대 현장 벽, 상업 성립 4요소, 원신 쇼크의 역설 |
