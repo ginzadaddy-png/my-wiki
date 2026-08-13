@@ -2,10 +2,11 @@
 title: "소스 전체 목록"
 ---
 
-총 174개 | 최신순 정렬
+총 175개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [nexon-ir-2q26](nexon-ir-2q26.md) | 넥슨 2Q26 IR — 메이플 확장 +63%·ARC Raiders 누적 880억엔·특별배당 3,240억엔 — 가이던스 상회·영업이익 -17%·북미유럽 비중 21%·던파 -44%·메이플 성공모델 던파 복제 4종 | 2026-08-13 |
 | [roblox-retention-algorithm-tradeoff-2026-08](roblox-retention-algorithm-tradeoff-2026-08.md) | Roblox — 추천 알고리즘을 리텐션 최적화로 바꾼 대가 (McEvoy·Fahey/GamesIndustry.biz) — 수익화 가이던스 2% 미달·Q3 부킹 -14~-18%·주가 1년 70~73% 하락·EU VLOP로 되돌리기 불가 | 2026-08-06 |
 | [gamedeveloper-one-page-design-2026-08](gamedeveloper-one-page-design-2026-08.md) | Game Developer — 원페이지 디자인 문서 (Riendeau·Librande) — 아무도 안 읽는 GDD 문제·주석 달린 한 장·SimCity 전 주기 실험·한 벽면·한 방 확장·배포 > 접근성 | 2026-08-07 |
 | [alinea-ps-july-2026-cod-catalog](alinea-ps-july-2026-cod-catalog.md) | Alinea — 7월 PS 판매 톱: 15년 된 CoD 이식작 2개가 4.35억 달러 (Elliott) — BO2 820만장·BO1 300만장·\$40 vs Halo \$50~60 45.2만장·소니 컷 \$1.3억·구매층 FC 26 교차 24% | 2026-08-04 |

@@ -1,10 +1,10 @@
 ﻿---
 title: "엠바크 스튜디오 (Embark Studios)"
 type: entity
-sources: ["[[gdc26-arc-raiders-reset]]", "[[embark-soderlund-quarter-budget]]", "[[multiproject-innersource-report]]", "[[gdc2026-embark-character-pipeline]]"]
+sources: ["[[gdc26-arc-raiders-reset]]", "[[embark-soderlund-quarter-budget]]", "[[multiproject-innersource-report]]", "[[gdc2026-embark-character-pipeline]]", "[[nexon-ir-2q26]]"]
 related: ["[[arc-raiders|아크 레이더스]]", "[[data-driven-development|데이터 기반 개발]]", "[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[art-pipeline-design|아트 파이프라인 설계]]"]
 created: 2026-04-13
-updated: 2026-05-18
+updated: 2026-08-13
 confidence: high
 ---
 
@@ -18,7 +18,7 @@ confidence: high
 | 전체 인원 | 약 360명 (2026년 기준) |
 | 대표 게임 | [[arc-raiders]], The Finals |
 | 주요 장르 | 익스트랙션 슈터 / FPS |
-| 누적 판매 | 아크 레이더스 1400만 장 (2026년 3월 기준) |
+| 누적 판매 | 아크 레이더스 1,630만 장·누적 매출 880억엔+ (2026년 6월 말) |
 
 ## 개발 철학
 
@@ -31,6 +31,8 @@ confidence: high
 **AAA 효율화 전략**: "AAA는 규모가 아니라 퀄리티". AAA 예산의 1/4 수준으로 경쟁. 핵심은 AI 도입이 아닌 **파이프라인 재설계** (포토그래메트리, 절차적 지형 생성, 구식 워크플로우 교체). CEO 수더룬드: "600~800명이 될 이유가 없다. 우리가 스튜디오를 시작한 이유를 잊지 않겠다." → [[multi-project-development|멀티 프로젝트 개발]] 참고
 
 **향후 목표**: 4개 게임 포트폴리오(현재 2개). 인원 대폭 증가 없이 달성 목표.
+
+**모회사 전략 언어로 승격** ([[nexon-ir-2q26|넥슨 2Q26 IR]]): 넥슨이 [[arc-raiders|아크 레이더스]]의 성과를 "서구 시장을 여는 재현 가능한 전략의 실증"으로, 엠바크의 소수 인원·신기술 개발 전략을 "넥슨 글로벌 전개의 돌파구"로 공식 규정. [[embark-soderlund-quarter-budget|AAA 예산 4분의 1 전략]]이 자회사 실험에서 그룹 공식 전략으로 올라섰다. THE FINALS도 출시 30개월 이후 시즌 운영으로 매출이 전년보다 증가.
 
 **아트 파이프라인 공유 (Houdini + USD)** — [[gdc2026-embark-character-pipeline|GDC26 발표 (Östsjö & Arvidsson)]]:
 - **Arc Raiders와 The Finals가 *같은 파이프라인*을 공유**. 차이는 project-specific 노드 몇 개 + wrap system + customization뿐. Unreal engine도 공유

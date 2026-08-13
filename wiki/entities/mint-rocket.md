@@ -1,10 +1,10 @@
 ---
 title: "민트로켓"
 type: entity
-sources: ["[[cgdc-dave-the-diver]]", "[[gamedev-leadership-dynamics]]"]
+sources: ["[[cgdc-dave-the-diver]]", "[[gamedev-leadership-dynamics]]", "[[nexon-ir-2q26]]"]
 related: ["[[dave-the-diver|데이브 더 다이버]]", "[[marketing-strategy|마케팅 전략]]", "[[community-management|커뮤니티 운영]]"]
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-08-13
 confidence: high
 ---
 
@@ -14,6 +14,14 @@ confidence: high
 - **대표작**: [[dave-the-diver|데이브 더 다이버]] (2023)
 - **특징**: 스팀·콘솔 마켓에서 국내 인디 최고 수준의 성공 사례. 밸브로부터 커뮤니티 운영 칭찬 받음
 - **커뮤니티**: 얼리 액세스 8개월 동안 개발자 직접 답변 원칙 고수
+
+## 파이프라인 — 단일작 스튜디오에서 3종 라인업으로
+
+[[nexon-ir-2q26|넥슨 2Q26 IR]] 파이프라인 기준. 이중 트랙 실험이 자체 파이프라인을 갖춘 상시 조직으로 넘어가는 단계:
+
+- **데이브 더 다이버 모바일** — 2026-09-17 글로벌 출시 확정
+- **고질라 디펜스 포스: X** — 2027 Q1, 고질라 IP 협업 (시뮬레이션·캐주얼, 모바일)
+- **반초 더 셰프** — 시기 미정, 데이브 더 다이버 IP 스핀오프 (시뮬레이션 RPG)
 
 ## 황재호 디렉터의 리더십 철학
 

@@ -5,9 +5,9 @@ source_url: "https://www.businesswire.com/news/home/20260514529375/en/Nexon-Rele
 source_author: "Nexon IR · NCSOFT IR (종합)"
 source_published: 2026-05-14
 sources: []
-related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[nexon|넥슨]]", "[[ncsoft|엔씨소프트]]", "[[krafton|크래프톤]]", "[[pearl-abyss|펄어비스]]", "[[nexon-cmb-2026-transformation|넥슨 2026 CMB]]", "[[live-service-design|라이브 서비스 설계]]", "[[game-market-trends|게임 시장 트렌드]]"]
+related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[nexon|넥슨]]", "[[ncsoft|엔씨소프트]]", "[[krafton|크래프톤]]", "[[pearl-abyss|펄어비스]]", "[[nexon-cmb-2026-transformation|넥슨 2026 CMB]]", "[[nexon-ir-2q26|넥슨 2Q26 IR]]", "[[live-service-design|라이브 서비스 설계]]", "[[game-market-trends|게임 시장 트렌드]]"]
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-08-13
 confidence: high
 ---
 
@@ -18,12 +18,13 @@ confidence: high
 ## 넥슨 — 복수 장수 라이브 IP + 신작 horizontal 성장
 
 - **매출 추이**: FY23 ¥423.4B → FY24 ¥446.2B → FY25 ¥475.1B → **Q1 2026 ¥152.2B**(+34% YoY)·영업이익 ¥58.2B(+40%)·순이익 ¥57.2B(+118%, ¥14.5B FX gain 포함) — 분기 최고
-- ⚠️ **vertical(3대 프랜차이즈)은 오히려 감소**: FY23 ¥139.4B → FY24 ¥140.2B → **FY25 ¥130.8B**. 성장은 전부 **horizontal(신작)**에서 — Q1 horizontal **+188% YoY ¥59.3B**, [[arc-raiders|ARC Raiders]]가 견인. *recurrent 바닥은 flat/하향, 성장은 신작이 만든다*는 하드 데이터
+- 성장은 **horizontal(신작)**이 견인 — Q1 horizontal **+188% YoY ¥59.3B**, [[arc-raiders|ARC Raiders]]가 주역
+- > ⚠️ 모순: 종전 이 자리에 있던 "vertical(3대 프랜차이즈) 매출 FY23 ¥139.4B→FY25 ¥130.8B 감소"는 오독으로 확인 — [[nexon-ir-2q26|2Q26 IR]] 3페이지에서 동일 수치 시리즈(139.4/140.2/130.8)가 **조정후영업이익**(감손 등 기타비용 제외) 차트로 명시됨. 매출로 읽으면 3대 프랜차이즈가 전사 매출의 27%라는 뜻이 되어 성립하지 않는다. 더욱이 2Q26에 메이플 프랜차이즈(vertical)가 확장 타이틀(Worlds·Idle RPG) 견인으로 **+63% 분기 사상 최고**를 기록 — *vertical도 확장 신작으로 성장 가능*. "recurrent 본편 = flat floor" 논지는 유지, "vertical 매출 감소" 하드 데이터는 폐기
 - **메이플스토리** franchise +42% YoY(Q1, Idle RPG·Worlds 견인 / FY2025 +43% 22년 최고). 롯데월드 메이플 아일랜드·6월 애니메이션 영화 — 커뮤니티 자산화
 - **던전앤파이터**(2005, 네오플): Q1 franchise **−26% YoY**(PC 견조·모바일 부진). 중국 모바일 개발을 텐센트로 이관(Neople 크리에이티브 컨트롤 유지) + **PC 텐센트 10년 재계약**
 - **[[arc-raiders|ARC Raiders]]**(엠바크): 누적 **16M+ units**(Q1 +4.6M), 액티브 절반이 100시간+ (총 15억 시간), 2026 BAFTA 멀티플레이어 게임상. "글로벌 IP를 스케일로 만드는 서구 개발 엔진"
 - **주주환원**: 2026 배당 **¥60/주** + **¥300억 자사주 매입**(5/15~7/31). 파이프라인 신작 15+개 승인
-- ⚠️ *회복탄력 ≠ 무한성장*: [[nexon-cmb-2026-transformation|2026 CMB]]에서 **2027 매출 7조(¥750B) 목표 철회** — 위 vertical 감소가 그 근거. Q2 2026은 "연중 최약 분기" 전망(매출 ¥107.0~119.7B)
+- ⚠️ *회복탄력 ≠ 무한성장*: [[nexon-cmb-2026-transformation|2026 CMB]]에서 **2027 매출 7조(¥750B) 목표 철회**. Q2 2026은 "연중 최약 분기" 전망(매출 ¥107.0~119.7B)이었으나 — *사후 검증*: 실제 Q2는 메이플 확장 타이틀 호조로 **매출 ¥121.1B·영업이익 ¥31.3B 모두 가이던스 상단 초과** ([[nexon-ir-2q26|2Q26 IR]])
 
 ## 엔씨(NCSOFT) — 집중형의 trough → 신작·클래식 반등
 

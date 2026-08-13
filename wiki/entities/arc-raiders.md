@@ -1,10 +1,10 @@
 ---
 title: "아크 레이더스 (ARC Raiders)"
 type: entity
-sources: ["[[gdc26-arc-raiders-reset]]", "[[missing-middle-paradigm-shift-2026]]"]
+sources: ["[[gdc26-arc-raiders-reset]]", "[[missing-middle-paradigm-shift-2026]]", "[[nexon-ir-2q26]]"]
 related: ["[[embark-studios|엠바크 스튜디오]]", "[[data-driven-development|데이터 기반 개발]]", "[[small-team-development|소규모 팀 개발]]", "[[playtesting|플레이테스팅]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[live-service-design|라이브 서비스 설계]]"]
 created: 2026-04-13
-updated: 2026-06-01
+updated: 2026-08-13
 confidence: high
 relations:
   developedBy: [embark-studios]
@@ -21,7 +21,8 @@ relations:
 | 플랫폼 | PC, 콘솔 |
 | 가격 | \$40 프리미엄 (F2P→전환) |
 | 출시 | 2025년 10월 30일 |
-| 판매량 | 1,400만장 (2025년 12월 기준) |
+| 판매량 | 누적 1,630만장 (2026년 6월 말 — 출시 2개월 1,400만장) |
+| 누적 매출 | 880억엔+ (2026년 6월 말) |
 | 최고 동접 | 96만명 (2026년 1월, Steam) |
 | 개발 기간 | 약 7년 (2017년경부터) |
 
@@ -46,6 +47,9 @@ relations:
 - 하락 원인: 핵 사용자, 엔드게임 콘텐츠 부재, 시즌 리셋 피로, 코스메틱 가격 불만
 - **Escalation 로드맵 (2026년 1~4월)**: 신규 맵(Riven Tides 해안가), 신규 ARC 적군, 솔로 매치메이킹
 - CEO 패트릭 소더룬드: "10년 이상 유지할 게임"으로 운영 선언
+- **2Q26 기준 매출 기여는 견고** ([[nexon-ir-2q26|2Q26 IR]]): 분기 매출 183억엔 — 넥슨 전사 분기 매출의 약 15%. 누적 1,630만장(Q2 증분 +80만으로 판매 둔화)·누적 매출 880억엔+. 넥슨 북미·유럽 매출 비중을 1년 만에 8%→21%로 끌어올림
+- **다음 성장 축**: 2026-10 출시 이후 최대 업데이트 "Frozen Trail"(코어 재활성화+신규 획득) · 텐센트 퍼블리싱 중국 진출 — 7월 클로즈드 알파 등록 목표 초과, 로컬라이즈 호평
+- 넥슨 경영진은 이 성과를 "서구 시장을 여는 재현 가능한 전략의 실증"으로 규정 — [[embark-studios|엠바크]]의 소수정예·신기술 개발이 전사 글로벌 전개의 템플릿으로 승격
 
 ## 핵심 기둥 (Pillars)
 

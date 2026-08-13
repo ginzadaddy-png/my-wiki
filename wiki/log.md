@@ -2,6 +2,17 @@
 title: "활동 로그"
 ---
 
+## [2026-08-13] ingest+report | 넥슨 FY2026 2분기 IR (결산설명자료)
+- 트리거: 사용자 지시 — Downloads의 IR PDF(FiGW.pdf, 일본어판 41매, 당일 발표) 분석 → 관련 페이지 반영 + 분석 보고서 생성
+- Source: 로컬 PDF (raw/ 미적재, PyMuPDF 텍스트 추출로 직접 ingest). 공식 출처: Nexon IR Library (2026-08-13 발표, 이정헌 대표·우에무라 시로 CFO)
+- 핵심: Q2 매출 ¥121.1B(+2%, 고정환율 -6%)·영업이익 ¥31.3B(-17%) 모두 가이던스 상단 초과. 메이플 프랜차이즈 +63% 분기 사상 최고(Worlds +123%·Idle RPG 견인) vs 던파 -44%. ARC Raiders 누적 1,630만장·매출 ¥88B+, 분기 매출 전사 15%. 북미·유럽 비중 8%→21%. **특별배당 ¥415/주(약 ¥324B)**. 메이플 성공모델(본편+UGC+방치형)의 던파 복제 4종 파이프라인
+- 생성(source 1): **nexon-ir-2q26**
+- 생성(report 1): **reports/nexon-ir-2q26-analysis** — 순수 아티클(deck 없음). 실적·프랜차이즈·지역·자본정책·Q3 가이던스·파이프라인·전략 프레임·논지 업데이트·리스크 9절
+- 업데이트(entity 4): nexon (2·4·5축 갱신 + 특별배당 + 모순 교정) · arc-raiders (누적 수치·Frozen Trail·텐센트 중국) · embark-studios (모회사 전략 언어 승격) · mint-rocket (파이프라인 3종)
+- 업데이트(source 1): nexon-ncsoft-mmo-recurrent-2026 — 모순 교정 + Q2 "최약 분기" 전망 사후 검증
+- ⚠️ 모순 교정: "vertical(3대 프랜차이즈) 매출 FY23 ¥139.4B→FY25 ¥130.8B 감소"(Q1 IR 기반)는 오독 — 2Q26 자료 3p에서 동일 수치가 **조정후영업이익** 차트로 확인. nexon.md·nexon-ncsoft-mmo-recurrent-2026.md 양쪽에 ⚠️ 블록 반영
+- 카탈로그: sources/all(175) · reports/all(6) · index.md 갱신
+
 ## [2026-08-10] ingest | Game Developer — 원페이지 디자인 문서 (Stone Librande)
 - 트리거: 2026-08-10 주간 lint 추천 조사 #5(위키 전체에서 2개 파일만 언급하는 완전 공백) + 같은 날 source radar 미처리 후보 ④ — 사용자가 두 건 동시 지시
 - Source: 웹 3건 (raw/ 미적재, 직접 ingest). 주: [Pushing the limits in Simulating a City, One Page at a Time](https://www.gamedeveloper.com/design/pushing-the-limits-in-simulating-a-city-one-page-at-a-time) — Danielle Riendeau, Game Developer, 2026-08-07
