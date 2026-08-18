@@ -1,5 +1,5 @@
 ---
-title: "Remedy — Control Resonant \$60 책정, 가격을 마케팅 소구점으로 (2026-08)"
+title: "Remedy — Control Resonant $60 책정, 가격을 마케팅 소구점으로 (2026-08)"
 type: source-summary
 source_url: "https://www.gamedeveloper.com/business/remedy-entertainment-touts-pricing-control-resonant-attractively-for-an-aaa-title-"
 source_author: "Diego Argüello (Game Developer)"
