@@ -17,6 +17,8 @@ title: "위키 개요"
 - [[designer-empowerment|디자이너 도구화]]: 프로그래머가 도구를 만들면 팀 전체가 생산자가 된다
 - [[open-world-design|오픈월드 유도 설계]]: 자유와 방향의 균형 — BotW·엘든링·GTA5의 서로 다른 접근
 - [[marketing-strategy|마케팅·출시 전략]]: 스팀 넥스트 페스트, 크리에이터 중심, 커뮤니티 신뢰 축적, 가격 전략
+- [[steam-next-fest|Steam Next Fest]]: 위시리스트 티어·알고리즘·데모 타이밍·friendslop — 위키에서 가장 많이 인용되는 단일 출시 이벤트 축
+- [[festival-showcase-strategy|페스티벌·쇼케이스 노출 전략]]: 서드파티 페스티벌 470개 지형·쇼케이스 5문·참가 통화 3종 — 노출과 판매는 분리해서 본다
 - [[indie-business-strategy|인디 비즈니스 전략]]: 창업·자금·마케팅·생존 — 위키에서 가장 널리 인용되는 실무 축 중 하나
 - [[vision-statement|비전 선언문]]: 팀 전체가 같은 목표를 보게 만드는 한 문장 — 서커펀치·엠바크의 기둥 기반 의도 소통
 - [[data-driven-development|데이터 기반 의사결정]]: 3일 버스트·바구니 시스템·UXR·계측 툴링 — 감이 아니라 관측으로 자르기

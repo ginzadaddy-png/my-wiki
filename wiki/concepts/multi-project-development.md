@@ -2,9 +2,9 @@
 title: "멀티 프로젝트 개발"
 type: concept
 sources: ["[[risks-multi-game-development]]", "[[naughty-dog-multi-project]]", "[[fromsoftware-300-devs]]", "[[embark-soderlund-quarter-budget]]", "[[multiproject-innersource-report]]"]
-related: ["[[naughty-dog|너티독]]", "[[fromsoftware|프롬소프트웨어]]", "[[embark-studios|엠바크 스튜디오]]", "[[insomniac-games|인섬니악]]", "[[capcom|캡콤]]", "[[innersource|이너소스]]", "[[small-team-development|소규모 팀 개발]]", "[[data-driven-development|데이터 기반 개발]]", "[[producer-role|프로듀서 역할]]"]
+related: ["[[naughty-dog|너티독]]", "[[fromsoftware|프롬소프트웨어]]", "[[embark-studios|엠바크 스튜디오]]", "[[insomniac-games|인섬니악]]", "[[capcom|캡콤]]", "[[innersource|이너소스]]", "[[small-team-development|소규모 팀 개발]]", "[[data-driven-development|데이터 기반 개발]]", "[[producer-role|프로듀서 역할]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-08-18
 confidence: high
 ---
 

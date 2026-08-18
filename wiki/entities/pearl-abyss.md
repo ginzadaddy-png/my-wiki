@@ -2,9 +2,9 @@
 title: "펄어비스 (Pearl Abyss)"
 type: entity
 sources: ["[[pearl-abyss-blackspace-engine-gdc2025]]", "[[pearl-abyss-ir-1q26]]"]
-related: ["[[proprietary-engine-strategy|독자 엔진 전략]]", "[[proprietary-engine-vs-ue5|자체 엔진 vs UE5 의사결정 매트릭스]]", "[[unreal-engine-5|Unreal Engine 5]]", "[[live-service-design|라이브 서비스 설계]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[crimson-desert|붉은사막]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[game-market-trends|게임 시장 트렌드]]"]
+related: ["[[proprietary-engine-strategy|독자 엔진 전략]]", "[[proprietary-engine-vs-ue5|자체 엔진 vs UE5 의사결정 매트릭스]]", "[[unreal-engine-5|Unreal Engine 5]]", "[[live-service-design|라이브 서비스 설계]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[crimson-desert|붉은사막]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[game-market-trends|게임 시장 트렌드]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
 created: 2026-05-29
-updated: 2026-07-20
+updated: 2026-08-18
 confidence: high
 relations:
   parentOf: []

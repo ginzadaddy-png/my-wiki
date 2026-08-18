@@ -2,9 +2,9 @@
 title: "Electronic Arts (EA)"
 type: entity
 sources: []
-related: ["[[respawn-entertainment|Respawn Entertainment]]", "[[bioware|BioWare]]", "[[apex-legends|Apex Legends]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[multi-project-development|멀티 프로젝트 개발]]"]
+related: ["[[respawn-entertainment|Respawn Entertainment]]", "[[bioware|BioWare]]", "[[apex-legends|Apex Legends]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-08-18
 confidence: medium
 relations:
   parentOf: [respawn-entertainment, bioware]

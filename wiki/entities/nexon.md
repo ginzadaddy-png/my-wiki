@@ -2,11 +2,11 @@
 title: "넥슨 (Nexon)"
 type: entity
 sources: ["[[gdc26-arc-raiders-reset]]", "[[cgdc-dave-the-diver]]", "[[gamedev-leadership-dynamics]]", "[[gdc2026-embark-character-pipeline]]", "[[multiproject-innersource-report]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[nexon-cmb-2026-transformation]]", "[[nexon-ir-2q26]]"]
-related: ["[[embark-studios|엠바크 스튜디오]]", "[[mint-rocket|민트로켓]]", "[[arc-raiders|아크 레이더스]]", "[[dave-the-diver|데이브 더 다이버]]", "[[live-service-design|라이브 서비스 설계]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[multi-project-development|멀티 프로젝트 개발]]"]
+related: ["[[embark-studios|엠바크 스튜디오]]", "[[mint-rocket|민트로켓]]", "[[arc-raiders|아크 레이더스]]", "[[dave-the-diver|데이브 더 다이버]]", "[[live-service-design|라이브 서비스 설계]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
 relations:
   parentOf: [embark-studios, mint-rocket]
 created: 2026-05-26
-updated: 2026-08-13
+updated: 2026-08-18
 confidence: medium-high
 ---
 

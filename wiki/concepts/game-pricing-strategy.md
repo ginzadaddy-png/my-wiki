@@ -11,11 +11,13 @@ sources: [
   "[[zrconsulting-steam-forecaster-2026]]",
   "[[alinea-ps-physical-fc27-odyssey-2026-07]]",
   "[[alinea-ps-july-2026-cod-catalog]]",
-  "[[alinea-remakes-remasters-ranking-2026-07]]"
+  "[[alinea-remakes-remasters-ranking-2026-07]]",
+  "[[alinea-halo-campaign-evolved-2026-08]]",
+  "[[remedy-control-resonant-pricing-2026-08]]"
 ]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
 created: 2026-04-28
-updated: 2026-08-10
+updated: 2026-08-18
 confidence: high
 ---
 
@@ -59,6 +61,18 @@ confidence: high
 [[embark-studios|엠바크]] Söderlund는 [[arc-raiders]] \$39.99를 [[helldivers-2]]에서 영감받았다며 *"저렴해서 사람들이 들어와 해볼 수 있는 점이 좋다"*고 밝혔다.
 
 > ⚠️ 단 [[arrowhead-game-studios|애로우헤드]] Pilestedt는 "\$40이 헬다이버스 2 성공의 열쇠"라는 해석을 부정했다 — \$40 게임은 많지만 다 성공하지 않는다. **가격은 모수를 여는 조건이지 성공의 원인이 아니다.** 자세한 의사결정 순서는 [[reports/pc-console-pricing-playbook|기준 가격 결정 가이드]] 참조.
+
+### 상단의 분기 — \$60 언더컷 ([[remedy-control-resonant-pricing-2026-08]])
+
+가격 결정력이 없다고 해서 반드시 미드 프라이스로 내려가는 건 아니다. **AAA 상단에 남되 한 칸 아래에 서는** 자리가 있다.
+
+[[remedy-entertainment|Remedy]]는 Control Resonant를 **\$60**에 내면서 이 가격을 투자자 대상 소구점으로 제시했다 — *"AAA 타이틀치고 매력적으로 책정됐다"*. 상단 자체가 아직 흔들리는 중이라는 것도 배경이다: 소니 \$70(2020) → 닌텐도 마리오 카트 월드 \$80(2025) → **Xbox가 퍼스트파티 \$80을 선언했다가 The Outer Worlds 2에서 \$70으로 후퇴** → GTA 6 \$80.
+
+> 💡 **\$60은 절대적으로 싼 값이 아니라 2020년까지의 표준값이다.** \$70~80이 위에 자리 잡았기 때문에 비로소 메시지가 됐다. 가격의 의미는 **인접 대안 대비 위치**에서 나온다는 명제가 상단에서도 그대로 성립한다.
+
+이 선택은 여유에서 나온 게 아니다 — FBC: Firebreak 부진 이후 Q2 매출 -40%·영업손실 €3.9M 상태에서, 카피당 회수를 높이는 대신 **진입을 열고 노출로 모수를 만드는 쪽**을 택했다(7개 도시 핸즈온 투어, 위시리스트 150만+). ⚠️ 출시 전 지표까지만 검증됐고, 2026-09-24 출시 후 실판매로 사후 검증 필요.
+
+→ 같은 명제가 **재발매 구간**에서 더 아프게 나타난다. 그쪽은 인접 대안이 자기 카탈로그이기 때문이다 → 아래 "구작 재발매 가격" 절
 
 ## 가격 상한 올리기 — 에디션 티어링과 \$150 SKU ([[alinea-ps-physical-fc27-odyssey-2026-07]])
 
@@ -142,6 +156,17 @@ confidence: high
 - 즉 구작 가격은 마진 조절 손잡이가 아니라 **진입 여부를 결정하는 스위치**에 가깝다
 
 > 💡 위의 "\$10 단절선"이 인디 신작 구간의 관측이라면, 이건 **구작 재발매 구간에도 비슷한 단절선이 있다**는 관측이다. 다만 단일 월·단일 플랫폼의 두 사례이므로 위치(\$40과 \$50 사이 어딘가)는 확정된 것이 아니다.
+
+**그런데 가격만의 문제가 아니었다** ([[alinea-halo-campaign-evolved-2026-08]]). 출시 2주 시점 데이터가 나오면서 구성 쪽 원인이 더 크게 드러났다.
+
+| | 가격 | 내용 |
+|---|---|---|
+| Halo: The Master Chief Collection | **\$40** | 코어 시리즈 + 온라인 멀티플레이 |
+| Halo: Campaign Evolved | **\$50** | 캠페인 1편 + 보너스 미션 + 비주얼 개선 |
+
+**더 비싼데 내용이 적었다** — 인접 대안이 자기 카탈로그였던 것이다. 마이크로소프트도 알고 있어서 MCC 할인을 4개월간 끊어 방어했지만 실패했고, 스팀 구매자의 약 80%는 이미 MCC를 플레이한 기존 팬이었다. 결정타는 **멀티플레이 부재**다 — 멀티플레이를 포함한 15년 된 CoD 이식작 두 개가 PS5에서 16배 이상 앞섰고, 그 BO2 구매자의 **4명 중 3명은 캠페인을 시작조차 안 했다.**
+
+> 💡 **재발매에서는 가격보다 구성이 앞선다.** 원작을 정의하던 모드가 빠져 있으면 어떤 가격을 붙여도 상위 호환을 이기지 못한다. 상세는 [[remaster-rerelease-strategy]] · [[reports/pc-console-pricing-playbook]] 6장
 
 **구작의 할인 곡선은 신작보다 가파르게 설계한다** ([[alinea-remakes-remasters-ranking-2026-07]]). 캡콤·코나미 모두 출시 몇 달 후 가격을 크게 떨어뜨려 판매 속도를 유지하는 롱테일 할인을 쓴다 — Silent Hill 2를 **\$28**로 내렸을 때 판매가 실측으로 늘었고 매출 잠식은 관측되지 않았다. 신작은 조기 인하가 품질 신호를 깎지만 구작은 평판이 이미 확정돼 있어 **인하가 순수한 모수 확장으로만 작용**하기 때문이다.
 

@@ -2,15 +2,17 @@
 title: "Steam Next Fest"
 type: concept
 sources: ["[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[airbridge-steam-marketing-playbook]]", "[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[carless-steam-personal-calendar-2026-06]]", "[[carless-twitch-discovery-2026-06]]", "[[carless-next-fest-june-2026]]", "[[zukowski-personal-calendar-launch]]"]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[playtesting|플레이테스팅]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[valve|Valve]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[playtesting|플레이테스팅]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[valve|Valve]]", "[[festival-showcase-strategy|페스티벌·쇼케이스 노출 전략]]"]
 created: 2026-05-18
-updated: 2026-06-29
+updated: 2026-08-18
 confidence: high
 ---
 
 **Steam Next Fest**는 [[valve|Valve]]가 분기마다 운영하는 무료 데모 페스티벌. 인디·중소 스튜디오 출시 마케팅 캘린더의 *피크 이벤트*로 자리잡았다. 위시리스트 누적, 알고리즘 매칭, 데모 검증, 커뮤니티 신호가 한 주에 압축되어 발생하는 구조라 *어떻게 들어가서 무엇을 얻을지* 결정 자체가 출시 전략의 핵심 변수.
 
 > 💡 **핵심 인사이트:** Next Fest는 *마케팅 부스터*이지 *디자인 검증 도구*가 아니다 ([[zukowski-next-fest-strategy]]). "여기서 검증하자"는 마인드는 위험 — 이미 다듬어진 데모와 누적 위시리스트가 페스트 성과를 결정한다. 위시리스트는 목표가 아니라 *결과*. 알고리즘은 시청률보다 *성향 매칭*을 본다.
+
+📎 **이 페이지의 범위 — Valve 직영 행사만 다룬다.** 서드파티 가상 페스티벌(단체·퍼블리셔·자원봉사자가 여는 Steam 세일 페이지 행사)과 스트리밍 쇼케이스는 → [[festival-showcase-strategy|페스티벌·쇼케이스 노출 전략]]. 셋을 갈라놓는 결정적 차이는 **Next Fest만 출시 전 1회 제한**이라는 점이다 — Next Fest는 *언제 쓸 것인가*의 문제이고, 나머지 둘은 *얼마나 누적할 것인가*의 문제다. 지불 통화도 각각 데모·큐레이터 적합성·공개 소재로 다르다.
 
 ## 운영 규칙 (Valve 공식)
 

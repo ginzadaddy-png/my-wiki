@@ -1,16 +1,18 @@
 ---
 title: "마케팅 전략"
 type: concept
-sources: ["[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc24-steam-secrets]]", "[[airbridge-steam-marketing-playbook]]", "[[gdc26-steam-page-needs-soul]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[gdc26-integrated-marketing]]", "[[gdc26-game-trailers]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[steam-page-optimization-guide-2026]]", "[[game-marketing-strategy-2026]]", "[[indiebi-game-pricing-strategy]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[capcom-fy26-ir]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-small-spaces-longtail]]", "[[zukowski-demos-wishlist-conversion]]", "[[carless-meccha-chameleon-breakout]]", "[[cedec2026-cyberagent-mobile-marketing]]"]
-related: ["[[mint-rocket|민트로켓]]", "[[dave-the-diver|데이브 더 다이버]]", "[[balatro|발라트로]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[marketing-channels|인디 마케팅 채널 전략 비교]]"]
+sources: ["[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc24-steam-secrets]]", "[[airbridge-steam-marketing-playbook]]", "[[gdc26-steam-page-needs-soul]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[gdc26-integrated-marketing]]", "[[gdc26-game-trailers]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[steam-page-optimization-guide-2026]]", "[[game-marketing-strategy-2026]]", "[[indiebi-game-pricing-strategy]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[capcom-fy26-ir]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-small-spaces-longtail]]", "[[zukowski-demos-wishlist-conversion]]", "[[carless-meccha-chameleon-breakout]]", "[[cedec2026-cyberagent-mobile-marketing]]", "[[zukowski-3rd-party-festivals-2026]]", "[[carless-showcase-selection-2026-08]]", "[[remedy-control-resonant-pricing-2026-08]]"]
+related: ["[[mint-rocket|민트로켓]]", "[[dave-the-diver|데이브 더 다이버]]", "[[balatro|발라트로]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[marketing-channels|인디 마케팅 채널 전략 비교]]", "[[festival-showcase-strategy|페스티벌·쇼케이스 노출 전략]]"]
 created: 2026-04-13
-updated: 2026-07-30
+updated: 2026-08-18
 confidence: high
 ---
 
 게임의 출시와 마케팅을 성공시키기 위한 전략. 스팀 플랫폼 전략부터 통합 마케팅 채널 운영, 트레일러, 크리에이터, PR까지 포괄한다. 데이브 더 다이버(민트로켓), SGC 패널, Dotemu, ICO Partners 등 실전 사례 기반.
 
 채널별(PR·크리에이터·유료·커뮤니티·스팀 데모·트레일러) 비용·리스크·규모별 우선순위를 나란히 비교한 표는 → [[marketing-channels|인디 마케팅 채널 전략 비교]] 참고.
+
+출시 전 노출 행사(서드파티 페스티벌·스트리밍 쇼케이스)의 지형·참가 판단은 → [[festival-showcase-strategy|페스티벌·쇼케이스 노출 전략]]. Valve 직영 Next Fest는 → [[steam-next-fest|Steam Next Fest]].
 
 **스토어 페이지**
 - 개발과 동시에 설계하는 첫 마케팅 무대 (출시 후 꾸미는 전시 공간이 아님)
@@ -263,6 +265,16 @@ ZR Forecaster의 paid acquisition signals:
 - 60%+ 시 wishlist count가 실제 매출 예측에 *과대평가*되는 상태
 
 → wishlist 절대 수치만 보고 매출 예측하지 말 것. *paid 비중을 함께 검토*해야 함.
+
+## 가격을 마케팅 메시지로 쓰기 ([[remedy-control-resonant-pricing-2026-08]])
+
+가격은 보통 회수 계획의 결과물로 다뤄지지만, **소구점 목록에 올려놓고 쓰는 경우**가 있다. [[remedy-entertainment|Remedy]]가 Control Resonant를 \$60에 내면서 투자자 커뮤니케이션에서 *"AAA 타이틀치고 매력적으로 책정됐다"*를 주요 근거로 제시한 것이 그렇다.
+
+- 성립 조건은 **인접 대안이 위에 있을 것** — \$60은 2020년까지 표준이던 값이고, \$70~80이 위에 자리 잡았기 때문에 비로소 메시지가 된다
+- Remedy의 선택은 *카피당 회수를 높이는 쪽*이 아니라 **진입을 열고 마케팅 물량으로 모수를 만드는 쪽**이었다 — Q2 매출 -40%·영업손실 €3.9M이라는 상황에서 내린 판단
+- 실행은 가격이 아니라 노출에 얹었다: 미국·중남미·유럽 **7개 도시 핸즈온 월드 투어** → 위시리스트 **150만+**, PS 예약 미국·독일·브라질 톱3
+
+> ⚠️ **출시 전 지표까지만 검증됐다.** 2026-09-24 출시 후 실판매로 확인해야 이 전술의 유효성이 판정된다. 가격 결정 절차 전반은 → [[reports/pc-console-pricing-playbook]]
 
 ## 출시 후 롱테일 — 지속 발견 설계 (Small Spaces 사례) ([[carless-small-spaces-longtail]])
 

@@ -2,9 +2,9 @@
 title: "카탈로그 이코노믹스 (Catalog Economics)"
 type: concept
 sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[alinea-steam-record-year-2026]]", "[[krafton-ir-fy2025-1q26]]", "[[krafton-ir-2q26]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-remakes-remasters-ranking-2026-07]]"]
-related: ["[[capcom|캡콤]]", "[[rockstar-games|록스타]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[bethesda-game-studios|베데스다]]", "[[fromsoftware|프롬소프트웨어]]", "[[nintendo|닌텐도]]", "[[nexon|넥슨]]", "[[krafton|크래프톤]]", "[[pearl-abyss|펄어비스]]", "[[larian-studios|라리안]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[live-service-design|라이브 서비스 설계]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[catalog-economics-3-publishers|3사 비교 (캡콤·닌텐도·Take-Two)]]", "[[nexon-ncsoft-mmo-recurrent-2026|한국 MMO recurrent]]", "[[hit-driven-strategy|홈런 전략]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]"]
+related: ["[[capcom|캡콤]]", "[[rockstar-games|록스타]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[bethesda-game-studios|베데스다]]", "[[fromsoftware|프롬소프트웨어]]", "[[nintendo|닌텐도]]", "[[nexon|넥슨]]", "[[krafton|크래프톤]]", "[[pearl-abyss|펄어비스]]", "[[larian-studios|라리안]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[live-service-design|라이브 서비스 설계]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[catalog-economics-3-publishers|3사 비교 (캡콤·닌텐도·Take-Two)]]", "[[nexon-ncsoft-mmo-recurrent-2026|한국 MMO recurrent]]", "[[hit-driven-strategy|홈런 전략]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
 created: 2026-05-18
-updated: 2026-08-10
+updated: 2026-08-18
 confidence: high
 ---
 

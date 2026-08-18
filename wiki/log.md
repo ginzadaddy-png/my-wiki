@@ -2,6 +2,40 @@
 title: "활동 로그"
 ---
 
+## [2026-08-18] comparison | 스튜디오 인수·통합의 사후 성적 — 위키 내 인수 서술 회수
+- 트리거: 2026-08-18 주간 lint 추천 조사 #3 — 사용자 선택. **신규 ingest 없이 위키 내부 자료만으로 회수**
+- 근거 자료: 위키 30개+ 페이지에 흩어진 인수 서술 + source 9건(naavik-xbox-strategy-reset-2026-07 · pearl-abyss-ir-1q26 · krafton-ir-2q26 · krafton-ir-fy2025-1q26 · catalog-economics-cross-company-2026 · nexon-cmb-2026-transformation · gamedev-leadership-dynamics · ign-generations-in-play-2026 · sony-ir-1q-fy2026)
+- 생성(comparison 1): **studio-acquisition-outcomes** — 사례표 16건 + 갈린 5개 지점 + 결과 5분류 + 판정 체크리스트 6문 + 데이터 한계 3
+- 논지: 결과를 가른 것은 인수 금액도 대상 스튜디오 실력도 아니라 **인수를 정당화한 상위 전략이 살아남았는가**. Game Pass 1억 → 3,000만 정체가 MS 인수 러시의 논리를 무너뜨리자 자산 정리가 왔고, 펄어비스-CCP는 8년간 합칠 지점을 못 찾아 매각, 크래프톤-언노운월즈는 *합칠 필요가 없는 인수*라 합쳐지지 않아도 성립
+- 갈린 5축: ① IP를 샀나 팀을 샀나(탱고 — MS는 IP만 남기고 폐쇄, 크래프톤은 IP 없이 팀만 인수) ② 운영 모델이 실제로 만나나(CCP 6년차 공통 인프라 부재) ③ 상위 전략 생존 여부(Xbox \$20B+ 지출에 매출 5억 감소·매각 스튜디오 1달러당 연 64센트 손실) ④ 인수 후 감원이 깎는 것(번지 800→400·"우리 대 그들") ⑤ 인수 비용은 늦게 온다(크래프톤 2Q26 순이익 -299억)
+- 결과 5분류: 존속·성장 / 흡수 / 정체 / 축소 / 처분. **가장 흔한 결과는 "흡수"이며 흡수는 성공도 실패도 아닌 *판정 불가* 상태** — 베데스다 판매량 비공개 전환이 예
+- ⚠️ 데이터 한계 명시: ① 실패는 공시 사건이 남고 성공은 사건을 안 만들어 **판정 대칭성 없음**(실패 과대 대표) ② 인수가가 5건만 확인돼 **ROI 미계산** ③ 관측 시점 제각각(크래프톤-탱고 2년은 판정 이르다고 표에 명기)
+- 커버리지 밖: MS-액티비전 블리자드(위키 자료 없음) · 번지·인섬니악 인수가 · Devolver 산하 스튜디오별 성과 · 인수 후 인력 유지율
+- 양방향 링크(concept 6 + entity 8): catalog-economics · multi-project-development · hit-driven-strategy · subscription-economy-gaming · studio-culture · psychological-safety / microsoft · krafton · pearl-abyss · bungie · tango-gameworks · unknown-worlds · electronic-arts · nexon (전부 related 추가·updated 2026-08-18)
+- 카탈로그: comparisons/all(19) · index.md(비교 19·pill 1행)
+- 모순: 없음
+- 미push — 사용자 검토 후
+
+## [2026-08-18] ingest | source radar 후보 2묶음 — 페스티벌·쇼케이스 채널 + 리마스터·AAA 가격
+- 트리거: 2026-08-18 source radar 주간 스캔(신규 후보 12건) → 사용자가 묶음 2개 선택. **강조점 지정: "신규 게임의 마케팅 전략"**
+- Source: 웹 4건 (raw/ 미적재, 직접 ingest)
+  - [The state of virtual 3rd-party festivals 2026](https://howtomarketagame.com/2026/08/11/the-state-of-virtual-3rd-party-festivals-2026/) — Chris Zukowski, 2026-08-11
+  - [Putting your game in a showcase? 5 key Qs to ask...](https://newsletter.gamediscover.co/p/putting-your-game-in-a-showcase-5) — Simon Carless, 2026-08-12
+  - [Halo: Campaign Evolved has sold 1.2M copies](https://alineaanalytics.substack.com/p/halo-campaign-evolved-has-sold-12m) — Rhys Elliott, 2026-08-12
+  - [Remedy touts pricing Control Resonant 'attractively'](https://www.gamedeveloper.com/business/remedy-entertainment-touts-pricing-control-resonant-attractively-for-an-aaa-title-) — Diego Arguello, 2026-08-11
+- ⚠️ 날짜 교정: 아카이브 목록의 게시일(둘 다 08-11)이 실제 기사 페이지와 달라 **Carless·Alinea 두 건은 2026-08-12**로 기록
+- 묶음 A 핵심: 서드파티 페스티벌 **470개·고유 게임 31,285개·2020년 이후 출시작 31%가 최소 1회 참가**(Next Fest 제외) — 참가는 차별화가 아니라 기본 위생. 참가 횟수 중앙값 2회·95백분위 10회의 하키스틱이 **알고리즘이 아니라 사람 큐레이션에서** 발생. 장르 편중은 수요가 아니라 **페스티벌 공급 부족**(418개 중 코지 25·내러티브 23 vs 시뮬 5·로그 7). 퍼블리셔 우위 4요인 중 복제 가능한 건 **이력 DB 관리** 하나이고 최강자 Stray Fawn의 방법이 정확히 그것. 쇼케이스는 참가비 \$1,000~수십만이지만 **강한 공개 소재는 비용을 0으로 만든다** — 돈이 아니라 콘텐츠로 지불 가능한 유일한 채널
+- 묶음 B 핵심: Halo: Campaign Evolved 2주 **120만장·\$67M**(PS 544K·Steam 232K). 실패 원인은 가격이 아니라 **인접 대안이 자기 카탈로그**였던 것(MCC 멀티플레이 포함 \$40 vs 캠페인 전용 \$50, MCC 할인 4개월 중단 방어 실패, 스팀 구매자 80%가 기존 MCC 플레이어). 결정타는 **멀티플레이 부재** — 15년 된 CoD 이식작 2종이 PS5에서 16배 이상 앞섰고 **BO2 구매자 4명 중 3명은 캠페인을 시작조차 안 함**. 반대편에서 Remedy는 \$70~80 흐름 속 **\$60 언더컷**을 마케팅 소구점으로 채택(Q2 매출 -40% 상황, 7개 도시 투어·위시리스트 150만+)
+- 생성(source 4): **zukowski-3rd-party-festivals-2026** · **carless-showcase-selection-2026-08** · **alinea-halo-campaign-evolved-2026-08** · **remedy-control-resonant-pricing-2026-08**
+- 생성(concept 1): **festival-showcase-strategy** — 사용자 지시로 별도 페이지 신설(비교 페이지 보강만 하는 대안 대신). 7절 + 함정표 + 커버리지 밖. steam-next-fest와의 경계를 **참가 통화 3종**(데모 / 큐레이터 적합성 / 공개 소재)과 **1회 제한 여부**로 정의하고 양쪽 페이지에 상호 명시
+- 업데이트(comparison 1): marketing-channels — 채널 특성표의 "스팀 (데모/페스티벌)" 행을 **Next Fest·서드파티 페스티벌·스트리밍 쇼케이스 3행으로 분리**, 두 절 신설, 규모별 우선순위표 갱신
+- 업데이트(report 1): reports/pc-console-pricing-playbook — 2장에 **\$60 언더컷 좌표** 신설(상단에도 분기가 있다), 4장 구독 절에 **게임패스 210만 vs 판매 120만 잠식 실측** + 상위 티어 필수 판단, **6장 "재발매 SKU의 가격 — 인접 대안이 자기 카탈로그일 때" 신설**(구 6·7장 → 7·8장 리넘버링), 의사결정 순서도에 0단계·1-1단계 추가, 함정표 4행 추가
+- 업데이트(concept 4): steam-next-fest(범위 경계 📎 블록) · marketing-strategy(**가격을 마케팅 메시지로 쓰기** 절 신설 + 노출 행사 포인터) · remaster-rerelease-strategy(**네 번째 조건 — 원작을 정의하던 모드를 빼지 말 것** 절 신설) · game-pricing-strategy(**상단의 분기 \$60 언더컷** 절 + 구작 재발매 절에 구성 우선 논거) · subscription-economy-gaming(**잠식 규모의 첫 실측** 절 신설)
+- 업데이트(entity 1): remedy-entertainment — 자체 퍼블리싱 전환과 그 대가(FBC: Firebreak 부진·CEO 교체·Q2 -40%) + Control Resonant 전략
+- 카탈로그: sources/all(179) · concepts/all(74) · index.md(소스 179·개념 74·날짜 2026-08-18)
+- 모순: 없음. 단 remaster-rerelease-strategy의 기존 Halo PS 수치(45.2만장, 2026-07 스냅숏)와 신규 수치(544K장, 출시 2주 시점)는 **같은 지표의 다른 관측 시점**임을 본문에 명시 — 상충 아님
+- ⚠️ 사후 검증 대기: Control Resonant 2026-09-24 출시 후 실판매로 \$60 언더컷 유효성 판정 (출시 전 지표까지만 확인됨)
+
 ## [2026-08-13] ingest+report | 넥슨 FY2026 2분기 IR (결산설명자료)
 - 트리거: 사용자 지시 — Downloads의 IR PDF(FiGW.pdf, 일본어판 41매, 당일 발표) 분석 → 관련 페이지 반영 + 분석 보고서 생성
 - Source: 로컬 PDF (raw/ 미적재, PyMuPDF 텍스트 추출로 직접 ingest). 공식 출처: Nexon IR Library (2026-08-13 발표, 이정헌 대표·우에무라 시로 CFO)

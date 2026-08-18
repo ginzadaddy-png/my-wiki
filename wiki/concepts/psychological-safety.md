@@ -2,9 +2,9 @@
 title: "심리적 안전 (Psychological Safety)"
 type: concept
 sources: ["[[kumhotire-psychological-safety]]", "[[gamedev-leadership-dynamics]]", "[[ukyou-project-failure-structure]]", "[[gdc26-production-traps]]", "[[gdc26-three-mindset-shifts]]", "[[gdc26-too-much-playtesting]]"]
-related: ["[[studio-culture|스튜디오 문화]]", "[[dev-org-structure|개발 조직 구조]]", "[[leadership-production|게임 개발 리더십 스타일]]", "[[playtesting|플레이테스팅]]"]
+related: ["[[studio-culture|스튜디오 문화]]", "[[dev-org-structure|개발 조직 구조]]", "[[leadership-production|게임 개발 리더십 스타일]]", "[[playtesting|플레이테스팅]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
 created: 2026-05-18
-updated: 2026-05-18
+updated: 2026-08-18
 confidence: high
 ---
 

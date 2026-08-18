@@ -2,7 +2,7 @@
 title: "전체 개념 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-08-10
+updated: 2026-08-18
 ---
 
 ← [홈으로](../index.md)
@@ -38,6 +38,7 @@ updated: 2026-08-10
 |------|------|
 | [[marketing-strategy]] | **마케팅 전략** — 스팀·통합 채널·트레일러·PR·크리에이터 |
 | [[steam-next-fest]] | **Steam Next Fest** — 위시리스트 티어·알고리즘·데모 타이밍·friendslop |
+| [[festival-showcase-strategy]] | **페스티벌·쇼케이스 노출 전략** — 서드파티 페스티벌 470개 지형·쇼케이스 5문·참가 통화 3종·노출과 판매의 분리 |
 | [[community-management]] | **커뮤니티 운영** — 채널별 전략, 개발자 직접 소통, 신뢰 적립 |
 | [[launch-metrics]] | **흥행 예측 지표** — 가짜 신호 vs. 행동 기반 지표 |
 | [[data-driven-development]] | **데이터 기반 개발 의사결정** — 3일 버스트·바구니 시스템 |

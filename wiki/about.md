@@ -4,7 +4,7 @@ type: concept
 sources: []
 related: ["[[index|전체 카탈로그]]", "[[log|활동 로그]]"]
 created: 2026-05-27
-updated: 2026-08-10
+updated: 2026-08-18
 confidence: high
 ---
 
@@ -14,21 +14,21 @@ confidence: high
 
 핵심 가치 — 같은 자료를 두 번 읽지 않고, 출처와 인사이트가 항상 wikilink로 연결되어 있어 *"이 주장 어디서 봤더라"* 가 해소됩니다.
 
-## 현재 통계·규모 (2026-08-10 기준)
+## 현재 통계·규모 (2026-08-18 기준)
 
 | 항목 | 수치 |
 |---|---|
-| 누적 INGEST 건수 | 111건 |
-| 소스 요약 (`wiki/sources/`) | 174개 |
-| 개념 페이지 (`wiki/concepts/`) | 73개 |
+| 누적 INGEST 건수 ([[log|활동 로그]]의 ingest 항목 수) | 71건 |
+| 소스 요약 (`wiki/sources/`) | 179개 |
+| 개념 페이지 (`wiki/concepts/`) | 74개 |
 | 엔티티 페이지 (스튜디오·게임·플랫폼·인물, `wiki/entities/`) | 103개 |
-| 비교 페이지 (`wiki/comparisons/`) | 18개 |
-| 보고서 (`wiki/reports/`) | 5개 — deck 3 ([[reports/steam-launch-strategy|Steam 출시 전략]] / [[reports/studio-risk-defense|스튜디오 리스크 방어]] / [[reports/ai-asset-pipeline-2026-report|AI 에셋 파이프라인 보고서]]) + 아티클 2 ([[reports/how-small-teams-ship-big-games|소규모 팀 종합]] / [[reports/pc-console-pricing-playbook|PC·콘솔 기준 가격 가이드]]) |
+| 비교 페이지 (`wiki/comparisons/`) | 19개 |
+| 보고서 (`wiki/reports/`) | 6개 — deck 3 ([[reports/steam-launch-strategy|Steam 출시 전략]] / [[reports/studio-risk-defense|스튜디오 리스크 방어]] / [[reports/ai-asset-pipeline-2026-report|AI 에셋 파이프라인 보고서]]) + 아티클 3 ([[reports/how-small-teams-ship-big-games|소규모 팀 종합]] / [[reports/pc-console-pricing-playbook|PC·콘솔 기준 가격 가이드]] / [[reports/nexon-ir-2q26-analysis|넥슨 2Q26 IR 분석]]) |
 | 결정·가설 (`wiki/decisions/`) | 1개 |
 | 챗봇 (위키 Q&A 에이전트) | RAG + graph hybrid, HF Spaces 배포 ([아래](#챗봇-위키-qa-에이전트) 참조) |
-| 마지막 갱신 | 2026-08-10 |
+| 마지막 갱신 | 2026-08-18 |
 
-총 약 384개 md 페이지가 wikilink로 연결되어 있고, 모두 frontmatter(`type`, `sources`, `related`, `confidence` 등) 기반으로 구조화되어 있어 graph 추론·검색에 활용되고 있습니다. 2026년 6월부터는 이 위키 전체를 검색·추론하는 **챗봇 에이전트**가 별도 트랙으로 가동 중입니다.
+총 약 392개 md 페이지가 wikilink로 연결되어 있고, 모두 frontmatter(`type`, `sources`, `related`, `confidence` 등) 기반으로 구조화되어 있어 graph 추론·검색에 활용되고 있습니다. 2026년 6월부터는 이 위키 전체를 검색·추론하는 **챗봇 에이전트**가 별도 트랙으로 가동 중입니다.
 
 ## 작업 환경
 

@@ -2,9 +2,9 @@
 title: "번지 (Bungie)"
 type: entity
 sources: ["[[sony-ir-1q-fy2026]]"]
-related: ["[[marathon|Marathon]]", "[[sony-interactive-entertainment|소니 인터랙티브 엔터테인먼트]]", "[[live-service-design|라이브 서비스 설계]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]"]
+related: ["[[marathon|Marathon]]", "[[sony-interactive-entertainment|소니 인터랙티브 엔터테인먼트]]", "[[live-service-design|라이브 서비스 설계]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
 created: 2026-08-03
-updated: 2026-08-03
+updated: 2026-08-18
 confidence: medium
 relations:
   parentOf: []

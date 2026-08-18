@@ -2,9 +2,9 @@
 title: "마이크로소프트 (Xbox Game Studios)"
 type: entity
 sources: []
-related: []
+related: ["[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-08-18
 confidence: high
 relations:
   parentOf: [bethesda-game-studios, obsidian-entertainment]

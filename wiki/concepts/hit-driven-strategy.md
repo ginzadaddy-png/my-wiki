@@ -2,9 +2,9 @@
 title: "홈런 전략 (Hit-Driven Strategy)"
 type: concept
 sources: ["[[itoi-miyamoto-dialogue-2024|이토이 × 미야모토 대담]]"]
-related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-expansion|오디언스 확장]]", "[[nintendo|닌텐도]]", "[[shigeru-miyamoto|미야모토 시게루]]"]
+related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-expansion|오디언스 확장]]", "[[nintendo|닌텐도]]", "[[shigeru-miyamoto|미야모토 시게루]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-08-18
 confidence: high
 ---
 

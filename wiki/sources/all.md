@@ -2,11 +2,15 @@
 title: "소스 전체 목록"
 ---
 
-총 175개 | 최신순 정렬
+총 179개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
 | [nexon-ir-2q26](nexon-ir-2q26.md) | 넥슨 2Q26 IR — 메이플 확장 +63%·ARC Raiders 누적 880억엔·특별배당 3,240억엔 — 가이던스 상회·영업이익 -17%·북미유럽 비중 21%·던파 -44%·메이플 성공모델 던파 복제 4종 | 2026-08-13 |
+| [carless-showcase-selection-2026-08](carless-showcase-selection-2026-08.md) | Carless — 스트리밍 쇼케이스 참가 전 던질 5가지 질문 (GameDiscoverCo) — 출품작 수·코스트리밍·데뷔 비중·참가비 \$1천~수십만·길이, 강한 공개 소재는 무료 입성, 추적 385개 | 2026-08-12 |
+| [alinea-halo-campaign-evolved-2026-08](alinea-halo-campaign-evolved-2026-08.md) | Alinea — Halo: Campaign Evolved 2주 120만장·\$67M, 15년 된 CoD 이식작에 PS5에서 16배 밀린 이유 (Elliott) — MCC \$40 vs \$50·게임패스 210만 vs 판매 120만·BO2 캠페인 미시작 75%·스파이더맨 동일가 2.4배 | 2026-08-12 |
+| [zukowski-3rd-party-festivals-2026](zukowski-3rd-party-festivals-2026.md) | Zukowski — 서드파티 가상 페스티벌 6년 전수 (How To Market A Game) — 470개 행사·31,285개 게임·출시작 31% 참가·중앙값 2회·장르 편중은 공급 문제·Stray Fawn 이력관리·노출 35회에 리뷰 53개 | 2026-08-11 |
+| [remedy-control-resonant-pricing-2026-08](remedy-control-resonant-pricing-2026-08.md) | Remedy — Control Resonant \$60 책정, 가격을 마케팅 소구점으로 (Game Developer) — \$70~80 흐름 속 언더컷·Xbox \$80→\$70 후퇴·Q2 매출 -40%·7개 도시 투어·위시리스트 150만+ | 2026-08-11 |
 | [roblox-retention-algorithm-tradeoff-2026-08](roblox-retention-algorithm-tradeoff-2026-08.md) | Roblox — 추천 알고리즘을 리텐션 최적화로 바꾼 대가 (McEvoy·Fahey/GamesIndustry.biz) — 수익화 가이던스 2% 미달·Q3 부킹 -14~-18%·주가 1년 70~73% 하락·EU VLOP로 되돌리기 불가 | 2026-08-06 |
 | [gamedeveloper-one-page-design-2026-08](gamedeveloper-one-page-design-2026-08.md) | Game Developer — 원페이지 디자인 문서 (Riendeau·Librande) — 아무도 안 읽는 GDD 문제·주석 달린 한 장·SimCity 전 주기 실험·한 벽면·한 방 확장·배포 > 접근성 | 2026-08-07 |
 | [alinea-ps-july-2026-cod-catalog](alinea-ps-july-2026-cod-catalog.md) | Alinea — 7월 PS 판매 톱: 15년 된 CoD 이식작 2개가 4.35억 달러 (Elliott) — BO2 820만장·BO1 300만장·\$40 vs Halo \$50~60 45.2만장·소니 컷 \$1.3억·구매층 FC 26 교차 24% | 2026-08-04 |

@@ -1,15 +1,15 @@
 # Game Dev Wiki
 
-Last updated 2026-08-13
+Last updated 2026-08-18
 
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">175</span></a></div>
+  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">179</span></a></div>
   <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">49</span></a></div>
   <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">42</span></a></div>
-  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">73</span></a></div>
-  <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">18</span></a></div>
+  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">74</span></a></div>
+  <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">19</span></a></div>
   <div class="stat-card"><a href="reports/all.md" class="internal"><span class="stat-label">보고서</span><span class="stat-num">6</span></a></div>
   <div class="stat-card"><a href="decisions/all.md" class="internal"><span class="stat-label">결정·가설</span><span class="stat-num">1</span></a></div>
 </div>
@@ -51,6 +51,7 @@ Last updated 2026-08-13
 
 - [[marketing-strategy|마케팅 전략 — 스팀·통합 채널·트레일러·PR·크리에이터]]
 - [[steam-next-fest|Steam Next Fest — 위시리스트 티어·알고리즘·데모 타이밍·friendslop]]
+- [[festival-showcase-strategy|페스티벌·쇼케이스 노출 전략 — 서드파티 페스티벌 470개 지형·쇼케이스 5문·참가 통화 3종·노출과 판매의 분리]]
 - [[launch-metrics|흥행 예측 지표 — 가짜 신호 vs. 행동 기반 지표]]
 - [[data-driven-development|데이터 기반 개발 의사결정 — 3일 버스트·바구니 시스템]]
 - [[indie-business-strategy|인디 비즈니스 전략 — 창업·마케팅·생존]]
@@ -136,6 +137,7 @@ Last updated 2026-08-13
 - [[pcg-pure-vs-hybrid|완전 절차생성 vs 하이브리드 — 무작위↔수공예 스펙트럼·공정성 보장 장치 (Spelunky·Dead Cells·Hades·Returnal)]]
 - [[sekiro-vs-melee-combat-audio|세키로 vs 검술 액션 전투 효과음 — 소리로 전투를 읽는 설계 (세키로·엘든링·고스트 오브 쓰시마·MGR·인왕)]]
 - [[hit-driven-vs-catalog-economics|홈런 전략 vs 카탈로그 이코노믹스 — 신작 대히트(닌텐도) vs 기존작 long-tail(캡콤)]]
+- [[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적 — MS·소니·EA·크래프톤·펄어비스 인수 16건의 결과 5분류와 갈린 5개 지점]]
 
 </div>
 

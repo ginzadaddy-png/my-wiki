@@ -2,9 +2,9 @@
 title: "Unknown Worlds (언노운월즈)"
 type: entity
 sources: ["[[krafton-ir-2q26|크래프톤 2Q26 IR]]", "[[krafton-ir-fy2025-1q26|크래프톤 FY2025·1Q26 IR]]"]
-related: ["[[krafton|크래프톤]]", "[[subnautica-2|Subnautica 2]]", "[[catalog-economics|카탈로그 이코노믹스]]"]
+related: ["[[krafton|크래프톤]]", "[[subnautica-2|Subnautica 2]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-18
 confidence: high
 relations:
   parentOf: []

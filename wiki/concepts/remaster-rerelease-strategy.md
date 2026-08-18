@@ -1,10 +1,10 @@
 ---
 title: "구작 재발매·리마스터 전략"
 type: concept
-sources: ["[[alinea-remakes-remasters-ranking-2026-07]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-steam-record-year-2026]]", "[[capcom-fy26-ir]]", "[[cedec2026-silent-hill-producing]]", "[[catalog-economics-cross-company-2026]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]"]
-related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[ip-adaptation-design|IP 각색·확장 설계]]", "[[subscription-economy-gaming|구독 경제]]", "[[proprietary-engine-strategy|자체 엔진 전략]]", "[[capcom|캡콤]]", "[[konami|코나미]]", "[[bethesda-game-studios|베데스다]]"]
+sources: ["[[alinea-remakes-remasters-ranking-2026-07]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-steam-record-year-2026]]", "[[capcom-fy26-ir]]", "[[cedec2026-silent-hill-producing]]", "[[catalog-economics-cross-company-2026]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-halo-campaign-evolved-2026-08]]"]
+related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[ip-adaptation-design|IP 각색·확장 설계]]", "[[subscription-economy-gaming|구독 경제]]", "[[proprietary-engine-strategy|자체 엔진 전략]]", "[[reports/pc-console-pricing-playbook|PC·콘솔 패키지 게임 기준 가격 결정 가이드]]", "[[capcom|캡콤]]", "[[konami|코나미]]", "[[bethesda-game-studios|베데스다]]"]
 created: 2026-08-10
-updated: 2026-08-10
+updated: 2026-08-18
 confidence: high
 ---
 
@@ -46,6 +46,45 @@ Elliott이 세대 톱 리메이크를 관통하는 조건으로 꼽은 것은 *a
 - Halo: Campaign Evolved의 원작은 2001년 — 25년 전 설계다. 여기서 리마스터 가격표(\$50–60)를 붙인 것이 위 25배 격차의 배경이다
 
 즉 **노후도와 가격은 독립 변수가 아니다.** 원작이 오래될수록 손볼 것은 많아지는데 지불 의향은 오히려 낮아진다 — 비용과 수취 가능액이 반대로 움직이는 구간이 존재한다.
+
+## 네 번째 조건 — 원작을 정의하던 모드를 빼지 말 것 ([[alinea-halo-campaign-evolved-2026-08]])
+
+*adored · aged · available everywhere* 세 조건을 다 만족해도 무너지는 지점이 있다. Halo: Campaign Evolved 2주 실적이 그것을 보여준다.
+
+| 항목 | 값 |
+|---|---|
+| 총 판매 | 약 120만 장 · \$67M |
+| PlayStation | **544K장 · \$32M** |
+| Steam | **232K장 · \$9.3M** |
+| 게임패스 진입 | **210만 명** |
+| \$20 프리미엄 패스 결제 | 60만 명 미만 |
+
+※ 위 "가격이 진입 스위치다" 절의 45.2만 장(\$28M)은 2026-07 시점 스냅숏이고, 여기 544K장은 출시 2주 시점 갱신치다 — 같은 지표의 다른 관측 시점이지 상충이 아니다. 전부 Alinea 추정치.
+
+### 자기 카탈로그가 상위 호환이었다
+
+| | 가격 | 내용 |
+|---|---|---|
+| Halo: The Master Chief Collection | **\$40** | 코어 시리즈 + 온라인 멀티플레이 |
+| Halo: Campaign Evolved | **\$50** | 캠페인 1편 + 보너스 미션 + 비주얼 개선 |
+
+퍼블리셔도 알고 있었다 — MCC는 과거 \$10까지 내려간 적이 있으나 **최근 4개월간 할인을 끊어** 신규 SKU를 방어했다. 먹히지 않았다. 그리고 스팀 구매자의 약 **80%가 이미 스팀에서 MCC를 플레이한 사람**이었다(인피니트 64%·헤일로 워즈 16%) — 신규 유입이 아니라 기존 팬 재판매다.
+
+### 결정적 비교
+
+| 타이틀 | 성격 | PS5 |
+|---|---|---|
+| Black Ops 2 (2012년작 이식) | 멀티플레이 포함 | **890만 장 · \$351M** |
+| Black Ops 1 (2010년작 이식) | 멀티플레이 포함 | **330만 장 · \$121.8M** |
+| Halo: Campaign Evolved | 풀 리메이크, **캠페인 전용** | 544K장 |
+
+**15년 된 1080p 이식작 두 개가 풀 리메이크를 16배 이상 앞섰다.** 더 싸고 그래픽도 나쁜데.
+
+원인을 확정하는 숫자가 있다 — **BO2 PS5 플레이어 중 캠페인을 시작이라도 한 사람이 21.7%뿐**이고(1미션 클리어 14.1%·3미션 8.2%), 4명 중 3명은 싱글플레이를 아예 건드리지 않았다. 그들이 산 것은 게임이 아니라 **멀티플레이 로비의 향수**였다.
+
+> 💡 **핵심 인사이트:** 헤일로는 CoD를 빼면 콘솔 역사상 가장 멀티플레이로 정의된 프랜차이즈이고, 분할 화면·LAN 파티가 이 리메이크의 표적인 30대 관객의 형성 기억이다. **이 리메이크가 유일하게 뺀 것이, 두 개의 낡은 이식작을 5억 달러 현상으로 만든 바로 그것이었다.** 3조건에 하나를 더해야 한다 — **원작을 정의하던 모드가 SKU에 들어 있는가.** 없으면 가격을 아무리 낮춰도 상위 호환을 이기지 못한다. 재발매 검토는 가격이 아니라 **구성**에서 시작해야 한다.
+
+> ⚠️ **구독 동시 입점의 대가도 여기서 처음 계량됐다.** 게임패스 210만 vs 실판매 120만 — **구독으로 들어온 사람이 산 사람보다 많다.** \$20 선행 접속 패스가 60만 명을 유료로 끌어낸 유일한 회수 장치였다. 단 퍼스트파티 대형 IP를 출시일 동시 입점시킨 조건의 값이므로 일반 계수로 쓰지 말 것. → [[subscription-economy-gaming]]
 
 ## 세대 톱 실측
 

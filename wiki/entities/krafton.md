@@ -2,9 +2,9 @@
 title: "크래프톤 (KRAFTON)"
 type: entity
 sources: ["[[krafton-ir-2q26]]", "[[krafton-ir-fy2025-1q26]]"]
-related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]", "[[nexon-cmb-2026-transformation|넥슨 2026 CMB]]", "[[game-market-trends|게임 시장 트렌드]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[tango-gameworks|탱고 게임웍스]]", "[[subnautica-2|Subnautica 2]]", "[[unknown-worlds|Unknown Worlds]]"]
+related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]", "[[nexon-cmb-2026-transformation|넥슨 2026 CMB]]", "[[game-market-trends|게임 시장 트렌드]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[tango-gameworks|탱고 게임웍스]]", "[[subnautica-2|Subnautica 2]]", "[[unknown-worlds|Unknown Worlds]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
 created: 2026-06-01
-updated: 2026-07-30
+updated: 2026-08-18
 confidence: high
 relations:
   parentOf: [tango-gameworks, unknown-worlds]
