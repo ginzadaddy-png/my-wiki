@@ -1,10 +1,10 @@
 ---
 title: "카탈로그 이코노믹스 (Catalog Economics)"
 type: concept
-sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[alinea-steam-record-year-2026]]", "[[krafton-ir-fy2025-1q26]]", "[[krafton-ir-2q26]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-remakes-remasters-ranking-2026-07]]"]
+sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[alinea-steam-record-year-2026]]", "[[bain-gaming-report-2026]]", "[[krafton-ir-fy2025-1q26]]", "[[krafton-ir-2q26]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-remakes-remasters-ranking-2026-07]]"]
 related: ["[[capcom|캡콤]]", "[[rockstar-games|록스타]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[bethesda-game-studios|베데스다]]", "[[fromsoftware|프롬소프트웨어]]", "[[nintendo|닌텐도]]", "[[nexon|넥슨]]", "[[krafton|크래프톤]]", "[[pearl-abyss|펄어비스]]", "[[larian-studios|라리안]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[live-service-design|라이브 서비스 설계]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[catalog-economics-3-publishers|3사 비교 (캡콤·닌텐도·Take-Two)]]", "[[nexon-ncsoft-mmo-recurrent-2026|한국 MMO recurrent]]", "[[hit-driven-strategy|홈런 전략]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
 created: 2026-05-18
-updated: 2026-08-18
+updated: 2026-08-20
 confidence: high
 ---
 
@@ -25,6 +25,16 @@ confidence: high
 > 💡 **핵심 인사이트 — Steam 매출의 79%가 백카탈로그:** H1 2026 Steam 플랫폼 매출 \$11.1B(역대 최고 반기, +14.5% YoY) 중 **신작은 21%뿐**. 2년 만에 71%→79%로 카탈로그 쪽 이동이 가속. 캡콤이 보인 "신작 unit이 늘어도 카탈로그가 더 빨리 늘어 비중이 기움" 메커니즘이 *단일 회사가 아니라 스토어 전체*에서 재현된다. Elliott: "모든 신작은 이제 올해의 경쟁작이 아니라 *10년치 검증된 히트작이 몇 분의 1 가격에 깔린 카탈로그*와 경쟁한다." → 위 캡콤 84%·Take-Two RCS 78% 같은 개별 수치의 *상위 집계*가 이 79%라고 볼 수 있다.
 
 플랫폼 성장 드라이버 5개 중 3개가 카탈로그 직결: **아시아(특히 중국) 확산**(캡콤 아시아 5년 +247%와 동형), **대형 퍼블리셔의 스마트한 백카탈로그 전략**(세일·번들·시리즈 cross-sell), **서드파티의 Steam 복귀**(자체 런처 실험 종료). 나머지 둘은 신작 축(가격 인상·바이럴 co-op).
+
+## 수요 측 증거 — 왜 카탈로그가 도는가 ([[bain-gaming-report-2026]])
+
+Alinea 79%가 *매출·공급 측*(무엇이 팔리나)이라면, Bain Gaming Report 2026(글로벌 게이머 n=5,339)은 *수요·플레이어 측*(누가·무엇을 사려 하나)에서 같은 집중을 확인한다 — 카탈로그 편중이 도는 **수요 엔진**.
+
+- **2/3가 "하던 것 / 비슷한 신작"을 원함**: 향후 12개월 새 게임 시도 의향에서 비슷한 것 33% + 프랜차이즈 속편 19% + 기존작 집중 13% = **65%**. *진짜 다른 것*은 21%뿐. 신작 수요 자체가 프랜차이즈·기존작(=카탈로그의 원료)으로 기운다.
+- **지출이 소수에 집중**: 상위 지출 20%가 전체 지출의 **73%**(중위 30% 23%, 하위 50% 4%), 가장 활동적 20%가 플레이타임의 59%. 카탈로그를 반복 구매하는 코어가 곧 돈을 쓰는 층.
+- **"평균 게이머는 죽었다"**: 어떤 단일 경험 유형도 26% 초과 못 함(취향 5분열). 대중향 신작은 저지출층에 먼저 닿는 게 함정이고, 검증된 시리즈·구작이 고지출 코어를 붙든다.
+
+> 💡 **핵심 인사이트:** 캡콤 84%·Take-Two 78%·Steam 79% 같은 *공급 측 카탈로그 비중*의 이면에는 **"하던 걸 더 원하고(2/3), 그 돈을 소수가 쓰는(상위 20%=73%)" 수요 구조**가 있다. 즉 카탈로그 이코노믹스는 퍼블리셔의 공급 전략이기 이전에 *플레이어의 소비 성향*에 뿌리를 둔다. → 신작으로 카탈로그를 *새로 짓는* 것보다 기존 시리즈 코어를 깊게 파는 편이 이 수요 구조와 정합. Bain의 처방("가장 많은 플레이어가 아니라 올바른 플레이어를 잡아라")은 [[missing-middle-paradigm-shift-2026|미싱 미들]] 포커스 논지와 같은 축.
 
 ## 재발매형의 실행 조건 — 같은 달, 같은 전략, 25배 차이 ([[alinea-ps-july-2026-cod-catalog]])
 

@@ -2,6 +2,20 @@
 title: "활동 로그"
 ---
 
+## [2026-08-20] ingest | Bain — Gaming Report 2026 "평균 게이머의 종말"
+- Source: raw/papers/bain-gaming-report-2026.pdf (PDF 전문 29p 보관) — 원 계기: g-enews.com 2026-08-19 기사가 "상위 20% 지출 73%" 인용. 원문 보고서 발굴 → Bain 공식 PDF 확보
+- 원문: bain.com/insights/topics/gaming-report (2026-08-18, Bain Global Gaming Sector, Anders Christofferson 외). 데이터: Bain Media Consumption Survey June 2026 (n=5,339) + 100개 타이틀 분석. 4챕터
+- 생성(source 1): **bain-gaming-report-2026** — 4챕터 요약(수요 분산·지출 집중 / AI는 무포커스 게임 못 구함 / 개인화 / D2C) + 소스 링크 3종(허브·PDF·챕터별) + 위키 연결
+- 업데이트(concept 4):
+  - **catalog-economics** — 신규 섹션 "수요 측 증거 — 왜 카탈로그가 도는가"(2/3가 하던 것/비슷한 신작·상위20%=지출73%가 카탈로그 편중의 수요 엔진). Alinea 79%(공급·매출)와 양면
+  - **game-market-trends** — 미싱 미들 섹션에 Bain 2025의 후속 3판 추가(포커스 83% vs 무포커스 50%·취향 5분열·AI 가속기)
+  - **webshop-direct-monetization** — 독립 설문 하드데이터 보강(직구 절반·웹스토어 12%→74%·구글 30%→20%·\$17B·관계>할인 84%). confidence medium→high 상향
+  - **ai-disclosure-player-sentiment** — AI 수용도 시간축 상승(전년比 42% 더 편함·13–17세 59%)
+- index.md: 소스 179→180, Last updated 2026-08-20 / sources/all.md: 총 180, 최상단 행 추가
+- 신규 entity 없음(Bain은 소스 발행처). 모순 없음
+- 크로스체크: PDF 전문 fitz 추출 + 핵심 차트 페이지 렌더 대조(취향 5분열·집중도·연령별 지출·신작 관심도·웹스토어 성장 수치 확인)
+- 챗봇: 미실행(주간 lint에서 일괄) / 미push — 사용자 검토 후. **별도 산출: 내부 공유용 HTML 보고서**(Bain 데이터 재작성 차트 포함)
+
 ## [2026-08-18] comparison | 스튜디오 인수·통합의 사후 성적 — 위키 내 인수 서술 회수
 - 트리거: 2026-08-18 주간 lint 추천 조사 #3 — 사용자 선택. **신규 ingest 없이 위키 내부 자료만으로 회수**
 - 근거 자료: 위키 30개+ 페이지에 흩어진 인수 서술 + source 9건(naavik-xbox-strategy-reset-2026-07 · pearl-abyss-ir-1q26 · krafton-ir-2q26 · krafton-ir-fy2025-1q26 · catalog-economics-cross-company-2026 · nexon-cmb-2026-transformation · gamedev-leadership-dynamics · ign-generations-in-play-2026 · sony-ir-1q-fy2026)

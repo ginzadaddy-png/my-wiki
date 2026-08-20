@@ -2,10 +2,11 @@
 title: "소스 전체 목록"
 ---
 
-총 179개 | 최신순 정렬
+총 180개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [bain-gaming-report-2026](bain-gaming-report-2026.md) | Bain — Gaming Report 2026 "평균 게이머의 종말" (글로벌 게이머 n=5,339 + 100개 타이틀) — 상위 20%가 지출 73%·취향 5분열(최대 26%)·포커스 게임 83% vs 무포커스 50%·2/3가 하던 것/비슷한 신작·웹스토어 12%→74%·직구 절반(27% 반복)·구글 수수료 30%→20%·AI 가속기·개인화 LiveOps +50% | 2026-08-18 |
 | [nexon-ir-2q26](nexon-ir-2q26.md) | 넥슨 2Q26 IR — 메이플 확장 +63%·ARC Raiders 누적 880억엔·특별배당 3,240억엔 — 가이던스 상회·영업이익 -17%·북미유럽 비중 21%·던파 -44%·메이플 성공모델 던파 복제 4종 | 2026-08-13 |
 | [carless-showcase-selection-2026-08](carless-showcase-selection-2026-08.md) | Carless — 스트리밍 쇼케이스 참가 전 던질 5가지 질문 (GameDiscoverCo) — 출품작 수·코스트리밍·데뷔 비중·참가비 \$1천~수십만·길이, 강한 공개 소재는 무료 입성, 추적 385개 | 2026-08-12 |
 | [alinea-halo-campaign-evolved-2026-08](alinea-halo-campaign-evolved-2026-08.md) | Alinea — Halo: Campaign Evolved 2주 120만장·\$67M, 15년 된 CoD 이식작에 PS5에서 16배 밀린 이유 (Elliott) — MCC \$40 vs \$50·게임패스 210만 vs 판매 120만·BO2 캠페인 미시작 75%·스파이더맨 동일가 2.4배 | 2026-08-12 |

@@ -1,10 +1,10 @@
 ---
 title: "AI 디스클로저 플레이어 정서"
 type: concept
-sources: ["[[carless-steam-fans-ai-sentiment-2026-07]]"]
+sources: ["[[carless-steam-fans-ai-sentiment-2026-07]]", "[[bain-gaming-report-2026]]"]
 related: ["[[ai-gamedev|게임 개발에서의 생성형 AI]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[player-trust-design|플레이어 신뢰 설계]]"]
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-08-20
 confidence: medium
 ---
 
@@ -29,3 +29,9 @@ confidence: medium
 두 정서를 하나로 뭉뚱그리면 안 된다. 사내 저항 관리와 시장 리스크 관리는 다른 레버를 쓴다.
 
 > 💡 **핵심 인사이트:** AI 사용 시 시장 리스크를 낮추는 레버는 *은폐*가 아니라 **선제적·구체적 디스클로저**다. "AI 썼다"는 사실보다 "무엇에 어떻게 썼는지 불명확한 상태"가 구매 저항을 키운다 — [[player-trust-design|신뢰를 통화처럼]] 운용하는 문제로 접근해야 한다. (표본이 참여도 높은 코어 팬이라 일반 유저로의 일반화는 주의: confidence medium)
+
+## 수용도는 시간이 지날수록 오른다 ([[bain-gaming-report-2026]])
+
+Bain Gaming Report 2026(글로벌 게이머 n=5,339)은 정서가 *개선 방향*임을 보여준다 — 전년 대비 게임 업계의 AI 사용에 **"더 편해졌다" 42% / "동일" 44% / "덜 편함" 1/7 미만**. 특히 **13–17세는 59%가 더 편해짐**(동일 33%)으로, 시장을 정의할 세대일수록 개방적이다.
+
+> 💡 위 GameDiscoverCo(코어 Steam 팬)와 Bain(글로벌 일반 게이머)은 표본이 달라 절대 수치를 직접 비교하긴 어렵지만, 두 설문 모두 *AI 자체에 대한 반대는 소수(부정 31% / 덜 편함 <15%)이고 방향은 관용·수용 쪽*이라는 데 일치한다. Bain은 여기에 *시간축 상승*과 *세대 격차*를 더한다. 다만 Bain 데이터는 "디스클로저 여부"를 분리하지 않아, 위의 "저항의 뿌리는 불투명성" 결론과는 층위가 다르다 — 수용도가 올라도 *은폐 리스크*는 별개로 관리해야 한다.

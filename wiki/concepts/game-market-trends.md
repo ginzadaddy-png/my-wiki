@@ -1,10 +1,10 @@
 ---
 title: "게임 시장 트렌드"
 type: concept
-sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[alinea-steam-record-year-2026]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[sony-ir-1q-fy2026]]"]
+sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[bain-gaming-report-2026]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[alinea-steam-record-year-2026]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[sony-ir-1q-fy2026]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
 created: 2026-04-20
-updated: 2026-08-03
+updated: 2026-08-20
 confidence: high
 ---
 
@@ -102,6 +102,17 @@ AAA 개발비 폭증(일부 \$10억 추산)과 라이브 서비스 피로도 속
 | [[clair-obscur-expedition-33]] | \$1,000만 미만 | \$50 | 600만장+ (TGA 9관왕) |
 | [[arc-raiders]] | ~\$7,500만 | \$40 | 1,400만장 |
 | [[helldivers-2]] | 미공개 | \$40 | 2,000만장+ |
+
+### 후속 — Bain Gaming Report 2026: "평균 게이머의 종말" ([[bain-gaming-report-2026]])
+
+위 Bain 2025("게임플레이 최우선 22%")의 **3판**. 미싱 미들의 "무포커스 중간층이 가장 비싼 자리"라는 논지를 하드데이터로 정량화한다 (글로벌 n=5,339 + 100개 타이틀 분석).
+
+- **취향 5분열**: 어떤 단일 이상적 경험도 26% 초과 못 함(스토리 26·오픈샌드박스 22·기분 20·기타 17·멀티경쟁 15). "모두를 위한 게임"이 가장 비싼 실수.
+- **포커스 = 성공률 격차**: 2023년 이후 100개 타이틀 중 **포커스 게임 83% 상업 성공 vs 무포커스 50%**. 발더스 게이트 3(코어 겨냥, \$657M) vs Concord(포화 시장 무차별 진입, 실패) 대조.
+- **2/3가 "하던 것/비슷한 신작"**을 원함(진짜 다른 것 21%뿐) → 무포커스 중간층은 "다수엔 밋밋, 새로움 좇는 층엔 안전, 거대 라이브서비스에서 시간 뺏기엔 얕음".
+- **AI는 구원이 아니라 가속기**: 타겟 불명확하면 AI가 리스크를 낮추는 게 아니라 *잘못된 베팅을 더 빨리 키운다*. AI 마진 이득은 포커스 명확한 스튜디오에 복리로.
+
+> 💡 **핵심 인사이트:** 미싱 미들(\$30–50 AA 가격대)이 *가격·예산* 축의 처방이라면, Bain 2026은 *플레이어 포커스* 축에서 같은 결론에 닿는다 — 무차별 대중향을 버리고 *묘사 가능한 한 명의 타겟 플레이어*에 집중. 두 축이 만나면 "명확한 코어를 위한, 감당 가능한 예산의, 포커스된 게임"이 2026년 스위트 스팟. 수요·지출 구조 상세는 [[bain-gaming-report-2026]]·[[catalog-economics#수요-측-증거--왜-카탈로그가-도는가-bain-gaming-report-2026|카탈로그 수요 측]] 참조.
 
 ## 스웨덴 — Steam 수익 1위 국가 생태계 ([[ukyou-sweden-steam-2025]])
 
