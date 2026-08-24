@@ -160,8 +160,8 @@ entity 페이지에는 `relations:` 필드(developedBy·publishedBy·parentOf·g
 
 ### 핵심 설계
 
-- **RAG (의미 검색)**: 위키 383개 md를 청크(약 2,169개)로 분할 → 로컬 **BGE-M3** 임베딩 → numpy 벡터 검색(코사인). 청크에 `제목·섹션` 접두를 붙여 한↔영 cross-language 검색을 보강했습니다.
-- **Graph (관계 추론)**: entity의 `relations:` 필드(developedBy·publishedBy·parentOf·genre·platform)를 **NetworkX** 그래프로 빌드(385 노드 · 199 엣지). *"Astro Bot 만든 팀의 모회사가 소유한 다른 스튜디오는?"* 같은 multi-hop 질문은 Claude **tool-use**로 그래프를 직접 질의해 답합니다.
+- **RAG (의미 검색)**: 위키 393개 md를 청크(약 2,312개)로 분할 → 로컬 **BGE-M3** 임베딩 → numpy 벡터 검색(코사인). 청크에 `제목·섹션` 접두를 붙여 한↔영 cross-language 검색을 보강했습니다.
+- **Graph (관계 추론)**: entity의 `relations:` 필드(developedBy·publishedBy·parentOf·genre·platform)를 **NetworkX** 그래프로 빌드(395 노드 · 199 엣지). *"Astro Bot 만든 팀의 모회사가 소유한 다른 스튜디오는?"* 같은 multi-hop 질문은 Claude **tool-use**로 그래프를 직접 질의해 답합니다.
 - **Hybrid 라우팅**: 질문 성격에 따라 RAG·graph를 함께 사용하고, *위키에 근거 없으면 "없다"고 명시*해 환각을 억제합니다 (30개 평가 셋에서 환각 0건 확인).
 - **백엔드/UI 분리**: 검색·그래프·에이전트 로직은 `core/` 모듈, UI는 Streamlit `app.py`로 분리해 향후 다른 프런트(봇 등) 확장에 대비했습니다.
 
