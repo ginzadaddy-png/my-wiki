@@ -1,10 +1,10 @@
 ---
 title: "Steam Next Fest"
 type: concept
-sources: ["[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[airbridge-steam-marketing-playbook]]", "[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[carless-steam-personal-calendar-2026-06]]", "[[carless-twitch-discovery-2026-06]]", "[[carless-next-fest-june-2026]]", "[[zukowski-personal-calendar-launch]]"]
+sources: ["[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[airbridge-steam-marketing-playbook]]", "[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[carless-steam-personal-calendar-2026-06]]", "[[carless-twitch-discovery-2026-06]]", "[[carless-next-fest-june-2026]]", "[[zukowski-personal-calendar-launch]]", "[[zukowski-golden-age-week-2026-08]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[playtesting|플레이테스팅]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[valve|Valve]]", "[[festival-showcase-strategy|페스티벌·쇼케이스 노출 전략]]"]
 created: 2026-05-18
-updated: 2026-08-18
+updated: 2026-08-24
 confidence: high
 ---
 
@@ -119,6 +119,28 @@ confidence: high
 **Popular Upcoming 문턱 상향 (2026-06)** ([[zukowski-personal-calendar-launch]]): 같은 시기 Valve가 **Popular Upcoming 진입 기준을 위시리스트 약 7,000개 → 약 10만 개 (약 14배)로 상향**(Zukowski 추정치)해 인디 커뮤니티가 반발. Personal Calendar는 그 충격을 부분 상쇄하는 *보상 가시성*으로 작동 — 대형 게임 전용이 된 Popular Upcoming을 인디는 Personal Calendar로 우회해 출시 전 위시리스트를 미리 쌓는 구조.
 
 > ⚠️ 7천→10만은 **Valve 비공식 추정치**라 절대 수치는 정량 모델에 직접 쓰지 말 것. 다만 *대형 게임 쏠림 가속 + 인디 진입 면(面) 이동*이라는 방향성 시그널은 사전 가시성 전략에서 무시 못 할 요소.
+
+### 프론트 페이지 노출의 값 — 뺄셈 실측 ([[zukowski-golden-age-week-2026-08]])
+
+위 두 소스가 *정책 변화와 관측*이었다면, **Bills Must Be Paid**는 위젯의 값을 직접 뺄셈으로 잰 첫 사례다. 이 게임의 출시 대기 기간이 2026 여름 세일을 관통했고, 그 기간 Valve가 **Personal Calendar를 프론트 페이지에서 내렸다**(위젯 자체는 살아 있었고 몇 번 클릭하면 접근 가능).
+
+| 기간 | 획득 위시리스트 | 일평균 | 상태 |
+|---|---|---|---|
+| 06-13 – 06-24 | 9,147 | 831/일 | 프론트 노출 |
+| 06-25 – 07-09 | 5,934 | **424/일** | 여름 세일 — 프론트에서 내려감 |
+| 07-10 – 07-28 | 30,975 | **1,720/일** | 프론트 복귀 |
+
+- 프론트에서 빠지면 **일평균 절반**. Zukowski는 이것을 *생각보다 나쁘지 않은* 결과로 읽는다 — 90% 붕괴를 예상했는데 절반에서 멈춘 것은 **프론트에 없어도 캘린더를 찾아 쓰는 이용자가 상당하다**는 뜻이다
+- 실무 처방: **출시일을 개발 상황이 허락하는 한 가장 이르게 확정**해 위젯 체류 기간을 늘려라. BMBP는 한 달 반 앞서 박았다
+- ⚠️ **교란 변수**: 424/일 구간은 *여름 세일 기간*이기도 하다. 세일 중엔 관심이 기존 게임 할인으로 쏠리므로, 절반으로 줄어든 원인이 위젯 위치인지 세일 자체인지 이 한 사례로는 분리되지 않는다
+
+### 비수기 위젯 체류 — 연말 갬빗
+
+같은 연작의 **How Many Dudes?** 사례는 위젯의 *대기열 성질*을 이용하는 방법을 보여준다. 크리스마스와 새해 사이엔 신작이 거의 나오지 않는다 → 프론트 위젯은 대기열 구조라 밀어낼 신작이 없으면 그대로 남는다.
+
+- 데모를 겨울 세일에 맞춰 켜서 New & Trending Free에 진입 → **최소 24일간 스팀 프론트 체류** → **36,946 위시리스트**
+- 대조군(같은 게임의 유튜브 Shorts 히트 2편): **769개**, 며칠 만에 일평균 20–50개로 복귀
+- → 데모 타이밍은 *Next Fest 기준*만이 아니라 **출시 캘린더가 비는 구간 기준**으로도 잡을 수 있다. 자세한 지표 함의는 [[launch-metrics]] 참조
 
 ## 추가 조사 주제
 

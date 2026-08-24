@@ -2,6 +2,59 @@
 title: "활동 로그"
 ---
 
+## [2026-08-24] ingest+comparison | lint 조사 주제 1·2·3·4 실행 — DLC 부속 판매율 · 트레일러 장르 문법 · 비교 2건
+
+- 트리거: 같은 날 주간 lint의 "추천 다음 조사 주제" 5건 중 사용자가 **1·2·3·4번 선택** (5번 누락 entity 생성은 미선택)
+- Source: 웹 2건 (raw/ 미적재, 직접 ingest)
+  - [Steam DLC data: High attach rates for 2026 roguelike DLC](https://alineaanalytics.substack.com/p/steam-dlc-data-high-attach-rates) — Rhys Elliott (Alinea Analytics), 2026-05-14
+  - [Dear Passengers vs Banana Airways](https://www.derek-lieu.com/blog/2026/8/23/dear-passengers-vs-banana-airways) — Derek Lieu, 2026-08-23
+- ⚠️ 수집 경로: Derek Lieu 글은 검색·WebFetch로 URL을 못 잡아(추정 slug 404) **크롬(claude-in-chrome) 경유**로 blog 인덱스에서 실제 경로(`/blog/2026/8/23/...`)를 찾아 전문 확보. Alinea는 WebFetch 정상
+- 핵심 A (DLC): 2026년 스팀에서 10만 장 넘긴 DLC **4개가 전부 로그라이크·전부 \$10 미만**. 부속 판매율 8–21%로 Alinea가 잡는 스팀 대부분 장르 *"낮은 한 자릿수"*의 2–20배. **최고 21%가 상한 \$9.99에서, 최저 8%가 최저가 \$2.99에서** — 이 구간에서 더 싸게가 답이 아니다. Monster Train 2 DLC는 Slay the Spire 2 얼리 액세스 **6주 앞**에 배치. Ravenswatch: Merlin은 프리미엄 게임에 코스메틱 DLC 위로 유료 캐릭터를 얹어 *"F2P에 맞는 모델"* 반발 → 9%로 하위
+- 핵심 B (트레일러): 소재가 사실상 같은 friendslop 2편이 **조회 200만+ vs 5,000 미만**. 역설 — 보통 감점 요인인 *지저분한 실플레이 캡처*(덜컹거리는 키보드·마우스 카메라, 거의 안 들리는 음성 채팅)가 이 장르에서는 **진정성 신호로 자산이 된다**. 실패 쪽 원인은 장르 문법이 아니라 **제작 상태**(프레임 끊김 = "가장 좋은 모습"에 결함) + 설정에 앞부분 과소비 + 연출된 유머. 3원칙: 접근성·포착된 유머·장난감성. **저자가 인과를 직접 부인**(*"차이를 만든 것이 무엇인지 나는 모른다"*)해 craft 비교로만 인용
+- 생성(source 2): **alinea-steam-dlc-attach-rates-2026-05** · **dereklieu-friendslop-trailer-comparison-2026-08** (양쪽 "약점과 한계(비판적 읽기)" 포함)
+- 생성(comparison 2):
+  - **physical-retail-retention** — 조사주제 3번. 플랫폼·퍼블리셔·타이틀 **3층 비교**(플랫폼 매출 7% / 유닛 15% / 캡콤 7.0% / FF7 리버스 48% / Wukong 10.8%) + 플랫폼별 잔존(닌텐도 63% vs PS 32%, 잔여 약 5%는 산술) + **채널 이동 두 방식**(소니 공급 차단 vs Activision·MS 유인 부착) + 속도 진동(85%↔82%) + 판단 프레임 표
+  - **project-cycle-length** — 조사주제 4번. 초고속 3작(2인·4개월 / 2인·7개월 / 7인·1년) vs 장기 2작(33원정대 5년·40명 / 아스트로봇 3.5년+6개월·65명) 9축 대비. **실패 비용의 비대칭**(넉 달 vs 세대 하나)과 *파이프라인이 비지 않는다는 보장*이 초고속의 실제 상품. 기존 [[iteration-cycles]](프로젝트 *안* 스프린트)·[[aaa-scaling-strategy]](조직 설계)와 축이 다름을 도입부에 명시
+- 업데이트(concept 5): dlc-expansion-design(**소형 DLC 부속 판매율 실측** 절 신설 — CDPR 22–24%와 같은 지표의 양 끝으로 배치) · game-trailer-design(**장르 문법이 원칙을 뒤집을 때** 절 신설 — 기존 *"가장 좋은 모습"* 원칙의 예외 경로 명시) · console-retail-strategy·indie-business-strategy·small-team-development(신규 비교 페이지로 가는 본문 inbound 링크 — 카탈로그 전용 고립 방지)
+- 카탈로그: sources/all(185→**187**) · comparisons/all(19→**21**) · index.md(소스 187·비교 21 + pill 2행) · about.md(소스 187·비교 21·총 md 402)
+- 모순: 없음. 단 **원칙 충돌 1건 명시** — friendslop의 "지저분한 캡처가 자산"은 game-trailer-design 기존 원칙 *"트레일러는 게임의 가장 좋은 모습"*과 정면 충돌하므로, 장르 한정 규칙임을 해당 절과 소스 페이지 양쪽에 못 박음
+- 미실행: lint 조사주제 **5번(누락 entity 3개 — Paralives·Dear Passengers·Mojang)은 사용자 미선택**이라 진행하지 않음. 끊긴 wikilink 7종 그대로 남아 있음
+- 배포: 미커밋·미push (주간 LINT 방침). 챗봇 재색인 전이라 이번 신규 4페이지를 모름
+
+## [2026-08-24] lint | 주간 정기 점검 (스케줄 루틴)
+- 빌드: **통과** (398개 파싱·841 emit·37초). frontmatter YAML 오류 0건 → 자동 수정 없음
+- 모순 13건(미해소 **2건** — naavik-xbox 하드웨어 해석, gdc26-idg 전망 온도차) / **완전 고립 0건** / 카탈로그만 참조 4건(ps4·xbox-one은 graph 전용, 보고서 2건은 구조상 정상) / 끊긴 wikilink 13종(본문 **7종** + log.md 전용 6종) / raw 미처리 **0건**
+- 탐지 스크립트 결함 수정: 페이지를 basename으로 키잉해 `all.md` 5개 중 1개만 스캔되고 있었음 → 지난주 "고립 2건"으로 보였던 ps4·xbox-one이 실제로는 카탈로그 참조 있는 by-design 케이스로 정정
+- raw 110개 전수 재대조: 탐지 8건 전부 false-positive **URL 실측 확인**(Fares·Kasavin·Törnqvist·Vincke·Zukowski 5건은 파일명만 상이·이미 존재 / TotK 흡수 / 매튜볼 1차 원문 교체 / Steam 마케팅 입문 중복 clipping / 템플릿 2). 지난주 스크립트가 `source:` 키만 봤는데 이 파일들은 `url:` 키를 씀
+- 미페이지 개념: **신규 갭 없음**. 반복 용어(필드 삼각형 법칙 7페이지·게임 변수 7·스토리 상수 6·배타성 6·노드형 4)는 전부 level-design-principles·player-guidance-design 안의 프레임워크 어휘로 수용됨. 관측 대상 1건 — `파이프라인 공백`(3페이지, 08-24 ingest 산물)이 hit-driven-strategy·live-service-design에 분산
+- 자동 갱신: overview(**핵심 테마 8개 추가** 53→61 — 피인용 7페이지 이상 누락분: hit-driven-strategy 13·companion-design 9·game-feel 8·producer-role 8·risk-and-reward 8·game-essence 7·cinematic-production 7·extraction-genre-design 7 / 커버리지 섹션은 실측 일치로 무변경) · about(INGEST 71→**73**·소스 179→**185**·총 md 392→**398**·날짜 3곳 2026-08-24)
+- 보류: 피인용 3–6페이지 13개(player-retention·audience-expansion·engagement-loop 등)는 임계 아래로 판단해 테마 미추가
+- 미반영: about 아키텍처 다이어그램 내 카운트(자동 수정 금지 영역) · 챗봇 섹션 색인 수치(재색인 시점 대상)
+- 분기 검토 알림: 해당 없음 (다음 2026-10-01~07)
+- 조사 주제 5건 제안 → 사용자가 1·2·3·4 선택, 위 항목으로 실행
+
+## [2026-08-24] ingest | source radar 후보 5건 — 초고속 출시 3연작 + 콘솔 채널·라이브서비스 기회비용
+- 트리거: 2026-08-24 source radar 주간 스캔(윈도우 08-17~08-24, 신규 약 40건 → 추천 7건) → 사용자가 **후보 1·2·3·4·7 선택**
+- Source: 웹 5건 (raw/ 미적재, 직접 ingest)
+  - [The week of the golden age](https://howtomarketagame.com/2026/08/18/the-week-of-the-golden-age/) + [Part 2](https://howtomarketagame.com/2026/08/20/part-2-the-week-of-the-golden-age/) + [Part 3: How Many Dudes?](https://howtomarketagame.com/2026/08/21/part-3-the-week-of-the-golden-age-how-many-dudes/) — Chris Zukowski, 2026-08-18·20·21 (3부작을 소스 페이지 1개로 통합)
+  - [Modern Warfare 4 has already sold 100K+ copies on Steam](https://alineaanalytics.substack.com/p/modern-warfare-4-has-already-sold) — Rhys Elliott, 2026-08-19
+  - [US physical game sales drop to lowest monthly total since 1995](https://www.gamesindustry.biz/us-physical-game-sales-drop-to-lowest-monthly-total-since-1995-us-monthly-charts) — Sophie McEvoy / Circana·Mat Piscatella, 2026-08-21
+  - [Phantom Blade Zero is on track for a hit launch](https://alineaanalytics.substack.com/p/phantom-blade-zero-is-on-track-to) — Rhys Elliott, 2026-08-21
+  - [The opportunity cost of Sony's live service pivot is enormous | Opinion](https://www.gamesindustry.biz/the-opportunity-cost-of-sonys-live-service-pivot-is-enormous-opinion) — Rob Fahey, 2026-08-21
+- ⚠️ 날짜 교정: Substack 아카이브 목록의 게시일이 실제 기사 페이지와 달라 **MW4는 08-19(목록 08-18), Phantom Blade Zero는 08-21(목록 08-20)**로 기록. GamesIndustry.biz 두 건은 표기가 KST 기준
+- ⚠️ 수집 경로: gamesindustry.biz는 WebFetch 도메인 차단이라 **크롬(claude-in-chrome) 경유**로 인덱스+본문 확보. HTMAG·Alinea 본문도 요약 대신 전문을 크롬으로 받아 씀
+- ⚠️ radar 보고 정정: 후보 3의 "소니 2028년 1월 패키지 중단"을 신규 사실로 올렸으나, **2028년 디스크 폐지는 이미 위키에 기록돼 있었다**([[game-market-trends]]·결정 페이지). 이번 소스의 실제 기여는 *월 단위 확정 + 미국 물리 잔존 규모·플랫폼별 편차*
+- 핵심 A (흥행 예측): 초고속 출시 3작(2인·4개월 / 2인·7개월 / 7인·1년)이 같은 주에 전부 베스트셀러. **페이지 공개 후 2주 위시리스트 422·528의 예측력 부정**(최종 308K·61K, 판매 242K·330K) → 진짜 판별 시점은 데모 이후. **데모+연말 New & Trending Free 24일 = 36,946 vs 유튜브 Shorts 히트 2편 = 769**(소셜은 불씨, 알고리즘이 장작). **Personal Calendar 프론트 이탈 뺄셈 실측 1,720/일 → 424/일**(단 여름 세일 교란). 혁신은 장르 섞기 대신 **자원 1,000–10,000배**(Outhold 적 수 → 10,000+). 오디언스 중복 5–7%로 경쟁 프레임 반박. Phantom Blade Zero는 **출시일 정렬 궤도**로 판정(D-70 스팀 30만장, Wukong 393K의 73%·Wuchang 45K의 6.4배) + 저자 스스로 *AAA 위시리스트는 할인 북마크*라고 할인
+- 핵심 B (콘솔 채널·라이브서비스): MW4가 **디지털 유도 장치 6종**을 한 타이틀에 집약 — Game Pass 데이원 철회·**캠페인 1주 선행을 디지털 사전주문에 묶어 중고 차단**·선착순 10만 한정·디지털 전용 10% 로열티 할인. 소니의 2028 폐지와 방향 같고 *"더 정밀하고 덜 직접적"*. 미국 7월 패키지 **\$85M 월간 최저**인데 **닌텐도 63% vs PS 32%**(폐지 결정한 쪽이 3분의 1 보유), 하드웨어 유닛 -39%·ASP +16% \$542. 라이브서비스 실패의 4번째 비용 = **파이프라인 공백**(게릴라 PS5 독점작 0편·너티독 2020년 이후 신작 없음), *파이프라인은 5년 전에 깔려야 한다*
+- 생성(source 5): **zukowski-golden-age-week-2026-08** · **alinea-mw4-preorder-digital-push-2026-08** · **circana-us-physical-lowest-2026-07** · **alinea-phantom-blade-zero-preorder-2026-08** · **gi-sony-live-service-opportunity-cost-2026-08** (전 페이지에 "약점과 한계(비판적 읽기)" 포함)
+- 업데이트(concept 11): launch-metrics(**커밍순 2주 지표 예측력 부정** + **출시일 정렬 궤도 비교** 2절 신설) · steam-next-fest(**프론트 노출 뺄셈 실측** + **비수기 위젯 체류 연말 갬빗** 2절) · indie-business-strategy(**빠른 출시 사이클을 사업 모델로** — 손익 기준선 연 \$150K·자원 곱하기·인크리멘탈 입문) · small-team-development(**11번 기성 스튜디오의 소규모 회귀**) · game-pricing-strategy(**AAA 주력 시장 30%대 인하** 실측) · game-market-trends(**판호·홈타운 히어로 조건** + **미국 단일 시장 대수↓단가↑ 실측** 2절) · console-retail-strategy(**CoD 장치 6종** + **물리 잔존 규모 미국 실측** 2절) · live-service-design(**세지 않은 비용 — 파이프라인 공백**) · multi-project-development(**반대 극단 — 단일 프로젝트 전량 투입**) · hit-driven-strategy(**오용 사례 — 라이브서비스에 옮겨 쓴 홈런 논리** 4축 대비표) · subscription-economy-gaming(**신작 CoD 데이원 철회 = 잠식 명제의 선별 철회**)
+- 업데이트(entity 3): sony-interactive-entertainment(**PS5 세대 퍼스트파티 파이프라인** 절 + sources·related 최초 기입) · naughty-dog(**PS5 세대의 공백**) · microsoft(**마진 중심 전환의 실제 조치** — 데이원 철회·장치 6종·중국 확장·Xbox 유닛 -18%)
+- 업데이트(decision 1): 2026-08-03-console-retail-arpu-focus — **증거 ⓗ 신설**(퍼블리셔 층으로 번진 방향 = 지지 / 플랫폼별 편차 닌텐도 63% vs PS 32% = 조건 추가), 사후 검증에 *MW4 디지털 유도 효과(2026-10-23 이후)* 항목 추가 + 2028 항목에 중간 관측 부기
+- 카탈로그: sources/all(**185**) · index.md(소스 185·날짜 2026-08-24). 신규 concept·comparison 없음 → pill-grid 변경 없음
+- 모순: 없음. 단 **소스 내부 비정합 1건 명시** — MW4의 "캠페인 목적 구매층"을 겨냥한 정밀 타격인데, 같은 매체 7월 분석은 *BO2 구매자 4명 중 3명이 캠페인 미시작*이라 타깃 층이 얇다는 반대 증거. 양쪽을 console-retail-strategy·decision 페이지에 함께 기록
+- ⚠️ 정밀도 정정(그 자리에서 반영): nintendo-switch-2 페이지가 Naavik 근거로 적었던 미국 \$499.99는 **2026-09-01 시행 인상 후 가격**이고 그 전은 \$449.99였다 → **entity 갱신(가격 표기 수정 + 정정 사유 명시 + 미국 7월 판매 실측 절 신설)**. 캐나다 \$629.99→\$679.99·유럽 €469.99→€499.99·일본 2026-05-25 선행 시행도 함께 기록
+- 사후 검증 대기: MW4·Phantom Blade Zero 모두 **출시 전 지표까지만** 확인됨 (각 2026-10-23·10-29 출시 후 실판매로 판정)
+
 ## [2026-08-20] ingest | Bain — Gaming Report 2026 "평균 게이머의 종말"
 - Source: raw/papers/bain-gaming-report-2026.pdf (PDF 전문 29p 보관) — 원 계기: g-enews.com 2026-08-19 기사가 "상위 20% 지출 73%" 인용. 원문 보고서 발굴 → Bain 공식 PDF 확보
 - 원문: bain.com/insights/topics/gaming-report (2026-08-18, Bain Global Gaming Sector, Anders Christofferson 외). 데이터: Bain Media Consumption Survey June 2026 (n=5,339) + 100개 타이틀 분석. 4챕터

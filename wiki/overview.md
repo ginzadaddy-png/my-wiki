@@ -33,12 +33,14 @@ title: "위키 개요"
 - [[publisher-deal-structures|퍼블리셔 딜 구조]]: Self-publish·Rev share·Recoup-first·MG·Marketing fee 5종 stress test로 본 indie 비즈니스 의사결정
 - [[launch-metrics|런치 메트릭]]: 리뷰 tier multiplier·Year-1 38% 런치월 집중·회복률 0.156%·Demo+8%/Next Fest+4% conversion lift
 - [[dev-org-structure|조직 구조]]: 유동 배치·스크럼·프로듀서-디렉터 분리·인섬니악식 멀티 프로젝트까지 다양한 모델
+- [[producer-role|프로듀서 역할]]: 답을 주는 사람이 아니라 팀이 답을 만들 환경을 만드는 사람 — 디렉터와의 분업
 - [[multi-project-development|멀티 프로젝트 개발]]: 인섬니악·엠바크·캡콤·CDPR 모델 — 카탈로그 IP·이너소스·인재 파이프라인 3축
 - [[studio-culture|스튜디오 문화]]: 비전 선언문, 심리적 안전, 의사결정 방식이 결과물을 결정
 - [[soulslike|소울라이크 문법]]: 공정한 가혹함·죽음 루프·보스 설계 — 프롬소프트웨어 중심 장르 분석
 - [[level-design-principles|레벨 디자인 원칙]]: 공간 문법·비선형 패턴·내러티브 협업 — 히트맨·CDPR·TLOU·다크 소울 공통 토대
 - [[playtesting|플레이테스팅 방법론]]: 내부 테스트·외부 베타·반짝임 검증 — 팀 아소비·서커펀치·라리안·하데스 공통 루틴
 - [[quest-narrative-design|퀘스트·내러티브 디자인]]: 스토리 상수·감정 목표·팀 협업 — 위처3·사이버펑크·BG3·TLOU
+- [[cinematic-production|시네마틱 제작]]: 게임플레이 hookup·다부서 의존·씬 로트 리스크 — 영화 제작과 다른 독자 규율
 - [[early-access-strategy|얼리 액세스 전략]]: 라리안·하데스·발하임 피드백 루프 — 미완성 변명 아닌 검증 도구
 - [[combat-design|전투 디자인]]: 판타지 계약·HP 인플레이션·애니메이션 철학 — GoT·GoW·세키로·TLOU
 - [[live-service-design|라이브 서비스 설계]]: 비약탈적 모델, 헬다이버스2 게임 마스터, F2P 탈출 교훈, 모바일 4대 벽
@@ -47,18 +49,24 @@ title: "위키 개요"
 - [[art-pipeline-design|아트 파이프라인 설계]]: Houdini·USD·Origins node·Edit-in-place·Batching·Cross-project 공유 — Embark 멀티 게임 포트폴리오 기술적 실체
 - [[proprietary-engine-strategy|자체 엔진 전략]]: RE ENGINE·Northlight·Decima·Snowdrop·Frostbite — 인하우스 엔진의 멀티 게임 효율과 학습 곡선
 - [[catalog-economics|카탈로그 이코노믹스]]: 시리즈 IP의 장기 매출 모델 — 캡콤 카탈로그 비중 84% 사례
+- [[hit-driven-strategy|홈런 전략]]: 손익분기 방어가 아니라 대히트 조준 — 라이브서비스에 옮겨 쓰면 오용이 되는 논리
 - [[dev-talent-pipeline|개발 인재 파이프라인]]: 연간 100명+ 신규 채용·세대 혼합·R&D 인프라·Gen AI 결합 (캡콤 12년 모델)
 - [[subscription-economy-gaming|구독 경제]]: 소유→액세스 전환, discovery engine, Residency Premium (Gen Z·M의 다른 OS)
 - [[game-market-trends|시장 구조 변화]]: 미싱 미들 부상, 저가 프리미엄, 스웨덴 생태계, 서구 개발사 구조적 불이익
 - [[webshop-direct-monetization|웹샵·D2C 직접 수익화]]: 플랫폼 30% 수수료 회피를 넘어 진성 유저 락인·데이터 내재화 — 발견(스토어)/락인(웹샵) 하이브리드
 - [[roguelike|로그라이크]]: 절차적 생성·런 기반·메타 진행성 — 발라트로·하데스, Action Roguelike의 healthy 분포가 인디 진입을 부른다
+- [[extraction-genre-design|익스트랙션 장르 설계]]: 핵심 루프(파밍·탈출·상실)는 그대로 두고 주변 진입 구조만 단계적으로 낮추기
 - [[sound-design|사운드·음악 디자인]]: 적응형 음악·미들웨어·공간/절차적 오디오·다이내믹 믹싱·접근성 — 사운드를 설계 초기 제약으로 끌어올린 방식
 - [[gameplay-feedback-audio|게임플레이 피드백 오디오]]: 소리를 시각보다 빠른 1차 전투 입력 채널로 — 주파수 위계·소닉 검증 (오버워치 Play by Sound·세키로 체간 청각 피드백)
 - [[audience-discovery-systems|오디언스 발견 시스템]]: Intent vs Algorithm, Seek→Feed 전환, 표면 alignment 함정 — 알고리즘의 목적함수가 곧 생태계의 매출 구조
 - [[creator-economy-trust|크리에이터 경제와 신뢰]]: Earned·Validated·Built in real time 3-tier 모델 — 크리에이터 수가 시청 시간보다 강한 흥행 예측자
 - [[combat-companion-ai|전투·조력 AI 동반자 설계]]: 짐이 아닌 자산 — 투명화·어그로 분산·지능 착시 (Elizabeth·엘리·Spirit Ashes·F.E.A.R.·Halo)
+- [[companion-design|동반자 설계]]: 에이전시가 실제로 없어도 있다고 믿게 만드는 기술이 설계의 핵심 질문
 - [[unreal-engine-5|Unreal Engine 5]]: Nanite·Lumen·MetaHuman·Blueprint 95% — 소규모 팀이 AAA 비주얼에 도달하는 기본 경로
 - [[mda-framework|MDA 프레임워크]]: 메카닉→다이나믹→에스테틱 인과 연쇄 — 위키 전반의 디자인 분석 공통 문법
+- [[game-essence|게임의 본질]]: 리스크 감수 → 긴장 견딤 → 보상으로 풀림 — 사쿠라이 영상 대부분이 환원되는 한 축
+- [[risk-and-reward|리스크 앤 리워드]]: 위험 없이 주는 보상은 무의미 — 무언가를 걸 때 선택에 무게가 실린다
+- [[game-feel|게임 필]]: 히트 스톱·무게감·점프 곡선 — 감각이 아니라 계산된 프레임 조작물
 - [[player-trust-design|플레이어 신뢰 설계]]: 신뢰를 통화처럼 적립·인출하는 프레임워크 — 가격·환불·라이브 서비스 판단의 공통 기준
 - [[environmental-storytelling|환경 스토리텔링]]: 공간이 내러티브를 전달하는 방법 — 레벨·퀘스트 설계와 맞물리는 축
 - [[ai-gamedev|게임 개발에서의 생성형 AI]]: 정서 데이터·도입 원칙·역할 변화 — 에셋 파이프라인·인재 파이프라인 양쪽에 걸친 축

@@ -10,6 +10,7 @@ sources: [
   "[[capcom-fy26-ir]]",
   "[[zrconsulting-steam-forecaster-2026]]",
   "[[alinea-ps-physical-fc27-odyssey-2026-07]]",
+  "[[alinea-phantom-blade-zero-preorder-2026-08]]",
   "[[alinea-ps-july-2026-cod-catalog]]",
   "[[alinea-remakes-remasters-ranking-2026-07]]",
   "[[alinea-halo-campaign-evolved-2026-08]]",
@@ -17,7 +18,7 @@ sources: [
 ]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
 created: 2026-04-28
-updated: 2026-08-18
+updated: 2026-08-24
 confidence: high
 ---
 
@@ -99,6 +100,21 @@ confidence: high
 - 동남아·동유럽: 기본가의 40~60% 수준
 - 미설정 시 해당 지역 잠재 구매자는 실질적 접근 불가
 - 스팀은 지역 가격 추천값 제공 — 그대로 채택하는 것이 출발점
+
+### AAA 사례 — 주력 시장을 30%대 깎는다 ([[alinea-phantom-blade-zero-preorder-2026-08]])
+
+위 40–60%는 *부수 시장*을 여는 인디 기준이다. **주력 시장이 그 지역일 때는 인하폭이 다르게 설정된다.** Phantom Blade Zero(중국 S-Game, 2026-10-29, 미국 정가 \$60)의 실측:
+
+| 지역 | 환산가 | 미국 대비 |
+|---|---|---|
+| 중국 | \$39.84 | **-33.6%** |
+| 홍콩 | \$41.81 | -30.3% |
+| 대만 | \$43.25 | -27.9% |
+| 폴란드 | \$80.90 | **+34.8%** |
+
+- 이 게임의 스팀 위시리스트 29%가 중국이고 흥행의 상당 부분이 중국에 걸려 있다. 즉 **인하는 접근성 확보가 아니라 주력 시장 침투 가격**이다
+- 폴란드만 미국보다 크게 비싸다 — 원 소스도 이유를 설명하지 못한다. PPP 기반 추천값을 그대로 쓰지 않고 손을 댔을 때 생기는 이상값의 예로 참고
+- ⚠️ 출시 전 가격 표이므로 실판매 성과와의 인과는 아직 확인 불가
 
 ## 세일 전략
 

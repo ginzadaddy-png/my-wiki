@@ -1,10 +1,10 @@
 ---
 title: "흥행 예측 지표"
 type: concept
-sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]"]
+sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]", "[[zukowski-golden-age-week-2026-08]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[forecasting-vs-launch-metrics|예측 vs 측정 비교]]"]
 created: 2026-04-20
-updated: 2026-08-03
+updated: 2026-08-24
 confidence: high
 ---
 
@@ -252,3 +252,44 @@ Valve 공식 입장: "Steam algorithm은 과거 부진을 처벌하지 않음. �
 Zukowski 해석: *visibility는 충분히 줬는데 게임이 흥분을 못 만든 경우*. Discovery Queue·Popular Upcoming·New & Trending에 다 노출됐는데 "eh not for me" 반응이 누적. 즉 *알고리즘 처벌이 아니라 시장 평가*가 한 번 내려진 후 뒤집기 어렵다는 의미.
 
 > 💡 **시사:** 런치 첫 달 진단 = *그 게임의 최종 결과*. 출시 후 마케팅 강화로 회복 노력은 *0.16% 확률에 베팅*. 동일 시간·예산을 *다음 게임 런치 전 마케팅에 투입*하는 것이 ROI 높음.
+
+## 커밍순 2주 지표는 예측력이 없다 ([[zukowski-golden-age-week-2026-08]])
+
+위의 *사전 위시리스트 r=0.825*는 **Next Fest 진입 시점** 기준이다. 그보다 훨씬 앞선 **스팀 페이지 공개 후 2주** 수치는 성질이 다르다 — Zukowski가 2026년 7월 베스트셀러에 오른 초고속 출시작 3개를 추적해 이 구간의 예측력을 사실상 부정했다.
+
+| 게임 | 페이지 공개 후 2주 | 출시 시점 | 20일 판매 |
+|---|---|---|---|
+| How Many Dudes? | **422** (Bronze) | 308,000 | 242,000장 |
+| Bills Must Be Paid | **528** (첫날 11개) | 61,000+ | 330,000장 |
+| Sir, We Have an Orc Problem | 3,000 | 150,000 | 200,000장 |
+
+- **"커밍순 페이지의 출발이 게임의 성패를 결정하지 않는다."** 초기 위시리스트 부진 시 Valve가 낙인을 찍는다는 통설은 데이터로 부정됨 (Valve의 "no black marks" 입장과도 정합 — 위 절 참조)
+- 비대칭 해석이 맞다: **2주 만에 Diamond 티어면 좋은 신호이지만, 조용한 발표는 나쁜 신호가 아니다**
+- 따라서 *"가짜 컨셉으로 페이지만 띄워 반응 보고 개발 결정"* 전략은 성립하지 않는다 — **데모 전에는 유효한 테스트가 아니다**
+
+### 진짜 판별 시점은 데모 출시 이후
+
+세 사례 모두 곡선이 꺾인 지점이 데모였다.
+
+| 게임 | 데모 이전 | 데모 이후 |
+|---|---|---|
+| Bills Must Be Paid | 65일간 500개대 정체 | 데모 켠 즉시 CCU 340 → Trending Free 진입 |
+| How Many Dudes? | 유튜브 Shorts 히트 2편 = **769개**, 며칠 만에 20–50/일 복귀 | 데모 + 연말 New & Trending Free 24일 체류 = **36,946개**, 이후 저조 구간 없음 |
+
+> 💡 **핵심 인사이트:** 데모의 값은 *플레이어가 해 본다*는 데 있지 않다 (위시리스트 등록자·구매자 대부분은 데모를 하지 않는다). 데모는 **스팀 위젯 묶음과 페스티벌·크리에이터 접근 권한을 여는 열쇠**다. 소셜은 불씨, 스팀 알고리즘이 장작 — 소셜 바이럴은 며칠 만에 기저선으로 복귀하지만 알고리즘 노출은 *새로운 기저선을 만든다*.
+
+> ⚠️ 이 연작의 표본은 **7월 베스트셀러에 오른 3개**로, 생존자 편향이 설계에 내장돼 있다. 같은 방식으로 실패한 게임의 분모는 제시되지 않는다 — 바로 위 Bad Launch Recovery의 0.16%가 그 분모의 크기를 짐작하게 한다. "초기 지표를 보고 접지 말라"까지는 방어 가능하고, "초고속 출시가 유리하다"로 읽으면 과대해석.
+
+## 출시일 정렬 궤도 비교 — AAA·AA의 출시 전 판정 ([[alinea-phantom-blade-zero-preorder-2026-08]])
+
+인디의 판별 시점이 데모라면, **사전주문이 열리는 AAA·AA는 다른 도구를 쓴다.** Alinea의 *launch-aligned Steam copies sold*는 출시일을 기준점으로 맞춰 놓고 D-N일 시점의 누적 판매를 선행작과 겹친다.
+
+| 게임 | D-70 스팀 누적 판매 | 기준 대비 |
+|---|---|---|
+| Black Myth: Wukong | 약 393,000 | 최종 스팀 1,700만장 (절반 이상 중국) |
+| Phantom Blade Zero | 약 286,000 | Wukong의 **73%** |
+| Wuchang: Fallen Feathers | 약 45,000 | PBZ의 1/6.4 |
+
+> 💡 **위시리스트 절대 수치는 이 층위에서 거의 못 쓴다.** Phantom Blade Zero는 위시리스트 160만으로 2026년 출시작 최다인데, 정작 저자가 붙인 단서는 **"AAA·AA의 위시리스트는 할인을 기다리는 북마크이고 출시 시점 구매 의도를 보여주지 않는다"**다. 반면 "D-70에 Wukong의 73%"는 상·하한이 있는 판정이다. → 위 "가짜 신호" 절의 위시리스트 항목이 *가격대별로* 더 갈라진다: 인디는 위시리스트가 알고리즘 통화이지만, **AAA는 사전주문 실판매로 봐야 한다**.
+- 위시리스트에서 여전히 유효한 것은 *지역 분포*다 (PBZ: 중국 29%·미국 17%·일본 5%) — 관심의 대리 지표
+- ⚠️ 이 프레임의 한계: 표본 3개이고 상한(Wukong)이 저자 본인도 인정하는 이상치라 사실상 하한만 유효. **방법론의 과거 적중률이 제시되지 않는다** (붉은사막 등 선행 예측의 사후 점수 없음)

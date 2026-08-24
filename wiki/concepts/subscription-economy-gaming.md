@@ -1,10 +1,10 @@
 ---
 title: "구독 경제와 게이밍 — 소유에서 거주로"
 type: concept
-sources: ["[[ign-generations-in-play-2026]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[alinea-halo-campaign-evolved-2026-08]]"]
+sources: ["[[ign-generations-in-play-2026]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[alinea-halo-campaign-evolved-2026-08]]", "[[alinea-mw4-preorder-digital-push-2026-08]]"]
 related: ["[[live-service-design|라이브 서비스 설계]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[reports/pc-console-pricing-playbook|PC·콘솔 패키지 게임 기준 가격 결정 가이드]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
 created: 2026-05-12
-updated: 2026-08-18
+updated: 2026-08-24
 confidence: high
 ---
 
@@ -116,6 +116,18 @@ Millennials가 destination-based play → ecosystem-based participation 전환�
 > 💡 **핵심 인사이트:** 프리미엄 패스라는 유료 전환 장치가 실제로 작동은 했지만(60만 명), 대체된 판매 규모가 훨씬 컸다. **동시 입점을 한다면 상위 티어는 선택이 아니라 필수**라는 뜻이다 — 그것이 유일한 회수 경로였다. 다만 팔 물건(시간·희소성)이 있어야 성립하므로, 싱글플레이 완결형에서는 이 장치조차 만들기 어렵다.
 
 > ⚠️ **일반 계수로 쓰지 말 것.** 퍼스트파티 · 대형 IP · 출시일 동시 입점이라는 조건의 값이다. 서드파티·후행 입점·소형 타이틀은 전혀 다른 비율이 나온다. 또한 이 타이틀은 자기 카탈로그(MCC \$40)와의 경쟁·멀티플레이 부재라는 별개 요인도 함께 안고 있어, 구독 잠식 단독 효과로 분리되지 않는다. ([[remaster-rerelease-strategy]])
+
+### 그 결론이 정책으로 나타난 사례 — 신작 CoD의 데이원 철회 ([[alinea-mw4-preorder-digital-push-2026-08]])
+
+위 Halo 실측이 *동시 입점의 잠식 규모*를 보여줬다면, Modern Warfare 4(2026-10-23)는 **퍼블리셔가 그 결론을 실제 정책으로 집행한** 사례다.
+
+- **신작 Call of Duty는 더 이상 Game Pass 데이원 제공이 아니다.** 원 소스 표현으로는 *"구독이라는 프리미엄 판매 잠식 기계에서 CoD를 빼내는 것"*
+- 배경: 전작이 *"CoD 기준으로는 재난"*이었고, 마진과 ROI에 집중하는 새 Xbox 체제가 회복을 노린다
+- 데이원 철회는 단독 조치가 아니라 **디지털 유도 장치 묶음의 일부**다 — 캠페인 1주 선행(디지털 사전주문 한정)·선착순 10만 한정 코스메틱·디지털 전용 10% 로열티 할인 등. 전체 목록은 [[console-retail-strategy]] 참조
+
+> 💡 **가장 큰 자사 프랜차이즈를 구독에서 빼는 것은 "구독은 잠식하지 않는다"는 명제의 사실상 철회다.** 단 전면 철회는 아니다 — 잠식이 큰 *간판 신작*만 빼고 나머지 카탈로그는 남기는 선별 운용이다. 위 층위 구분(신작=discovery engine, 구작=잠식)에 **"간판 신작은 예외"**라는 한 줄이 더 붙는 셈이다.
+
+> ⚠️ 이 조치의 효과는 아직 측정되지 않았다. 전작 부진의 원인이 실제로 Game Pass 데이원이었는지도 원 소스가 논증하지 않고 전제로 둔다. 사후 검증은 2026-10-23 출시 후 실판매로.
 
 ## 반례 — Game Pass의 정체 (2026-07)
 

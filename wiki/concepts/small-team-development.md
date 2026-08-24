@@ -1,10 +1,10 @@
 ﻿---
 title: "소규모 팀 개발 전략"
 type: concept
-sources: ["[[gdc25-astrobot]]", "[[gdc26-expedition33-programmers]]", "[[expedition33-ue5-interview]]", "[[gdc26-ghost-of-yotei]]", "[[gdc26-arc-raiders-reset]]", "[[gdc2023-asobo-how-to-make-aaa-small-team]]", "[[gdc2026-embark-character-pipeline]]", "[[itoi-miyamoto-dialogue-2024]]", "[[gdc-helldivers2-team-scaling]]", "[[pilestedt-helldivers2-preproduction-lesson]]", "[[cedec2026-ratatan-small-team-console]]"]
+sources: ["[[gdc25-astrobot]]", "[[gdc26-expedition33-programmers]]", "[[expedition33-ue5-interview]]", "[[gdc26-ghost-of-yotei]]", "[[gdc26-arc-raiders-reset]]", "[[gdc2023-asobo-how-to-make-aaa-small-team]]", "[[gdc2026-embark-character-pipeline]]", "[[itoi-miyamoto-dialogue-2024]]", "[[gdc-helldivers2-team-scaling]]", "[[pilestedt-helldivers2-preproduction-lesson]]", "[[cedec2026-ratatan-small-team-console]]", "[[zukowski-golden-age-week-2026-08]]"]
 related: ["[[team-asobi|팀 아소비]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[sucker-punch-productions|서커펀치 프로덕션]]", "[[embark-studios|엠바크 스튜디오]]", "[[asobo-studio|Asobo Studio]]", "[[arrowhead-game-studios|애로우헤드]]", "[[helldivers-2|헬다이버스 2]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[designer-empowerment|디자이너 도구화]]", "[[vision-statement|비전 선언문]]", "[[data-driven-development|데이터 기반 개발]]", "[[art-pipeline-design|아트 파이프라인 설계]]", "[[constraint-driven-creativity|제약 기반 창의성]]", "[[shigeru-miyamoto|미야모토 시게루]]", "[[reports/how-small-teams-ship-big-games|소규모 팀 종합 아티클]]", "[[tvt|TVT]]", "[[ratatan|Ratatan]]", "[[early-access-strategy|얼리 액세스 전략]]"]
 created: 2026-04-13
-updated: 2026-07-30
+updated: 2026-08-24
 confidence: high
 ---
 
@@ -71,5 +71,17 @@ confidence: high
 - 철학 전환: 단계마다 완벽을 노리는 대신 **"3개월에 가능한 것을 하고 사이클을 반복"** — 위 8번(닌텐도 최소 인원 시작)과 같은 결론에 *일정 압박* 쪽에서 도달
 
 > ⚠️ 이 사례가 위키의 다른 소규모 성공담과 다른 점: 팀 규모·범위 통제·도구화를 다 했는데도 *제3자 심사라는 통제 불가 변수*에서 무너졌다. 스코프 관리는 자기 팀 안에서만 유효하고, **외부 게이트는 별도 예산 항목**으로 잡아야 한다.
+
+**11. 기성 스튜디오의 소규모 회귀 ([[zukowski-golden-age-week-2026-08]])**
+
+> 사이클 길이를 사업 모델로 놓고 장기 AAA와 축별 대비한 페이지: [[project-cycle-length|프로젝트 사이클 길이]].
+
+위 1~10번이 *소규모 팀이 대작을 만드는 방법*이었다면, 이 항목은 반대 방향이다 — **이미 큰 프로젝트를 해낸 팀이 일부러 작은 쪽으로 돌아가는 선택**.
+
+- **Butterscotch Shenanigans** (7인, 14년 경력): 5년짜리 Crashlands 2를 끝낸 뒤 1년짜리 *How Many Dudes?*를 만들었고, 이것이 스튜디오 최고 성과가 됐다. 같은 스튜디오 게임들을 출시일 기준으로 정렬한 동시접속 곡선에서 **개발 기간이 가장 짧은 이 게임이 최고 동시접속과 가장 긴 유지 기간을 동시에 기록**
+- Adam Coster: *"범위를 아는 1년짜리 프로젝트가 2년·4년짜리보다 훨씬 재미있고 자유롭다. 커질수록 전부가 진창이 된다."*
+- 같은 패턴: Aggro Crab(Another Crab's Treasure → [[peak|PEAK]]) · Ghost Ship Games(Deep Rock Galactic → 소규모 파트너와 DRG: Survivor)
+
+> 💡 **스튜디오는 게임 캐릭터처럼 매 출시마다 상위 티어로 진화해야 하는 존재가 아니다.** 개발 규모가 성과 규모를 보장하지 않는다. 팀이 지쳐 있거나 유휴 인력이 있는 스컹크웍스 상황에서 작고 빠른 게임이 스튜디오 최다 판매작이 될 수 있다. 사업 쪽 계산은 [[indie-business-strategy]], 지표 쪽 함의는 [[launch-metrics]] 참조.
 
 > 💡 **핵심 인사이트:** 소규모의 해답은 '덜 만드는 것'이 아닌 '더 잘 나누는 것'. 제약이 명확한 구조를 설계할 때 팀 전체가 생산적이 된다. Asobo의 사례는 한 가지를 더 추가한다 — **제약이 명확할수록 의사결정 비용이 줄어든다**: 시대·장소·스타일이 정해지면 팀은 "어떻게 만들까"에만 집중할 수 있다.

@@ -2,10 +2,17 @@
 title: "소스 전체 목록"
 ---
 
-총 180개 | 최신순 정렬
+총 187개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [dereklieu-friendslop-trailer-comparison-2026-08](dereklieu-friendslop-trailer-comparison-2026-08.md) | Derek Lieu — 같은 소재 friendslop 트레일러 두 편 해부 (Dear Passengers vs Banana Airways) — 조회 200만+ vs 5,000 미만·지저분한 캡처가 자산이 되는 장르 문법·3원칙(접근성·포착된 유머·장난감성)·저자가 인과를 직접 부인 | 2026-08-23 |
+| [alinea-steam-dlc-attach-rates-2026-05](alinea-steam-dlc-attach-rates-2026-05.md) | Alinea — 2026 로그라이크 DLC 부속 판매율 8–21% (Elliott) — 10만 장 넘긴 DLC 4개 전부 로그라이크·전부 \$10 미만·최고 21%가 상한 \$9.99에서·경쟁작 6주 앞 출시·프리미엄에 F2P 문법 얹으면 반발 | 2026-05-14 |
+| [alinea-phantom-blade-zero-preorder-2026-08](alinea-phantom-blade-zero-preorder-2026-08.md) | Alinea — Phantom Blade Zero 출시 10주 전 스팀 30만장·\$14.5M (Elliott) — 위시리스트 160만(2026년 최다)·중국 29%·D-70 궤도가 Wukong의 73%·Wuchang의 6.4배·중국 정가 -33.6%·판호 보유·리뷰 폭격 리스크 | 2026-08-21 |
+| [circana-us-physical-lowest-2026-07](circana-us-physical-lowest-2026-07.md) | Circana — 미국 패키지 판매 1995년 집계 이후 월간 최저 \$85M (GamesIndustry.biz) — 닌텐도 63% vs PS 32%·하드웨어 -29% \$282M·유닛 -39%·ASP +16% \$542·Switch 2 유닛 -51%인데 초대 대비 +11%·차트 1·5위가 CoD 구작 | 2026-08-21 |
+| [gi-sony-live-service-opportunity-cost-2026-08](gi-sony-live-service-opportunity-cost-2026-08.md) | Rob Fahey — 소니 라이브서비스 전환의 기회비용 (GamesIndustry.biz 오피니언) — 게릴라 PS5 독점작 0편·너티독 2020년 이후 신작 없음·실패 원인 3종·파이프라인은 5년 전에 깔려야 한다 | 2026-08-21 |
+| [alinea-mw4-preorder-digital-push-2026-08](alinea-mw4-preorder-digital-push-2026-08.md) | Alinea — Modern Warfare 4 사전주문 10.5만장·\$5.9M과 디지털 유도 장치 6종 (Elliott) — Game Pass 데이원 철회·캠페인 1주 선행으로 중고 차단·한정 코스메틱 10만·로열티 할인 10%·Gears 베타는 수요 앞당기기만 | 2026-08-19 |
+| [zukowski-golden-age-week-2026-08](zukowski-golden-age-week-2026-08.md) | Zukowski — 골든 에이지의 한 주: 초고속 출시 3연작 해부 (How To Market A Game 3부작) — 2주 위시리스트 422·528의 예측력 부정·데모가 알고리즘 잠금해제(36,946 vs Shorts 769)·Personal Calendar 1,720 vs 424/일·장르 섞기 대신 자원 1,000배·오디언스 중복 5–7% | 2026-08-18 |
 | [bain-gaming-report-2026](bain-gaming-report-2026.md) | Bain — Gaming Report 2026 "평균 게이머의 종말" (글로벌 게이머 n=5,339 + 100개 타이틀) — 상위 20%가 지출 73%·취향 5분열(최대 26%)·포커스 게임 83% vs 무포커스 50%·2/3가 하던 것/비슷한 신작·웹스토어 12%→74%·직구 절반(27% 반복)·구글 수수료 30%→20%·AI 가속기·개인화 LiveOps +50% | 2026-08-18 |
 | [nexon-ir-2q26](nexon-ir-2q26.md) | 넥슨 2Q26 IR — 메이플 확장 +63%·ARC Raiders 누적 880억엔·특별배당 3,240억엔 — 가이던스 상회·영업이익 -17%·북미유럽 비중 21%·던파 -44%·메이플 성공모델 던파 복제 4종 | 2026-08-13 |
 | [carless-showcase-selection-2026-08](carless-showcase-selection-2026-08.md) | Carless — 스트리밍 쇼케이스 참가 전 던질 5가지 질문 (GameDiscoverCo) — 출품작 수·코스트리밍·데뷔 비중·참가비 \$1천~수십만·길이, 강한 공개 소재는 무료 입성, 추적 385개 | 2026-08-12 |

@@ -1,10 +1,10 @@
 ---
 title: "라이브 서비스 설계"
 type: concept
-sources: ["[[missing-middle-paradigm-shift-2026]]", "[[ukyou-mobile-liveservice-survival]]", "[[ukyou-mobile-liveservice-walls]]", "[[ign-generations-in-play-2026]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]"]
+sources: ["[[missing-middle-paradigm-shift-2026]]", "[[ukyou-mobile-liveservice-survival]]", "[[ukyou-mobile-liveservice-walls]]", "[[ign-generations-in-play-2026]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[gi-sony-live-service-opportunity-cost-2026-08]]"]
 related: ["[[helldivers-2|헬다이버스 2]]", "[[arc-raiders|아크 레이더스]]", "[[arrowhead-game-studios|애로우헤드]]", "[[embark-studios|엠바크 스튜디오]]", "[[community-management|커뮤니티 운영]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[player-retention|플레이어 리텐션]]", "[[engagement-loop|인게이지먼트 루프]]"]
 created: 2026-04-23
-updated: 2026-08-10
+updated: 2026-08-24
 confidence: high
 ---
 
@@ -100,3 +100,27 @@ TRPG 던전 마스터 개념을 라이브 서비스에 도입. 정해진 스크�
 → Gen Z 타깃 라이브 게임은 F2P + 강력한 UGC·소셜 기능 + 거주형 진행이 default 조합. 풀가격 라이브 서비스는 Gen X·M에는 commitment 신호로 작동하지만 Gen Z 도입에는 진입 장벽.
 
 > 💡 **세대 OS 시사:** "라이브 서비스에서 유저가 왜 떠나는가"의 답은 세대마다 다르다. Gen X·M은 *해야 할 일이 끝났을 때* 떠나고, Gen Z는 *함께 놀 사람이 없을 때* 떠난다. retention 진단·설계를 단일 모델로 하면 한 세대를 잃는다.
+
+## 세지 않은 비용 — 파이프라인 공백 ([[gi-sony-live-service-opportunity-cost-2026-08]])
+
+라이브 서비스 전환 실패의 비용은 보통 *취소·정리해고·스튜디오 폐쇄*로 계산된다. Rob Fahey는 여기에 **회계에 잡히지 않는 네 번째 비용**을 더한다 — 간판 스튜디오가 한 세대를 통째로 비우는 것.
+
+**실패 원인 3종** (저자 정리):
+
+1. 라이브 서비스의 **실제 성공률을 과대평가**해 위험 프로필을 낮게 봤다
+2. 시장이 대형 라이브 서비스를 동시에 몇 개나 떠받칠 수 있는지, **수용 능력을 크게 과대평가**했다
+3. **운영의 난이도를 과소평가**했다 — 돈을 버는 것과 모든 플레이어가 나를 미워하게 만드는 것 사이의 간격이 칼날처럼 좁다
+
+이 세 가지를 *"하나만 크게 터지면 여러 실패를 메운다"*는 논리로 정당화한 것이 업계 공통 패턴이었다 → [[hit-driven-strategy]]의 논리를 성공 확률 분포가 전혀 다른 영역에 옮겨 쓴 경우.
+
+**소니 사례에서 드러난 4번째 비용**:
+
+| 스튜디오 | 상태 |
+|---|---|
+| Guerrilla Games | *Horizon Hunters Gathering*이 테스트 반응 부진으로 라이브 서비스 요소를 걷어내고 재작업 중. Forbidden West DLC 이후 이 프로젝트에만 매달려 **본편 후속작이 프로덕션 상태로 없다** → **PS5용 주요 독점작 0편** |
+| [[naughty-dog\|Naughty Dog]] | **2020년 이후 신작 없음.** PS5 출시물은 전부 리마스터 — 그 사이 The Last of Us 라이브 서비스를 붙이려다 취소 |
+| [[sucker-punch-productions\|Sucker Punch]]·[[sony-santa-monica\|Santa Monica]] | 이 흐름을 피했다 |
+
+> 💡 **핵심 인사이트:** 라이브 서비스 실패의 청구서는 취소 시점에 끝나지 않는다. **고품질 릴리스 파이프라인은 5년 전에 깔려 있어야 하고, 몇 년 전에 시작하지 않은 라인업은 돈으로도 살 수 없다.** 그래서 기회비용은 상각되지 않고, 취소된 게임의 이름이 잊힌 뒤에도 사업·브랜드·소비자 관계에 남는다. 하필 다음 세대 기기가 회사 역사상 가장 비쌀 시점에 "살 게임이 없다"는 인식이 굳는 조합이 가장 아프다.
+
+> ⚠️ **오피니언이고 반사실이 없다.** "게릴라에 후속작이 없다"는 Schreier 보도의 전언이며 소니 확인은 없다. 그리고 *라이브 서비스를 안 했다면 제때 냈을 것*이라는 가정은 검증되지 않았다 — 대작 개발 기간이 세대마다 길어지는 추세만으로도 공백의 상당 부분이 설명될 수 있다(Forbidden West 2022 + 5년 = 2027, 라이브 서비스와 무관하게 세대 후반). 서커펀치·산타모니카가 피했다는 사실은 원인이 *하향식 지시*만이 아닐 수 있음을 시사하는데 글은 그 함의를 다루지 않는다.

@@ -108,15 +108,27 @@ relations:
    - 새 concept/comparison 페이지가 생겼으면 해당 섹션의 `<div class="pill-grid">` 리스트에 항목 추가 (형식: `- [[slug|짧은 라벨 — 부연 설명]]`)
    - 소스 섹션은 최신 10개만 표시. 전체 행은 `wiki/sources/all.md`에 추가
 8. wiki/log.md에 기록 추가
-9. **챗봇 갱신 확인** (ingest로 위키 내용이 바뀌었으므로): 사용자에게 *"챗봇도 갱신할까요? (재색인 + HF Space 재배포)"* 물어보기. OK 하면 `chatbot/update_and_deploy.py` 실행 (Claude Code가 대행). 거절하면 스킵
-   - 이유: ingest는 위키 텍스트만 바꾸고, 챗봇은 별도 색인·배포본을 가져서 명시적 동기화가 필요. 안 하면 챗봇이 옛 위키로 답함
+9. **배포 단계는 주간 LINT로 유예 — 묻지 말 것** (2026-08-24 표준 방침 확정)
+
+   ingest는 **위키 파일 변경까지만** 하고 끝낸다. 아래 세 가지는 *ingest 건별로 실행하지도, 실행 여부를 묻지도 않는다*:
+
+   | 유예 항목 | 처리 시점 |
+   |---|---|
+   | **git 커밋·push** | 주간 LINT |
+   | **챗봇 재색인 + HF Space 재배포** | 주간 LINT |
+   | deck 단독 배포본(`dist/`) 재생성 | 주간 LINT 또는 명시 요청 시 |
+
+   - 이유: push마다 Quartz 빌드·GitHub Pages 배포가 돌고 재색인은 BGE-M3 약 5분 + Space 업로드가 걸린다. 주간 단위로 모아 한 번에 올리는 쪽이 관리 비용이 낮다. 매번 물으면 같은 답을 반복하게 만든다
+   - **완료 보고에 넣을 것**: `git status` 요약(변경 N건·신규 M건) + *"미커밋 상태"* 명시 + **챗봇이 재색인 전이라 이번 신규 페이지를 모른다는 사실**. 다음 LINT에서 무엇이 올라갈지 알 수 있게 하는 목적
+   - **예외**: 사용자가 그 자리에서 push·재색인을 명시적으로 지시할 때, 또는 사이트가 이미 깨져 있어 수정본을 즉시 올려야 할 때
+   - 아래 재색인 실행·검증 절차는 **LINT에서 쓰는 참조 정보**다 (ingest 시점에 실행하지 않음)
    - **색인 산출물은 `chatbot/index/embeddings.npy` + `chatbot/index/meta.json`** (BGE-M3 임베딩 + 청크 메타). `core/vectorstore.py`가 numpy brute-force로 검색한다
      - ⚠️ `chatbot/chroma_db/`는 **더 이상 쓰지 않는 잔재**. chromadb의 영속 HNSW 인덱스가 재기동 시 `Error finding id`로 간헐 실패해 npy+json 방식으로 교체됨(`core/vectorstore.py` 참조). `deploy/push_space.py`도 Space에서 `chroma_db/**`·`*.sqlite3`를 삭제 대상으로 둔다. 재색인 검증 시 chroma_db를 보면 안 됨 — 갱신되지 않아 오판하게 됨
      - 일부 파일 docstring(`build_index.py`·`update_and_deploy.py`·`core/rag_search.py`)에 "Chroma" 표현이 남아 있으나 실제 구현과 무관한 잔여 주석
    - 실행: `cd chatbot && ./.venv/Scripts/python.exe update_and_deploy.py` (재색인 BGE-M3 ~5분 + Space 업로드)
      - **글로벌 `python` 금지** — 의존성 스택이 없어 실패한다. 반드시 `chatbot/.venv`의 인터프리터 사용
    - 재색인 검증: `index/meta.json`의 슬러그 집합에 이번 ingest로 만든 페이지가 들어갔는지 확인 (신규 폴더도 `iter_wiki_pages`의 `rglob` 방식이라 별도 설정 없이 자동 포함, 카탈로그 `all.md`·`log.md`·`overview.md`·`index.md`는 제외 규칙에 의해 빠짐)
-   - relations 신규/수정이 포함된 ingest면 graph도 함께 갱신되니 특히 권장
+   - relations 신규/수정이 포함된 ingest면 graph도 함께 갱신된다
 
 로그 형식:
 ## [YYYY-MM-DD] ingest | [제목]
@@ -149,7 +161,9 @@ raw/ 파일에서 아래는 무시·건너뛸 것:
 
 ## 작업 3: LINT
 
-> **자동 실행**: LINT는 **`LLM wiki lint`라는 Claude Code 스케줄 루틴으로 매주 자동 실행**됨 (2026-06-22부터 — 기존 Cowork 주간 스케줄 대체). 루틴은 아래 8단계(0~7)를 그대로 수행하되 **push 금지·새 페이지 자동 생성 금지·자동 ingest 금지** — 결과를 채팅으로 보고만 하고 실제 반영·push는 사용자 검토 후 진행. 수동으로 "lint"/"점검" 요청 시에도 동일 절차.
+> **자동 실행**: LINT는 **`LLM wiki lint`라는 Claude Code 스케줄 루틴으로 매주 자동 실행**됨 (2026-06-22부터 — 기존 Cowork 주간 스케줄 대체). 루틴은 아래 9단계(0~8)를 그대로 수행하되 **자동 push 금지·새 페이지 자동 생성 금지·자동 ingest 금지** — 결과를 채팅으로 보고만 하고 실제 반영·push는 사용자 검토 후 진행. 수동으로 "lint"/"점검" 요청 시에도 동일 절차.
+>
+> **LINT는 주간 배포 창구다** (2026-08-24 방침): ingest는 파일 변경까지만 하고 커밋·push·챗봇 재색인을 전부 이 루틴으로 넘긴다 (INGEST 절차 9번). 따라서 **8번 단계가 매주 실제로 실행되는 항목**이며, 여기서 처리하지 않으면 사이트와 챗봇이 계속 옛 상태로 남는다.
 
 "lint" 또는 "점검"이라고 하면:
 0. **빌드 안전성 검사 (가장 먼저)** — Quartz 빌드가 깨지면 사이트 전체가 배포되지 않는다
@@ -183,6 +197,19 @@ raw/ 파일에서 아래는 무시·건너뛸 것:
    - 자동 수정 금지. 사용자 OK 받고 그 자리에서 함께 편집
    - 분기 식별: LINT 실행일이 1월·4월·7월·10월의 1~7일 사이면 분기 첫째 주로 판단
    - 사용자가 *"이번 분기는 패스"*라고 하면 다음 분기까지 알림 없음
+8. **유예된 배포 일괄 처리 (마지막 단계)** — 지난 주 ingest들이 커밋·push·재색인을 이 단계로 넘겨 놨다 (INGEST 절차 9번)
+
+   순서를 지킬 것 — **빌드 검사 → 커밋 → push → 재색인**. 빌드가 깨진 상태로 push하면 사이트 전체가 배포되지 않는다.
+
+   1. **0단계 빌드 검사 결과 확인** — 통과 못 했으면 여기서 멈추고 먼저 고친다
+   2. **누적분 보고**: `git status --short` + `git log --oneline -1` 기준으로 *직전 push 이후 쌓인 변경*을 정리해 보여준다. `wiki/log.md`의 미push ingest 항목 목록도 함께
+   3. **커밋·push는 사용자 확인 후** — 방침은 "LINT에서 처리"이지만 push 자체는 여전히 승인 대상이다. 커밋 메시지는 누적 ingest 주제를 묶어 작성
+   4. **챗봇 재색인 + Space 재배포**: `cd chatbot && ./.venv/Scripts/python.exe update_and_deploy.py` (INGEST 9번의 실행·검증 참조 정보 그대로 사용). **글로벌 `python` 금지**
+   5. **재색인 검증**: `index/meta.json` 슬러그 집합에 이번 주 신규 페이지가 모두 들어갔는지 확인. `chatbot/chroma_db/`는 죽은 잔재이므로 보지 말 것
+   6. **deck 신규·수정이 있었으면** 단독 배포본 재생성 여부를 묻는다 (`python embed_standalone.py` → gitignore된 `dist/`)
+
+   - 누적분이 없으면 *"이번 주 미push 변경 없음"*으로 한 줄 보고하고 넘어간다
+   - Quartz repo(`C:\Users\bmjlee\quartz`) 변경은 **별도 push 사이클**임을 잊지 말 것
 
 ## 작업 4: DECISION (본인 결정·가설 검증 기록)
 

@@ -1,10 +1,10 @@
 ---
 title: "멀티 프로젝트 개발"
 type: concept
-sources: ["[[risks-multi-game-development]]", "[[naughty-dog-multi-project]]", "[[fromsoftware-300-devs]]", "[[embark-soderlund-quarter-budget]]", "[[multiproject-innersource-report]]"]
+sources: ["[[risks-multi-game-development]]", "[[naughty-dog-multi-project]]", "[[fromsoftware-300-devs]]", "[[embark-soderlund-quarter-budget]]", "[[multiproject-innersource-report]]", "[[gi-sony-live-service-opportunity-cost-2026-08]]"]
 related: ["[[naughty-dog|너티독]]", "[[fromsoftware|프롬소프트웨어]]", "[[embark-studios|엠바크 스튜디오]]", "[[insomniac-games|인섬니악]]", "[[capcom|캡콤]]", "[[innersource|이너소스]]", "[[small-team-development|소규모 팀 개발]]", "[[data-driven-development|데이터 기반 개발]]", "[[producer-role|프로듀서 역할]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
 created: 2026-04-14
-updated: 2026-08-18
+updated: 2026-08-24
 confidence: high
 ---
 
@@ -43,6 +43,18 @@ confidence: high
 - "스파이럴 아웃" 하지 않겠다는 경영 원칙
 - 360명으로 4개 게임 포트폴리오 유지가 목표
 - *기술적 실체* ([[gdc2026-embark-character-pipeline|GDC26 발표]]): **Arc Raiders + The Finals가 같은 Houdini/USD 파이프라인 공유**. 차이는 project-specific 노드 몇 개뿐. Cross-project batching으로 body type 추가 같은 변경을 모든 프로젝트에 일괄 적용 → [[art-pipeline-design|아트 파이프라인 설계]]
+
+## 반대 극단 — 한 스튜디오를 한 프로젝트에 전량 투입 ([[gi-sony-live-service-opportunity-cost-2026-08]])
+
+위 모델들이 *한 스튜디오가 여러 프로젝트를 굴리는* 방법이라면, Guerrilla Games는 그 반대 극단의 비용을 보여준다.
+
+- *Horizon: Forbidden West* DLC를 끝낸 뒤 스튜디오가 **라이브 서비스 프로젝트 하나(Horizon Hunters Gathering)에만 매달렸다.** 그 프로젝트가 테스트 반응 부진으로 라이브 서비스 요소를 걷어내고 재작업에 들어간 지금, **본편 후속작이 프로덕션 상태로 없다**
+- 결과: PlayStation 퍼스트파티 중 가장 성공적인 스튜디오 하나가 **PS5용 주요 독점작을 한 편도 내지 못한다.** Forbidden West는 PS4 수명 끝의 크로스젠 출시였고, 후속작은 PS6 수명에 한참 들어가서야 나올 가능성이 높다
+- 같은 패턴: [[naughty-dog|너티독]]은 2020년 이후 신작이 없고 PS5 출시물이 전부 리마스터다 — The Last of Us 라이브 서비스에 묶여 있던 기간
+
+> 💡 위 "핵심 위험" 절이 *멀티 개발의 위험*을 다룬다면, 이 사례는 **단일 프로젝트 집중의 위험**이다. 프롬소프트웨어의 유동 배치나 엠바크의 파이프라인 공유가 노리는 것은 인력 효율만이 아니라 **한 프로젝트가 좌초했을 때 스튜디오 전체가 세대를 비우지 않는 구조**이기도 하다. 포트폴리오가 리스크 분산 장치라는 점이 실패 사례 쪽에서 확인된다.
+
+> ⚠️ 근거는 오피니언 칼럼이 인용한 Schreier 보도이며 소니 확인은 없다. 반사실(라이브 서비스를 안 했다면 후속작이 제때 나왔을지)도 검증되지 않았다. 판단 재료로는 [[live-service-design]]의 같은 절을 함께 볼 것.
 
 ## 스튜디오 모델 확장 비교
 

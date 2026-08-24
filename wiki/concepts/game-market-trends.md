@@ -1,10 +1,10 @@
 ---
 title: "게임 시장 트렌드"
 type: concept
-sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[bain-gaming-report-2026]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[alinea-steam-record-year-2026]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[sony-ir-1q-fy2026]]"]
+sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[bain-gaming-report-2026]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[alinea-steam-record-year-2026]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[sony-ir-1q-fy2026]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[circana-us-physical-lowest-2026-07]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
 created: 2026-04-20
-updated: 2026-08-20
+updated: 2026-08-24
 confidence: high
 ---
 
@@ -41,6 +41,25 @@ AI 메모리 쇼크발 가격 인상으로 콘솔 출하가 꺾인다. S&P Globa
 단, 플랫폼 전체 기준선은 훨씬 낮다 — PS 물리 비중은 최근 분기 유닛 15%, **매출로는 약 7%**([[ps-physical-digital-share-2026]]). 위 48%는 컬렉터형 프레스티지 타이틀의 라이프타임 누적이다.
 
 > 💡 **개발사 함의:** 판매량을 못 늘리는 시장에서 플랫폼 홀더·퍼블리셔가 쓸 카드는 **1인당 매출** 하나다. 마진 높은 디지털로 몰아가는 것(소니)과 \$150짜리 상위 SKU를 새로 만드는 것(EA FC 27)은 같은 압박에서 나온 두 손잡이다. Alinea는 이를 *가장 싼 입구가 사라지는 것*이라고 비판하지만, 중고로 팔린 돈은 애초에 개발사에게 오지 않고 남은 물리 매출도 7% 수준이라 양쪽 근거의 무게가 같지 않다 — 논쟁 정리는 [[console-retail-strategy]], 판단 기록은 [[2026-08-03-console-retail-arpu-focus]] 참조.
+
+### 미국 단일 시장 실측 — 대수는 줄고 단가는 오른다 (2026-07, [[circana-us-physical-lowest-2026-07]])
+
+위 Kagan 전망과 소니 IR이 *글로벌·플랫폼 단위*였다면, Circana의 미국 7월 집계는 같은 구도를 소매 단위로 보여준다.
+
+| 항목 | 수치 |
+|---|---|
+| 하드웨어 지출 | \$282M (**-29%** YoY) — 2020년 7월 이후 7월 최저 |
+| 하드웨어 유닛 | **-39%** YoY |
+| 평균 판매가(ASP) | **\$542 (+16%)** — PS·Xbox·Switch 전부 가격 인상 |
+| 패키지 소프트웨어 | **\$85M** — 1995년 집계 개시 이후 월간 최저 |
+| 총 지출 (콘텐츠+하드웨어+액세서리) | \$4.5B (**-10%** YoY) |
+| 콘텐츠 지출 | \$4.1B (-9%) — 주로 모바일 감소 |
+
+- 기종별 유닛 **PS5 -6% · Xbox Series -18% · Switch 2 -51%**. 그럼에도 7월 유닛 1위는 Switch 2, 매출 1위는 PS5. **Switch 2는 출시 14개월 시점에 초대 Switch의 시간축 정렬 판매보다 11% 앞서 있다**
+- Piscatella는 원인으로 작년 6월 Switch 2 기록적 출시의 기저 효과와 **RAM·부품 부족**을 꼽는다. Switch 2 하드웨어 가격 인상은 **9월 1일 시행**
+- Top 10에 신작 6개가 들어갔는데도 전체는 -10%였고, **1위와 5위가 모두 15년 전후의 Call of Duty 구작 이식**이다(BO2 67위 → 1위, BO1 150위 → 5위). [[alinea-ps-july-2026-cod-catalog|PS 단독 집계]]에서 본 패턴이 미국 시장 전체에서 반복
+
+> ⚠️ **"급락"과 "역대 최고 페이스"가 같은 기사 안에 있다.** 하드웨어 -39%의 상당 부분은 사상 최고 출시 직후 구간과의 비교에서 나오며, Switch 2가 초대 Switch보다 11% 앞선다는 수치가 그 점을 드러낸다. 구조적 수축과 기저 효과를 이 데이터로 분리할 수 없다. 부품 부족의 크기도 견해가 갈린다 — 소니는 *FY26 필요 메모리를 확보했고 하드웨어 수익성 계획에 변화 없다*고 밝혔다([[sony-ir-1q-fy2026]]). 그리고 "1995년 이후 최저"는 인플레이션·시장 규모 보정이 없는 명목 비교다.
 
 ## 저가 프리미엄의 부상
 
@@ -85,6 +104,17 @@ AI 메모리 쇼크발 가격 인상으로 콘솔 출하가 꺾인다. S&P Globa
 - 넥슨([[nexon]]) [[arc-raiders|ARC Raiders]]: 스웨덴 [[embark-studios|엠바크]]를 통해 서구 프리미엄 IP를 스케일화(누적 16M+)
 
 > 💡 **핵심 인사이트:** "서구 개발사 구조적 불이익"과 "비서구 스튜디오의 서구 프리미엄 성공"은 모순이 아니라 *같은 동전의 양면*이다. 불이익받는 건 *서구에 갇힌 개발사*이지 *서구 시장 자체*가 아니다 — 프리미엄 AAA·콘솔 지대는 여전히 미주/유럽 80%의 큰 파이이고([위 PC vs 콘솔](#pc-vs-콘솔-수익-구조)), *글로벌 자본·엔진·퍼블리싱을 갖춘 비서구 스튜디오*(펄어비스·크래프톤·미호요)가 그 파이에 진입하고 있다. [[missing-middle-paradigm-shift-2026|미싱 미들]] (\$30–50 AA)과 별개로, *풀프라이스 프리미엄 AAA*로도 비서구 신규 IP가 통한다는 반례.
+
+### 그 흐름의 조건 — 판호와 홈타운 히어로 ([[alinea-phantom-blade-zero-preorder-2026-08]])
+
+위가 *비서구 스튜디오가 서구로 나가는* 방향이라면, 중국계 대작은 **자국 시장을 주력으로 두고 서구를 부수로 얹는** 반대 구성이다. Phantom Blade Zero(베이징 S-Game, 2026-10-29)가 출시 10주 전 스팀에서 30만장·\$14.5M을 사전 판매한 사례에서 조건이 드러난다.
+
+- **판호(퍼블리싱 라이선스) 보유 여부가 마케팅 폭 자체를 가른다.** 현지 파트너 없는 서구 게임은 온라인 마케팅만 가능한데, 판호가 있으면 전 세계 동시 출시 + **오프라인 프로모션**이 열린다. 중국에서 대형 출시의 전형적 신호는 굿즈·액세서리 제휴에서 식음료 제휴로 확장되는 흐름
+- **홈타운 히어로 효과를 설계 단계에서 노린다** — 실제 중국 무술 기반(견자단 모션캡처·자문), 사자춤·경극·나례 가면·궁중 의례·수묵화 등 문화 자산
+- 다만 규모의 등급이 다르다. 현지 컨설턴트 관측으로 PBZ의 열기는 **"Black Myth: Wukong 때와는 전혀 다른 수준이지만 Wuchang 출시 전보다는 상당히 높다"** — Wukong이 *거의 모두가 노출된 세대적 문화 현상*이었던 것과 달리 PBZ는 **"훨씬 더 게이머들의 것이지만 그 규모가 크다"**
+- **소니가 이 게임을 퍼스트파티급으로 대우하는 이유**: 재무 자료의 메시징은 중국·PC에서 멀어졌는데도 China Hero Project로 받치는 것은, *박스와 생태계*라는 핵심 가치 제안을 훼손하지 않으면서 **스팀과 중국에 한 발을 남기는**(싱글플레이 한정) 방식이다. 중국은 오늘날 AAA·AA 생태계의 성장 벡터로 취급된다
+- ⚠️ 중국 특유의 리스크: **만리방화벽 때문에 포럼·디스코드로 불만을 낼 수 없는 중국 플레이어는 그것을 스팀 이용자 리뷰로 낸다.** 흐릿한 화질·낮은 프레임 조합이 "최적화 불량" 리뷰 폭격의 전형적 방아쇠 — 리뷰 등급이 매출 배수로 직결되는 구조([[launch-metrics]])에서 실질 위험
+- ⚠️ 판매 수치는 Alinea 자체 추정이며 방법론 비공개. 출시 전 지표이므로 사후 검증 필요
 
 ## 미싱 미들(Missing Middle)의 부상 ([[missing-middle-paradigm-shift-2026]])
 
