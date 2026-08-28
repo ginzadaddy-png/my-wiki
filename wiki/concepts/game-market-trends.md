@@ -1,20 +1,22 @@
 ---
 title: "게임 시장 트렌드"
 type: concept
-sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[bain-gaming-report-2026]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[alinea-steam-record-year-2026]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[sony-ir-1q-fy2026]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[circana-us-physical-lowest-2026-07]]"]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
+sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[bain-gaming-report-2026]]", "[[newzoo-pc-console-2026]]", "[[newzoo-ggmr-2026-preview]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[alinea-steam-record-year-2026]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[sony-ir-1q-fy2026]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[circana-us-physical-lowest-2026-07]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
 created: 2026-04-20
-updated: 2026-08-24
+updated: 2026-08-28
 confidence: high
 ---
 
 글로벌 게임 시장의 구조적 변화와 플랫폼별 특성. 뉴주(Newzoo) 2025-2026 데이터 기반.
 
-## 시장 규모
+## 시장 규모 (모바일 포함 전체, [[newzoo-ggmr-2026-preview]])
 
-- 2025년 글로벌 게임 시장 약 \$1,960억 달러 (2021년 최고점 돌파)
-- 2028년 \$2,272억 달러 예상
-- 36억 명의 플레이어, 58억 명의 온라인 인구 중 62%
+- **2026 글로벌 게임 시장 약 \$213.9B**(+6.1% YoY). 2025 실적은 **\$201.6B로 상향 수정**(당초 \$188.8B forecast에서 — 예상보다 강했던 해).
+- 플랫폼별 2026: 모바일 \$121.1B(57%·+6.8%)·콘솔 \$46.9B(+5.1%)·PC \$45.9B(+5.3%). **모바일이 오랜만에 성장을 다시 견인**, 단 PC는 2025년 +12%로 Newzoo 집계 사상 최고 연간 성장률.
+- 지역: APAC \$100.7B(47%)·북미 \$56.9B·유럽 \$38.5B·중남미 \$9.3B·MEA \$8.5B. **중국+미국이 지출의 52%**.
+- 플레이어 **37억 명**(+4.4%) → 2029 40.7억(CAGR 3.2%). 온라인 인구 59.7억 중 게임 침투율 62.0%.
+- ⚠️ 위는 GGMR 2026 **preview 잠정치**(전체판 2026-09-10 발매) — 9/10 이후 원본으로 교체 예정. 성장 성격은 *새 유저가 아니라 기존 오디언스 내 심화 수익화*(D2C·마이크로트랜잭션·중국 퍼블리셔).
 
 ## PC vs. 콘솔 수익 구조
 
@@ -23,6 +25,19 @@ confidence: high
 | 주요 수익원 | 소액결제(~50%), 프리미엄(~1/3) | 프리미엄(50%), 소액결제(25%) |
 | 가격대 성장 | 저가(\$30 미만) 폭발 성장 | 고가(\$50 이상) AAA 중심 |
 | 지역 | APAC 60% 견인 | 북미·유럽 80% |
+
+## PC·콘솔 2026 갱신 — 정체 종료, PC가 콘솔을 추월 ([[newzoo-pc-console-2026]])
+
+Newzoo 2026(PC·콘솔 한정, 모바일 제외)이 5년 정체의 종료를 실측한다. 단 성장 성격이 플랫폼별로 갈린다.
+
+- **PC·콘솔 합산 매출**: 2024 \$81.9B → 2025F \$88.3B → 2028F **\$103.7B**. CAGR 2025–28 PC ▲6.6% / 콘솔 ▲4.4%.
+- **2028년 PC 매출이 콘솔 추월** — PC는 동아시아 유저 확대·Gen Z/Alpha 유입·ASP 상승·Valve 생태계로 *구조적·규모 주도*, 콘솔은 Switch 2·GTA VI·프리미엄/구독 가격 인상으로 *블록버스터·사이클 주도*(플레이어 성장은 제한).
+- **PC 플레이어 2028년 10억 돌파**(1,020M), 콘솔 688M.
+- **매출 모델 분열(2025F)**: PC \$43.0B는 마이크로트랜잭션 48%·프리미엄 29% *(소액결제 주도)*, 콘솔 \$45.3B는 프리미엄 50%·소액결제 27% *(프리미엄 주도)*. 위 "PC vs 콘솔 수익 구조" 표의 2026 실측 확인.
+- **가격대**: [[mid-price-sweet-spot|\$30–50 중가]]가 전 플랫폼 최고 성장 밴드, sub-\$30은 PC 인디로 구조화. **성장은 [[long-tail-survival-economics|Top 20 바깥]]에서** — PC Rank 21+ 플레이타임 ▲44%.
+- **한국은 "Nexon 집중 + RPG 편중"으로 규정**(중국=Tencent·NetEase, 북미=고ARPU 프리미엄, 유럽=구조적 PC).
+
+> 💡 **개발사 함의:** "게임 시장이 다시 큰다"를 *확장*으로 오독하면 위험 — Newzoo는 이를 *플랫폼 분열 + 재분배*로 규정한다. 전체 플레이타임은 정체(flat)이고 성장은 PC·롱테일·프리미엄으로 쏠린다. Bain 2026·미싱 미들의 "집중" 서사와 정합하며, 아시아 F2P·MMO 비중이 큰 넥슨게임즈 맥락에선 *서구권 프리미엄 결론의 직접 적용을 경계*할 것.
 
 ## 콘솔 하드웨어 수축 — 설치기반 성장 정체 ([[sp-kagan-console-shipments-2026]])
 

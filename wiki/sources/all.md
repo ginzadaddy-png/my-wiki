@@ -2,10 +2,11 @@
 title: "소스 전체 목록"
 ---
 
-총 187개 | 최신순 정렬
+총 189개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [newzoo-ggmr-2026-preview](newzoo-ggmr-2026-preview.md) | Newzoo — Global Games Market Report 2026 (preview·잠정치, GameDevReports 경유) — 전체 \$213.9B(+6.1%)·2025 실적 \$201.6B 상향·모바일 \$121.1B(57%) 재부상·콘솔 \$46.9B(GTA VI 의존)·PC \$45.9B(2025 +12% 사상최고)·플레이어 37억·중국+미국 지출 52%·전체판 9/10 발매 | 2026-08-25 |
 | [dereklieu-friendslop-trailer-comparison-2026-08](dereklieu-friendslop-trailer-comparison-2026-08.md) | Derek Lieu — 같은 소재 friendslop 트레일러 두 편 해부 (Dear Passengers vs Banana Airways) — 조회 200만+ vs 5,000 미만·지저분한 캡처가 자산이 되는 장르 문법·3원칙(접근성·포착된 유머·장난감성)·저자가 인과를 직접 부인 | 2026-08-23 |
 | [alinea-steam-dlc-attach-rates-2026-05](alinea-steam-dlc-attach-rates-2026-05.md) | Alinea — 2026 로그라이크 DLC 부속 판매율 8–21% (Elliott) — 10만 장 넘긴 DLC 4개 전부 로그라이크·전부 \$10 미만·최고 21%가 상한 \$9.99에서·경쟁작 6주 앞 출시·프리미엄에 F2P 문법 얹으면 반발 | 2026-05-14 |
 | [alinea-phantom-blade-zero-preorder-2026-08](alinea-phantom-blade-zero-preorder-2026-08.md) | Alinea — Phantom Blade Zero 출시 10주 전 스팀 30만장·\$14.5M (Elliott) — 위시리스트 160만(2026년 최다)·중국 29%·D-70 궤도가 Wukong의 73%·Wuchang의 6.4배·중국 정가 -33.6%·판호 보유·리뷰 폭격 리스크 | 2026-08-21 |
@@ -44,6 +45,7 @@ title: "소스 전체 목록"
 | [sp-kagan-console-shipments-2026](sp-kagan-console-shipments-2026.md) | S&P Kagan — 2026 콘솔 출하 −19.5%(33.9M) 전망 (McEvoy/GamesIndustry.biz) — Switch2 17.1M·PS5 13.2M·Xbox 2.5M "0으로 wind-down"·2030 회복 | 2026-07-13 |
 | [alinea-steam-record-year-2026](alinea-steam-record-year-2026.md) | Alinea — Steam Is Having Another Record Year (H1 2026, Elliott) — H1 매출 \$11.1B·백카탈로그 79%·신작 21% | 2026-07-09 |
 | [nexon-cmb-2026-transformation](nexon-cmb-2026-transformation.md) | 넥슨 2026 CMB — Transformation Plan (2027 매출 7조 목표 철회·비용 규율·선별 M&A·투톱) | 2026-03-31 |
+| [newzoo-pc-console-2026](newzoo-pc-console-2026.md) | Newzoo — PC & Console Gaming Report 2026 "변곡점의 시장" (플레이타임·매출 실측, 서구 6개국+37개국) — 정체 종료 \$88.3B→\$103.7B·PC가 2028 콘솔 추월·PC 10억 플레이어·Roblox 1위 프랜차이즈·Top 20 여전히 50%+지만 롱테일 PC Rank 21+ ▲44%·\$30–50 최고 성장(PS ▲99%)·PC F2P 효율 PS 2배·한국=Nexon 집중+RPG 편중 | 2026-03-12 |
 | [nexon-ncsoft-mmo-recurrent-2026](nexon-ncsoft-mmo-recurrent-2026.md) | 한국 MMO recurrent 카탈로그 — 넥슨 vs 엔씨 (IR 종합) — 메이플 22년 최고매출·리니지 집중 26년만 첫 적자 | 2026-05-14 |
 | [pearl-abyss-ir-1q26](pearl-abyss-ir-1q26.md) | 펄어비스 1Q26 IR — 붉은사막 출시로 recurrent floor + 프리미엄 런치 실증 — 매출 3,285억(+419.8%)·붉은사막 81%·미주유럽 80%+·CCP 매각 | 2026-05-13 |
 | [krafton-ir-fy2025-1q26](krafton-ir-fy2025-1q26.md) | 크래프톤 FY2025·1Q26 IR — 매출↑ 영익↓ 재투자 국면 + Big Franchise IP 전략 — FY25 3.3조(영익 −10.8%)·1Q26 1.37조·PUBG IP 첫 분기 1조·7조 목표 유지 | 2026-04-30 |

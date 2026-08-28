@@ -14,11 +14,12 @@ sources: [
   "[[alinea-ps-july-2026-cod-catalog]]",
   "[[alinea-remakes-remasters-ranking-2026-07]]",
   "[[alinea-halo-campaign-evolved-2026-08]]",
-  "[[remedy-control-resonant-pricing-2026-08]]"
+  "[[remedy-control-resonant-pricing-2026-08]]",
+  "[[newzoo-pc-console-2026]]"
 ]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
 created: 2026-04-28
-updated: 2026-08-24
+updated: 2026-08-28
 confidence: high
 ---
 
@@ -47,6 +48,8 @@ confidence: high
 **대표 사례**: 클레르 옵스퀴르(\$50, 600만장+), 아크 레이더스(\$40, 1,400만장), 헬다이버스2(\$40, 2,000만장+)
 
 > 💡 게이머의 22%가 핵심 게임플레이를, 7%만이 고품질 그래픽을 최우선으로 꼽는다 (Bain & Company 2025). \$40~50 가격대가 "AAA급 비주얼은 없어도 AAA급 재미"를 기대하는 새로운 시장의 스위트 스팟.
+
+**2026 갱신** ([[newzoo-pc-console-2026]], 서구 6개국 실측): \$30–50 밴드 매출 성장 2022→2025 **PC ▲60% · PlayStation ▲99% · Xbox ▲45%**로 전 가격대 중 최고. sub-\$30은 PC 인디로 구조화(2025 PC 매출 9%), \$50+는 콘솔 주도지만 Xbox 정체(▲0%)·standalone만 보면 PC ▲32%. 밴드 성격·메커니즘 상세는 [[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]. 단 이 수치는 *서구권 프리미엄 시장 한정* — 아시아 F2P·MMO엔 직접 적용 주의.
 
 ### 미드 프라이스 내부 분기 — 온라인 중심 \$39.99 vs 스토리 완결형 \$49.99
 

@@ -2,7 +2,7 @@
 title: "전체 개념 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-08-18
+updated: 2026-08-28
 ---
 
 ← [홈으로](../index.md)
@@ -47,6 +47,8 @@ updated: 2026-08-18
 | [[game-pricing-strategy]] | **게임 가격 전략** — 가격대 지형, 지역 차등화, 세일 타이밍, 비즈니스 모델 |
 | [[console-retail-strategy]] | **콘솔 리테일·유통 전략** — 디스크 vs 디지털 단위 경제, 패키지 비중 편차, 에디션 티어링, 진입 사다리 |
 | [[catalog-economics]] | **카탈로그 이코노믹스** — 시리즈 IP의 장기 매출 모델, 캡콤 카탈로그 84% |
+| [[long-tail-survival-economics]] | **롱테일 생존 경제학** — Top 20 밖 게임의 생존 조건·PC Rank 21+ ▲44%·progression 깊이·백카탈로그 |
+| [[mid-price-sweet-spot]] | **중가 프리미엄 스위트스폿** — $30–50 밴드 전 플랫폼 최고 성장·양극단 사이 회귀 |
 | [[remaster-rerelease-strategy]] | **구작 재발매·리마스터 전략** — 이식·리마스터·리메이크 3층, 노후도의 창, 가격 진입 스위치, 롱테일 할인 |
 | [[steam-revenue-forecasting]] | **Steam 매출 예측 모델** — 8 driver sensitivity, sub-genre conversion 매트릭스, ZR Forecaster |
 | [[publisher-deal-structures]] | **퍼블리셔 딜 구조** — Rev share·Recoup-first·MG·Marketing fee 5종 비교·stress test |

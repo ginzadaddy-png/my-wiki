@@ -2,6 +2,29 @@
 title: "활동 로그"
 ---
 
+## [2026-08-28] ingest | Newzoo — Global Games Market Report 2026 (preview·잠정치)
+
+- 트리거: 사용자가 GGMR 2026 전문 PDF 요청. **GGMR은 유료 플래그십이라 전문 무료 PDF 없음 + 전체판 2026-09-10 미발매** 확인 → 사용자가 "B(지금 preview 수치 우선 반영) + A(9/10 이후 전체판 추적) 둘 다" 지시. 본 항목은 B
+- Source: 웹 2차 요약 (raw/ 미적재) — [GameDevReports "Newzoo: The Gaming Market in 2026"](https://gamedevreports.substack.com/p/newzoo-the-gaming-market-in-2026) (Dmitriy Byshonkov, 2026-08-25), Newzoo preview 하이라이트 정리
+- 핵심: 2026 전체 **\$213.9B(+6.1%)**·2025 실적 \$201.6B 상향 수정(당초 \$188.8B)·모바일 \$121.1B(57%) 성장 재견인·콘솔 \$46.9B(GTA VI 11월 의존)·PC \$45.9B(2025 +12% 사상최고)·플레이어 37억·중국+미국 지출 52%·성장은 기존 오디언스 내 심화 수익화
+- 생성(source 1): **newzoo-ggmr-2026-preview** (⚠️ 잠정치·2차 인용 명시 + "약점과 한계" 5항 + "후속(A)" 섹션 — 9/10 전체판 교체 대기)
+- 업데이트(concept 1): game-market-trends(**시장 규모** 섹션을 2026 GGMR preview 수치로 전면 갱신 — 기존 2025 \$196B/2028 \$2,272억 → 2026 \$213.9B·플랫폼·지역·플레이어 분해)
+- 카탈로그: sources/all.md(→189, 최상단 2026-08-25)·index.md(소스 188→189)
+- **A(후속 추적)**: 프로젝트 메모리 등재 — 2026-09-10 GGMR 전체판·무료 축약본 공개 여부 확인, 공개 시 raw/papers PDF 확보 후 preview 페이지 교체·confidence 상향
+- ⚠️ **미커밋·미push**. 챗봇 재색인 전 → 다음 LINT 일괄
+
+## [2026-08-28] ingest | Newzoo — PC & Console Gaming Report 2026 (변곡점의 시장)
+
+- 트리거: 사용자가 Scribd URL로 ingest 요청. Scribd은 페이월이라 Newzoo 무료 배포 원본 PDF([InvestGame 미러](https://investgame.net/wp-content/uploads/2026/03/2026-03-12-newzoo_2026_pc_and_console_gaming_report_wp.pdf), 80p) 확보
+- Source: raw/papers/newzoo-pc-console-2026.pdf (9.5MB·80p, `python`+fitz로 전문 추출·파악 후 작업 txt 정리)
+- 강조점(사용자 선택 4): 기본 소스 요약+기존 컨셉 연결 / 신규 컨셉 중가 스위트스폿 / 신규 컨셉 롱테일 생존 / 한국·Nexon 관점
+- 핵심: 5년 정체 종료지만 *확장이 아니라 플랫폼 분열*. 매출 2025F \$88.3B→2028F \$103.7B·**PC가 2028 콘솔 추월**·PC 10억 플레이어. 전체 플레이타임 flat, **Roblox가 Fortnite·CoD 제치고 1위 프랜차이즈**. Top 20 여전히 50%+지만 축소·**PC Rank 21+ 플레이타임 ▲44%**. 매출 모델 분열(PC 소액결제 48%·콘솔 프리미엄 50%). **\$30–50이 전 플랫폼 최고 성장**(PS ▲99%)·PC F2P 효율 PS 2배·CoD 전 플랫폼 급락. **한국=Nexon 집중+RPG 편중**으로 규정
+- 생성(source 1): **newzoo-pc-console-2026** ("약점과 한계(비판적 읽기)" 7항 포함 — 플레이타임≠매출, 서구 6개국 한정, 아시아 적용 경계, 2028 추월은 자체 모델 예측 등)
+- 생성(concept 2): **mid-price-sweet-spot**(중가 프리미엄 스위트스폿) · **long-tail-survival-economics**(롱테일 생존 경제학)
+- 업데이트(concept 3): catalog-economics(**플레이타임 측 증거 — 롱테일은 백카탈로그가 살린다** 절 신설) · game-market-trends(**PC·콘솔 2026 갱신 — PC가 콘솔 추월** 절 신설) · game-pricing-strategy(가격대 지형에 **2026 갱신** 문단 추가)
+- 카탈로그: sources/all.md(→188, 2026-03-12 위치)·concepts/all.md(2개 추가)·index.md(소스 187→188·개념 74→76·pill 2개·Last updated 2026-08-28)
+- ⚠️ **미커밋·미push 상태**. 챗봇은 재색인 전이라 이번 신규 3페이지(newzoo-pc-console-2026·mid-price-sweet-spot·long-tail-survival-economics)를 아직 모름 → 다음 주간 LINT에서 커밋·push·재색인 일괄
+
 ## [2026-08-24] ingest+comparison | lint 조사 주제 1·2·3·4 실행 — DLC 부속 판매율 · 트레일러 장르 문법 · 비교 2건
 
 - 트리거: 같은 날 주간 lint의 "추천 다음 조사 주제" 5건 중 사용자가 **1·2·3·4번 선택** (5번 누락 entity 생성은 미선택)

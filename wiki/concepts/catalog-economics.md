@@ -1,10 +1,10 @@
 ---
 title: "카탈로그 이코노믹스 (Catalog Economics)"
 type: concept
-sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[alinea-steam-record-year-2026]]", "[[bain-gaming-report-2026]]", "[[krafton-ir-fy2025-1q26]]", "[[krafton-ir-2q26]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-remakes-remasters-ranking-2026-07]]"]
-related: ["[[capcom|캡콤]]", "[[rockstar-games|록스타]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[bethesda-game-studios|베데스다]]", "[[fromsoftware|프롬소프트웨어]]", "[[nintendo|닌텐도]]", "[[nexon|넥슨]]", "[[krafton|크래프톤]]", "[[pearl-abyss|펄어비스]]", "[[larian-studios|라리안]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[live-service-design|라이브 서비스 설계]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[catalog-economics-3-publishers|3사 비교 (캡콤·닌텐도·Take-Two)]]", "[[nexon-ncsoft-mmo-recurrent-2026|한국 MMO recurrent]]", "[[hit-driven-strategy|홈런 전략]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
+sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[alinea-steam-record-year-2026]]", "[[bain-gaming-report-2026]]", "[[newzoo-pc-console-2026]]", "[[krafton-ir-fy2025-1q26]]", "[[krafton-ir-2q26]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-remakes-remasters-ranking-2026-07]]"]
+related: ["[[capcom|캡콤]]", "[[rockstar-games|록스타]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[bethesda-game-studios|베데스다]]", "[[fromsoftware|프롬소프트웨어]]", "[[nintendo|닌텐도]]", "[[nexon|넥슨]]", "[[krafton|크래프톤]]", "[[pearl-abyss|펄어비스]]", "[[larian-studios|라리안]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[live-service-design|라이브 서비스 설계]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[catalog-economics-3-publishers|3사 비교 (캡콤·닌텐도·Take-Two)]]", "[[nexon-ncsoft-mmo-recurrent-2026|한국 MMO recurrent]]", "[[hit-driven-strategy|홈런 전략]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]"]
 created: 2026-05-18
-updated: 2026-08-20
+updated: 2026-08-28
 confidence: high
 ---
 
@@ -35,6 +35,10 @@ Alinea 79%가 *매출·공급 측*(무엇이 팔리나)이라면, Bain Gaming Re
 - **"평균 게이머는 죽었다"**: 어떤 단일 경험 유형도 26% 초과 못 함(취향 5분열). 대중향 신작은 저지출층에 먼저 닿는 게 함정이고, 검증된 시리즈·구작이 고지출 코어를 붙든다.
 
 > 💡 **핵심 인사이트:** 캡콤 84%·Take-Two 78%·Steam 79% 같은 *공급 측 카탈로그 비중*의 이면에는 **"하던 걸 더 원하고(2/3), 그 돈을 소수가 쓰는(상위 20%=73%)" 수요 구조**가 있다. 즉 카탈로그 이코노믹스는 퍼블리셔의 공급 전략이기 이전에 *플레이어의 소비 성향*에 뿌리를 둔다. → 신작으로 카탈로그를 *새로 짓는* 것보다 기존 시리즈 코어를 깊게 파는 편이 이 수요 구조와 정합. Bain의 처방("가장 많은 플레이어가 아니라 올바른 플레이어를 잡아라")은 [[missing-middle-paradigm-shift-2026|미싱 미들]] 포커스 논지와 같은 축.
+
+## 플레이타임 측 증거 — 롱테일은 백카탈로그가 살린다 ([[newzoo-pc-console-2026]])
+
+Alinea 79%가 *매출*, Bain 2/3가 *수요·설문*이라면, Newzoo 2026은 **플레이타임 실측**에서 같은 그림을 확인한다. PC의 Rank 21+(Top 20 밖) 플레이타임이 2022→2025 **▲44%**로 성장의 거의 전부가 롱테일에서 나오는데, 그 롱테일 생존을 좌우하는 건 *런칭 스파이크가 아니라 프리미엄·progression 깊이 + 강한 백카탈로그 성과*다(RPG·Adventure over-index). 즉 백카탈로그는 매출 비중(Alinea)일 뿐 아니라 *플레이어를 오래 붙잡는 인게이지먼트 장치*이기도 하다. 상세는 [[long-tail-survival-economics|롱테일 생존 경제학]].
 
 ## 재발매형의 실행 조건 — 같은 달, 같은 전략, 25배 차이 ([[alinea-ps-july-2026-cod-catalog]])
 
