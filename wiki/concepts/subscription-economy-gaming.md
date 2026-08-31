@@ -4,7 +4,7 @@ type: concept
 sources: ["[[ign-generations-in-play-2026]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[alinea-halo-campaign-evolved-2026-08]]", "[[alinea-mw4-preorder-digital-push-2026-08]]"]
 related: ["[[live-service-design|라이브 서비스 설계]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[reports/pc-console-pricing-playbook|PC·콘솔 패키지 게임 기준 가격 결정 가이드]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
 created: 2026-05-12
-updated: 2026-08-24
+updated: 2026-08-31
 confidence: high
 ---
 
@@ -133,7 +133,7 @@ Millennials가 destination-based play → ecosystem-based participation 전환�
 
 > 서비스 자체의 수치·잠식 실측·전략 전환은 [[game-pass|Xbox Game Pass]] 엔티티 페이지에 모아 두었다. 여기서는 구독 경제 논지에 걸리는 부분만 다룬다.
 
-구독 = discovery engine 가설의 대표 실험이었던 Game Pass가 **~3,000만 명에서 정체**(과거 피크 3,400만, 원래 목표 1억)됐고, Xbox는 마진 3%까지 하락해 Asha Sharma 체제가 10년 전략을 재편했다. ([[naavik-xbox-strategy-reset-2026-07]])
+구독 = discovery engine 가설의 대표 실험이었던 Game Pass가 **~3,000만 명에서 정체**(과거 피크 3,400만 / 내부 목표 7,700만[2026]·1억+[2030], 2023 FTC v. Microsoft 재판 공개 문서 → [[game-pass]])됐고, Xbox는 마진 3%까지 하락해 Asha Sharma 체제가 10년 전략을 재편했다. ([[naavik-xbox-strategy-reset-2026-07]])
 
 - **익스클루시브 복귀**: "모든 게임을 어디서나(day-one on Game Pass)" 전략을 포기하고 독점작을 핵심으로 재부상시킴
 - **수익성 자산 집중**: 가장 수익성 높은 [[mojang|Mojang]]·King을 CEO 직속으로, 손실 스튜디오는 매각

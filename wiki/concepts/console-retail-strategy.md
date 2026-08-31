@@ -4,7 +4,7 @@ type: concept
 sources: ["[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[sony-ir-1q-fy2026]]", "[[matthew-ball-2026-report]]", "[[capcom-fy26-ir]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[circana-us-physical-lowest-2026-07]]"]
 related: ["[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[webshop-direct-monetization|웹샵·D2C 직접 수익화]]", "[[audience-expansion|오디언스 확장]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
 created: 2026-08-03
-updated: 2026-08-24
+updated: 2026-08-31
 confidence: high
 ---
 
@@ -81,7 +81,7 @@ confidence: high
 | **지킬 파이가 이미 작다** | PS 물리 비중 유닛 15% / **매출 약 7%** ([[ps-physical-digital-share-2026]]). 2024년 디스크는 PS 브랜드 전체 매출의 약 3% |
 | **캡콤은 사실상 완료** | 디지털 유닛 93.0% (FY26/3), 패키지 7.0%, FY27/3 계획 95.4% : 4.6% ([[capcom-fy26-ir]]) |
 | **사다리 자체가 이미 얇음** | 미국 물리 게임 지출 2025년 \$15억 — 1995년 집계 이래 최저. 영국 물리 FY25 -35%. GameStop FY2025 소프트웨어 매출 -27% (중고 마진이 신품보다 20%p 이상 높은데도 굿즈·카드 쪽으로 사업을 틀었다) |
-| **저렴한 진입로 실험은 이미 실패했다** | Game Pass는 내부 목표 7,700만 대비 약 3,000만(40% 미만)에 그쳤고, 2025-10 Ultimate \$19.99→\$29.99 인상 후 순감. Xbox는 독점작 복귀로 방향을 틀었다 ([[naavik-xbox-strategy-reset-2026-07]]) |
+| **저렴한 진입로 실험은 이미 실패했다** | Game Pass는 **2026년 내부 목표 7,700만**(2023 FTC v. Microsoft 재판 공개 문서) 대비 약 3,000만(약 39%)에 그쳤고, 2025-10 Ultimate \$19.99→\$29.99 인상 후 순감. Xbox는 독점작 복귀로 방향을 틀었다 ([[game-pass]], [[naavik-xbox-strategy-reset-2026-07]]) |
 | **오디언스는 고령화 중** | 미국 평균 플레이어 연령 **37세**(20년 전 29세), 35세 이상이 절반 초과 (ESA Essential Facts 2026). 지출 여력 있는 층이 두꺼워지는 방향 |
 | **저연령층은 애초에 디스크로 시작하지 않음** | Gen Alpha의 입구는 Roblox·태블릿·저사양 PC |
 

@@ -4,7 +4,7 @@ type: comparison
 sources: ["[[capcom-ir2021-dev-strategy]]", "[[capcom-fy26-ir]]", "[[re2023-re-engine-philosophy]]", "[[expedition33-ue5-interview]]", "[[gdc26-expedition33-programmers]]", "[[gdc26-hogwarts-evolving-aaa]]", "[[gdc2023-asobo-how-to-make-aaa-small-team]]", "[[pearl-abyss-blackspace-engine-gdc2025]]"]
 related: ["[[proprietary-engine-strategy|자체 엔진 전략]]", "[[unreal-engine-5|Unreal Engine 5]]", "[[capcom|캡콤]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[asobo-studio|Asobo Studio]]", "[[remedy-entertainment|Remedy Entertainment]]", "[[avalanche-software|Avalanche Software]]", "[[pearl-abyss|펄어비스]]", "[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]"]
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-08-31
 confidence: high
 ---
 

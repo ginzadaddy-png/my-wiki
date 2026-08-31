@@ -2,6 +2,18 @@
 title: "활동 로그"
 ---
 
+## [2026-08-31] 조사 | Game Pass 목표치 불일치 재확인 — 두 수치 다 유효, 출처 귀속이 틀렸다
+
+- 트리거: lint 후속 작업 중 발견한 위키 내부 불일치. 목표치가 **1억**(naavik·studio-acquisition-outcomes)과 **7,700만**(console-retail-strategy·가격 가이드·decisions)으로 갈려 있었고 **둘 다 [[naavik-xbox-strategy-reset-2026-07]]를 근거로 달고 있었음**. 사용자 지시로 원문·웹 재확인
+- 확인 방법: Naavik 원문 재fetch + 웹 검색 3회 (Digital Trends·Kotaku·검색 요약)
+- **결론 1 — 두 수치는 다른 값이 아니라 다른 해다.** 7,700만은 **2026년** 내부 목표, 1억+는 **2030년** 목표. 둘 다 액티비전 인수 심리(**2023 FTC v. Microsoft**)에서 공개된 내부 문서에서 나왔고, CoD 카탈로그가 신규 가입을 끌어온다는 인수 모델링의 가정값이다. 어느 쪽도 오류가 아님
+- **결론 2 — 실제 defect는 출처 귀속이었다.** Naavik 원문에는 **7,700만이 없다**. 원문이 적는 것은 *"a strategy premised on a hundred million"*(1억)과 *"plateaued somewhere around 30 million subscribers, down from the reported 34 million"* 뿐. 7,700만은 FTC 문서와 그 보도에서 온 수치인데 위키가 Naavik에 귀속시켜 놨던 것
+- **결론 3 — 3,000만의 1차 출처도 Naavik이 아니다.** WSJ 보도(관계자 인용)이며 Naavik은 2차 인용. 피크 3,400만은 2024-02 시점
+- **직전 판단 철회**: 같은 날 game-pass 페이지에 적었던 *"3,000만 정체만 쓰고 달성률은 쓰지 말 것"* 은 과도하게 보수적이었음 → **7,700만 대비 약 39%는 같은 해(2026) 기준 like-for-like 대조라 오히려 정당하다.** 반대로 1억+는 2030 목표이므로 현재 수치와 직접 대조하면 안 된다는 쪽으로 지침을 뒤집음
+- 업데이트(7): **game-pass**(규모 표를 *1차 출처* 컬럼 포함 4행으로 재구성 + 두 목표치의 연도 구분 인사이트 + ⚠️ 출처 귀속 정정 블록으로 교체) · **naavik-xbox-strategy-reset-2026-07**(⚠️ 출처 귀속 주의 — 이 기사엔 1억만 있음 명시) · console-retail-strategy · reports/pc-console-pricing-playbook · decisions/2026-08-03-console-retail-arpu-focus · comparisons/studio-acquisition-outcomes · subscription-economy-gaming — 전부 *"2026년 내부 목표 7,700만(2023 FTC 재판 공개 문서)"* 형태로 출처 교체
+- 미생성: FTC 문서·WSJ 보도의 별도 source 페이지는 만들지 않음 (2026-08-03 Steam MAU 계보 재조사와 동일한 *조사* 처리). 필요 시 별도 ingest
+- ⚠️ 미검증으로 남긴 것: Kotaku 기사에 *"Xbox chief strategy officer Matthew Ball"* 표현이 나오는데, 위키의 [[matthew-ball-2026-report|매튜 볼]]은 독립 애널리스트다. 기사 오류 또는 동명이인 가능성이 있어 **인용하지 않았음**
+
 ## [2026-08-31] lint 후속 | 조사 주제 1~5 전건 실행 — Game Pass 회수·가격 분포 정리·장르 태그 체계·엔티티 4종
 
 - 트리거: 2026-08-31 lint가 제안한 조사 주제 5건을 사용자가 **전부 선택**

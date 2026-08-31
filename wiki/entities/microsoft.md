@@ -4,7 +4,7 @@ type: entity
 sources: ["[[alinea-mw4-preorder-digital-push-2026-08]]", "[[circana-us-physical-lowest-2026-07]]"]
 related: ["[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]"]
 created: 2026-06-01
-updated: 2026-08-24
+updated: 2026-08-31
 confidence: high
 relations:
   parentOf: [bethesda-game-studios, obsidian-entertainment]

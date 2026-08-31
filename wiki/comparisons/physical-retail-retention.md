@@ -4,7 +4,7 @@ type: comparison
 sources: ["[[circana-us-physical-lowest-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[sony-ir-1q-fy2026]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[capcom-fy26-ir]]", "[[matthew-ball-2026-report]]"]
 related: ["[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|시장 구조 변화]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[webshop-direct-monetization|웹샵·D2C 직접 수익화]]", "[[platform-fees-vs-direct-sales|플랫폼 수수료 vs 직접 판매]]", "[[sony-interactive-entertainment|소니 인터랙티브 엔터테인먼트]]", "[[microsoft|마이크로소프트]]", "[[nintendo-switch-2|닌텐도 스위치 2]]", "[[capcom|캡콤]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가]]"]
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-31
 confidence: medium
 ---
 

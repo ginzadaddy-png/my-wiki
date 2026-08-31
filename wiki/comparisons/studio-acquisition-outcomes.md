@@ -4,13 +4,13 @@ type: comparison
 sources: ["[[naavik-xbox-strategy-reset-2026-07]]", "[[pearl-abyss-ir-1q26]]", "[[krafton-ir-2q26]]", "[[krafton-ir-fy2025-1q26]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-cmb-2026-transformation]]", "[[gamedev-leadership-dynamics]]", "[[ign-generations-in-play-2026]]", "[[sony-ir-1q-fy2026]]"]
 related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[hit-driven-strategy|홈런 전략]]", "[[subscription-economy-gaming|구독 경제]]", "[[studio-culture|스튜디오 문화]]", "[[psychological-safety|심리적 안전]]", "[[game-market-trends|시장 구조 변화]]", "[[microsoft|마이크로소프트]]", "[[krafton|크래프톤]]", "[[pearl-abyss|펄어비스]]", "[[bungie|번지]]", "[[tango-gameworks|탱고 게임웍스]]", "[[unknown-worlds|Unknown Worlds]]", "[[electronic-arts|Electronic Arts]]", "[[nexon|넥슨]]"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-31
 confidence: medium
 ---
 
 인수는 발표 시점에 금액과 함께 기록되지만, **그 뒤에 무엇이 남았는지는 어디에도 모이지 않는다**. 이 위키에도 인수 서술이 30개 넘는 페이지에 흩어져 있는데, 각각은 해당 회사 연혁의 한 줄로만 존재한다. 이 페이지는 그 조각들을 결과 기준으로 다시 세워, *같은 "스튜디오를 샀다"가 왜 이렇게 다르게 끝나는지*를 본다.
 
-> 💡 **핵심 인사이트:** 결과를 가른 것은 인수 금액도, 대상 스튜디오의 실력도 아니었다. **인수를 정당화한 상위 전략이 그 뒤로도 살아남았는가**가 갈랐다. [[microsoft|MS]]의 스튜디오 인수 러시는 Game Pass 1억 명이라는 전제 위에 세워졌고, 그 숫자가 3,000만에서 멈추자 인수한 스튜디오들이 팔려 나갔다. [[pearl-abyss|펄어비스]]의 CCP 인수는 EVE Online IP 자체엔 문제가 없었지만 검은사막과 합칠 지점이 끝내 없어 8년 만에 정리됐다. 반대로 [[krafton|크래프톤]]의 [[unknown-worlds|언노운월즈]]는 *두 번째 성장축을 만든다*는 전제가 유지됐고, 그래서 5년 뒤 실제로 두 번째 축이 됐다. **인수는 전략의 실행이지 전략이 아니다** — 전제가 무너지면 산 것부터 정리된다.
+> 💡 **핵심 인사이트:** 결과를 가른 것은 인수 금액도, 대상 스튜디오의 실력도 아니었다. **인수를 정당화한 상위 전략이 그 뒤로도 살아남았는가**가 갈랐다. [[microsoft|MS]]의 스튜디오 인수 러시는 Game Pass 7,700만(2026)·1억+(2030)이라는 전제 위에 세워졌고, 그 숫자가 3,000만에서 멈추자 인수한 스튜디오들이 팔려 나갔다. [[pearl-abyss|펄어비스]]의 CCP 인수는 EVE Online IP 자체엔 문제가 없었지만 검은사막과 합칠 지점이 끝내 없어 8년 만에 정리됐다. 반대로 [[krafton|크래프톤]]의 [[unknown-worlds|언노운월즈]]는 *두 번째 성장축을 만든다*는 전제가 유지됐고, 그래서 5년 뒤 실제로 두 번째 축이 됐다. **인수는 전략의 실행이지 전략이 아니다** — 전제가 무너지면 산 것부터 정리된다.
 
 ## 사례 표 — 인수 후 무엇이 남았나
 
@@ -64,7 +64,7 @@ confidence: medium
 | 5년 누적 지출 (M&A · 구독 · 하드웨어 보조) | **\$20B+** |
 | 5년간 매출 변화 | **약 5억 달러 감소** |
 | 매각 대상 스튜디오의 손실 | 투자 **1달러당 연 64센트** |
-| Game Pass 구독자 | 약 3,000만 (피크 3,400만, **원래 목표 1억**) |
+| Game Pass 구독자 | 약 3,000만 (피크 3,400만) — 내부 목표 **7,700만(2026)·1억+(2030)**, 2023 FTC v. Microsoft 재판 공개 문서 → [[game-pass]] |
 | Xbox 영업 마진 | **3%** |
 
 인수 자체가 실패해서 스튜디오를 판 것이 아니다. **인수를 정당화하던 Game Pass 1억 명이 3,000만에서 멈추자 인수 러시의 논리가 통째로 무너졌고**, 그 다음 단계로 자산 정리가 왔다. Naavik이 남긴 경고가 정확하다 — 진짜 어려운 일은 비용을 줄이는 것이 아니라 *살아남은 것을 키우는 일*이다.

@@ -7,7 +7,7 @@ sources: ["[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[ps-physical-digital-
 related_wiki: ["[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[audience-expansion|오디언스 확장]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[webshop-direct-monetization|웹샵·D2C 직접 수익화]]"]
 related: []
 created: 2026-08-03
-updated: 2026-08-24
+updated: 2026-08-31
 confidence: high
 ---
 
@@ -56,7 +56,7 @@ confidence: high
 
 ### ⑤ 싼 입구를 넓히는 실험은 이미 실패했다 ([[naavik-xbox-strategy-reset-2026-07]])
 
-Game Pass는 내부 목표 7,700만 대비 약 **3,000만**(40% 미만)에 그쳤고, 2025-10 Ultimate \$19.99→\$29.99 인상 뒤 오히려 줄었다. Xbox는 독점작 복귀와 DAU 중심으로 방향을 틀었다. **"마진 낮은 입구를 넓혀서 규모를 만든다"는 생각이 10년치 자본을 태우고 실패한 사례가 이미 있다.**
+Game Pass는 **2026년 내부 목표 7,700만**(2023 FTC v. Microsoft 재판 공개 문서 — [[game-pass]]) 대비 약 **3,000만**(약 39%)에 그쳤고, 2025-10 Ultimate \$19.99→\$29.99 인상 뒤 오히려 줄었다. Xbox는 독점작 복귀와 DAU 중심으로 방향을 틀었다. **"마진 낮은 입구를 넓혀서 규모를 만든다"는 생각이 10년치 자본을 태우고 실패한 사례가 이미 있다.**
 
 ### ⑥ 이용자 나이대가 올라가고 있다
 

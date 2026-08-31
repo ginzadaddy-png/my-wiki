@@ -4,7 +4,7 @@ type: report
 sources: ["[[missing-middle-paradigm-shift-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-wishlist-conversions-2025-10]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gdc26-newzoo-market-analysis]]", "[[gdc26-arc-raiders-reset]]", "[[capcom-fy26-ir]]", "[[matthew-ball-2026-report]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[sony-ir-1q-fy2026]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[indiebi-game-pricing-strategy]]", "[[alinea-halo-campaign-evolved-2026-08]]", "[[remedy-control-resonant-pricing-2026-08]]", "[[alinea-remakes-remasters-ranking-2026-07]]"]
 related: ["[[game-pricing-strategy|게임 가격 전략]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가]]"]
 created: 2026-08-03
-updated: 2026-08-18
+updated: 2026-08-31
 confidence: medium
 ---
 
@@ -199,7 +199,7 @@ Effective ARPU = 표시가 × (1 - 지역 할인분) × (1 - 평균 할인율)
 구독은 세 번째 채널이다. 판단이 갈리는 지점이 둘 있다.
 
 - **긍정**: 외부에서 화제가 생겼을 때 받아낼 자리가 된다. 놀란 영화 개봉 후 AC 오디세이 DAU가 구독이 깊게 깔린 Xbox에서 **+134%**, 구매가 필요한 Steam에서 **+26%**로 5배 차이가 났다([[alinea-ps-physical-fc27-odyssey-2026-07]])
-- **부정**: 콘솔 순성장의 **119%를 플랫폼 구독이 가져갔고**, 게임 판매·인게임 결제 지출은 연 **-11%**다([[matthew-ball-2026-report]]). Game Pass 자체도 목표 7,700만 대비 약 3,000만에 그쳤다([[naavik-xbox-strategy-reset-2026-07]])
+- **부정**: 콘솔 순성장의 **119%를 플랫폼 구독이 가져갔고**, 게임 판매·인게임 결제 지출은 연 **-11%**다([[matthew-ball-2026-report]]). Game Pass 자체도 **2026년 내부 목표 7,700만**(2023 FTC v. Microsoft 재판 공개 문서) 대비 약 3,000만에 그쳤다([[game-pass]])
 
 **잠식 규모의 실측 — Halo: Campaign Evolved** ([[alinea-halo-campaign-evolved-2026-08]])
 

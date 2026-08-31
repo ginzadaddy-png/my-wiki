@@ -7,7 +7,7 @@ source_published: 2026-07-19
 sources: []
 related: ["[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[hit-driven-strategy|홈런 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[sp-kagan-console-shipments-2026|S&P Kagan 콘솔 출하]]", "[[naavik-ai-memory-console-economics-2026-07|Naavik AI 메모리·콘솔 경제]]"]
 created: 2026-07-20
-updated: 2026-07-20
+updated: 2026-08-31
 confidence: high
 ---
 
@@ -29,6 +29,8 @@ Asha Sharma 체제의 대규모 구조조정이 지난 10년의 Game Pass 중심
 | 스토리지 원가 (2년) | **5배** 상승 |
 | 감원 규모 | 총 **~3,200명** (즉시 1,600명) |
 | 관리 계층 | **14 → 3~5단계**로 축소 목표 |
+
+> ⚠️ **출처 귀속 주의 (2026-08-31 재확인).** 이 기사에 있는 목표치는 **1억뿐**이다 (*"a strategy premised on a hundred million"*). 위키 여러 페이지가 쓰는 **7,700만은 이 기사에 없고**, 2023 FTC v. Microsoft 재판 공개 문서에서 나온 *2026년* 목표다(1억+는 *2030년* 목표). 또한 구독자 3,000만·피크 3,400만의 1차 출처는 **WSJ 보도**이고 이 기사는 2차 인용이다. 수치 계보 정리는 [[game-pass|Xbox Game Pass]] 페이지 "규모" 절.
 
 ## 조직 개편
 
