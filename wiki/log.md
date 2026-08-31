@@ -2,6 +2,18 @@
 title: "활동 로그"
 ---
 
+## [2026-08-31] 배포 | 주간 LINT 배포 창구 — push 2건 + 챗봇 재색인·Space 재배포
+
+- push: **80d763a**(lint + 조사주제 5건 전건 실행, 33파일·952 insertions) → **a3a97ba**(Game Pass 출처 귀속 정정, 13파일)
+- 챗봇 재색인·재배포 완료 (`update_and_deploy.py`, exit 0) — Space: https://huggingface.co/spaces/ginzadaddy/ginza-wiki-chat
+- **색인 실측 갱신**: md 393 → **407** · 청크 2,312 → **2,426** · 그래프 395 노드·199 엣지 → **409 노드·207 엣지**
+  - 엣지 +8은 신규 entity relations와 일치 (black-myth-wukong 3 = developedBy 1·platform 2 / mortal-shell-2 5 = developedBy 1·genre 1·platform 3)
+  - 관계별 분포: platform 115 · developedBy 41 · publishedBy 28 · parentOf 14 · genre 9
+- 검증: 신규 10페이지 전부 `meta.json` 슬러그에 존재 확인 (game-pass·black-myth-wukong·game-science·mortal-shell-2·cold-symmetry·genre-tag-taxonomy·price-distribution-middle-vs-barbell·carless-hit-pc-genres-2021-2025·gi-newzoo-console-gta6-2026-08·alinea-mortal-shell-2-launch-2026-08)
+- about.md 챗봇 섹션 색인 수치를 위 실측값으로 갱신 (재색인 실행 세션에서만 갱신하는 항목)
+- deck 신규·수정 없음 → 단독 배포본(`dist/`) 재생성 불필요
+- ⚠️ 재색인 소요가 CLAUDE.md 기준(약 5분)보다 길었다 (약 20분, CPU 3,000초+·2.8GB). 위키가 407문서로 커진 탓. 또한 `update_and_deploy.py`는 **stdout을 버퍼링**해서 진행 중 출력이 보이지 않는다 — 진행 확인은 `index/embeddings.npy` mtime과 python 프로세스 CPU로 할 것
+
 ## [2026-08-31] 조사 | Game Pass 목표치 불일치 재확인 — 두 수치 다 유효, 출처 귀속이 틀렸다
 
 - 트리거: lint 후속 작업 중 발견한 위키 내부 불일치. 목표치가 **1억**(naavik·studio-acquisition-outcomes)과 **7,700만**(console-retail-strategy·가격 가이드·decisions)으로 갈려 있었고 **둘 다 [[naavik-xbox-strategy-reset-2026-07]]를 근거로 달고 있었음**. 사용자 지시로 원문·웹 재확인
