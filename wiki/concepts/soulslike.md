@@ -1,10 +1,10 @@
 ---
 title: "소울라이크"
 type: concept
-sources: ["[[soulslike-game-design-research-2026]]", "[[gmtk-world-design-dark-souls]]", "[[gmtk-world-design-elden-ring]]", "[[dark-souls-world-hides-lore]]"]
-related: ["[[fromsoftware|프롬소프트웨어]]", "[[dark-souls|다크소울]]", "[[elden-ring|엘든링]]", "[[roguelike|로그라이크]]", "[[environmental-storytelling|환경 스토리텔링]]", "[[level-design-principles|레벨 디자인 원칙]]", "[[combat-design|전투 디자인]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[risk-and-reward|리스크 앤 리워드]]"]
+sources: ["[[soulslike-game-design-research-2026]]", "[[gmtk-world-design-dark-souls]]", "[[gmtk-world-design-elden-ring]]", "[[dark-souls-world-hides-lore]]", "[[alinea-mortal-shell-2-launch-2026-08]]"]
+related: ["[[fromsoftware|프롬소프트웨어]]", "[[dark-souls|다크소울]]", "[[elden-ring|엘든링]]", "[[roguelike|로그라이크]]", "[[environmental-storytelling|환경 스토리텔링]]", "[[level-design-principles|레벨 디자인 원칙]]", "[[combat-design|전투 디자인]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[risk-and-reward|리스크 앤 리워드]]", "[[launch-metrics|흥행 예측 지표]]", "[[small-team-development|소규모 팀 개발 전략]]"]
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-08-31
 confidence: high
 ---
 
@@ -55,5 +55,36 @@ confidence: high
 - "소울라이케이션(Soulsification)" — 학술 논문 수준 현상 (Springer Nature, 2024)
 - Hollow Knight, Nioh, Lies of P, Sekiro 등 파생작들이 특정 요소 강화·변형
 - 공통 실패 패턴: 어렵게만 만들고 공정성을 놓침
+
+## 비프롬 소울라이크의 상업적 성립 — Mortal Shell 2 ([[alinea-mortal-shell-2-launch-2026-08]])
+
+[[cold-symmetry|Cold Symmetry]](개발)·Playstack(퍼블리싱)의 [[mortal-shell-2|Mortal Shell 2]]가 2026-08-20 출시 후 첫 주말에 **51만 장·\$23M**을 냈다(Alinea 추정). 소규모 팀의 컬트 히트 속편이 장르 대작 가격대(\$49.99)에서 성립한 사례.
+
+**장르 변주** — 스태미나 미터를 없애고, 패링을 보상 중심으로 설계하고, 플레이스타일을 갈아 끼우는 shell 시스템을 유지했다. 위 [장르 정의 요소](#장르-정의-요소)의 스태미나 항목이 *필수가 아님*을 보여주는 반례.
+
+**오디언스 조달 — 전작 팬덤이 아니라 데모로**
+
+| 플랫폼 | 1편 경험자 비율 | 조달 경로 |
+|---|---|---|
+| 스팀 | **9%** | 데모 (약 600K 플레이) |
+| PS5 | 44% | 구독 노출 (PS Plus Essential·Extra) |
+| Xbox | 59% | 구독 노출 (Game Pass) |
+
+전 플랫폼 합산 **본편 플레이어의 약 1/3이 데모를 먼저 플레이**했다. 스팀 오디언스의 91%가 신규라는 것은, 이 장르에서 **데모가 전작 인지도를 대체할 수 있음**을 뜻한다 — 난이도·조작감이 구매 결정의 핵심인 장르라 "직접 만져 보게 하는 것"이 설명보다 강하다. 데모 지표의 해석 주의점은 [[launch-metrics|흥행 예측 지표]] 참조.
+
+### 난이도 인식의 동서 분열
+
+| 항목 | 수치 |
+|---|---|
+| 메타크리틱 | 83 |
+| 스팀 긍정 (전체) | **76%** |
+| 간체 중국어 리뷰 비중 | 19.7% |
+| 간체 중국어 긍정 | **51%** |
+| 중국어 제외 시 긍정 | **82%** |
+
+중국어권 리뷰의 불만은 **난이도·적 스케일링·적 밀도 누적**에 집중됐다(Alinea 감성 분석).
+
+> 💡 **핵심 인사이트:** 위 [공정한 가혹함](#공정한-가혹함-fair-difficulty)이 *보편 원칙*으로 서술돼 있지만, **"공정하다"는 판정 자체가 지역·문화권에 따라 갈릴 수 있다**는 첫 실측이다. 같은 게임의 같은 난이도가 한쪽에서는 장르 문법으로, 다른 쪽에서는 설계 결함으로 읽혔다. 리뷰 등급이 매출 배수로 직결되는 구조에서 이는 미학 논쟁이 아니라 사업 변수다.
+> ⚠️ 단 이 데이터로 *어느 쪽이 옳은가*는 판정되지 않는다. 중국어 리뷰 19.7%는 실제 오디언스의 일부이고, 그들의 불만이 진짜 튜닝 문제일 가능성은 배제되지 않았다. 원문 저자도 판단을 유보한다.
 
 > 💡 **핵심 인사이트:** 소울라이크의 본질은 어려움이 아니라 **공정성**. 모든 시스템이 "이해 가능한 도전 → 학습 → 극복 → 카타르시스" 단일 사이클을 향해 설계되어 있다.

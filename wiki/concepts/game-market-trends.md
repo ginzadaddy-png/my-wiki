@@ -1,10 +1,10 @@
 ---
 title: "게임 시장 트렌드"
 type: concept
-sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[bain-gaming-report-2026]]", "[[newzoo-pc-console-2026]]", "[[newzoo-ggmr-2026-preview]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[alinea-steam-record-year-2026]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[sony-ir-1q-fy2026]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[circana-us-physical-lowest-2026-07]]"]
+sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[bain-gaming-report-2026]]", "[[newzoo-pc-console-2026]]", "[[newzoo-ggmr-2026-preview]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[alinea-steam-record-year-2026]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[sony-ir-1q-fy2026]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[circana-us-physical-lowest-2026-07]]", "[[gi-newzoo-console-gta6-2026-08]]", "[[carless-hit-pc-genres-2021-2025]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
 created: 2026-04-20
-updated: 2026-08-28
+updated: 2026-08-31
 confidence: high
 ---
 
@@ -17,6 +17,18 @@ confidence: high
 - 지역: APAC \$100.7B(47%)·북미 \$56.9B·유럽 \$38.5B·중남미 \$9.3B·MEA \$8.5B. **중국+미국이 지출의 52%**.
 - 플레이어 **37억 명**(+4.4%) → 2029 40.7억(CAGR 3.2%). 온라인 인구 59.7억 중 게임 침투율 62.0%.
 - ⚠️ 위는 GGMR 2026 **preview 잠정치**(전체판 2026-09-10 발매) — 9/10 이후 원본으로 교체 예정. 성장 성격은 *새 유저가 아니라 기존 오디언스 내 심화 수익화*(D2C·마이크로트랜잭션·중국 퍼블리셔).
+
+### 콘솔 +5.1%의 실제 구성 — 두 요인을 빼면 역성장 ([[gi-newzoo-console-gta6-2026-08]])
+
+위 preview가 콘솔 \$46.9B·+5.1%를 *플랫폼 전망치*로 기록했다면, Newzoo 시장정보 디렉터 Emmanuel Rosier의 게임스컴 인터뷰는 그 **+5.1%가 무엇으로 채워졌는지**를 밝힌다.
+
+- **동인은 GTA 6와 [[nintendo-switch-2|Switch 2]] 둘뿐.** Rosier: *"2026년에 GTA 6가 나오지 않았다면 이 플랫폼은 전년 대비 하락했을 것이다."* 콘솔의 기저 수요는 이미 평평하다
+- GTA 6는 **풀게임 지출을 +17.5%** 끌어올릴 것으로 전망 — Newzoo가 "전 비즈니스 모델 중 최고 성장률"로 지목한 수치. GTA 6 사전주문은 공개 첫 주 \$260M
+- 동시에 **잠식적(cannibalistic)**이라고 명시한다. 수많은 스튜디오가 출시일을 옮긴 이유가 이것 — *지출 총액 증가*와 *개별 타이틀의 기회 증가*는 다른 명제이며, 잠식 규모는 제시되지 않았다
+- 2027 되돌림은 없을 것으로 봄 — **GTA는 카탈로그 타이틀로서 강하고**([[catalog-economics]]), Newzoo 2027 forecast에는 **GTA 6 PC판**이 이미 포함돼 있다. 단 GTA Online의 전환 시점은 Take-Two가 밝히지 않아 미지수
+
+> 💡 **개발사 함의:** 콘솔 전망치를 *플랫폼의 회복*으로 읽으면 위험하다. 위 [콘솔 하드웨어 수축](#콘솔-하드웨어-수축--설치기반-성장-정체-sp-kagan-console-shipments-2026)·[미국 단일 시장 실측](#미국-단일-시장-실측--대수는-줄고-단가는-오른다-2026-07-circana-us-physical-lowest-2026-07)과 합치면 그림이 일관된다 — **설치기반은 줄고, 남은 지출은 한두 개의 거대 타이틀과 신형 하드웨어로 몰린다.** 2026-11 GTA 6 출시 전후 몇 개월은 콘솔 신작에 가장 불리한 창이며, 이는 전망치가 아니라 잠식 진술에서 직접 나오는 실무 함의다.
+> ⚠️ 전망 전체가 **미출시 타이틀 한 편**에 걸려 있다. 연기·성과 미달 시 +5.1%가 통째로 흔들린다.
 
 ## PC vs. 콘솔 수익 구조
 
@@ -51,7 +63,7 @@ AI 메모리 쇼크발 가격 인상으로 콘솔 출하가 꺾인다. S&P Globa
 
 하드웨어 판매 감소와 같은 압박에서 나온 유통 쪽 대응. 소니는 **2028년 디스크 폐지**를 확정했고, 근거는 카피당 남는 돈이다 — \$70 퍼스트파티 기준 디스크 실수령 약 \$45 vs 디지털 사실상 \$70(**+54%**), 서드파티는 약 \$35 vs \$49(약 +40%). 기본가가 \$80으로 오르면 전환 1카피당 절대 격차가 더 벌어진다.
 
-패키지 비중은 타이틀 성격에 따라 48.0%(FF7 리버스)~10.8%(Black Myth: Wukong)로 5배 가까이 갈린다 — 컬렉터형 프레스티지 싱글플레이는 상단, PC 선행작·연간 스포츠물은 하단.
+패키지 비중은 타이틀 성격에 따라 48.0%(FF7 리버스) – 10.8%([[black-myth-wukong\|Black Myth: Wukong]])로 5배 가까이 갈린다 — 컬렉터형 프레스티지 싱글플레이는 상단, PC 선행작·연간 스포츠물은 하단.
 
 단, 플랫폼 전체 기준선은 훨씬 낮다 — PS 물리 비중은 최근 분기 유닛 15%, **매출로는 약 7%**([[ps-physical-digital-share-2026]]). 위 48%는 컬렉터형 프레스티지 타이틀의 라이프타임 누적이다.
 
@@ -94,6 +106,23 @@ AI 메모리 쇼크발 가격 인상으로 콘솔 출하가 꺾인다. S&P Globa
 - AAA 타이틀 수익 **+29%**, 인디도 REPO·Peak가 판매 2·3위
 - 신작 출시 수 +8%, 다운로드 +6%
 - **크리에이터 친화 협동 게임**(소규모 제작)이 AAA를 위협
+
+### 히트 PC 게임의 장르 구성 변동 2021 → 2025 ([[carless-hit-pc-genres-2021-2025]])
+
+GameDiscoverCo가 같은 방법으로 2021과 2025를 두 번 찍어 **순위 변동을 뺀** 시계열. 표본은 각 연도 신작 중 5만 장 이상 판매한 게임(2021년 261개 → 2025년 469개)의 상위 장르 태그다.
+
+| 방향 | 장르 (2025 순위·변동) |
+|---|---|
+| **급등** | Roguelite (#1·**+39**) · Roguelike (#2·**+37**) · Idler (#15·+46) · Life Sim (#6·+31) · Racing (#9·+22) |
+| 유지 | Action RPG (#4·+1) |
+| **급락** | JRPG (**−24**) · Turn-Based Strategy (**−19**) · RTS (**−17**) · Survival Horror (#26·−17) · City Builder (#7·−5) |
+
+- **매출 렌즈(>\$1M)로 바꿔도 로그라이트·로그라이크는 1·2위를 유지한다** — "싼 게임이 5만 장 넘기기 쉬워진 착시"라는 반론이 여기서 기각된다. 상세는 [[roguelike|로그라이크 페이지]]
+- **렌즈에 따라 크게 갈리는 장르가 단가를 드러낸다** — JRPG는 판매량 #28 vs 매출 #10, FPS는 매출에서 −2계단만 하락. 반대로 저가 장르는 판매량 렌즈에서만 상위
+- 호러는 죽지 않고 **플레이버가 이동**했다 (Survival Horror −17 vs Psychological Horror −6)
+- ⚠️ 태그는 마케팅 산물이다. *게임이 로그라이트화된 것*과 *같은 게임에 로그라이트 태그를 더 붙이게 된 것*을 이 데이터는 분리하지 못한다. 순위 변동은 절대 규모도 감춘다 — Idler +46(→#15)과 Roguelite +39(→#1)는 크기가 전혀 다른 사건이다
+
+> 💡 **개발사 함의:** 위 [저가 프리미엄의 부상](#저가-프리미엄의-부상)이 *가격대* 이동이었다면 이 데이터는 그 가격대에서 **무엇이 팔리는지**를 채운다 — **런 기반 무작위성**(로그라이트·로그라이크·아이들러)이 저가·고반복 밴드를 차지했다. 짧은 개발 사이클과 궁합이 맞는 장르군이라, [[indie-business-strategy|빠른 출시 사이클]] 논의와 같은 방향을 가리킨다.
 
 ## 모바일 시장 2025 현황 (Sensor Tower)
 

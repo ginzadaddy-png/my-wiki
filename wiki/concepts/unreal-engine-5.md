@@ -97,7 +97,7 @@ UE5 Blueprint는 [[designer-empowerment]]의 *기술적 인프라*:
 | [[clair-obscur-expedition-33|Expedition 33]] | 30~40명 | Blueprint 95% + 무수정 |
 | [[hogwarts-legacy]] | 400+명 | UE4→UE5 마이그레이션 + Nanite 적극 |
 | [[arc-raiders]] | ~100명 | UE5 + 자체 네트워크 레이어 |
-| Black Myth: Wukong | ~140명 | UE5 + 중국 시장 특화 |
+| [[black-myth-wukong\|Black Myth: Wukong]] | 약 140명 | UE5 + 중국 시장 특화 |
 | Witcher 4 (개발 중) | CDPR 1,000+명 | REDengine 포기, UE5 채택 결정 — 산업 시그널 |
 
 ## UE6 로드맵 — Blueprint 폐기 예고 ([[unreal-engine-6-roadmap-2026-06]])

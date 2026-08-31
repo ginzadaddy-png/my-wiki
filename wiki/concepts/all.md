@@ -2,7 +2,7 @@
 title: "전체 개념 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-08-28
+updated: 2026-08-31
 ---
 
 ← [홈으로](../index.md)
@@ -53,6 +53,7 @@ updated: 2026-08-28
 | [[steam-revenue-forecasting]] | **Steam 매출 예측 모델** — 8 driver sensitivity, sub-genre conversion 매트릭스, ZR Forecaster |
 | [[publisher-deal-structures]] | **퍼블리셔 딜 구조** — Rev share·Recoup-first·MG·Marketing fee 5종 비교·stress test |
 | [[mobile-gamedev]] | **모바일 게임 개발** — 4대 현장 벽, 상업 성립 4요소, 원신 쇼크의 역설 |
+| [[genre-tag-taxonomy]] | **장르 태그 분류 체계** — 태그는 장르 사실이 아닌 마케팅 산물·관행 변화와 장르 이동의 미분리·렌즈 격차가 드러내는 단가 |
 | [[audience-discovery-systems]] | **오디언스 발견 시스템** — Intent vs Algorithm, Seek→Feed, 표면 alignment 함정 |
 | [[subscription-economy-gaming]] | **구독 경제와 게이밍** — 소유→액세스 전환, discovery engine, Residency Premium |
 | [[creator-economy-trust]] | **크리에이터 경제와 신뢰** — Earned·Validated·Built in real time 3-tier 모델 |

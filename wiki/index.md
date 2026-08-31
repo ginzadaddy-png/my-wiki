@@ -1,15 +1,15 @@
 # Game Dev Wiki
 
-Last updated 2026-08-28
+Last updated 2026-08-31
 
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">189</span></a></div>
-  <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">49</span></a></div>
-  <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">42</span></a></div>
-  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">76</span></a></div>
-  <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">21</span></a></div>
+  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">192</span></a></div>
+  <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">51</span></a></div>
+  <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">44</span></a></div>
+  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">77</span></a></div>
+  <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">22</span></a></div>
   <div class="stat-card"><a href="reports/all.md" class="internal"><span class="stat-label">보고서</span><span class="stat-num">6</span></a></div>
   <div class="stat-card"><a href="decisions/all.md" class="internal"><span class="stat-label">결정·가설</span><span class="stat-num">1</span></a></div>
 </div>
@@ -65,6 +65,7 @@ Last updated 2026-08-28
 - [[steam-revenue-forecasting|Steam 매출 예측 모델 — 8 driver sensitivity, sub-genre conversion 매트릭스, ZR Forecaster]]
 - [[publisher-deal-structures|퍼블리셔 딜 구조 — Rev share·Recoup-first·MG·Marketing fee 5종 비교·stress test]]
 - [[mobile-gamedev|모바일 게임 개발 — 4대 현장 벽, 상업 성립 4요소, 원신 쇼크의 역설]]
+- [[genre-tag-taxonomy|장르 태그 분류 체계 — 태그는 마케팅 산물·관행 변화와 장르 이동의 미분리·렌즈 격차가 드러내는 단가]]
 - [[audience-discovery-systems|오디언스 발견 시스템 — Intent vs Algorithm, Seek→Feed, 표면 alignment 함정]]
 - [[subscription-economy-gaming|구독 경제와 게이밍 — 소유→액세스 전환, discovery engine, Residency Premium]]
 - [[creator-economy-trust|크리에이터 경제와 신뢰 — Earned·Validated·Built in real time 3-tier 모델]]
@@ -142,6 +143,7 @@ Last updated 2026-08-28
 - [[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적 — MS·소니·EA·크래프톤·펄어비스 인수 16건의 결과 5분류와 갈린 5개 지점]]
 - [[physical-retail-retention|물리 유통 잔존율 3층 — 플랫폼 매출 7% vs 타이틀 48%·닌텐도 63% vs PS 32%·공급 차단 vs 유인 부착]]
 - [[project-cycle-length|프로젝트 사이클 길이 — 초고속 출시(4–12개월) vs 장기 AAA(3–6년)의 손익 기준선·실패 비용·파이프라인 리스크]]
+- [[price-distribution-middle-vs-barbell|가격 분포 — 미싱 미들 vs 양끝 확산 — 밴드 매출 성장과 히트작 중앙값이 동시에 참인 이유]]
 
 </div>
 

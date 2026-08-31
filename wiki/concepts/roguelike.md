@@ -1,10 +1,10 @@
 ---
 title: "로그라이크"
 type: concept
-sources: ["[[kasavin-hades-ea]]", "[[gdc25-balatro-marketing]]", "[[carless-genres-ruled-steam-2025-06]]", "[[gdc19-slay-the-spire-metrics]]", "[[gdc22-returnal-procedural-world]]"]
+sources: ["[[kasavin-hades-ea]]", "[[gdc25-balatro-marketing]]", "[[carless-genres-ruled-steam-2025-06]]", "[[gdc19-slay-the-spire-metrics]]", "[[gdc22-returnal-procedural-world]]", "[[carless-hit-pc-genres-2021-2025]]"]
 related: ["[[balatro|발라트로]]", "[[supergiant-games|슈퍼자이언트]]", "[[soulslike|소울라이크]]", "[[pcg-pure-vs-hybrid|완전 절차생성 vs 하이브리드]]", "[[game-balance|게임 밸런싱]]", "[[data-driven-development|데이터 기반 개발]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[mda-framework|MDA 프레임워크]]"]
 created: 2026-06-16
-updated: 2026-07-06
+updated: 2026-08-31
 confidence: high
 ---
 
@@ -54,5 +54,21 @@ confidence: high
 ## 시장 분포 — 신규 진입 친화 장르
 
 [[carless-genres-ruled-steam-2025-06|Carless 장르 taxonomy]] 기준, **Action Roguelike는 \$1M+ 달성작 104개**이며 그중 *70개 이상이 2020년 이후 출시*다. 평균 매출은 낮지만 분포가 **healthy**(메가히트 독점 없음)해, Arena Shooter·Battle Royale 같은 winner-take-all 장르와 달리 *인디·중소의 신규 진입 가능성이 큰* 장르로 분류된다.
+
+### 5년 만에 히트 장르 1·2위로 ([[carless-hit-pc-genres-2021-2025]])
+
+같은 저자가 2021과 2025를 같은 방법으로 두 번 집계한 시계열에서, 로그라이트·로그라이크는 **스팀 히트작 순위의 최상단을 차지했다.**
+
+| 렌즈 | Roguelite | Roguelike |
+|---|---|---|
+| 판매량 (연 5만 장 이상, 469개) | **#1 (+39계단)** | **#2 (+37계단)** |
+| 매출 (연 \$1M 초과, 311개) | **#1 (+37계단)** | **#2 (+28계단)** |
+
+- **두 렌즈에서 모두 1·2위**라는 점이 중요하다. *"싼 게임이 5만 장 넘기기 쉬워져서 생긴 착시"*라는 반론은 매출 렌즈에서 기각된다 — 단가가 낮아도 총매출 기준으로도 최상단이다
+- 같은 기간 JRPG −24 · Turn-Based Strategy −19 · RTS −17계단. Carless는 하락 원인으로 **하이브리드·로그라이트화**를 지목하지만, 근거 데이터 없는 추정("we suspect")이라고 스스로 밝힌다
+- 태그 자체는 2017년경부터 존재했고 **덜 쓰였을 뿐**이다(SteamDB 태그 추가 기록). 즉 순위 급등에는 *실제 장르 이동*과 *태그 사용 관행 변화*가 섞여 있고, 이 데이터는 둘을 분리하지 못한다 → [[genre-tag-taxonomy|장르 태그 분류 체계]]
+- Hack and Slash가 매출 렌즈에서 판매량 렌즈 대비 크게 상승(#12 → #5)한다. Carless 추정으로는 고가 ARPG·[[soulslike|소울라이크]]·일부 로그라이크에 이 태그가 함께 붙기 때문
+
+> 💡 위 "신규 진입 친화" 판단과 이 순위 데이터는 **같은 방향이지만 다른 함의**를 갖는다. 분포가 healthy했던 것은 *경쟁이 덜한 자리*였다는 뜻이고, 1·2위로 올라선 지금은 *가장 붐비는 자리*이기도 하다. 진입 장벽이 낮은 것과 눈에 띄기 쉬운 것은 별개다.
 
 > 💡 **핵심 인사이트:** 로그라이크의 본질은 난이도가 아니라 **재생성(re-generation)**. 절차적 생성·빌드 시너지·메타 진행성이 결합해 "매번 다른 한 판"을 값싸게 양산하고, 이것이 인디가 적은 예산으로 긴 플레이타임과 healthy한 시장 분포를 동시에 얻는 이유다.

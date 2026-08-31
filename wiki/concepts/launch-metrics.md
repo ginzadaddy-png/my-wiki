@@ -1,10 +1,10 @@
 ---
 title: "흥행 예측 지표"
 type: concept
-sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]", "[[zukowski-golden-age-week-2026-08]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]"]
+sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]", "[[zukowski-golden-age-week-2026-08]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[alinea-mortal-shell-2-launch-2026-08]]", "[[zukowski-demos-wishlist-conversion]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[forecasting-vs-launch-metrics|예측 vs 측정 비교]]"]
 created: 2026-04-20
-updated: 2026-08-24
+updated: 2026-08-31
 confidence: high
 ---
 
@@ -280,13 +280,43 @@ Zukowski 해석: *visibility는 충분히 줬는데 게임이 흥분을 못 만�
 
 > ⚠️ 이 연작의 표본은 **7월 베스트셀러에 오른 3개**로, 생존자 편향이 설계에 내장돼 있다. 같은 방식으로 실패한 게임의 분모는 제시되지 않는다 — 바로 위 Bad Launch Recovery의 0.16%가 그 분모의 크기를 짐작하게 한다. "초기 지표를 보고 접지 말라"까지는 방어 가능하고, "초고속 출시가 유리하다"로 읽으면 과대해석.
 
+### 데모 지표는 방향을 확인하고 쓸 것 — 두 분모 ([[alinea-mortal-shell-2-launch-2026-08]])
+
+데모를 두고 상반돼 보이는 두 수치가 위키에 함께 있다. **둘은 분자와 분모가 서로 뒤집혀 있어 직접 비교되지 않는다.**
+
+| 소스 | 재는 것 | 수치 |
+|---|---|---|
+| [[zukowski-demos-wishlist-conversion]] | 데모 플레이어 → **위시리스트** 전환 | 중앙값 **19.3%** |
+| [[alinea-mortal-shell-2-launch-2026-08]] | 본편 **구매자** → 데모 경유 비율 | 약 **33%** |
+
+- 데모를 해 본 사람 다섯 중 넷은 위시리스트조차 누르지 않지만, **실제로 산 사람 셋 중 하나는 데모를 거쳐 왔다**
+- 두 데이터가 함께 가리키는 결론은 위 💡와 같은 방향이다 — 데모의 값은 *유입 깔때기의 폭*이 아니라 **구매 직전 확인 단계**와 **알고리즘 접근권**에 있다
+- Mortal Shell 2에서는 스팀 **구매자의 약 14%가 출시 당월에 데모를 플레이**했다. 사기 직전에 확인하고 들어온 층이 별도로 잡힌다
+- ⚠️ **반사실이 없다.** "구매자의 33%가 데모 경유"는 *데모가 얼마나 기여했는지*가 아니다 — 데모를 하는 사람이 원래 살 사람이었을 가능성(자기선택 편향)이 통제되지 않았다. 그리고 \$49.99 장르 대작과 인디 소품의 데모 역학이 같다고 볼 근거는 두 소스 어디에도 없다
+
+### 리뷰 등급 — 단일 언어권이 티어를 끌어내린다 ([[alinea-mortal-shell-2-launch-2026-08]])
+
+위 "Mixed 절벽" 절이 *등급이 매출 배수를 만든다*는 구조였다면, 이 사례는 **그 등급이 무엇으로 구성되는지**를 쪼갠다.
+
+| 항목 | 수치 |
+|---|---|
+| 스팀 긍정 (전체) | **76%** |
+| 간체 중국어 리뷰 비중 | **19.7%** |
+| 간체 중국어 긍정 | **51%** |
+| 중국어(번체+간체) 제외 시 | **82%** |
+
+- 불만은 **난이도·적 스케일링·적 밀도 누적**에 집중 (Alinea 감성 분석). 설계 취향의 지역 차가 그대로 등급으로 들어온다
+- 같은 메커니즘의 선행 관측 — [[alinea-phantom-blade-zero-preorder-2026-08|만리방화벽 때문에 포럼·디스코드를 못 쓰는 중국 플레이어가 불만을 스팀 리뷰로 낸다]]. 그쪽이 *최적화 불량*이었다면 이쪽은 *난이도*다
+- **실무 함의**: 중국어권 비중이 높을 것으로 예상되는 타이틀은 등급 경계선(70%·80%) 근처에서 **6%p 규모의 하방 여유를 미리 계산**해 둘 것. 지역별 난이도 옵션·튜토리얼 보강이 등급 방어 수단이 된다
+- ⚠️ *어느 쪽이 옳은가*는 이 데이터로 판정되지 않는다. 중국어 리뷰 19.7%는 실제 오디언스의 일부이고, 특정 언어권을 빼면 점수가 오른다는 사실이 그 평가를 무효화하지 않는다
+
 ## 출시일 정렬 궤도 비교 — AAA·AA의 출시 전 판정 ([[alinea-phantom-blade-zero-preorder-2026-08]])
 
 인디의 판별 시점이 데모라면, **사전주문이 열리는 AAA·AA는 다른 도구를 쓴다.** Alinea의 *launch-aligned Steam copies sold*는 출시일을 기준점으로 맞춰 놓고 D-N일 시점의 누적 판매를 선행작과 겹친다.
 
 | 게임 | D-70 스팀 누적 판매 | 기준 대비 |
 |---|---|---|
-| Black Myth: Wukong | 약 393,000 | 최종 스팀 1,700만장 (절반 이상 중국) |
+| [[black-myth-wukong\|Black Myth: Wukong]] | 약 393,000 | 최종 스팀 1,700만장 (절반 이상 중국) |
 | Phantom Blade Zero | 약 286,000 | Wukong의 **73%** |
 | Wuchang: Fallen Feathers | 약 45,000 | PBZ의 1/6.4 |
 

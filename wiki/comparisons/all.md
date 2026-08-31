@@ -2,7 +2,7 @@
 title: "전체 비교 분석 목록"
 type: comparison
 created: 2026-04-22
-updated: 2026-08-24
+updated: 2026-08-31
 ---
 
 ← [홈으로](../index.md)
@@ -30,3 +30,4 @@ updated: 2026-08-24
 | [[studio-acquisition-outcomes]] | **스튜디오 인수·통합의 사후 성적** — MS·소니·EA·크래프톤·펄어비스 인수 16건의 결과 5분류와 갈린 5개 지점 |
 | [[physical-retail-retention]] | **물리 유통 잔존율 3층** — 플랫폼 매출 7% vs 타이틀 48%·닌텐도 63% vs PS 32%·공급 차단 vs 유인 부착 |
 | [[project-cycle-length]] | **프로젝트 사이클 길이** — 초고속 출시(4–12개월)와 장기 AAA(3–6년)의 손익 기준선·실패 비용·파이프라인 리스크 |
+| [[price-distribution-middle-vs-barbell]] | **가격 분포 — 미싱 미들 vs 양끝 확산** — 밴드 매출 성장과 히트작 중앙값이 왜 동시에 참인가·개수와 매출 렌즈 분리 |

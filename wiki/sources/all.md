@@ -2,10 +2,13 @@
 title: "소스 전체 목록"
 ---
 
-총 189개 | 최신순 정렬
+총 192개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [gi-newzoo-console-gta6-2026-08](gi-newzoo-console-gta6-2026-08.md) | Newzoo Rosier — GTA 6가 없으면 2026 콘솔은 역성장 (GamesIndustry.biz 인터뷰) — 콘솔 \$46.9B·+5.1%의 동인은 GTA 6와 Switch 2 둘뿐·GTA 6 풀게임 지출 +17.5%·잠식 인정(규모 미제시)·2027 forecast에 PC판 포함·가격 탄력성 낮음·상단 인상이 시장 리프트 | 2026-08-27 |
+| [carless-hit-pc-genres-2021-2025](carless-hit-pc-genres-2021-2025.md) | GameDiscoverCo — 히트 PC 게임 장르 변동 2021 → 2025 (Carless) — 로그라이트 +39·로그라이크 +37로 판매량·매출 양쪽 1·2위·JRPG −24·RTS −17·턴제 −19·라이프심 +31·아이들러 +46·히트작 중앙값 \$19.99 → \$16.99 | 2026-08-26 |
+| [alinea-mortal-shell-2-launch-2026-08](alinea-mortal-shell-2-launch-2026-08.md) | Alinea — Mortal Shell 2 첫 주말 51만 장·\$23M, 데모가 밀어올렸다 (Elliott) — 데모 100만 플레이·구매자 1/3이 데모 경유·스팀 오디언스 91%가 신규·중국어 리뷰 51%가 종합 76%로 끌어내림·부록 How to Fish 190만·MW4 40만·헬다이버즈 2 22.9M | 2026-08-25 |
 | [newzoo-ggmr-2026-preview](newzoo-ggmr-2026-preview.md) | Newzoo — Global Games Market Report 2026 (preview·잠정치, GameDevReports 경유) — 전체 \$213.9B(+6.1%)·2025 실적 \$201.6B 상향·모바일 \$121.1B(57%) 재부상·콘솔 \$46.9B(GTA VI 의존)·PC \$45.9B(2025 +12% 사상최고)·플레이어 37억·중국+미국 지출 52%·전체판 9/10 발매 | 2026-08-25 |
 | [dereklieu-friendslop-trailer-comparison-2026-08](dereklieu-friendslop-trailer-comparison-2026-08.md) | Derek Lieu — 같은 소재 friendslop 트레일러 두 편 해부 (Dear Passengers vs Banana Airways) — 조회 200만+ vs 5,000 미만·지저분한 캡처가 자산이 되는 장르 문법·3원칙(접근성·포착된 유머·장난감성)·저자가 인과를 직접 부인 | 2026-08-23 |
 | [alinea-steam-dlc-attach-rates-2026-05](alinea-steam-dlc-attach-rates-2026-05.md) | Alinea — 2026 로그라이크 DLC 부속 판매율 8–21% (Elliott) — 10만 장 넘긴 DLC 4개 전부 로그라이크·전부 \$10 미만·최고 21%가 상한 \$9.99에서·경쟁작 6주 앞 출시·프리미엄에 F2P 문법 얹으면 반발 | 2026-05-14 |

@@ -21,7 +21,7 @@ confidence: medium
 | **플랫폼 (유닛, 후속 분기)** | PS 플랫폼, 2026 4–6월 | **18%** (디지털 82%) | [[sony-ir-1q-fy2026]] |
 | **퍼블리셔** | 캡콤 FY26/3 유닛 | **7.0%** (FY27/3 계획 4.6%) | [[capcom-fy26-ir]] |
 | **타이틀 (상단)** | FF7 리버스 누적 | **48.0%** | [[alinea-ps-physical-fc27-odyssey-2026-07]] |
-| **타이틀 (하단)** | Black Myth: Wukong 누적 | **10.8%** | [[alinea-ps-physical-fc27-odyssey-2026-07]] |
+| **타이틀 (하단)** | [[black-myth-wukong\|Black Myth: Wukong]] 누적 | **10.8%** | [[alinea-ps-physical-fc27-odyssey-2026-07]] |
 
 **같은 시장을 재는데 7%와 48%가 함께 나온다.** 벌어지는 이유는 두 가지다.
 

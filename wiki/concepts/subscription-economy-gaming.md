@@ -131,6 +131,8 @@ Millennials가 destination-based play → ecosystem-based participation 전환�
 
 ## 반례 — Game Pass의 정체 (2026-07)
 
+> 서비스 자체의 수치·잠식 실측·전략 전환은 [[game-pass|Xbox Game Pass]] 엔티티 페이지에 모아 두었다. 여기서는 구독 경제 논지에 걸리는 부분만 다룬다.
+
 구독 = discovery engine 가설의 대표 실험이었던 Game Pass가 **~3,000만 명에서 정체**(과거 피크 3,400만, 원래 목표 1억)됐고, Xbox는 마진 3%까지 하락해 Asha Sharma 체제가 10년 전략을 재편했다. ([[naavik-xbox-strategy-reset-2026-07]])
 
 - **익스클루시브 복귀**: "모든 게임을 어디서나(day-one on Game Pass)" 전략을 포기하고 독점작을 핵심으로 재부상시킴

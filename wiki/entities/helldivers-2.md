@@ -1,10 +1,10 @@
 ---
 title: "헬다이버스 2 (Helldivers 2)"
 type: entity
-sources: ["[[missing-middle-paradigm-shift-2026]]", "[[gdc-helldivers2-team-scaling]]", "[[pilestedt-helldivers2-preproduction-lesson]]"]
-related: ["[[arrowhead-game-studios|애로우헤드]]", "[[live-service-design|라이브 서비스 설계]]", "[[community-management|커뮤니티 운영]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[small-team-development|소규모 팀 개발]]"]
+sources: ["[[missing-middle-paradigm-shift-2026]]", "[[gdc-helldivers2-team-scaling]]", "[[pilestedt-helldivers2-preproduction-lesson]]", "[[alinea-mortal-shell-2-launch-2026-08]]"]
+related: ["[[arrowhead-game-studios|애로우헤드]]", "[[live-service-design|라이브 서비스 설계]]", "[[community-management|커뮤니티 운영]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[small-team-development|소규모 팀 개발]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[catalog-economics|카탈로그 이코노믹스]]"]
 created: 2026-04-23
-updated: 2026-07-06
+updated: 2026-08-31
 confidence: high
 relations:
   developedBy: [arrowhead-game-studios]
@@ -23,6 +23,20 @@ relations:
 | 판매량 | 2,000만장+ |
 | 수익 | \$7억+ |
 | Steam 비중 | 1,310만장 (65%+) |
+
+### 2026-08 갱신 ([[alinea-mortal-shell-2-launch-2026-08]])
+
+| 항목 | 수치 |
+|---|---|
+| **등록 플레이어** | **22.9M** (소니 공식, 2026-08-09 기준) |
+| 플랫폼 비중 | 스팀 65.0% · PS5 27.3% · Xbox 7.7% |
+| **라이프타임 총매출** | **\$800M** 근접 |
+| PS Plus Extra 추가 효과 | 2주 안 신규 약 800K명 |
+| 2026-08 MAU | 5.5M (전년 9월 5.9M 대비) |
+
+- 위 표의 "\$7억+"에서 **\$8억 근접으로 갱신**. Xbox판 출시(2025-08) 이후 최고 인게이지먼트 달성 구간
+- **PS Plus Extra 편입이 2주 만에 80만 명을 끌어왔다** — 출시 2년 반이 지난 타이틀의 구독 재유입 사례. [[subscription-economy-gaming|구독 경제]]·[[catalog-economics|카탈로그 이코노믹스]] 참조
+- ⚠️ 소니 공식 발표는 등록자 22.9M 한 건뿐이고, 플랫폼 비중·매출·MAU는 **Alinea 추정치**다 (당일 추정 22.3M으로 오차 2.6%를 자체 근거로 제시)
 
 ## 개발 규모·기간 ([[gdc-helldivers2-team-scaling]] · [[pilestedt-helldivers2-preproduction-lesson]])
 

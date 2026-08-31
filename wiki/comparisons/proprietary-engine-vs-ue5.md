@@ -57,7 +57,7 @@ UE5 등장의 핵심 결과: **분기점이 위로 이동**. ~50명에서 *자�
 | [[sandfall-interactive\|샌드폴]] / [[clair-obscur-expedition-33\|Expedition 33]] | 30~40명 | *Blueprint 95% + 무수정* — \$1,000만 미만 예산, \$50 가격, TGA 9관왕 |
 | [[avalanche-software\|아발란체]] / [[hogwarts-legacy\|호그와트 레거시]] | 400+명 | *UE4→UE5 마이그레이션* — Nanite로 호그와트 성 단일 LOD |
 | [[embark-studios\|엠바크]] / [[arc-raiders\|아크 레이더스]] | ~100명 | *UE5 + 자체 네트워크 레이어* — 익스트랙션 슈터 인프라 |
-| Game Science / Black Myth: Wukong | ~140명 | *UE5 + 중국 시장 특화 * |
+| [[game-science\|Game Science]] · [[black-myth-wukong\|Black Myth: Wukong]] | 약 140명 | *UE5 + 중국 시장 특화 * |
 | [[cd-projekt-red\|CDPR]] / Witcher 4 (개발 중) | 1,000+명 | *REDengine 포기, UE5 채택 결정* — 산업 시그널 |
 
 ## 세 가지 *예외 변수* — 규모 단독으로 결정되지 않는 케이스

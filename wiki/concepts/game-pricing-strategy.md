@@ -15,11 +15,14 @@ sources: [
   "[[alinea-remakes-remasters-ranking-2026-07]]",
   "[[alinea-halo-campaign-evolved-2026-08]]",
   "[[remedy-control-resonant-pricing-2026-08]]",
-  "[[newzoo-pc-console-2026]]"
+  "[[newzoo-pc-console-2026]]",
+  "[[carless-hit-pc-genres-2021-2025]]",
+  "[[gi-newzoo-console-gta6-2026-08]]",
+  "[[alinea-mortal-shell-2-launch-2026-08]]"
 ]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
 created: 2026-04-28
-updated: 2026-08-28
+updated: 2026-08-31
 confidence: high
 ---
 
@@ -50,6 +53,25 @@ confidence: high
 > 💡 게이머의 22%가 핵심 게임플레이를, 7%만이 고품질 그래픽을 최우선으로 꼽는다 (Bain & Company 2025). \$40~50 가격대가 "AAA급 비주얼은 없어도 AAA급 재미"를 기대하는 새로운 시장의 스위트 스팟.
 
 **2026 갱신** ([[newzoo-pc-console-2026]], 서구 6개국 실측): \$30–50 밴드 매출 성장 2022→2025 **PC ▲60% · PlayStation ▲99% · Xbox ▲45%**로 전 가격대 중 최고. sub-\$30은 PC 인디로 구조화(2025 PC 매출 9%), \$50+는 콘솔 주도지만 Xbox 정체(▲0%)·standalone만 보면 PC ▲32%. 밴드 성격·메커니즘 상세는 [[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]. 단 이 수치는 *서구권 프리미엄 시장 한정* — 아시아 F2P·MMO엔 직접 적용 주의.
+
+### 히트작 가격은 내려가는가 올라가는가 — 상반된 두 증거
+
+같은 시기에 방향이 반대인 두 관측이 있다. **하나는 실측, 하나는 일화**라는 점이 판단의 출발점이다.
+
+| 방향 | 근거 | 성격 |
+|---|---|---|
+| **하락** | 스팀 히트작 **현재가 중앙값 \$19.99 → \$16.99 (−15%)** — 2021년 261개 vs 2025년 469개 ([[carless-hit-pc-genres-2021-2025]]) | 표본·기간 명시된 **집계 실측** |
+| **상승** | *"인디 게임이 \$20이 아니라 \$30이 됐다. 상단 가격이 오르면 시장 전체가 조금씩 들려 올라간다"* — Newzoo Rosier ([[gi-newzoo-console-gta6-2026-08]]) | 표본 없는 **정성 관찰** |
+
+판매량 Top 10 구성으로 본 보조 증거는 **하락 쪽에 선다**:
+
+| | 2021 Top 10 | 2025 Top 10 |
+|---|---|---|
+| \$10 미만 | 0개 | **3개** (R.E.P.O.·[[peak]]·RV There Yet?) |
+| \$60 이상 | **5개** | **2개** (Battlefield 6·Monster Hunter Wilds) |
+
+> 💡 **두 관측은 서로 다른 층을 보고 있어서 양립할 수 있다.** Rosier가 말하는 것은 *AAA 상단의 앵커 이동*(GTA 6가 가격 천장을 올리면 그 아래가 따라 오른다)이고, Carless가 잰 것은 *히트작 전체의 중앙값*이다. **상단이 올라가면서 동시에 분포의 무게중심이 아래로 내려가면 둘 다 사실**이 된다 — 위 표의 "Top 10에 \$60+가 5개 → 2개, \$10 미만이 0개 → 3개"가 정확히 그 모양이다. 즉 **가격대가 양끝으로 벌어지고 있고**, 이는 [[missing-middle-paradigm-shift-2026|미싱 미들]] 논지와 긴장 관계에 있다. 세 관측(Newzoo 밴드 매출·Carless 히트작 중앙값·Rosier 상단 리프트)과 미싱 미들을 축별로 분리해 정리한 것은 [[price-distribution-middle-vs-barbell|가격 분포 — 미싱 미들 vs 양끝 확산]].
+> ⚠️ 실무 판단은 실측 쪽에 무게를 둘 것. Rosier의 진술에는 표본·기간·집계 방식이 없고, 그는 데이터를 파는 쪽 임원이다. "상단이 오르니 내 인디도 올려도 된다"로 읽으면 근거가 부족하다.
 
 ### 미드 프라이스 내부 분기 — 온라인 중심 \$39.99 vs 스토리 완결형 \$49.99
 

@@ -2,7 +2,7 @@
 title: "전체 개체 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-08-03
+updated: 2026-08-31
 ---
 
 ← [홈으로](../index.md)
@@ -67,6 +67,8 @@ updated: 2026-08-03
 | [[konami]] | 일본 대형 퍼블리셔 — 동면 IP를 해외 스튜디오 주도로 부활, 코어 15명 프로듀싱 팀, 매출 90%+ 해외, "様子見をしない" |
 | [[cygames]] | 일본 도쿄, 2011, 사이버에이전트 계열 — 모바일 IP의 콘솔·PC 액션 확장, [[granblue-fantasy-relink]], "80점보다 30점을 최속으로" |
 | [[tvt]] | 일본 소규모 개발사 — [[ratatan]] 첫 풀 콘솔 게임, 15~20명 4기종 10언어, 자사 Theory Engine |
+| [[game-science]] | 중국 개발사 — [[black-myth-wukong]], 약 140명·UE5. 1차 자료 미ingest(confidence low) |
+| [[cold-symmetry]] | 글로벌 원격 팀 — Mortal Shell 2세대, 러시아 공동창업자, 퍼블리싱 Playstack |
 
 ## 미디어·플랫폼
 
@@ -75,6 +77,7 @@ updated: 2026-08-03
 | [[ign-entertainment]] | 미국 1996 설립, 글로벌 게이밍·엔터테인먼트 미디어, 470M MAU, Maxroll·Planet Pokemon 운영, IMAGINE AI 플랫폼 |
 | [[valve]] | 미국 워싱턴 벨뷰, 1996 설립, Steam(2003~) 운영자, 30/25/20% 수수료 구조, ML 알고리즘 + Steam Next Fest 분기별 운영 |
 | [[xsolla]] | 글로벌 게임 결제·커머스 B2B 인프라, merchant of record, 130개국+ APM, 웹샵·D2C 솔루션 |
+| [[game-pass]] | [[microsoft]] 구독 서비스 — 약 3,000만 정체, 구작 잠식 vs 신작 발견의 층위 분리, 2026 데이원 전략 철회 |
 
 ## 게임 플랫폼
 
@@ -136,3 +139,5 @@ graph 추론(플랫폼별 게임·독점작 질의)을 위한 플랫폼 노드.
 | [[silent-hill-f]] | [[konami]]·NeoBards(대만), 사이코로지컬 호러 — 일본 무대(기후현), 竜騎士07 시나리오, 「推し」 팬덤 설계 |
 | [[granblue-fantasy-relink]] | [[cygames]], 4인 협동 액션 RPG — 28캐릭×3스타일, 동료 AI 2계층 + 어시스트 모드 아키텍처 공유 |
 | [[ratatan]] | [[tvt]], 리듬 액션·로그라이트, 2026-10-15 — 콘솔 심사로 연기, 10언어 1,200만 자 |
+| [[black-myth-wukong]] | [[game-science]], 2024-08, UE5 — 스팀 약 1,700만 장, 물리 비중 10.8% 최하단, 이상치라 상한선으로 쓸 수 없음 |
+| [[mortal-shell-2]] | [[cold-symmetry]], 2026-08, 소울라이크 \$49.99 — 첫 주말 51만 장, 스팀 오디언스 91%가 신규(데모 경유 1/3) |

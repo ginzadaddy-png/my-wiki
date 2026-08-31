@@ -2,9 +2,9 @@
 title: "GameDiscoverCo — Which Genres Have 'Ruled' Steam (Single-tag Taxonomy, Carless 2025-06)"
 type: source-summary
 sources: []
-related: ["[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[game-market-trends|게임 시장 트렌드]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[carless-wishlist-conversions-2025-10]]", "[[zukowski-2025-year-review]]", "[[zrconsulting-steam-forecaster-2026]]"]
+related: ["[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[game-market-trends|게임 시장 트렌드]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[carless-wishlist-conversions-2025-10]]", "[[zukowski-2025-year-review]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-hit-pc-genres-2021-2025|같은 저자의 2021→2025 시계열]]"]
 created: 2026-05-18
-updated: 2026-05-18
+updated: 2026-08-31
 confidence: high
 source_url: "https://newsletter.gamediscover.co/p/which-genres-have-ruled-steam-a-new"
 source_author: "Simon Carless (GameDiscoverCo)"
@@ -134,3 +134,11 @@ JRPG 6.20%, Visual Novel 3.18% (낮은 비중 — Zukowski 2025 retro에서도 �
 - [[zukowski-2025-year-review]] — Zukowski 2025 retrospective, 다른 척도(1000-review)로 본 같은 시장
 - [[zukowski-bad-launch-recovery-2024]] — 회복 메커니즘 (28/18,239)
 - [[zrconsulting-steam-forecaster-2026]] — 본 데이터의 ZR 인용 (104·44·121 정확 일치)
+
+## 후속 — 같은 데이터의 시계열 판 ([[carless-hit-pc-genres-2021-2025]])
+
+이 페이지가 *한 시점의 매출 점유·TAM 스냅샷*이라면, 2026-08의 후속 분석은 **2021과 2025를 같은 방법으로 두 번 찍어 순위 변동을 뺀** 시계열이다. 축이 다르므로 대체가 아니라 보완.
+
+- 판매량·매출 **양쪽 렌즈에서 Roguelite #1 · Roguelike #2** (각각 +39·+37계단, 매출 기준 +37·+28계단)
+- JRPG −24 · Turn-Based Strategy −19 · RTS −17계단
+- 히트작 현재가 **중앙값 \$19.99 → \$16.99 (−15%)**

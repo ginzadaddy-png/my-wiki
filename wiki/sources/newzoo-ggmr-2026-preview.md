@@ -5,9 +5,9 @@ source_url: "https://gamedevreports.substack.com/p/newzoo-the-gaming-market-in-2
 source_author: "Dmitriy Byshonkov (GameDevReports, Newzoo 2026 preview 요약)"
 source_published: 2026-08-25
 sources: []
-related: ["[[game-market-trends|게임 시장 트렌드]]", "[[newzoo-pc-console-2026|Newzoo PC·콘솔 리포트 2026]]", "[[matthew-ball-2026-report|Matthew Ball 2026]]", "[[missing-middle-paradigm-shift-2026|미싱 미들 패러다임 전환]]"]
+related: ["[[game-market-trends|게임 시장 트렌드]]", "[[newzoo-pc-console-2026|Newzoo PC·콘솔 리포트 2026]]", "[[matthew-ball-2026-report|Matthew Ball 2026]]", "[[missing-middle-paradigm-shift-2026|미싱 미들 패러다임 전환]]", "[[gi-newzoo-console-gta6-2026-08|Newzoo Rosier 인터뷰 — 콘솔과 GTA 6]]"]
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-08-31
 confidence: medium
 ---
 
@@ -56,9 +56,19 @@ confidence: medium
 4. **집계 매출 성장 ≠ 개별 개발사 기회.** [[matthew-ball-2026-report|Matthew Ball]]이 지적한 "파이는 커도 서구 개발사 몫은 준다"가 그대로 적용 — 성장이 중국 퍼블리셔·D2C·마이크로트랜잭션·신흥권에 몰린다는 건 *접근 가능성*이 갈린다는 뜻.
 5. **모바일 57% 비중은 PC·콘솔 결론과 렌즈가 다르다.** 이 GGMR은 모바일 포함 전체 시장이라, [[newzoo-pc-console-2026|PC·콘솔 리포트]]의 프리미엄·롱테일 결론과 직접 합산·비교하면 안 된다(대상 범위가 다름).
 
-> ⚠️ 종합: "전체 \$213.9B·모바일 재부상·기존 오디언스 심화 수익화"라는 큰 그림은 다른 소스와 정합하나, **개별 수치는 9/10 전체판으로 교체 전까지 잠정**. 교차검증 — [[matthew-ball-2026-report|Matthew Ball 2026]](성장 집중 진단)·[[newzoo-pc-console-2026|PC·콘솔 2026]](PC 구조적 성장).
+> ⚠️ 종합: "전체 \$213.9B·모바일 재부상·기존 오디언스 심화 수익화"라는 큰 그림은 다른 소스와 정합하나, **개별 수치는 9/10 전체판으로 교체 전까지 잠정**. 교차검증 — [[matthew-ball-2026-report|Matthew Ball 2026]] (성장 집중 진단)·[[newzoo-pc-console-2026|PC·콘솔 2026]] (PC 구조적 성장).
+
+## 1차 인용으로 보강됨 ([[gi-newzoo-console-gta6-2026-08]], 2026-08-27)
+
+게임스컴 2026에서 Newzoo 시장정보 디렉터 Emmanuel Rosier가 GamesIndustry.biz와 진행한 인터뷰가 **위 수치의 일부를 본사 직접 발언으로 승격**시킨다. 특히 위 "콘솔 2026 성장은 GTA VI에 크게 의존" 항목의 크기가 여기서 확정된다.
+
+- **GTA 6가 없었다면 콘솔은 전년 대비 하락했을 것** — 즉 +5.1% 전부가 GTA 6와 Switch 2 두 요인에서 나온다
+- GTA 6는 **잠식적**일 것이라고 Newzoo가 직접 인정 (규모는 미제시)
+- 2027 되돌림은 없을 것으로 봄 — GTA의 카탈로그 파워 + Newzoo 2027 forecast에 **GTA 6 PC판 포함**
+- 가격: *"GTA 6는 하나뿐이라 가격 탄력성이 매우 낮다"* + 상단 가격 인상이 시장 전체를 리프트한다는 관찰
 
 ## 후속 (A — 전체판 추적)
 
 - **2026-09-10 GGMR 전체판 발매** 예정. 발매 후 *무료 축약본(Free Version)* 공개 여부 확인 → 공개 시 전문 PDF를 `raw/papers/`에 확보하고 이 페이지를 원본 기준으로 교체·confidence 상향.
 - 예년 무료본 배포처: [InvestGame Reports Archive](https://investgame.net/news/reports/) (2022·2023 무료본 게시 이력).
+- ⚠️ **발매 시점에 불일치 신호 있음.** 위 GamesIndustry.biz 기사(2026-08-27)가 GGMR을 **"newly released"**로 지칭한다. 게임스컴에 맞춰 앞당겨졌을 수도, 기자가 preview 배포를 그렇게 표현했을 수도, 유료 구독자 선행 배포일 수도 있다. **9/10 전후로 Newzoo 공식 페이지를 직접 확인해 판정할 것.**

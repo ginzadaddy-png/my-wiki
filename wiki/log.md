@@ -2,6 +2,53 @@
 title: "활동 로그"
 ---
 
+## [2026-08-31] lint 후속 | 조사 주제 1~5 전건 실행 — Game Pass 회수·가격 분포 정리·장르 태그 체계·엔티티 4종
+
+- 트리거: 2026-08-31 lint가 제안한 조사 주제 5건을 사용자가 **전부 선택**
+- 생성(entity 5): **game-pass**(20개 파일에 분산된 Game Pass 언급 회수 — 잠식이 관측되는 층[구작·리마스터]과 발견 장치로 작동하는 층[신작·부활·후속작 유입]을 분리. Halo 구독 210만 vs 판매 120만 등 4개 사례 집계) · **black-myth-wukong** · **game-science**(confidence low — 1차 자료 미ingest 명시) · **mortal-shell-2** · **cold-symmetry**(confidence low)
+- 생성(concept 1): **genre-tag-taxonomy**(장르 태그 분류 체계 — 두 집계 방식[단일 태그 강제 할당 vs 정제한 태그 클라우드] 비교, 데이터가 휘는 4지점, 렌즈 격차가 단가를 드러내는 구조, 태그가 디스커버리 변수이자 집계 오염원이 되는 순환)
+- 생성(comparison 1): **price-distribution-middle-vs-barbell**(가격 분포 — 미싱 미들 vs 양끝 확산). lint가 찾아낸 **미표기 모순 해소** — Newzoo 밴드 매출 성장(A)·Carless 히트작 중앙값(B)·Rosier 상단 리프트(C) 세 관측을 *재는 대상*으로 분리. A와 B는 매출:개수·플랫폼 범위·문턱 효과 4지점에서 어긋나 양립하고, **저가권·고가권에서는 오히려 일치**. C만 표본이 없어 기각
+- 업데이트(concept 6): subscription-economy-gaming(game-pass 포인터) · game-pricing-strategy(비교 페이지 연결) · mid-price-sweet-spot(**⚠️ 모순 블록 신설** — Carless 실측과의 방향 차이를 재는 대상 차이로 정리) · roguelike(genre-tag-taxonomy 연결) · soulslike(mortal-shell-2·cold-symmetry 링크) · console-retail-strategy(Black Myth wikilink)
+- 업데이트(그 외 6): microsoft · unreal-engine-5 · game-market-trends · launch-metrics · comparisons/physical-retail-retention · comparisons/proprietary-engine-vs-ue5 — Black Myth: Wukong 10개 파일 plain text를 wikilink로 노드화(테이블은 `[[slug\|alias]]` 형식, Quartz 렌더 실측 확인)
+- 카탈로그: entities/all(스튜디오 +2·미디어·플랫폼 +1·게임 +2) · concepts/all(+1) · comparisons/all(+1) · index.md(스튜디오 49→51·게임 42→44·개념 76→77·비교 21→22·pill 2개) · overview.md(커버리지 3행) · about.md(개념 77·엔티티 108·비교 22·총 md 416)
+- 정리: **LF→CRLF churn 8파일을 HEAD 기준(LF)으로 되돌림** — 08-31 ingest 세션이 남긴 줄바꿈 변환 탓에 diff가 3,022 insertions로 부풀어 있었고, 정리 후 247줄로 축소. `.gitattributes` 전면 도입은 CRLF 58파일을 함께 건드리므로 보류(사용자 판단 대기)
+- 남은 갭: 끊긴 wikilink 본문 7종(dear-passengers·paralives·mojang·flexus·honkai-star-rail·paralives-studio·wild-rift) 미해소. Minecraft·Mojang 페이지는 이번 범위 밖
+
+## [2026-08-31] lint | 주간 정기 점검 (스케줄 루틴)
+
+- 빌드: **통과** (409개 파싱·865 emit·37초). frontmatter YAML 오류 0건 → 자동 수정 없음
+- ⚠️ **빌드 검사 위양성 발견**: CLAUDE.md의 빌드 명령을 Bash에서 실행하면 `-d C:\Vault\...`의 백슬래시가 소실돼 `C:VaultGinzamy-wikiwiki`로 뭉개지고 **"0 files 파싱 + exit 0"** 이 나온다. PowerShell로 재실행해 정상 확인. → 앞으로 통과 판정은 **파싱 파일 수까지 확인**할 것
+- 모순 16 블록(미해소 **2건** — naavik-xbox 하드웨어 해석, gdc26-idg 전망 온도차. 지난주와 동일, 신규 0) / **완전 고립 0건** / 카탈로그만 참조 4건(ps4·xbox-one graph 전용, 보고서 2건 구조상 정상) / 끊긴 wikilink 본문 **7종**(지난주와 동일, 신규 0) / raw 미처리 2건(둘 다 08-24에 중복 판정 → 실질 0)
+- **미표기 모순 1건 발견**: game-pricing-strategy가 자체 인정한 "미싱 미들과의 긴장"이 mid-price-sweet-spot의 \$30–50 최고 성장 주장과 정면 충돌하는데 모순 블록이 없었음 → 조사 주제 2로 제안, 같은 날 해소
+- 미페이지 개념 3건: **Game Pass 20파일**(6개 concept에 잠식 논의 분산) · Black Myth: Wukong 10파일 · Minecraft·Mojang 6파일. 장르 약어(MMORPG·MOBA·JRPG·ARPG)는 기존 concept에 수용됨으로 판정
+- 확인: `[[slug\|alias]]` 이스케이프 파이프는 vault 전역 5,577회 쓰이는 확립된 관행 — 결함 아님
+- **신규 이슈**: LF→CRLF 줄바꿈 churn 8파일 → 후속 항목에서 정리
+- 자동 갱신: about.md 8곳(INGEST 73→77·소스 187→192·개념 74→76·총 md 402→409·날짜 3곳·**보고서 구성 "deck 3+아티클 3"→"deck 4+아티클 2"** 정정 — how-small-teams-ship-big-games가 아티클로 분류돼 있었으나 -deck.html 실존) / overview.md는 이 시점 변경 없음(엔티티 신규 0·핵심 테마 최다 6피인용으로 7피인용 임계 미달)
+- 분기 검토 알림: 해당 없음 (다음 2026-10-01~07)
+- 조사 주제 5건 제안 → 사용자가 **전건 선택**, 위 후속 항목으로 실행
+
+## [2026-08-31] ingest | source radar 후보 3건 — Newzoo 콘솔·GTA 6 / 히트 장르 5년 변동 / Mortal Shell 2 데모 전환
+
+- 트리거: 2026-08-31 source radar 주간 스캔(윈도우 08-24~08-31, 후보 10건) → 사용자가 **후보 1·2·3 + "HTMAG 2·3부" 선택**
+- ⚠️ **radar 보고 정정 — HTMAG 2·3부는 이미 ingest돼 있었다.** 레이더가 `source_url` frontmatter만 대조했는데, [[zukowski-golden-age-week-2026-08]]이 3부작을 소스 페이지 1개로 통합하면서 frontmatter엔 1부 URL만 넣고 2·3부는 본문 원문 줄에 담아 둔 탓의 오탐(log.md 2026-08-24 항목에 "3부작을 소스 페이지 1개로 통합" 명시). **따라서 이번 ingest는 3건**. 재발 방지: radar의 중복 대조를 `source_url` 필드뿐 아니라 *본문 원문 줄의 URL*까지 확장할 것
+- Source: 웹 3건 (raw/ 미적재, 직접 ingest)
+  - [Newzoo: 2026 console revenue would be flat year-on-year without Grand Theft Auto 6](https://www.gamesindustry.biz/newzoo-2026-console-revenue-would-be-flat-year-on-year-without-grand-theft-auto-6) — Alex Forbes-Calvin / Newzoo Emmanuel Rosier, 2026-08-27
+  - [How have the genres of hit PC games changed since 2021?](https://newsletter.gamediscover.co/p/how-have-the-genres-of-hit-pc-games) — Simon Carless, 2026-08-26
+  - [Mortal Shell 2 passed half-a-million sold in its first weekend](https://alineaanalytics.substack.com/p/mortal-shell-2-passed-half-a-million) — Rhys Elliott, 2026-08-25
+- ⚠️ 날짜 교정: 아카이브 목록과 기사 페이지의 게시일이 달라 **기사 페이지 기준**으로 기록 (Carless 08-26·목록 08-25 / Alinea 08-25·목록 08-24). GamesIndustry.biz는 KST 표기
+- ⚠️ 수집 경로: gamesindustry.biz는 WebFetch 도메인 차단 → **크롬(claude-in-chrome) 경유**로 인덱스+본문 확보. Substack 2건도 요약 대신 전문을 크롬으로 받아 씀. 80lv.com은 DNS 실패 → `80.lv`로 재시도
+- 핵심 A (시장·가격): 콘솔 \$46.9B·+5.1%의 **동인이 GTA 6와 Switch 2 둘뿐** — Rosier 직접 발언 *"GTA 6가 없었다면 전년 대비 하락했을 것"*. GTA 6 풀게임 지출 **+17.5%**(전 비즈니스 모델 중 최고) + **잠식 인정**(규모 미제시). 2027 되돌림 부정(카탈로그 파워 + forecast에 PC판 포함), GTA Online 전환 시점 미지수. **가격에서 상반된 두 증거 확보** — Rosier의 *상단 인상이 시장 전체를 리프트*(일화·표본 없음) vs Carless의 **히트작 중앙값 \$19.99 → \$16.99, −15%**(261개 vs 469개 실측). Top 10 구성(\$60+ 5개→2개, \$10 미만 0개→3개)으로 **양끝 확산**으로 정리
+- 핵심 B (장르 시계열): 로그라이트 **+39계단 #1**·로그라이크 **+37계단 #2**, **판매량·매출 양쪽 렌즈에서 1·2위**라 "싼 게임 착시" 반론 기각. JRPG −24·턴제 −19·RTS −17·서바이벌 호러 −17, 라이프심 +31·아이들러 +46·레이싱 +22. 렌즈 차이가 단가를 드러냄(JRPG 판매량 #28 vs 매출 #10). 태그는 2017년부터 존재했고 **덜 쓰였을 뿐** → *실제 장르 이동*과 *태그 관행 변화*가 분리되지 않음
+- 핵심 C (데모·리뷰): Mortal Shell 2 첫 주말 **51만 장·\$23M**(스팀 57.6%·PS5 33.8%·Xbox 8.6%). 데모 약 100만 플레이, **본편 플레이어의 1/3이 데모 경유**, 스팀 구매자 중 1편 경험자 **9%뿐**(콘솔은 44·59% — 구독 노출 차이) → **데모가 전작 인지도를 대체**. **[[zukowski-demos-wishlist-conversion]]과의 긴장은 분모 차이로 해소** — 그쪽은 *데모 플레이어→위시리스트 19.3%*, 이쪽은 *구매자→데모 경유 33%*. 리뷰는 간체 중국어 19.7%가 51% 긍정이라 종합을 **82% → 76%로 끌어내림**(난이도·적 밀도 불만)
+- 생성(source 3): **gi-newzoo-console-gta6-2026-08** · **carless-hit-pc-genres-2021-2025** · **alinea-mortal-shell-2-launch-2026-08** (전 페이지에 "약점과 한계(비판적 읽기)" 포함)
+- 업데이트(concept 5): game-market-trends(**콘솔 +5.1%의 실제 구성** + **히트 PC 장르 변동 2021→2025** 2절 신설) · game-pricing-strategy(**히트작 가격은 내려가는가 올라가는가 — 상반된 두 증거** 절 신설, 실측 vs 일화로 무게 구분) · roguelike(**5년 만에 히트 장르 1·2위로** 절 — 기존 "신규 진입 친화"와 *가장 붐비는 자리*의 긴장 명시) · soulslike(**비프롬 소울라이크의 상업적 성립** + **난이도 인식의 동서 분열** — 기존 "공정한 가혹함"이 문화권에 따라 갈릴 수 있다는 첫 실측) · launch-metrics(**데모 지표 두 분모** + **리뷰 등급 단일 언어권 효과** 2절)
+- 업데이트(entity 1): helldivers-2(**2026-08 갱신** 절 — 등록 22.9M·누적 \$800M 근접·PS Plus Extra 2주 80만 명·MAU 5.5M. 기존 "\$7억+" 대비 갱신)
+- 업데이트(source 2): newzoo-ggmr-2026-preview(**1차 인용으로 보강됨** 절 신설 + 후속 섹션에 ⚠️ *기사가 GGMR을 "newly released"로 지칭 — 9/10 예정과 불일치, 직접 확인 필요*) · carless-genres-ruled-steam-2025-06(**후속 — 같은 데이터의 시계열 판** 절)
+- 카탈로그: sources/all(189→**192**) · index.md(소스 189→192·Last updated 2026-08-31)
+- 모순: 없음. 단 **원칙 긴장 2건 명시** — ① 가격 방향(Rosier 상승 vs Carless 하락)을 *층위가 다르다*로 정리하되 실무 판단은 실측 쪽에 무게 ② soulslike의 "공정한 가혹함"이 보편 원칙으로 서술돼 있으나 지역별 판정 차가 실측됨
+- 미생성: **entity `mortal-shell-2`·`cold-symmetry` 미작성** — 본문에서 plain text로 처리. 생성 여부는 사용자 판단 대기(끊긴 wikilink 없음)
+- 배포: 미커밋·미push (주간 LINT 방침). 챗봇 재색인 전이라 이번 신규 3페이지를 모름
+
 ## [2026-08-28] ingest | Newzoo — Global Games Market Report 2026 (preview·잠정치)
 
 - 트리거: 사용자가 GGMR 2026 전문 PDF 요청. **GGMR은 유료 플래그십이라 전문 무료 PDF 없음 + 전체판 2026-09-10 미발매** 확인 → 사용자가 "B(지금 preview 수치 우선 반영) + A(9/10 이후 전체판 추적) 둘 다" 지시. 본 항목은 B
