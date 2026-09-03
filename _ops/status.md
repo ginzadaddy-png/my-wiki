@@ -1,34 +1,23 @@
----
-title: "Game Dev Wiki — 현황 공유"
-type: concept
-sources: []
-related: ["[[index|전체 카탈로그]]", "[[log|활동 로그]]"]
-created: 2026-05-27
-updated: 2026-08-31
-confidence: high
----
+# 운영 현황 (내부 전용)
 
-## 개요
-
-게임 개발 관련 1차 자료(IR 보고서, GDC 발표, 업계 분석가 글, 트랜스크립트 등)를 읽고 위키 형태로 누적·교차참조하는 개인 지식 베이스입니다. Karpathy식 LLM 활용 위키를 모티브로, *raw 소스를 LLM이 요약·구조화해서 wiki 폴더에 정리*하고 추후 의사결정·발표 자료로 재활용하는 구조입니다. 산출물은 Quartz로 정적 사이트화되어 GitHub Pages로 배포됩니다.
-
-핵심 가치 — 같은 자료를 두 번 읽지 않고, 출처와 인사이트가 항상 wikilink로 연결되어 있어 *"이 주장 어디서 봤더라"* 가 해소됩니다.
+> **이 파일은 사이트에 발행되지 않는 내부 운영 문서입니다.** (`_ops/`는 Quartz 빌드 대상 `wiki/` 밖) 리더용 소개는 [wiki/about.md], 리더용 업데이트 소식은 [wiki/changelog.md]. 운영 로그(원장)는 [_ops/log.md].
+>
+> 여기 담긴 것: 상세 통계 / 작업 환경 / 도구 스택·아키텍처 / 작업 흐름 / 챗봇(현재 delist) / 진행 예정 — 나 + Claude Code 확인용.
 
 ## 현재 통계·규모 (2026-08-31 기준)
 
 | 항목 | 수치 |
 |---|---|
-| 누적 INGEST 건수 ([[log|활동 로그]]의 ingest 항목 수) | 77건 |
+| 누적 INGEST 건수 (`_ops/log.md`의 ingest 항목 고유 수) | 77건 |
 | 소스 요약 (`wiki/sources/`) | 192개 |
 | 개념 페이지 (`wiki/concepts/`) | 77개 |
 | 엔티티 페이지 (스튜디오·게임·플랫폼·인물, `wiki/entities/`) | 108개 |
 | 비교 페이지 (`wiki/comparisons/`) | 22개 |
-| 보고서 (`wiki/reports/`) | 6개 — deck 4 ([[reports/steam-launch-strategy|Steam 출시 전략]] / [[reports/studio-risk-defense|스튜디오 리스크 방어]] / [[reports/ai-asset-pipeline-2026-report|AI 에셋 파이프라인 보고서]] / [[reports/how-small-teams-ship-big-games|소규모 팀 종합]]) + 아티클 2 ([[reports/pc-console-pricing-playbook|PC·콘솔 기준 가격 가이드]] / [[reports/nexon-ir-2q26-analysis|넥슨 2Q26 IR 분석]]) |
+| 보고서 (`wiki/reports/`) | 6개 — deck 4 + 아티클 2 |
 | 결정·가설 (`wiki/decisions/`) | 1개 |
-| 챗봇 (위키 Q&A 에이전트) | RAG + graph hybrid, HF Spaces 배포 ([아래](#챗봇-위키-qa-에이전트) 참조) |
 | 마지막 갱신 | 2026-08-31 |
 
-총 약 416개 md 페이지가 wikilink로 연결되어 있고, 모두 frontmatter(`type`, `sources`, `related`, `confidence` 등) 기반으로 구조화되어 있어 graph 추론·검색에 활용되고 있습니다. 2026년 6월부터는 이 위키 전체를 검색·추론하는 **챗봇 에이전트**가 별도 트랙으로 가동 중입니다.
+총 약 416개 md 페이지가 wikilink로 연결되어 있고, 모두 frontmatter(`type`, `sources`, `related`, `confidence` 등) 기반으로 구조화되어 있어 graph 추론·검색에 활용된다.
 
 ## 작업 환경
 
@@ -68,14 +57,18 @@ Web Clipper &nbsp;·&nbsp; NotebookLM &nbsp;·&nbsp; 직접 PDF / 트랜스크�
 <div style="text-align:center;padding:0.3rem 0;opacity:.6">↓</div>
 
 <div style="border:1.5px dashed var(--gray);border-radius:4px;padding:0.6rem 1.2rem;font-family:ui-monospace,'Cascadia Code',monospace;font-size:0.79rem">
-<strong>wiki/ &nbsp;(관리 대상)</strong><br>
-├── sources/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 원문 요약 (124)<br>
-├── concepts/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 개념 페이지 (58)<br>
-├── entities/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 스튜디오·게임·플랫폼 (85)<br>
-├── comparisons/ &nbsp;&nbsp; 비교 분석 (17)<br>
+<strong>wiki/ &nbsp;(관리 대상 · 발행)</strong><br>
+├── sources/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 원문 요약<br>
+├── concepts/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 개념 페이지<br>
+├── entities/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 스튜디오·게임·플랫폼<br>
+├── comparisons/ &nbsp;&nbsp; 비교 분석<br>
 ├── reports/ &nbsp;HTML 슬라이드 + wrapper<br>
 ├── index.md &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 전체 카탈로그<br>
-└── log.md &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ingest·작업 이력
+└── changelog.md &nbsp; 업데이트 소식(공개, 주간 롤업)<br>
+<br>
+<strong>_ops/ &nbsp;(내부 전용 · 미발행)</strong><br>
+├── log.md &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ingest·작업 원장(append-only)<br>
+└── status.md &nbsp;&nbsp;&nbsp; 운영 현황(이 문서)
 </div>
 
 <div style="text-align:center;padding:0.3rem 0;opacity:.6">↓ &nbsp;여기서 두 갈래로 소비됨</div>
@@ -104,16 +97,18 @@ ginzadaddy-png.github.io<br>
 </div>
 
 <div style="flex:1;min-width:240px">
-<div style="text-align:center;padding:0.2rem 0;opacity:.6;font-size:0.78rem">② 챗봇 색인 — build_index.py</div>
-<div style="border:1.5px dashed var(--gray);border-radius:4px;padding:0.6rem 1.2rem;text-align:center">
+<div style="text-align:center;padding:0.2rem 0;opacity:.6;font-size:0.78rem">② 챗봇 색인 — build_index.py <strong>(2026-09-03 delist · 재색인 중단)</strong></div>
+<div style="border:1.5px dashed var(--gray);border-radius:4px;padding:0.6rem 1.2rem;text-align:center;opacity:.7">
 청크 분할 → <strong>BGE-M3</strong> 임베딩<br>
 <span style="font-size:0.78rem;opacity:.8">+ relations → NetworkX graph</span>
 </div>
 <div style="text-align:center;padding:0.3rem 0;opacity:.6">↓ &nbsp;push_space.py</div>
-<div style="border:1.5px dashed var(--gray);border-radius:4px;padding:0.6rem 1.2rem;text-align:center">
+<div style="border:1.5px dashed var(--gray);border-radius:4px;padding:0.6rem 1.2rem;text-align:center;opacity:.7">
 HF Spaces (Docker)<br>
 <span style="font-size:0.78rem;opacity:.8">Streamlit + Claude API</span>
 </div>
+</div>
+
 </div>
 
 </div>
@@ -141,7 +136,7 @@ entity 페이지에는 `relations:` 필드(developedBy·publishedBy·parentOf·g
 
 ### LINT
 
-"점검"이라고 하면 모순 페이지 / 고립 페이지(=incoming link 없음) / 자주 언급되는데 페이지 없는 개념을 자동 탐지해 다음 조사 주제를 제안합니다. 현재 **Claude Code 스케줄 루틴**으로 *매주 자동 실행* 중입니다.
+"점검"이라고 하면 모순 페이지 / 고립 페이지(=incoming link 없음) / 자주 언급되는데 페이지 없는 개념을 자동 탐지해 다음 조사 주제를 제안합니다. 현재 **Claude Code 스케줄 루틴**으로 *매주 자동 실행* 중이며, 주간 배포(커밋·push)와 공개 `changelog.md` 갱신도 이 루틴에서 처리합니다.
 
 ### DECISION
 
@@ -151,16 +146,18 @@ entity 페이지에는 `relations:` 필드(developedBy·publishedBy·parentOf·g
 
 별도 트랙으로, 위키 소스를 재구성한 산출물을 `wiki/reports/`(사이트 표기 "보고서", 2026-07-06 `presentations/`에서 rename)에 모읍니다. 두 형식이 공존합니다:
 
-- **발표 deck** — `[슬러그]-deck.html` + wrapper md 짝을 사이트에 iframe으로 embed. Pretendard 단일 폰트, `-deck` 접미사 필수(Quartz slug 충돌 회피), wrapper는 결과물만 노출(작업 이력은 [[log]]에서) 같은 명명 규칙이 운영 지침에 박혀 있습니다.
-- **소스 종합 아티클** — `-deck`·iframe 없는 순수 .md 글. 두껍게 읽은 영역을 하나의 *관점적 논지*로 꿰되, 쓰기 전 **커버리지 감사**로 주장 범위를 자료가 받쳐주는 곳으로 제한하고 한계(생존자 편향 등)를 명시합니다. (장기 목표 "관점적 종합"의 실행 단위 — 아래 [진행 예정](#진행-예정) 참조)
+- **발표 deck** — `[슬러그]-deck.html` + wrapper md 짝을 사이트에 iframe으로 embed. Pretendard 단일 폰트, `-deck` 접미사 필수(Quartz slug 충돌 회피), wrapper는 결과물만 노출(작업 이력은 `_ops/log.md`에서) 같은 명명 규칙이 운영 지침에 박혀 있습니다.
+- **소스 종합 아티클** — `-deck`·iframe 없는 순수 .md 글. 두껍게 읽은 영역을 하나의 *관점적 논지*로 꿰되, 쓰기 전 **커버리지 감사**로 주장 범위를 자료가 받쳐주는 곳으로 제한하고 한계(생존자 편향 등)를 명시합니다.
 
-## 챗봇 (위키 Q&A 에이전트)
+## 챗봇 (위키 Q&A 에이전트) — 2026-09-03 사이트에서 delist
 
-2026년 6월, 위키 전체를 검색·추론하는 **Hybrid Agent 챗봇**을 `chatbot/` 폴더에 구축했습니다. *"위키에 정리된 내용을 자연어로 물어보면 출처와 함께 답한다"*가 목표이고, 사이트 사이드바의 **💬 위키에 질문하기** 링크에서 접근합니다 (HF Spaces 공개 + 앱 비밀번호 게이트 — iOS Safari 등 모든 브라우저에서 접근 가능).
+> **상태**: 테스트 목적으로 개발했고 실사용 계획이 없어 **2026-09-03 사이트에서 내림**(WikiNav 링크 제거 + about 소개 제거). 주간 재색인도 중단. **HF Space 배포본과 `chatbot/` 코드는 그대로 유지** — 복구 절차는 `CLAUDE.md`의 챗봇 복구 항목 참조. 아래 설계 문서는 복구·참조용으로 보존.
+
+2026년 6월, 위키 전체를 검색·추론하는 **Hybrid Agent 챗봇**을 `chatbot/` 폴더에 구축했습니다. *"위키에 정리된 내용을 자연어로 물어보면 출처와 함께 답한다"*가 목표입니다 (HF Spaces 공개 + 앱 비밀번호 게이트).
 
 ### 핵심 설계
 
-- **RAG (의미 검색)**: 위키 407개 md를 청크(약 2,426개)로 분할 → 로컬 **BGE-M3** 임베딩 → numpy 벡터 검색(코사인). 청크에 `제목·섹션` 접두를 붙여 한↔영 cross-language 검색을 보강했습니다.
+- **RAG (의미 검색)**: 위키 407개 md를 청크(약 2,426개)로 분할 → 로컬 **BGE-M3** 임베딩 → numpy 벡터 검색(코사인). 청크에 `제목·섹션` 접두를 붙여 한↔영 cross-language 검색을 보강했습니다. *(수치는 마지막 재색인 시점 기준 — 이후 동결)*
 - **Graph (관계 추론)**: entity의 `relations:` 필드(developedBy·publishedBy·parentOf·genre·platform)를 **NetworkX** 그래프로 빌드(409 노드 · 207 엣지). *"Astro Bot 만든 팀의 모회사가 소유한 다른 스튜디오는?"* 같은 multi-hop 질문은 Claude **tool-use**로 그래프를 직접 질의해 답합니다.
 - **Hybrid 라우팅**: 질문 성격에 따라 RAG·graph를 함께 사용하고, *위키에 근거 없으면 "없다"고 명시*해 환각을 억제합니다 (30개 평가 셋에서 환각 0건 확인).
 - **백엔드/UI 분리**: 검색·그래프·에이전트 로직은 `core/` 모듈, UI는 Streamlit `app.py`로 분리해 향후 다른 프런트(봇 등) 확장에 대비했습니다.
@@ -177,9 +174,9 @@ entity 페이지에는 `relations:` 필드(developedBy·publishedBy·parentOf·g
 | 배포 | Hugging Face Spaces (Docker SDK, 무료 티어) |
 | 개발 환경 | Claude Code (전 코드·디버깅·배포 자동화) |
 
-### 갱신 워크플로우
+### 갱신 워크플로우 (현재 중단)
 
-위키를 ingest/수정하면 챗봇 색인이 자동으로 따라오지 않으므로 명시적 동기화가 필요합니다. `chatbot/update_and_deploy.py` 한 번이면 **재색인(BGE-M3) → HF Space 재배포**가 묶여 실행됩니다. 그래서 INGEST 절차 마지막에 *"챗봇도 갱신할까요?"* 확인 단계를 두어, 위키와 챗봇 배포본의 정합을 유지합니다.
+위키를 ingest/수정하면 챗봇 색인이 자동으로 따라오지 않으므로 명시적 동기화가 필요합니다. `chatbot/update_and_deploy.py` 한 번이면 **재색인(BGE-M3) → HF Space 재배포**가 묶여 실행됩니다. delist 이전에는 주간 LINT에서 이 동기화를 처리했으나, **현재는 중단** — 복구 시 재개.
 
 > 인프라 고정비는 0(HF Spaces 무료 + 구독 없음)이지만, Claude API는 질문당 종량제(선충전 크레딧에서 차감)로 과금됩니다. 선충전 모델이라 잔액 한도 내에서만 동작해 폭주 과금 위험은 없습니다.
 
@@ -187,16 +184,16 @@ entity 페이지에는 `relations:` 필드(developedBy·publishedBy·parentOf·g
 
 ### 단기
 
-**챗봇 운영·품질 다지기** *(graph relations + 챗봇 구축은 2026-06 완료 — [위 챗봇 섹션](#챗봇-위키-qa-에이전트) 참조)* — entity `relations:` 부착과 기존 entity retrofit을 마치고, RAG + graph hybrid 챗봇까지 배포된 상태입니다. *"Astro Bot 만든 팀의 모회사가 다른 어떤 스튜디오를 소유했지"* 같은 multi-hop query가 실제로 동작합니다. 다음 단계는 운영 안정화 — 답변 품질 회귀 점검, 갱신 자동화 정착(ingest 후 *"챗봇도 갱신할까요?"* 루틴), 비용 모니터링입니다.
+**챗봇 운영·품질 다지기** — *(2026-09-03 delist로 보류)* graph relations 부착·retrofit과 RAG+graph hybrid 챗봇 배포는 2026-06 완료했으나, 실사용 계획이 없어 사이트에서 내림. 복구 시 답변 품질 회귀 점검·비용 모니터링을 재개.
 
 ### 중기
 
 **카탈로그 이코노믹스 / Steam 출시 전략 두 deck의 확장** — 캡콤 9년 catalog 곡선, ZR Consulting 8-driver 모델, Carless wishlist conversion 등 이미 정리된 1차 데이터를 활용해 한국 인디·중소 스튜디오 적용 케이스를 추가할 여지가 있습니다.
 
-**LINT 절차 확장 — raw 폴더 미처리 큐 식별** *(2026-06 완료 — `LLM wiki lint` 루틴에 반영)* — LINT는 **`LLM wiki lint`라는 Claude Code 스케줄 루틴**으로 매주 자동 실행되며, *위키 내부 갭에서 출발하는 조사 주제 제안*에 더해 *raw 폴더에 이미 모아둔 자료 중 처리 안 된 큐* 식별까지 한 주간 보고에 묶여 실행됩니다. 두 흐름을 같은 보고에 묶어 자료 누락·정체를 방지합니다.
+**LINT 절차 확장 — raw 폴더 미처리 큐 식별** *(2026-06 완료 — `LLM wiki lint` 루틴에 반영)* — LINT는 **`LLM wiki lint`라는 Claude Code 스케줄 루틴**으로 매주 자동 실행되며, *위키 내부 갭에서 출발하는 조사 주제 제안*에 더해 *raw 폴더에 이미 모아둔 자료 중 처리 안 된 큐* 식별까지 한 주간 보고에 묶여 실행됩니다.
 
 ### 장기
 
 **두껍게 읽은 영역에 한정한 관점적 종합** — 흩어진 개념 페이지들을 한 편의 정리물로 합성하는 단계. 단 *"게임 산업 전체가 어디로 향하는가"* 같은 대표성 주장은 피한다 (수집 자료에 한정된 종합은 그 수집의 편향을 그대로 상속하므로). 대신 *두껍게 읽은 축*(개발 방법론·소규모 팀·출시 전략·시장 구조)에 스코프를 좁혀, *"내가 읽은 자료에서 본 2026 프리미엄·인디 생존 전략"* 같은 **명시적으로 관점적인 논지**(citation 달린 thesis, 서베이 아님)로 만든다.
 
-전제 — **쓰기 전 커버리지 감사**를 선행: 개념별 소스 수·교차 인용 빈도로 *두꺼운/얇은 영역 지도*를 그리고, 논지에 치명적인데 자료가 없는 갭은 타깃 ingest로 메우거나 글에서 *"여긴 커버리지 밖"이라고 경계를 명시*한다. 얇은 데서 억지로 결론 내지 않고 두꺼운 데서만 강하게 주장 → 편향된 글이 아니라 *범위가 정직한* 글. 결과물 형태(장문 글 vs 상위 데크)는 미정 — 기존 주제별 deck의 상위 버전 성격.
+전제 — **쓰기 전 커버리지 감사**를 선행: 개념별 소스 수·교차 인용 빈도로 *두꺼운/얇은 영역 지도*를 그리고, 논지에 치명적인데 자료가 없는 갭은 타깃 ingest로 메우거나 글에서 *"여긴 커버리지 밖"이라고 경계를 명시*한다. 얇은 데서 억지로 결론 내지 않고 두꺼운 데서만 강하게 주장 → 편향된 글이 아니라 *범위가 정직한* 글.

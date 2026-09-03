@@ -31,7 +31,10 @@
 - raw/     → 원본 소스. 절대 수정하지 마세요.
 - wiki/    → 당신이 작성하고 관리하는 위키
 - wiki/index.md  → 전체 목록. 매번 ingest 후 업데이트
-- wiki/log.md    → 활동 기록. append-only
+- wiki/changelog.md → 리더용 "업데이트 소식". 주간 하이라이트 롤업만 (운영 잡음 배제). **발행됨**. LINT에서 갱신
+- _ops/    → **내부 전용, 사이트 미발행** (wiki/ 밖이라 Quartz 빌드 대상 아님). git 추적은 유지(cross-device 동기화)
+- _ops/log.md    → 활동 기록(운영 원장). append-only. ingest·decision·lint 기록은 여기에
+- _ops/status.md → 운영 현황(작업환경·도구스택·작업흐름·챗봇·진행예정·상세 통계). LINT가 통계·진행예정 유지
 - wiki/reports/   → 소스 기반 산출물 홈 (2026-07-06 `presentations/`에서 rename, 사용자 표기 "보고서"). 발표 deck(`-deck.html`) + wrapper md + 분석 보고서 + 소스 종합 아티클(순수 .md 글)을 모두 담는다. 슬라이드·보고서·아티클 생성 시 *반드시 이 경로*에 저장. (구 `wiki/presentations/`와 루트 `presentations/` 폴더는 deprecated — 절대 사용 금지). 아래 규칙은 deck(-deck.html+wrapper) 기준이며, 순수 아티클(.md 단독)은 `-deck` 접미사·iframe 없이 일반 위키 페이지로 작성하되 같은 폴더·같은 카탈로그(all.md)에 등재
   - **슬라이드는 위키 콘텐츠를 *재구성*한 것** — 원전(concept·source) 페이지가 항상 truth source. 위키 콘텐츠 변경 시 슬라이드도 동기화. 슬라이드 갱신은 HTML 파일만 교체, wrapper md·카탈로그 wikilink·sources frontmatter는 그대로 유지.
   - **파일 명명: 슬라이드 `[주제-슬러그]-deck.html`, wrapper `[주제-슬러그].md`** (base 슬러그는 공유, 슬라이드만 `-deck` 접미사)
@@ -45,7 +48,7 @@
   - **슬라이드 폰트: Pretendard 전용, JetBrains Mono 금지** — make-slide skill 호출 시 prompt 명시, 기존 HTML 갱신 시 grep 검수 (메모리 `feedback_slide_fonts.md` 참조)
   - **단독 배포본(standalone)은 site용 deck과 분리**: site용 `-deck.html`은 가볍게 유지(Pretendard CDN·상대 이미지 — git·Quartz 빌드 가볍게). 폰트(woff2)·이미지를 base64 임베드한 self-contained 사본은 *gitignore된 `dist/`*에 `embed_standalone.py`로 따로 생성(메일·USB 등 오프라인 배포용). dist/는 커밋·Quartz 대상 아님. **deck 신규/수정 후 단독본 재생성은 commit/push 단계에서 사용자에게 확인받고 진행**(챗봇 재배포와 동일 패턴 — 묻고 OK 시 `python embed_standalone.py`). 폰트 woff2는 npm 경로(`cdn.jsdelivr.net/npm/pretendard@1.3.9/...`) 사용, gh 경로는 404. (메모리 `feedback_html_standalone_default.md`)
   - **카탈로그 페이지(`all.md`)는 사용자에게 노출되는 카탈로그 역할만** — 운영 규칙·내부 지침은 *반드시 CLAUDE.md 또는 메모리에만 기록*. 사용자가 사이트에서 보는 카탈로그에는 슬라이드 목록 + 짧은 인트로만
-  - **wrapper md는 결과물 노출에 집중 — "갱신 메모"·"변경 이력" 섹션 작성 금지**. 작업 내역·버전 기록은 *이미 `wiki/log.md`에서 추적*되므로 wrapper md에 중복 기록 불필요. wrapper md는 *제목·요약·iframe·구조·sources·관련 위키 페이지*만으로 구성해 사용자가 *결과물 자체*에 집중하도록 유지. 갱신 이력 추적이 필요하면 log.md 또는 git history 사용.
+  - **wrapper md는 결과물 노출에 집중 — "갱신 메모"·"변경 이력" 섹션 작성 금지**. 작업 내역·버전 기록은 *이미 `_ops/log.md`에서 추적*되므로 wrapper md에 중복 기록 불필요. wrapper md는 *제목·요약·iframe·구조·sources·관련 위키 페이지*만으로 구성해 사용자가 *결과물 자체*에 집중하도록 유지. 갱신 이력 추적이 필요하면 `_ops/log.md` 또는 git history 사용.
 
 ## 모든 위키 페이지 frontmatter 형식
 ---
@@ -107,7 +110,7 @@ relations:
    - 상단 통계 행의 소스·스튜디오·게임·개념·비교 숫자 갱신
    - 새 concept/comparison 페이지가 생겼으면 해당 섹션의 `<div class="pill-grid">` 리스트에 항목 추가 (형식: `- [[slug|짧은 라벨 — 부연 설명]]`)
    - 소스 섹션은 최신 10개만 표시. 전체 행은 `wiki/sources/all.md`에 추가
-8. wiki/log.md에 기록 추가
+8. _ops/log.md에 기록 추가 (운영 원장 — 사이트 미발행. 리더용 요약은 주간 LINT에서 wiki/changelog.md에 반영)
 9. **배포 단계는 주간 LINT로 유예 — 묻지 말 것** (2026-08-24 표준 방침 확정)
 
    ingest는 **위키 파일 변경까지만** 하고 끝낸다. 아래 세 가지는 *ingest 건별로 실행하지도, 실행 여부를 묻지도 않는다*:
@@ -115,19 +118,19 @@ relations:
    | 유예 항목 | 처리 시점 |
    |---|---|
    | **git 커밋·push** | 주간 LINT |
-   | **챗봇 재색인 + HF Space 재배포** | 주간 LINT |
+   | **챗봇 재색인 + HF Space 재배포** | **중단 (2026-09-03 delist)** — LINT 8번 아래 "챗봇 delist·복구" 참조 |
    | deck 단독 배포본(`dist/`) 재생성 | 주간 LINT 또는 명시 요청 시 |
 
    - 이유: push마다 Quartz 빌드·GitHub Pages 배포가 돌고 재색인은 BGE-M3 약 5분 + Space 업로드가 걸린다. 주간 단위로 모아 한 번에 올리는 쪽이 관리 비용이 낮다. 매번 물으면 같은 답을 반복하게 만든다
-   - **완료 보고에 넣을 것**: `git status` 요약(변경 N건·신규 M건) + *"미커밋 상태"* 명시 + **챗봇이 재색인 전이라 이번 신규 페이지를 모른다는 사실**. 다음 LINT에서 무엇이 올라갈지 알 수 있게 하는 목적
-   - **예외**: 사용자가 그 자리에서 push·재색인을 명시적으로 지시할 때, 또는 사이트가 이미 깨져 있어 수정본을 즉시 올려야 할 때
-   - 아래 재색인 실행·검증 절차는 **LINT에서 쓰는 참조 정보**다 (ingest 시점에 실행하지 않음)
+   - **완료 보고에 넣을 것**: `git status` 요약(변경 N건·신규 M건) + *"미커밋 상태"* 명시. 다음 LINT에서 무엇이 올라갈지 알 수 있게 하는 목적 (챗봇 재색인 관련 문구는 delist로 불필요)
+   - **예외**: 사용자가 그 자리에서 push를 명시적으로 지시할 때, 또는 사이트가 이미 깨져 있어 수정본을 즉시 올려야 할 때
+   - **⚠️ 챗봇 재색인은 2026-09-03 중단됨** (챗봇 사이트 delist — 테스트 개발, 실사용 계획 없음). 아래 재색인 실행·검증 절차는 **복구(restore) 시 참조 정보**로만 보존한다. 평시 ingest·LINT에서 실행하지 않는다. 복구 절차는 LINT 8번 아래 "챗봇 delist·복구" 참조
    - **색인 산출물은 `chatbot/index/embeddings.npy` + `chatbot/index/meta.json`** (BGE-M3 임베딩 + 청크 메타). `core/vectorstore.py`가 numpy brute-force로 검색한다
      - ⚠️ `chatbot/chroma_db/`는 **더 이상 쓰지 않는 잔재**. chromadb의 영속 HNSW 인덱스가 재기동 시 `Error finding id`로 간헐 실패해 npy+json 방식으로 교체됨(`core/vectorstore.py` 참조). `deploy/push_space.py`도 Space에서 `chroma_db/**`·`*.sqlite3`를 삭제 대상으로 둔다. 재색인 검증 시 chroma_db를 보면 안 됨 — 갱신되지 않아 오판하게 됨
      - 일부 파일 docstring(`build_index.py`·`update_and_deploy.py`·`core/rag_search.py`)에 "Chroma" 표현이 남아 있으나 실제 구현과 무관한 잔여 주석
    - 실행: `cd chatbot && ./.venv/Scripts/python.exe update_and_deploy.py` (재색인 BGE-M3 ~5분 + Space 업로드)
      - **글로벌 `python` 금지** — 의존성 스택이 없어 실패한다. 반드시 `chatbot/.venv`의 인터프리터 사용
-   - 재색인 검증: `index/meta.json`의 슬러그 집합에 이번 ingest로 만든 페이지가 들어갔는지 확인 (신규 폴더도 `iter_wiki_pages`의 `rglob` 방식이라 별도 설정 없이 자동 포함, 카탈로그 `all.md`·`log.md`·`overview.md`·`index.md`는 제외 규칙에 의해 빠짐)
+   - 재색인 검증: `index/meta.json`의 슬러그 집합에 이번 ingest로 만든 페이지가 들어갔는지 확인 (신규 폴더도 `iter_wiki_pages`의 `rglob` 방식이라 별도 설정 없이 자동 포함, 카탈로그 `all.md`·`overview.md`·`index.md`·`changelog.md`는 제외. `log.md`는 `_ops/`로 이동해 wiki/ 밖이므로 자동 제외 — **복구 시 `changelog.md` 제외를 `iter_wiki_pages` 코드에 반영할 것**)
    - relations 신규/수정이 포함된 ingest면 graph도 함께 갱신된다
 
 로그 형식:
@@ -163,7 +166,7 @@ raw/ 파일에서 아래는 무시·건너뛸 것:
 
 > **자동 실행**: LINT는 **`LLM wiki lint`라는 Claude Code 스케줄 루틴으로 매주 자동 실행**됨 (2026-06-22부터 — 기존 Cowork 주간 스케줄 대체). 루틴은 아래 9단계(0~8)를 그대로 수행하되 **자동 push 금지·새 페이지 자동 생성 금지·자동 ingest 금지** — 결과를 채팅으로 보고만 하고 실제 반영·push는 사용자 검토 후 진행. 수동으로 "lint"/"점검" 요청 시에도 동일 절차.
 >
-> **LINT는 주간 배포 창구다** (2026-08-24 방침): ingest는 파일 변경까지만 하고 커밋·push·챗봇 재색인을 전부 이 루틴으로 넘긴다 (INGEST 절차 9번). 따라서 **8번 단계가 매주 실제로 실행되는 항목**이며, 여기서 처리하지 않으면 사이트와 챗봇이 계속 옛 상태로 남는다.
+> **LINT는 주간 배포 창구다** (2026-08-24 방침): ingest는 파일 변경까지만 하고 커밋·push를 이 루틴으로 넘긴다 (INGEST 절차 9번). 따라서 **8번 단계가 매주 실제로 실행되는 항목**이며, 여기서 처리하지 않으면 사이트가 계속 옛 상태로 남는다. (챗봇 재색인은 2026-09-03 delist로 중단 — LINT 8번 아래 "챗봇 delist·복구" 참조)
 
 "lint" 또는 "점검"이라고 하면:
 0. **빌드 안전성 검사 (가장 먼저)** — Quartz 빌드가 깨지면 사이트 전체가 배포되지 않는다
@@ -177,39 +180,53 @@ raw/ 파일에서 아래는 무시·건너뛸 것:
 3. 3번 이상 언급됐지만 페이지 없는 개념 찾기
 4. 다음 조사 주제 제안하기
 5. 자동 업데이트 (지정된 섹션·필드만, 나머지는 수동 유지):
-   - **wiki/overview.md** (두 섹션):
+   - **wiki/overview.md** (리더용 소개·개요 페이지 — 아래 두 섹션만 자동 갱신):
      - **현재 커버리지**: entities/ 페이지 기준으로 스튜디오·게임 목록 갱신
      - **핵심 테마**: concepts/ 전체에서 3회 이상 등장하는 공통 패턴 재추출 후 갱신
-   - **wiki/about.md** (수치·날짜·인라인 통계만):
+     - 상단 소개문·"어떻게 읽나"·`^wiki-intro` 블록(index 홈에 transclude됨)은 자동 갱신 금지 (about.md는 2026-09-03 이 페이지로 통합·삭제)
+   - **_ops/status.md** (운영 통계 — 수치·날짜만. 미발행 내부 문서):
      - 통계 표의 sources/concepts/entities/comparisons/reports 카운트
-     - **누적 INGEST 건수 = `wiki/log.md`의 ingest 항목 *고유* 개수** (2026-08-18 정의 확정). 재현: `grep '^## \[.*ingest' wiki/log.md | sort -u | wc -l`. 이전 수치(113 등)는 산출 근거 불명으로 폐기
-     - 챗봇 섹션의 색인 수치(md 개수·그래프 노드·엣지)는 **재색인 시점 기준값** — lint에서 건드리지 말고 실제 재색인을 돌린 세션에서만 갱신
+     - **누적 INGEST 건수 = `_ops/log.md`의 ingest 항목 *고유* 개수** (2026-08-18 정의 확정). 재현: `grep '^## \[.*ingest' _ops/log.md | sort -u | wc -l`. 이전 수치(113 등)는 산출 근거 불명으로 폐기
+     - 챗봇 섹션의 색인 수치(md 개수·그래프 노드·엣지)는 챗봇 delist로 **동결** — lint에서 건드리지 말 것
      - "현재 통계·규모 (YYYY-MM-DD 기준)" 헤더 날짜를 LINT 실행일로 갱신
-     - frontmatter `updated` 필드를 LINT 실행일로 갱신
-     - 본문 내 인라인 수치 표현 ("수집된 N건 ingest", "총 약 N개 md 페이지" 등) 정합 검사 후 갱신
-     - **자동 수정 금지 영역**: `## 개요`, `## 작업 환경`, `## 도구 스택·아키텍처 다이어그램`, `## 작업 흐름`, `## 진행 예정` 섹션은 본문 어떤 줄도 건드리지 말 것 — 사용자 의도·전략이 들어간 부분이라 자동 갱신 위험 큼
-6. **raw/ 폴더 미처리 큐 식별**: raw/ 하위의 모든 파일 중 `wiki/sources/` 또는 `wiki/log.md`에 매칭되는 ingest 기록이 없는 항목을 추려 후보로 보고
-   - 매칭 키: ① raw 파일명·경로 → log.md의 `Source: raw/...` 라인과 비교 ② raw frontmatter의 `source:` URL → wiki/sources/ 페이지의 `source_url`과 비교
+     - **자동 수정 금지 영역**: `## 작업 환경`, `## 도구 스택·아키텍처 다이어그램`, `## 작업 흐름`, `## 챗봇`, `## 진행 예정` 섹션은 본문 어떤 줄도 건드리지 말 것 — 사용자 의도·전략이 들어간 부분
+   - **wiki/changelog.md** (리더용 업데이트 소식 — 주간 롤업 갱신):
+     - 이번 주 ingest/신규 페이지를 **리더 친화 하이라이트**로 큐레이션해 최상단에 새 주차 블록 추가 (형식: `## YYYY-MM N주차 (~MM-DD)` 아래 새 개념·비교·소스·엔티티·주요 갱신 몇 줄)
+     - **운영 잡음 배제**: 미커밋·`Source: raw/…`·재색인·카운트·churn 등은 넣지 않는다 (그건 `_ops/log.md`)
+     - 신규 페이지는 `[[slug|라벨]]` wikilink로 걸어 리더가 바로 이동하게. frontmatter `updated`도 갱신
+6. **raw/ 폴더 미처리 큐 식별**: raw/ 하위의 모든 파일 중 `wiki/sources/` 또는 `_ops/log.md`에 매칭되는 ingest 기록이 없는 항목을 추려 후보로 보고
+   - 매칭 키: ① raw 파일명·경로 → `_ops/log.md`의 `Source: raw/...` 라인과 비교 ② raw frontmatter의 `source:` URL → wiki/sources/ 페이지의 `source_url`과 비교
    - 각 후보는 *한 줄 요약* + *우선순위 추정*(작성일·도메인 신뢰도·기존 위키 인용 빈도) 부착
    - 사용자에게 "이번 주 미처리 N건. ingest 진행할 항목 골라주세요" 형식으로 제안. 자동 ingest 금지 — 강조점 확인 단계(INGEST 절차 2번) 보존
    - **목적**: 4번이 *위키 내부 갭 → 외부 탐색 권유*인 반면 6번은 *이미 손에 있는 자료의 처리 큐*. 두 흐름을 매주 한 알림으로 묶어 누락·정체 방지
-7. **about.md 분기 검토 알림** (분기 첫째 주 LINT에서만): "about.md `## 진행 예정` 섹션 검토 시점입니다. 단기 항목 중 완료된 것 / 중기로 승격할 것 / 새 우선순위 있나요?"라고 사용자에게 안내
+7. **진행 예정 분기 검토 알림** (분기 첫째 주 LINT에서만): "`_ops/status.md`의 `## 진행 예정` 섹션 검토 시점입니다. 단기 항목 중 완료된 것 / 중기로 승격할 것 / 새 우선순위 있나요?"라고 사용자에게 안내
    - 자동 수정 금지. 사용자 OK 받고 그 자리에서 함께 편집
    - 분기 식별: LINT 실행일이 1월·4월·7월·10월의 1~7일 사이면 분기 첫째 주로 판단
    - 사용자가 *"이번 분기는 패스"*라고 하면 다음 분기까지 알림 없음
 8. **유예된 배포 일괄 처리 (마지막 단계)** — 지난 주 ingest들이 커밋·push·재색인을 이 단계로 넘겨 놨다 (INGEST 절차 9번)
 
-   순서를 지킬 것 — **빌드 검사 → 커밋 → push → 재색인**. 빌드가 깨진 상태로 push하면 사이트 전체가 배포되지 않는다.
+   순서를 지킬 것 — **빌드 검사 → 커밋 → push**. 빌드가 깨진 상태로 push하면 사이트 전체가 배포되지 않는다. (챗봇 재색인은 2026-09-03 중단 — 아래)
 
    1. **0단계 빌드 검사 결과 확인** — 통과 못 했으면 여기서 멈추고 먼저 고친다
-   2. **누적분 보고**: `git status --short` + `git log --oneline -1` 기준으로 *직전 push 이후 쌓인 변경*을 정리해 보여준다. `wiki/log.md`의 미push ingest 항목 목록도 함께
-   3. **커밋·push는 사용자 확인 후** — 방침은 "LINT에서 처리"이지만 push 자체는 여전히 승인 대상이다. 커밋 메시지는 누적 ingest 주제를 묶어 작성
-   4. **챗봇 재색인 + Space 재배포**: `cd chatbot && ./.venv/Scripts/python.exe update_and_deploy.py` (INGEST 9번의 실행·검증 참조 정보 그대로 사용). **글로벌 `python` 금지**
-   5. **재색인 검증**: `index/meta.json` 슬러그 집합에 이번 주 신규 페이지가 모두 들어갔는지 확인. `chatbot/chroma_db/`는 죽은 잔재이므로 보지 말 것
-   6. **deck 신규·수정이 있었으면** 단독 배포본 재생성 여부를 묻는다 (`python embed_standalone.py` → gitignore된 `dist/`)
+   2. **누적분 보고**: `git status --short` + `git log --oneline -1` 기준으로 *직전 push 이후 쌓인 변경*을 정리해 보여준다. `_ops/log.md`의 미push ingest 항목 목록 + `wiki/changelog.md` 주간 블록 갱신 여부도 함께
+   3. **커밋·push는 사용자 확인 후** — 방침은 "LINT에서 처리"이지만 push 자체는 여전히 승인 대상이다. 커밋 메시지는 누적 ingest 주제를 묶어 작성. `_ops/`도 같은 my-wiki repo라 함께 커밋된다(단 사이트엔 미발행)
+   4. **챗봇 재색인은 중단** (2026-09-03 delist) — 평시 LINT에서 실행하지 않는다. 복구 시에만 아래 "챗봇 delist·복구" 절차대로 재개
+   5. **deck 신규·수정이 있었으면** 단독 배포본 재생성 여부를 묻는다 (`python embed_standalone.py` → gitignore된 `dist/`)
 
    - 누적분이 없으면 *"이번 주 미push 변경 없음"*으로 한 줄 보고하고 넘어간다
    - Quartz repo(`C:\Users\bmjlee\quartz`) 변경은 **별도 push 사이클**임을 잊지 말 것
+
+### 챗봇 delist·복구 (2026-09-03)
+
+챗봇은 테스트 목적 개발이라 실사용 계획이 없어 **2026-09-03 사이트에서 내림**. 코드(`chatbot/`)와 HF Space 배포본은 그대로 유지 — 삭제하지 않았고 언제든 복구 가능.
+
+- **내린 것**: ① Quartz `WikiNav.tsx`의 "AI 챗봇" 링크 블록(주석 처리) ② 리더용 소개 페이지의 챗봇 소개(→ `_ops/status.md`로 이동) ③ 주간 재색인 중단
+- **그대로인 것**: `chatbot/` 전체 코드, HF Space(`https://huggingface.co/spaces/ginzadaddy/ginza-wiki-chat`) 배포본, `index/` 마지막 색인
+- **복구 절차**:
+  1. Quartz `quartz/components/WikiNav.tsx`의 챗봇 블록·`chatUrl` 주석 해제 → quartz repo 커밋·push (별도 사이클)
+  2. `_ops/status.md`의 챗봇 소개를 발행 페이지(about 또는 전용 페이지)로 복귀
+  3. 재색인 재개: `cd chatbot && ./.venv/Scripts/python.exe update_and_deploy.py` (**글로벌 `python` 금지**). 이때 `iter_wiki_pages` 제외 목록에 `changelog.md` 추가 확인
+  4. 검증: `index/meta.json` 슬러그 집합 확인. `chatbot/chroma_db/`는 죽은 잔재이므로 보지 말 것
 
 ## 작업 4: DECISION (본인 결정·가설 검증 기록)
 
@@ -231,7 +248,7 @@ raw/ 파일에서 아래는 무시·건너뛸 것:
 5. wiki/decisions/ 에 대응 페이지 생성
    - frontmatter type: `decision` 또는 `hypothesis`
    - related_wiki의 각 페이지에 본 decision 페이지를 related로 추가 (양방향 링크)
-6. wiki/log.md 기록 추가
+6. _ops/log.md 기록 추가
 7. wiki/decisions/all.md 카탈로그 페이지에도 행 추가 (없으면 생성)
    - 형식: `| [[YYYY-MM-DD-slug]] | **주제** — 한 줄 요약 | YYYY-MM-DD |`
 
@@ -292,7 +309,7 @@ raw/ 파일에서 아래는 무시·건너뛸 것:
 3. 스킵 권장 항목 — URL·한 줄 + 스킵 사유(기존 위키 중복 등)
 
 ## 세션 시작 체크리스트
-1. wiki/log.md 최근 5개 항목 읽기
+1. _ops/log.md 최근 5개 항목 읽기 (+ 필요 시 _ops/status.md 운영 현황)
 2. wiki/overview.md 읽기
 3. 메모리 인덱스(MEMORY.md) 확인 — Ginza 프로필·워크플로우 선호 등 보조 컨텍스트
 4. 사용자에게 현재 상태 보고
