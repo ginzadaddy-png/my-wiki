@@ -17,6 +17,16 @@ title: "활동 로그"
 - 미push 누적: 수정 11 + 신규 4 (09-08 ingest 3소스·1엔티티). 커밋·push 대기
 - 사용자 승인 후 changelog 2026-09 1주차 블록 반영 · `_ops/status.md`의 about.md 스테일 참조 수정 · **조사 주제 1~5 전건 실행**(아래 후속 항목)
 
+## [2026-09-08] 배포 | 주간 LINT 배포 창구 — push 1건
+
+- push: **28a2b0f** (43파일 · 915 insertions · 61 deletions) — 09-08 ingest 3건 + 주간 lint + 조사 주제 1~5 전건 실행을 한 커밋으로 묶음
+- 직전 push는 a810c7e. 누적분 전량 반영, 워킹트리 clean
+- 빌드 검사: 통과 (427 파싱 · 902 emit · 42초). CRLF 복원 후 재검증까지 완료
+- deck 신규·수정 없음 -> 단독 배포본(`dist/`) 재생성 불필요
+- 챗봇 재색인: 해당 없음 (2026-09-03 delist)
+- Quartz repo 변경 없음 -> 별도 push 사이클 불필요
+- 참고: GitHub Actions 배포 결과는 이 세션에서 확인하지 못함 (`gh` 미인증). Pages 반영 여부는 사이트에서 직접 확인 필요
+
 ## [2026-09-08] lint 후속 | 조사 주제 1~5 전건 실행 — Roblox·Unity·에버그린·Discord 회수 + 끊긴 링크 전량 해소
 
 - 트리거: 2026-09-08 lint가 제안한 조사 주제 5건을 사용자가 **전부 선택**
@@ -36,7 +46,8 @@ title: "활동 로그"
 - 정리 2건 (조사 주제와 별개로 검수 중 발견):
   - **`[[slug|alias]](괄호)` 위반 19곳 → 8파일 수정**. CLAUDE.md가 금지한 패턴(Quartz가 표준 마크다운 링크로 오인 → 404)인데 vault 전역에 남아 있었다. `]](` → `]] (`로 일괄 교정: changelog · soulslike · cold-symmetry · game-science · paralives · alinea-mortal-shell-2-launch · bain-gaming-report-2026 · newzoo-pc-console-2026
   - **live-service-design.md CRLF→LF churn 복원**. 09-08 ingest 세션이 줄바꿈을 바꿔 놔 diff가 271줄로 부풀어 있었음 → HEAD 기준(CRLF)으로 되돌려 21줄로 축소. 전체 diff도 388/185 → 264/61
-    - ⚠️ **검사 도구 메모**: Bash `grep -c $''`가 이 환경에서 신뢰할 수 없다(LF 파일에 전 줄 매칭하는 위양성). 줄바꿈 검사는 **python으로 `git show HEAD:파일`과 바이트 비교**할 것
+    - ⚠️ **검사 도구 메모**: Bash `grep -c $'
+'`가 이 환경에서 신뢰할 수 없다(LF 파일에 전 줄 매칭하는 위양성). 줄바꿈 검사는 **python으로 `git show HEAD:파일`과 바이트 비교**할 것
 - 빌드: 통과 (427 파싱·902 emit)
 - 미커밋 상태 — push는 사용자 확인 후
 
