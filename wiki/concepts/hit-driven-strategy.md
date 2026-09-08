@@ -1,10 +1,10 @@
 ---
 title: "홈런 전략 (Hit-Driven Strategy)"
 type: concept
-sources: ["[[itoi-miyamoto-dialogue-2024|이토이 × 미야모토 대담]]", "[[gi-sony-live-service-opportunity-cost-2026-08]]"]
+sources: ["[[itoi-miyamoto-dialogue-2024|이토이 × 미야모토 대담]]", "[[gi-sony-live-service-opportunity-cost-2026-08]]", "[[alinea-steam-15b-mid-market-2026-09]]"]
 related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-expansion|오디언스 확장]]", "[[nintendo|닌텐도]]", "[[shigeru-miyamoto|미야모토 시게루]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
 created: 2026-06-23
-updated: 2026-08-24
+updated: 2026-09-08
 confidence: high
 ---
 
@@ -43,6 +43,14 @@ confidence: high
 | 실패의 그림자 | 다음 스윙에 영향 적음 | 스튜디오가 **한 세대를 비운다** → [[multi-project-development]] |
 
 > 💡 **핵심 인사이트:** 홈런 전략이 성립하는 조건은 *성공 확률이 낮아도 배당이 크고, 실패가 다음 시도를 방해하지 않는다*는 것이다. 라이브 서비스는 두 번째 조건이 깨진다 — 실패한 프로젝트가 스튜디오의 수년을 먹고, 그 사이 파이프라인이 비면서 다음 스윙 자체가 사라진다. **같은 "한 방" 논리를 확률 분포와 시간 구조가 다른 영역에 옮기면 정당화 도구로만 남는다.**
+
+## 히트 주도형은 끝나지 않았다 — 다만 히트작이 늙었다 ([[alinea-steam-15b-mid-market-2026-09]])
+
+2026년 Steam 데이터가 이 전략의 유효 범위를 다시 그린다. Alinea는 *"Steam의 성장이 중간층으로 흐르기 시작했다"*는 논지를 매출 순위 101~1000위 구간을 뜯어 반박했다 — 그 구간의 **83%가 2026년 이전 출시작**이고, 생애 누적 \$50M 이상을 번 게임이 구간 매출의 **51%**를 차지한다.
+
+> 💡 **핵심 인사이트 — "시장은 여전히 히트 주도형이다. 다만 그 히트작 상당수가 지난 세월의 히트작을 할인가에 파는 것이다."** 홈런 전략과 [[catalog-economics|카탈로그 이코노믹스]]가 대립처럼 보였던 이유는 둘을 같은 시점에서 봤기 때문이다. 실제로는 **한 번의 홈런이 이후 10년의 카탈로그가 된다** — 두 전략은 반대편이 아니라 같은 게임의 다른 시점이다. Skyrim이 2026년 매출 순위 중간 구간에 앉아 있는 것이 그 증거다.
+
+실무적 함의는 신작 쪽에 무겁다. 중형 신작이 마주하는 경쟁 상대는 그해의 다른 신작이 아니라 **검증된 옛 히트작의 할인 가격**이다 → [[hit-driven-vs-catalog-economics]] · [[price-distribution-middle-vs-barbell]]
 
 ## 연결
 

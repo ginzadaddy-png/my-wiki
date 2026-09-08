@@ -58,7 +58,7 @@ confidence: high
 
 ## 비프롬 소울라이크의 상업적 성립 — Mortal Shell 2 ([[alinea-mortal-shell-2-launch-2026-08]])
 
-[[cold-symmetry|Cold Symmetry]](개발)·Playstack(퍼블리싱)의 [[mortal-shell-2|Mortal Shell 2]]가 2026-08-20 출시 후 첫 주말에 **51만 장·\$23M**을 냈다(Alinea 추정). 소규모 팀의 컬트 히트 속편이 장르 대작 가격대(\$49.99)에서 성립한 사례.
+[[cold-symmetry|Cold Symmetry]] (개발)·Playstack(퍼블리싱)의 [[mortal-shell-2|Mortal Shell 2]]가 2026-08-20 출시 후 첫 주말에 **51만 장·\$23M**을 냈다(Alinea 추정). 소규모 팀의 컬트 히트 속편이 장르 대작 가격대(\$49.99)에서 성립한 사례.
 
 **장르 변주** — 스태미나 미터를 없애고, 패링을 보상 중심으로 설계하고, 플레이스타일을 갈아 끼우는 shell 시스템을 유지했다. 위 [장르 정의 요소](#장르-정의-요소)의 스태미나 항목이 *필수가 아님*을 보여주는 반례.
 

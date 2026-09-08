@@ -1,10 +1,10 @@
 ---
 title: "가격 분포 — 미싱 미들 vs 양끝 확산"
 type: comparison
-sources: ["[[newzoo-pc-console-2026]]", "[[carless-hit-pc-genres-2021-2025]]", "[[gi-newzoo-console-gta6-2026-08]]", "[[missing-middle-paradigm-shift-2026]]", "[[carless-genres-ruled-steam-2025-06]]"]
+sources: ["[[newzoo-pc-console-2026]]", "[[carless-hit-pc-genres-2021-2025]]", "[[gi-newzoo-console-gta6-2026-08]]", "[[missing-middle-paradigm-shift-2026]]", "[[carless-genres-ruled-steam-2025-06]]", "[[alinea-steam-15b-mid-market-2026-09]]"]
 related: ["[[game-pricing-strategy|게임 가격 전략]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[game-market-trends|시장 구조 변화]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[reports/pc-console-pricing-playbook|기준 가격 결정 가이드]]"]
 created: 2026-08-31
-updated: 2026-08-31
+updated: 2026-09-08
 confidence: medium
 ---
 
@@ -50,6 +50,17 @@ Newzoo Rosier의 *"인디 게임이 \$20이 아니라 \$30이 됐다. 상단 가
 
 - 가격 중간 밴드에서 이기는 게임은 무포커스가 아니라 **포커스가 뚜렷한 저·중예산 프리미엄**이다 — [[arc-raiders]] \$39.99, [[clair-obscur-expedition-33]] \$49.99, [[helldivers-2]] \$39.99.
 - 반대로 무포커스 \$70 대작은 두 논지 모두에서 가장 불리한 자리에 있다.
+
+## 네 번째 렌즈 — 매출 순위로 본 중간층 ([[alinea-steam-15b-mid-market-2026-09]])
+
+2026-09에 같은 논쟁에 렌즈 하나가 더 붙었다. 이번엔 가격이 아니라 **매출 순위**다.
+
+- 주장(Joost van Dreunen): Steam의 성장이 블록버스터에서 중간층으로 옮겨 갔다. 근거는 **매출 순위 101~1000위 구간**의 확대
+- 반박(Alinea): 그 구간 900종 중 **83%가 2026년 이전 출시작**이고, 생애 누적 \$50M 이상을 번 게임이 구간 매출의 **51%**를 차지한다. Skyrim·DOOM Eternal·Assassin's Creed Origins 같은 옛 대작이 할인가로 순위를 타고 내려와 앉아 있는 것
+
+> 💡 **이 페이지의 원칙이 그대로 적용된다 — 무엇을 재고 있는지 먼저 물어라.** A는 *가격 밴드의 매출*, B는 *히트작 개수의 가격 중앙값*, 그리고 이번 D는 *매출 순위 구간의 구성*이다. **오늘의 매출 순위는 그 게임이 어떤 예산·규모의 게임인지 말해주지 않는다.** 2026년에 \$4M을 번 게임이 몇 년 전 \$100M 예산으로 만들어진 것일 수도, 예산 \$5M짜리 신작일 수도 있다. 순위표에서 옆자리에 앉았을 뿐이다.
+
+⚠️ 단 Alinea도 **대안 정의를 내놓지 않는다.** "순위로 미드마켓을 정의하지 말라"까지는 맞지만, 예산·팀 규모 데이터가 없으니 *새 중형 게임이 실제로 자라는가*는 이 렌즈로도 미해결로 남는다. 근거 하나를 무효화했을 뿐 반대 결론을 세운 것은 아니다.
 
 ## 실무 결론
 

@@ -2,10 +2,13 @@
 title: "소스 전체 목록"
 ---
 
-총 192개 | 최신순 정렬
+총 195개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [gi-sega-super-game-cancelled-2026-09](gi-sega-super-game-cancelled-2026-09.md) | GI.biz — 세가, 라이브 서비스 대작 Super Game 취소 (McEvoy, 니케이 경유) — 2021 발표·최대 \$10억 투자 검토·기술이 아니라 운영 규모 임계점이 사유·"지금은 리스크 과다"·PSO2 NGS·Total War 40K는 유지·2023 Hyenas 취소 전력 | 2026-09-07 |
+| [gi-tencent-live-service-strategy-2026-09](gi-tencent-live-service-strategy-2026-09.md) | GI.biz — 텐센트의 장기 전략: 라이브 서비스·에버그린·AI 툴 (Packwood, Zhu 인터뷰) — "성배는 라이브 서비스"·에버그린과 분리해서 씀·스튜디오 20곳 지원 모델·인수 후 분리도 정상 경로·작은 코어+외주·북미 헤드카운트 이탈·AI는 도구까지, 데이터는 사외 반출 금지 | 2026-09-05 |
+| [alinea-steam-15b-mid-market-2026-09](alinea-steam-15b-mid-market-2026-09.md) | Alinea — Steam 올해 총매출 \$15B, 그리고 '미드마켓'의 정체 (Elliott) — YTD \$15B(+15%)·8개월에 2023 연간 추월·연 \$20B 전망·신작 top100 = 전체 15.9%·신규 IP 개수 63% 매출 47.5%·101~1000위의 83%가 구작·생애 \$50M+가 구간 매출 51% | 2026-09-04 |
 | [gi-newzoo-console-gta6-2026-08](gi-newzoo-console-gta6-2026-08.md) | Newzoo Rosier — GTA 6가 없으면 2026 콘솔은 역성장 (GamesIndustry.biz 인터뷰) — 콘솔 \$46.9B·+5.1%의 동인은 GTA 6와 Switch 2 둘뿐·GTA 6 풀게임 지출 +17.5%·잠식 인정(규모 미제시)·2027 forecast에 PC판 포함·가격 탄력성 낮음·상단 인상이 시장 리프트 | 2026-08-27 |
 | [carless-hit-pc-genres-2021-2025](carless-hit-pc-genres-2021-2025.md) | GameDiscoverCo — 히트 PC 게임 장르 변동 2021 → 2025 (Carless) — 로그라이트 +39·로그라이크 +37로 판매량·매출 양쪽 1·2위·JRPG −24·RTS −17·턴제 −19·라이프심 +31·아이들러 +46·히트작 중앙값 \$19.99 → \$16.99 | 2026-08-26 |
 | [alinea-mortal-shell-2-launch-2026-08](alinea-mortal-shell-2-launch-2026-08.md) | Alinea — Mortal Shell 2 첫 주말 51만 장·\$23M, 데모가 밀어올렸다 (Elliott) — 데모 100만 플레이·구매자 1/3이 데모 경유·스팀 오디언스 91%가 신규·중국어 리뷰 51%가 종합 76%로 끌어내림·부록 How to Fish 190만·MW4 40만·헬다이버즈 2 22.9M | 2026-08-25 |

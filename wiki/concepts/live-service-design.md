@@ -1,10 +1,10 @@
 ---
 title: "라이브 서비스 설계"
 type: concept
-sources: ["[[missing-middle-paradigm-shift-2026]]", "[[ukyou-mobile-liveservice-survival]]", "[[ukyou-mobile-liveservice-walls]]", "[[ign-generations-in-play-2026]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[gi-sony-live-service-opportunity-cost-2026-08]]"]
+sources: ["[[missing-middle-paradigm-shift-2026]]", "[[ukyou-mobile-liveservice-survival]]", "[[ukyou-mobile-liveservice-walls]]", "[[ign-generations-in-play-2026]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[gi-sony-live-service-opportunity-cost-2026-08]]", "[[gi-tencent-live-service-strategy-2026-09]]", "[[gi-sega-super-game-cancelled-2026-09]]"]
 related: ["[[helldivers-2|헬다이버스 2]]", "[[arc-raiders|아크 레이더스]]", "[[arrowhead-game-studios|애로우헤드]]", "[[embark-studios|엠바크 스튜디오]]", "[[community-management|커뮤니티 운영]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[player-retention|플레이어 리텐션]]", "[[engagement-loop|인게이지먼트 루프]]"]
 created: 2026-04-23
-updated: 2026-08-24
+updated: 2026-09-08
 confidence: high
 ---
 
@@ -100,6 +100,25 @@ TRPG 던전 마스터 개념을 라이브 서비스에 도입. 정해진 스크�
 → Gen Z 타깃 라이브 게임은 F2P + 강력한 UGC·소셜 기능 + 거주형 진행이 default 조합. 풀가격 라이브 서비스는 Gen X·M에는 commitment 신호로 작동하지만 Gen Z 도입에는 진입 장벽.
 
 > 💡 **세대 OS 시사:** "라이브 서비스에서 유저가 왜 떠나는가"의 답은 세대마다 다르다. Gen X·M은 *해야 할 일이 끝났을 때* 떠나고, Gen Z는 *함께 놀 사람이 없을 때* 떠난다. retention 진단·설계를 단일 모델로 하면 한 세대를 잃는다.
+
+## 밀고 가는 쪽과 접는 쪽 — 2026-09 세 회사 ([[gi-tencent-live-service-strategy-2026-09]] · [[gi-sega-super-game-cancelled-2026-09]])
+
+2026년 9월 첫 주에 정반대 결론이 이틀 사이로 나왔다. 세가는 2021년부터 준비하던 신규 IP 대형 라이브 서비스 *Super Game*을 중단했고, 텐센트는 *"우리의 성배는 라이브 서비스"*라고 말했다.
+
+| | 세가 | 텐센트 | 소니 |
+|---|---|---|---|
+| 만들려던 것 | 처음부터 만드는 **신규 IP** 대형 GaaS | 이미 굴러가는 GaaS의 **연장·확장** | 간판 스튜디오를 GaaS로 **전환** |
+| 필요한 운영 조직 | 지금부터 새로 키워야 함 | 이미 보유 | 새로 키우다 실패 |
+| 결론 | 리스크 과다 → 중단 | 계속 | 후퇴, 파이프라인 공백 |
+| 세는 비용 | **운영 규모의 임계점** | — | **기회비용**(한 세대 공백) |
+
+세가 우츠미 슈지의 취소 사유가 정확히 이 지점이다 — *"우리에게 필요한 기술이 있다고 가정하고 추진했지만, 서비스 규모에 맞추려면 투자와 운영 규모가 막대하게 커져야 한다는 것을 알게 됐다."* 기술이 아니라 **떠받칠 조직의 크기**가 문제였다는 뜻이다.
+
+> 💡 **핵심 인사이트 — 라이브 서비스에 대한 찬반을 가르는 변수는 철학이 아니라 이미 가진 것이다.** 운영 조직·백엔드·커뮤니티·지역 퍼블리싱을 갖춘 회사에게 라이브 서비스는 한계비용이 낮은 확장이고, 없는 회사에게는 게임 개발비보다 큰 신규 투자다. 텐센트가 근거로 드는 것도 새 프로젝트가 아니라 *이미 15년 굴러가는* Honor of Kings·LoL·Valorant다. **"라이브 서비스를 할 것인가"가 아니라 "우리가 그 규모의 운영을 떠받칠 수 있는가"가 실제 질문이다.**
+
+텐센트 쪽에서 하나 더 가져올 것은 **라이브 서비스와 [[evergreen-ip|에버그린]]을 분리해 쓴다**는 점이다. 목표는 오래가는 관계이고, 운영형 게임은 그 해법 중 가장 강한 것일 뿐이다 — 시리즈를 반복 출시하는 Call of Duty도 같은 목적함수의 다른 해법으로 친다. 이 프레임에서는 [[catalog-economics|카탈로그 이코노믹스]]와 라이브 서비스가 대립 항목이 아니다.
+
+⚠️ 두 소스의 성격이 다르다. 텐센트는 **자사 전략을 말하는 임원 인터뷰**(검증 수치 없음), 세가는 **2차 인용을 거친 사장 발언**(투입 비용 비공개)이다. 동등한 증거가 아니라 입장이 다른 진술로 읽을 것.
 
 ## 세지 않은 비용 — 파이프라인 공백 ([[gi-sony-live-service-opportunity-cost-2026-08]])
 

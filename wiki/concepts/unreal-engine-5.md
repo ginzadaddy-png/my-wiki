@@ -50,7 +50,7 @@ UE5 등장으로 *독자 엔진 ROI 분기점*이 위로 이동:
 
 | 스튜디오 규모 | UE5 이전 권장 | UE5 이후 권장 |
 |---|---|---|
-| ~50명 단일 IP | 서드파티 (Unity 등) | UE5 무수정 (샌드폴 모델) |
+| ~50명 단일 IP | 서드파티 ([[unity-engine]] 등) | UE5 무수정 (샌드폴 모델) |
 | 50~300명 멀티 IP | 트레이드오프 | UE5 + 사내 plug-in 레이어 |
 | 300명+ 시리즈 IP | 독자 엔진 (캡콤 RE ENGINE) | 독자 엔진 유지 (캡콤·록스타 RAGE·CDPR REDengine) |
 | 차세대 GTA 급 | 독자 엔진 필수 | 독자 엔진 필수 |
@@ -115,5 +115,5 @@ UE5 Blueprint는 [[designer-empowerment]]의 *기술적 인프라*:
 - UE5 Stutter·셰이더 컴파일 문제 — 출시 후 patch로 해결한 케이스 정량 분석
 - *Nanite + Lumen* VRAM 부하 — 미들엔드 GPU에서 미싱 미들 게임 frame drop 사례
 - *Epic 라이선스* — Unreal Engine 5.x 사용료 정책 변경 이력
-- Unity vs UE5 결정 분기 — 인디·중소 스튜디오의 *실제 선택 기준* 인터뷰 수집
+- Unity vs UE5 결정 분기 — 인디·중소 스튜디오의 *실제 선택 기준* 인터뷰 수집. 위키가 지금까지 모은 Unity 언급은 [[unity-engine|Unity 엔진]]으로 정리했으나, 갭 자체는 그대로 남아 있다
 - CDPR REDengine 포기 사례 — 독자 엔진 *유지 비용* vs UE5 *전환 비용*의 ROI 비교

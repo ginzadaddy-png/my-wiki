@@ -2,6 +2,71 @@
 title: "활동 로그"
 ---
 
+## [2026-09-08] lint | 주간 정기 점검 (스케줄 루틴)
+
+- 빌드: **통과** (419개 파싱·885 emit·42초). frontmatter YAML 오류 0건 → 자동 수정 없음. overview.md 편집 후 재검사도 통과(419·885·41초)
+- 모순 **17 블록**(미해소 **2건** — naavik-xbox 하드웨어 해석, gdc26-idg 전망 온도차. 지난주와 동일). 신규 1건은 alinea-steam-15b의 미싱 미들 각도 차이로 *같은 날 정리로 해소*
+  - 검출 메모: 신규 블록이 `> ⚠️ **모순 —` 형태(볼드 안쪽)라 기존 `⚠️ 모순` 문자열 grep에 안 걸렸다. 다음 점검부터 볼드 마커 사이를 허용하는 패턴으로 셀 것
+- **완전 고립 0건** / 카탈로그·index에서만 참조 4건(ps4·xbox-one graph 전용, 보고서 2건 구조상 정상 — 지난주와 동일) / 끊긴 wikilink 본문 **7종**(dear-passengers·paralives·mojang·flexus·honkai-star-rail·paralives-studio·wild-rift, 지난주와 동일·신규 0)
+- 미페이지 개념: **Roblox 9파일**(전용 소스 페이지까지 있는데 엔티티 없음) · **Discord 15파일** · **Unity 11파일**(UE5는 페이지 있음) · Minecraft 7·Mojang 2(지난주 이월)
+- raw 미처리 **2건**(kasavin-hades-early-access·vincke-bg3-early-access) — 둘 다 08-24에 중복 판정된 이월 건, 신규 0
+- 자동 갱신: `_ops/status.md` 통계 6곳(INGEST 77→78·소스 192→195·엔티티 108→109·총 md 416→419·헤더 날짜·마지막 갱신) / `wiki/overview.md` 커버리지 스튜디오 51→52(텐센트 추가) + 핵심 테마 2건 추가(mid-price-sweet-spot·long-tail-survival-economics, 둘 다 7피인용으로 임계 도달)
+- 미수정 보고: `_ops/status.md` 3번째 줄이 삭제된 `wiki/about.md`를 가리킴 → `wiki/overview.md`로 교체 필요(자동 수정 범위 밖이라 보고만)
+- 분기 검토 알림: 해당 없음 (다음 2026-10-01~07)
+- changelog 2026-09 1주차 블록은 **초안만 제시** — 사용자 승인 후 반영
+- 미push 누적: 수정 11 + 신규 4 (09-08 ingest 3소스·1엔티티). 커밋·push 대기
+- 사용자 승인 후 changelog 2026-09 1주차 블록 반영 · `_ops/status.md`의 about.md 스테일 참조 수정 · **조사 주제 1~5 전건 실행**(아래 후속 항목)
+
+## [2026-09-08] lint 후속 | 조사 주제 1~5 전건 실행 — Roblox·Unity·에버그린·Discord 회수 + 끊긴 링크 전량 해소
+
+- 트리거: 2026-09-08 lint가 제안한 조사 주제 5건을 사용자가 **전부 선택**
+- 생성(entity 6):
+  - **roblox** — 위키 9파일에 흩어진 언급 회수. 두 방향으로 쓰인다는 정리(① Gen Alpha 진입구 ② 플랫폼 권력의 청구서)가 축. 2026 Q2 목적함수 변경 대가(주가 70–73%↓·Q3 부킹 14–18%↓·연간 가이던스 철회)와 되돌릴 수 없는 이유(EU VLOP)를 한 곳에. ⚠️ Newzoo "프랜차이즈 1위"는 *플레이타임* 렌즈라는 집계 주의 블록 포함
+  - **mojang** — 끊긴 wikilink 해소 + 미페이지 개념(Minecraft·Mojang) 동시 처리. 세 준거점(Xbox 수익성 자산 / 크리에이터 코드 침투율 29.7%·\$118.6M / 스웨덴 생태계 발원점). **Minecraft 전용 페이지는 만들지 않음** — 1차 자료 미ingest, 언급이 전부 타 주제의 준거점
+  - **paralives** · **paralives-studio** · **dear-passengers** · **flexus** — 끊긴 링크 4종 해소. 전부 기존 Carless 소스 2건에서 확인 가능한 범위로만 작성
+- 생성(concept 2):
+  - **unity-engine** — Unity 언급 11건 회수. 관측된 세 패턴(개량형 호요버스 / 하이브리드 Ratatan / 소팀 기본값)이 전부 *"엔진을 그대로 쓰지 않는다"*는 공통점을 갖는 반면 UE5 대표 사례는 *"무수정"*이라는 대비를 세움. **confidence low** — 1차 자료 미ingest, "갭을 메운 게 아니라 갭의 위치를 명확히 한 것"으로 명시
+  - **evergreen-ip** — 텐센트 인터뷰가 그은 선(에버그린 ⊃ 라이브서비스)을 3갈래 층위로 정리(라이브서비스형·시리즈 반복형·카탈로그 롱테일형). Roblox 사례를 **반례**로 배치 — 에버그린화가 시간당 수익률을 낮출 수 있음. 한계 3종 명시(정의의 사후성·출처가 이해관계자·생존자 편향)
+- 판정(신규 페이지 없음): **Discord 15파일 → 독립 페이지 만들지 않음.** 전부 채널 운영·측정 맥락이고 community-management·marketing-channels·launch-metrics 세 곳이 이미 각 층을 맡고 있어 복제가 됨 → **community-management에 "Discord — 채널로서의 실측 위치" 절 신설**하고 나머지는 링크로. 판정 근거를 페이지에도 남김
+  - 이 절의 핵심: Discord가 예측력을 갖는 이유는 **가입·참여에 마찰이 있어서** — 그래서 *몇 명인가*가 아니라 *늘고 있는가*가 신호(개발사 5% vs 48% 대비, ZR Forecaster의 "절대 사이즈보다 성장률")
+- 업데이트(11): player-retention · audience-discovery-systems · engagement-loop · console-retail-strategy(Roblox 노드화) / unreal-engine-5 · proprietary-engine-vs-ue5 · hoyoverse · ratatan(unity-engine 연결) / live-service-design · tencent · catalog-economics(evergreen-ip 연결)
+- 링크 해제(2): hoyoverse의 honkai-star-rail · league-of-legends의 wild-rift → plain text. 1차 자료가 없어 스텁을 만들 근거가 부족 (테이블 셀 규칙대로 plain 처리)
+- **끊긴 wikilink 7종 → 0건.** 완전 고립도 0건 유지
+- 카탈로그: entities/all(스튜디오 +3·게임 +2·미디어플랫폼 +1) · concepts/all(+2) · index.md(스튜디오 52→55·게임 44→46·개념 77→79·pill 2개) · overview.md 커버리지 3행 · _ops/status.md(개념 79·엔티티 115·총 md 427)
+- 정리 2건 (조사 주제와 별개로 검수 중 발견):
+  - **`[[slug|alias]](괄호)` 위반 19곳 → 8파일 수정**. CLAUDE.md가 금지한 패턴(Quartz가 표준 마크다운 링크로 오인 → 404)인데 vault 전역에 남아 있었다. `]](` → `]] (`로 일괄 교정: changelog · soulslike · cold-symmetry · game-science · paralives · alinea-mortal-shell-2-launch · bain-gaming-report-2026 · newzoo-pc-console-2026
+  - **live-service-design.md CRLF→LF churn 복원**. 09-08 ingest 세션이 줄바꿈을 바꿔 놔 diff가 271줄로 부풀어 있었음 → HEAD 기준(CRLF)으로 되돌려 21줄로 축소. 전체 diff도 388/185 → 264/61
+    - ⚠️ **검사 도구 메모**: Bash `grep -c $''`가 이 환경에서 신뢰할 수 없다(LF 파일에 전 줄 매칭하는 위양성). 줄바꿈 검사는 **python으로 `git show HEAD:파일`과 바이트 비교**할 것
+- 빌드: 통과 (427 파싱·902 emit)
+- 미커밋 상태 — push는 사용자 확인 후
+
+## [2026-09-08] ingest | source radar 후보 3건 — Steam \$15B·미드마켓 반박 / 텐센트 라이브서비스 / 세가 Super Game 취소
+
+- 트리거: 2026-09-08 source radar 주간 스캔(윈도우 09-01~09-08, 후보 33건) → 사용자가 **후보 ①②③ 선택**
+- ⚠️ **radar 보고 날짜 정정**: Alinea 글을 09-03으로 보고했으나 원문 게시일은 **09-04**(아카이브 목록과 본문 표기 불일치). 소스 페이지에는 09-04로 기록
+- Source: 웹 3건 (raw/ 미적재, 직접 ingest)
+  - [Steam has already generated \$15B in gross revenue this year](https://alineaanalytics.substack.com/p/steam-has-already-generated-15b-in) — Rhys Elliott / Alinea Analytics, 2026-09-04
+  - [Inside Tencent's long-term strategy: live service, AI tools, and evergreen titles](https://www.gamesindustry.biz/inside-tencents-long-term-strategy-live-service-ai-tools-and-evergreen-titles) — Lewis Packwood / GamesIndustry.biz, 2026-09-05 (인터뷰이 Yong-yi Zhu)
+  - [Sega cancelled its "risky" Super Game project…](https://www.gamesindustry.biz/sega-cancelled-its-risky-super-game-project-as-it-would-have-to-grow-enormously-to-match-the-scale-of-the-service) — Sophie McEvoy / GamesIndustry.biz, 2026-09-07 (니케이 → VGC 경유 2차 인용)
+- **fetch 메모**: gamesindustry.biz는 WebFetch 403 → 크롬 MCP(`claude-in-chrome`)로 본문 확보. Alinea Substack도 본문 정확도 위해 크롬으로 재확인(WebFetch 요약엔 없던 rank 101~1000 세부 수치 회수). 메모리 `feedback_webfetch_chrome_fallback` 절차대로
+- 생성(source 3):
+  - **sources/alinea-steam-15b-mid-market-2026-09.md** — YTD \$15B(+15%)·8개월에 2023 연간 추월·연 \$20B 전망·신규 출시 19K / 신작 top6 = 6.6%·top100 = 15.9%(\$2.4B)·신규 IP 개수 63%지만 매출 47.5%, Crimson Desert \$203M 빼면 39% / **핵심은 미드마켓 반박** — van Dreunen의 "101~1000위 = 미드마켓" 전제를 깨는 데이터(83%가 구작·2/3가 2년 이상·생애 \$50M+가 구간 매출 51%·\$100M 초과 140종)
+  - **sources/gi-tencent-live-service-strategy-2026-09.md** — "성배는 라이브 서비스"·에버그린을 라이브서비스보다 넓게 정의(CoD 사례)·스튜디오 20곳 지원 모델(퍼블리싱·백엔드·분석은 본사, 크리에이티브는 스튜디오)·인수 후 분리도 정상 경로·"5,000만 파운드 미만은 안 본다"는 Bulkhead CEO 주장 반박·Larian/FromSoftware를 북극성으로 지목·작은 코어+외주(Expedition 33 참조)·북미 헤드카운트 이탈·AI는 도구까지만+데이터 사외 반출 금지 계약
+  - **sources/gi-sega-super-game-cancelled-2026-09.md** — 2021 발표·최대 \$10억 투자 검토했던 신규 IP 대형 GaaS를 2026년 중 중단. 사유가 기술이 아니라 **운영 규모 임계점**("서비스 규모에 맞추려면 투자·운영이 막대하게 커져야 함"). PSO2 NGS·Total War 40K는 유지. 2023 Hyenas 취소 전력
+- 생성(entity 1): **entities/tencent.md** — 위키 23개 파일이 텐센트를 언급하는데 페이지가 없었음(LINT 3회+ 규칙 해당). `relations: parentOf: [riot-games, supercell]`. 지분율은 기존 위키 페이지들이 쓰던 값을 모은 것이며 이번에 새로 검증하지 않았음을 페이지에 명시
+  - **sega entity는 만들지 않음** — 위키 전체 언급 1건으로 임계 미달
+- 업데이트(concept 5 + comparison 1 + source 1):
+  - **catalog-economics** — 신규 섹션 "중간 순위 구간의 정체". H1 79%에 이어 *카탈로그가 신작을 밀어내는 자리가 상위권이 아니라 중간 순위*라는 미시 증거
+  - **hit-driven-strategy** — 신규 섹션 "히트 주도형은 끝나지 않았다, 다만 히트작이 늙었다". 홈런과 카탈로그가 대립이 아니라 *같은 게임의 다른 시점*이라는 정리
+  - **live-service-design** — 신규 섹션 "밀고 가는 쪽과 접는 쪽 — 2026-09 세 회사"(세가·텐센트·소니 3열 비교). 찬반을 가르는 변수가 철학이 아니라 *이미 보유한 운영 조직*이라는 인사이트
+  - **ai-gamedev** — 신규 섹션 "대형 퍼블리셔의 실무 방침"(도구까지만·데이터 격리·지역차). ⚠️ 사전학습 데이터 문제를 비켜간다는 한계 명시
+  - **dev-org-structure** — 신규 섹션 "스튜디오 20곳을 굴리는 지주 모델"(본사/스튜디오 분담·이동 가능한 전문성 풀·지리 변수)
+  - **comparisons/price-distribution-middle-vs-barbell** — 신규 섹션 "네 번째 렌즈 — 매출 순위로 본 중간층". 기존 A(가격 밴드 매출)·B(히트작 가격 중앙값)에 D(순위 구간 구성) 추가
+  - **sources/missing-middle-paradigm-shift-2026** — related에 신규 소스 연결
+- 카탈로그: sources/all(+3, 192→195) · entities/all(스튜디오 +1) · index.md(소스 192→195·스튜디오 51→52·Last updated)
+- 모순: **1건 표기** — alinea-steam-15b 페이지에 ⚠️ 블록. [[missing-middle-paradigm-shift-2026]]의 "AA 중형이 시장 주도" 프레임과 Alinea의 "여전히 히트 주도형" 사이 각도 차. 재는 대상이 다르다(예산대 성공 vs 순위 구간 구성)는 정리로 해소하되, *"순위 구간 = 게임 유형"으로 읽지 말 것*을 결론으로 남김
+- **미커밋 상태** — 커밋·push는 다음 주간 LINT에서 일괄 처리 (INGEST 절차 9번). 챗봇 재색인은 delist로 해당 없음
+
 ## [2026-08-31] 배포 | 주간 LINT 배포 창구 — push 2건 + 챗봇 재색인·Space 재배포
 
 - push: **80d763a**(lint + 조사주제 5건 전건 실행, 33파일·952 insertions) → **a3a97ba**(Game Pass 출처 귀속 정정, 13파일)

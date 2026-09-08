@@ -9,11 +9,12 @@ sources: [
   "[[gdc26-production-traps]]",
   "[[multiproject-innersource-report]]",
   "[[gcon2025-hashimoto-producer]]",
-  "[[cedec2026-crimson-desert-world-first]]"
+  "[[cedec2026-crimson-desert-world-first]]",
+  "[[gi-tencent-live-service-strategy-2026-09]]"
 ]
-related: ["[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[studio-culture|스튜디오 문화]]", "[[producer-role|프로듀서 역할]]", "[[studio-org-structure|스튜디오 조직 구조 비교]]", "[[pearl-abyss|펄어비스]]", "[[designer-empowerment|디자이너 도구화]]"]
+related: ["[[tencent|텐센트]]", "[[small-team-development|소규모 팀 개발]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[studio-culture|스튜디오 문화]]", "[[producer-role|프로듀서 역할]]", "[[studio-org-structure|스튜디오 조직 구조 비교]]", "[[pearl-abyss|펄어비스]]", "[[designer-empowerment|디자이너 도구화]]"]
 created: 2026-04-16
-updated: 2026-07-30
+updated: 2026-09-08
 confidence: high
 ---
 
@@ -132,5 +133,23 @@ XML을 고른 근거가 조직 관점에서 읽힌다:
 | 프로그래머 | 요청 처리 | 시스템의 실제 사용 패턴 관찰 |
 
 핵심 효과는 *한 명의 디자이너가 서로 다른 파이프라인을 배우지 않고 여러 콘텐츠 영역을 담당*할 수 있게 된 것. 위 스크럼의 "크로스 디시플린 팀"이 사람 배치로 소통 비용을 줄이는 방식이라면, 이것은 **공통 데이터 포맷으로 소통 자체를 불필요하게 만드는** 방식이다. → [[designer-empowerment|디자이너 도구화]]
+
+## 스튜디오 20곳을 굴리는 지주 모델 ([[gi-tencent-live-service-strategy-2026-09]])
+
+위 사례들이 *한 스튜디오 안의* 조직 설계라면, [[tencent|텐센트]]의 글로벌 게임 사업은 **여러 스튜디오 위에 얹는 층**을 어떻게 설계할지의 문제다. 산하 약 20개 스튜디오(Miniclip·Sumo Digital·Funcom·Sharkmob·10 Chambers·Digital Extremes·Grinding Gear Games 등)를 두고 본사가 나누는 선이 분명하다.
+
+| 본사가 제공 | 스튜디오가 보유 |
+|---|---|
+| 지역 퍼블리싱(중동·북아프리카·동남아) · 기술 지원 · 테스트 · 백엔드 · 분석 | **크리에이티브·아트 설계** |
+| 여러 스튜디오에 공통으로 걸리는 문제(예: 언리얼 엔진 이슈) | 개별 프로젝트 판단 · 외주 비중 결정 |
+
+운영 방식이 [[innersource|이너소스]]와 닮았다. Dune Awakening에서는 중국·유럽 전문가가 Funcom 개발자 **옆에 앉아** 문제를 함께 풀었고, 문제가 이어지면 남고, 잘 맞으면 그 사람이 해당 스튜디오 정직원으로 옮기기도 한다 — 중앙 조직을 상설 부서가 아니라 **이동 가능한 전문성 풀**로 쓰는 형태.
+
+두 가지가 더 눈에 띈다.
+
+- **작은 코어 팀 + 외주** 모델을 표준으로 본다. 판단 기준은 *몇 명을 정직원으로 두고 몇 명을 외주로 쓰는가*이며 결정은 스튜디오장 몫. 정밀하고 촘촘한 작업은 한곳에 모으려 한다. [[clair-obscur-expedition-33|Expedition 33]]의 개발 사이클을 참조 사례로 든다
+- **지리가 조직 변수다.** 같은 시간대 파트너를 원하는 팀과 먼 파트너로 충분한 팀이 갈리고, 영국은 가깝지만 비싸다는 트레이드오프가 붙는다. 북미에 대해서는 *"오래 손발을 맞춘 탄탄한 팀이 아니면 점점 힘든 곳"*이라는 인식 → [[dev-talent-pipeline|개발 인재 파이프라인]]
+
+⚠️ 회사 임원의 자기 서술이고 검증 수치가 없다. 같은 인터뷰에서 스튜디오 분리(Splash Damage·Bulkhead 독립)를 *"시너지 부재"*로만 설명하는 등, 성과 근거 없이 서술되는 부분이 많다.
 
 > 💡 **핵심 인사이트:** 조직 구조는 게임 개발의 숨겨진 변수다. 같은 인원이라도 팀을 어떻게 나누고, 언제 합치고, 어떻게 소통하게 하느냐에 따라 결과물의 품질 상한선이 달라진다. 프롬소프트웨어의 유동 배치와 캡콤의 파이프라인은 서로 다른 규모에서의 해답이다. 그리고 어떤 규모에서도 프로듀서의 핵심은 "결정하는 사람"이 아니라 "팀을 정렬시키는 사람"이다.

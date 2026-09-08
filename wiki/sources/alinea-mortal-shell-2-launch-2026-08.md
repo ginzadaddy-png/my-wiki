@@ -13,7 +13,7 @@ confidence: medium
 
 **원문**: [Mortal Shell 2 passed half-a-million sold in its first weekend](https://alineaanalytics.substack.com/p/mortal-shell-2-passed-half-a-million) — Rhys Elliott, Alinea Analytics, 2026-08-25
 
-[[cold-symmetry|Cold Symmetry]](개발)·Playstack(퍼블리싱)의 소울라이크 [[mortal-shell-2|Mortal Shell 2]]가 2026-08-20 출시 후 첫 주말에 낸 성적. 부록으로 How to Fish·Modern Warfare 4·[[helldivers-2|헬다이버즈 2]] 추정치가 함께 실렸다.
+[[cold-symmetry|Cold Symmetry]] (개발)·Playstack(퍼블리싱)의 소울라이크 [[mortal-shell-2|Mortal Shell 2]]가 2026-08-20 출시 후 첫 주말에 낸 성적. 부록으로 How to Fish·Modern Warfare 4·[[helldivers-2|헬다이버즈 2]] 추정치가 함께 실렸다.
 
 > 💡 **핵심 인사이트 — 데모가 속편의 오디언스를 새로 만들었다.** 본편 플레이어의 **약 3분의 1이 데모를 먼저 했고**, 스팀 구매자 중 **1편을 해 본 사람은 9%뿐**이었다. 즉 이 속편의 스팀 오디언스 **91%가 신규**다. 컬트 히트의 속편이 전작 팬덤이 아니라 *데모*로 오디언스를 조달한 사례.
 

@@ -29,7 +29,7 @@ relations:
 1. **F2P + 가챠 + AAA 비주얼 결합** — 모바일 가챠 모델 ARPU + PC·콘솔급 비주얼 충실도. 산업 표준을 *모바일 기대치 위로* 끌어올림
 2. **글로벌 cross-platform** — 모바일·PC·PS·Xbox cross-play·cross-save 표준화. 플랫폼별 모객을 *한 IP에 통합*
 3. **6주 update 사이클** — 정기 *Version update* (1.0·1.1·1.2…) 모델. 매 사이클마다 신규 캐릭터·지역·이벤트로 *retention 가속*
-4. **자체 엔진 + 자체 IP** — Unity 기반 자체 개량 엔진. *Tech Otakus* DNA가 엔진 통제·IP 통제로 직결
+4. **자체 엔진 + 자체 IP** — [[unity-engine|Unity]] 기반 자체 개량 엔진. *Tech Otakus* DNA가 엔진 통제·IP 통제로 직결
 5. **중국 본토 ↔ 글로벌 이중 운영** — Cognosphere(글로벌)·miHoYo(중국)을 *법인 분리*해 *중국 규제*와 *글로벌 마케팅* 동시 대응
 
 ## 라이브 서비스 모델 분석
@@ -69,7 +69,7 @@ relations:
 ## 관련 위키 페이지
 
 - [[genshin-impact|원신 (Genshin Impact)]] — 주력 IP
-- [[honkai-star-rail|Honkai: Star Rail]] — 차세대 IP (페이지 미생성, 추후)
+- **Honkai: Star Rail** — 차세대 IP (전용 페이지 미생성 — 1차 자료 미수집)
 - [[mobile-gamedev|모바일 게임 개발]] — 원신 쇼크의 역설 인용
 - [[live-service-design|라이브 서비스 설계]] — 비약탈적 가챠 모델
 - [[catalog-economics|카탈로그 이코노믹스]] — 라이브 서비스 변형으로의 catalog 모델

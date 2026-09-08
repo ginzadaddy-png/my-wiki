@@ -2,7 +2,7 @@
 title: "전체 개념 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-08-31
+updated: 2026-09-08
 ---
 
 ← [홈으로](../index.md)
@@ -26,6 +26,7 @@ updated: 2026-08-31
 | [[art-pipeline-design]] | **아트 파이프라인 설계** — Houdini·USD·kit-bash·late lock-down·90:10 도구화 (Embark·Asobo·Sandfall) |
 | [[proprietary-engine-strategy]] | **독자 엔진 전략** — RE ENGINE vs 서드파티 무수정 |
 | [[unreal-engine-5]] | **Unreal Engine 5** — Nanite·Lumen·MetaHuman·Blueprint 95% (33원정대) |
+| [[unity-engine]] | **Unity 엔진** — 개량·하이브리드·소팀 기본값 3패턴, UE5와 갈리는 지점은 아직 미수집 |
 | [[innersource]] | **이너소스** — 오픈소스 방식의 사내 기술 공유 모델 |
 | [[ai-gamedev]] | **게임 개발에서의 생성형 AI** — 정서 데이터·도입 원칙·역할 변화 |
 | [[ai-asset-pipeline]] | **AI 게임 에셋 산업화 파이프라인** — 단점 생성 한계·포맷 통일·경험 침전·노드 캔버스 (텐센트 Light AI) |
@@ -47,6 +48,7 @@ updated: 2026-08-31
 | [[game-pricing-strategy]] | **게임 가격 전략** — 가격대 지형, 지역 차등화, 세일 타이밍, 비즈니스 모델 |
 | [[console-retail-strategy]] | **콘솔 리테일·유통 전략** — 디스크 vs 디지털 단위 경제, 패키지 비중 편차, 에디션 티어링, 진입 사다리 |
 | [[catalog-economics]] | **카탈로그 이코노믹스** — 시리즈 IP의 장기 매출 모델, 캡콤 카탈로그 84% |
+| [[evergreen-ip]] | **에버그린 IP** — 라이브서비스형·시리즈 반복형·카탈로그 롱테일형 3갈래, 같은 목적함수의 다른 해법 |
 | [[long-tail-survival-economics]] | **롱테일 생존 경제학** — Top 20 밖 게임의 생존 조건·PC Rank 21+ ▲44%·progression 깊이·백카탈로그 |
 | [[mid-price-sweet-spot]] | **중가 프리미엄 스위트스폿** — $30–50 밴드 전 플랫폼 최고 성장·양극단 사이 회귀 |
 | [[remaster-rerelease-strategy]] | **구작 재발매·리마스터 전략** — 이식·리마스터·리메이크 3층, 노후도의 창, 가격 진입 스위치, 롱테일 할인 |

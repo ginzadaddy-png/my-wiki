@@ -4,11 +4,19 @@ type: concept
 sources: []
 related: ["[[index|전체 카탈로그]]", "[[overview|위키 소개]]"]
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-08
 confidence: high
 ---
 
 이 위키에 새로 추가·갱신된 내용을 **주단위**로 정리합니다. 개설(2026-04) 이후 전 기록을 리더 친화 하이라이트로 압축했으며, 최신 주가 위에 옵니다. 새 페이지는 링크로 바로 이동할 수 있고, 전체 목록은 [[index|전체 카탈로그]]에서 볼 수 있습니다.
+
+## 2026-09 1주차 (~09-08)
+
+- **새 엔티티** — [[tencent|텐센트]] (전 세계 개발사 지분 + 운영 서비스를 얹는 지주 모델의 표본)
+- **새 소스** — Alinea "스팀, 올해 이미 $15B" (미드마켓 부상론에 대한 데이터 반박) · GI.biz 텐센트 라이브 서비스 전략 인터뷰 · GI.biz 세가 Super Game 취소
+- **주요 갱신** — [[live-service-design|라이브 서비스 설계]]에 *밀고 가는 쪽과 접는 쪽* 3사 비교(세가·텐센트·소니) 추가 — 찬반을 가르는 건 철학이 아니라 이미 보유한 운영 조직. [[catalog-economics|카탈로그 이코노믹스]]는 *카탈로그가 신작을 밀어내는 자리가 상위권이 아니라 중간 순위*라는 증거를, [[hit-driven-strategy|홈런 전략]]은 *홈런과 카탈로그는 같은 게임의 다른 시점*이라는 정리를 얻었습니다.
+- **비교 확장** — [[price-distribution-middle-vs-barbell|가격 분포 비교]]에 매출 순위 구간으로 본 네 번째 렌즈 추가
+- **사이트 개편(09-03)** — 소개 페이지를 하나로 합치고, 이 [[changelog|업데이트 소식]] 페이지를 새로 열었습니다.
 
 ## 2026-08 5주차 (~08-31)
 
@@ -22,7 +30,7 @@ confidence: high
 
 - **새 비교 분석** — [[physical-retail-retention|물리 리테일 잔존율(플랫폼·퍼블리셔·타이틀 3층)]] · [[project-cycle-length|프로젝트 사이클 길이(초고속 vs 장기)]]
 - **새 소스** — Zukowski "황금기의 한 주"(초고속 출시 3연작) · Circana 미국 물리 판매 1995년 이후 최저 · Alinea 로그라이크 DLC 부속 판매율 · Derek Lieu 트레일러 비교
-- **주요 갱신** — [[launch-metrics|흥행 예측 지표]](커밍순 2주 위시리스트의 예측력 한계) · [[console-retail-strategy|콘솔 리테일 전략]](디지털 유도 장치 6종) · [[live-service-design|라이브 서비스 설계]](파이프라인 공백이라는 숨은 비용)
+- **주요 갱신** — [[launch-metrics|흥행 예측 지표]] (커밍순 2주 위시리스트의 예측력 한계) · [[console-retail-strategy|콘솔 리테일 전략]] (디지털 유도 장치 6종) · [[live-service-design|라이브 서비스 설계]] (파이프라인 공백이라는 숨은 비용)
 
 ## 2026-08 3주차 (~08-20)
 
@@ -78,7 +86,7 @@ confidence: high
 - **새 개념** — [[sound-design|사운드·음악 디자인]] · [[gameplay-feedback-audio|게임플레이 피드백 오디오]] (소리를 1차 전투 입력 채널로)
 - **새 비교 분석** — [[sekiro-vs-melee-combat-audio|세키로 vs 근접 전투 사운드]] · [[pcg-pure-vs-hybrid|절차적 생성: 순수 vs 하이브리드]]
 - **새 보고서** — [[reports/ai-asset-pipeline-2026-report|AI 에셋 파이프라인 분석]] (deck + 검증 종합)
-- **주요 갱신** — [[ai-asset-pipeline|AI 게임 에셋 산업화]](텐센트 Light AI) · [[roguelike|로그라이크]] 절차적 생성·난이도 사다리 심화
+- **주요 갱신** — [[ai-asset-pipeline|AI 게임 에셋 산업화]] (텐센트 Light AI) · [[roguelike|로그라이크]] 절차적 생성·난이도 사다리 심화
 
 ## 2026-06 2주차 (~06-08)
 

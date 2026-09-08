@@ -2,7 +2,7 @@
 title: "전체 개체 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-08-31
+updated: 2026-09-08
 ---
 
 ← [홈으로](../index.md)
@@ -69,6 +69,10 @@ updated: 2026-08-31
 | [[tvt]] | 일본 소규모 개발사 — [[ratatan]] 첫 풀 콘솔 게임, 15~20명 4기종 10언어, 자사 Theory Engine |
 | [[game-science]] | 중국 개발사 — [[black-myth-wukong]], 약 140명·UE5. 1차 자료 미ingest(confidence low) |
 | [[cold-symmetry]] | 글로벌 원격 팀 — Mortal Shell 2세대, 러시아 공동창업자, 퍼블리싱 Playstack |
+| [[tencent]] | 중국 선전 — 매출 기준 세계 최대 게임사, [[riot-games]]·[[supercell]] 모회사·[[epic-games]] 40%, 글로벌 스튜디오 약 20곳에 퍼블리싱·백엔드·분석을 얹는 지주 모델 |
+| [[mojang]] | 스웨덴 스톡홀름 — Minecraft 제작사, 2014 [[microsoft]] 인수. Xbox 수익성 자산·크리에이터 코드 침투율 29.7%·스웨덴 생태계 발원점 |
+| [[paralives-studio]] | 15명 인디 (Alex Massé) — 7년 Patreon 누적 약 \$300만으로 EA 이전에 팬층 선적립, [[paralives]] 첫 달 100만 장 |
+| [[flexus]] | 우크라이나 70명+ — 모바일 누적 3억 다운로드 이후 스팀 진입, [[dear-passengers]] 개발 (confidence low) |
 
 ## 미디어·플랫폼
 
@@ -78,6 +82,7 @@ updated: 2026-08-31
 | [[valve]] | 미국 워싱턴 벨뷰, 1996 설립, Steam(2003~) 운영자, 30/25/20% 수수료 구조, ML 알고리즘 + Steam Next Fest 분기별 운영 |
 | [[xsolla]] | 글로벌 게임 결제·커머스 B2B 인프라, merchant of record, 130개국+ APM, 웹샵·D2C 솔루션 |
 | [[game-pass]] | [[microsoft]] 구독 서비스 — 약 3,000만 정체, 구작 잠식 vs 신작 발견의 층위 분리, 2026 데이원 전략 철회 |
+| [[roblox]] | UGC 게임 플랫폼 — 추천 목적함수를 리텐션으로 바꾼 대가(주가 70%↓·Q3 부킹 14–18%↓), Gen Alpha의 입구, 플레이타임 기준 프랜차이즈 1위 |
 
 ## 게임 플랫폼
 
@@ -141,3 +146,5 @@ graph 추론(플랫폼별 게임·독점작 질의)을 위한 플랫폼 노드.
 | [[ratatan]] | [[tvt]], 리듬 액션·로그라이트, 2026-10-15 — 콘솔 심사로 연기, 10언어 1,200만 자 |
 | [[black-myth-wukong]] | [[game-science]], 2024-08, UE5 — 스팀 약 1,700만 장, 물리 비중 10.8% 최하단, 이상치라 상한선으로 쓸 수 없음 |
 | [[mortal-shell-2]] | [[cold-symmetry]], 2026-08, 소울라이크 \$49.99 — 첫 주말 51만 장, 스팀 오디언스 91%가 신규(데모 경유 1/3) |
+| [[paralives]] | [[paralives-studio]], 라이프심 EA — 첫 달 100만 장, 환불률 6.5%(중앙값 9.5% 하회), 잔여 위시리스트 180만 |
+| [[dear-passengers]] | [[flexus]], friendslop — 트레일러 하나로 3일 만에 위시리스트 100만, WL:팔로워 35배(미검증 관심의 신호) |

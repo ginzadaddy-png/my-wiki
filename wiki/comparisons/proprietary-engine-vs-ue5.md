@@ -31,7 +31,7 @@ confidence: high
 
 | 스튜디오 규모 | UE5 이전 권장 | UE5 이후 권장 |
 |---|---|---|
-| **~50명 단일 IP** | 서드파티 (Unity 등) | **UE5 무수정** ([[sandfall-interactive\|샌드폴]] 모델) |
+| **~50명 단일 IP** | 서드파티 ([[unity-engine]] 등) | **UE5 무수정** ([[sandfall-interactive\|샌드폴]] 모델) |
 | **50~300명 멀티 IP** | 트레이드오프 영역 | **UE5 + 사내 plug-in 레이어** |
 | **300명+ 시리즈 IP** | 자체 엔진 ([[capcom\|캡콤]] RE ENGINE) | *자체 엔진 유지* — 단 *전환 압력 증가* |
 | **차세대 GTA·Witcher 급** | 자체 엔진 필수 | *Rockstar는 RAGE 유지, [[cd-projekt-red\|CDPR]]는 UE5 전환* |

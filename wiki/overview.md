@@ -16,10 +16,10 @@ raw 소스를 LLM으로 요약·구조화해 개념·엔티티·비교 분석으
 각 페이지는 frontmatter(`type` · `sources` · `related` · `confidence`)로 구조화돼 있습니다. 중요한 통찰은 `> 💡` 블록으로, 자료 간 충돌은 `> ⚠️ 모순` 블록으로 표시하며, `confidence`(high · medium · low)는 그 페이지 내용의 확신도를 나타냅니다.
 
 ## 현재 커버리지
-- **스튜디오·퍼블리셔 (51개)**: 팀 아소비, 라리안 스튜디오, 샌드폴 인터랙티브, 서커펀치, 민트로켓, 엠바크 스튜디오, 캡콤, 프롬소프트웨어, 너티독, 닌텐도, CD 프로젝트 레드, 코지마 프로덕션, 인섬니악, IO 인터랙티브, 소니 산타모니카, 소니 인터랙티브 엔터테인먼트(SIE), 베데스다, 탱고 게임웍스, 아이언 게이트, 록스타, 테이크투 인터랙티브, 아발란체 소프트웨어, 애로우헤드, 슈퍼자이언트, Remedy, Asobo Studio, BioWare, Obsidian Entertainment, Supercell, Hazelight Studios, Nexon, miHoYo/HoYoverse, Epic Games, Riot Games, Respawn Entertainment, Annapurna Interactive, Devolver Digital, Raw Fury, 펄어비스, 크래프톤, 반다이 남코, 마이크로소프트, Electronic Arts(EA), NCSoft(엔씨소프트), Unknown Worlds(언노운월즈), 코나미 디지털 엔터테인먼트, Cygames, TVT, 번지(Bungie), Game Science, Cold Symmetry
-- **미디어·플랫폼 (11개)**: IGN Entertainment, Valve, Xsolla(엑솔라), Xbox Game Pass — 미디어·스토어·구독 / PlayStation 5, PlayStation 4, Xbox Series, Xbox One, Nintendo Switch, Nintendo Switch 2, PC — 하드웨어·플랫폼
+- **스튜디오·퍼블리셔 (55개)**: 팀 아소비, 라리안 스튜디오, 샌드폴 인터랙티브, 서커펀치, 민트로켓, 엠바크 스튜디오, 캡콤, 프롬소프트웨어, 너티독, 닌텐도, CD 프로젝트 레드, 코지마 프로덕션, 인섬니악, IO 인터랙티브, 소니 산타모니카, 소니 인터랙티브 엔터테인먼트(SIE), 베데스다, 탱고 게임웍스, 아이언 게이트, 록스타, 테이크투 인터랙티브, 아발란체 소프트웨어, 애로우헤드, 슈퍼자이언트, Remedy, Asobo Studio, BioWare, Obsidian Entertainment, Supercell, Hazelight Studios, Nexon, miHoYo/HoYoverse, Epic Games, Riot Games, Respawn Entertainment, Annapurna Interactive, Devolver Digital, Raw Fury, 펄어비스, 크래프톤, 반다이 남코, 마이크로소프트, Electronic Arts(EA), NCSoft(엔씨소프트), Unknown Worlds(언노운월즈), 코나미 디지털 엔터테인먼트, Cygames, TVT, 번지(Bungie), Game Science, Cold Symmetry, 텐센트(Tencent), Mojang, Paralives Inc., Flexus
+- **미디어·플랫폼 (12개)**: IGN Entertainment, Valve, Xsolla(엑솔라), Xbox Game Pass, Roblox — 미디어·스토어·구독·UGC 플랫폼 / PlayStation 5, PlayStation 4, Xbox Series, Xbox One, Nintendo Switch, Nintendo Switch 2, PC — 하드웨어·플랫폼
 - **인물·크리에이터 (2명)**: 미야모토 시게루, 사쿠라이 마사히로
-- **게임 (44개)**: 아스트로봇, 발더스 게이트3, 클레르 옵스퀴르 33원정대, 고스트 오브 요테이, 데이브 더 다이버, 아크 레이더스, 다크 소울, 엘든링, 브레스 오브 더 와일드, 스카이림, 사이버펑크 2077, 위처3, 갓 오브 워, 고스트 오브 쓰시마, 더 라스트 오브 어스, 발하임, GTA5, Hi-Fi RUSH, 히트맨(2016), 발라트로, 호그와트 레거시, 레드 데드 리뎀션 2, 헬다이버스 2, 세키로, 데스 스트랜딩, 마블 스파이더맨 2, 알란 웨이크 2, A Plague Tale: Requiem, PEAK, 원신 Genshin Impact, Fortnite, League of Legends, Apex Legends, 아이온2, 붉은사막 Crimson Desert, Subnautica 2 서브노티카 2, 동키콩 바난자, SILENT HILL f, GRANBLUE FANTASY: Relink, Ratatan, Marathon, 엘든 링 나이트레인, Black Myth: Wukong, Mortal Shell 2
+- **게임 (46개)**: 아스트로봇, 발더스 게이트3, 클레르 옵스퀴르 33원정대, 고스트 오브 요테이, 데이브 더 다이버, 아크 레이더스, 다크 소울, 엘든링, 브레스 오브 더 와일드, 스카이림, 사이버펑크 2077, 위처3, 갓 오브 워, 고스트 오브 쓰시마, 더 라스트 오브 어스, 발하임, GTA5, Hi-Fi RUSH, 히트맨(2016), 발라트로, 호그와트 레거시, 레드 데드 리뎀션 2, 헬다이버스 2, 세키로, 데스 스트랜딩, 마블 스파이더맨 2, 알란 웨이크 2, A Plague Tale: Requiem, PEAK, 원신 Genshin Impact, Fortnite, League of Legends, Apex Legends, 아이온2, 붉은사막 Crimson Desert, Subnautica 2 서브노티카 2, 동키콩 바난자, SILENT HILL f, GRANBLUE FANTASY: Relink, Ratatan, Marathon, 엘든 링 나이트레인, Black Myth: Wukong, Mortal Shell 2, Paralives, Dear Passengers
 - **주요 출처**: GDC 2024·2025·2026 강연, 개발사 공식 인터뷰·포스트모템, 시장 분석 보고서(Newzoo·Sensor Tower·Matthew Ball·IGN Audience Insights), 상장 게임사 IR(캡콤 FY26/3 등), 일본·한국 개발자 블로그
 
 ## 핵심 테마
@@ -40,6 +40,8 @@ raw 소스를 LLM으로 요약·구조화해 개념·엔티티·비교 분석으
 - [[accessibility-design|접근성 설계]]: 난이도 자기조절 레버·조력 AI 겸용·청각 채널 — 전용 예산이 아니라 기존 시스템의 다른 출구로 뽑아내기
 - [[ip-adaptation-design|IP 각색·확장 설계]]: 원작 팬과 신규 유입을 동시에 만족시키는 조건
 - [[game-pricing-strategy|가격 전략]]: 가격대 지형, 지역 차등화, 세일 타이밍, 비즈니스 모델 — 마케팅과 분리된 독립 디스플린
+- [[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]: $30–50 밴드가 전 플랫폼에서 가장 빠르게 자란다 — 다만 히트작 가격 중앙값은 내려가는 중이라 재는 대상을 먼저 갈라야 하는 축
+- [[long-tail-survival-economics|롱테일 생존 경제학]]: Top 20 밖에서 오래 버티는 조건 — 진입은 쉬워도 생존은 다른 문제
 - [[steam-revenue-forecasting|스팀 매출 예측]]: 8 driver tornado sensitivity·서브장르 매트릭스·review tier multiplier·time distribution — ZR Forecaster + Carless·Zukowski 1차 데이터 결합
 - [[publisher-deal-structures|퍼블리셔 딜 구조]]: Self-publish·Rev share·Recoup-first·MG·Marketing fee 5종 stress test로 본 indie 비즈니스 의사결정
 - [[launch-metrics|런치 메트릭]]: 리뷰 tier multiplier·Year-1 38% 런치월 집중·회복률 0.156%·Demo+8%/Next Fest+4% conversion lift

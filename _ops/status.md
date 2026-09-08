@@ -1,23 +1,23 @@
 # 운영 현황 (내부 전용)
 
-> **이 파일은 사이트에 발행되지 않는 내부 운영 문서입니다.** (`_ops/`는 Quartz 빌드 대상 `wiki/` 밖) 리더용 소개는 [wiki/about.md], 리더용 업데이트 소식은 [wiki/changelog.md]. 운영 로그(원장)는 [_ops/log.md].
+> **이 파일은 사이트에 발행되지 않는 내부 운영 문서입니다.** (`_ops/`는 Quartz 빌드 대상 `wiki/` 밖) 리더용 소개는 [wiki/overview.md], 리더용 업데이트 소식은 [wiki/changelog.md]. 운영 로그(원장)는 [_ops/log.md].
 >
 > 여기 담긴 것: 상세 통계 / 작업 환경 / 도구 스택·아키텍처 / 작업 흐름 / 챗봇(현재 delist) / 진행 예정 — 나 + Claude Code 확인용.
 
-## 현재 통계·규모 (2026-08-31 기준)
+## 현재 통계·규모 (2026-09-08 기준)
 
 | 항목 | 수치 |
 |---|---|
-| 누적 INGEST 건수 (`_ops/log.md`의 ingest 항목 고유 수) | 77건 |
-| 소스 요약 (`wiki/sources/`) | 192개 |
-| 개념 페이지 (`wiki/concepts/`) | 77개 |
-| 엔티티 페이지 (스튜디오·게임·플랫폼·인물, `wiki/entities/`) | 108개 |
+| 누적 INGEST 건수 (`_ops/log.md`의 ingest 항목 고유 수) | 78건 |
+| 소스 요약 (`wiki/sources/`) | 195개 |
+| 개념 페이지 (`wiki/concepts/`) | 79개 |
+| 엔티티 페이지 (스튜디오·게임·플랫폼·인물, `wiki/entities/`) | 115개 |
 | 비교 페이지 (`wiki/comparisons/`) | 22개 |
 | 보고서 (`wiki/reports/`) | 6개 — deck 4 + 아티클 2 |
 | 결정·가설 (`wiki/decisions/`) | 1개 |
-| 마지막 갱신 | 2026-08-31 |
+| 마지막 갱신 | 2026-09-08 |
 
-총 약 416개 md 페이지가 wikilink로 연결되어 있고, 모두 frontmatter(`type`, `sources`, `related`, `confidence` 등) 기반으로 구조화되어 있어 graph 추론·검색에 활용된다.
+총 약 427개 md 페이지가 wikilink로 연결되어 있고, 모두 frontmatter(`type`, `sources`, `related`, `confidence` 등) 기반으로 구조화되어 있어 graph 추론·검색에 활용된다.
 
 ## 작업 환경
 

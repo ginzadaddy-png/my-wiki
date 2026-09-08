@@ -8,7 +8,7 @@ updated: 2026-08-31
 confidence: low
 ---
 
-[[soulslike|소울라이크]] Mortal Shell(2020)과 [[mortal-shell-2|Mortal Shell 2]](2026-08)를 만든 개발사. 퍼블리싱은 Playstack.
+[[soulslike|소울라이크]] Mortal Shell(2020)과 [[mortal-shell-2|Mortal Shell 2]] (2026-08)를 만든 개발사. 퍼블리싱은 Playstack.
 
 - **글로벌 원격 팀**이며 공동창업자에 러시아 개발자 Dmitry Parkin·Vitaly Bulgarov가 있다.
 - 이 구성이 판매에 흔적을 남겼다 — 러시아가 Mortal Shell 2의 **스팀 3위 시장**(스팀 플레이어의 8% 이상)이 됐다. [[alinea-phantom-blade-zero-preorder-2026-08|Phantom Blade Zero]]에서 관측된 *러시아·소울라이크* 조합의 반복이다.
