@@ -2,7 +2,7 @@
 title: "익스트랙션 장르 설계"
 type: concept
 sources: ["[[arc-raiders-extraction-genre]]", "[[gdc26-arc-raiders-reset]]", "[[missing-middle-paradigm-shift-2026]]"]
-related: ["[[arc-raiders|아크 레이더스]]", "[[embark-studios|엠바크 스튜디오]]", "[[small-team-development|소규모 팀 개발]]"]
+related: ["[[arc-raiders|아크 레이더스]]", "[[embark-studios|엠바크 스튜디오]]", "[[small-team-development|소규모 팀 개발]]", "[[pubg|PUBG]]"]
 created: 2026-04-20
 updated: 2026-04-20
 confidence: high

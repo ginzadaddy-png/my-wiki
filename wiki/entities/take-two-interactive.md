@@ -2,7 +2,7 @@
 title: "테이크투 인터랙티브 (Take-Two Interactive)"
 type: entity
 sources: []
-related: []
+related: ["[[gta-6|GTA 6]]", "[[gta5|GTA5]]", "[[rockstar-games|록스타 게임즈]]"]
 created: 2026-06-01
 updated: 2026-06-01
 confidence: high

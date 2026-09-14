@@ -1,10 +1,10 @@
 ---
 title: "Steam 매출 예측 모델 (Steam Revenue Forecasting)"
 type: concept
-sources: ["[[carless-wishlist-conversions-2025-10]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[zukowski-bad-launch-recovery-2024]]", "[[zrconsulting-steam-forecaster-2026]]", "[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]"]
+sources: ["[[carless-wishlist-conversions-2025-10]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[zukowski-bad-launch-recovery-2024]]", "[[zrconsulting-steam-forecaster-2026]]", "[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[carless-steam-demo-ccu-2026-09]]"]
 related: ["[[launch-metrics|흥행 예측 지표]]", "[[marketing-strategy|마케팅 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[valve|Valve]]", "[[forecasting-vs-launch-metrics|예측 vs 측정 비교]]"]
 created: 2026-05-18
-updated: 2026-05-18
+updated: 2026-09-14
 confidence: medium-high
 ---
 
@@ -221,6 +221,17 @@ where blended_discount = launch_discount × 0.38 + seasonal_discount × 0.62
 4. Wishlist 출처 분포 (paid 비중 vs organic — paid >40% 시 risk)
 5. Community 30일 성장률 (Discord/newsletter, *절대 사이즈보다 성장률*)
 6. 동일 스튜디오 prior game 매출 (있으면 *가장 강력한 comp*)
+
+## 11) 데모 동접 기반 독립 검산선 ([[carless-steam-demo-ccu-2026-09]])
+
+8 driver 모델은 전부 **위시리스트가 쌓인 뒤**에 쓸 수 있다. 데모 동접은 그보다 이른 시점에 잡히는 **독립 검산선**이다.
+
+- **데모 최고 동접 × 2~4배 = 본편 최고 동접** (중앙값 3.01배, 상위 20~30% 6.24배 / 하위 20~30% 1.29배, n=2,569)
+- 본편 동접 600 → 1주차 약 12,000장 · 1년차 약 35,000장 (거친 환산)
+
+쓰는 법: 8 driver 산출값과 데모 환산값이 **크게 어긋나면 둘 중 하나의 입력이 틀렸다**는 신호로 읽는다. 특히 위시리스트는 많은데 데모 배수가 하위 구간이면, 등록된 관심이 실제 확산으로 이어지지 않고 있다는 뜻이라 [[launch-metrics|흥행 예측 지표]]의 "가짜 신호" 점검으로 되돌아갈 근거가 된다.
+
+> ⚠️ 장르 보정이 없는 값이다. 멀티·서바이버류는 동접이 오래 유지돼 같은 판매량에서 동접이 크게 잡히고, 싱글 단편은 반대다. 가격 변수도 빠져 있어 유닛은 환산되지만 매출은 별도 계산이 필요하다.
 
 ## 한계 및 적용 주의
 

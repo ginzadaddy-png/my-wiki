@@ -2,7 +2,7 @@
 title: "헬다이버스 2 (Helldivers 2)"
 type: entity
 sources: ["[[missing-middle-paradigm-shift-2026]]", "[[gdc-helldivers2-team-scaling]]", "[[pilestedt-helldivers2-preproduction-lesson]]", "[[alinea-mortal-shell-2-launch-2026-08]]"]
-related: ["[[arrowhead-game-studios|애로우헤드]]", "[[live-service-design|라이브 서비스 설계]]", "[[community-management|커뮤니티 운영]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[small-team-development|소규모 팀 개발]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[catalog-economics|카탈로그 이코노믹스]]"]
+related: ["[[arrowhead-game-studios|애로우헤드]]", "[[live-service-design|라이브 서비스 설계]]", "[[community-management|커뮤니티 운영]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[small-team-development|소규모 팀 개발]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[ps-plus|PlayStation Plus]]"]
 created: 2026-04-23
 updated: 2026-08-31
 confidence: high

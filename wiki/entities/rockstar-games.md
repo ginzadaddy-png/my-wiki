@@ -2,7 +2,7 @@
 title: "록스타 게임즈"
 type: entity
 sources: ["[[open-world-linearization-gta5]]"]
-related: ["[[gta5|GTA5]]", "[[open-world-design|오픈월드 설계]]"]
+related: ["[[gta5|GTA5]]", "[[open-world-design|오픈월드 설계]]", "[[gta-6|GTA 6]]", "[[take-two-interactive|테이크투 인터랙티브]]"]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

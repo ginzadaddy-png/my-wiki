@@ -2,7 +2,7 @@
 title: "Fortnite"
 type: entity
 sources: []
-related: ["[[epic-games|Epic Games]]", "[[unreal-engine-5|Unreal Engine 5]]", "[[live-service-design|라이브 서비스 설계]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[marketing-strategy|마케팅 전략]]"]
+related: ["[[epic-games|Epic Games]]", "[[unreal-engine-5|Unreal Engine 5]]", "[[live-service-design|라이브 서비스 설계]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[marketing-strategy|마케팅 전략]]", "[[pubg|PUBG]]"]
 created: 2026-05-29
 updated: 2026-05-29
 confidence: medium

@@ -1,10 +1,10 @@
 ---
 title: "게임 시장 트렌드"
 type: concept
-sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[bain-gaming-report-2026]]", "[[newzoo-pc-console-2026]]", "[[newzoo-ggmr-2026-preview]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[alinea-steam-record-year-2026]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[sony-ir-1q-fy2026]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[circana-us-physical-lowest-2026-07]]", "[[gi-newzoo-console-gta6-2026-08]]", "[[carless-hit-pc-genres-2021-2025]]"]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
+sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[bain-gaming-report-2026]]", "[[newzoo-pc-console-2026]]", "[[newzoo-ggmr-2026-preview]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[alinea-steam-record-year-2026]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[sony-ir-1q-fy2026]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[circana-us-physical-lowest-2026-07]]", "[[gi-newzoo-console-gta6-2026-08]]", "[[carless-hit-pc-genres-2021-2025]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]", "[[gta-6|GTA 6]]", "[[call-of-duty|Call of Duty]]"]
 created: 2026-04-20
-updated: 2026-08-31
+updated: 2026-09-14
 confidence: high
 ---
 
@@ -29,6 +29,22 @@ confidence: high
 
 > 💡 **개발사 함의:** 콘솔 전망치를 *플랫폼의 회복*으로 읽으면 위험하다. 위 [콘솔 하드웨어 수축](#콘솔-하드웨어-수축--설치기반-성장-정체-sp-kagan-console-shipments-2026)·[미국 단일 시장 실측](#미국-단일-시장-실측--대수는-줄고-단가는-오른다-2026-07-circana-us-physical-lowest-2026-07)과 합치면 그림이 일관된다 — **설치기반은 줄고, 남은 지출은 한두 개의 거대 타이틀과 신형 하드웨어로 몰린다.** 2026-11 GTA 6 출시 전후 몇 개월은 콘솔 신작에 가장 불리한 창이며, 이는 전망치가 아니라 잠식 진술에서 직접 나오는 실무 함의다.
 > ⚠️ 전망 전체가 **미출시 타이틀 한 편**에 걸려 있다. 연기·성과 미달 시 +5.1%가 통째로 흔들린다.
+
+## GGMR 2026 전체판 — 규모는 그대로, H1 실적은 나빴다 ([[gi-newzoo-ggmr-2026-release-2026-09]])
+
+2026-09-10 GGMR 전체판이 발매됐다. **위 시장 규모 수치는 수정 없이 확정**됐고(전체 \$213.9B·+6.1%, APAC \$100.7B, 북미 \$56.9B, 플레이어 37억), preview에 없던 실적 진단이 새로 붙었다.
+
+- **기성 라이브서비스·에버그린 대부분이 H1 2026에 전년 동기 대비 보합 또는 역성장.** 성장은 WoW·Diablo 4·Overwatch·[[roblox|Roblox]]·[[tencent|텐센트]] 일부 해외작에 국한
+- **서구 6개 시장 디지털 매출 하락** — *"F2P와 연간 반복 프리미엄의 약세가 호조인 신작을 상쇄"*
+- Q1 2026 상장사 상위 10곳 합계 \$374억(+6.7%) — [[tencent|텐센트]] \$10.8B(**+11.9%**) · 소니 \$5.2B(**-0.9%**) · 마이크로소프트 \$5.1B(**-5.5%**) · [[roblox|Roblox]] \$1.4B(**+39.3%**, 10위)
+- 콘솔 **플레이어** 성장률 3% 전망 (2025년 0.5%). NIQ 집계로 GTA 6 넷플릭스 시사 직후 영국 PS5 +33% · Xbox +34%
+- 지출자 비중 **44.6%** (2015년 39.4%) · ARPPU \$129.6(+1.4%)
+
+> 💡 **성장의 소재지가 바뀌었다.** 시장 전체는 +6.1%인데 기성 라이브서비스는 제자리이고 콘솔 플랫폼 홀더 두 곳은 분기 매출이 줄었다. 모순이 아니라 성장이 **신작·신흥 시장·소수 플랫폼**으로 옮겨갔다는 뜻이다. 아래 [성장의 역설](#성장의-역설-matthew-ball)이 예고한 구도가 상장사 분기 실적으로 확인된 형태.
+
+> 💡 **지출자 비중 39.4% → 44.6%가 가장 구조적인 수치다.** 10년간 5.2%p 올랐는데 ARPPU 증가는 +1.4%에 그친다. 최근 성장은 *한 명이 더 쓰는 것*이 아니라 **쓰는 사람 수가 느는 것**이다. preview 단계의 "기존 오디언스 안에서의 심화 수익화"는 절반만 맞는 서술이었던 셈 — 심화되는 것은 지출액이 아니라 지출자 전환율이다.
+
+> ⚠️ "보합 또는 역성장"의 정량(몇 % · 몇 종 · 분류 기준)이 보도에 없다. 전문이 유료라 방법론 검증이 불가능한 상태는 preview와 동일하다.
 
 ## PC vs. 콘솔 수익 구조
 

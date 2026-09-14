@@ -2,7 +2,7 @@
 title: "그랜드 테프트 오토 V"
 type: entity
 sources: ["[[open-world-linearization-gta5]]"]
-related: ["[[rockstar-games|록스타 게임즈]]", "[[open-world-design|오픈월드 설계]]"]
+related: ["[[rockstar-games|록스타 게임즈]]", "[[open-world-design|오픈월드 설계]]", "[[gta-6|GTA 6]]"]
 created: 2026-04-16
 updated: 2026-06-01
 confidence: high

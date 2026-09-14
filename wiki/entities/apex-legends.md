@@ -2,7 +2,7 @@
 title: "Apex Legends"
 type: entity
 sources: []
-related: ["[[respawn-entertainment|Respawn Entertainment]]", "[[electronic-arts|Electronic Arts]]", "[[live-service-design|라이브 서비스 설계]]", "[[combat-design|전투 디자인]]", "[[marketing-strategy|마케팅 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[catalog-economics|카탈로그 이코노믹스]]"]
+related: ["[[respawn-entertainment|Respawn Entertainment]]", "[[electronic-arts|Electronic Arts]]", "[[live-service-design|라이브 서비스 설계]]", "[[combat-design|전투 디자인]]", "[[marketing-strategy|마케팅 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[pubg|PUBG]]"]
 created: 2026-05-29
 updated: 2026-05-29
 confidence: medium

@@ -1,10 +1,10 @@
 ---
 title: "흥행 예측 지표"
 type: concept
-sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]", "[[zukowski-golden-age-week-2026-08]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[alinea-mortal-shell-2-launch-2026-08]]", "[[zukowski-demos-wishlist-conversion]]"]
+sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]", "[[zukowski-golden-age-week-2026-08]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[alinea-mortal-shell-2-launch-2026-08]]", "[[zukowski-demos-wishlist-conversion]]", "[[carless-steam-demo-ccu-2026-09]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[forecasting-vs-launch-metrics|예측 vs 측정 비교]]"]
 created: 2026-04-20
-updated: 2026-08-31
+updated: 2026-09-14
 confidence: high
 ---
 
@@ -309,6 +309,27 @@ Zukowski 해석: *visibility는 충분히 줬는데 게임이 흥분을 못 만�
 - 같은 메커니즘의 선행 관측 — [[alinea-phantom-blade-zero-preorder-2026-08|만리방화벽 때문에 포럼·디스코드를 못 쓰는 중국 플레이어가 불만을 스팀 리뷰로 낸다]]. 그쪽이 *최적화 불량*이었다면 이쪽은 *난이도*다
 - **실무 함의**: 중국어권 비중이 높을 것으로 예상되는 타이틀은 등급 경계선(70%·80%) 근처에서 **6%p 규모의 하방 여유를 미리 계산**해 둘 것. 지역별 난이도 옵션·튜토리얼 보강이 등급 방어 수단이 된다
 - ⚠️ *어느 쪽이 옳은가*는 이 데이터로 판정되지 않는다. 중국어 리뷰 19.7%는 실제 오디언스의 일부이고, 특정 언어권을 빼면 점수가 오른다는 사실이 그 평가를 무효화하지 않는다
+
+## 데모 최고 동접 → 본편 동접 배수 ([[carless-steam-demo-ccu-2026-09]])
+
+위시리스트와 별개로 **데모 최고 동시접속자(CCU)** 하나만으로 출시 규모를 가늠하는 축. GameDiscoverCo가 2024-01~2026-08 출시작 중 데모 동접 50 이상을 기록한 **2,569종**(같은 기간 출시작의 **4.7%**)을 집계했다.
+
+| 구간 | 데모 동접 → 본편 동접 배수 |
+|---|---|
+| 상위 20~30% | **6.24배** |
+| **중앙값** | **3.01배** |
+| 하위 20~30% | **1.29배** |
+
+기준선을 올리면 배수는 오히려 내려간다(10 이상 2.40 · 50 이상 3.01 · 100 이상 2.91 · 250 이상 2.59 · 500 이상 2.41 · 1000 이상 2.38) — 표본에서 극단값이 빠지기 때문. 저자 권고는 **"2~4배를 출발점으로"**.
+
+- 환산 예: 데모 동접 200 → 본편 동접 약 600 → **1주차 약 12,000장 · 1년차 약 35,000장** (거친 추정)
+- 2026년 스팀 매출 상위 100종 중 데모 보유 58종. 단 **1~20위는 6종(30%)뿐인데 81~100위는 15종(75%)**
+
+> 💡 **데모는 상위권의 수단이 아니라 상위권 *진입*의 수단이다.** 이미 발견된 대작은 데모 없이 팔리고, 100위 언저리 게임의 4분의 3이 데모를 냈다. 위 [커밍순 2주 지표](#커밍순-2주-지표는-예측력이-없다-zukowski-golden-age-week-2026-08)의 *"진짜 판별 시점은 데모 출시 이후"*와 같은 방향이며, 여기에 **배수라는 정량 형태**가 붙었다.
+
+> 💡 **쓸모는 판매 예측보다 확산 진단 쪽에 있다.** 하위 20~30%의 1.29배는 *데모를 해본 사람이 거의 그대로 구매자 총량*이라는 뜻 — 데모가 입소문을 만들지 못했다. 상위권은 한 명이 여섯 명을 끌고 온다. 그래서 이 지표는 "얼마나 팔릴까"보다 **"내 데모가 번지고 있는가"**를 묻는 데 쓴다.
+
+> ⚠️ 인과가 아니라 상관이다. 데모 동접을 광고로 밀어 올린다고 배수가 따라온다는 근거는 없다. 동접 50 미만 데모와 미출시작이 표본에서 빠진 **생존 편향**, 장르별 동접-판매 관계 차이, 가격 변수 부재도 함께 감안할 것.
 
 ## 출시일 정렬 궤도 비교 — AAA·AA의 출시 전 판정 ([[alinea-phantom-blade-zero-preorder-2026-08]])
 

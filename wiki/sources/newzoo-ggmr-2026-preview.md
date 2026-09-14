@@ -5,9 +5,9 @@ source_url: "https://gamedevreports.substack.com/p/newzoo-the-gaming-market-in-2
 source_author: "Dmitriy Byshonkov (GameDevReports, Newzoo 2026 preview 요약)"
 source_published: 2026-08-25
 sources: []
-related: ["[[game-market-trends|게임 시장 트렌드]]", "[[newzoo-pc-console-2026|Newzoo PC·콘솔 리포트 2026]]", "[[matthew-ball-2026-report|Matthew Ball 2026]]", "[[missing-middle-paradigm-shift-2026|미싱 미들 패러다임 전환]]", "[[gi-newzoo-console-gta6-2026-08|Newzoo Rosier 인터뷰 — 콘솔과 GTA 6]]"]
+related: ["[[game-market-trends|게임 시장 트렌드]]", "[[newzoo-pc-console-2026|Newzoo PC·콘솔 리포트 2026]]", "[[matthew-ball-2026-report|Matthew Ball 2026]]", "[[missing-middle-paradigm-shift-2026|미싱 미들 패러다임 전환]]", "[[gi-newzoo-console-gta6-2026-08|Newzoo Rosier 인터뷰 — 콘솔과 GTA 6]]", "[[gi-newzoo-ggmr-2026-release-2026-09|GGMR 2026 전체판 첫 보도]]"]
 created: 2026-08-28
-updated: 2026-08-31
+updated: 2026-09-14
 confidence: medium
 ---
 
@@ -67,8 +67,14 @@ confidence: medium
 - 2027 되돌림은 없을 것으로 봄 — GTA의 카탈로그 파워 + Newzoo 2027 forecast에 **GTA 6 PC판 포함**
 - 가격: *"GTA 6는 하나뿐이라 가격 탄력성이 매우 낮다"* + 상단 가격 인상이 시장 전체를 리프트한다는 관찰
 
-## 후속 (A — 전체판 추적)
+## 후속 (A — 전체판 추적) — 종료됨 (2026-09-14)
 
-- **2026-09-10 GGMR 전체판 발매** 예정. 발매 후 *무료 축약본(Free Version)* 공개 여부 확인 → 공개 시 전문 PDF를 `raw/papers/`에 확보하고 이 페이지를 원본 기준으로 교체·confidence 상향.
-- 예년 무료본 배포처: [InvestGame Reports Archive](https://investgame.net/news/reports/) (2022·2023 무료본 게시 이력).
-- ⚠️ **발매 시점에 불일치 신호 있음.** 위 GamesIndustry.biz 기사(2026-08-27)가 GGMR을 **"newly released"**로 지칭한다. 게임스컴에 맞춰 앞당겨졌을 수도, 기자가 preview 배포를 그렇게 표현했을 수도, 유료 구독자 선행 배포일 수도 있다. **9/10 전후로 Newzoo 공식 페이지를 직접 확인해 판정할 것.**
+- **2026-09-10 GGMR 전체판 발매 확인.** 첫 보도는 [[gi-newzoo-ggmr-2026-release-2026-09|GamesIndustry.biz 2026-09-10]].
+- **위 시장 규모 수치는 전체판에서 수정 없이 유지됐다** — 전체 \$213.9B(+6.1%)·APAC \$100.7B·북미 \$56.9B·플레이어 37억이 그대로 확인된다. 따라서 이 페이지의 수치는 *잠정치가 아니라 확정 전망치*로 인용 가능하다.
+- 다만 **무료 축약본은 2026-09-14 기준 공개가 확인되지 않았다.** Newzoo 공식 리포트 페이지는 접근이 막혀 있고 검색으로도 무료판이 잡히지 않는다. 전문 PDF를 `raw/papers/`에 확보하는 목표는 **미달성**이며, 이 페이지와 전체판 보도 모두 *2차 요약* 지위를 유지한다. confidence는 medium 유지.
+- 예년 무료본 배포처였던 [InvestGame Reports Archive](https://investgame.net/news/reports/)는 계속 지켜볼 만하나, 정기 추적 항목에서는 내린다.
+- 앞서 적어둔 불일치 신호(2026-08-27 기사가 GGMR을 "newly released"로 지칭)는 **유료 구독자 선행 배포로 정리된다** — 공식 발매일 9/10이 예정대로 지켜졌기 때문이다.
+
+## 전체판이 더한 것
+
+preview에 없던 H1 2026 실적 진단이 전체판에서 나왔다 — **기성 라이브서비스·에버그린 대부분이 전년 동기 대비 보합 또는 역성장**, 서구 6개 시장 디지털 매출 하락, Q1 상장사 상위 10곳 중 소니 -0.9%·마이크로소프트 -5.5%. 상세는 [[gi-newzoo-ggmr-2026-release-2026-09]] 참조.

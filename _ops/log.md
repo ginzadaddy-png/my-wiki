@@ -2,6 +2,58 @@
 title: "활동 로그"
 ---
 
+## [2026-09-14] lint 후속 | 조사 주제 1~5 전건 실행 — 미페이지 개념 4건 회수 + 핵심 테마 backlog 정리
+
+- 트리거: 2026-09-14 lint가 제안한 조사 주제 5건을 사용자가 **전부 선택**
+- 생성(entity 4) — 전부 *회수형*. 1차 자료 신규 ingest 없이 위키에 이미 흩어져 있던 언급을 한 페이지로 모으고, 근거의 층(1차/2차·실측/전망)을 페이지 안에서 갈라 놓는 방식
+  - **ps-plus** (15파일) — 짝인 [[game-pass]]가 이미 있어 비대칭이던 자리. 축은 *두 구독이 위키에서 재는 것이 다르다*는 정리: Game Pass는 "구독이 판매를 잠식하는가", PS Plus는 **"구독 노출이 몇 년 뒤 후속작 오디언스 구성을 바꾼다"**. Mortal Shell 2 전작 경험자 스팀 9% vs PS5 44%·Xbox 59%, 헬다이버스 2 Extra 편입 2주 80K, AC 오디세이 증폭 +134/+94/+26%가 근거. ⚠️ **가입자 수가 위키 자료 안에 전혀 없다** — 규모를 모르는 채 효과만 기록한 페이지임을 명시
+  - **call-of-duty** (15파일) — 축은 *에버그린이라는 말의 시험대*. 같은 해에 ① 텐센트가 드는 에버그린 정의 사례 ② 메인라인 전 플랫폼 급락(PC ▼64%·PS ▼43%·Xbox ▼39%) ③ 15년 된 구작 이식 2종 한 달 \$4.35억이 **동시에 참**이라는 것이 핵심. ②③이 모순이 아님을 [[hit-driven-strategy]]의 *"홈런과 카탈로그는 같은 게임의 다른 시점"*으로 연결
+  - **gta-6** (17파일, **confidence low**) — 위키 최다 인용 *미출시* 타이틀. 페이지의 논지는 게임이 아니라 **2026 콘솔 전망 전체가 아직 일어나지 않은 사건에 걸려 있다**는 사실. 수치가 거의 전부 전망이라 low로 고정하고, 반사실(counterfactual)·Switch 2 기여분 미분리·NIQ 기저 부재를 한계로 명시
+  - **pubg** (14파일) — 크래프톤 IR 2건이 1차 자료로 이미 있어 근거가 가장 두꺼움. 축은 *성장 동력이 새 편이 아니라 콘텐츠 플랫폼화*(UGC·Well-made 모드·콜라보·PUBG 2.0) — [[call-of-duty]]의 시리즈 반복형과 **정반대 경로로 같은 목적지**에 가는 대비를 세움. ⚠️ 절대 매출·MAU 비공개, "PUBG IP 프랜차이즈"의 모바일 구성비 미공개를 한계로
+- relations 부착: call-of-duty(publishedBy microsoft·platform 5) · gta-6(developedBy rockstar-games·publishedBy take-two-interactive·platform 2) · pubg(developedBy·publishedBy krafton·platform 3) · ps-plus(platform 2). **액티비전·PUBG STUDIOS 등 위키에 페이지 없는 법인은 값으로 쓰지 않음**(환각 금지 규칙)
+- 양방향 링크: 18개 페이지 `related`에 신규 4건 연결 (evergreen-ip·catalog-economics·game-pass·subscription-economy-gaming·krafton·rockstar-games·take-two-interactive·gta5·game-market-trends·microsoft·fortnite·apex-legends·helldivers-2·mortal-shell-2·remaster-rerelease-strategy·console-retail-strategy·sony-interactive-entertainment·extraction-genre-design)
+  - ⚠️ **도구 메모**: 이 중 7개가 CRLF 파일이라 `^related: \[(.*)\]$` 정규식이 `` 때문에 매칭 실패했다. frontmatter 배열을 코드로 고칠 때는 **`?$`를 반드시 넣을 것**. 놓치면 조용히 skip된다
+- **조사 주제 5 — 핵심 테마 backlog 11건 판정.** 임계를 3으로 내리면 79개 개념 대부분이 들어와 *테마* 성격을 잃으므로, 숫자 대신 *교차 축인가*로 갈랐다
+  - **등재 5**: evergreen-ip(8) · engagement-loop(6, player-retention의 설계 쪽 짝) · constraint-driven-creativity(6, high) · dlc-expansion-design(3, high — 기존 테마 어디도 DLC를 안 다룸) · design-sense(3, high)
+  - **보류 6 + 근거**: unity-engine(confidence **low**, 페이지 자체가 *"갭의 위치를 명확히 한 것"*이라 테마로 올리면 오버셀) · psychological-safety(studio-culture 한 줄 설명에 이미 포함, 중복) · ai-disclosure-player-sentiment(ai-gamedev의 하위 주제) · game-utility-systems·genre-tag-taxonomy(audience-discovery-systems가 상위 축) · ai-navigation(combat-companion-ai·companion-design이 테마 층을 이미 맡음)
+- 카탈로그: entities/all(미디어·플랫폼 +1 · 게임 +3, updated 09-14) · index.md(게임 46→49) · overview.md(미디어·플랫폼 12→13 · 게임 46→49 · 커버리지 3항목 · 핵심 테마 +5) · _ops/status.md(엔티티 115→119 · 총 md 430→434)
+- **스케줄 루틴 파일 수정**(`~/.claude/scheduled-tasks/llm-wiki-lint/SKILL.md`) — 09-03 개편 이후 스테일이던 경로 12곳 교체(`wiki/log.md`→`_ops/log.md`, `wiki/about.md`→`_ops/status.md`). 추가로 CLAUDE.md에는 있는데 루틴엔 빠져 있던 **두 단계를 채움**: 5번에 `wiki/changelog.md` 주간 롤업(초안 제시 후 승인), 8번 *유예된 배포 누적분 보고* 신설(push는 여전히 루틴에서 실행 금지). 보고 형식에도 7·8번 항목 추가
+- 검증: 빌드 **통과**(434 파싱 · 916 emit · 42초) / 끊긴 wikilink **0** · 완전 고립 **0** / `]](` 위반 0 · alias 내 슬래시 0 / **줄바꿈 churn 0**(변경 31파일 전부 HEAD와 LF/CRLF 일치)
+- 미커밋 상태 — push는 사용자 확인 후
+
+## [2026-09-14] lint | 주간 정기 점검 (스케줄 루틴)
+
+- 빌드: **통과** (430 파싱 · 908 emit · 42초). frontmatter YAML 오류 0건 -> 자동 수정 없음. overview.md 편집 후 재검사도 통과(430 · 908 · 42초)
+- 모순 **19 블록**(미해소 **2건** — naavik-xbox 하드웨어 해석, gdc26-idg 전망 온도차. 지난주와 동일). 신규 1건은 concepts/evergreen-ip(09-14 ingest)이며 *점유는 지키되 성장은 못 한다*로 같은 블록 안에서 정리됨
+  - 검출 패턴을 볼드 마커 허용(`⚠️[^ ]*[ *]*모순`)으로 교체 — 지난주 메모 반영. 이제 `> ⚠️ **모순 —` 형태도 잡힌다
+- **완전 고립 0건** / 카탈로그·index에서만 참조 4건(ps4·xbox-one graph 전용, 보고서 2건 구조상 정상 — 지난주와 동일) / **끊긴 wikilink 0건**(지난주 전량 해소분 유지)
+  - ⚠️ 검사 도구 메모: 테이블 셀의 `[[slug\|label]]`(escaped pipe)을 끊긴 링크로 오판하는 위양성 50건이 나왔다. 링크 타깃 파싱 시 **trailing backslash를 먼저 제거**해야 함
+- 미페이지 개념(신규 후보): **GTA 6 17파일** · **Call of Duty 15파일** · **PS Plus 15파일**(짝인 game-pass는 페이지 있음) · **PUBG 14파일** · Battlefield 10. Discord 15·Minecraft 8은 지난주 *페이지 만들지 않음* 판정 유지
+- raw 미처리 **0건** — 109개 전수 대조에서 탐지 1건은 Tunes of the Kingdom 중복 clipping(이미 흡수). 지난주 이월 2건(kasavin·vincke)은 파일명 상이일 뿐 `sources/kasavin-hades-ea`·`sources/vincke-bg3-ea`로 ingest 완료 확인 -> 큐에서 내림
+- 자동 갱신: `_ops/status.md` 5곳(INGEST 78->79 · 소스 195->198 · 총 md 427->430 · 헤더 날짜 · 마지막 갱신) / `wiki/overview.md` 핵심 테마 **4건 추가**(player-retention 8 · game-trailer-design 8 · audience-expansion 7 · ai-asset-pipeline 7 피인용). 커버리지는 변동 없음(엔티티 115 유지)
+  - 핵심 테마 **미등재 backlog 11건**(피인용 3~6: evergreen-ip 6 · engagement-loop 6 · constraint-driven-creativity 6 · game-utility-systems 5 · unity-engine 4 · psychological-safety 4 · ai-navigation 4 · ai-disclosure-player-sentiment 4 · genre-tag-taxonomy 3 · dlc-expansion-design 3 · design-sense 3). 임계를 3으로 내리면 79개 개념 대부분이 들어와 *테마* 성격을 잃으므로 **7 이상만 자동 추가**하고 나머지는 사용자 판단으로 남김
+- 스케줄 루틴 파일(`llm-wiki-lint/SKILL.md`) **경로 스테일** — `wiki/log.md`·`wiki/about.md`를 가리키나 실제는 `_ops/log.md`·`_ops/status.md`(09-03 개편). CLAUDE.md 기준으로 수행했고 루틴 파일 수정은 보고만
+- 분기 검토 알림: 해당 없음 (다음 2026-10-01~07)
+- changelog 2026-09 2주차 블록은 **초안만 제시** — 사용자 승인 후 반영
+- 미push 누적: 수정 12 + 신규 3 (09-14 ingest 3소스 + 이번 lint 자동 갱신 2파일). 커밋·push 대기
+
+## [2026-09-14] ingest | source radar 후보 3건 — Newzoo GGMR 전체판 · 스팀 데모 동접 예측력 · PS 퍼스트파티 실판매
+
+- Source: 없음 (raw/ 미적재 웹 소스 3건 — source radar 2026-09-14 스캔 후보 중 사용자가 1·2·3번 선택)
+  - https://www.gamesindustry.biz/newzoo-most-established-live-service-and-evergreen-titles-were-flat-or-down-year-over-year-in-h1-2026 (McEvoy, 2026-09-10)
+  - https://newsletter.gamediscover.co/p/does-your-steam-demo-ccu-predict (Carless, 2026-09-08)
+  - https://alineaanalytics.substack.com/p/sony-divorces-kojima-while-nintendo (Elliott, 2026-09-10)
+- 생성(source 3):
+  - sources/gi-newzoo-ggmr-2026-release-2026-09.md
+  - sources/carless-steam-demo-ccu-2026-09.md
+  - sources/alinea-ps-first-party-kojima-2026-09.md
+- 업데이트(10): sources/newzoo-ggmr-2026-preview(후속 추적 종료) · concepts/game-market-trends · concepts/live-service-design · concepts/evergreen-ip · concepts/launch-metrics · concepts/steam-revenue-forecasting · concepts/console-retail-strategy · comparisons/physical-retail-retention · entities/kojima-productions · entities/death-stranding / 카탈로그: sources/all.md(195→198) · index.md(소스 카운트·Last updated)
+- **①은 "preview 페이지 전문 교체"가 아니라 신규 페이지 + preview 갱신으로 처리.** 이유: GGMR 전체판은 유료 플래그십이고 2026-09-14 기준 무료 축약본 공개가 확인되지 않음(newzoo.com 접근 차단 · 검색 미확인). 손에 든 것은 전체판 본문이 아니라 GI.biz 보도이므로 *원본 교체 조건 미충족*. 대신 preview 페이지의 `## 후속 (A — 전체판 추적)`을 **종료 처리**하고 결과를 기록 — 시장 규모 수치는 전체판에서 수정 없이 확정됐으므로 preview 수치를 확정 전망치로 인용 가능, confidence는 2차 요약 지위 유지로 medium 그대로
+  - 메모리 추적 항목 `project_newzoo_ggmr2026_watch`의 질문(무료 축약본 공개 여부)은 **"미공개"로 해소**. 정기 추적에서 내림
+- 모순: **1건 추가** — concepts/evergreen-ip에 `> ⚠️ 모순` 블록. 기존 "구작이 매출 비중을 차지한다"(정적 점유)와 GGMR의 "기성 에버그린이 전년 대비 성장 못 한다"(성장률)가 층이 다름을 명시. *점유는 지키되 성장은 못 한다*로 정리
+- 신규 개념 페이지 생성 없음 — 세 소스 모두 기존 concept에 흡수됨. 데모 동접 지표는 launch-metrics + steam-revenue-forecasting 두 곳에 나눠 붙임(전자는 신호 판독, 후자는 독립 검산선)
+- 미커밋 상태
+
 ## [2026-09-08] lint | 주간 정기 점검 (스케줄 루틴)
 
 - 빌드: **통과** (419개 파싱·885 emit·42초). frontmatter YAML 오류 0건 → 자동 수정 없음. overview.md 편집 후 재검사도 통과(419·885·41초)

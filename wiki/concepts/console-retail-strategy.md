@@ -1,10 +1,10 @@
 ---
 title: "콘솔 리테일·유통 전략"
 type: concept
-sources: ["[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[sony-ir-1q-fy2026]]", "[[matthew-ball-2026-report]]", "[[capcom-fy26-ir]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[circana-us-physical-lowest-2026-07]]"]
-related: ["[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[webshop-direct-monetization|웹샵·D2C 직접 수익화]]", "[[audience-expansion|오디언스 확장]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
+sources: ["[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[sony-ir-1q-fy2026]]", "[[matthew-ball-2026-report]]", "[[capcom-fy26-ir]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[circana-us-physical-lowest-2026-07]]", "[[alinea-ps-first-party-kojima-2026-09]]"]
+related: ["[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[webshop-direct-monetization|웹샵·D2C 직접 수익화]]", "[[audience-expansion|오디언스 확장]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]", "[[call-of-duty|Call of Duty]]", "[[gta-6|GTA 6]]"]
 created: 2026-08-03
-updated: 2026-08-31
+updated: 2026-09-14
 confidence: high
 ---
 
@@ -135,6 +135,22 @@ confidence: high
 - ⚠️ 분모가 작다는 점을 잊지 말 것 — 63%·32%는 \$85M을 나눈 비율이라 절대액은 \$50M대·\$27M대다. 그리고 "1995년 이후 최저"는 인플레이션·시장 규모 보정이 없는 명목 비교다
 
 → 플랫폼·퍼블리셔·타이틀 세 층의 물리 비중을 한자리에 모아 *어떤 숫자를 어떤 판단에 쓸 것인가*로 정리한 비교는 [[physical-retail-retention|물리 유통 잔존율 3층 비교]] 참조.
+
+## PS 퍼스트파티 타이틀별 패키지 비중 ([[alinea-ps-first-party-kojima-2026-09]])
+
+같은 퍼블리셔·같은 세대·같은 플랫폼인데 타이틀에 따라 패키지 비중이 5배 넘게 갈린다. Alinea 추정(2026-09).
+
+| 타이틀 | 판매 | 매출(gross) | 패키지 비중 |
+|---|---|---|---|
+| [[ghost-of-yotei]] | 530만 | \$400M | 38% |
+| Stellar Blade | 530만 | \$309M | 43% |
+| [[astro-bot]] | 450만 | \$275M | **47%** |
+| [[death-stranding]] 2 | 250만 | \$170M | 42% |
+| [[helldivers-2]] | 2,300만 | \$800M | **8%** |
+
+> 💡 **패키지 비중을 가르는 것은 유통 정책이 아니라 수익 모델이다.** 프리미엄 싱글플레이는 38~47%에 머무는데 라이브서비스는 8%다. 소장·선물·중고 되팔이가 성립하는 완결형 작품과, 시즌을 따라가려고 즉시 내려받는 서비스형 게임은 애초에 구매 동기가 다르다. 위 [패키지 비중은 장르와 이용자층에 따라 갈린다](#패키지-비중은-장르와-이용자층에-따라-갈린다)에 **수익 모델이라는 분할선**이 하나 더 붙는 셈이다.
+
+> ⚠️ 전부 Alinea 자체 추정치이며 gross 기준이다. 지역별 분포도 합산돼 있어 단일 수치로 읽으면 오독 위험이 있다.
 
 ## 개발사 관점 시사
 

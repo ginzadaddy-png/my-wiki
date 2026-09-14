@@ -2,10 +2,13 @@
 title: "소스 전체 목록"
 ---
 
-총 195개 | 최신순 정렬
+총 198개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [gi-newzoo-ggmr-2026-release-2026-09](gi-newzoo-ggmr-2026-release-2026-09.md) | Newzoo GGMR 2026 전체판 — 라이브서비스·에버그린이 보합 또는 역성장 (GamesIndustry.biz, McEvoy) — 규모는 preview 그대로 확정(\$213.9B·+6.1%)·H1 기성 타이틀 대부분 정체·성장은 WoW·Diablo 4·Overwatch·Roblox·텐센트뿐·서구 6개 시장 디지털 하락·Q1 상장사 top10 \$374억(텐센트 +11.9% / 소니 -0.9% / MS -5.5% / Roblox +39.3%)·콘솔 플레이어 +3%·지출자 비중 44.6% | 2026-09-10 |
+| [alinea-ps-first-party-kojima-2026-09](alinea-ps-first-party-kojima-2026-09.md) | Alinea — PS 퍼스트파티 실판매와 소니의 코지마 결별 (Elliott) — 요테이 530만·\$400M 패키지 38%·스텔라 블레이드 43%·아스트로봇 47%·DS2 42% vs 헬다이버즈 2 2,300만·\$800M 패키지 8%·Physint 6월 취소 후 Xbox 인수·DS 프랜차이즈 \$413M ROI 18~38%·오카리나 원작 1,500만 vs BotW 3,400만 | 2026-09-10 |
+| [carless-steam-demo-ccu-2026-09](carless-steam-demo-ccu-2026-09.md) | GameDiscoverCo — 스팀 데모 동접은 본편 성적을 예측하는가 (Carless) — n=2,569(출시작의 4.7%)·데모 최고 동접 → 본편 동접 중앙값 3.01배·상위 6.24배 vs 하위 1.29배·권고 2~4배·동접 200 → 1주차 1.2만·1년차 3.5만·매출 top100 중 데모 보유 58종이나 1~20위는 30%·81~100위는 75% | 2026-09-08 |
 | [gi-sega-super-game-cancelled-2026-09](gi-sega-super-game-cancelled-2026-09.md) | GI.biz — 세가, 라이브 서비스 대작 Super Game 취소 (McEvoy, 니케이 경유) — 2021 발표·최대 \$10억 투자 검토·기술이 아니라 운영 규모 임계점이 사유·"지금은 리스크 과다"·PSO2 NGS·Total War 40K는 유지·2023 Hyenas 취소 전력 | 2026-09-07 |
 | [gi-tencent-live-service-strategy-2026-09](gi-tencent-live-service-strategy-2026-09.md) | GI.biz — 텐센트의 장기 전략: 라이브 서비스·에버그린·AI 툴 (Packwood, Zhu 인터뷰) — "성배는 라이브 서비스"·에버그린과 분리해서 씀·스튜디오 20곳 지원 모델·인수 후 분리도 정상 경로·작은 코어+외주·북미 헤드카운트 이탈·AI는 도구까지, 데이터는 사외 반출 금지 | 2026-09-05 |
 | [alinea-steam-15b-mid-market-2026-09](alinea-steam-15b-mid-market-2026-09.md) | Alinea — Steam 올해 총매출 \$15B, 그리고 '미드마켓'의 정체 (Elliott) — YTD \$15B(+15%)·8개월에 2023 연간 추월·연 \$20B 전망·신작 top100 = 전체 15.9%·신규 IP 개수 63% 매출 47.5%·101~1000위의 83%가 구작·생애 \$50M+가 구간 매출 51% | 2026-09-04 |

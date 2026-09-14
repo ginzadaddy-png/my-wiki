@@ -1,10 +1,10 @@
 ---
 title: "물리 유통 잔존율 — 플랫폼·퍼블리셔·타이틀 3층 비교"
 type: comparison
-sources: ["[[circana-us-physical-lowest-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[sony-ir-1q-fy2026]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[capcom-fy26-ir]]", "[[matthew-ball-2026-report]]"]
+sources: ["[[circana-us-physical-lowest-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[sony-ir-1q-fy2026]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[capcom-fy26-ir]]", "[[matthew-ball-2026-report]]", "[[alinea-ps-first-party-kojima-2026-09]]"]
 related: ["[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|시장 구조 변화]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[webshop-direct-monetization|웹샵·D2C 직접 수익화]]", "[[platform-fees-vs-direct-sales|플랫폼 수수료 vs 직접 판매]]", "[[sony-interactive-entertainment|소니 인터랙티브 엔터테인먼트]]", "[[microsoft|마이크로소프트]]", "[[nintendo-switch-2|닌텐도 스위치 2]]", "[[capcom|캡콤]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가]]"]
 created: 2026-08-24
-updated: 2026-08-31
+updated: 2026-09-14
 confidence: medium
 ---
 
@@ -74,6 +74,17 @@ confidence: medium
 | 프레스티지 싱글플레이 대작 — 소장 자체가 구매 동기의 일부 | PC 선행·중국 대형 오디언스 — 다운로드가 기본값 |
 | FF7 리버스 48.0% · Astro Bot · Spider-Man 2 · Expedition 33 | Black Myth: Wukong 10.8% · 연간 라이브 서비스 스포츠물 |
 | 물리를 없애면 **실제로 잃는 것이 있다** | 물리를 없애도 **사실상 잃을 것이 없다** |
+
+### 네 번째 분할선 — 수익 모델 ([[alinea-ps-first-party-kojima-2026-09]])
+
+같은 퍼블리셔·같은 세대·같은 플랫폼 안에서도 **수익 모델이 다르면 비중이 5배 갈린다.** PS 퍼스트파티 Alinea 추정(2026-09):
+
+| 수익 모델 | 타이틀 | 패키지 비중 |
+|---|---|---|
+| 프리미엄 싱글플레이 | [[astro-bot]] 47% · Stellar Blade 43% · [[death-stranding]] 2 42% · [[ghost-of-yotei]] 38% | **38~47%** |
+| 라이브서비스 | [[helldivers-2]] (2,300만 장 · \$800M) | **8%** |
+
+> 💡 위 표가 *게임 성격*(프레스티지 대작 vs PC 선행)으로 나눈 것을 한 겹 더 좁히면 **구매 동기**가 나온다. 소장·선물·중고 되팔이가 성립하는 완결형 작품은 디스크에 의미가 있고, 시즌을 따라가려고 즉시 내려받는 서비스형 게임은 그렇지 않다. 그래서 "물리를 없앤다"는 결정은 **플랫폼 단위도 타이틀 단위도 아니라 *포트폴리오의 수익 모델 구성* 단위로 따져야 한다.**
 
 ## 판단 프레임 — 어떤 숫자를 어디에 쓸 것인가
 

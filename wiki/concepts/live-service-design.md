@@ -1,10 +1,10 @@
 ---
 title: "라이브 서비스 설계"
 type: concept
-sources: ["[[missing-middle-paradigm-shift-2026]]", "[[ukyou-mobile-liveservice-survival]]", "[[ukyou-mobile-liveservice-walls]]", "[[ign-generations-in-play-2026]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[gi-sony-live-service-opportunity-cost-2026-08]]", "[[gi-tencent-live-service-strategy-2026-09]]", "[[gi-sega-super-game-cancelled-2026-09]]"]
+sources: ["[[missing-middle-paradigm-shift-2026]]", "[[ukyou-mobile-liveservice-survival]]", "[[ukyou-mobile-liveservice-walls]]", "[[ign-generations-in-play-2026]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[gi-sony-live-service-opportunity-cost-2026-08]]", "[[gi-tencent-live-service-strategy-2026-09]]", "[[gi-sega-super-game-cancelled-2026-09]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]"]
 related: ["[[helldivers-2|헬다이버스 2]]", "[[arc-raiders|아크 레이더스]]", "[[arrowhead-game-studios|애로우헤드]]", "[[embark-studios|엠바크 스튜디오]]", "[[community-management|커뮤니티 운영]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[player-retention|플레이어 리텐션]]", "[[engagement-loop|인게이지먼트 루프]]"]
 created: 2026-04-23
-updated: 2026-09-08
+updated: 2026-09-14
 confidence: high
 ---
 
@@ -143,3 +143,15 @@ TRPG 던전 마스터 개념을 라이브 서비스에 도입. 정해진 스크�
 > 💡 **핵심 인사이트:** 라이브 서비스 실패의 청구서는 취소 시점에 끝나지 않는다. **고품질 릴리스 파이프라인은 5년 전에 깔려 있어야 하고, 몇 년 전에 시작하지 않은 라인업은 돈으로도 살 수 없다.** 그래서 기회비용은 상각되지 않고, 취소된 게임의 이름이 잊힌 뒤에도 사업·브랜드·소비자 관계에 남는다. 하필 다음 세대 기기가 회사 역사상 가장 비쌀 시점에 "살 게임이 없다"는 인식이 굳는 조합이 가장 아프다.
 
 > ⚠️ **오피니언이고 반사실이 없다.** "게릴라에 후속작이 없다"는 Schreier 보도의 전언이며 소니 확인은 없다. 그리고 *라이브 서비스를 안 했다면 제때 냈을 것*이라는 가정은 검증되지 않았다 — 대작 개발 기간이 세대마다 길어지는 추세만으로도 공백의 상당 부분이 설명될 수 있다(Forbidden West 2022 + 5년 = 2027, 라이브 서비스와 무관하게 세대 후반). 서커펀치·산타모니카가 피했다는 사실은 원인이 *하향식 지시*만이 아닐 수 있음을 시사하는데 글은 그 함의를 다루지 않는다.
+
+## 기성 라이브서비스의 성장 정체 — H1 2026 ([[gi-newzoo-ggmr-2026-release-2026-09]])
+
+Newzoo GGMR 2026 전체판은 **이미 자리 잡은 라이브서비스·에버그린 타이틀 대부분이 2026년 상반기에 전년 동기 대비 보합 또는 역성장**했다고 집계한다.
+
+- 성장한 소수: World of Warcraft · Diablo 4 · Overwatch · [[roblox|Roblox]] · [[tencent|텐센트]] 일부 해외 출시작
+- 서구 6개 시장 디지털 매출은 전년 동기 대비 하락 — *"F2P와 연간 반복 프리미엄의 약세가 호조인 신작을 상쇄"*
+- 같은 리포트가 시장 전체는 +6.1% 성장으로 전망한다
+
+> 💡 **"한번 띄우면 굴러간다"가 집계에서 부정된다.** 라이브서비스 설계의 암묵 전제는 *초기 획득 비용을 치르고 나면 장기 수익이 따라온다*는 것인데, 시장이 6% 크는 해에 기성 타이틀 다수가 제자리였다. 성장은 신작·신흥 시장·소수 플랫폼으로 갔다. 위 [밀고 가는 쪽과 접는 쪽](#밀고-가는-쪽과-접는-쪽--2026-09-세-회사-gi-tencent-live-service-strategy-2026-09--gi-sega-super-game-cancelled-2026-09)에서 세가가 Super Game을 접은 판단(*"지금은 리스크 과다"*)이 개별 회사의 보수적 선택이 아니라 **업계 집계와 같은 방향**이었다는 뒷받침이 된다.
+
+> ⚠️ 보도에 정량이 없다 — 몇 %인지, 몇 종이 해당하는지, 무엇을 "기성 라이브서비스"로 분류했는지 확인되지 않는다. 성장한 세 Blizzard 타이틀도 그해 확장·시즌 캘린더 효과일 수 있어 구조적 성장과 구분되지 않는다.

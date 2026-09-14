@@ -6,7 +6,7 @@ relations:
   genre: [soulslike]
   platform: [ps5, xbox-series, pc]
 sources: ["[[alinea-mortal-shell-2-launch-2026-08]]"]
-related: ["[[cold-symmetry|Cold Symmetry]]", "[[soulslike|소울라이크]]", "[[launch-metrics|런치 메트릭]]", "[[steam-next-fest|Steam Next Fest]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[subscription-economy-gaming|구독 경제]]", "[[game-pass|Xbox Game Pass]]", "[[small-team-development|소규모 팀 개발 전략]]"]
+related: ["[[cold-symmetry|Cold Symmetry]]", "[[soulslike|소울라이크]]", "[[launch-metrics|런치 메트릭]]", "[[steam-next-fest|Steam Next Fest]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[subscription-economy-gaming|구독 경제]]", "[[game-pass|Xbox Game Pass]]", "[[small-team-development|소규모 팀 개발 전략]]", "[[ps-plus|PlayStation Plus]]"]
 created: 2026-08-31
 updated: 2026-08-31
 confidence: medium

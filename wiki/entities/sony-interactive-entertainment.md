@@ -2,7 +2,7 @@
 title: "소니 인터랙티브 엔터테인먼트 (SIE)"
 type: entity
 sources: ["[[gi-sony-live-service-opportunity-cost-2026-08]]", "[[circana-us-physical-lowest-2026-07]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]"]
-related: ["[[live-service-design|라이브 서비스 설계]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[hit-driven-strategy|홈런 전략]]"]
+related: ["[[live-service-design|라이브 서비스 설계]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[hit-driven-strategy|홈런 전략]]", "[[ps-plus|PlayStation Plus]]"]
 created: 2026-06-01
 updated: 2026-08-24
 confidence: high

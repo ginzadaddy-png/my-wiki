@@ -2,7 +2,7 @@
 title: "Xbox Game Pass"
 type: entity
 sources: ["[[naavik-xbox-strategy-reset-2026-07]]", "[[alinea-halo-campaign-evolved-2026-08]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[matthew-ball-2026-report]]", "[[newzoo-pc-console-2026]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-mortal-shell-2-launch-2026-08]]"]
-related: ["[[subscription-economy-gaming|구독 경제]]", "[[microsoft|마이크로소프트]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
+related: ["[[subscription-economy-gaming|구독 경제]]", "[[microsoft|마이크로소프트]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]", "[[ps-plus|PlayStation Plus]]"]
 created: 2026-08-31
 updated: 2026-08-31
 confidence: medium

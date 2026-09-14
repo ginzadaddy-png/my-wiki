@@ -2,7 +2,7 @@
 title: "구작 재발매·리마스터 전략"
 type: concept
 sources: ["[[alinea-remakes-remasters-ranking-2026-07]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-steam-record-year-2026]]", "[[capcom-fy26-ir]]", "[[cedec2026-silent-hill-producing]]", "[[catalog-economics-cross-company-2026]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-halo-campaign-evolved-2026-08]]"]
-related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[ip-adaptation-design|IP 각색·확장 설계]]", "[[subscription-economy-gaming|구독 경제]]", "[[proprietary-engine-strategy|자체 엔진 전략]]", "[[reports/pc-console-pricing-playbook|PC·콘솔 패키지 게임 기준 가격 결정 가이드]]", "[[capcom|캡콤]]", "[[konami|코나미]]", "[[bethesda-game-studios|베데스다]]"]
+related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[ip-adaptation-design|IP 각색·확장 설계]]", "[[subscription-economy-gaming|구독 경제]]", "[[proprietary-engine-strategy|자체 엔진 전략]]", "[[reports/pc-console-pricing-playbook|PC·콘솔 패키지 게임 기준 가격 결정 가이드]]", "[[capcom|캡콤]]", "[[konami|코나미]]", "[[bethesda-game-studios|베데스다]]", "[[call-of-duty|Call of Duty]]"]
 created: 2026-08-10
 updated: 2026-08-18
 confidence: high
