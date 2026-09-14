@@ -2,6 +2,20 @@
 title: "활동 로그"
 ---
 
+## [2026-09-14] 운영 | 배포 결과 확인을 주간 루틴에 편입 — gh CLI 설치·인증
+
+- 배경: 지난 2주 배포 보고에 *"GitHub Actions 결과는 확인하지 못함"*이라는 단서가 계속 붙었다. 원인은 **`gh` 미인증이 아니라 미설치**였다(초기 진단 정정 — `command not found`를 인증 문제로 잘못 읽었음)
+- 사용자가 설치·로그인 완료: **GitHub CLI 2.100.0**, 계정 `ginzadaddy-png`(keyring), 스코프 `gist`·`read:org`·`repo`·`workflow`
+- **09-14 push 2건의 배포 결과 최초 확인 — 둘 다 success** (`Deploy Quartz site to GitHub Pages` 2m56s · 1m38s). 이전 주 보고서에 달던 *"사이트에서 직접 확인 필요"* 단서는 이제 뗀다
+- 스케줄 루틴(`~/.claude/scheduled-tasks/llm-wiki-lint/SKILL.md`)에 **9번 단계 신설** — push가 실제로 일어난 주에만 수행
+  - **대상 repo는 `ginzadaddy-png/quartz`** (my-wiki 아님). my-wiki push -> submodule 자동 sync -> quartz에서 Pages 빌드가 도는 구조라, my-wiki를 조회하면 빈 결과가 나와 실패로 오해하기 쉽다
+  - sync가 자동 trigger라 push 직후엔 큐에 없을 수 있음 -> **1~2분 뒤 조회**
+  - 판정은 `Deploy Quartz site to GitHub Pages` 최신 run 하나만. **`Docker build & push image`·`Build and Test`의 skipped는 정상**(트리거 조건 미해당)이며 실패로 보고하지 말 것
+  - 실패 시 `gh run view <id> --log-failed`로 원인 인용
+  - **조회 전용** — `gh run rerun`·`gh workflow` 등 재실행·수정 계열은 루틴에서 금지. 대응은 사용자 판단
+- ⚠️ **PATH 메모**: 설치 이전에 시작된 셸 세션은 `gh`를 이름으로 못 찾는다. 절대 경로 `"C:\Program Files\GitHub CLI\gh.exe"`로 우회할 것. 새 세션에서는 정상
+- 루틴 파일 추가 정리: `8)`의 "(마지막)" 표기가 9번 신설로 틀려져 제거. 보고 형식에도 9번 항목 추가
+
 ## [2026-09-14] 배포 | 주간 LINT 배포 창구 — push 1건
 
 - push: **2ccf631** (39파일 · 840 insertions · 62 deletions) — 09-14 ingest 3건 + 주간 lint + 조사 주제 1~5 전건 실행 + changelog 문체 통일을 한 커밋으로 묶음
