@@ -2128,3 +2128,4 @@ title: "활동 로그"
 - **-> medium (9)**: entities/ncsoft · entities/aion-2(둘 다 소스 1건) · entities/control-resonant(미출시 09-24, 페이지에 출시 후 확인 필요 블록 있음) · concepts/audience-age-segmentation(단일 설문 재분석) · sources/alinea-ps-first-party-kojima(페이지가 스스로 전부 자체 추정치 + 상업적 이해관계 명시) · sources/gi-newzoo-ggmr-2026-release(2차 보도, 정량·방법론·표본 확인 불가) · sources/alinea-wardogs-launch · sources/carless-discovery-by-age · sources/carless-indie-sustainability(전부 자체 추정, 오차 범위 없음)
 - **재발 방지**: CLAUDE.md frontmatter 절에 중간값 신설 금지 + 뉘앙스는 「약점과 한계」로 보낸다는 규칙 한 줄 추가. 이게 없으면 몇 주 뒤 같은 회피책이 다시 생긴다
 - 잔여 `medium-high` **0건** 확인
+- 배포: push **6f918ab** (14파일). `Deploy Quartz site to GitHub Pages` run **35576906080 success** (1m18s, 2026-09-21T08:14:57Z). 빌드 통과(441 파싱 · 930 emit) · 줄바꿈 churn 0
