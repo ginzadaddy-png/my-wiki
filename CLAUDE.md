@@ -284,7 +284,6 @@ raw/ 파일에서 아래는 무시·건너뛸 것:
 | Naavik (Digest) | 상 (심층 분석·케이스) | https://naavik.co/digest/ |
 | Game Developer | ⭐ 최상 (개발 craft·편집) | https://www.gamedeveloper.com/latest |
 | GamesIndustry.biz | 상 (게임산업 업계 뉴스) | https://www.gamesindustry.biz/ |
-| 80 Level | 중상 (아트·기술 파이프라인) | https://80.lv/articles/ |
 | Game Dev Report | 중상 (2차·애그리게이터) | https://gamedevreport.beehiiv.com/ |
 | Big Games Machine (content hub) | 중 (PR 에이전시 listicle) | https://www.biggamesmachine.com/content-hub/page/1/ |
 

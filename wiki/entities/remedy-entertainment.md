@@ -1,10 +1,10 @@
 ---
 title: "Remedy Entertainment"
 type: entity
-sources: ["[[gdc24-alan-wake2-mission-design]]", "[[remedy-control-resonant-pricing-2026-08]]"]
-related: ["[[alan-wake-2|Alan Wake 2]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]", "[[proprietary-engine-strategy|독자 엔진 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[reports/pc-console-pricing-playbook|PC·콘솔 패키지 게임 기준 가격 결정 가이드]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]"]
+sources: ["[[gdc24-alan-wake2-mission-design]]", "[[remedy-control-resonant-pricing-2026-08]]", "[[gi-remedy-open-world-guidance-2026-09]]"]
+related: ["[[alan-wake-2|Alan Wake 2]]", "[[control-resonant|Control Resonant]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[open-world-design|오픈월드 설계]]", "[[quest-narrative-design|퀘스트·내러티브 디자인]]", "[[proprietary-engine-strategy|독자 엔진 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[reports/pc-console-pricing-playbook|PC·콘솔 패키지 게임 기준 가격 결정 가이드]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]"]
 created: 2026-04-24
-updated: 2026-08-18
+updated: 2026-09-21
 confidence: high
 ---
 
@@ -47,6 +47,20 @@ Alan Wake 2를 Epic Games와 함께 낸 뒤 자체 퍼블리싱으로 전환했�
 **Control Resonant (2026-09-24 출시)** 에 회복을 걸었고, 그 전략의 축이 가격이다 — 업계가 \$70~80으로 올라가는 흐름에서 **\$60**을 택하고 이를 투자자 대상 소구점으로 명시했다. 대신 노출에 물량을 실었다: 미국·중남미·유럽 7개 도시 핸즈온 월드 투어, 전 플랫폼 위시리스트 **150만+**, PS 예약 미국·독일·브라질 톱3.
 
 > 💡 시퀄을 원작과 다른 방향으로 크게 틀면서 동시에 가격을 낮춘 조합이다 — 신선함으로 주목을 만들고 가격으로 진입을 여는 쪽. ⚠️ 출시 전 지표까지만 확인됐고 실판매 검증은 아직이다.
+
+## 오픈월드·근접 전투로의 전환 ([[control-resonant|Control Resonant]], 2026-09-24)
+
+스튜디오의 설계 전제가 두 군데서 바뀐다 ([[gi-remedy-open-world-guidance-2026-09]]).
+
+| 항목 | Control (2019) | Control Resonant |
+|---|---|---|
+| 공간 | 실내 (Oldest House) | 맨해튼 오픈월드 — 스튜디오 최대 규모 |
+| 이동 | 부양, 단 천장이 상한 | 중력 조작 — 벽을 걸어 올라감 |
+| 전투 | 원거리 초능력 중심 | **근접 중심** (스튜디오 최초) |
+
+실내 내러티브 액션으로 정체성을 쌓아온 팀이 유도 설계를 처음부터 다시 짜야 했다는 점이 핵심이다. 선택은 *이동을 제한하지 않고 시선으로 끈다*였고, 존별 색 팔레트와 "걸어 보이면 걸린다" 원칙으로 정리됐다. 대가는 레벨 이탈 지점을 아트팀과 손으로 계속 맞추는 반복 작업이다. 상세는 [[player-guidance-design|플레이어 유도 설계]] 참조.
+
+참고로 전작 *Control*은 Video Game Insights 기준 약 760만 장으로, [[alan-wake-2|Alan Wake 2]]의 생애 300만을 크게 웃도는 스튜디오 최대 흥행작이다.
 
 ## 위키 맥락
 

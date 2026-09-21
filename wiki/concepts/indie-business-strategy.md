@@ -9,11 +9,12 @@ sources: [
   "[[gdc2024-valheim-early-access]]",
   "[[ukyou-project-failure-structure]]",
   "[[zrconsulting-steam-forecaster-2026]]",
-  "[[zukowski-golden-age-week-2026-08]]"
+  "[[zukowski-golden-age-week-2026-08]]",
+  "[[carless-indie-sustainability-2026-09]]"
 ]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[vision-statement|비전 선언문]]", "[[playtesting|플레이테스팅]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]"]
 created: 2026-04-16
-updated: 2026-08-24
+updated: 2026-09-21
 confidence: high
 ---
 
@@ -116,6 +117,24 @@ ZR Forecaster 데이터의 함의: *인디 매출 분포는 강한 long tail*. m
 - "Steam에 출시하면 평균 X 매출" 같은 평균 통계는 *대다수 인디에게 무관*
 
 생존 전략은 *median 기준 break-even*을 1차 목표로, *long tail upside*는 보너스로 잡아야 함.
+
+## 코호트 전수로 센 손익분기 비율 ([[carless-indie-sustainability-2026-09]])
+
+위 "미디언 vs 평균" 논의가 분포의 *모양*을 말한다면, 이건 **몇 개가 실제로 본전을 넘는지**를 한 달치 출시작 전수로 센 것이다. 2026년 1월 Steam 출시작 1,230종 기준.
+
+기준선은 생애 총매출 \$100만이다. 환불·차지백·밸브 30%를 빼면 예산 \$50만짜리 자체 퍼블리싱이 겨우 본전에 닿는 값 — 성공선이 아니라 *생존선*이다.
+
+| 시나리오 | 손익분기 도달 | 비율 |
+|---|---|---|
+| 예산 \$50만 · 자체 퍼블리싱 | 16종 / 1,230종 | **1.3%** |
+| 예산 \$10만 · 자체 퍼블리싱 | 80종 / 1,230종 | 6.5% |
+| 예산 \$50만 · 퍼블리셔 펀딩 (표준 리쿱) | 약 7종 | **약 0.6%** |
+
+> 💡 **핵심 인사이트:** 예산을 5분의 1로 줄이면 생존 확률이 5배가 된다. 매출을 늘리는 쪽은 통제하기 어렵지만 예산을 깎는 쪽은 통제할 수 있고, 이 표에서는 후자의 효과가 훨씬 또렷하다. 팀을 키워 완성도를 올리는 선택은 *분자를 키우는 대신 분모도 같이 키우는* 거래다.
+
+> 💡 **핵심 인사이트:** 퍼블리셔 딜은 실패했을 때의 손실을 막아주는 대신 **내 돈이 되는 지점을 두 배 멀리 밀어낸다** (1.3% → 0.6%). 위 "퍼블리셔 협상 vs Self-publish"의 stress test에 이 비율을 같이 놓을 것.
+
+> ⚠️ 이 수치는 8개월치 누적을 "생애 매출"로 간주한 값이다. [[long-tail-survival-economics|롱테일]] 논의대로 인디 매출의 상당 부분이 출시 1년 이후 할인·번들에서 나오므로 **실제 손익분기 비율은 이보다 높다**. 또한 Steam 단일 플랫폼 집계라 콘솔·번들·구독 수익이 빠져 있다. 방향을 읽는 데 쓰고 절대값으로 인용하지 말 것.
 
 ## 빠른 출시 사이클을 사업 모델로 ([[zukowski-golden-age-week-2026-08]])
 

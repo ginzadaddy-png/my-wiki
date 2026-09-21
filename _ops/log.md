@@ -2060,3 +2060,51 @@ title: "활동 로그"
   - overview.md (초기화)
 - 업데이트: 없음 (최초 ingest)
 - 모순: 없음 (최초 ingest)
+
+## [2026-09-21] ingest | source radar 선별 4건 — 발견 경로·인디 생존·런칭 전환·오픈월드 유도
+- Source: source radar 2026-09-21 스캔 후보 중 사용자 선별 (raw/ 적재 없음 — 웹 소스 직결)
+  - GameDiscoverCo, 연령대별 게임 발견 경로 (2026-09-18)
+  - GameDiscoverCo, 평균 인디에게 게임 사업은 지속 가능한가 (2026-09-15)
+  - Alinea Analytics, Wardogs 얼리액세스 1주차 (2026-09-16)
+  - GamesIndustry.biz, Remedy Arhi Makkonen 오픈월드 유도 인터뷰 (2026-09-17)
+- 생성:
+  - sources/carless-discovery-by-age-2026-09.md
+  - sources/carless-indie-sustainability-2026-09.md
+  - sources/alinea-wardogs-launch-2026-09.md
+  - sources/gi-remedy-open-world-guidance-2026-09.md
+  - concepts/audience-age-segmentation.md (신규 개념 — 사용자 승인)
+  - entities/wardogs.md
+  - entities/control-resonant.md
+- 업데이트:
+  - concepts/audience-discovery-systems.md (연령축 채널 비중 절 추가)
+  - concepts/indie-business-strategy.md (코호트 전수 손익분기 비율 절 추가)
+  - concepts/launch-metrics.md (위시리스트 적재 시점 축·리뷰 플레이시간 분해·연령 보정 추가)
+  - concepts/player-guidance-design.md (벽·천장 이동 시 유도, 프롬 vs Remedy 어포던스 대비 추가)
+  - concepts/open-world-design.md (존별 색 팔레트 식별 절 추가)
+  - entities/remedy-entertainment.md (오픈월드·근접 전투 전환 절 추가)
+  - index.md (소스 198→202, 게임 49→51, 개념 79→80, 날짜 갱신, 개념 pill 추가)
+  - sources/all.md · concepts/all.md · entities/all.md (카탈로그 행 추가)
+- 모순: 없음. 단 player-guidance-design에 프롬소프트웨어("안 되는 것은 안 되어 보이게")와 Remedy("되어 보이면 되게")의 어포던스 방향 대비를 모순이 아닌 조건부 분기로 명시
+- 미해결: Wardogs 개발사 Bulkhead·퍼블리셔 Team17 엔티티 페이지 없음 → relations의 developedBy·publishedBy 비워 둠 (환각 방지). 다음 lint에서 생성 여부 판단
+
+## [2026-09-21] ops | source radar 대상 소스에서 80 Level 제외
+- 사용자 요청. CLAUDE.md 작업 5 대상 표 + 스케줄 루틴 SKILL.md 양쪽에서 제거
+- 제거 사유: 아트 브레이크다운·속보 혼재로 위키 추상화 수준과 불일치, 추천 전환율 낮음
+- 남은 대상 8곳: HTMAG · GameDiscoverCo · Alinea · Naavik · Game Developer · GamesIndustry.biz · Game Dev Report · Big Games Machine
+
+## [2026-09-21] lint | 주간 정기 점검 (스케줄 루틴)
+
+- 빌드: **통과** (441 파싱 · 930 emit · 42초). frontmatter YAML 오류 0건 -> 자동 수정 없음. overview·status 편집 후 재검사도 통과(441 · 930 · 44초)
+- 모순 **21 블록**(HEAD 20 -> +1). 신규 1건은 `sources/gi-remedy-open-world-guidance-2026-09:54`인데 자체가 *"모순은 아니지만 결이 다르다"* 형태 — 프롬소프트웨어 "안 되는 것은 안 되어 보이게" vs Remedy "되어 보이면 되게"를 **조건부 분기**(플레이어 능력 폭이 다르면 해법이 갈린다)로 정리해 둔 상태라 조치 불필요
+  - 미해소 2건 유지(naavik-xbox 하드웨어 해석 · gdc26-idg 전망 온도차) — 3주째 동일
+- **완전 고립 0건** / 카탈로그·index에서만 참조 4건(ps4·xbox-one graph 전용, 보고서 2건 구조상 정상 — 지난주와 동일) / **끊긴 wikilink 0종** / `]](` 위반 0 · alias 내 슬래시 0
+- 미페이지 개념: **Halo 17파일**(위키 최다 인용 *페이지 없는* 타이틀 — combat-companion-ai·gameplay-feedback-audio·level-design-principles의 공통 준거점) · **Hades 10파일**(supergiant-games 엔티티와 kasavin-hades-ea 소스는 있는데 게임 페이지만 빈 비대칭) · **Bulkhead 5 · Team17 2**(이번 ingest가 wardogs relations를 환각 방지로 비워 두며 남긴 미해결). Discord 15·Minecraft 9는 *페이지 만들지 않음* 판정 유지, Battlefield 10 이월
+- raw 미처리 **1건** — 111개 전수 대조에서 탐지 8건 중 7건은 URL 대조로 ingest 확인(fares·kasavin·tornqvist·vincke·zukowski는 파일명만 상이 / gameres는 matthew-ball-2026-report가 1차 원문으로 교체 완료 / Tunes of the Kingdom은 gdc24-zelda-tears-of-kingdom에 흡수). 남은 1건은 인벤 "Steam 마케팅 입문"(Game UA 2026 세미나, AB180 최혜린) — 주제 중복도 높으나 *한국 시장 실무자 관점*은 위키에 얇은 축
+- 자동 갱신: `_ops/status.md` 7곳(INGEST 79->80 · 소스 198->202 · 개념 79->80 · 엔티티 119->121 · 총 md 434->441 · 헤더 날짜 · 마지막 갱신) / `wiki/overview.md` 커버리지 게임 49->51(Wardogs · Control Resonant). **핵심 테마 추가 없음** — 임계 7 도달 concept 0건
+  - 핵심 테마 미등재 backlog **7건**(game-utility-systems 5 · unity-engine 4 · psychological-safety 4 · ai-navigation 4 · ai-disclosure-player-sentiment 4 · genre-tag-taxonomy 3 · audience-age-segmentation 3 신규). 지난주 11건에서 5건 승격 · 1건 유입
+- **자동 수정 범위 밖 — 보고 3건**
+  - `concepts/all.md`(updated 09-08) · `entities/all.md`(09-14)에 이번 주 행이 추가됐는데 `updated` 미갱신
+  - `sources/all.md`에는 `updated` 필드 자체가 없음 (다른 카탈로그와 불일치)
+  - **`confidence: medium-high`가 12개 페이지**(이번 주 신규 7 포함). CLAUDE.md 정의 어휘는 `high|medium|low` 3종 — 어휘 확장 또는 기존 12건 정규화 중 택일 필요
+- 분기 검토 알림: 해당 없음 (다음 2026-10-01~07)
+- changelog 2026-09 3주차 블록 초안 제시 -> **사용자 승인 후 반영**

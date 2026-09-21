@@ -2,10 +2,14 @@
 title: "소스 전체 목록"
 ---
 
-총 198개 | 최신순 정렬
+총 202개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [carless-discovery-by-age-2026-09](carless-discovery-by-age-2026-09.md) | GameDiscoverCo — 연령대별 게임 발견 경로 (Carless) — Steam Fan Snapshot 16,000명+·전체 롱폼 57%·Steam 자체 55.8%·입소문 44.9%·숏폼 37.5%·라이브 35.2%·숏폼은 18세 미만 53.5% → 45–54세 20.2%·전통 미디어는 21.2% → 42.5% 역방향·입소문/Steam은 전 연령 평탄·Peak은 평균 27세라 숏폼 편중 | 2026-09-18 |
+| [alinea-wardogs-launch-2026-09](alinea-wardogs-launch-2026-09.md) | Alinea — Wardogs 얼리액세스 1주차 (Elliott) — 220만 장·\$70M·\$40·2026 신작 매출 7위·위시리스트 180만에서 7일 전환 11% vs AAA 5%·위시리스트 57%가 직전 한 달 적재·Arc Raiders 170만/Helldivers 2 약 100만 상회·병행 CS2 86.6%·PUBG 65.7%·리뷰 74%이나 5시간+는 86–89% | 2026-09-16 |
+| [gi-remedy-open-world-guidance-2026-09](gi-remedy-open-world-guidance-2026-09.md) | GI.biz — Remedy, 벽을 걷는 캐릭터를 오픈월드에서 유도하기 (Packwood, Makkonen 인터뷰) — 실내는 천장이 유도를 대신했다·이동 제한 대신 시선 유도·존별 색 팔레트로 위치 식별·"걸어 보이면 걸린다" 원칙과 수작업 반복 비용·프롬의 "안 되는 것은 안 되어 보이게"와 반대 방향 | 2026-09-17 |
+| [carless-indie-sustainability-2026-09](carless-indie-sustainability-2026-09.md) | GameDiscoverCo — 평균 인디에게 게임 사업은 지속 가능한가 (Carless) — 2026년 1월 Steam 출시작 1,230종 전수·생존선 생애 \$100만·예산 \$50만 자체 퍼블리싱 손익분기 16종 1.3%·예산 \$10만이면 80종 6.5%·퍼블리셔 펀딩은 약 7종 0.6%·"홈런을 쳐야 한다" | 2026-09-15 |
 | [gi-newzoo-ggmr-2026-release-2026-09](gi-newzoo-ggmr-2026-release-2026-09.md) | Newzoo GGMR 2026 전체판 — 라이브서비스·에버그린이 보합 또는 역성장 (GamesIndustry.biz, McEvoy) — 규모는 preview 그대로 확정(\$213.9B·+6.1%)·H1 기성 타이틀 대부분 정체·성장은 WoW·Diablo 4·Overwatch·Roblox·텐센트뿐·서구 6개 시장 디지털 하락·Q1 상장사 top10 \$374억(텐센트 +11.9% / 소니 -0.9% / MS -5.5% / Roblox +39.3%)·콘솔 플레이어 +3%·지출자 비중 44.6% | 2026-09-10 |
 | [alinea-ps-first-party-kojima-2026-09](alinea-ps-first-party-kojima-2026-09.md) | Alinea — PS 퍼스트파티 실판매와 소니의 코지마 결별 (Elliott) — 요테이 530만·\$400M 패키지 38%·스텔라 블레이드 43%·아스트로봇 47%·DS2 42% vs 헬다이버즈 2 2,300만·\$800M 패키지 8%·Physint 6월 취소 후 Xbox 인수·DS 프랜차이즈 \$413M ROI 18~38%·오카리나 원작 1,500만 vs BotW 3,400만 | 2026-09-10 |
 | [carless-steam-demo-ccu-2026-09](carless-steam-demo-ccu-2026-09.md) | GameDiscoverCo — 스팀 데모 동접은 본편 성적을 예측하는가 (Carless) — n=2,569(출시작의 4.7%)·데모 최고 동접 → 본편 동접 중앙값 3.01배·상위 6.24배 vs 하위 1.29배·권고 2~4배·동접 200 → 1주차 1.2만·1년차 3.5만·매출 top100 중 데모 보유 58종이나 1~20위는 30%·81~100위는 75% | 2026-09-08 |

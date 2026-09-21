@@ -14,11 +14,12 @@ sources: [
   "[[gdc2024-valheim-early-access]]",
   "[[gdc24-spiderman2-open-world]]",
   "[[ex-rockstar-ben-hinchliffe-interview]]",
-  "[[cedec2026-crimson-desert-world-first]]"
+  "[[cedec2026-crimson-desert-world-first]]",
+  "[[gi-remedy-open-world-guidance-2026-09]]"
 ]
 related: ["[[level-design-principles|레벨 디자인 원칙]]", "[[emergent-systems-design|창발적 시스템 설계]]", "[[open-world-guidance|오픈월드 유도 비교]]", "[[marvel-spiderman-2|마블 스파이더맨 2]]", "[[death-stranding|데스 스트랜딩]]", "[[red-dead-redemption-2|레드 데드 리뎀션 2]]", "[[crimson-desert|붉은사막]]", "[[pearl-abyss|펄어비스]]", "[[designer-empowerment|디자이너 도구화]]"]
 created: 2026-04-15
-updated: 2026-07-30
+updated: 2026-09-21
 confidence: high
 ---
 
@@ -90,5 +91,17 @@ confidence: high
 - 배치는 대규모 구조물 Houdini + 지역·지형 데이터 기반 절차적 분포, 기억에 남을 순간만 수작업 → [[art-pipeline-design|아트 파이프라인]]의 90:10 도구화와 같은 비율
 
 > ⚠️ 모순: 베데스다 사례([[gdc2024-skyrim-starfield-design-collab]])는 오픈월드가 커질수록 *레벨↔퀘스트 팀 소통 비용*이 급증한다고 진단했다. 붉은사막은 그 비용을 **팀 간 의존을 없애는 방향**(월드 퍼스트 + XML 공통 언어)으로 풀었지만, 대가로 **메인 스토리의 존재감이 약해졌다**고 발표자들이 직접 인정했다 — "물리적 세계의 제약이 내러티브를 규정했고, 그 역이 아니었다". 즉 소통 비용을 없애면 내러티브 통제력을 잃는 trade-off가 존재한다.
+
+## 색으로 존을 식별하게 만들기 ([[control-resonant|Control Resonant]])
+
+위 "시각적 유도: 필드 삼각형 법칙"이 *어디로 갈지*를 다룬다면, 이건 *지금 어디인지*를 다루는 기법이다 ([[gi-remedy-open-world-guidance-2026-09]]).
+
+[[remedy-entertainment|Remedy]]는 맨해튼 오픈월드의 **존마다 강한 색 팔레트를 따로 배정**했다. 기준은 *스크린샷 한 장만 봐도 공원인지 대피 구역인지 중심가인지 알게 할 것*. 목표 상태는 *"완벽한 세계라면 플레이어가 지도를 볼 필요조차 없다"*이다.
+
+- 존 진입 시 그 존의 **핵심 로케이션이 정면에 보이도록** 배치하고 주변에 선택지를 깐다
+- 존 진행 순서는 완전 자유 — 내부 테스트에서 메인 퀘스트를 시작조차 않고 15시간을 사이드에 쓴 플레이어가 나왔다
+- 주인공이 중력을 바꿔 벽을 걸어 올라갈 수 있어 동선 통제가 불가능했고, 막는 대신 시선을 끄는 쪽으로 방향을 잡은 결과다 (상세는 [[player-guidance-design|플레이어 유도 설계]])
+
+> ⚠️ 거래가 있다. 존마다 색을 강하게 분리하면 길찾기는 쉬워지지만 **세계의 일관성과 사실감은 희생된다**. 인터뷰는 이 지점을 다루지 않았다. 또한 출시 전 개발사 발언이라 실제 작동 여부는 미검증이다.
 
 > 💡 **핵심 인사이트:** 오픈월드의 자유는 무한한 선택지가 아니라 **"어디로든 갈 수 있다는 느낌"을 유지하면서 플레이어를 자연스럽게 흥미로운 곳으로 이끄는 것**이다. 록스타는 여기서 한 발 더 나아가 — 플레이어가 어디로 가든 세계가 이미 그곳에서 살아있도록 만든다.

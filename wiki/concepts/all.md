@@ -57,6 +57,7 @@ updated: 2026-09-08
 | [[mobile-gamedev]] | **모바일 게임 개발** — 4대 현장 벽, 상업 성립 4요소, 원신 쇼크의 역설 |
 | [[genre-tag-taxonomy]] | **장르 태그 분류 체계** — 태그는 장르 사실이 아닌 마케팅 산물·관행 변화와 장르 이동의 미분리·렌즈 격차가 드러내는 단가 |
 | [[audience-discovery-systems]] | **오디언스 발견 시스템** — Intent vs Algorithm, Seek→Feed, 표면 alignment 함정 |
+| [[audience-age-segmentation]] | **연령대별 발견 경로** — 평탄한 채널 vs 기울어진 채널·숏폼 53.5%→20.2%·전통 미디어 21.2%→42.5% |
 | [[subscription-economy-gaming]] | **구독 경제와 게이밍** — 소유→액세스 전환, discovery engine, Residency Premium |
 | [[creator-economy-trust]] | **크리에이터 경제와 신뢰** — Earned·Validated·Built in real time 3-tier 모델 |
 | [[game-utility-systems]] | **게임 유틸리티 시스템** — Map vs Manual, Resident 인프라, 90% 유틸리티 사용 |

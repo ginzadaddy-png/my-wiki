@@ -1,10 +1,10 @@
 ---
 title: "오디언스 발견 시스템 — Intent vs Algorithm"
 type: concept
-sources: ["[[ign-generations-in-play-2026]]", "[[carless-dear-passengers-wishlists-2026-07]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]"]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[community-management|커뮤니티 운영]]", "[[launch-metrics|흥행 예측 지표]]", "[[steam-next-fest|Steam Next Fest]]", "[[player-retention|플레이어 리텐션]]"]
+sources: ["[[ign-generations-in-play-2026]]", "[[carless-dear-passengers-wishlists-2026-07]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[carless-discovery-by-age-2026-09]]"]
+related: ["[[audience-age-segmentation|연령대별 발견 경로]]", "[[marketing-strategy|마케팅 전략]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[community-management|커뮤니티 운영]]", "[[launch-metrics|흥행 예측 지표]]", "[[steam-next-fest|Steam Next Fest]]", "[[player-retention|플레이어 리텐션]]"]
 created: 2026-05-12
-updated: 2026-08-10
+updated: 2026-09-21
 confidence: high
 ---
 
@@ -84,6 +84,21 @@ Feed-First 발견의 극단 사례. [[dear-passengers|Dear Passengers]]는 클�
 > 💡 **핵심 인사이트:** 위 Seek→Feed 논의가 *이용자가 발견의 노동을 플랫폼에 넘겼다*는 이야기였다면, 이건 그 다음 이야기다 — **넘겨받은 쪽이 목적함수를 바꾸면 창작자는 아무것도 안 했는데 매출이 바뀐다.** 플랫폼 위에서 게임을 운영한다면 트래픽은 자산이 아니라 *임차물*이고, 임대 조건은 예고 없이 바뀐다. Steam·모바일 스토어·Roblox 어디든 같은 구조이며, [[creator-economy-trust|크리에이터 경제]]에서 크리에이터가 채널 의존을 분산하는 이유와 정확히 같다.
 
 **개발사 관점 대응**: 단일 플랫폼 추천에 유입의 대부분을 의존하고 있다면, 목적함수 변경은 대응 가능한 리스크가 아니라 *사업 모델 리스크*다. 알고리즘 밖 경로(커뮤니티·크리에이터·D2C)의 비중을 관리 지표로 둘 것 → [[community-management]], [[webshop-direct-monetization]]
+
+## 연령축으로 다시 본 채널 비중 ([[carless-discovery-by-age-2026-09]])
+
+위 세대 OS 논의가 *어떻게 찾고 신뢰하고 결정하는가*라는 행동 양식이었다면, Steam 플레이어 16,000명 이상 설문은 같은 이야기를 **채널별 퍼센트**로 확인해 준다. 전체 순위는 롱폼 영상 57% · Steam 자체 55.8% · 입소문 44.9% · 숏폼 37.5% · 라이브스트리밍 35.2%.
+
+| 채널 | 18세 미만 | 45–54세 |
+|---|---|---|
+| 숏폼 영상 | **53.5%** | **20.2%** |
+| 전통 게임 미디어 | 21.2% | **42.5%** |
+| 입소문 | 약 45% | 약 45% |
+| Steam 자체 | 약 55% | 약 55% |
+
+Gen Z의 Feed-First 성향이 "18세 미만 숏폼 53.5%"로 재현된다. 서로 다른 표본·방법의 두 자료가 같은 결론에 닿는다.
+
+**실무 함의는 채널을 두 부류로 나누는 것**이다 — 입소문·스토어 페이지는 연령 무관하게 평탄한 *바닥*, 숏폼·전통 미디어는 타깃 연령에 따라 두 배 이상 조정하는 *변동 예산*. 상세와 한계는 [[audience-age-segmentation|연령대별 발견 경로]] 참조.
 
 ## 시사 — 마케팅·런칭 전략 (참고: [[marketing-strategy|마케팅 전략]])
 

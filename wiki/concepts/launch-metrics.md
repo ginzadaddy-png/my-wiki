@@ -1,10 +1,10 @@
 ---
 title: "흥행 예측 지표"
 type: concept
-sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]", "[[zukowski-golden-age-week-2026-08]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[alinea-mortal-shell-2-launch-2026-08]]", "[[zukowski-demos-wishlist-conversion]]", "[[carless-steam-demo-ccu-2026-09]]"]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[forecasting-vs-launch-metrics|예측 vs 측정 비교]]"]
+sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]", "[[zukowski-golden-age-week-2026-08]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[alinea-mortal-shell-2-launch-2026-08]]", "[[zukowski-demos-wishlist-conversion]]", "[[carless-steam-demo-ccu-2026-09]]", "[[alinea-wardogs-launch-2026-09]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[forecasting-vs-launch-metrics|예측 vs 측정 비교]]", "[[audience-age-segmentation|연령대별 발견 경로]]", "[[wardogs|Wardogs]]"]
 created: 2026-04-20
-updated: 2026-09-14
+updated: 2026-09-21
 confidence: high
 ---
 
@@ -344,3 +344,30 @@ Zukowski 해석: *visibility는 충분히 줬는데 게임이 흥분을 못 만�
 > 💡 **위시리스트 절대 수치는 이 층위에서 거의 못 쓴다.** Phantom Blade Zero는 위시리스트 160만으로 2026년 출시작 최다인데, 정작 저자가 붙인 단서는 **"AAA·AA의 위시리스트는 할인을 기다리는 북마크이고 출시 시점 구매 의도를 보여주지 않는다"**다. 반면 "D-70에 Wukong의 73%"는 상·하한이 있는 판정이다. → 위 "가짜 신호" 절의 위시리스트 항목이 *가격대별로* 더 갈라진다: 인디는 위시리스트가 알고리즘 통화이지만, **AAA는 사전주문 실판매로 봐야 한다**.
 - 위시리스트에서 여전히 유효한 것은 *지역 분포*다 (PBZ: 중국 29%·미국 17%·일본 5%) — 관심의 대리 지표
 - ⚠️ 이 프레임의 한계: 표본 3개이고 상한(Wukong)이 저자 본인도 인정하는 이상치라 사실상 하한만 유효. **방법론의 과거 적중률이 제시되지 않는다** (붉은사막 등 선행 예측의 사후 점수 없음)
+
+## 위시리스트는 총량보다 나이가 중요하다 ([[alinea-wardogs-launch-2026-09]])
+
+위 논의들이 위시리스트의 *양*과 *전환율 수준*을 다뤘다면, [[wardogs|Wardogs]] 사례는 **언제 쌓였는가**라는 축을 추가한다.
+
+| 항목 | 값 |
+|---|---|
+| 출시 시점 위시리스트 | 약 180만 |
+| 출시 7일 후 전환율 | **11%** (AAA 통상 약 5%) |
+| 출시 직전 한 달에 쌓인 비중 | **57%** |
+| 1주차 판매 · 매출 | 220만 장 · \$70M (가격 \$40) |
+
+Alinea는 11%가 나온 원인으로 **적재 시점**을 짚는다. 절반 이상이 출시 한 달 안에 쌓였다 — 오래 묵어 잊힌 위시리스트가 아니라 출시를 앞두고 방금 붙은 관심이었다.
+
+> 💡 **핵심 인사이트:** 같은 180만이라도 3년에 걸쳐 쌓인 180만과 마지막 한 달에 절반이 쌓인 180만은 전환율이 다르다. 오래된 위시리스트는 관심이 식었거나 사람이 떠났다. **누적 그래프의 기울기가 총량보다 앞선 신호**이며, 위시리스트를 KPI로 볼 때 "몇 개"와 함께 "언제"를 봐야 한다.
+
+> ⚠️ 상관 관찰이지 인과 검증이 아니다. 다른 게임에서도 같은 관계가 나오는지에 대한 대조군이 없어, 이 사례 하나로 *위시리스트를 늦게 모으는 편이 낫다*고 결론 내면 과잉 해석이다. 또한 얼리액세스 1주차 수치이고 전환율 분모의 기준일이 명시되지 않았다.
+
+### 리뷰 점수는 플레이 시간으로 쪼개서 볼 것
+
+Wardogs의 Steam 리뷰는 74% 긍정이지만 **5시간 이상 플레이어는 86–89% 긍정**이다. 총점만 보면 "게임이 별로"이고, 쪼개면 "게임은 괜찮은데 초반 진입이 막혔다"가 된다 — 실제 원인은 출시 초 서버 문제였다.
+
+전자는 설계를 고쳐야 하고 후자는 인프라를 고쳐야 한다. 대응이 완전히 다르므로 런칭 직후 리뷰는 반드시 플레이 시간대별로 나눠 읽는다. 위 "리뷰 등급 — 단일 언어권이 티어를 끌어내린다"와 같은 계열의 교정이다.
+
+### 채널 성과는 플레이어 연령으로 보정한다
+
+채널별 성적표는 마케팅 실력만이 아니라 **구매층의 나이**를 반영한다. 숏폼 성과가 나쁘게 나왔을 때 소재를 고치기 전에 플레이어 연령 분포부터 확인할 것 → [[audience-age-segmentation|연령대별 발견 경로]]
