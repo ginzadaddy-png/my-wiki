@@ -8,7 +8,7 @@ sources: []
 related: ["[[wardogs|Wardogs]]", "[[launch-metrics|흥행 예측 지표]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[arc-raiders|Arc Raiders]]", "[[helldivers-2|Helldivers 2]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[audience-discovery-systems|오디언스 발견 시스템]]"]
 created: 2026-09-21
 updated: 2026-09-21
-confidence: medium-high
+confidence: medium
 ---
 
 **원문**: [Wardogs had a better Steam launch than Helldivers 2 and Arc Raiders](https://alineaanalytics.substack.com/p/wardogs-had-a-better-steam-launch) — Alinea Analytics, Rhys Elliott, 2026-09-16. Alinea Analytics는 PC·콘솔 판매 추정 데이터 제공사 (1차·데이터 티어)

@@ -5,7 +5,7 @@ sources: ["[[nexon-ncsoft-mmo-recurrent-2026]]"]
 related: ["[[nexon|넥슨]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]", "[[aion-2|아이온2]]"]
 created: 2026-07-13
 updated: 2026-07-13
-confidence: medium-high
+confidence: medium
 ---
 
 한국 1997년 상장 게임사(코스피). 리니지(1998~) 중심의 MMORPG 라이브 서비스 퍼블리셔. 위키에서 다루는 비중은 [[catalog-economics|MMO recurrent 카탈로그]]의 **집중형(엔씨) vs 분산형([[nexon|넥슨]])** 대비 — 단일 프랜차이즈 의존의 리스크와 신작 반등을 동시에 보여주는 케이스.

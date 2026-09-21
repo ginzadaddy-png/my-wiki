@@ -8,7 +8,7 @@ sources: []
 related: ["[[audience-age-segmentation|연령대별 발견 경로]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[marketing-strategy|마케팅 전략]]", "[[game-trailer-design|게임 트레일러 설계]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[launch-metrics|흥행 예측 지표]]", "[[steam-next-fest|Steam Next Fest]]"]
 created: 2026-09-21
 updated: 2026-09-21
-confidence: medium-high
+confidence: medium
 ---
 
 **원문**: [The one 'game discovery by player age' chart you need to see](https://newsletter.gamediscover.co/p/the-one-game-discovery-by-player) — GameDiscoverCo, Simon Carless, 2026-09-18. Steam Fan Snapshot 설문(응답자 16,000명 이상) 재분석

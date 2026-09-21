@@ -2118,3 +2118,13 @@ title: "활동 로그"
 - 챗봇 재색인: 해당 없음 (2026-09-03 delist)
 - Quartz repo 변경 없음 -> 별도 push 사이클 불필요
 - 배포 결과 확인: `Deploy Quartz site to GitHub Pages` run **35562978829 success** (1m30s, 2026-09-21T05:01:06Z). `Docker build & push image`·`Build and Test`는 skipped — 트리거 조건 미해당으로 정상
+
+## [2026-09-21] ops | confidence 어휘 정규화 — medium-high 12건 일괄 판정
+
+- 트리거: 09-21 lint가 보고한 규격 이탈. CLAUDE.md 규격은 `high|medium|low` 3종인데 `medium-high`가 12건. 빌드는 안 깨지고 Quartz가 문자열로 통과시켜 **조용히 늘어나던** 상태 — 4개월간 5건이던 것이 최근 2주에 7건(이번 주 신규 7건 중 5건)
+- 사용자 판단: **3종 정규화**(어휘 확장 아님). 이유는 역할 중복 — 개별 수치가 추정치라는 성격은 이미 본문 「약점과 한계 (비판적 읽기)」 절이 맡고 있어, confidence까지 그 일을 하면 어느 쪽을 봐야 할지 흐려진다
+- 판정 기준을 *"페이지 전체 내용을 얼마나 믿을 수 있나"* 하나로 통일. 실제 갈림길은 대부분 **소스가 여러 개로 교차 검증되나**였다 (같은 날 같은 값을 받았던 nexon 8건 vs ncsoft 1건이 그 예)
+- **-> high (3)**: concepts/steam-revenue-forecasting(소스 9건 교차 검증, ZR 모델 30~50% 편차는 이미 한계 절이 명시) · sources/zrconsulting-steam-forecaster-2026(원문이 multiplier·계산 순서 100% 공개해 재현 가능) · entities/nexon(소스 8건, IR 포함)
+- **-> medium (9)**: entities/ncsoft · entities/aion-2(둘 다 소스 1건) · entities/control-resonant(미출시 09-24, 페이지에 출시 후 확인 필요 블록 있음) · concepts/audience-age-segmentation(단일 설문 재분석) · sources/alinea-ps-first-party-kojima(페이지가 스스로 전부 자체 추정치 + 상업적 이해관계 명시) · sources/gi-newzoo-ggmr-2026-release(2차 보도, 정량·방법론·표본 확인 불가) · sources/alinea-wardogs-launch · sources/carless-discovery-by-age · sources/carless-indie-sustainability(전부 자체 추정, 오차 범위 없음)
+- **재발 방지**: CLAUDE.md frontmatter 절에 중간값 신설 금지 + 뉘앙스는 「약점과 한계」로 보낸다는 규칙 한 줄 추가. 이게 없으면 몇 주 뒤 같은 회피책이 다시 생긴다
+- 잔여 `medium-high` **0건** 확인

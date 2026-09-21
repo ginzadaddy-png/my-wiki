@@ -5,7 +5,7 @@ sources: ["[[carless-wishlist-conversions-2025-10]]", "[[carless-genres-ruled-st
 related: ["[[launch-metrics|흥행 예측 지표]]", "[[marketing-strategy|마케팅 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[valve|Valve]]", "[[forecasting-vs-launch-metrics|예측 vs 측정 비교]]"]
 created: 2026-05-18
 updated: 2026-09-14
-confidence: medium-high
+confidence: high
 ---
 
 **Steam 매출 예측 모델**은 인디·중소 스튜디오가 *런치 전*에 Year-1 매출 범위를 추정하고, 어떤 변수가 결과를 가장 크게 좌우하는지 파악해 자원 배분 우선순위를 결정하는 정량 프레임워크다. 위시리스트 수·서브장르·리뷰 tier·사전 buzz·런치 컨텍스트가 핵심 입력. ZR Consulting의 *Steam Revenue Forecaster* (2026)와 GameDiscoverCo·Chris Zukowski의 정량 데이터를 기반으로 한다.

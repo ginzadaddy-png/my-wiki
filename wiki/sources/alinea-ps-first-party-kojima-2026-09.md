@@ -8,7 +8,7 @@ sources: []
 related: ["[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[physical-retail-retention|물리 유통 잔존율 3층 비교]]", "[[hit-driven-strategy|홈런 전략]]", "[[live-service-design|라이브 서비스 설계]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[audience-expansion|오디언스 확장]]", "[[sony-interactive-entertainment|소니 인터랙티브 엔터테인먼트]]", "[[microsoft|마이크로소프트]]", "[[kojima-productions|코지마 프로덕션]]", "[[death-stranding|데스 스트랜딩]]", "[[astro-bot|아스트로봇]]", "[[ghost-of-yotei|고스트 오브 요테이]]", "[[helldivers-2|헬다이버즈 2]]", "[[marvel-spiderman-2|마블 스파이더맨 2]]", "[[nintendo|닌텐도]]", "[[alinea-ps-physical-fc27-odyssey-2026-07|Alinea — PS 패키지 비중]]", "[[gi-sony-live-service-opportunity-cost-2026-08|소니 라이브서비스 전환의 기회비용]]"]
 created: 2026-09-14
 updated: 2026-09-14
-confidence: medium-high
+confidence: medium
 ---
 
 **원문**: [Sony divorces Kojima, while Nintendo (re)unites fans with Ocarina of Time | Rhys's Pieces](https://alineaanalytics.substack.com/p/sony-divorces-kojima-while-nintendo) — Alinea Analytics, Rhys Elliott, 2026-09-10. Alinea Analytics는 PC·콘솔 판매 추정 데이터 제공사 (1차·데이터 티어)

@@ -8,7 +8,7 @@ sources: []
 related: ["[[indie-business-strategy|인디 비즈니스 전략]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[hit-driven-strategy|홈런 전략]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[launch-metrics|흥행 예측 지표]]"]
 created: 2026-09-21
 updated: 2026-09-21
-confidence: medium-high
+confidence: medium
 ---
 
 **원문**: [Is the game biz sustainable for the average indie dev?](https://newsletter.gamediscover.co/p/is-the-game-biz-sustainable-for-the) — GameDiscoverCo, Simon Carless, 2026-09-15. GameDiscoverCo Pro 생애 매출 추정치 기반

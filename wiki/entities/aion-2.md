@@ -9,7 +9,7 @@ relations:
   platform: [pc]
 created: 2026-07-13
 updated: 2026-07-13
-confidence: medium-high
+confidence: medium
 ---
 
 [[ncsoft|엔씨소프트]]의 아이온(2008 PC MMORPG) 후속작. 위키에서는 *엔씨의 리니지 단일 의존 탈피와 [[catalog-economics|MMO recurrent]] 반등 드라이버*로 등장.

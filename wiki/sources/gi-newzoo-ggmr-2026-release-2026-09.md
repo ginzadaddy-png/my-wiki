@@ -8,7 +8,7 @@ sources: []
 related: ["[[newzoo-ggmr-2026-preview|Newzoo GGMR 2026 preview]]", "[[gi-newzoo-console-gta6-2026-08|Newzoo Rosier 인터뷰 — 콘솔과 GTA 6]]", "[[newzoo-pc-console-2026|Newzoo PC·콘솔 리포트 2026]]", "[[matthew-ball-2026-report|Matthew Ball 2026]]", "[[game-market-trends|게임 시장 트렌드]]", "[[live-service-design|라이브 서비스 설계]]", "[[evergreen-ip|에버그린 IP]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[roblox|로블록스]]", "[[tencent|텐센트]]", "[[sony-interactive-entertainment|소니 인터랙티브 엔터테인먼트]]", "[[microsoft|마이크로소프트]]", "[[nintendo-switch-2|닌텐도 스위치 2]]"]
 created: 2026-09-14
 updated: 2026-09-14
-confidence: medium-high
+confidence: medium
 ---
 
 **원문**: [Newzoo: Most established live-service and evergreen titles were flat or down year over year in H1 2026](https://www.gamesindustry.biz/newzoo-most-established-live-service-and-evergreen-titles-were-flat-or-down-year-over-year-in-h1-2026) — GamesIndustry.biz, Sophie McEvoy, 2026-09-10. 원자료는 Newzoo가 2026-09-10 발매한 **Global Games Market Report(GGMR) 2026 전체판**

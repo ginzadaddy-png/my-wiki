@@ -7,7 +7,7 @@ relations:
   parentOf: [embark-studios, mint-rocket]
 created: 2026-05-26
 updated: 2026-08-18
-confidence: medium-high
+confidence: high
 ---
 
 한국 1994년 설립, 도쿄 증시 1부 상장(2011). MMORPG·라이브 서비스 게임을 중심으로 성장한 글로벌 퍼블리셔. 위키에서 다루는 비중은 *모회사·이중 트랙 스튜디오 모델*과 *프리미엄 글로벌 PC·콘솔 진입* 두 축.

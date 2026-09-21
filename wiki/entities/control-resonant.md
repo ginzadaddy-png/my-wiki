@@ -8,7 +8,7 @@ relations:
   platform: [pc, ps5, xbox-series]
 created: 2026-09-21
 updated: 2026-09-21
-confidence: medium-high
+confidence: medium
 ---
 
 [[remedy-entertainment|Remedy Entertainment]]의 2019년 *Control* 후속작. 2026-09-24 출시. 주인공이 Jesse Faden에서 동생 Dylan Faden으로 바뀌었고, 두 가지가 시리즈 처음이다 — **오픈월드**와 **근접 전투**.

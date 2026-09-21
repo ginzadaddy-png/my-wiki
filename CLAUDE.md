@@ -61,6 +61,8 @@ updated: YYYY-MM-DD
 confidence: high | medium | low
 ---
 
+**`confidence`는 3종만 사용** (`high`·`medium`·`low`). 중간값(`medium-high` 등) 신설 금지 — 수치가 추정치라는 사실이나 출처의 이해관계 같은 뉘앙스는 confidence가 아니라 본문 **「약점과 한계 (비판적 읽기)」** 절에서 말한다. (2026-09-21 확정 — `medium-high`가 12건까지 늘어 일괄 정규화. 갈림 기준은 *소스가 여러 개로 교차 검증되나*)
+
 **source-summary 타입 추가 필드** (원문 추적용):
 ```
 source_url: "https://원문/URL"     # URL 없으면 빈 문자열 또는 생략

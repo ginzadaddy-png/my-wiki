@@ -5,7 +5,7 @@ sources: []
 related: ["[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[launch-metrics|흥행 예측 지표]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[zukowski-next-fest-strategy|Zukowski Next Fest 분석]]", "[[steam-next-fest-2026-analysis]]"]
 created: 2026-05-18
 updated: 2026-05-18
-confidence: medium-high
+confidence: high
 source_url: "https://zrconsulting.de/steam-forecaster/"
 source_author: "Zoran Roso (ZR Consulting, Munich)"
 source_published: 2026-05

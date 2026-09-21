@@ -5,7 +5,7 @@ sources: ["[[carless-discovery-by-age-2026-09]]", "[[ign-generations-in-play-202
 related: ["[[audience-discovery-systems|오디언스 발견 시스템]]", "[[marketing-strategy|마케팅 전략]]", "[[game-trailer-design|게임 트레일러 설계]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[launch-metrics|흥행 예측 지표]]", "[[audience-expansion|오디언스 확장]]"]
 created: 2026-09-21
 updated: 2026-09-21
-confidence: medium-high
+confidence: medium
 ---
 
 게임 발견 채널의 무게가 **플레이어 나이에 따라 달라진다**는 것, 그리고 그 차이를 마케팅 예산 배분에 어떻게 옮기는가를 다룬다. 채널 목록을 하나로 놓고 전부 채우려 할 때 돈이 새는 자리를 짚는 개념이다.
