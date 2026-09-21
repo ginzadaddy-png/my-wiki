@@ -2108,3 +2108,13 @@ title: "활동 로그"
   - **`confidence: medium-high`가 12개 페이지**(이번 주 신규 7 포함). CLAUDE.md 정의 어휘는 `high|medium|low` 3종 — 어휘 확장 또는 기존 12건 정규화 중 택일 필요
 - 분기 검토 알림: 해당 없음 (다음 2026-10-01~07)
 - changelog 2026-09 3주차 블록 초안 제시 -> **사용자 승인 후 반영**
+
+## [2026-09-21] 배포 | 주간 LINT 배포 창구 — push 1건
+
+- push: **9f8c75c** (22파일 · 620 insertions · 31 deletions) — 09-21 ingest 4건 + 주간 lint 자동 갱신 + changelog 2026-09 3주차 + source radar 80 Level 제외를 한 커밋으로 묶음
+- 직전 push는 1345da3. 누적분 전량 반영, 워킹트리 clean
+- 빌드 검사: 통과 (441 파싱 · 930 emit). changelog 블록 반영 후 재검증까지 완료. 줄바꿈 churn 0(변경 파일 HEAD 대조)
+- deck 신규·수정 없음 -> 단독 배포본(`dist/`) 재생성 불필요
+- 챗봇 재색인: 해당 없음 (2026-09-03 delist)
+- Quartz repo 변경 없음 -> 별도 push 사이클 불필요
+- 배포 결과 확인: `Deploy Quartz site to GitHub Pages` run **35562978829 success** (1m30s, 2026-09-21T05:01:06Z). `Docker build & push image`·`Build and Test`는 skipped — 트리거 조건 미해당으로 정상
