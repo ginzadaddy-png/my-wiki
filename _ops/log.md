@@ -2142,3 +2142,4 @@ title: "활동 로그"
 - 정상 확인 2건: `comparisons/all.md`(08-31) · `reports/all.md`(08-13) — 둘 다 마지막 내용 변경일과 일치, 손대지 않음
 - **재발 방지**: CLAUDE.md INGEST 절차 7번에 *"카탈로그에 행을 추가·수정했으면 그 파일 frontmatter `updated`도 같은 날짜로"* 규칙 추가. confidence 정규화와 같은 성격 — 규격은 있는데 조용히 어긋나는 자리를 절차 쪽에서 막는 것
 - **미결 1건(보고만)**: 카탈로그 `type` 값이 제각각이다 — concepts/all·entities/all `concept` / comparisons/all `comparison` / reports/all `catalog` / decisions/all `decision` / sources/all 없음. CLAUDE.md 정의 어휘(concept·entity·source-summary·comparison)에 `catalog`는 없고, entities/all이 `concept`인 것도 어색하다. 어느 쪽으로 통일할지는 사용자 판단 대기 — 이번엔 sources/all에 `type`을 넣지 않고 비워 둠(임의로 정하면 드리프트를 하나 더 만드는 셈)
+- 배포: push **67ea9d3** (6파일). `Deploy Quartz site to GitHub Pages` run **35586282796 success** (1m45s, 2026-09-21T09:59:23Z). 빌드 통과(441 파싱 · 930 emit) · 줄바꿈 churn 0
