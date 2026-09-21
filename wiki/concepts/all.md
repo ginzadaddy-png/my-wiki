@@ -2,7 +2,7 @@
 title: "전체 개념 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-09-08
+updated: 2026-09-21
 ---
 
 ← [홈으로](../index.md)

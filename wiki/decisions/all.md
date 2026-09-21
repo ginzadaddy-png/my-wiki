@@ -2,7 +2,7 @@
 title: "결정·가설 전체 목록"
 type: decision
 created: 2026-08-03
-updated: 2026-08-03
+updated: 2026-08-06
 ---
 
 ← [홈으로](../index.md)

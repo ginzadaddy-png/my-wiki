@@ -2129,3 +2129,16 @@ title: "활동 로그"
 - **재발 방지**: CLAUDE.md frontmatter 절에 중간값 신설 금지 + 뉘앙스는 「약점과 한계」로 보낸다는 규칙 한 줄 추가. 이게 없으면 몇 주 뒤 같은 회피책이 다시 생긴다
 - 잔여 `medium-high` **0건** 확인
 - 배포: push **6f918ab** (14파일). `Deploy Quartz site to GitHub Pages` run **35576906080 success** (1m18s, 2026-09-21T08:14:57Z). 빌드 통과(441 파싱 · 930 emit) · 줄바꿈 churn 0
+
+## [2026-09-21] ops | 카탈로그 updated 정합 — 4건 수정 + ingest 규칙 보강
+
+- 트리거: 09-21 lint 이월 항목 2번. 카탈로그에 행은 추가되는데 frontmatter `updated`가 따라 올라가지 않아 *언제 기준 목록인지* 알 수 없던 상태
+- 판정 근거는 추정이 아니라 **git 로그의 마지막 내용 변경일**과 대조 (`git log -1 --format=%ad -- <file>`)
+- 수정 4건
+  - `concepts/all.md` 2026-09-08 -> **2026-09-21** (09-21 ingest로 audience-age-segmentation 행 추가됨. 2주 뒤처져 있었음)
+  - `entities/all.md` 2026-09-14 -> **2026-09-21** (wardogs·control-resonant 행 추가됨. 1주 뒤처짐)
+  - `decisions/all.md` 2026-08-03 -> **2026-08-06** (08-06 커밋 44eae5f에서 인트로·설명 문구를 일상어로 고쳐 씀. 내용 변경인데 날짜가 안 올라감)
+  - `sources/all.md` — `created: 2026-04-16`(최초 커밋일) + `updated: 2026-09-21` **필드 신설**. 이 파일만 frontmatter에 title 하나뿐이라 애초에 추적 수단이 없었음
+- 정상 확인 2건: `comparisons/all.md`(08-31) · `reports/all.md`(08-13) — 둘 다 마지막 내용 변경일과 일치, 손대지 않음
+- **재발 방지**: CLAUDE.md INGEST 절차 7번에 *"카탈로그에 행을 추가·수정했으면 그 파일 frontmatter `updated`도 같은 날짜로"* 규칙 추가. confidence 정규화와 같은 성격 — 규격은 있는데 조용히 어긋나는 자리를 절차 쪽에서 막는 것
+- **미결 1건(보고만)**: 카탈로그 `type` 값이 제각각이다 — concepts/all·entities/all `concept` / comparisons/all `comparison` / reports/all `catalog` / decisions/all `decision` / sources/all 없음. CLAUDE.md 정의 어휘(concept·entity·source-summary·comparison)에 `catalog`는 없고, entities/all이 `concept`인 것도 어색하다. 어느 쪽으로 통일할지는 사용자 판단 대기 — 이번엔 sources/all에 `type`을 넣지 않고 비워 둠(임의로 정하면 드리프트를 하나 더 만드는 셈)

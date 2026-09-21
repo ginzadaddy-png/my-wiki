@@ -112,6 +112,7 @@ relations:
    - 상단 통계 행의 소스·스튜디오·게임·개념·비교 숫자 갱신
    - 새 concept/comparison 페이지가 생겼으면 해당 섹션의 `<div class="pill-grid">` 리스트에 항목 추가 (형식: `- [[slug|짧은 라벨 — 부연 설명]]`)
    - 소스 섹션은 최신 10개만 표시. 전체 행은 `wiki/sources/all.md`에 추가
+   - **카탈로그(`*/all.md`)에 행을 추가·수정했으면 그 파일의 frontmatter `updated`도 같은 날짜로 올린다** — 행만 넣고 날짜를 두면 카탈로그가 언제 기준인지 알 수 없어진다 (2026-09-21 확정. concepts/all·entities/all이 각각 2·1주 뒤처진 채 발견됨)
 8. _ops/log.md에 기록 추가 (운영 원장 — 사이트 미발행. 리더용 요약은 주간 LINT에서 wiki/changelog.md에 반영)
 9. **배포 단계는 주간 LINT로 유예 — 묻지 말 것** (2026-08-24 표준 방침 확정)
 
