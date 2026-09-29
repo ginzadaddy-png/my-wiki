@@ -2184,3 +2184,10 @@ title: "활동 로그"
 - 미커밋 상태 — push는 사용자 확인 후
 - 사용자 승인 후 추가 반영: changelog 2026-09 4주차 블록(초안 그대로, updated 09-29) · `comparisons/leadership-production.md:61`의 발라트로 오기 수정(→ 배스천·트랜지스터·파이어·하데스, updated 09-29). 원 소스 `gamedev-leadership-dynamics`에는 발라트로 언급이 없어 비교 페이지 작성 시 들어간 오류로 판단
 - 빌드 재검사 통과(446 파싱 · 940 emit · 41초)
+
+## [2026-09-29] 배포 | 주간 LINT 배포 창구 — push 1건
+
+- push: **449af30** (44파일 · 688 insertions · 54 deletions) — 09-29 ingest 1건 + 주간 lint + 조사 주제 1~4 실행 + changelog 4주차 + 발라트로 오기 수정을 한 커밋으로 묶음. 직전 push는 52291bf
+- `Deploy Quartz site to GitHub Pages` run **36549426937 success** (2m35s, 2026-09-29T09:28:44Z). `Build and Test`·`Docker build & push image` skipped는 정상
+- 빌드 검사 통과(446 파싱 · 940 emit) · 줄바꿈 churn 0
+- deck 신규·수정 없음 → 단독 배포본(`dist/`) 재생성 불필요 / 챗봇 재색인 해당 없음(delist) / Quartz repo 변경 없음
