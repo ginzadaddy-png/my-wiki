@@ -1,10 +1,10 @@
 ---
 title: "IP 적응 설계"
 type: concept
-sources: ["[[gdc24-hogwarts-legacy-design]]", "[[gdc26-hogwarts-evolving-aaa]]", "[[gdc26-comics-to-games]]", "[[cedec2026-silent-hill-producing]]", "[[cedec2026-granblue-relink-battle]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]"]
-related: ["[[hogwarts-legacy|호그와트 레거시]]", "[[avalanche-software|아발란체 소프트웨어]]", "[[playtesting|플레이테스팅]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[silent-hill-f|SILENT HILL f]]", "[[granblue-fantasy-relink|GRANBLUE FANTASY: Relink]]", "[[community-management|커뮤니티 운영]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[accessibility-design|접근성 설계]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]"]
+sources: ["[[gdc24-hogwarts-legacy-design]]", "[[gdc26-hogwarts-evolving-aaa]]", "[[gdc26-comics-to-games]]", "[[cedec2026-silent-hill-producing]]", "[[cedec2026-granblue-relink-battle]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[naavik-licensed-ip-value-2026-09]]"]
+related: ["[[hogwarts-legacy|호그와트 레거시]]", "[[avalanche-software|아발란체 소프트웨어]]", "[[playtesting|플레이테스팅]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[silent-hill-f|SILENT HILL f]]", "[[granblue-fantasy-relink|GRANBLUE FANTASY: Relink]]", "[[community-management|커뮤니티 운영]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[accessibility-design|접근성 설계]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[hit-driven-strategy|홈런 전략]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]"]
 created: 2026-04-20
-updated: 2026-08-10
+updated: 2026-09-29
 confidence: high
 ---
 
@@ -64,3 +64,24 @@ confidence: high
 > ⚠️ 전환된 것은 **플레이 복귀이지 구매가 아니다** — 소프트웨어 판매는 연초 이후 약 400K 카피 수준. 헤일로의 회수 지점은 판매고가 아니라 *인게이지먼트·구독 유지·후속작 근거*다. 저자는 이 데이터가 향후 리마스터의 사내 명분이 될 것으로 관측.
 
 → 설계 시사: IP 로드맵을 짤 때 *우리 게임의 소재와 인접한 영상·출판 작품의 개봉 캘린더*가 마케팅 타이밍 자산이 된다. 각색 판권이 없어도 활용 가능한 창구.
+
+## 라이선스는 채산에 맞나 — 외부 IP의 상업적 값어치 ([[naavik-licensed-ip-value-2026-09]])
+
+지금까지 이 페이지는 IP 게임을 *어떻게 설계하나*만 다뤘다. 이 절은 앞 질문을 하나 당겨 온다 — **애초에 그 라이선스를 살 만한가.** Naavik이 2015–2025년 Steam 게임 13,773개(외부 IP 436개)를 각 출시연도 자체 IP 중앙값 대비 배수로 측정했다.
+
+| 관측 | 수치 |
+|---|---|
+| 판매 우위 (10백분위 → 75–90백분위) | 1.23x → 약 4x |
+| 외부 IP 하위 25% | 여전히 자체 IP 중앙값 미만 |
+| 우위가 가장 큰 리뷰 등급 | **Very Positive 4.51x** (Overwhelmingly Positive는 2.06x) |
+| 중앙값 도달에 필요한 등급 | 자체 IP는 Very Positive, **외부 IP는 Mixed로도 넘김** |
+
+**증폭 곡선의 모양이 핵심이다.** 우위는 바닥에서 거의 0이고, 70–80백분위에서 정점을 찍고, 블록버스터 구간에서 다시 줄어든다. 망한 라이선스 게임과 망한 자체 IP 게임 사이에는 실질적 차이가 없었다.
+
+> 💡 **핵심 인사이트:** 외부 IP가 가장 크게 일하는 지점은 *훌륭한* 게임이 아니라 **좋지만 아직 자력으로 터지지는 못하는 게임**이다. 품질이나 입소문만으로 돌파가 일어나는 구간에서는 라이선스가 보탤 몫이 적고, 바닥에서는 아무것도 구해주지 못한다. 라이선스는 바닥을 올리는 장치가 아니라 이미 선 게임을 밀어 올리는 장치다.
+
+채산 쪽은 더 조심스럽다. \$50–60 가격대에서도 외부 IP의 Steam 매출 중앙값은 **\$9.8M**에 그쳤고, 여기서 플랫폼 수수료·개발비·마케팅비에 더해 **로열티 9–26%**가 빠진다. 단순히 20%만 적용해도 중앙값 우위가 1.52–2.62x에서 **1.22–2.10x로 내려앉는다** → [[publisher-deal-structures]] · [[game-pricing-strategy]]
+
+> ⚠️ Daedalic은 \$40 구간 게임에 개발비 \$16M을 써서 매출 \$9M에 그쳤다. 동급 자체 IP 대비 **2.6x를 달성하고도 실패**했고 게임 개발 사업에서 철수했다. 배수로 이기고 손익으로 지는 구간이 실재한다.
+
+→ 설계 시사: 라이선스 협상 단계에서 물어야 할 질문은 *"이 IP가 우리 게임을 몇 배 팔리게 하나"*가 아니라 **"로열티·높아진 기대치·창작 제약을 상쇄할 만큼 더 팔리게 하나"**다. 저자의 표현으로는 외부 IP는 **보험이 아니라 레버리지**다 → [[hit-driven-strategy]]

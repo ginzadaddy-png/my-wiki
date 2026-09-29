@@ -1,14 +1,14 @@
 # Game Dev Wiki
 
-Last updated 2026-09-21
+Last updated 2026-09-29
 
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">202</span></a></div>
+  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">203</span></a></div>
   <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">55</span></a></div>
-  <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">51</span></a></div>
-  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">80</span></a></div>
+  <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">53</span></a></div>
+  <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">82</span></a></div>
   <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">22</span></a></div>
   <div class="stat-card"><a href="reports/all.md" class="internal"><span class="stat-label">보고서</span><span class="stat-num">6</span></a></div>
   <div class="stat-card"><a href="decisions/all.md" class="internal"><span class="stat-label">결정·가설</span><span class="stat-num">1</span></a></div>
@@ -67,6 +67,8 @@ Last updated 2026-09-21
 - [[steam-revenue-forecasting|Steam 매출 예측 모델 — 8 driver sensitivity, sub-genre conversion 매트릭스, ZR Forecaster]]
 - [[publisher-deal-structures|퍼블리셔 딜 구조 — Rev share·Recoup-first·MG·Marketing fee 5종 비교·stress test]]
 - [[mobile-gamedev|모바일 게임 개발 — 4대 현장 벽, 상업 성립 4요소, 원신 쇼크의 역설]]
+- [[free-to-play|F2P·부분유료 모델 — 배틀패스·가챠·외형, F2P를 떠난 사례와 장르가 진 불신, 서구 시장 약세]]
+- [[mmorpg|MMO·MMORPG — 수십 년 운영하는 사업 구조, 바닥은 되지만 천장은 안 된다, 클래식 서버]]
 - [[genre-tag-taxonomy|장르 태그 분류 체계 — 태그는 마케팅 산물·관행 변화와 장르 이동의 미분리·렌즈 격차가 드러내는 단가]]
 - [[audience-discovery-systems|오디언스 발견 시스템 — Intent vs Algorithm, Seek→Feed, 표면 alignment 함정]]
 - [[audience-age-segmentation|연령대별 발견 경로 — 평탄한 채널 vs 기울어진 채널·숏폼 53.5%→20.2%·전통 미디어 21.2%→42.5%]]

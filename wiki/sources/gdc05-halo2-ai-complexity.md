@@ -2,7 +2,7 @@
 title: "Handling Complexity in the Halo 2 AI (Damian Isla / Bungie)"
 type: source-summary
 sources: []
-related: ["[[combat-companion-ai|전투·조력 AI 동반자 설계]]"]
+related: ["[[combat-companion-ai|전투·조력 AI 동반자 설계]]", "[[halo|Halo]]"]
 source_url: "https://www.gamedeveloper.com/programming/gdc-2005-proceeding-handling-complexity-in-the-i-halo-2-i-ai"
 source_author: "Damian Isla (Bungie)"
 source_published: 2005-03

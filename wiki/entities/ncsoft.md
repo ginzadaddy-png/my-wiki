@@ -2,7 +2,7 @@
 title: "엔씨소프트 (NCSOFT)"
 type: entity
 sources: ["[[nexon-ncsoft-mmo-recurrent-2026]]"]
-related: ["[[nexon|넥슨]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]", "[[aion-2|아이온2]]"]
+related: ["[[nexon|넥슨]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]", "[[aion-2|아이온2]]", "[[mmorpg|MMO·MMORPG]]"]
 created: 2026-07-13
 updated: 2026-07-13
 confidence: medium

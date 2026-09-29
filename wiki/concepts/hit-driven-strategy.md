@@ -1,10 +1,10 @@
 ---
 title: "홈런 전략 (Hit-Driven Strategy)"
 type: concept
-sources: ["[[itoi-miyamoto-dialogue-2024|이토이 × 미야모토 대담]]", "[[gi-sony-live-service-opportunity-cost-2026-08]]", "[[alinea-steam-15b-mid-market-2026-09]]"]
-related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-expansion|오디언스 확장]]", "[[nintendo|닌텐도]]", "[[shigeru-miyamoto|미야모토 시게루]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
+sources: ["[[itoi-miyamoto-dialogue-2024|이토이 × 미야모토 대담]]", "[[gi-sony-live-service-opportunity-cost-2026-08]]", "[[alinea-steam-15b-mid-market-2026-09]]", "[[naavik-licensed-ip-value-2026-09]]"]
+related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-expansion|오디언스 확장]]", "[[nintendo|닌텐도]]", "[[shigeru-miyamoto|미야모토 시게루]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[evergreen-ip|에버그린 IP]]"]
 created: 2026-06-23
-updated: 2026-09-08
+updated: 2026-09-29
 confidence: high
 ---
 
@@ -51,6 +51,20 @@ confidence: high
 > 💡 **핵심 인사이트 — "시장은 여전히 히트 주도형이다. 다만 그 히트작 상당수가 지난 세월의 히트작을 할인가에 파는 것이다."** 홈런 전략과 [[catalog-economics|카탈로그 이코노믹스]]가 대립처럼 보였던 이유는 둘을 같은 시점에서 봤기 때문이다. 실제로는 **한 번의 홈런이 이후 10년의 카탈로그가 된다** — 두 전략은 반대편이 아니라 같은 게임의 다른 시점이다. Skyrim이 2026년 매출 순위 중간 구간에 앉아 있는 것이 그 증거다.
 
 실무적 함의는 신작 쪽에 무겁다. 중형 신작이 마주하는 경쟁 상대는 그해의 다른 신작이 아니라 **검증된 옛 히트작의 할인 가격**이다 → [[hit-driven-vs-catalog-economics]] · [[price-distribution-middle-vs-barbell]]
+
+## 외부 IP를 붙여도 홈런은 여전히 필요하다 ([[naavik-licensed-ip-value-2026-09]])
+
+홈런 전략의 반대편에는 늘 *"위험을 줄이는 방법"*이 제시된다. 기성 IP 라이선스가 대표적이다 — 기성 오디언스를 사 오면 스윙의 실패 확률이 낮아진다는 논리다. Naavik이 Steam 게임 13,773개로 이 논리를 검증했고, 결과는 **홈런 전략 쪽을 받쳐준다.**
+
+- 외부 IP는 모든 백분위에서 자체 IP를 앞섰지만, **하위 25%는 여전히 자체 IP 중앙값보다 적게 팔렸다**
+- 우위는 70–80백분위에서 정점을 찍고 블록버스터 구간에서 줄어든다 — 즉 **상단을 늘리지 하단을 받치지 않는다**
+- \$50–60 가격대에서도 외부 IP 매출 중앙값은 \$9.8M이고, 로열티 20%를 반영하면 우위가 1.52–2.62x에서 1.22–2.10x로 축소된다
+
+> 💡 **핵심 인사이트 — 라이선스는 분포를 위로 밀지만 분포의 모양을 바꾸지 않는다.** 홈런 전략이 성립하는 조건은 *실패 확률이 높아도 배당이 크다*는 것인데, 외부 IP는 배당 쪽만 키우고 확률 쪽은 거의 건드리지 못한다. 게다가 로열티라는 고정비를 얹어서 **손익분기를 위로 올린다** — 위험을 줄이는 도구처럼 보이지만 실제로는 스윙의 크기를 키우는 도구다.
+
+Daedalic 사례가 이 구조를 압축한다. 동급 자체 IP 대비 2.6x를 달성하고도 개발비 \$16M에 매출 \$9M으로 실패했고 게임 개발에서 철수했다. **배수로는 이겼는데 홈런이 아니어서 졌다.**
+
+→ 이는 [[catalog-economics|카탈로그 이코노믹스]]로 도망칠 수 있는 길도 좁힌다. 라이선스 게임은 계약 기간이 끝나면 팔 수 없게 되는 경우가 많아, 한 번의 홈런이 10년 카탈로그가 되는 경로 자체가 막힐 수 있다 → [[ip-adaptation-design]] · [[evergreen-ip]]
 
 ## 연결
 

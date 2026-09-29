@@ -2143,3 +2143,44 @@ title: "활동 로그"
 - **재발 방지**: CLAUDE.md INGEST 절차 7번에 *"카탈로그에 행을 추가·수정했으면 그 파일 frontmatter `updated`도 같은 날짜로"* 규칙 추가. confidence 정규화와 같은 성격 — 규격은 있는데 조용히 어긋나는 자리를 절차 쪽에서 막는 것
 - **미결 1건(보고만)**: 카탈로그 `type` 값이 제각각이다 — concepts/all·entities/all `concept` / comparisons/all `comparison` / reports/all `catalog` / decisions/all `decision` / sources/all 없음. CLAUDE.md 정의 어휘(concept·entity·source-summary·comparison)에 `catalog`는 없고, entities/all이 `concept`인 것도 어색하다. 어느 쪽으로 통일할지는 사용자 판단 대기 — 이번엔 sources/all에 `type`을 넣지 않고 비워 둠(임의로 정하면 드리프트를 하나 더 만드는 셈)
 - 배포: push **67ea9d3** (6파일). `Deploy Quartz site to GitHub Pages` run **35586282796 success** (1m45s, 2026-09-21T09:59:23Z). 빌드 통과(441 파싱 · 930 emit) · 줄바꿈 churn 0
+
+## [2026-09-29] ingest | Naavik — The Real Value of Licensed IP
+
+- Source: raw/articles/2026-09-20-naavik-the-real-value-of-licensed-ip.md (원문 https://naavik.co/weekly-digest/the-real-value-of-licensed-ip/ · Jordan Phang · 2026-09-20)
+- 경위: 09-29 source radar 후보로 발굴. 사용자가 1건만 지정해 ingest. 강조축 지정 = 수익성·로열티 채산성 / 품질 구간별 증폭 곱선 / 가격대 전략 분포
+- 생성: wiki/sources/naavik-licensed-ip-value-2026-09.md
+- 업데이트: wiki/concepts/ip-adaptation-design.md(「라이선스는 채산에 맞나」 절 신설) · wiki/concepts/hit-driven-strategy.md(「외부 IP를 붙여도 홈런은 여전히 필요하다」 절 신설) · wiki/concepts/game-pricing-strategy.md(「자체 IP와 외부 IP의 가격대가 갈린다」 절 신설) · wiki/sources/all.md(202 → 203) · wiki/index.md(소스 카운트·Last updated)
+- confidence **medium** 판정 — 표본이 크고 방법론이 투명하지만 교차 검증되지 않은 단일 분석이다. 근거: 같은 주 Alinea는 Star Wars Zero Company를 100만 장·\$50M으로 집계한 반면 이 글은 80만 장·\$36M으로 적었다(발행일 이틀 차). 개별 게임 수치는 흔들리고 분포 형태는 믿을 만하다는 뜻이라 「약점과 한계」에 그대로 적었다
+- source radar 판정 관련 **사용자 피드백 1건**: 같은 주 후보였던 GI.biz 「why-top-pc-free-to-play-publishers-run-ua-on-a-cpa-model」을 "위키에 UA 개념 0건"이라는 이유로 상위 추천에 올렸으나, 실상은 퍼포먼스 마케팅 대행사(PWN Games) 담당자 단독 인터뷰에 데이터셋이 없는 홍보성 기사였다. 같은 구조의 Testronic 기고는 홍보성으로 스킵하면서 이건 통과시킨 일관성 없는 판정. → 메모리 `feedback_source_radar_vendor_pr_filter.md` 신설(주제 신규성으로 근거 품질을 덮지 말 것)
+- 같은 스캔에서 GamesIndustry.biz는 WebFetch·WebSearch 모두 크롤러 차단, 크롬 확장은 미연결이었다. 브라우저 UA를 붙인 curl로 HTTP 200 확보해 13건 복구 → 메모리 `feedback_webfetch_chrome_fallback.md`를 3단 폴백(WebFetch → 크롬 → curl)으로 갱신
+- 줄바꿈 사고 1건: 첫 편집에서 ip-adaptation-design.md(원본 LF)에 CRLF 절을 붙여 혼재를 만들었다. 셔의 grep CR 패턴이 전수 매치로 오동작해 오판한 것. 바이트 카운트로 재확인 후 LF로 되돌렸다. hit-driven-strategy·game-pricing-strategy는 원본이 CRLF라 그대로 둠. 저장소 분포는 LF 384 / CRLF 55 / 혼재 4(전부 기존)
+- **미커밋 상태** — 배포는 주간 LINT로 유예 (INGEST 절차 9번)
+
+## [2026-09-29] lint | 주간 정기 점검
+
+- 빌드: **통과** (442 파싱 · 932 emit · 47초). frontmatter YAML 오류 0 → 자동 수정 없음. 세션 도중 09-29 ingest가 들어와(첫 빌드 441 파싱) 새 파일 포함해 재빌드
+- 모순 **20 블록**(미해소 2건 — naavik-xbox 하드웨어 해석, gdc26-idg 전망 온도차. 지난주와 동일, 신규 0)
+- 끊긴 wikilink **0** · 완전 고립 **0** · `]](` 위반 0 · alias 슬래시 0 · frontmatter `\$` 0
+- 미페이지 개념: F2P 46파일 · MMO 35 · Hades 30 · Halo 26 · Battlefield 16
+- raw 미처리 **0건** — 110개 대조, 탐지 6건은 파일명만 다른 기처리분(fares·kasavin·tornqvist·vincke·zukowski-next-fest·매튜 볼)
+- 자동 갱신: `_ops/status.md` 5곳(INGEST 80→82 · 소스 202→203 · 총 md 441→442 · 헤더 날짜 · 마지막 갱신). overview.md는 변동 없음(엔티티 신규 0, 임계 7 도달 concept 없음). 핵심 테마 미등재 backlog 7건
+- ⚠️ **도구 메모**: `grep -c $'\r'`가 LF 전용 파일에서도 전 줄을 매치해 status.md를 CRLF로 잘못 되돌렸다가 복구. 줄바꿈 판정은 **`tr -cd '\r' | wc -c`로 바이트를 셀 것** (09-29 ingest 항목의 오판과 같은 원인)
+- 분기 검토 알림: 해당 없음. **다음 LINT(10-01~07)가 4분기 첫째 주**
+- 보고만(범위 밖): `comparisons/leadership-production.md:61`이 발라트로를 슈퍼자이언트 작품으로 적음 — 발라트로는 슈퍼자이언트 게임이 아님
+
+## [2026-09-29] lint 후속 | 조사 주제 1~4 실행 — F2P·MMO·Hades·Halo 회수
+
+- 트리거: 2026-09-29 lint 조사 주제 5건 중 사용자가 1~4 선택 (5번 Battlefield 제외)
+- 생성(concept 2 · entity 2) — 전부 *회수형*. 1차 신규 ingest 없이 흩어진 언급을 모으고 근거의 층을 페이지 안에서 가름. 4건 모두 **confidence medium**
+  - **concepts/free-to-play** — 축은 *위키의 F2P 근거가 한쪽으로 기울어 있다*는 정리: 가장 자세한 것은 F2P를 떠난 사례(아크 레이더스·마라톤)와 장르가 진 불신이고, 운영 성공 쪽(포트나이트·원신·LoL·Apex)은 프로필·외부 추정뿐. 핵심 명제 "과금 모델은 가격표가 아니라 설계 제약" — 마라톤 무료 테스트 최고 동접 143,621 vs 유료 88,337(약 −39%)을 문턱 비용으로. ⚠️ 결제 전환율·결제자 비율 등 F2P 핵심 지표가 위키에 0
+  - **concepts/mmorpg** — 축은 *바닥은 되지만 천장은 안 된다*. 넥슨·엔씨·펄어비스 모두 본편 바닥은 보합·하락, 성장은 신작 또는 같은 IP의 새 형태. 반례로 메이플 +63%를 두되 본편 밖(Worlds·방치형)에서 자랐음을 명시. 운영 중인 MMO를 키우는 4경로(클래식 서버·IP 변형·확장 주기·후속작). ⚠️ 한국 4사 IR 편중·이용자 지표 부재·설계 자료 부재
+  - **entities/hades** — 얼리 액세스·로그라이크·스튜디오 문화 세 준거점이 *다시 하는 것을 진행으로 만든다*는 한 모양이라는 정리. 단 "개발 방식이 게임 구조로 옮겨졌다"는 연결은 2차 보고서 해석임을 명시. ⚠️ **판매 수치 0** · 1차 자료는 2019 인터뷰 하나 · 형벌 규약 수치·방 수공예·사운드트랙 서술은 해당 페이지 `sources`에 Hades 근거가 없음 · 인용되는 카사빈 GDC 2021 강연은 미ingest
+  - **entities/halo** — 2005(Halo 2 적 AI — 지식을 제한해서 만드는 의도감)와 2026(Campaign Evolved — 재발매 실패) 두 교본. 부진 원인 3겹(가격·자기 카탈로그 MCC \$40·멀티플레이 부재)과 Game Pass 210만 vs 판매 약 120만. ⚠️ **두 Alinea 글의 집계 창이 달라**(2주 vs 7월) 수치를 합치지 않고 기간을 붙여 병기. 16배 비교는 기간마저 다름(CoD 한 달 남짓 vs Halo 2주)
+- relations: hades(developedBy·publishedBy supergiant-games · genre roguelike — 플랫폼은 위키 자료에 없어 비움) · halo(developedBy bungie · publishedBy microsoft · platform xbox-series·ps5·pc). **halo의 developedBy는 원작 시리즈 기준** — 위키로 확인되는 번지 개발작은 Halo 2까지, 이후 개발 주체는 위키 밖이라 본문 한계 절에 명시
+- 양방향 링크: 27개 페이지 `related`에 연결 (halo 8 · hades 5 · mmorpg 7 · free-to-play 7). 단일행 배열 정규식에 `\r?$` 포함 — CRLF 파일 5개 포함 전건 반영
+- 카탈로그: concepts/all(+2, updated 09-29) · entities/all(게임 +2, updated 09-29) · index.md(게임 51→53 · 개념 80→82 · 출시·마케팅 pill +2) · overview.md(게임 51→53, 커버리지 +2) · _ops/status.md(개념 80→82 · 엔티티 121→123 · 총 md 442→446)
+- 핵심 테마(overview) 추가는 하지 않음 — 신규 4건의 피인용이 아직 임계 전
+- 검증: 빌드 **통과**(446 파싱 · 940 emit · 44초) / 끊긴 wikilink **0** · 완전 고립 **0** / `]](` 0 · alias 슬래시 0 · 테이블 내 alias wikilink 0 · frontmatter `\$` 0 / **줄바꿈 churn 0**(변경 36파일 HEAD 대조, 혼재 2건은 HEAD부터 혼재)
+- 미커밋 상태 — push는 사용자 확인 후
+- 사용자 승인 후 추가 반영: changelog 2026-09 4주차 블록(초안 그대로, updated 09-29) · `comparisons/leadership-production.md:61`의 발라트로 오기 수정(→ 배스천·트랜지스터·파이어·하데스, updated 09-29). 원 소스 `gamedev-leadership-dynamics`에는 발라트로 언급이 없어 비교 페이지 작성 시 들어간 오류로 판단
+- 빌드 재검사 통과(446 파싱 · 940 emit · 41초)

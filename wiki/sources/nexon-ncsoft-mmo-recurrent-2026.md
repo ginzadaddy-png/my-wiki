@@ -5,7 +5,7 @@ source_url: "https://www.businesswire.com/news/home/20260514529375/en/Nexon-Rele
 source_author: "Nexon IR · NCSOFT IR (종합)"
 source_published: 2026-05-14
 sources: []
-related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[nexon|넥슨]]", "[[ncsoft|엔씨소프트]]", "[[krafton|크래프톤]]", "[[pearl-abyss|펄어비스]]", "[[nexon-cmb-2026-transformation|넥슨 2026 CMB]]", "[[nexon-ir-2q26|넥슨 2Q26 IR]]", "[[live-service-design|라이브 서비스 설계]]", "[[game-market-trends|게임 시장 트렌드]]"]
+related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[nexon|넥슨]]", "[[ncsoft|엔씨소프트]]", "[[krafton|크래프톤]]", "[[pearl-abyss|펄어비스]]", "[[nexon-cmb-2026-transformation|넥슨 2026 CMB]]", "[[nexon-ir-2q26|넥슨 2Q26 IR]]", "[[live-service-design|라이브 서비스 설계]]", "[[game-market-trends|게임 시장 트렌드]]", "[[mmorpg|MMO·MMORPG]]"]
 created: 2026-07-13
 updated: 2026-08-13
 confidence: high

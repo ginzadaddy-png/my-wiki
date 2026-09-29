@@ -2,7 +2,7 @@
 title: "Marathon"
 type: entity
 sources: []
-related: ["[[bungie|번지]]", "[[sony-interactive-entertainment|소니 인터랙티브 엔터테인먼트]]", "[[arc-raiders|아크 레이더스]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[live-service-design|라이브 서비스 설계]]", "[[launch-metrics|흥행 예측 지표]]"]
+related: ["[[bungie|번지]]", "[[sony-interactive-entertainment|소니 인터랙티브 엔터테인먼트]]", "[[arc-raiders|아크 레이더스]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[live-service-design|라이브 서비스 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[free-to-play|F2P·부분유료 모델]]"]
 created: 2026-08-03
 updated: 2026-08-03
 confidence: medium

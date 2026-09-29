@@ -5,7 +5,7 @@ source_url: "https://alineaanalytics.substack.com/p/halo-campaign-evolved-has-so
 source_author: "Rhys Elliott (The Alinea Insight)"
 source_published: 2026-08-12
 sources: []
-related: ["[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[reports/pc-console-pricing-playbook|PC·콘솔 패키지 게임 기준 가격 결정 가이드]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[marvel-spiderman-2|마블 스파이더맨 2]]", "[[microsoft|마이크로소프트]]"]
+related: ["[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[reports/pc-console-pricing-playbook|PC·콘솔 패키지 게임 기준 가격 결정 가이드]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[marvel-spiderman-2|마블 스파이더맨 2]]", "[[microsoft|마이크로소프트]]", "[[halo|Halo]]"]
 created: 2026-08-18
 updated: 2026-08-18
 confidence: high

@@ -2,7 +2,7 @@
 title: "웹샵·D2C 직접 수익화 (Webshop & Direct-to-Consumer)"
 type: concept
 sources: ["[[xsolla-webshop-ecosystem]]", "[[bain-gaming-report-2026]]"]
-related: ["[[xsolla|엑솔라]]", "[[platform-fees-vs-direct-sales|플랫폼 수수료 vs 직접 판매]]", "[[live-service-design|라이브 서비스 설계]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[community-management|커뮤니티 운영]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]"]
+related: ["[[xsolla|엑솔라]]", "[[platform-fees-vs-direct-sales|플랫폼 수수료 vs 직접 판매]]", "[[live-service-design|라이브 서비스 설계]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[community-management|커뮤니티 운영]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[free-to-play|F2P·부분유료 모델]]"]
 created: 2026-06-08
 updated: 2026-08-20
 confidence: high

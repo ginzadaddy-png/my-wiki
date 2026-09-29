@@ -2,7 +2,7 @@
 title: "라이브 서비스 설계"
 type: concept
 sources: ["[[missing-middle-paradigm-shift-2026]]", "[[ukyou-mobile-liveservice-survival]]", "[[ukyou-mobile-liveservice-walls]]", "[[ign-generations-in-play-2026]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[gi-sony-live-service-opportunity-cost-2026-08]]", "[[gi-tencent-live-service-strategy-2026-09]]", "[[gi-sega-super-game-cancelled-2026-09]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]"]
-related: ["[[helldivers-2|헬다이버스 2]]", "[[arc-raiders|아크 레이더스]]", "[[arrowhead-game-studios|애로우헤드]]", "[[embark-studios|엠바크 스튜디오]]", "[[community-management|커뮤니티 운영]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[player-retention|플레이어 리텐션]]", "[[engagement-loop|인게이지먼트 루프]]"]
+related: ["[[helldivers-2|헬다이버스 2]]", "[[arc-raiders|아크 레이더스]]", "[[arrowhead-game-studios|애로우헤드]]", "[[embark-studios|엠바크 스튜디오]]", "[[community-management|커뮤니티 운영]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[player-retention|플레이어 리텐션]]", "[[engagement-loop|인게이지먼트 루프]]", "[[free-to-play|F2P·부분유료 모델]]"]
 created: 2026-04-23
 updated: 2026-09-14
 confidence: high

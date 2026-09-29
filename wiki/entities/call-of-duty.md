@@ -2,7 +2,7 @@
 title: "Call of Duty"
 type: entity
 sources: ["[[alinea-ps-july-2026-cod-catalog]]", "[[circana-us-physical-lowest-2026-07]]", "[[newzoo-pc-console-2026]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[gi-tencent-live-service-strategy-2026-09]]", "[[alinea-halo-campaign-evolved-2026-08]]", "[[carless-genres-ruled-steam-2025-06]]"]
-related: ["[[evergreen-ip|에버그린 IP]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[subscription-economy-gaming|구독 경제]]", "[[game-pass|Xbox Game Pass]]", "[[microsoft|마이크로소프트]]", "[[game-market-trends|시장 구조 변화]]"]
+related: ["[[evergreen-ip|에버그린 IP]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[subscription-economy-gaming|구독 경제]]", "[[game-pass|Xbox Game Pass]]", "[[microsoft|마이크로소프트]]", "[[game-market-trends|시장 구조 변화]]", "[[halo|Halo]]"]
 relations:
   publishedBy: [microsoft]
   platform: [ps5, ps4, xbox-series, xbox-one, pc]

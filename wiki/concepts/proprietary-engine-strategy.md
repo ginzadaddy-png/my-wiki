@@ -2,7 +2,7 @@
 title: "독자 엔진 전략"
 type: concept
 sources: ["[[capcom-ir2021-dev-strategy]]", "[[re2023-re-engine-philosophy]]", "[[expedition33-ue5-interview]]", "[[gdc2023-asobo-how-to-make-aaa-small-team]]", "[[pearl-abyss-blackspace-engine-gdc2025]]"]
-related: ["[[capcom|캡콤]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[asobo-studio|Asobo Studio]]", "[[remedy-entertainment|Remedy Entertainment]]", "[[pearl-abyss|펄어비스]]", "[[small-team-development|소규모 팀 개발]]", "[[proprietary-engine-vs-ue5|자체 엔진 vs UE5 의사결정 매트릭스]]"]
+related: ["[[capcom|캡콤]]", "[[sandfall-interactive|샌드폴 인터랙티브]]", "[[asobo-studio|Asobo Studio]]", "[[remedy-entertainment|Remedy Entertainment]]", "[[pearl-abyss|펄어비스]]", "[[small-team-development|소규모 팀 개발]]", "[[proprietary-engine-vs-ue5|자체 엔진 vs UE5 의사결정 매트릭스]]", "[[mmorpg|MMO·MMORPG]]"]
 created: 2026-04-14
 updated: 2026-04-14
 confidence: high

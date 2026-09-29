@@ -2,7 +2,7 @@
 title: "플레이테스팅 방법론"
 type: concept
 sources: ["[[gdc26-spark]]", "[[gdc26-ghost-of-yotei]]", "[[gdc25-astrobot]]", "[[gdc26-arc-raiders-reset]]", "[[gmtk-10-lessons]]", "[[gdc26-too-much-playtesting]]", "[[kasavin-hades-ea]]", "[[vincke-bg3-ea]]", "[[fares-hazelight-playtesting]]", "[[tornqvist-valheim-ea]]", "[[zukowski-next-fest-strategy]]"]
-related: ["[[sucker-punch-productions|서커펀치 프로덕션]]", "[[team-asobi|팀 아소비]]", "[[embark-studios|엠바크 스튜디오]]", "[[larian-studios|라리안 스튜디오]]", "[[iron-gate-studio|아이언 게이트]]", "[[supergiant-games|슈퍼자이언트]]", "[[hazelight-studios|하즐라이트]]", "[[sandfall-interactive|샌드폴]]", "[[vision-statement|비전 선언문]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[data-driven-development|데이터 기반 개발]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[player-feedback|플레이어 피드백 수집 전략 비교]]"]
+related: ["[[sucker-punch-productions|서커펀치 프로덕션]]", "[[team-asobi|팀 아소비]]", "[[embark-studios|엠바크 스튜디오]]", "[[larian-studios|라리안 스튜디오]]", "[[iron-gate-studio|아이언 게이트]]", "[[supergiant-games|슈퍼자이언트]]", "[[hazelight-studios|하즐라이트]]", "[[sandfall-interactive|샌드폴]]", "[[vision-statement|비전 선언문]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[data-driven-development|데이터 기반 개발]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[player-feedback|플레이어 피드백 수집 전략 비교]]", "[[hades|Hades]]"]
 created: 2026-04-13
 updated: 2026-07-06
 confidence: high

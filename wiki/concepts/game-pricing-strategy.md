@@ -18,11 +18,12 @@ sources: [
   "[[newzoo-pc-console-2026]]",
   "[[carless-hit-pc-genres-2021-2025]]",
   "[[gi-newzoo-console-gta6-2026-08]]",
-  "[[alinea-mortal-shell-2-launch-2026-08]]"
+  "[[alinea-mortal-shell-2-launch-2026-08]]",
+  "[[naavik-licensed-ip-value-2026-09]]"
 ]
-related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]"]
+related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[free-to-play|F2P·부분유료 모델]]"]
 created: 2026-04-28
-updated: 2026-08-31
+updated: 2026-09-29
 confidence: high
 ---
 
@@ -240,6 +241,26 @@ Steam 권장 region pricing matrix 기반 계산. \$19.99 USD 게임의 예시:
 - **US/EU 중심 게임**: 5~15% (Asia·LATAM·MENA 비중 작음)
 
 **시사점**: 글로벌 marketing 강화한 게임일수록 *blended ARPU가 낮아짐*. 절대 매출은 늘어도 unit당 매출은 떨어진다. 글로벌 매출이 큰 게임에서 *카피 수와 net revenue 사이 비대칭*이 발생하는 이유.
+
+## 자체 IP와 외부 IP의 가격대가 갈린다 ([[naavik-licensed-ip-value-2026-09]])
+
+지금까지 이 페이지는 가격대를 *시장 전체*의 지형으로 봤다. Naavik이 2015–2025년 Steam 게임을 IP 출처로 갈라 보니 **두 집단이 전혀 다른 가격대에 앉아 있었다.** 출시가 이력을 IsThereAnyDeal에서 확보해 분류 가능한 약 10,400개 기준.
+
+| IP 유형 | 가격대 분포 |
+|---|---|
+| 자체 IP | **\$10–20에 고도로 집중** |
+| 외부 IP | **\$40에서 정점** |
+| \$40 초과 | 자체 IP 게임이 눈에 띄게 드묾 |
+
+출시가를 사업 규모의 대리 지표로 읽으면, 라이선스를 살 수 있는 팀과 \$40 이상을 매길 수 있는 팀이 대체로 같은 집단이라는 뜻이다. 앞서 「현재 시장의 가격대 지형」이 말한 중간층 공백을 IP 출처가 한 겹 더 설명한다 → [[mid-price-sweet-spot]]
+
+**같은 가격대끼리 비교해도 외부 IP의 매출이 앞선다.** 동일 출시연도·동일 출시가 구간의 자체 IP 중앙값을 기준선으로 놓았을 때 **30개 비교군 중 29개에서 외부 IP가 우위**였고, 가장 일관된 상승은 **\$40–50 구간 75백분위의 3.4x**였다.
+
+> ⚠️ \$60 이상 구간은 4.0x가 나왔지만 해당 구간 외부 IP 표본이 **10개뿐**이라, 저자 본인이 크기가 아니라 방향으로만 읽으라고 단서를 달았다. 이 수치를 가격 근거로 인용하지 말 것.
+
+> 💡 **핵심 인사이트:** 가격대를 올려 잡을 근거로 IP를 쓰는 건 데이터상 뒷받침된다 — 다만 **\$40–50 구간까지만** 확인된 이야기다. 그 위로는 표본이 받쳐주지 않는다.
+
+가격을 올려 받는 만큼 비용도 올라간다. \$50–60 구간에서도 외부 IP의 Steam 매출 중앙값은 **\$9.8M**이고, 여기에 로열티 **9–26%**가 붙는다. 20%를 가정하면 매출 우위가 1.52–2.62x에서 **1.22–2.10x로 축소된다** → [[ip-adaptation-design]] · [[publisher-deal-structures]]
 
 ## ARPU 정확 공식 ([[zrconsulting-steam-forecaster-2026]])
 

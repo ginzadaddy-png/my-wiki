@@ -2,7 +2,7 @@
 title: "아이온2 (Aion 2)"
 type: entity
 sources: ["[[nexon-ncsoft-mmo-recurrent-2026]]"]
-related: ["[[ncsoft|엔씨소프트]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]"]
+related: ["[[ncsoft|엔씨소프트]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]", "[[mmorpg|MMO·MMORPG]]"]
 relations:
   developedBy: [ncsoft]
   publishedBy: [ncsoft]

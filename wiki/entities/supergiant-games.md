@@ -2,7 +2,7 @@
 title: "Supergiant Games"
 type: entity
 sources: ["[[gamedev-leadership-dynamics]]", "[[kasavin-hades-ea]]"]
-related: ["[[studio-culture|스튜디오 문화]]", "[[small-team-development|소규모 팀 전략]]", "[[leadership-production|리더십 비교]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[playtesting|플레이테스팅]]"]
+related: ["[[studio-culture|스튜디오 문화]]", "[[small-team-development|소규모 팀 전략]]", "[[leadership-production|리더십 비교]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[playtesting|플레이테스팅]]", "[[hades|Hades]]"]
 created: 2026-04-24
 updated: 2026-05-07
 confidence: high

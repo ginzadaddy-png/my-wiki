@@ -2,7 +2,7 @@
 title: "중가 프리미엄 스위트스폿 ($30–50)"
 type: concept
 sources: ["[[newzoo-pc-console-2026]]", "[[remedy-control-resonant-pricing-2026-08]]", "[[missing-middle-paradigm-shift-2026]]"]
-related: ["[[game-pricing-strategy|게임 가격 전략]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]"]
+related: ["[[game-pricing-strategy|게임 가격 전략]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[free-to-play|F2P·부분유료 모델]]"]
 created: 2026-08-28
 updated: 2026-08-31
 confidence: medium

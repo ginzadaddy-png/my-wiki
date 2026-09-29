@@ -2,7 +2,7 @@
 title: "얼리 액세스 전략"
 type: concept
 sources: ["[[gdc24-baldurs-gate-3]]", "[[kasavin-hades-ea]]", "[[vincke-bg3-ea]]", "[[ign-generations-in-play-2026]]", "[[carless-paralives-million-2026-07]]"]
-related: ["[[larian-studios|라리안 스튜디오]]", "[[baldurs-gate-3|발더스 게이트3]]", "[[supergiant-games|슈퍼자이언트]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[playtesting|플레이테스팅]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[player-trust-design|플레이어 신뢰 설계]]"]
+related: ["[[larian-studios|라리안 스튜디오]]", "[[baldurs-gate-3|발더스 게이트3]]", "[[supergiant-games|슈퍼자이언트]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[playtesting|플레이테스팅]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[hades|Hades]]"]
 created: 2026-04-13
 updated: 2026-07-20
 confidence: high

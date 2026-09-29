@@ -2,7 +2,7 @@
 title: "플레이어 신뢰 설계"
 type: concept
 sources: ["[[gdc26-rules-of-the-game]]"]
-related: ["[[mda-framework|MDA 프레임워크]]", "[[game-balance|게임 밸런싱]]", "[[playtesting|플레이테스팅]]", "[[marketing-strategy|마케팅 전략]]", "[[engagement-loop|인게이지먼트 루프]]", "[[accessibility-design|접근성 설계]]"]
+related: ["[[mda-framework|MDA 프레임워크]]", "[[game-balance|게임 밸런싱]]", "[[playtesting|플레이테스팅]]", "[[marketing-strategy|마케팅 전략]]", "[[engagement-loop|인게이지먼트 루프]]", "[[accessibility-design|접근성 설계]]", "[[free-to-play|F2P·부분유료 모델]]"]
 created: 2026-04-22
 updated: 2026-08-03
 confidence: high

@@ -1,13 +1,14 @@
 ---
 title: "소스 전체 목록"
 created: 2026-04-16
-updated: 2026-09-21
+updated: 2026-09-29
 ---
 
-총 202개 | 최신순 정렬
+총 203개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [naavik-licensed-ip-value-2026-09](naavik-licensed-ip-value-2026-09.md) | Naavik — 외부 IP의 상업적 값어치 (Phang) — Steam 13,773종(외부 IP 436종)·2015–2025·연도별 자체 IP 중앙값 대비 배수·판매 우위 10백분위 1.23x → 75–90백분위 약 4x이나 하위 25%는 중앙값 미만·증폭 정점은 Very Positive 4.51x(Overwhelmingly는 2.06x)·자체 IP는 \$10–20 집중 vs 외부 IP는 \$40 정점·동일 가격대 30개 중 29개 우위·\$50–60에서도 매출 중앙값 \$9.8M·로열티 9–26%, 20% 적용 시 우위 1.52–2.62x → 1.22–2.10x·"보험이 아니라 레버리지" | 2026-09-20 |
 | [carless-discovery-by-age-2026-09](carless-discovery-by-age-2026-09.md) | GameDiscoverCo — 연령대별 게임 발견 경로 (Carless) — Steam Fan Snapshot 16,000명+·전체 롱폼 57%·Steam 자체 55.8%·입소문 44.9%·숏폼 37.5%·라이브 35.2%·숏폼은 18세 미만 53.5% → 45–54세 20.2%·전통 미디어는 21.2% → 42.5% 역방향·입소문/Steam은 전 연령 평탄·Peak은 평균 27세라 숏폼 편중 | 2026-09-18 |
 | [alinea-wardogs-launch-2026-09](alinea-wardogs-launch-2026-09.md) | Alinea — Wardogs 얼리액세스 1주차 (Elliott) — 220만 장·\$70M·\$40·2026 신작 매출 7위·위시리스트 180만에서 7일 전환 11% vs AAA 5%·위시리스트 57%가 직전 한 달 적재·Arc Raiders 170만/Helldivers 2 약 100만 상회·병행 CS2 86.6%·PUBG 65.7%·리뷰 74%이나 5시간+는 86–89% | 2026-09-16 |
 | [gi-remedy-open-world-guidance-2026-09](gi-remedy-open-world-guidance-2026-09.md) | GI.biz — Remedy, 벽을 걷는 캐릭터를 오픈월드에서 유도하기 (Packwood, Makkonen 인터뷰) — 실내는 천장이 유도를 대신했다·이동 제한 대신 시선 유도·존별 색 팔레트로 위치 식별·"걸어 보이면 걸린다" 원칙과 수작업 반복 비용·프롬의 "안 되는 것은 안 되어 보이게"와 반대 방향 | 2026-09-17 |

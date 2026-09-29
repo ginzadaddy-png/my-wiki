@@ -5,7 +5,7 @@ source_url: "https://geekdad.com/2019/10/narrative-and-early-access-supergiants-
 source_author: "Sean Z (GeekDad)"
 source_published: 2019-10-31
 sources: []
-related: ["[[supergiant-games|슈퍼자이언트]]", "[[playtesting|플레이테스팅]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[live-service-design|라이브 서비스 설계]]"]
+related: ["[[supergiant-games|슈퍼자이언트]]", "[[playtesting|플레이테스팅]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[live-service-design|라이브 서비스 설계]]", "[[hades|Hades]]"]
 created: 2026-05-07
 updated: 2026-05-15
 confidence: high

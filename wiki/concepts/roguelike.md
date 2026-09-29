@@ -2,7 +2,7 @@
 title: "로그라이크"
 type: concept
 sources: ["[[kasavin-hades-ea]]", "[[gdc25-balatro-marketing]]", "[[carless-genres-ruled-steam-2025-06]]", "[[gdc19-slay-the-spire-metrics]]", "[[gdc22-returnal-procedural-world]]", "[[carless-hit-pc-genres-2021-2025]]"]
-related: ["[[balatro|발라트로]]", "[[supergiant-games|슈퍼자이언트]]", "[[soulslike|소울라이크]]", "[[pcg-pure-vs-hybrid|완전 절차생성 vs 하이브리드]]", "[[game-balance|게임 밸런싱]]", "[[data-driven-development|데이터 기반 개발]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[mda-framework|MDA 프레임워크]]"]
+related: ["[[balatro|발라트로]]", "[[supergiant-games|슈퍼자이언트]]", "[[soulslike|소울라이크]]", "[[pcg-pure-vs-hybrid|완전 절차생성 vs 하이브리드]]", "[[game-balance|게임 밸런싱]]", "[[data-driven-development|데이터 기반 개발]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[mda-framework|MDA 프레임워크]]", "[[hades|Hades]]"]
 created: 2026-06-16
 updated: 2026-08-31
 confidence: high
