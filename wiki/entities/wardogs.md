@@ -1,12 +1,12 @@
 ---
 title: "Wardogs"
 type: entity
-sources: ["[[alinea-wardogs-launch-2026-09]]"]
+sources: ["[[alinea-wardogs-launch-2026-09]]", "[[alinea-steam-september-2026]]", "[[alinea-q4-games-to-watch-2026-09]]"]
 related: ["[[launch-metrics|흥행 예측 지표]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[arc-raiders|Arc Raiders]]", "[[helldivers-2|Helldivers 2]]"]
 relations:
   platform: [pc]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-06
 confidence: medium
 ---
 
@@ -34,6 +34,13 @@ Bulkhead 개발 · Team17 퍼블리싱의 100인 규모 전술 FPS. 2026-09-10 S
 리뷰는 74% 긍정이지만 **5시간 이상 플레이어는 86–89% 긍정**이다. 출시 초 서버 문제가 총점을 눌렀다는 신호로 읽힌다.
 
 > 💡 **핵심 인사이트:** 이 게임은 \$40이라는 위치에서 AAA 가격 마찰선을 피하면서 대작급 수요를 받았다. [[mid-price-sweet-spot|중가 스위트스폿]] 논의의 실사례이지만, 가격·장르 수요·위시리스트 신선도 중 무엇이 전환율을 만들었는지는 아직 분리되지 않았다.
+
+## 한 달 뒤 ([[alinea-steam-september-2026]])
+
+- 9월 Steam 매출 **\$86.9M**으로 9월 프리미엄 1위. 누적 **\$100M 이상 · 320만 장**. 9월 Steam 신규 IP 매출의 약 1/3을 혼자 냈다
+- 하루 플레이어 약 25만 명
+- 다만 출시일 기준으로 맞추면 [[helldivers-2|Helldivers 2]] (\$130M)·[[arc-raiders|Arc Raiders]] (약 \$125M)에 각각 26.5%·21.2% 뒤진다. 1주차에는 앞섰지만 두 게임의 화제가 더 오래 갔다
+- 출시 전 같은 시점 사전 판매 56.7만 장은 4분기 Gears of War: E-Day(12만 장)의 비교 기준으로도 쓰였다 ([[alinea-q4-games-to-watch-2026-09]])
 
 ## 남은 확인 사항
 

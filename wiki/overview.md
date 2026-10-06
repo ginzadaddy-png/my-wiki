@@ -63,6 +63,8 @@ raw 소스를 LLM으로 요약·구조화해 개념·엔티티·비교 분석으
 - [[early-access-strategy|얼리 액세스 전략]]: 라리안·하데스·발하임 피드백 루프 — 미완성 변명 아닌 검증 도구
 - [[combat-design|전투 디자인]]: 판타지 계약·HP 인플레이션·애니메이션 철학 — GoT·GoW·세키로·TLOU
 - [[live-service-design|라이브 서비스 설계]]: 비약탈적 모델, 헬다이버스2 게임 마스터, F2P 탈출 교훈, 모바일 4대 벽
+- [[free-to-play|F2P·부분유료 모델]]: 과금 모델은 가격표가 아니라 설계 제약 — 위키 근거는 F2P를 떠난 사례 쪽으로 기울어 있고, 시장 수요는 줄지 않고 자리를 옮긴다
+- [[mmorpg|MMO·MMORPG]]: 바닥은 되지만 천장은 안 된다 — 본편은 보합, 성장은 신작이나 같은 IP의 새 형태에서
 - [[mobile-gamedev|모바일 게임 개발]]: 4대 현장 벽, 상업 성립 4요소, 원신 쇼크의 역설
 - [[innersource|이너소스]]: 오픈소스 방식의 사내 기술 공유 — 인섬니악·캡콤 사례
 - [[art-pipeline-design|아트 파이프라인 설계]]: Houdini·USD·Origins node·Edit-in-place·Batching·Cross-project 공유 — Embark 멀티 게임 포트폴리오 기술적 실체

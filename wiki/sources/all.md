@@ -1,13 +1,17 @@
 ---
 title: "소스 전체 목록"
 created: 2026-04-16
-updated: 2026-09-29
+updated: 2026-10-06
 ---
 
-총 203개 | 최신순 정렬
+총 207개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [carless-steam-daily-deals-end-2026-10](carless-steam-daily-deals-end-2026-10.md) | GameDiscoverCo — Steam, 모두에게 같은 Daily Deals를 없앤다 (Carless) — 2027년 초 Discounts & Events 개인화·새 Daily Deals 배정 중단·Valve 시험 하루 노출 게임 수 10배·한 번의 큰 봉우리에서 작은 반복 노출로·Hooded Horse 니치 인디 노출 50만 회+ | 2026-10-02 |
+| [alinea-steam-september-2026](alinea-steam-september-2026.md) | Alinea — Steam 9월 결산 (Elliott) — 9월 \$1.7B(+13%)·3분기 \$5.5B·1–9월 \$16.5B·상위 500 기존 IP 79.5%·2026년작 33.6%·F2P 게임 수 16%에 매출 25.6%·Wardogs \$86.9M·Witcher 3 무료 리마스터 하루 240만 명 | 2026-10-01 |
+| [newzoo-free-to-play-2026](newzoo-free-to-play-2026.md) | Newzoo — F2P는 줄지 않고 자리를 옮긴다 (Special Focus, Gu) — F2P 시간 비중 29.3%(−2.9%p)·시간 자체는 보합·신규 F2P 라이브 서비스 출시 −31%·상위 5개 매출 비중 콘솔 79→72%·가챠 3→17종·PC 가챠 시간 +92% | 2026-09-30 |
+| [alinea-q4-games-to-watch-2026-09](alinea-q4-games-to-watch-2026-09.md) | Alinea — 4분기 기대작, 위시리스트 말고 무엇을 볼까 (Elliott) — 위시리스트 → 사전 주문 전환 PBZ 16% vs Galactic Racer 6% 미만·Guildrun 데모 평균 14.9시간·중국 리뷰 72%·Cozy Game Restoration 데모 전환 43%인데 리뷰 68% | 2026-09-29 |
 | [naavik-licensed-ip-value-2026-09](naavik-licensed-ip-value-2026-09.md) | Naavik — 외부 IP의 상업적 값어치 (Phang) — Steam 13,773종(외부 IP 436종)·2015–2025·연도별 자체 IP 중앙값 대비 배수·판매 우위 10백분위 1.23x → 75–90백분위 약 4x이나 하위 25%는 중앙값 미만·증폭 정점은 Very Positive 4.51x(Overwhelmingly는 2.06x)·자체 IP는 \$10–20 집중 vs 외부 IP는 \$40 정점·동일 가격대 30개 중 29개 우위·\$50–60에서도 매출 중앙값 \$9.8M·로열티 9–26%, 20% 적용 시 우위 1.52–2.62x → 1.22–2.10x·"보험이 아니라 레버리지" | 2026-09-20 |
 | [carless-discovery-by-age-2026-09](carless-discovery-by-age-2026-09.md) | GameDiscoverCo — 연령대별 게임 발견 경로 (Carless) — Steam Fan Snapshot 16,000명+·전체 롱폼 57%·Steam 자체 55.8%·입소문 44.9%·숏폼 37.5%·라이브 35.2%·숏폼은 18세 미만 53.5% → 45–54세 20.2%·전통 미디어는 21.2% → 42.5% 역방향·입소문/Steam은 전 연령 평탄·Peak은 평균 27세라 숏폼 편중 | 2026-09-18 |
 | [alinea-wardogs-launch-2026-09](alinea-wardogs-launch-2026-09.md) | Alinea — Wardogs 얼리액세스 1주차 (Elliott) — 220만 장·\$70M·\$40·2026 신작 매출 7위·위시리스트 180만에서 7일 전환 11% vs AAA 5%·위시리스트 57%가 직전 한 달 적재·Arc Raiders 170만/Helldivers 2 약 100만 상회·병행 CS2 86.6%·PUBG 65.7%·리뷰 74%이나 5시간+는 86–89% | 2026-09-16 |

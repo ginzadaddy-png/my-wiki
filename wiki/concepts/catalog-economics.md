@@ -1,10 +1,10 @@
 ---
 title: "카탈로그 이코노믹스 (Catalog Economics)"
 type: concept
-sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[alinea-steam-record-year-2026]]", "[[alinea-steam-15b-mid-market-2026-09]]", "[[bain-gaming-report-2026]]", "[[newzoo-pc-console-2026]]", "[[krafton-ir-fy2025-1q26]]", "[[krafton-ir-2q26]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-remakes-remasters-ranking-2026-07]]"]
-related: ["[[capcom|캡콤]]", "[[rockstar-games|록스타]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[bethesda-game-studios|베데스다]]", "[[fromsoftware|프롬소프트웨어]]", "[[nintendo|닌텐도]]", "[[nexon|넥슨]]", "[[krafton|크래프톤]]", "[[pearl-abyss|펄어비스]]", "[[larian-studios|라리안]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[live-service-design|라이브 서비스 설계]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[catalog-economics-3-publishers|3사 비교 (캡콤·닌텐도·Take-Two)]]", "[[nexon-ncsoft-mmo-recurrent-2026|한국 MMO recurrent]]", "[[hit-driven-strategy|홈런 전략]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[call-of-duty|Call of Duty]]", "[[pubg|PUBG]]", "[[mmorpg|MMO·MMORPG]]"]
+sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[alinea-steam-record-year-2026]]", "[[alinea-steam-15b-mid-market-2026-09]]", "[[bain-gaming-report-2026]]", "[[newzoo-pc-console-2026]]", "[[krafton-ir-fy2025-1q26]]", "[[krafton-ir-2q26]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[alinea-steam-september-2026]]", "[[carless-steam-daily-deals-end-2026-10]]"]
+related: ["[[capcom|캡콤]]", "[[rockstar-games|록스타]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[bethesda-game-studios|베데스다]]", "[[fromsoftware|프롬소프트웨어]]", "[[nintendo|닌텐도]]", "[[nexon|넥슨]]", "[[krafton|크래프톤]]", "[[pearl-abyss|펄어비스]]", "[[larian-studios|라리안]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[live-service-design|라이브 서비스 설계]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[catalog-economics-3-publishers|3사 비교 (캡콤·닌텐도·Take-Two)]]", "[[nexon-ncsoft-mmo-recurrent-2026|한국 MMO recurrent]]", "[[hit-driven-strategy|홈런 전략]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[call-of-duty|Call of Duty]]", "[[pubg|PUBG]]", "[[mmorpg|MMO·MMORPG]]", "[[witcher-3|위쳐 3]]"]
 created: 2026-05-18
-updated: 2026-09-08
+updated: 2026-10-06
 confidence: high
 ---
 
@@ -40,6 +40,19 @@ confidence: high
 > 💡 **핵심 인사이트 — 카탈로그가 신작을 밀어내는 자리는 상위권이 아니라 중간 순위다.** 상위권은 여전히 그해 대형 신작이 가져간다(2026년 신작 top 100 = 전체의 15.9%). 진짜 자리싸움은 그 아래에서 일어나고, 거기서 신작 중형 게임은 **Skyrim·DOOM Eternal·Assassin's Creed Origins 같은 옛 블록버스터의 할인가 판매**와 같은 칸을 두고 경쟁한다. 그래서 *"중간층이 두터워졌다"*는 관측은 새 중형 게임이 자란 증거가 되지 못한다 — 순위는 게임의 성격이 아니라 그해 매출만 말해준다.
 
 이것이 [[hit-driven-vs-catalog-economics|홈런 vs 카탈로그]] 대립을 다시 정의한다. Elliott의 표현대로 **시장은 여전히 히트 주도형이되, 그 히트작 상당수가 지난 세월의 히트작**이다. 두 전략은 반대편이 아니라 같은 게임의 다른 시점이다. 자세한 수치·비판은 [[alinea-steam-15b-mid-market-2026-09]] 참조.
+
+## 월간 갱신 — 2026년 9월, 그리고 "구작을 다시 띄우는 사건" ([[alinea-steam-september-2026]])
+
+Steam 9월 \$1.7B·3분기 \$5.5B·1–9월 \$16.5B로 위 \$15B 글의 흐름이 이어졌다. 상위 500종 매출의 79.5%가 기존 IP였다.
+
+> ⚠️ **비교 주의 — 같은 79%가 아니다.** 위 H1 표의 "백카탈로그 79%"는 *출시 연도* 기준(올해 나온 게임인가)이고, 9월 글의 "기존 IP 79.5%"는 *IP* 기준(새 IP인가)이다. 출시 연도 기준으로 보면 9월 상위 500의 2026년작 비중은 33.6%로 H1의 21%보다 높다. 9월에 대형 신작이 몰린 결과이고, 분모도 *상위 500*이라 H1 전체 집계와 바로 견줄 수 없다.
+
+이번 달에 눈에 띄는 것은 **출시가 아닌 사건으로 돈을 번 구작**이다.
+
+- **[[witcher-3|위쳐 3]] 무료 리마스터** — 기존 보유자에게 무료로 준 날 하루 플레이어 약 240만(올해 평균의 10배 이상), 그날 13만 장 추가 판매(2024년 여름 이후 하루 최다). 11년 된 게임이 *공짜 업그레이드*로 신규 구매를 끌어냈다 — 아래 CDPR 사례의 연장선
+- **Bodycam** — 2024년 얼리 액세스 출시작이 0.8 대형 업데이트로 출시 달(\$16M)보다 많은 \$24.2M을 벌었다
+
+두 사례 모두 *구작을 다시 띄우는 계기*를 회사가 만들었다. 같은 시기 Steam은 할인 노출을 플레이어별 추천으로 바꾼다고 발표했는데([[carless-steam-daily-deals-end-2026-10]]), 관련 있는 구작이 자주 보이는 구조라 카탈로그에 유리하게 작동할 수 있다 — 아직 시행 전이라 추정이다.
 
 ## 수요 측 증거 — 왜 카탈로그가 도는가 ([[bain-gaming-report-2026]])
 

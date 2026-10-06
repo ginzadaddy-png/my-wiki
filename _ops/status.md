@@ -4,20 +4,20 @@
 >
 > 여기 담긴 것: 상세 통계 / 작업 환경 / 도구 스택·아키텍처 / 작업 흐름 / 챗봇(현재 delist) / 진행 예정 — 나 + Claude Code 확인용.
 
-## 현재 통계·규모 (2026-09-29 기준)
+## 현재 통계·규모 (2026-10-06 기준)
 
 | 항목 | 수치 |
 |---|---|
-| 누적 INGEST 건수 (`_ops/log.md`의 ingest 항목 고유 수) | 82건 |
-| 소스 요약 (`wiki/sources/`) | 203개 |
+| 누적 INGEST 건수 (`_ops/log.md`의 ingest 항목 고유 수) | 83건 |
+| 소스 요약 (`wiki/sources/`) | 207개 |
 | 개념 페이지 (`wiki/concepts/`) | 82개 |
 | 엔티티 페이지 (스튜디오·게임·플랫폼·인물, `wiki/entities/`) | 123개 |
 | 비교 페이지 (`wiki/comparisons/`) | 22개 |
 | 보고서 (`wiki/reports/`) | 6개 — deck 4 + 아티클 2 |
 | 결정·가설 (`wiki/decisions/`) | 1개 |
-| 마지막 갱신 | 2026-09-29 |
+| 마지막 갱신 | 2026-10-06 |
 
-총 약 446개 md 페이지가 wikilink로 연결되어 있고, 모두 frontmatter(`type`, `sources`, `related`, `confidence` 등) 기반으로 구조화되어 있어 graph 추론·검색에 활용된다.
+총 약 450개 md 페이지가 wikilink로 연결되어 있고, 모두 frontmatter(`type`, `sources`, `related`, `confidence` 등) 기반으로 구조화되어 있어 graph 추론·검색에 활용된다.
 
 ## 작업 환경
 

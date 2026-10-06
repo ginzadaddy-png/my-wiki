@@ -1,10 +1,10 @@
 ---
 title: "원신 (Genshin Impact)"
 type: entity
-sources: []
+sources: ["[[newzoo-free-to-play-2026]]"]
 related: ["[[hoyoverse|miHoYo·HoYoverse]]", "[[live-service-design|라이브 서비스 설계]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[game-market-trends|게임 시장 트렌드]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[open-world-design|오픈월드 설계]]"]
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-10-06
 confidence: medium
 relations:
   developedBy: [hoyoverse]
@@ -69,6 +69,10 @@ relations:
 > 2. *가챠 규제 변화* — 한국·일본·EU 규제 강화 시 *매출 충격*
 > 3. *Honkai: Star Rail·Zenless Zone Zero 자기잠식* — 동일 회사 라인업이 *서로 잠식*
 > 4. *Khaenri'ah 본편 종료 이후 후속작 risk* — 7국 콘텐츠 완결 후 *다음 IP cycle* 필요
+
+## PC·콘솔에서는 후속작에 자리를 내준다 ([[newzoo-free-to-play-2026]])
+
+Newzoo F2P 리포트(중국·인도 제외 37개 시장)에서 PC F2P 안 RPG 비중은 2021년 9.0%에서 2025년 14.3%로 올랐는데, 성장의 대부분은 Wuthering Waves·Honkai: Star Rail·Zenless Zone Zero 세 게임(합계 11억 시간 추가)이다. 콘솔에서도 신작들이 자리를 넓히는 동안 **원신은 줄었다.** 같은 HoYoverse의 후속작이 원신의 시간을 일부 가져가는 구조로 읽힌다 — 이용자 중복 수치는 유료판에만 있어 확인되지 않는다.
 
 ## 관련 위키 페이지
 

@@ -1,10 +1,10 @@
 ---
 title: "오디언스 발견 시스템 — Intent vs Algorithm"
 type: concept
-sources: ["[[ign-generations-in-play-2026]]", "[[carless-dear-passengers-wishlists-2026-07]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[carless-discovery-by-age-2026-09]]"]
+sources: ["[[ign-generations-in-play-2026]]", "[[carless-dear-passengers-wishlists-2026-07]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[carless-discovery-by-age-2026-09]]", "[[carless-steam-daily-deals-end-2026-10]]"]
 related: ["[[audience-age-segmentation|연령대별 발견 경로]]", "[[marketing-strategy|마케팅 전략]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[community-management|커뮤니티 운영]]", "[[launch-metrics|흥행 예측 지표]]", "[[steam-next-fest|Steam Next Fest]]", "[[player-retention|플레이어 리텐션]]"]
 created: 2026-05-12
-updated: 2026-09-21
+updated: 2026-10-06
 confidence: high
 ---
 
@@ -84,6 +84,14 @@ Feed-First 발견의 극단 사례. [[dear-passengers|Dear Passengers]]는 클�
 > 💡 **핵심 인사이트:** 위 Seek→Feed 논의가 *이용자가 발견의 노동을 플랫폼에 넘겼다*는 이야기였다면, 이건 그 다음 이야기다 — **넘겨받은 쪽이 목적함수를 바꾸면 창작자는 아무것도 안 했는데 매출이 바뀐다.** 플랫폼 위에서 게임을 운영한다면 트래픽은 자산이 아니라 *임차물*이고, 임대 조건은 예고 없이 바뀐다. Steam·모바일 스토어·Roblox 어디든 같은 구조이며, [[creator-economy-trust|크리에이터 경제]]에서 크리에이터가 채널 의존을 분산하는 이유와 정확히 같다.
 
 **개발사 관점 대응**: 단일 플랫폼 추천에 유입의 대부분을 의존하고 있다면, 목적함수 변경은 대응 가능한 리스크가 아니라 *사업 모델 리스크*다. 알고리즘 밖 경로(커뮤니티·크리에이터·D2C)의 비중을 관리 지표로 둘 것 → [[community-management]], [[webshop-direct-monetization]]
+
+## Steam 할인 노출도 알고리즘으로 ([[carless-steam-daily-deals-end-2026-10]])
+
+Steam이 2027년 초부터 모두에게 같은 Daily·Weekend Deals를 없애고 Discounts & Events 영역을 플레이어별 추천으로 바꾼다. **사람이 골라 모두에게 보여 주는 노출에서 알고리즘이 골라 사람마다 다르게 보여 주는 노출로** 바뀐다는 점에서, 위 Seek → Feed 전환이 스토어 안에서 한 칸 더 진행되는 셈이다.
+
+- Valve 시험: 하루에 보여 준 게임 수 10배, 방문·위시리스트·장바구니 증가
+- 시험 중 CRPG 팬에게는 *80% 할인 중인 무관한 게임* 대신 *작지만 평 좋은 CRPG*가 보였다
+- 위 Roblox 사례처럼 **알고리즘이 무엇을 최적화하느냐가 누가 돈을 버는지를 정한다.** Valve가 밝힌 목표는 방문·위시리스트·장바구니이고, 그 기준이면 장르 팬층이 뚜렷한 게임이 유리하다
 
 ## 연령축으로 다시 본 채널 비중 ([[carless-discovery-by-age-2026-09]])
 

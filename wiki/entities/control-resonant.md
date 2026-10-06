@@ -1,13 +1,13 @@
 ---
 title: "Control Resonant"
 type: entity
-sources: ["[[gi-remedy-open-world-guidance-2026-09]]", "[[remedy-control-resonant-pricing-2026-08]]"]
+sources: ["[[gi-remedy-open-world-guidance-2026-09]]", "[[remedy-control-resonant-pricing-2026-08]]", "[[alinea-steam-september-2026]]"]
 related: ["[[remedy-entertainment|Remedy Entertainment]]", "[[player-guidance-design|플레이어 유도 설계]]", "[[open-world-design|오픈월드 설계]]", "[[level-design-principles|레벨 디자인 원칙]]", "[[alan-wake-2|Alan Wake 2]]", "[[proprietary-engine-strategy|독자 엔진 전략]]"]
 relations:
   developedBy: [remedy-entertainment]
   platform: [pc, ps5, xbox-series]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-06
 confidence: medium
 ---
 
@@ -33,4 +33,14 @@ confidence: medium
 
 전작 *Control*은 Video Game Insights 기준 약 760만 장으로, [[alan-wake-2|Alan Wake 2]]의 생애 300만을 크게 넘는 Remedy 최대 흥행작이다. 가격 전략은 [[remedy-control-resonant-pricing-2026-08]] 참조.
 
-> ⚠️ 출시 전(09-17) 개발사 인터뷰 기준 서술이다. 유도 설계가 실제로 작동하는지는 출시 후 확인이 필요하다.
+## 출시 첫 주 ([[alinea-steam-september-2026]])
+
+| 지표 | 값 |
+|---|---|
+| Steam 매출 (출시 1주 미만) | \$12.7M · 누적 약 \$15M |
+| Steam 판매 | 약 30만 장 |
+| Steam 리뷰 | **90% 긍정** |
+| 플레이 시간 | 절반 넘게 10시간 이상 · 25%가 20시간 이상 |
+| 전작 플레이 경험 | Steam 플레이어의 41% — 전작의 1년 Epic 독점 영향으로 낮게 나옴 |
+
+> ⚠️ 위 설계 서술은 출시 전(09-17) 개발사 인터뷰 기준이다. 리뷰와 플레이 시간은 좋게 나왔지만, 유도 설계 자체가 작동했는지는 리뷰 내용 분석 같은 별도 근거가 필요하다.

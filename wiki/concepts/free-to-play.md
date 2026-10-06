@@ -1,10 +1,10 @@
 ---
 title: "F2P·부분유료 모델"
 type: concept
-sources: ["[[missing-middle-paradigm-shift-2026]]", "[[gdc26-arc-raiders-reset]]", "[[ign-generations-in-play-2026]]", "[[newzoo-pc-console-2026]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]", "[[gdc26-rules-of-the-game]]", "[[alinea-steam-dlc-attach-rates-2026-05]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[bain-gaming-report-2026]]"]
-related: ["[[live-service-design|라이브 서비스 설계]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[engagement-loop|인게이지먼트 루프]]", "[[webshop-direct-monetization|웹샵·D2C 직접 수익화]]", "[[subscription-economy-gaming|구독 경제]]", "[[mmorpg|MMO·MMORPG]]", "[[arc-raiders|아크 레이더스]]", "[[marathon|Marathon]]", "[[fortnite|Fortnite]]", "[[genshin-impact|원신]]"]
+sources: ["[[missing-middle-paradigm-shift-2026]]", "[[gdc26-arc-raiders-reset]]", "[[ign-generations-in-play-2026]]", "[[newzoo-pc-console-2026]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]", "[[gdc26-rules-of-the-game]]", "[[alinea-steam-dlc-attach-rates-2026-05]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[bain-gaming-report-2026]]", "[[newzoo-free-to-play-2026]]", "[[alinea-steam-september-2026]]"]
+related: ["[[live-service-design|라이브 서비스 설계]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[engagement-loop|인게이지먼트 루프]]", "[[webshop-direct-monetization|웹샵·D2C 직접 수익화]]", "[[subscription-economy-gaming|구독 경제]]", "[[mmorpg|MMO·MMORPG]]", "[[arc-raiders|아크 레이더스]]", "[[marathon|Marathon]]", "[[fortnite|Fortnite]]", "[[genshin-impact|원신]]", "[[roblox|Roblox]]", "[[hoyoverse|HoYoverse]]"]
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-06
 confidence: medium
 ---
 
@@ -56,15 +56,37 @@ confidence: medium
 
 IGN 조사는 이 차이를 *의지의 신호*로 읽는다 — 정가 구매는 "이 게임에 전념한다", 구독은 "한번 해 본다", F2P는 "선택지로 열어 둔다" ([[ign-generations-in-play-2026]]). Gen Z를 노리는 라이브 게임은 F2P + UGC·소셜 기능 + 오래 머무는 진행 구조가 기본 조합이 된다는 것이 [[live-service-design|라이브 서비스 설계]]의 결론이다.
 
-## 시장 신호 — 서구에서는 약세
+## 시장 신호 — 서구 매출은 약세, 플레이 시간은 보합
 
 - **서구 6개 시장 디지털 매출이 줄었다.** Newzoo의 진단은 *"F2P와 매년 나오는 프리미엄 시리즈의 약세가 잘 된 신작을 상쇄했다"* ([[gi-newzoo-ggmr-2026-release-2026-09]])
 - **콘솔 F2P의 효율이 떨어진다.** 플레이 시간당 F2P 매출은 PC가 전년 대비 ▲10%로 PS의 약 2배·Xbox의 3배다. 콘솔에서는 매출이 플레이 시간보다 빨리 빠진다. Xbox 프리미엄 성장(▲3.6%)이 F2P와 CoD 손실을 메우지 못한 것도 같은 흐름이다 ([[newzoo-pc-console-2026]])
 - **중가 프리미엄의 반사 이익**: \$30–50 밴드가 자라는 이유 중 하나로 *F2P 과금 피로를 피하는 자리*가 꼽힌다 ([[mid-price-sweet-spot]]) — 해석이지 측정은 아니다
 - **지출 집중**: Bain 조사에서 상위 20%가 지출의 73%를 낸다. 같은 보고서에서 개인화 오퍼로 바꾼 한 대형 F2P사는 라이브 운영 캠페인의 플레이어당 매출이 50% 넘게 올랐다 ([[bain-gaming-report-2026]])
 
+## 줄지 않고 자리를 옮긴다 — Newzoo 2026 F2P 리포트 ([[newzoo-free-to-play-2026]])
+
+위 "시장 신호"가 *매출* 쪽 약세라면, Newzoo의 F2P 특집은 *플레이 시간* 쪽에서 다른 그림을 낸다(PC·콘솔, 중국·인도 제외 37개 시장).
+
+| 관찰 | 수치 |
+|---|---|
+| F2P 플레이 시간 비중 (2025) | 29.3%, 2021 대비 −2.9%p — **그런데 시간 자체는 거의 그대로** |
+| 비중이 줄어든 이유 | 주변이 커졌다 — 기타 프리미엄 +4.0%p · Roblox +4.6%p |
+| 새 F2P 라이브 서비스 출시 | 연평균 21.3종(2020–22) → 14.7종(2023–25), **−31%** (정점 2017년 36종) |
+| 상위 5개 게임 매출 비중 | PC 68% → 65% · 콘솔 79% → **72%** — 아래로 퍼지는 중 |
+| 주요 가챠 게임 수 | 2021년 3 → 2025년 **17** |
+| PC 가챠 플레이 시간 | **+92%**, 8억 6,400만 시간 추가 |
+
+- **PC와 콘솔이 다르다.** PC는 F2P 시간이 늘었고, 콘솔은 줄었지만 오래된 라이브 서비스 몇 개에 몰린 감소다
+- **팔리는 장치가 바뀐다.** 신규 F2P는 *경쟁형 + 선택적 외형 과금*에서 *캐릭터·무기 진행 + 과금에 묶인 보상*으로 옮겨 간다. 위 "무엇을 파는가" 표에서 가챠의 무게가 커지는 방향이다
+- **새로 들어오기는 더 어려워졌다.** 출시는 31% 줄었는데 매출은 상위 5개 밖으로 퍼진다 — *적게 나오지만 나오면 자리가 있다*는 읽기도, *살아남은 소수만 남았다*는 읽기도 가능하다. 무료판으로는 가를 수 없다
+
+> 💡 **핵심 인사이트 — F2P의 문제는 "사람이 안 온다"가 아니라 "온 시간이 돈이 안 된다"다.** Newzoo 결론은 플레이 시간과 매출 사이의 틈이다. 가챠 RPG의 PC 성장도 상당 부분 *같은 장르 안에서 옮겨 다니는 같은 사람들*이다. 위 "떠나는 쪽" 두 사례가 *진입 문턱*을 따졌다면, 이 리포트는 *남은 쪽의 과금 효율*을 따진다.
+
+Steam 쪽 실측도 같은 방향이다. 2026년 9월 Steam 매출 상위 500종에서 F2P는 **게임 수 16%로 매출 25.6%**를 냈고, CS2·Apex·PUBG·Dota 2 네 게임이 Steam 월 매출의 약 10%였다 ([[alinea-steam-september-2026]]). 오래된 F2P 몇 개가 큰 몫을 계속 차지한다는 점에서 위 상위 5개 비중 하락과 함께 읽어야 한다.
+
 ## 약점과 한계 (비판적 읽기)
 
+- **Newzoo F2P 리포트는 무료 4쪽판만 봤다.** 시간 대비 매출, 게임별 성과, 이용자 중복 수치는 유료판에만 있어 "관심이 매출로 이어지지 않는다"는 결론의 숫자 근거가 위키에 없다. 2차 보도의 "가챠 = F2P 시간의 14.3%"는 오기이고 원문은 *PC F2P 안 RPG 장르 비중*이다 ([[newzoo-free-to-play-2026]])
 - **운영사 1차 자료가 없다.** 포트나이트 \$5.4B·누적 \$20B+, Apex \$3B+는 외부 추정이다. 결제 전환율·결제자 비율·이용자당 일 매출 같은 F2P의 핵심 지표가 위키에 하나도 없다
 - **떠난 사례에 기울어 있다.** F2P → 프리미엄 전환은 두 건이 자세하지만, 반대 방향(프리미엄 → F2P) 전환이나 *F2P로 남아서 성공한 신작*의 설계 기록은 없다
 - **지역 편향이 크다.** Newzoo의 결론은 전부 서구 6개국(한국·중국·일본 제외) 기준이다. F2P 비중이 큰 아시아 모바일·MMO에 그대로 옮기면 과대 일반화다

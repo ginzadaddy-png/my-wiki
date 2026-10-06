@@ -19,11 +19,13 @@ sources: [
   "[[carless-hit-pc-genres-2021-2025]]",
   "[[gi-newzoo-console-gta6-2026-08]]",
   "[[alinea-mortal-shell-2-launch-2026-08]]",
-  "[[naavik-licensed-ip-value-2026-09]]"
+  "[[naavik-licensed-ip-value-2026-09]]",
+  "[[carless-steam-daily-deals-end-2026-10]]",
+  "[[alinea-q4-games-to-watch-2026-09]]"
 ]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[free-to-play|F2P·부분유료 모델]]"]
 created: 2026-04-28
-updated: 2026-09-29
+updated: 2026-10-06
 confidence: high
 ---
 
@@ -147,7 +149,27 @@ confidence: high
 - **첫 할인 타이밍**: 출시 후 6개월 이내 권장 (초기 위시리스트 구매자 전환 극대화)
 - **할인 깊이**: 30~50%가 신규 유저 유입에 효과적, 그 이상은 가격 기대치 하락 유발
 - **스팀 데일리 딜 / 위크엔드 딜**: 레알 스팀(매출 \$26만+ 상위 6%) 진입 후 밸브 제안 시 무조건 수락
+  - ⚠️ **2027년 초 폐지 예정** — 모두에게 같은 Daily·Weekend Deals가 없어지고 개인화 추천으로 바뀐다. 새 배정은 이미 중단. 아래 "할인 노출이 알고리즘으로 바뀐다" 절 참조
 - 번들은 커뮤니티 확장 수단으로 활용, 주 수익원으로 의존하지 말 것
+
+### 할인 노출이 알고리즘으로 바뀐다 ([[carless-steam-daily-deals-end-2026-10]])
+
+[[valve|Valve]]가 Steam 홈의 Discounts & Events 영역을 2027년 초부터 **플레이어별 개인화 추천**으로 바꾼다. 위 "데일리 딜을 따내면 무조건 수락" 전략은 대상 자체가 없어진다.
+
+| | 지금까지 | 앞으로 |
+|---|---|---|
+| 할인 매출의 모양 | 딜 하나로 한 번 크게 튀는 봉우리 | 할인할 때마다 관심 있는 사람에게 작게, 여러 번 |
+| 노출을 얻는 법 | Valve에 제안·초청 | 협상 없음 — 알고리즘이 고른다 |
+| 유리한 쪽 | 딜을 많이 따내던 큰 회사 | 장르 팬층이 뚜렷한 니치 게임 |
+
+- Valve 시험 결과: 하루에 보여 준 게임 수 **10배**, 방문·위시리스트·장바구니 모두 증가(Valve 자체 발표, 크기 미공개)
+- Hooded Horse: 8월부터 시험한 알고리즘 할인 노출이 니치 인디의 *최고 유입 경로*가 됐다 — 노출 50만 회 이상 사례
+
+> 💡 할인 전략의 단위가 *한 번의 큰 이벤트*에서 *할인 횟수와 그때마다 닿는 사람*으로 옮겨 간다. "첫 할인은 6개월 안에, 깊이는 30–50%" 같은 위 규칙은 그대로 쓸 수 있지만, 할인을 *아껴 두었다가 큰 딜에 몰아 쓰는* 전략은 근거를 잃는다. 실제 득실은 Valve가 내놓을 할인 관리 도구와 퍼블리셔 이벤트 처리 방식이 나와야 판단할 수 있다.
+
+### Steam 정가 \$59.99의 마찰 — 사전 주문 전환 사례 ([[alinea-q4-games-to-watch-2026-09]])
+
+Star Wars: Galactic Racer(\$59.99)는 위시리스트 약 80만에 사전 판매 5만 장 미만으로 전환이 6%를 밑돌았다. 같은 IP의 Star Wars Zero Company는 \$49.99로 110만 장을 팔았다. 저자는 이 차이를 *충동구매 구간 밖의 가격*으로 읽는다 — [[remedy-control-resonant-pricing-2026-08|\$60 언더컷]] 논의와 같은 방향이지만, 장르(아케이드 레이싱)와 콘솔 쏠림이 분리되지 않은 해석이다.
 
 ## 가격 vs. 스토어 페이지 품질
 

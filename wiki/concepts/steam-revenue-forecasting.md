@@ -1,10 +1,10 @@
 ---
 title: "Steam 매출 예측 모델 (Steam Revenue Forecasting)"
 type: concept
-sources: ["[[carless-wishlist-conversions-2025-10]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[zukowski-bad-launch-recovery-2024]]", "[[zrconsulting-steam-forecaster-2026]]", "[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[carless-steam-demo-ccu-2026-09]]"]
+sources: ["[[carless-wishlist-conversions-2025-10]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[zukowski-bad-launch-recovery-2024]]", "[[zrconsulting-steam-forecaster-2026]]", "[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[carless-steam-demo-ccu-2026-09]]", "[[alinea-q4-games-to-watch-2026-09]]"]
 related: ["[[launch-metrics|흥행 예측 지표]]", "[[marketing-strategy|마케팅 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[valve|Valve]]", "[[forecasting-vs-launch-metrics|예측 vs 측정 비교]]"]
 created: 2026-05-18
-updated: 2026-09-14
+updated: 2026-10-06
 confidence: high
 ---
 
@@ -232,6 +232,13 @@ where blended_discount = launch_discount × 0.38 + seasonal_discount × 0.62
 쓰는 법: 8 driver 산출값과 데모 환산값이 **크게 어긋나면 둘 중 하나의 입력이 틀렸다**는 신호로 읽는다. 특히 위시리스트는 많은데 데모 배수가 하위 구간이면, 등록된 관심이 실제 확산으로 이어지지 않고 있다는 뜻이라 [[launch-metrics|흥행 예측 지표]]의 "가짜 신호" 점검으로 되돌아갈 근거가 된다.
 
 > ⚠️ 장르 보정이 없는 값이다. 멀티·서바이버류는 동접이 오래 유지돼 같은 판매량에서 동접이 크게 잡히고, 싱글 단편은 반대다. 가격 변수도 빠져 있어 유닛은 환산되지만 매출은 별도 계산이 필요하다.
+
+## 12) 숫자 모델이 놓치는 경고 — 데모 리뷰 ([[alinea-q4-games-to-watch-2026-09]])
+
+위 모델들의 입력(위시리스트·데모 동접·리뷰 tier)은 대부분 *양*이다. Cozy Game Restoration은 위시리스트 34.3만, 데모 → 위시리스트 전환 43%로 입력만 넣으면 좋은 예측이 나오는 게임이었는데, **데모 리뷰가 68% 긍정**이었다. 리뷰 tier multiplier는 *출시 후* 리뷰에 걸리는 값이라, 데모 리뷰가 낮으면 그 multiplier가 무너질 것을 미리 반영해야 한다.
+
+- 점검 순서 제안: 데모 리뷰가 Mostly Positive(70%) 아래면 리뷰 tier를 한 단계 낮춰 시나리오를 따로 돌린다 — 위키 정리 의견이지 원문 주장은 아니다
+- 상세: [[launch-metrics|흥행 예측 지표]]의 "위시리스트 → 사전 주문 전환은 게임마다 3배 갈린다" 절
 
 ## 한계 및 적용 주의
 

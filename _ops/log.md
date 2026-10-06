@@ -2191,3 +2191,34 @@ title: "활동 로그"
 - `Deploy Quartz site to GitHub Pages` run **36549426937 success** (2m35s, 2026-09-29T09:28:44Z). `Build and Test`·`Docker build & push image` skipped는 정상
 - 빌드 검사 통과(446 파싱 · 940 emit) · 줄바꿈 churn 0
 - deck 신규·수정 없음 → 단독 배포본(`dist/`) 재생성 불필요 / 챗봇 재색인 해당 없음(delist) / Quartz repo 변경 없음
+
+## [2026-10-06] ingest | Source radar 10-06 후보 4건 — Alinea 4분기 기대작 · Carless Steam Daily Deals 폐지 · Newzoo F2P 2026 · Alinea Steam 9월 결산
+
+- Source:
+  - raw/articles/2026-09-29-alinea-q4-games-to-watch.md (원문 https://alineaanalytics.substack.com/p/2026-games-to-watch-not-called-gta · Rhys Elliott · 2026-09-29)
+  - raw/articles/2026-10-02-carless-no-more-universal-daily-deals.md (원문 https://newsletter.gamediscover.co/p/no-more-universal-daily-deals-on · Simon Carless · 2026-10-02)
+  - raw/papers/newzoo-free-to-play-2026.pdf (원문 https://newzoo.com/reports/free-to-play-in-2026 · Tianyi Gu · 2026-09-30, 무료 4쪽판)
+  - raw/articles/2026-10-01-alinea-steam-top-september-2026.md (원문 https://alineaanalytics.substack.com/p/steams-top-september-2026-games · Rhys Elliott · 2026-10-01)
+- 경위: 10-06 source radar 추천 7건 중 사용자가 1·2·3·6 지정. 강조축은 Claude 제안 그대로 승인 — ① 흥행 예측(사전 주문 전환·데모 지표) ② 할인 전략의 바탕 변화 ⑥ 새 source 페이지 + 이전 \$15B 글 연결. 3번은 사용자가 "원문 확보" 지시 → 2차 보도 대신 Newzoo 원문 사용
+- Newzoo 원문 확보: newzoo.com은 WebSearch·curl 차단(403), 크롬으로 리포트 페이지는 찾았으나 무료 PDF가 개인정보 입력 폼 뒤에 있어 Claude가 제출하지 않음 → 사용자가 직접 받아 전달(Downloads → raw/papers/로 복사). fitz 추출 4쪽
+- **2차 보도 오기 발견**: Insider Gaming·tech-insider 등이 "가챠가 F2P 플레이 시간의 14.3%"라고 보도했으나 원문 14.3%는 *PC F2P 안 RPG 장르 비중*. 원문 기준으로 서술하고 newzoo·free-to-play 양쪽 「약점과 한계」에 명시. 원문을 확보한 판단이 맞았던 사례
+- 생성: wiki/sources/alinea-q4-games-to-watch-2026-09.md · wiki/sources/carless-steam-daily-deals-end-2026-10.md · wiki/sources/newzoo-free-to-play-2026.md · wiki/sources/alinea-steam-september-2026.md (4건 모두 confidence **medium** — 전부 단일 소스·자체 추정 또는 무료 요약판)
+- 업데이트:
+  - concepts/launch-metrics.md(「위시리스트 → 사전 주문 전환은 게임마다 3배 갈린다」 + 「데모는 몇 명보다 얼마나 깊이와 어떻게 평가했나」) · concepts/steam-revenue-forecasting.md(「12) 숫자 모델이 놓치는 경고 — 데모 리뷰」)
+  - concepts/game-pricing-strategy.md(데일리 딜 수락 규칙에 폐지 예정 경고 + 「할인 노출이 알고리즘으로 바뀐다」 + 「Steam 정가 \$59.99의 마찰」) · concepts/audience-discovery-systems.md(「Steam 할인 노출도 알고리즘으로」)
+  - concepts/free-to-play.md(「줄지 않고 자리를 옮긴다 — Newzoo」 신설, 시장 신호 절 제목 수정, 한계 절 보강) · concepts/catalog-economics.md(「월간 갱신 — 2026년 9월」, IP 기준 79.5% vs 출시 연도 기준 79% 혼동 주의 블록)
+  - entities/wardogs.md(한 달 뒤) · entities/control-resonant.md(출시 첫 주) · entities/witcher-3.md(무료 리마스터) · entities/valve.md(할인 노출 개인화) · entities/genshin-impact.md(후속작에 자리를 내준다) · sources/alinea-phantom-blade-zero-preorder-2026-08.md(후속 수치 한 줄)
+  - wiki/sources/all.md(203 → 207, updated 10-06) · wiki/index.md(소스 카운트·Last updated)
+- 신규 entity 없음 → relations 해당 없음. Guildrun·Galactic Racer·Bodycam·Onimusha 등은 본문 언급만
+- **미커밋 상태** — 배포는 주간 LINT로 유예 (INGEST 절차 9번)
+
+## [2026-10-06] lint | 주간 정기 점검 (스케줄 루틴)
+
+- 빌드: **통과** (450 파싱 · 948 emit · 43초). frontmatter YAML 오류 0 → 자동 수정 없음
+- 모순 **20 블록**(미해소 2건 — naavik-xbox 하드웨어 해석, gdc26-idg 전망 온도차. 신규 0)
+- 끊긴 wikilink **0** · 완전 고립 **0** · `]](` 위반 0 · alias 슬래시 0 · frontmatter `\$` 0
+- 미페이지 개념: Overwatch 18파일 · 가챠 17 · Battlefield 16 · 배틀패스 15 · Minecraft 14 · Ubisoft 13 (Circana·Sensor Tower 15는 데이터 제공사라 제외)
+- raw 미처리 **0건** — 116개 대조, 탐지 9건은 파일명만 다른 기처리분(지난주 6건 + 젤다 TotK 2 · 인벤 Steam 마케팅 1)
+- 자동 갱신: `_ops/status.md` 5곳(INGEST 82→83 · 소스 203→207 · 총 md 446→450 · 헤더 날짜 · 마지막 갱신) / `wiki/overview.md` 핵심 테마에 free-to-play(피인용 10)·mmorpg(8) 추가 — 임계 7 도달. backlog 8건(game-utility-systems 5 · psychological-safety 5 · unity-engine 4 · ai-navigation 4 · ai-disclosure-player-sentiment 4 · genre-tag-taxonomy 3 · audience-age-segmentation 3 · aesthetic-emotion-design 2)
+- changelog 2026-10 1주차 블록 반영(사용자 commit 지시로 초안 승인, updated 10-06)
+- 분기 검토 알림: **4분기 첫째 주** — `_ops/status.md` 진행 예정 검토 안내함(수정 없음)

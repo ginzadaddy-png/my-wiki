@@ -1,10 +1,10 @@
 ---
 title: "흥행 예측 지표"
 type: concept
-sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]", "[[zukowski-golden-age-week-2026-08]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[alinea-mortal-shell-2-launch-2026-08]]", "[[zukowski-demos-wishlist-conversion]]", "[[carless-steam-demo-ccu-2026-09]]", "[[alinea-wardogs-launch-2026-09]]"]
+sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]", "[[zukowski-golden-age-week-2026-08]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[alinea-mortal-shell-2-launch-2026-08]]", "[[zukowski-demos-wishlist-conversion]]", "[[carless-steam-demo-ccu-2026-09]]", "[[alinea-wardogs-launch-2026-09]]", "[[alinea-q4-games-to-watch-2026-09]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[forecasting-vs-launch-metrics|예측 vs 측정 비교]]", "[[audience-age-segmentation|연령대별 발견 경로]]", "[[wardogs|Wardogs]]"]
 created: 2026-04-20
-updated: 2026-09-21
+updated: 2026-10-06
 confidence: high
 ---
 
@@ -371,3 +371,28 @@ Wardogs의 Steam 리뷰는 74% 긍정이지만 **5시간 이상 플레이어는 
 ### 채널 성과는 플레이어 연령으로 보정한다
 
 채널별 성적표는 마케팅 실력만이 아니라 **구매층의 나이**를 반영한다. 숏폼 성과가 나쁘게 나왔을 때 소재를 고치기 전에 플레이어 연령 분포부터 확인할 것 → [[audience-age-segmentation|연령대별 발견 경로]]
+
+## 위시리스트 → 사전 주문 전환은 게임마다 3배 갈린다 ([[alinea-q4-games-to-watch-2026-09]])
+
+[[alinea-phantom-blade-zero-preorder-2026-08|PBZ 분석]]이 "AAA는 위시리스트 말고 사전 주문 실판매로 보라"고 했다면, 4분기 기대작 비교는 **같은 위시리스트 규모에서도 사전 주문으로 넘어가는 비율이 크게 다르다**는 것을 보여 준다.
+
+| 게임 | 위시리스트 | Steam 사전 판매 | 전환 |
+|---|---|---|---|
+| Phantom Blade Zero | 240만 | 38.6만 장 | **약 16%** |
+| Warhammer 40K: Dawn of War IV | 140만 | 9만 장 | 약 6% |
+| Star Wars: Galactic Racer (\$59.99) | 약 80만 | 5만 장 미만 | **6% 미만** |
+
+- 저자는 Galactic Racer의 낮은 전환을 **가격**으로 설명한다 — \$59.99는 이런 게임이 Steam에서 충동구매되는 구간 밖이라는 것. 가설이지 검증은 아니다(장르·콘솔 쏠림 가능성이 분리되지 않음)
+- PBZ는 한 달 남짓 사이 출시 70일 전 28.6만 장에서 38.6만 장으로 늘었다. 대형 공개 영상과 *동시에* 사전 주문을 연 것이 효과를 봤다는 평가
+
+### 데모는 "몇 명"보다 "얼마나 깊이"와 "어떻게 평가했나"
+
+같은 글의 인디 사례 두 개는 데모 지표를 보는 순서를 정리해 준다.
+
+1. **참여 깊이** — Guildrun은 위시리스트 중 55%가 데모를 했고, 데모 플레이 시간 평균 14.9시간·중앙값 6.7시간이다. 몇 주 뒤에 돌아와 다시 하는 플레이어가 신규보다 많다. 위시리스트가 *잠든 북마크*가 아니라는 근거
+2. **언어권별 반응** — 같은 Guildrun이 중국에서는 데모 리뷰 72%(전체 89%)이고 데모 플레이어 비중(10%)보다 위시리스트 비중(6%)이 낮다. 위 "리뷰 등급 — 단일 언어권이 티어를 끌어내린다"와 같은 신호를 *출시 전에* 잡은 사례
+3. **데모 리뷰** — Cozy Game Restoration은 데모 → 위시리스트 전환이 43%로 강했는데 데모 리뷰가 68%였다. 전환만 보면 순항, 리뷰를 보면 위험. 개발사는 출시를 미루고 데모를 다시 냈다
+
+> 💡 **핵심 인사이트 — 데모 전환율이 높다고 안심하면 안 된다.** 전환율은 *관심*을 재고 데모 리뷰는 *만족*을 잰다. 둘이 엇갈리면 출시 후 리뷰 등급이 무너질 위험이 크고, 그건 위시리스트 수와 데모 동접 어디에도 안 보인다.
+
+> ⚠️ 모두 출시 전 판정이다. 다섯 게임의 출시 후 결과로 맞는지 확인해야 하고, Alinea는 같은 방식의 과거 적중률을 내놓지 않았다.

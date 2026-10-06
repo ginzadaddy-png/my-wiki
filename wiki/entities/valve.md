@@ -1,10 +1,10 @@
 ---
 title: "Valve"
 type: entity
-sources: ["[[zrconsulting-steam-forecaster-2026]]", "[[carless-wishlist-conversions-2025-10]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-2026-analysis]]", "[[gdc24-steam-secrets]]", "[[carless-steam-fans-ai-sentiment-2026-07]]"]
+sources: ["[[zrconsulting-steam-forecaster-2026]]", "[[carless-wishlist-conversions-2025-10]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-2026-analysis]]", "[[gdc24-steam-secrets]]", "[[carless-steam-fans-ai-sentiment-2026-07]]", "[[carless-steam-daily-deals-end-2026-10]]"]
 related: ["[[steam-revenue-forecasting|스팀 매출 예측]]", "[[steam-next-fest|Steam Next Fest]]", "[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|런치 메트릭]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[game-pricing-strategy|가격 전략]]", "[[game-market-trends|시장 구조 변화]]"]
 created: 2026-05-26
-updated: 2026-08-03
+updated: 2026-10-06
 confidence: high
 ---
 
@@ -55,6 +55,8 @@ Valve는 비공개 기업이라 **헤드라인 MAU를 2021년 이후 공표하�
 [[carless-wishlist-conversions-2025-10|Carless wishlist conversions]]·[[zukowski-2025-year-review|Zukowski 2025 retro]] 등 1차 분석이 Valve 공개 데이터·SteamDB·GameDiscoverCo crawl에 의존. 위키 매출 분석의 *원천*이자 *접근 제한 데이터*의 게이트키퍼.
 
 ### 4. 가격 정책 인프라 ([[game-pricing-strategy]])
+
+- **2027년 초 할인 노출 개인화** ([[carless-steam-daily-deals-end-2026-10]]): 모두에게 같은 Daily·Midweek·Weekend Deals를 없애고 Discounts & Events 영역을 플레이어별 추천으로 바꾼다. 새 Daily Deals 배정은 이미 중단. Valve 시험에서 하루 노출 게임 수 10배. 개발자가 *Valve를 설득하는 데* 시간을 쓰지 않게 하겠다는 것이 Valve가 밝힌 목적
 
 지역 가격 가이드라인, 세일 캘린더, \$10 단절선(0.15× → 0.10× conversion), regional haircut — 모두 Valve의 플랫폼 룰이 인디 비즈니스 의사결정의 *바운더리 컨디션*을 정의.
 
