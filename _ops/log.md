@@ -2222,3 +2222,10 @@ title: "활동 로그"
 - 자동 갱신: `_ops/status.md` 5곳(INGEST 82→83 · 소스 203→207 · 총 md 446→450 · 헤더 날짜 · 마지막 갱신) / `wiki/overview.md` 핵심 테마에 free-to-play(피인용 10)·mmorpg(8) 추가 — 임계 7 도달. backlog 8건(game-utility-systems 5 · psychological-safety 5 · unity-engine 4 · ai-navigation 4 · ai-disclosure-player-sentiment 4 · genre-tag-taxonomy 3 · audience-age-segmentation 3 · aesthetic-emotion-design 2)
 - changelog 2026-10 1주차 블록 반영(사용자 commit 지시로 초안 승인, updated 10-06)
 - 분기 검토 알림: **4분기 첫째 주** — `_ops/status.md` 진행 예정 검토 안내함(수정 없음)
+
+## [2026-10-06] 배포 | 주간 LINT 배포 창구 — push 1건
+
+- push: **f5b31f9** (26파일 · 668 insertions · 39 deletions) — 10-06 ingest 4건 + 주간 lint + changelog 10월 1주차를 한 커밋으로 묶음. 직전 push는 a380bfc
+- `Deploy Quartz site to GitHub Pages` run **37430365168 success** (1m38s, 2026-10-06T07:33:06Z). `Build and Test`·`Docker build & push image` skipped는 정상
+- 빌드 검사 통과(450 파싱 · 948 emit) · 줄바꿈 churn 0
+- deck 신규·수정 없음 → 단독 배포본(`dist/`) 재생성 불필요 / 챗봇 재색인 해당 없음(delist) / Quartz repo 변경 없음
