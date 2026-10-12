@@ -1,10 +1,10 @@
 ---
 title: "MMO·MMORPG"
 type: concept
-sources: ["[[nexon-ncsoft-mmo-recurrent-2026]]", "[[nexon-ir-2q26]]", "[[nexon-cmb-2026-transformation]]", "[[pearl-abyss-ir-1q26]]", "[[pearl-abyss-blackspace-engine-gdc2025]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]", "[[carless-genres-ruled-steam-2025-06]]", "[[newzoo-pc-console-2026]]"]
-related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]", "[[free-to-play|F2P·부분유료 모델]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[proprietary-engine-strategy|자체 엔진 전략]]", "[[evergreen-ip|에버그린 IP]]", "[[nexon|넥슨]]", "[[ncsoft|엔씨소프트]]", "[[pearl-abyss|펄어비스]]", "[[aion-2|아이온2]]"]
+sources: ["[[nexon-ncsoft-mmo-recurrent-2026]]", "[[nexon-ir-2q26]]", "[[nexon-cmb-2026-transformation]]", "[[pearl-abyss-ir-1q26]]", "[[pearl-abyss-blackspace-engine-gdc2025]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]", "[[carless-genres-ruled-steam-2025-06]]", "[[newzoo-pc-console-2026]]", "[[naavik-mobile-mmorpg-collapse-2026-10]]"]
+related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]", "[[free-to-play|F2P·부분유료 모델]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[proprietary-engine-strategy|자체 엔진 전략]]", "[[evergreen-ip|에버그린 IP]]", "[[nexon|넥슨]]", "[[ncsoft|엔씨소프트]]", "[[pearl-abyss|펄어비스]]", "[[aion-2|아이온2]]", "[[genshin-impact|원신]]", "[[audience-age-segmentation|연령대별 오디언스 세분화]]"]
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-12
 confidence: medium
 ---
 
@@ -50,17 +50,35 @@ confidence: medium
 
 MMO의 서버 인프라는 클라이언트 엔진과 떼어 내기 어렵다. 그래서 외부 엔진(UE5 등)으로 옮기기가 어렵고, 이것이 자체 엔진을 유지하는 근거가 된다. 위키의 대표 사례가 펄어비스의 검은사막 엔진 → 블랙스페이스 엔진이다 ([[proprietary-engine-strategy|자체 엔진 전략]] · [[pearl-abyss-blackspace-engine-gdc2025]]).
 
+## 모바일 시장 — 4년 만에 반토막 ([[naavik-mobile-mmorpg-collapse-2026-10]])
+
+위 회사별 표를 시장 쪽에서 보면 훨씬 가파르다. 모바일 MMORPG 인앱 매출은 2021년 \$5.3B에서 2025년 \$2.8B로 **47%** 줄었다. 같은 기간 모바일 전체는 −1%였다. 매출 1위였던 서브장르가 6위가 됐고, 2026년 1–9월에도 −27%다.
+
+**무엇이 줄었나** — 감소분 −\$2.5B를 나누면 1인당 결제(ARPDAU) 하락 **56%**, 기존 이용자 참여 감소 **34%**, 신규 유입 감소가 나머지다. 지역마다 모양이 다르다.
+
+| 시장 | 매출 변화 | 무엇이 줄었나 |
+|---|---|---|
+| 중국 | −61% | ARPDAU와 참여가 함께 — 핵심 결제층까지 빠짐 |
+| 한국 | −39% (그래도 1위 시장) | **참여 감소가 순감소의 135%, ARPDAU는 상승** — 가벼운 이용자가 먼저 떠나 결제자만 남음 |
+| 미국 | −25% | 참여 57% · ARPDAU 23% · 다운로드 17% |
+
+> 💡 **핵심 인사이트 — 한국 MMO의 "바닥"은 결제자만 남은 바닥이다.** 위 "바닥은 되지만 천장은 안 된다"는 회사 IR 관찰이 이용자 쪽에서 설명된다. ARPDAU가 올라 매출은 덜 줄어 보이지만, 그 아래에서 이용자층이 얇아지고 있다. 신규 유입 없이 이 구조가 이어지면 결제자 이탈 한 번에 크게 꺾인다.
+
+**왜** — Naavik이 꼽은 구조 원인은 네 가지다. ① 일일 과제·반복 결제·리니지라이크 공식에 대한 피로, ② [[genshin-impact|원신]] 이후 오픈월드 RPG가 같은 동기를 더 높은 품질로 채움, ③ 18–24세 비중이 턴제 RPG의 절반(한국 약 14% vs 28%)이라 새 이용자가 안 들어옴, ④ 신작이 기존작 하락분의 35%만 메움. 퍼블리셔들은 이미 신규 RPG를 방치형 등 다른 서브장르로 옮기는 중이다(한국 신규 RPG 중 비MMO 비중 25% → 52%).
+
+**나온 대안**은 위 "다시 키우는 네 가지 방법" 중 2번과 겹친다 — 마비노기 모바일(장르 재설계, 프랜차이즈 매출 4배), 메이플스토리 키우기(형식 전환, 이용자 54%가 메이플 첫 경험), 리니지M 리부트 월드(기존작 재개방). 셋 다 회사 발표 수치이고 인과는 증명되지 않았다.
+
 ## 시장 데이터의 빈자리
 
 - **Steam**: MMORPG 서브장르 매출 \$3.69B, 대표작 ESO·Lost Ark ([[carless-genres-ruled-steam-2025-06]])
 - **서구 데이터를 그대로 쓰면 안 된다**: Newzoo PC·콘솔 분석의 매출 결론은 한국·중국·일본을 빼고 낸 것이다. \$30–50 중가대 성장 같은 결론을 MMO 비중이 큰 아시아에 옮기면 과대 일반화가 된다 ([[newzoo-pc-console-2026]] · [[mid-price-sweet-spot]])
-- **원신식 전환 압력**: [[hoyoverse|HoYoverse]]·[[genshin-impact|원신]] 페이지는 한국 MMO가 크로스플랫폼 RPG 쪽으로 옮겨 가라는 압력을 받고 있다고 본다. 수치 근거가 있는 주장은 아니다
+- **원신식 전환 압력**: [[hoyoverse|HoYoverse]]·[[genshin-impact|원신]] 페이지는 한국 MMO가 크로스플랫폼 RPG 쪽으로 옮겨 가라는 압력을 받고 있다고 본다. 모바일 쪽은 이제 수치 근거가 있다 — 원신 출시 이후 MMORPG 감소가 빨라졌고 오픈월드 어드벤처 RPG 분기 매출이 MMORPG와 비슷하거나 앞선다 (위 모바일 시장 절)
 - **Next Fest**: 2026년 6월 Next Fest 상위권에 한국 MMO(Embers Of The Uncrowned)가 들어갔다 — 상위권을 한 가지 흐름으로 묶을 수 없다는 관측의 한 예 ([[carless-next-fest-june-2026]])
 
 ## 약점과 한계 (비판적 읽기)
 
 - **근거가 한국 상장사 네 곳의 IR에 몰려 있다.** WoW·ESO·FFXIV 같은 서구·일본 MMO는 Newzoo·Carless의 한 줄 언급뿐이다. 이 페이지는 "MMO 일반"보다 *한국 MMO의 사업 구조*에 가깝다
-- **이용자 지표가 거의 없다.** MAU·잔존율·결제 전환율 없이 매출에서 거꾸로 읽은 것이다. "바닥이 줄고 있다"가 이용자가 떠나서인지 1인당 결제가 줄어서인지 가를 수 없다
+- **이용자 지표는 모바일만 일부 채워졌다.** Naavik의 Sensor Tower 분해로 모바일 시장은 "이용자 이탈 vs 1인당 결제 감소"를 나눌 수 있게 됐다(한국은 이탈, 중국은 둘 다). 다만 시장 전체 수치라 회사별로는 여전히 매출에서 거꾸로 읽어야 하고, PC MMO는 이용자 지표가 없다. 그 분해도 DTC(웹숍)·중국 안드로이드를 뺀 값이라 감소폭이 실제보다 크게 잡혔을 수 있다
 - **설계 쪽 자료가 없다.** 경제 시스템·길드·서버 구조 같은 MMO 설계 자체는 위키 자료 밖이다
 - **IR 차트 해석에는 오류 전례가 있다.** 넥슨 3대 프랜차이즈 수치를 매출로 읽었다가 *조정 후 영업이익*이었던 것으로 정정한 일이 있다(해당 페이지의 모순 블록). 이 페이지의 수치도 인용 전에 원 IR로 확인할 것
 - **2026년 상반기 스냅샷이다.** "천장은 안 된다"는 메이플 확장 타이틀처럼 IP 확장이 자란 사례와 함께 읽어야 한다

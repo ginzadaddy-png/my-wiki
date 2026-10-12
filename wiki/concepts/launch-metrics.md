@@ -1,10 +1,10 @@
 ---
 title: "흥행 예측 지표"
 type: concept
-sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]", "[[zukowski-golden-age-week-2026-08]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[alinea-mortal-shell-2-launch-2026-08]]", "[[zukowski-demos-wishlist-conversion]]", "[[carless-steam-demo-ccu-2026-09]]", "[[alinea-wardogs-launch-2026-09]]", "[[alinea-q4-games-to-watch-2026-09]]"]
+sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]", "[[zukowski-golden-age-week-2026-08]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[alinea-mortal-shell-2-launch-2026-08]]", "[[zukowski-demos-wishlist-conversion]]", "[[carless-steam-demo-ccu-2026-09]]", "[[alinea-wardogs-launch-2026-09]]", "[[alinea-q4-games-to-watch-2026-09]]", "[[alinea-gears-e-day-launch-2026-10]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[forecasting-vs-launch-metrics|예측 vs 측정 비교]]", "[[audience-age-segmentation|연령대별 발견 경로]]", "[[wardogs|Wardogs]]"]
 created: 2026-04-20
-updated: 2026-10-06
+updated: 2026-10-12
 confidence: high
 ---
 
@@ -396,3 +396,5 @@ Wardogs의 Steam 리뷰는 74% 긍정이지만 **5시간 이상 플레이어는 
 > 💡 **핵심 인사이트 — 데모 전환율이 높다고 안심하면 안 된다.** 전환율은 *관심*을 재고 데모 리뷰는 *만족*을 잰다. 둘이 엇갈리면 출시 후 리뷰 등급이 무너질 위험이 크고, 그건 위시리스트 수와 데모 동접 어디에도 안 보인다.
 
 > ⚠️ 모두 출시 전 판정이다. 다섯 게임의 출시 후 결과로 맞는지 확인해야 하고, Alinea는 같은 방식의 과거 적중률을 내놓지 않았다.
+
+> 📌 **첫 사후 확인 — Gears of War: E-Day** ([[alinea-gears-e-day-launch-2026-10]]): 출시 전 사전 판매 12만 장으로 Wardogs(56.7만)보다 약하다고 판정됐는데, 실제로 출시 9일차 판매 23만 장(Steam 16.8만 · Xbox 6.2만)에 그쳤다. 판정 방향은 맞았다. 다만 Game Pass 접근 170만·\$30 업그레이드 72.2만이 따로 있어, Xbox 1st party는 사전 판매만으로 *관심 규모*를 잴 수 없다 — 돈을 내는 경로가 판매 밖에도 있다

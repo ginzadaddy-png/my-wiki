@@ -1,10 +1,10 @@
 ---
 title: "Electronic Arts (EA)"
 type: entity
-sources: []
-related: ["[[respawn-entertainment|Respawn Entertainment]]", "[[bioware|BioWare]]", "[[apex-legends|Apex Legends]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]"]
+sources: ["[[alinea-fc27-top-seller-2026-10]]"]
+related: ["[[respawn-entertainment|Respawn Entertainment]]", "[[bioware|BioWare]]", "[[apex-legends|Apex Legends]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]", "[[game-pricing-strategy|게임 가격 전략]]"]
 created: 2026-06-01
-updated: 2026-08-18
+updated: 2026-10-12
 confidence: medium
 relations:
   parentOf: [respawn-entertainment, bioware]
@@ -35,6 +35,13 @@ relations:
 ## FIFA → EA Sports FC 전환 (라이선스 moat 실험)
 
 2023 FIFA와 *라이선스 결별* 후 자체 브랜드 **EA Sports FC**로 전환. 30년 축적한 *클럽·선수·리그 라이선스 + 유저 베이스*가 FIFA 명칭 없이도 시장 지위를 유지하는지 검증한 사례 — *브랜드 vs 인프라* 자산 논쟁의 산업 표본.
+
+### FC 27 출시 결과 — 판매는 그대로, 단가가 올랐다 ([[alinea-fc27-top-seller-2026-10]])
+
+- 790만 장·약 \$714M으로 2026년 최고 매출 프리미엄 게임 (Alinea 추정, PS·Xbox·Steam). 정식 출시 전 선행 접속으로만 400만 장
+- FC 26 대비 매출 +14%인데 PlayStation 밖 판매 장수는 제자리 — **\$150 Ultimate Plus**(7일 선행 접속·사전 주문 기간 한정)로 1인당 매출을 올린 결과 → [[game-pricing-strategy]]
+- 판매의 77%가 PlayStation, 콘솔이 93%. 구세대(PS4·Xbox One) 매출이 반 토막 나 GTA 6 앞둔 기기 교체가 보인다
+- Alinea 저자는 \$55B 차입 인수의 부채 압박 때문에 EA가 인위적 희소성을 더 쓸 것으로 본다
 
 ## risk
 

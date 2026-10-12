@@ -1,13 +1,17 @@
 ---
 title: "소스 전체 목록"
 created: 2026-04-16
-updated: 2026-10-06
+updated: 2026-10-12
 ---
 
-총 207개 | 최신순 정렬
+총 211개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [alinea-gears-e-day-launch-2026-10](alinea-gears-e-day-launch-2026-10.md) | Alinea — Gears of War: E-Day 출시 (Elliott) — 판매 23만 장(Steam 16.8만·Xbox 6.2만)·Game Pass 접근 170만·\$30 업그레이드 72.2만(전환 약 42%)·매출 \$37M·Xbox 판매 1장당 업그레이드 12건·1시간 내 이탈 Xbox 17% vs Steam 6% | 2026-10-09 |
+| [naavik-mobile-mmorpg-collapse-2026-10](naavik-mobile-mmorpg-collapse-2026-10.md) | Naavik — 모바일 MMORPG의 붕괴 (Abrahamsen) — 2021→2025 매출 \$5.3B→\$2.8B(−47%)·감소의 56% ARPDAU·34% 참여·한국은 결제자만 남음·엔씨 −\$456M·원신 이후 가속·18–24세 비중 절반·마비노기 모바일·메이플 키우기 대안 | 2026-10-08 |
+| [alinea-fc27-top-seller-2026-10](alinea-fc27-top-seller-2026-10.md) | Alinea — FC 27, 2026년 최다 판매작 (Elliott) — 790만 장·\$714M·정식 출시 전 400만 장·FC 26 대비 매출 +14%인데 PS 밖 판매 제자리·\$150 Ultimate Plus 한정 판매·PS 실물 8.2%·PS4→PS5 이동 | 2026-10-06 |
+| [carless-september-2026-top-new-games](carless-september-2026-top-new-games.md) | GameDiscoverCo — 2026년 9월 PC·콘솔 신작 결산 (Carless) — Steam 신작 1위 Wardogs 약 350만·Bombanana! 100만+·Onimusha 73만·Dawnwalker 65만·Wolverine PS 약 200만·Twitch Wardogs 4,200만 시간·Alinea 추정과 10–25% 차이 | 2026-10-06 |
 | [carless-steam-daily-deals-end-2026-10](carless-steam-daily-deals-end-2026-10.md) | GameDiscoverCo — Steam, 모두에게 같은 Daily Deals를 없앤다 (Carless) — 2027년 초 Discounts & Events 개인화·새 Daily Deals 배정 중단·Valve 시험 하루 노출 게임 수 10배·한 번의 큰 봉우리에서 작은 반복 노출로·Hooded Horse 니치 인디 노출 50만 회+ | 2026-10-02 |
 | [alinea-steam-september-2026](alinea-steam-september-2026.md) | Alinea — Steam 9월 결산 (Elliott) — 9월 \$1.7B(+13%)·3분기 \$5.5B·1–9월 \$16.5B·상위 500 기존 IP 79.5%·2026년작 33.6%·F2P 게임 수 16%에 매출 25.6%·Wardogs \$86.9M·Witcher 3 무료 리마스터 하루 240만 명 | 2026-10-01 |
 | [newzoo-free-to-play-2026](newzoo-free-to-play-2026.md) | Newzoo — F2P는 줄지 않고 자리를 옮긴다 (Special Focus, Gu) — F2P 시간 비중 29.3%(−2.9%p)·시간 자체는 보합·신규 F2P 라이브 서비스 출시 −31%·상위 5개 매출 비중 콘솔 79→72%·가챠 3→17종·PC 가챠 시간 +92% | 2026-09-30 |

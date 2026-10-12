@@ -1,12 +1,12 @@
 ---
 title: "넥슨 (Nexon)"
 type: entity
-sources: ["[[gdc26-arc-raiders-reset]]", "[[cgdc-dave-the-diver]]", "[[gamedev-leadership-dynamics]]", "[[gdc2026-embark-character-pipeline]]", "[[multiproject-innersource-report]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[nexon-cmb-2026-transformation]]", "[[nexon-ir-2q26]]"]
+sources: ["[[gdc26-arc-raiders-reset]]", "[[cgdc-dave-the-diver]]", "[[gamedev-leadership-dynamics]]", "[[gdc2026-embark-character-pipeline]]", "[[multiproject-innersource-report]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[nexon-cmb-2026-transformation]]", "[[nexon-ir-2q26]]", "[[naavik-mobile-mmorpg-collapse-2026-10]]"]
 related: ["[[embark-studios|엠바크 스튜디오]]", "[[mint-rocket|민트로켓]]", "[[arc-raiders|아크 레이더스]]", "[[dave-the-diver|데이브 더 다이버]]", "[[live-service-design|라이브 서비스 설계]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]", "[[mmorpg|MMO·MMORPG]]"]
 relations:
   parentOf: [embark-studios, mint-rocket]
 created: 2026-05-26
-updated: 2026-08-18
+updated: 2026-10-12
 confidence: high
 ---
 
@@ -42,6 +42,8 @@ DICE 출신 [[embark-studios|패트릭 수더룬드]]가 2018년 설립한 스�
 넥슨은 이 모델의 *회복탄력형*: 메이플 franchise가 FY2025 +43%로 22년 역사상 최고 연매출, 던파 중국 텐센트 10년 재계약으로 최대 지역 매출 장기 고정. 복수 장수 IP 분산 + 신작 프리미엄([[arc-raiders]]) 파이프라인이 단일 프랜차이즈 의존(엔씨 리니지 ~70%, 26년 만 첫 적자)의 *취약형*과 대비된다.
 
 [[nexon-ir-2q26|2Q26 IR]]이 이 모델의 새 국면을 보여줬다 — **메이플 프랜차이즈 +63%로 분기 사상 최고**인데, 견인이 본편이 아니라 *확장 타이틀*(UGC 플랫폼 MapleStory Worlds +123%·방치형 Idle RPG)이다. 같은 분기 던파 프랜차이즈는 -44%. 넥슨은 이 "본편 라이브 + UGC + 방치형" 3단 구성을 **메이플 성공모델**로 명명하고 던파에 복제 중(Arad: Idle RPG·DnF Classic·Project OVERKILL·DnF: ARAD 4종 개발).
+
+시장 쪽에서 보면 이 전략의 배경이 분명해진다. 모바일 MMORPG 시장은 2021→2025년 매출 −47%였고, 일본 퍼블리셔 감소분의 약 64%를 넥슨·ASOBIMO·Marvelous가 차지했다. 같은 분석이 넥슨의 두 타이틀을 *붕괴 속 대안*으로 든다 — **마비노기 모바일**(원신풍 비주얼·생활 중심 + MMO 경제, 프랜차이즈 2025 매출 4배)과 **메이플스토리 키우기**(이용자 54%가 메이플 첫 경험, 젊은 층이 다수). 앞은 장르를 다시 만든 경로, 뒤는 IP를 짧은 루프 형식으로 옮긴 경로다. 수치는 넥슨 발표이고 인과는 증명되지 않았다 ([[naavik-mobile-mmorpg-collapse-2026-10]] · [[mmorpg]]).
 
 ### 5. 2026 Transformation Plan — 성장 목표 철회와 재편 ([[nexon-cmb-2026-transformation]])
 

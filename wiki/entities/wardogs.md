@@ -1,12 +1,12 @@
 ---
 title: "Wardogs"
 type: entity
-sources: ["[[alinea-wardogs-launch-2026-09]]", "[[alinea-steam-september-2026]]", "[[alinea-q4-games-to-watch-2026-09]]"]
+sources: ["[[alinea-wardogs-launch-2026-09]]", "[[alinea-steam-september-2026]]", "[[alinea-q4-games-to-watch-2026-09]]", "[[carless-september-2026-top-new-games]]"]
 related: ["[[launch-metrics|흥행 예측 지표]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[arc-raiders|Arc Raiders]]", "[[helldivers-2|Helldivers 2]]"]
 relations:
   platform: [pc]
 created: 2026-09-21
-updated: 2026-10-06
+updated: 2026-10-12
 confidence: medium
 ---
 
@@ -41,6 +41,13 @@ Bulkhead 개발 · Team17 퍼블리싱의 100인 규모 전술 FPS. 2026-09-10 S
 - 하루 플레이어 약 25만 명
 - 다만 출시일 기준으로 맞추면 [[helldivers-2|Helldivers 2]] (\$130M)·[[arc-raiders|Arc Raiders]] (약 \$125M)에 각각 26.5%·21.2% 뒤진다. 1주차에는 앞섰지만 두 게임의 화제가 더 오래 갔다
 - 출시 전 같은 시점 사전 판매 56.7만 장은 4분기 Gears of War: E-Day(12만 장)의 비교 기준으로도 쓰였다 ([[alinea-q4-games-to-watch-2026-09]])
+
+## 다른 추정 — GameDiscoverCo 9월 결산 ([[carless-september-2026-top-new-games]])
+
+- 9월 Steam 신작 판매 1위 **약 350만 장**. 하루 동접 약 20만(최고 약 42만)
+- 9월 신작 Twitch 시청 시간 **4,200만 시간**으로 1위 — FC 27보다 많다
+
+> ⚠️ 모순: Steam 매출을 Alinea는 9월 **\$86.9M**(누적 \$100M+), GDCo는 **약 \$100–110M**으로 적었다. GDCo 원문이 매출 차트를 "August"로 표기해 기간이 불분명하다. 월간치와 누적치를 비교한 것일 수 있다
 
 ## 남은 확인 사항
 

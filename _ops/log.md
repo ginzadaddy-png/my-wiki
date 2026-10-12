@@ -2229,3 +2229,32 @@ title: "활동 로그"
 - `Deploy Quartz site to GitHub Pages` run **37430365168 success** (1m38s, 2026-10-06T07:33:06Z). `Build and Test`·`Docker build & push image` skipped는 정상
 - 빌드 검사 통과(450 파싱 · 948 emit) · 줄바꿈 churn 0
 - deck 신규·수정 없음 → 단독 배포본(`dist/`) 재생성 불필요 / 챗봇 재색인 해당 없음(delist) / Quartz repo 변경 없음
+
+## [2026-10-12] ingest | Source radar 10-12 후보 4건 — Naavik 모바일 MMORPG 붕괴 · Alinea Gears E-Day · Alinea FC 27 · Carless 9월 신작 결산
+
+- Source:
+  - raw/articles/2026-10-08-naavik-collapse-of-mobile-mmorpgs.md (원문 https://naavik.co/f2p-mobile/investigating-the-collapse-of-mobile-mmorpgs/ · Max Abrahamsen · 2026-10-08)
+  - raw/articles/2026-10-09-alinea-gears-e-day-230k.md (원문 https://alineaanalytics.substack.com/p/gears-of-war-e-day-sells-230k-copies · Rhys Elliott · 2026-10-09)
+  - raw/articles/2026-10-06-alinea-fc27-top-seller.md (원문 https://alineaanalytics.substack.com/p/fc-27-is-now-2026s-top-seller · Rhys Elliott · 2026-10-06)
+  - raw/articles/2026-10-06-carless-september-2026-top-new-games.md (원문 https://newsletter.gamediscover.co/p/september-2026s-top-new-pc-and-console · Simon Carless · 2026-10-06)
+- 경위: 10-12 source radar 추천 5건 중 사용자가 1–4 지정. 강조축은 Claude 제안 그대로 승인 — ① mmorpg 「이용자 이탈 vs 1인당 결제」 한계 해소 ② Halo에 이은 두 번째 데이원 실측 + 플레이 시간 왜곡 ③ 7월 \$150 SKU 예측의 사후 확인 ④ Wardogs 한 달 차·출시 지표
+- **raw 저장 방식 변경**: 이전 raw는 본문 전문이었으나 이번 4건은 저작권 고려로 *구조화 발췌*(수치·사례·논지 요약, WebFetch 추출)로 보존. frontmatter 형식은 동일. 사용자 확인(10-12): 발췌 방식으로 확정 — 웹 클리퍼를 거의 쓰지 않고 Claude Code에서 검색·저장을 바로 하므로 전문 보관 불필요
+- 생성: wiki/sources/naavik-mobile-mmorpg-collapse-2026-10.md · wiki/sources/alinea-gears-e-day-launch-2026-10.md · wiki/sources/alinea-fc27-top-seller-2026-10.md · wiki/sources/carless-september-2026-top-new-games.md (4건 모두 confidence **medium** — 단일 소스·자체 추정)
+- 업데이트:
+  - concepts/mmorpg.md(「모바일 시장 — 4년 만에 반토막」 신설, 원신 전환 압력 수치 근거, 한계 절 「이용자 지표」 항목 수정) · concepts/subscription-economy-gaming.md(「두 번째 실측 — Gears of War: E-Day」) · concepts/game-pricing-strategy.md(「출시 후 결과 — 판매는 그대로, 매출만 올랐다」) · concepts/steam-revenue-forecasting.md(「13) 외부 추정치는 범위로 읽는다」 — Alinea vs GDCo 10–25% 차이) · concepts/launch-metrics.md(Gears 사전 판매 판정 첫 사후 확인)
+  - entities/game-pass.md(Gears 행·두 번째 사례) · entities/nexon.md(마비노기 모바일·메이플 키우기 대안 경로) · entities/ncsoft.md(「시장 쪽에서 본 리니지」) · entities/genshin-impact.md(모바일 MMORPG 쪽 수치) · entities/electronic-arts.md(FC 27 출시 결과) · entities/wardogs.md(GDCo 추정 + 매출 모순 블록)
+  - wiki/sources/all.md(207 → 211, updated 10-12) · wiki/index.md(소스 카운트·Last updated)
+- **모순 기록**: Wardogs Steam 매출 Alinea 9월 \$86.9M vs GDCo 약 \$100–110M. GDCo 원문이 매출 차트를 "August"로 표기(9-10 출시작이라 오기로 보임) — wardogs·carless 소스 페이지에 ⚠️ 블록
+- 신규 entity 없음 → relations 해당 없음. Gears of War·마비노기 모바일·메이플스토리 키우기·리니지M은 엔티티 페이지 없이 본문 언급만 (Gears는 the-coalition 등 엔티티 부재)
+- **미커밋 상태** — 배포는 주간 LINT로 유예 (INGEST 절차 9번)
+
+## [2026-10-12] lint | 주간 정기 점검 (스케줄 루틴)
+
+- 빌드: **통과** (454 파싱 · 956 emit · 48초). frontmatter YAML 오류 0 → 자동 수정 없음
+- **`]](` 위반 3건 발견(이번 주 신규 소스)** — 빌드는 통과하나 렌더 결과가 깨진 링크(`../2020-09`·`../10-19`·`../11월`)로 나옴. 대상: sources/naavik-mobile-mmorpg-collapse-2026-10.md:50 · sources/carless-september-2026-top-new-games.md:47 · sources/alinea-fc27-top-seller-2026-10.md:38. lint 수정 범위 밖이라 보고만(공백 한 칸 삽입으로 해결)
+- 모순 블록 18(신규 2 — Wardogs 매출 Alinea vs GDCo, wardogs·carless 양쪽) · 끊긴 wikilink 0 · 고립 0 · alias 슬래시 0 · frontmatter `\$` 0
+- 미페이지 개념: Roblox는 엔티티 있음. 가챠 20파일 · FC(EA SPORTS FC) 20 · Overwatch 19 · Minecraft 17 · 메이플 16 · 리니지 16 · Battlefield 16 · 배틀패스 15 · Ubisoft 13 · Gears of War 12(신규 진입)
+- raw 미처리 **0건** — 118개 대조, 탐지 9건은 파일명만 다른 기처리분(지난주와 동일)
+- 자동 갱신: `_ops/status.md` 5곳(INGEST 83→84 · 소스 207→211 · 총 md 450→454 · 헤더 날짜 · 마지막 갱신) / `wiki/overview.md` 변경 없음(신규 엔티티·개념 없음)
+- changelog 2026-10 2주차 블록 반영(사용자 승인, updated 10-12)
+- `]](` 3건 사용자 승인 후 공백 삽입으로 수정 → 재빌드 통과(454 파싱 · 956 emit), 깨진 링크 0

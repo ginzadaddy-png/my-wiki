@@ -21,11 +21,12 @@ sources: [
   "[[alinea-mortal-shell-2-launch-2026-08]]",
   "[[naavik-licensed-ip-value-2026-09]]",
   "[[carless-steam-daily-deals-end-2026-10]]",
-  "[[alinea-q4-games-to-watch-2026-09]]"
+  "[[alinea-q4-games-to-watch-2026-09]]",
+  "[[alinea-fc27-top-seller-2026-10]]"
 ]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[free-to-play|F2P·부분유료 모델]]"]
 created: 2026-04-28
-updated: 2026-10-06
+updated: 2026-10-12
 confidence: high
 ---
 
@@ -119,6 +120,16 @@ confidence: high
 **대비 사례**: GTA 6는 순한 버전이다 — 살 만한 \$80 기본가로 신규 유입을 지키고, 비싼 에디션으로 열성 팬의 사전주문만 짜내는 구성.
 
 > ⚠️ **한번 올라간 기준은 안 내려온다**: 비싼 티어가 한 번 당연해지면 그게 다음 사이클의 *출발점*이 된다. 밀어붙이고 → 반발 시 소폭 후퇴하고 → 새 경계를 굳히는 패턴이 반복됨. 기기 판매가 정체된 시장에서 판매량을 못 늘리면 남는 카드가 **1인당 매출**뿐이기 때문. 채널·유통 측면의 같은 압박은 [[console-retail-strategy]] 참조.
+
+### 출시 후 결과 — 판매는 그대로, 매출만 올랐다 ([[alinea-fc27-top-seller-2026-10]])
+
+위 구조가 출시 후 숫자로 확인됐다. FC 27은 790만 장·약 \$714M으로 2026년 최고 매출 프리미엄 게임이 됐다.
+
+- **정식 출시 전에 절반이 팔렸다** — 선행 접속(09-18~25) 기간에 400만 장·약 \$400M. 시간을 파는 상위 티어가 구매 *시점*을 실제로 앞당겼다
+- **판매 장수는 제자리, 매출은 +14%** (FC 26 대비 출시일 정렬). PlayStation +22%, Xbox −14%, Steam −17%. 성장은 비슷한 규모 이용자에게서 1인당 매출을 더 뽑은 것이다
+- **실물 비중 8.2%** — 상위 에디션 특전이 디지털 전용이라 실물이 평소보다 더 밀렸다 ([[console-retail-strategy]])
+
+> 💡 **"판매량 못 늘리면 남는 카드는 1인당 매출"이라는 위 진단이 그대로 나타났다.** Alinea 저자는 \$150가 FC 28의 *출발점*이 될 것으로 본다. 다만 에디션별 판매 비중이 공개되지 않아, 성장 중 \$150 티어의 몫과 \$100급 Ultimate의 몫은 가를 수 없다. 월드컵이 겹친 해라는 점도 분리되지 않았다.
 
 **적용 조건**: 실물 굿즈 없이 시간·희소성·재화만으로 윗단을 만들려면 *라이브 경제나 경쟁 요소*가 게임 안에 있어야 한다. 싱글플레이 완결형에서 같은 구조를 흉내내면 팔 것이 없다.
 

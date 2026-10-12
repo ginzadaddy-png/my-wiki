@@ -1,10 +1,10 @@
 ---
 title: "원신 (Genshin Impact)"
 type: entity
-sources: ["[[newzoo-free-to-play-2026]]"]
-related: ["[[hoyoverse|miHoYo·HoYoverse]]", "[[live-service-design|라이브 서비스 설계]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[game-market-trends|게임 시장 트렌드]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[open-world-design|오픈월드 설계]]"]
+sources: ["[[newzoo-free-to-play-2026]]", "[[naavik-mobile-mmorpg-collapse-2026-10]]"]
+related: ["[[hoyoverse|miHoYo·HoYoverse]]", "[[live-service-design|라이브 서비스 설계]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[game-market-trends|게임 시장 트렌드]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[open-world-design|오픈월드 설계]]", "[[mmorpg|MMO·MMORPG]]"]
 created: 2026-05-29
-updated: 2026-10-06
+updated: 2026-10-12
 confidence: medium
 relations:
   developedBy: [hoyoverse]
@@ -50,6 +50,8 @@ relations:
 - 한국 모바일 *MMO 가챠 모델*이 *원신식 cross-platform RPG*로 pivot 압력 ([[nexon|넥슨]] 마비노기 모바일·*Kingdom Come Deliverance 2 모바일* 등 cross-genre 도전)
 - *Sony Concord 실패(2024)의 배경*: AAA 라이브 서비스 시장에 원신·Genshin Star Rail이 이미 *지배적 catalog*. 신규 진입 어려움
 - AAA 콘솔 비주얼 기준이 *모바일 가챠 게임의 표준*에 영향 받음 — *콘솔 게임의 모바일 출시 압력* 증가
+
+> 📊 **모바일 MMORPG 쪽 수치** ([[naavik-mobile-mmorpg-collapse-2026-10]]): 원신 출시(2020-09) 이후 모바일 MMORPG 감소가 빨라졌고, 오픈월드 어드벤처 RPG 분기 매출이 이제 MMORPG와 비슷하거나 앞선다. 모바일 MMORPG 매출은 2021→2025년 −47%. Toram Online·Ragnarok·Dragon Raja 이용자가 원신으로 옮겨 간 커뮤니티 기록도 인용된다. 위 "pivot 압력"의 시장 측 근거다 → [[mmorpg]]
 
 ## 비교 — 라이브 서비스 4게임
 

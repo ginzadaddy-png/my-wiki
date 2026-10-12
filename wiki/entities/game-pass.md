@@ -1,10 +1,10 @@
 ---
 title: "Xbox Game Pass"
 type: entity
-sources: ["[[naavik-xbox-strategy-reset-2026-07]]", "[[alinea-halo-campaign-evolved-2026-08]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[matthew-ball-2026-report]]", "[[newzoo-pc-console-2026]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-mortal-shell-2-launch-2026-08]]"]
+sources: ["[[naavik-xbox-strategy-reset-2026-07]]", "[[alinea-halo-campaign-evolved-2026-08]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[matthew-ball-2026-report]]", "[[newzoo-pc-console-2026]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-mortal-shell-2-launch-2026-08]]", "[[alinea-gears-e-day-launch-2026-10]]"]
 related: ["[[subscription-economy-gaming|구독 경제]]", "[[microsoft|마이크로소프트]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]", "[[ps-plus|PlayStation Plus]]", "[[halo|Halo]]"]
 created: 2026-08-31
-updated: 2026-08-31
+updated: 2026-10-12
 confidence: medium
 ---
 
@@ -36,14 +36,16 @@ confidence: medium
 | 사례 | 유료 판매 | 구독 접근 | 출처 |
 |---|---|---|---|
 | Halo: Campaign Evolved | 약 120만 | **210만** | [[alinea-halo-campaign-evolved-2026-08]] |
+| Gears of War: E-Day | **23만** ※ Xbox 6.2만 | **170만** | [[alinea-gears-e-day-launch-2026-10]] |
 | Ark: Survival Ascended | 700만 | 620만 | [[alinea-remakes-remasters-ranking-2026-07]] |
 | Oblivion Remastered | 450만 | 410만 | [[alinea-remakes-remasters-ranking-2026-07]] |
 | Dead Space (Xbox) | **15만** ※ Steam 280만·PS5 140만 | — | [[alinea-remakes-remasters-ranking-2026-07]] |
 
 - Halo는 **구독으로 들어온 사람이 산 사람보다 많았던** 첫 계량 사례다. \$20 선행 접속 패스가 60만 명을 유료로 끌어낸 유일한 회수 장치였다.
+- Gears of War: E-Day(2026-10)가 같은 조건의 두 번째 사례다. \$30 업그레이드를 72.2만 명이 사서 접근자 중 유료 전환이 약 42%로 Halo보다 높았는데도, Xbox \$70 본편은 6.2만 장에 그쳤다(판매 1장당 업그레이드 약 12건). 상위 티어는 잠식을 막는 게 아니라 **잠식된 판매를 일부 되찾는** 장치다. Xbox 이용자의 17%가 1시간 안에 그만둬(Steam 6%) 구독 유입이 플레이 시간 분포도 바꾼다 → [[subscription-economy-gaming]]
 - Dead Space의 Xbox 몫이 유독 낮은 것은 시장 크기가 아니라 유료 구매가 구독으로 흡수된 결과라는 것이 Elliott의 진단이다.
 
-> ⚠️ 구독 카피 수를 판매량과 같은 줄에 놓으면 안 된다. 퍼블리셔가 실제로 받는 것은 정액 계약금 또는 플레이타임 배분이고, 카피당 실수령이 유료 판매와 전혀 다르다. 그리고 위 네 건은 모두 **출시일 동시 입점**이라는 가장 강한 조건의 값이므로 일반 계수로 쓸 수 없다. → [[remaster-rerelease-strategy]]
+> ⚠️ 구독 카피 수를 판매량과 같은 줄에 놓으면 안 된다. 퍼블리셔가 실제로 받는 것은 정액 계약금 또는 플레이타임 배분이고, 카피당 실수령이 유료 판매와 전혀 다르다. 그리고 위 다섯 건은 모두 **출시일 동시 입점**이라는 가장 강한 조건의 값이므로 일반 계수로 쓸 수 없다. → [[remaster-rerelease-strategy]]
 
 ## 발견 장치로 작동하는 층 — 화제·부활·후속작 유입
 

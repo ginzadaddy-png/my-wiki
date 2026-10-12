@@ -1,10 +1,10 @@
 ---
 title: "Steam 매출 예측 모델 (Steam Revenue Forecasting)"
 type: concept
-sources: ["[[carless-wishlist-conversions-2025-10]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[zukowski-bad-launch-recovery-2024]]", "[[zrconsulting-steam-forecaster-2026]]", "[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[carless-steam-demo-ccu-2026-09]]", "[[alinea-q4-games-to-watch-2026-09]]"]
+sources: ["[[carless-wishlist-conversions-2025-10]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[zukowski-bad-launch-recovery-2024]]", "[[zrconsulting-steam-forecaster-2026]]", "[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[carless-steam-demo-ccu-2026-09]]", "[[alinea-q4-games-to-watch-2026-09]]", "[[carless-september-2026-top-new-games]]"]
 related: ["[[launch-metrics|흥행 예측 지표]]", "[[marketing-strategy|마케팅 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[valve|Valve]]", "[[forecasting-vs-launch-metrics|예측 vs 측정 비교]]"]
 created: 2026-05-18
-updated: 2026-10-06
+updated: 2026-10-12
 confidence: high
 ---
 
@@ -239,6 +239,18 @@ where blended_discount = launch_discount × 0.38 + seasonal_discount × 0.62
 
 - 점검 순서 제안: 데모 리뷰가 Mostly Positive(70%) 아래면 리뷰 tier를 한 단계 낮춰 시나리오를 따로 돌린다 — 위키 정리 의견이지 원문 주장은 아니다
 - 상세: [[launch-metrics|흥행 예측 지표]]의 "위시리스트 → 사전 주문 전환은 게임마다 3배 갈린다" 절
+
+## 13) 외부 추정치는 범위로 읽는다 ([[carless-september-2026-top-new-games]] · [[alinea-steam-september-2026]])
+
+비교 기준(comps)으로 쓰는 외부 판매 추정은 회사마다 체계적으로 갈린다. 2026년 9월 신작 Steam 판매를 두 회사가 거의 같은 시점에 냈는데:
+
+| 게임 | Alinea (10-01) | GameDiscoverCo (10-06) |
+|---|---|---|
+| Onimusha: Way of the Sword | 57.6만 | 73만 |
+| Blood of the Dawnwalker | 53.5만 | 65만 |
+| Control Resonant | 약 30만 | 35만+ |
+
+발행일 차이 5일을 감안해도 GDCo가 일관되게 10–25% 높다. 비교 게임 숫자를 한 회사에서만 가져오면 예측의 바닥·천장이 그만큼 한쪽으로 쏠린다. **comps는 두 출처의 범위로 잡고, 같은 예측 안에서는 한 출처로 통일한다.**
 
 ## 한계 및 적용 주의
 

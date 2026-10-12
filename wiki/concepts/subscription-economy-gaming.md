@@ -1,10 +1,10 @@
 ---
 title: "구독 경제와 게이밍 — 소유에서 거주로"
 type: concept
-sources: ["[[ign-generations-in-play-2026]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[alinea-halo-campaign-evolved-2026-08]]", "[[alinea-mw4-preorder-digital-push-2026-08]]"]
+sources: ["[[ign-generations-in-play-2026]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[alinea-halo-campaign-evolved-2026-08]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[alinea-gears-e-day-launch-2026-10]]"]
 related: ["[[live-service-design|라이브 서비스 설계]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[reports/pc-console-pricing-playbook|PC·콘솔 패키지 게임 기준 가격 결정 가이드]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]", "[[ps-plus|PlayStation Plus]]", "[[call-of-duty|Call of Duty]]"]
 created: 2026-05-12
-updated: 2026-08-31
+updated: 2026-10-12
 confidence: high
 ---
 
@@ -128,6 +128,25 @@ Millennials가 destination-based play → ecosystem-based participation 전환�
 > 💡 **가장 큰 자사 프랜차이즈를 구독에서 빼는 것은 "구독은 잠식하지 않는다"는 명제의 사실상 철회다.** 단 전면 철회는 아니다 — 잠식이 큰 *간판 신작*만 빼고 나머지 카탈로그는 남기는 선별 운용이다. 위 층위 구분(신작=discovery engine, 구작=잠식)에 **"간판 신작은 예외"**라는 한 줄이 더 붙는 셈이다.
 
 > ⚠️ 이 조치의 효과는 아직 측정되지 않았다. 전작 부진의 원인이 실제로 Game Pass 데이원이었는지도 원 소스가 논증하지 않고 전제로 둔다. 사후 검증은 2026-10-23 출시 후 실판매로.
+
+### 두 번째 실측 — Gears of War: E-Day ([[alinea-gears-e-day-launch-2026-10]])
+
+Halo와 같은 조건(퍼스트파티 간판 IP·출시일 수록)의 두 번째 사례가 나왔다. 평가는 시리즈 최고 수준이었는데 판매는 23만 장(Steam 16.8만 · Xbox 6.2만)에 그쳤다.
+
+| | Halo: Campaign Evolved | Gears of War: E-Day |
+|---|---|---|
+| Game Pass 접근 | 210만 | 170만 |
+| 상위 티어 결제 | 60만 미만 (\$20) | 72.2만 (\$30) |
+| 접근자 중 유료 전환 | 29% 미만 | **약 42%** |
+| Xbox 판매 1장당 업그레이드 | — | **약 12건** |
+
+전환율도 단가도 Halo보다 높았다. 그런데도 Xbox에서 \$70 본편은 6.2만 장뿐이다.
+
+> 💡 **상위 티어는 잠식을 막는 장치가 아니라 잠식된 판매를 일부 되찾는 장치다.** 돈을 낼 사람은 \$70 대신 *Game Pass + \$30*을 골랐다. 위 Halo 인사이트("동시 입점이면 상위 티어는 필수")가 맞았지만, 필수인 이유는 그것이 *유일하게 남는 회수 경로*이기 때문이다. 두 사례가 같은 방향을 가리키면서 "간판 신작은 데이원 수록에서 예외"라는 위 정리가 단일 사례에서 반복 관측으로 올라섰다. Alinea 저자도 다음 Gears는 CoD처럼 데이원 수록에서 빼야 한다고 권한다.
+
+**새로 보인 효과 — 플레이 시간 분포가 바뀐다.** Xbox 이용자의 17%가 1시간 안에 그만뒀다(Steam 6%). 5시간 이하는 54% vs 32%다. Forza Horizon 6도 11% vs 2%였고, PS Plus 수록작에서도 같은 모양이라고 한다. 공짜로 들어온 가벼운 이용자가 섞이면서 *평균* 플레이 시간과 잔존율이 내려간다. 구독 수록작의 리텐션 지표를 유료 판매작과 같은 기준으로 비교하면 안 된다는 뜻이다 ([[player-retention|플레이어 리텐션]]).
+
+> ⚠️ 여전히 잠식 단독 효과로 분리되지 않는다. 같은 주 Minecraft Dungeons II·Wardogs와 겹쳤고, Xbox 기기 기반 자체가 줄고 있다. 수치는 모두 Alinea 추정이다.
 
 ## 반례 — Game Pass의 정체 (2026-07)
 
