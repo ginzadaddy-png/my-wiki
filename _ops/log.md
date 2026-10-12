@@ -2258,3 +2258,10 @@ title: "활동 로그"
 - 자동 갱신: `_ops/status.md` 5곳(INGEST 83→84 · 소스 207→211 · 총 md 450→454 · 헤더 날짜 · 마지막 갱신) / `wiki/overview.md` 변경 없음(신규 엔티티·개념 없음)
 - changelog 2026-10 2주차 블록 반영(사용자 승인, updated 10-12)
 - `]](` 3건 사용자 승인 후 공백 삽입으로 수정 → 재빌드 통과(454 파싱 · 956 emit), 깨진 링크 0
+
+## [2026-10-12] 배포 | 주간 LINT 배포 창구 — push 1건
+
+- push: **676d7d1** (24파일 · 671 insertions · 38 deletions) — 10-12 ingest 4건 + 주간 lint + `]](` 3건 수정 + changelog 10월 2주차. 직전 push는 f5b31f9(c54741a 배포 기록 커밋이 이번에 함께 올라감)
+- `Deploy Quartz site to GitHub Pages` run **38200095080 success** (1m25s, 2026-10-12T03:31:38Z). `Build and Test`·`Docker build & push image` skipped는 정상
+- 빌드 검사 통과(454 파싱 · 956 emit) · 줄바꿈 churn 0
+- deck 신규·수정 없음 → 단독 배포본(`dist/`) 재생성 불필요 / 챗봇 재색인 해당 없음(delist) / Quartz repo 변경 없음
