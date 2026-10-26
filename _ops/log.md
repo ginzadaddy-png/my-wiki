@@ -2293,3 +2293,10 @@ title: "활동 로그"
 - raw 미처리 **0건** — 122개 대조, 탐지 6건은 파일명만 다른 기처리분
 - 자동 갱신: `_ops/status.md` 5곳(INGEST 84→85 · 소스 211→215 · 총 md 454→458 · 헤더 날짜 · 마지막 갱신) / `wiki/overview.md` 변경 없음(신규 엔티티·개념 없음)
 - changelog 2026-10 4주차 블록 반영(사용자 승인, updated 10-26). 10-19 주는 활동 없어 건너뜀
+
+## [2026-10-26] 배포 | 주간 LINT 배포 창구 — push 1건
+
+- push: **56a5b40** (25파일 · 649 insertions · 35 deletions) — 10-26 ingest 4건 + 주간 lint + changelog 10월 4주차. 직전 push는 676d7d1(5f58d2b 배포 기록 커밋이 이번에 함께 올라감)
+- `Deploy Quartz site to GitHub Pages` run **40264824093 success** (1m27s, 2026-10-26T03:35:29Z)
+- 빌드 검사 통과(458 파싱 · 964 emit) · 줄바꿈 churn 0
+- deck 신규·수정 없음 → 단독 배포본(`dist/`) 재생성 불필요 / 챗봇 재색인 해당 없음(delist) / Quartz repo 변경 없음
