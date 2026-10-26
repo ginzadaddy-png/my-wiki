@@ -1,10 +1,10 @@
 ---
 title: "소규모 스튜디오의 대작 전략 비교"
 type: comparison
-sources: ["[[gdc25-astrobot]]", "[[gdc26-expedition33-programmers]]", "[[expedition33-ue5-interview]]", "[[cgdc-dave-the-diver]]"]
+sources: ["[[gdc25-astrobot]]", "[[gdc26-expedition33-programmers]]", "[[expedition33-ue5-interview]]", "[[cgdc-dave-the-diver]]", "[[alinea-goty-winners-sales-2026-10]]"]
 related: ["[[small-team-development|소규모 팀 개발]]", "[[designer-empowerment|디자이너 도구화]]", "[[rapid-prototyping|빠른 프로토타이핑]]", "[[marketing-strategy|마케팅 전략]]"]
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-10-26
 confidence: high
 ---
 
@@ -61,3 +61,20 @@ confidence: high
 - 팀 아소비: 6개월 추가 플레이테스트
 - 샌드폴: 5년 개발, 출시 직전까지 엔진 최신화
 - 민트로켓: "초반 낮은 평가는 만회 불가" — 완성도 먼저, 출시 나중
+
+---
+
+## 결과 — 판매로 본 GOTY ([[alinea-goty-winners-sales-2026-10]])
+
+수상 뒤 몇 년이 지난 시점의 판매(Alinea 추정, 2026-10).
+
+| | [[astro-bot]] (2024) | [[clair-obscur-expedition-33]] (2025) |
+|--|--|--|
+| **누적** | 470만 장 · \$291M | 870만 장 · \$366M |
+| **2026년** | 약 100만 장, 매달 10만 장 이상 | Game Pass 계약 종료(10-16) 후 Xbox 판매 반등 조짐 |
+| **특징** | 패키지 46.6% · 무료 번들(아스트로 플레이룸)이 퍼널 | Steam 58.8% · Game Pass 이용 430만 명 |
+| **예산** | 마케팅 포함 1억 달러 미만 추정 | — |
+
+같은 글의 대형 수상작 [[elden-ring|엘든링]] (3,640만 장)·[[baldurs-gate-3|발더스 게이트3]] (2,320만 장)과 규모 차이는 크지만, 저자는 최근 수상작 대부분이 *전통 AAA 비용 구조 밖의 중간 예산 스튜디오*라고 짚는다. 1억 달러 미만으로 만든 게임이 2년 만에 \$291M을 벌고 아직도 매달 팔린다.
+
+> 💡 소규모 팀 대작의 상업적 의미는 *출시 첫해 흥행*보다 **꾸준히 팔리는 기간**에 있다. 세 원칙 중 3번("완성도가 규모보다 우선")이 장기 판매로 보상받는 구조다. 다만 수상 전후 판매 비교가 없어 *수상 덕분*인지 *원래 잘 팔릴 게임*이었는지는 가를 수 없다.

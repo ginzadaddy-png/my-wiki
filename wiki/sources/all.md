@@ -1,13 +1,17 @@
 ---
 title: "소스 전체 목록"
 created: 2026-04-16
-updated: 2026-10-12
+updated: 2026-10-26
 ---
 
-총 211개 | 최신순 정렬
+총 215개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [alinea-goty-winners-sales-2026-10](alinea-goty-winners-sales-2026-10.md) | Alinea — 역대 GOTY 수상작은 얼마나 팔렸나 (Elliott) — 4편 합계 약 \$3.8B·7,300만 장·엘든링 3,640만 장·4년째 연 200만 장·콘솔 판매 절반에 매출 57.5%·BG3 MAU 200만 아래로 안 떨어짐·아스트로봇 패키지 46.6%·무료 번들 퍼널·E33 Game Pass 430만 명·계약 종료 후 Xbox 반등 조짐·수상 효과는 미측정 | 2026-10-22 |
+| [zukowski-next-fest-october-2026](zukowski-next-fest-october-2026.md) | Zukowski — 2026년 10월 Steam Next Fest 초기 분석 — 데모 7,240개(+65%)·연간 데모가 출시작의 51.7%(추정)·상위 25 팔로워 중앙값 5,519 vs 하위 15·총량 ρ 0.55 · 증가량 ρ 0.52 · 증가율 ρ −0.13·AI 공시 상위 8% vs 하위 35%·전략·RPG 공시 50%대·Action RPG 데모 인기 1위 | 2026-10-21 |
+| [alinea-ps-physical-revenues-2026-10](alinea-ps-physical-revenues-2026-10.md) | Alinea — PlayStation 패키지 게임 매출 (Elliott) — 2026 신작 패키지 \$655M+·프리미엄 매출 20% 미만·일본 중심 타이틀 41–51% vs 스포츠 4.6–8.9%·RE 레퀴엠 130만 장·일본 디지털 전용 PS5 \$350·소니 30% 수수료 논리·고가치 이용자 반발·\$1.2B vs \$655M 수치 충돌 | 2026-10-20 |
+| [carless-ai-decompilation-demos-2026-10](carless-ai-decompilation-demos-2026-10.md) | GameDiscoverCo — AI 디컴파일 시대에 데모를 내려야 하나 (Carless) — Drunken Goddess Reflux(약 57만) 데모 취소·ReVamp(약 25만) 테스트 비공개 전환·Needle In A Haystack 디컴파일 저작권 신고·밈형 컨셉만 위험·복잡한 게임은 데모 유지·공개→출시 간격 단축·브랜드 가치 상승 | 2026-10-20 |
 | [alinea-gears-e-day-launch-2026-10](alinea-gears-e-day-launch-2026-10.md) | Alinea — Gears of War: E-Day 출시 (Elliott) — 판매 23만 장(Steam 16.8만·Xbox 6.2만)·Game Pass 접근 170만·\$30 업그레이드 72.2만(전환 약 42%)·매출 \$37M·Xbox 판매 1장당 업그레이드 12건·1시간 내 이탈 Xbox 17% vs Steam 6% | 2026-10-09 |
 | [naavik-mobile-mmorpg-collapse-2026-10](naavik-mobile-mmorpg-collapse-2026-10.md) | Naavik — 모바일 MMORPG의 붕괴 (Abrahamsen) — 2021→2025 매출 \$5.3B→\$2.8B(−47%)·감소의 56% ARPDAU·34% 참여·한국은 결제자만 남음·엔씨 −\$456M·원신 이후 가속·18–24세 비중 절반·마비노기 모바일·메이플 키우기 대안 | 2026-10-08 |
 | [alinea-fc27-top-seller-2026-10](alinea-fc27-top-seller-2026-10.md) | Alinea — FC 27, 2026년 최다 판매작 (Elliott) — 790만 장·\$714M·정식 출시 전 400만 장·FC 26 대비 매출 +14%인데 PS 밖 판매 제자리·\$150 Ultimate Plus 한정 판매·PS 실물 8.2%·PS4→PS5 이동 | 2026-10-06 |

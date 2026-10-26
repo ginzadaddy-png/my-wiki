@@ -1,10 +1,10 @@
 ---
 title: "게임 개발에서의 생성형 AI"
 type: concept
-sources: ["[[gamedev-leadership-dynamics]]", "[[gi-tencent-live-service-strategy-2026-09]]"]
+sources: ["[[gamedev-leadership-dynamics]]", "[[gi-tencent-live-service-strategy-2026-09]]", "[[carless-ai-decompilation-demos-2026-10]]"]
 related: ["[[tencent|텐센트]]", "[[studio-culture|스튜디오 문화]]", "[[dev-org-structure|개발 조직 구조]]", "[[data-driven-development|데이터 기반 개발]]", "[[ai-asset-pipeline|AI 게임 에셋 산업화 파이프라인]]", "[[ai-disclosure-player-sentiment|AI 디스클로저 플레이어 정서]]"]
 created: 2026-04-23
-updated: 2026-09-08
+updated: 2026-10-26
 confidence: high
 ---
 
@@ -62,6 +62,10 @@ confidence: high
 - **지역차 인식**: *"중국은 AI를 도구로 쓰는 걸 좋아한다"* vs 서구의 주저. 임원의 권고는 *"AI를 두려워하지 말라, 인터넷 같은 것이다"*
 
 > ⚠️ **이 방침은 문제를 절반만 다룬다.** "자사 라이브러리 한정"은 파인튜닝·프롬프트 단계의 이야기이고, **기반 모델이 무엇으로 사전학습됐는지**는 건드리지 않는다. 그리고 발언자가 AI 도입을 추진하는 회사의 임원이라는 점 — 위 *개발자 정서의 역설*에서 확인된 리더십과 현장의 온도 차가 이 인터뷰에도 그대로 있다. [[ai-disclosure-player-sentiment|플레이어 정서]] 쪽 쟁점은 아예 다뤄지지 않는다.
+
+## 베끼는 비용도 낮아진다 — 클론·디컴파일 ([[carless-ai-decompilation-demos-2026-10]])
+
+AI는 만드는 쪽만이 아니라 *베끼는 쪽*의 비용도 낮춘다. 2026-10에는 AI 클론 우려로 위시리스트 25만–57만 규모의 게임들이 공개 데모·플레이테스트를 거두었고, 디컴파일로 코드를 훔쳤다는 Steam 저작권 신고도 나왔다. Carless는 위험을 *구현이 쉬운 밈형 컨셉*에 한정하고, 복잡한 게임은 데모를 유지하라고 권한다. 대응은 [[steam-next-fest|Steam Next Fest]] 「클론 공포와 데모」 절 참조.
 
 ## 역할 변화
 

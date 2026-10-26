@@ -1,10 +1,10 @@
 ---
 title: "Steam Next Fest"
 type: concept
-sources: ["[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[airbridge-steam-marketing-playbook]]", "[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[carless-steam-personal-calendar-2026-06]]", "[[carless-twitch-discovery-2026-06]]", "[[carless-next-fest-june-2026]]", "[[zukowski-personal-calendar-launch]]", "[[zukowski-golden-age-week-2026-08]]"]
+sources: ["[[zukowski-next-fest-strategy]]", "[[steam-next-fest-2026-analysis]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[gdc26-lieu-back-to-basics-marketing]]", "[[airbridge-steam-marketing-playbook]]", "[[cgdc-dave-the-diver]]", "[[sgc-steam-survival]]", "[[gdc2023-no-budget-marketing]]", "[[carless-steam-personal-calendar-2026-06]]", "[[carless-twitch-discovery-2026-06]]", "[[carless-next-fest-june-2026]]", "[[zukowski-personal-calendar-launch]]", "[[zukowski-golden-age-week-2026-08]]", "[[zukowski-next-fest-october-2026]]", "[[carless-ai-decompilation-demos-2026-10]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[playtesting|플레이테스팅]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[valve|Valve]]", "[[festival-showcase-strategy|페스티벌·쇼케이스 노출 전략]]"]
 created: 2026-05-18
-updated: 2026-08-24
+updated: 2026-10-26
 confidence: high
 ---
 
@@ -43,6 +43,7 @@ confidence: high
 - **2025-02 이후**: 알고리즘 재보정 → 상위 등급 회복, 하위 70p는 보합 정체
 - **2026-02**: How Many Dudes? — 64만 노출 → 14,740 위시리스트. *노출 1/10이지만 위시리스트는 거의 같음*. Valve가 "낭비된 노출"을 정밀화한 결과
 - **2026-06** ([[carless-next-fest-june-2026]]): 데모 **4,382개** (2025-06 2,645개 대비 **+66%**)로 *공급 폭증*. 상위 10% 팔로워 **+121**(전년 +163, **-25%**)·상위 1% **+1,330**(전년 +1,759, **-25%**) → *데모 증가량이 개별 게임 가시성을 직접 잠식*. Godot 점유 9.2%→**12.6%**, AI 콘텐츠 공시 데모 21.2%→**26.5%**
+- **2026-10** ([[zukowski-next-fest-october-2026]]): 데모 **7,240개**(6월 대비 **+65%**, 2023-06의 약 8배). 연간 데모 수가 Steam 출시작의 **51.7%(추정)** 에 이른다(2024 33.6% · 2025 38.2%). 데모 최고 동접 상위 25의 페스트 하루 전 팔로워 중앙값 **5,519** vs 101위 이하 **15**. AI 공시율은 상위 25 **8%** vs 101위 이하 **35%**
 
 > 💡 **필터버블·모노컬처 소멸 (2026-06):** 상위권을 하나의 트렌드로 요약 불가 — 협동 디퓨절·솔로 터릿심·솔로 ARPG·소울라이크 추출·RTS·한국 MMO가 혼재. Carless: *"모노컬처는 사라졌고, 게임은 분리된 미디어 채널의 필터버블을 통해 발견된다."* → 단일 대형 태그 클러스터를 노리기보다 *특정 버블 정조준*이 유효.
 
@@ -96,11 +97,28 @@ confidence: high
 3. **위시리스트 누적 + velocity 둘 다** — 둘 중 하나만으로는 부족
 4. **첫 게임·첫 페스트라면 쉐도우 드롭 절대 금지** — Sala식 접근은 누적 자산이 있어야 가능
 
+### 총량과 모멘텀, 둘 다 절대량으로 ([[zukowski-next-fest-october-2026]])
+
+3번 원칙이 2026-10 데이터로 숫자를 얻었다. 데모 최고 동접과의 스피어만 상관이 **팔로워 총량 ρ 0.55 · 직전 1주 증가량 ρ 0.52 · 증가율 ρ −0.13**이다. 둘의 예측력은 거의 같고, *증가율*은 오히려 반대로 간다 — 하위권의 증가율(12.5%)이 상위권(7.0%)보다 높지만 15명에서 2명 늘어난 것이다. 모멘텀은 **몇 % 늘었나가 아니라 몇 명 늘었나**로 재야 한다.
+
+장르별 데모 인기(첫 3일 동접 10 이상 비율, 전체 7.6%)는 Action RPG 19.5%·크래프팅 16.0%·오픈월드 13.8%가 위, 정밀 플랫포머 1.5%·2D 플랫포머 1.9%가 아래다. 다만 AI 공시율이 높은 장르(RPG·전략·크래프팅)가 곧 인기 장르라, 인기 장르일수록 진입자 경쟁도 거세다.
+
 ## [[playtesting|디자인 검증]]과 분리하라
 
 > 💡 Next Fest는 *마케팅 시그널* (구매 의향·태그 적합도) 수집의 무대.
 > 디자인 검증은 *폐쇄형 외부 테스트*(단계 4)에서 진행해야 *수정 가능한 단계*에서 피드백을 받는다.
 > Next Fest에 들어가는 데모는 *이미 다듬어진 단계*여야 함 — 한 번뿐인 기회를 알고리즘과 함께 폭발시키는 자리.
+
+## 클론 공포와 데모 — 내릴 것인가 ([[carless-ai-decompilation-demos-2026-10]])
+
+2026-10 Next Fest 무렵, AI 클론·디컴파일 우려로 데모를 내리는 고화제작이 나왔다. Drunken Goddess Reflux(위시리스트 약 57만)는 공개 데모를 취소했고, ReVamp(약 25만)는 Steam 플레이테스트를 반쯤 닫힌 테스트로 바꿨다. Carless의 판단은 **"우려는 정당하지만 과장됐다"** 이다.
+
+| 게임 성격 | 클론 위험 | 대응 |
+|---|---|---|
+| 단순·밈형 컨셉, 검색되는 이름 | 높다 | 데모는 두되 **공개 → 유료 출시 간격을 줄인다** |
+| 복잡하고 이름이 독특한 게임 | 낮다 | 데모를 **유지**한다. 노골적 디컴파일 클론은 증거를 남겨 Steam에 저작권 신고 |
+
+> 💡 클론이 베낄 수 있는 것은 코드와 컨셉이지 쌓인 팔로워가 아니다. 위 「총량과 모멘텀」 절의 데이터대로 페스트 성과를 가르는 것이 팔로워 총량이라면, 데모를 내려 잃는 것(노출·위시리스트)이 클론 위험보다 크다. 위험이 실재하는 곳은 *구현이 쉬워 컨셉 자체가 상품*인 게임뿐이다. (근거 사례가 Needle In A Haystack 장르 하나라 판단의 폭이 좁다)
 
 ## 캘린더 시그널
 

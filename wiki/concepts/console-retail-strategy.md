@@ -1,10 +1,10 @@
 ---
 title: "콘솔 리테일·유통 전략"
 type: concept
-sources: ["[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[sony-ir-1q-fy2026]]", "[[matthew-ball-2026-report]]", "[[capcom-fy26-ir]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[circana-us-physical-lowest-2026-07]]", "[[alinea-ps-first-party-kojima-2026-09]]"]
+sources: ["[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[sony-ir-1q-fy2026]]", "[[matthew-ball-2026-report]]", "[[capcom-fy26-ir]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[circana-us-physical-lowest-2026-07]]", "[[alinea-ps-first-party-kojima-2026-09]]", "[[alinea-ps-physical-revenues-2026-10]]"]
 related: ["[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[webshop-direct-monetization|웹샵·D2C 직접 수익화]]", "[[audience-expansion|오디언스 확장]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]", "[[call-of-duty|Call of Duty]]", "[[gta-6|GTA 6]]"]
 created: 2026-08-03
-updated: 2026-09-14
+updated: 2026-10-26
 confidence: high
 ---
 
@@ -151,6 +151,12 @@ confidence: high
 > 💡 **패키지 비중을 가르는 것은 유통 정책이 아니라 수익 모델이다.** 프리미엄 싱글플레이는 38~47%에 머무는데 라이브서비스는 8%다. 소장·선물·중고 되팔이가 성립하는 완결형 작품과, 시즌을 따라가려고 즉시 내려받는 서비스형 게임은 애초에 구매 동기가 다르다. 위 [패키지 비중은 장르와 이용자층에 따라 갈린다](#패키지-비중은-장르와-이용자층에-따라-갈린다)에 **수익 모델이라는 분할선**이 하나 더 붙는 셈이다.
 
 > ⚠️ 전부 Alinea 자체 추정치이며 gross 기준이다. 지역별 분포도 합산돼 있어 단일 수치로 읽으면 오독 위험이 있다.
+
+## 2026 신작 연간 — 일본 타이틀과 스포츠가 양 끝 ([[alinea-ps-physical-revenues-2026-10]])
+
+2026 신작 PS 패키지 매출은 **6.55억 달러 이상, 신작 프리미엄 매출의 20% 미만**(Alinea 추정)이다. 서드파티까지 넓히면 패키지 비중의 위쪽 끝은 **일본 중심 타이틀**(Fatal Frame II 리메이크 50.7% · Yakuza 46.7% · 캡콤 Onimusha·Pragmata 44%)이고, 아래쪽 끝은 **연간 스포츠**(FC 27 8.9% · NBA 2K27 4.6%)다. 스포츠의 한 자릿수는 얼티밋 팀 중심 플레이에 디지털 디럭스의 선행 접속·특전을 몇 년에 걸쳐 밀어 온 결과다 — 위 [[call-of-duty|CoD]] 장치들과 같은 방향의 *점진적 넛지*다.
+
+소니 쪽 계산은 단순하다. 디스크는 소매 마진·제조·유통비를 지고, 디지털 **30% 수수료**를 놓치고, 중고 거래에서 한 푼도 못 번다. 다만 패키지 매출이 *PS의 정체성인 프레스티지 싱글플레이*와 *가장 많이 쓰는 이용자*에게서 나온다는 점이 어색하다. 저자 결론은 "매출은 크게 안 잃는다, 문제는 메시지와 패키지 구매자의 출구"다. 층별 비교는 [[physical-retail-retention|물리 유통 잔존율 3층 비교]]의 「다섯 번째 분할선 — 지역」 참조.
 
 ## 개발사 관점 시사
 

@@ -1,10 +1,10 @@
 ---
 title: "물리 유통 잔존율 — 플랫폼·퍼블리셔·타이틀 3층 비교"
 type: comparison
-sources: ["[[circana-us-physical-lowest-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[sony-ir-1q-fy2026]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[capcom-fy26-ir]]", "[[matthew-ball-2026-report]]", "[[alinea-ps-first-party-kojima-2026-09]]"]
+sources: ["[[circana-us-physical-lowest-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[sony-ir-1q-fy2026]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[capcom-fy26-ir]]", "[[matthew-ball-2026-report]]", "[[alinea-ps-first-party-kojima-2026-09]]", "[[alinea-ps-physical-revenues-2026-10]]"]
 related: ["[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|시장 구조 변화]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[webshop-direct-monetization|웹샵·D2C 직접 수익화]]", "[[platform-fees-vs-direct-sales|플랫폼 수수료 vs 직접 판매]]", "[[sony-interactive-entertainment|소니 인터랙티브 엔터테인먼트]]", "[[microsoft|마이크로소프트]]", "[[nintendo-switch-2|닌텐도 스위치 2]]", "[[capcom|캡콤]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가]]"]
 created: 2026-08-24
-updated: 2026-09-14
+updated: 2026-10-26
 confidence: medium
 ---
 
@@ -85,6 +85,21 @@ confidence: medium
 | 라이브서비스 | [[helldivers-2]] (2,300만 장 · \$800M) | **8%** |
 
 > 💡 위 표가 *게임 성격*(프레스티지 대작 vs PC 선행)으로 나눈 것을 한 겹 더 좁히면 **구매 동기**가 나온다. 소장·선물·중고 되팔이가 성립하는 완결형 작품은 디스크에 의미가 있고, 시즌을 따라가려고 즉시 내려받는 서비스형 게임은 그렇지 않다. 그래서 "물리를 없앤다"는 결정은 **플랫폼 단위도 타이틀 단위도 아니라 *포트폴리오의 수익 모델 구성* 단위로 따져야 한다.**
+
+### 다섯 번째 분할선 — 지역 ([[alinea-ps-physical-revenues-2026-10]])
+
+2026 신작 PS 전체로 보면 패키지 매출은 **6.55억 달러 이상, 신작 프리미엄 매출의 20% 미만**이다. 그 안에서 위아래 끝이 10배 벌어진다.
+
+| 위쪽 — 일본 중심 | 비중 | 아래쪽 — 스포츠 | 비중 |
+|---|---|---|---|
+| Fatal Frame II 리메이크 | 판매 50.7% | FC 27 | 매출 8.9% |
+| Yakuza Kiwami 3 & Dark Ties | 판매 46.7% | MLB The Show 26 | 매출 7.6% |
+| Onimusha · Pragmata (캡콤) | 판매 44% | Madden 27 | 매출 6.9% |
+| Silent Hill Townfall | 판매 41.3% | NBA 2K27 | 매출 4.6% |
+
+같은 프레스티지 싱글플레이 안에서도 RE 레퀴엠(30.2%)·Wolverine(32.3%)보다 일본 중심 타이틀이 10%p 이상 높다. Onimusha·Pragmata는 PS 판매의 11–12%가 일본이다. 반면 소니는 일본에서 디지털 전용 PS5를 350달러에 팔고 디스크 드라이브를 약 76달러에 따로 판다 — **패키지 수요가 가장 강한 시장에서 가장 직접적으로 디지털을 미는** 구도다.
+
+> 💡 위의 게임 성격·수익 모델 구분에 **시장(일본)** 이 더해진다. 패키지 비중이 높은 타이틀은 *소장형 싱글플레이 × 일본 이용자 비중*이 겹치는 곳에 있다. Alinea는 반발하는 쪽이 "매출 소수 중의 목소리 큰 소수지만 PS에 가장 많이 쓰는 이용자"라고 짚는다 — 플랫폼 평균으로는 작은 손실이 특정 장르·특정 시장의 고가치 이용자에게 몰린다. (판매 비중과 매출 비중이 섞인 표라 한 줄로 비교하면 안 된다. 원문 안에서 상위 타이틀 합계 12억 달러와 전체 6.55억 달러가 맞지 않는 문제도 있다)
 
 ## 판단 프레임 — 어떤 숫자를 어디에 쓸 것인가
 

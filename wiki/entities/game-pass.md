@@ -1,10 +1,10 @@
 ---
 title: "Xbox Game Pass"
 type: entity
-sources: ["[[naavik-xbox-strategy-reset-2026-07]]", "[[alinea-halo-campaign-evolved-2026-08]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[matthew-ball-2026-report]]", "[[newzoo-pc-console-2026]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-mortal-shell-2-launch-2026-08]]", "[[alinea-gears-e-day-launch-2026-10]]"]
+sources: ["[[naavik-xbox-strategy-reset-2026-07]]", "[[alinea-halo-campaign-evolved-2026-08]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[matthew-ball-2026-report]]", "[[newzoo-pc-console-2026]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-mortal-shell-2-launch-2026-08]]", "[[alinea-gears-e-day-launch-2026-10]]", "[[alinea-goty-winners-sales-2026-10]]"]
 related: ["[[subscription-economy-gaming|구독 경제]]", "[[microsoft|마이크로소프트]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]", "[[ps-plus|PlayStation Plus]]", "[[halo|Halo]]"]
 created: 2026-08-31
-updated: 2026-10-12
+updated: 2026-10-26
 confidence: medium
 ---
 
@@ -54,6 +54,7 @@ confidence: medium
 - **구작의 재점화**: 놀란 영화 화제로 AC 오디세이가 되살아났을 때, Game Pass·PS Plus 양쪽에 있어 **금전적 마찰이 0**이었던 Xbox가 +134%(36K → 84K)로 가장 크게 튀었다. 구매가 필요한 Steam은 +26%였다 ([[alinea-ps-physical-fc27-odyssey-2026-07]], [[ip-adaptation-design]])
 - **롱테일 분산**: Xbox는 Top 20 밖 플레이타임 비중이 가장 넓다. 단 [[newzoo-pc-console-2026|Newzoo]]가 스스로 못 박듯 이것은 **총 플레이 시간이 늘어난 것이 아니라 나눠 가진 것**이다(Xbox ▲12%는 재분배) → [[long-tail-survival-economics]]
 - **후속작 오디언스의 구성 변화**: Mortal Shell 2 구매자 중 1편 경험자가 콘솔에서는 44·59%인데 스팀은 9%였다. 1편이 PS Plus·Game Pass에 여러 번 올랐던 탓이다. 구독 노출이 만든 인지도는 후속작 구매로 곧장 이어지지는 않지만 **오디언스의 구성을 바꾼다** ([[alinea-mortal-shell-2-launch-2026-08]])
+- **데이원 계약이 끝난 뒤**: [[clair-obscur-expedition-33|33원정대]]는 Game Pass로 콘솔·PC 합쳐 **430만 명**이 접속했고, 판매는 Xbox 비중이 **5.5%**(Steam 58.8% · PS5 35.7%)에 그쳤다. 1.5년 계약이 2026-10-16에 끝난 뒤 Xbox 판매에 긍정적 신호가 보인다 — 저자도 아직 결론이 아니라고 적었다 ([[alinea-goty-winners-sales-2026-10]]). 확인되면 *구독 기간에 쌓인 인지도가 계약 종료 뒤 판매로 넘어오는* 사례가 된다
 
 ## 2026 전략 전환 — 전제를 철회했다
 

@@ -2265,3 +2265,31 @@ title: "활동 로그"
 - `Deploy Quartz site to GitHub Pages` run **38200095080 success** (1m25s, 2026-10-12T03:31:38Z). `Build and Test`·`Docker build & push image` skipped는 정상
 - 빌드 검사 통과(454 파싱 · 956 emit) · 줄바꿈 churn 0
 - deck 신규·수정 없음 → 단독 배포본(`dist/`) 재생성 불필요 / 챗봇 재색인 해당 없음(delist) / Quartz repo 변경 없음
+
+## [2026-10-26] ingest | Source radar 10-26 후보 4건 — Zukowski 10월 Next Fest · Alinea PS 패키지 매출 · Carless AI 디컴파일과 데모 · Alinea 역대 GOTY 판매
+
+- Source:
+  - raw/articles/2026-10-21-zukowski-october-2026-next-fest.md (원문 https://howtomarketagame.com/2026/10/21/how-sloppy-is-the-october-2026-steam-next-fest/ · Chris Zukowski · 2026-10-21)
+  - raw/articles/2026-10-20-alinea-physical-revenues-playstation.md (원문 https://alineaanalytics.substack.com/p/physical-game-revenues-on-playstation · Rhys Elliott · 2026-10-20)
+  - raw/articles/2026-10-20-carless-ai-decompilation-discovery.md (원문 https://newsletter.gamediscover.co/p/should-your-game-discovery-plans · Simon Carless · 2026-10-20)
+  - raw/articles/2026-10-22-alinea-goty-winners-sales.md (원문 https://alineaanalytics.substack.com/p/how-well-have-past-goty-winners-sold · Rhys Elliott · 2026-10-22)
+- 경위: 10-26 source radar 추천 6건 중 사용자가 1–4 지정. 강조축은 Claude 제안 그대로 승인 — ① Next Fest 공급 폭증·팔로워 총량 vs 모멘텀 + 순위별·장르별 AI 공시 ② 2026 타이틀별 패키지 편차(일본·스포츠 양 끝) ③ 신규 concept 없이 steam-next-fest·ai-gamedev에 「클론 공포와 데모」 ④ GOTY 엔티티·small-studio-goty·evergreen-ip·game-pass 보강. raw는 구조화 발췌 방식
+- 생성: wiki/sources/zukowski-next-fest-october-2026.md · wiki/sources/alinea-ps-physical-revenues-2026-10.md · wiki/sources/carless-ai-decompilation-demos-2026-10.md · wiki/sources/alinea-goty-winners-sales-2026-10.md (4건 모두 confidence **medium** — 단일 소스·자체 추정)
+- 업데이트:
+  - concepts/steam-next-fest.md(타임라인 2026-10 항목 · 「총량과 모멘텀, 둘 다 절대량으로」 · 「클론 공포와 데모 — 내릴 것인가」) · concepts/ai-disclosure-player-sentiment.md(「공급 쪽 실측 — 누가 공시하나」) · concepts/ai-gamedev.md(「베끼는 비용도 낮아진다」) · concepts/console-retail-strategy.md(「2026 신작 연간 — 일본 타이틀과 스포츠가 양 끝」) · concepts/evergreen-ip.md(관측 표에 GOTY 장기 판매 행)
+  - comparisons/physical-retail-retention.md(「다섯 번째 분할선 — 지역」) · comparisons/small-studio-goty.md(「결과 — 판매로 본 GOTY」, updated 04-13 → 10-26)
+  - entities/elden-ring.md(판매 절) · entities/baldurs-gate-3.md · entities/astro-bot.md · entities/clair-obscur-expedition-33.md(판매·Game Pass) · entities/game-pass.md(데이원 계약 종료 뒤)
+  - wiki/sources/all.md(211 → 215, updated 10-26) · wiki/index.md(소스 카운트·Last updated)
+- **원문 내 수치 충돌 기록**: Alinea 패키지 글의 상위 타이틀 합계 \$1.2B vs 전체 \$655M+ / Zukowski 구간별 AI 공시 수 합 2,445 vs 2,502 — 각 소스 페이지 「약점과 한계」에 명시(위키 간 모순 아님 → ⚠️ 블록 없음)
+- 신규 entity 없음 → relations 해당 없음. RE 레퀴엠·Wolverine·Pragmata·Onimusha·Drunken Goddess Reflux·ReVamp 등은 본문 언급만
+- 빌드 검사 통과(458 파싱 · 964 emit) · 신규 wikilink 대상 전부 존재 · `]](` 1건 작성 중 발견해 수정 · 줄바꿈(CRLF 파일) 보존 확인
+- **미커밋 상태** — 배포는 주간 LINT로 유예 (INGEST 절차 9번)
+
+## [2026-10-26] lint | 주간 정기 점검 (스케줄 루틴)
+
+- 빌드: **통과** (458 파싱 · 964 emit · 52초). frontmatter YAML 오류 0 → 자동 수정 없음
+- 모순 블록 17(`> ⚠️ 모순` 줄 시작 기준 집계 — 지난주 18과 집계 방식 차이, 신규 0) · 끊긴 wikilink 0 · 고립 0 · alias 슬래시 0 · `]](` 0 · frontmatter `\$` 0 · confidence 위반 0
+- 미페이지 개념(파일 수): FC 20 · 가챠 19 · 메이플 16 · 리니지 16 · Minecraft 15 · Gears of War 13 · Overwatch 12 · Battlefield 11 · Resident Evil 10 · Ubisoft 10 · Onimusha 9 · 배틀패스 9 · 클론 7(신규 진입)
+- raw 미처리 **0건** — 122개 대조, 탐지 6건은 파일명만 다른 기처리분
+- 자동 갱신: `_ops/status.md` 5곳(INGEST 84→85 · 소스 211→215 · 총 md 454→458 · 헤더 날짜 · 마지막 갱신) / `wiki/overview.md` 변경 없음(신규 엔티티·개념 없음)
+- changelog 2026-10 4주차 블록 반영(사용자 승인, updated 10-26). 10-19 주는 활동 없어 건너뜀

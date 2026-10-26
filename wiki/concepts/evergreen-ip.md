@@ -1,10 +1,10 @@
 ---
 title: "에버그린 IP"
 type: concept
-sources: ["[[gi-tencent-live-service-strategy-2026-09]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[carless-genres-ruled-steam-2025-06]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[alinea-steam-15b-mid-market-2026-09]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]"]
+sources: ["[[gi-tencent-live-service-strategy-2026-09]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[carless-genres-ruled-steam-2025-06]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[alinea-steam-15b-mid-market-2026-09]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]", "[[alinea-goty-winners-sales-2026-10]]"]
 related: ["[[live-service-design|라이브 서비스 설계]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[hit-driven-strategy|홈런 전략]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[player-retention|플레이어 리텐션]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[tencent|텐센트]]", "[[roblox|Roblox]]", "[[game-market-trends|시장 구조 변화]]", "[[call-of-duty|Call of Duty]]"]
 created: 2026-09-08
-updated: 2026-09-14
+updated: 2026-10-26
 confidence: medium
 ---
 
@@ -31,6 +31,7 @@ confidence: medium
 | 장르 매출 우위의 정체 | Action의 매출 비중이 게임 수 비중보다 큰 이유가 **소수 evergreen 타이틀**(CS2·GTA V) | [[carless-genres-ruled-steam-2025-06]] |
 | 소비자 층으로서 실재 | 구작 이식 구매자 3클러스터 중 하나가 **"에버그린·패밀리"**(포트나이트·로블록스·GTA V·마인크래프트만 계속 도는 층) | [[alinea-ps-july-2026-cod-catalog]] |
 | 플랫폼 안에서도 발생 | Roblox의 플레이 시간이 바이럴 신작에서 **상시(evergreen) 경험으로 이동** | [[roblox-retention-algorithm-tradeoff-2026-08]] |
+| 라이브서비스 없이도 발생 | GOTY 수상작이 수년째 판매 — [[elden-ring]] 4년째 연 **약 200만 장**, [[astro-bot]] 2년째 **매달 10만 장 이상**, [[baldurs-gate-3]] 3년째 **MAU 220만** | [[alinea-goty-winners-sales-2026-10]] |
 | **유지가 기본값이 아니다** | H1 2026 기준 **기성 라이브서비스·에버그린 대부분이 전년 동기 대비 보합 또는 역성장** | [[gi-newzoo-ggmr-2026-release-2026-09]] |
 
 > 💡 마지막 행이 중요하다. Roblox 사례는 **에버그린화가 반드시 좋은 소식은 아니라는 반례**다. 플레이 시간이 상시 경험으로 옮겨가자 *시간당 수익화가 낮아져* 분기 실적이 깎였다. 에버그린은 매출의 안정성을 주지만 **단위 시간당 수익률까지 보장하지는 않는다.**

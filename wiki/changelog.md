@@ -4,11 +4,19 @@ type: concept
 sources: []
 related: ["[[index|전체 카탈로그]]", "[[overview|위키 소개]]"]
 created: 2026-09-03
-updated: 2026-10-12
+updated: 2026-10-26
 confidence: high
 ---
 
 이 위키에 새로 추가·갱신된 내용을 **주단위**로 정리합니다. 개설(2026-04) 이후 전 기록을 리더 친화 하이라이트로 압축했으며, 최신 주가 위에 옵니다. 새 페이지는 링크로 바로 이동할 수 있고, 전체 목록은 [[index|전체 카탈로그]]에서 볼 수 있습니다.
+
+## 2026-10 4주차 (~10-26)
+
+- **새 소스 4** — How To Market A Game "2026년 10월 Steam Next Fest는 얼마나 엉성한가" · Alinea "PlayStation 패키지 게임 매출" · GameDiscoverCo "AI·디컴파일 때문에 데모 계획을 바꿔야 하나" · Alinea "역대 GOTY 수상작은 얼마나 팔렸나"
+- **읽을거리** — 10월 Next Fest 데모 7,240개로 3년 만에 약 8배. 데모 최고 동접을 가르는 건 증가율이 아니라 쌓아 둔 팔로워 총량(ρ 0.55 vs 증가율 −0.13). AI 공시율은 상위 25위 8%, 101위 이하 35%로 하위권에 몰림. [[steam-next-fest|Steam Next Fest]]·[[ai-disclosure-player-sentiment|AI 디스클로저 플레이어 정서]]에 반영
+- **읽을거리** — AI 클론이 무서워 데모를 내려야 하나에 대한 답은 "대체로 아니다". 클론이 복제하는 건 코드와 컨셉이지 쌓인 관심이 아님. 단순·밈형 게임만 공개에서 출시까지 간격을 줄이라는 권고. [[steam-next-fest|Steam Next Fest]]·[[ai-gamedev|게임 개발에서의 생성형 AI]]에 「클론 공포와 데모」 추가
+- **주요 갱신** — [[console-retail-strategy|콘솔 리테일·유통 전략]]에 2026 PS 신작 패키지 비중 추가. 일본 타이틀(Fatal Frame II 리메이크 판매 50.7%)과 스포츠(NBA 2K27 매출 4.6%)가 양 끝, 같은 해 같은 플랫폼에서 10배 차이. [[physical-retail-retention|물리 유통 잔존율]]에도 다섯 번째 분할선 「지역」 추가
+- **주요 갱신** — 역대 GOTY 4편 누적 약 38억 달러·7,300만 장. 엘든링은 4년째에도 연 200만 장, BG3는 3년째 MAU 220만으로 수상작이 카탈로그로 남는 모습. [[small-studio-goty|소규모 스튜디오의 대작 전략]]·[[evergreen-ip|에버그린 IP]]·[[elden-ring|엘든링]]·[[baldurs-gate-3|발더스 게이트 3]]·[[astro-bot|아스트로봇]]·[[clair-obscur-expedition-33|클레르 옵스퀴르 33원정대]]에 반영
 
 ## 2026-10 2주차 (~10-12)
 
