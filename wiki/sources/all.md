@@ -1,13 +1,18 @@
 ---
 title: "소스 전체 목록"
 created: 2026-04-16
-updated: 2026-10-26
+updated: 2026-11-02
 ---
 
-총 215개 | 최신순 정렬
+총 220개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [phantom-blade-zero-launch-4m-2026-11](phantom-blade-zero-launch-4m-2026-11.md) | Phantom Blade Zero 출시 성과 (IT之家 외 보도 종합) — 공식 72시간 400만 장(전 플랫폼)·Steam 동접 43만→83만 4일 연속 상승·역대 14위·Wukong 241만의 약 3분의 1·Metacritic 88·Steam 평가 79%→89%·PS Store 98% 지역 톱10·사전 판매 85만의 약 4.7배·손익분기 160만(추정) 통과·매출 추정은 산식 불일치로 제외 | 2026-11-02 |
+| [carless-ai-signifier-engines-2026-10](carless-ai-signifier-engines-2026-10.md) | GameDiscoverCo — Next Fest의 숨은 AI 신호, 엔진 점유율 (Carless) — AI 공시 21.2%→26.5%→34.4%·공시 70%가 아트(대부분 아이콘·스토어)·코드 도우미는 공시 밖·Unity 46%·미탐지 17.7%·Godot 17.4%·Unreal 12.3%·CCU 상위 100은 Unity 53% · Unreal 28%·2027 Steam 출시 약 3.5만 개 전망·일부 유료 | 2026-10-30 |
+| [zukowski-ai-cloners-2026-10](zukowski-ai-cloners-2026-10.md) | Zukowski — AI 클론이 왔다, 인디는 끝났나 — Needle In A Haystack 팔로워 추이·플레이테스트 신청 2.3만·데모 먼저 낸 클론이 10-05 추월·기습 출시 클론 452 팔로워에서 정체·원작은 선두보다 약 2만 위시리스트 뒤·클론 위험 3조건·바이럴이면 곧장 데모 | 2026-10-28 |
+| [carless-next-fest-october-2026-results](carless-next-fest-october-2026-results.md) | GameDiscoverCo — 2026년 10월 Steam Next Fest 결산 (Carless) — 데모 7,300개+(+66.6%)·톱10 위시리스트 중앙값 +143k→+80k(−44%)·상위 10% 팔로워 +63(−48%)·Worst Class Ever 60만 명·Triple-I 쇼케이스 −75%·화제 증폭기·Personal Calendar 60일 전 확정 | 2026-10-27 |
+| [alinea-phantom-blade-zero-ff-resonance-2026-10](alinea-phantom-blade-zero-ff-resonance-2026-10.md) | Alinea — Phantom Blade Zero 사전 판매·FF Resonance 데모 전환 (Elliott) — PBZ 85만 장·\$43M·Metacritic 88·중화권 62.5%·서구 6개국만 보면 Steam 매출 84.4% 누락·WeGame 미집계·FF Resonance 40만 장·\$20M·데모 65만 명 중 약 25% 구매·구매자 45%가 데모 경험 | 2026-10-27 |
 | [alinea-goty-winners-sales-2026-10](alinea-goty-winners-sales-2026-10.md) | Alinea — 역대 GOTY 수상작은 얼마나 팔렸나 (Elliott) — 4편 합계 약 \$3.8B·7,300만 장·엘든링 3,640만 장·4년째 연 200만 장·콘솔 판매 절반에 매출 57.5%·BG3 MAU 200만 아래로 안 떨어짐·아스트로봇 패키지 46.6%·무료 번들 퍼널·E33 Game Pass 430만 명·계약 종료 후 Xbox 반등 조짐·수상 효과는 미측정 | 2026-10-22 |
 | [zukowski-next-fest-october-2026](zukowski-next-fest-october-2026.md) | Zukowski — 2026년 10월 Steam Next Fest 초기 분석 — 데모 7,240개(+65%)·연간 데모가 출시작의 51.7%(추정)·상위 25 팔로워 중앙값 5,519 vs 하위 15·총량 ρ 0.55 · 증가량 ρ 0.52 · 증가율 ρ −0.13·AI 공시 상위 8% vs 하위 35%·전략·RPG 공시 50%대·Action RPG 데모 인기 1위 | 2026-10-21 |
 | [alinea-ps-physical-revenues-2026-10](alinea-ps-physical-revenues-2026-10.md) | Alinea — PlayStation 패키지 게임 매출 (Elliott) — 2026 신작 패키지 \$655M+·프리미엄 매출 20% 미만·일본 중심 타이틀 41–51% vs 스포츠 4.6–8.9%·RE 레퀴엠 130만 장·일본 디지털 전용 PS5 \$350·소니 30% 수수료 논리·고가치 이용자 반발·\$1.2B vs \$655M 수치 충돌 | 2026-10-20 |

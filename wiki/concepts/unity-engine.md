@@ -1,10 +1,10 @@
 ---
 title: "Unity 엔진"
 type: concept
-sources: ["[[cedec2026-ratatan-small-team-console]]", "[[indiebi-game-pricing-strategy]]", "[[ai-asset-pipeline-tech-landscape-2026]]", "[[tencent-light-ai-pipeline-2026]]"]
+sources: ["[[cedec2026-ratatan-small-team-console]]", "[[indiebi-game-pricing-strategy]]", "[[ai-asset-pipeline-tech-landscape-2026]]", "[[tencent-light-ai-pipeline-2026]]", "[[carless-ai-signifier-engines-2026-10]]"]
 related: ["[[unreal-engine-5|Unreal Engine 5]]", "[[proprietary-engine-strategy|자체 엔진 전략]]", "[[proprietary-engine-vs-ue5|자체 엔진 vs UE5]]", "[[small-team-development|소규모 팀 개발 전략]]", "[[ai-asset-pipeline|AI 게임 에셋 산업화 파이프라인]]", "[[art-pipeline-design|아트 파이프라인 설계]]", "[[hoyoverse|호요버스]]", "[[ratatan|Ratatan]]", "[[mint-rocket|민트로켓]]"]
 created: 2026-09-08
-updated: 2026-09-08
+updated: 2026-11-02
 confidence: low
 ---
 
@@ -44,8 +44,21 @@ confidence: low
 
 [[indiebi-game-pricing-strategy|IndieBI × Unity]] 가격 책정 보고서는 위키의 [[game-pricing-strategy|가격 전략]] 축에서 인용되는 소스다. 이 경우 Unity는 엔진이 아니라 **데이터 발행 주체**로 등장한다 — 엔진사가 자사 생태계 데이터를 근거로 시장 가이드를 내는 형태.
 
+## 인디 데모 시장의 점유율 — 많이 쓰이는 것과 많이 플레이되는 것 ([[carless-ai-signifier-engines-2026-10]])
+
+위 사례들이 *어떻게 쓰나*라면, 2026-10 Steam Next Fest 데모 7천여 개의 엔진 탐지는 *얼마나 쓰나*를 보여준다. 이 페이지의 첫 정량 자료다.
+
+| 엔진 | 전체 데모 | 피크 CCU 상위 100 |
+|---|---|---|
+| Unity | **약 46%** (1위) | **53%** |
+| 엔진 미탐지 | 17.7% | 7% |
+| Godot | 17.4% (6월 12.6%) | 6% |
+| Unreal | 12.3% | **28%** |
+
+> 💡 Unity는 인디 데모의 거의 절반을 차지하고 상위권에서도 절반을 지킨다 — *공급과 성과 양쪽에서 기본값*이다. Unreal은 공급은 적지만 상위권 비중이 두 배 넘게 뛰어, *적게 쓰이지만 쓰는 팀은 크다*는 그림이 나온다. 위 「결정 분기」에서 Unity와 UE5가 같은 칸을 공유한다고 적었는데, 이 데이터가 둘을 가르는 첫 단서다. 다만 엔진이 성과를 만든다기보다 **팀 규모·예산이 엔진 선택과 CCU를 함께 결정**한다고 읽는 편이 안전하다. 아래쪽에서 빠르게 크는 것은 Godot과 미탐지(바이브 코딩·웹 프레임워크로 추정)다.
+
 ## 남은 갭
 
-- Unity vs UE5의 **실제 선택 기준** — 라이선스 비용, 팀의 기존 숙련도, 타깃 플랫폼 중 무엇이 결정적인지 1차 인터뷰 없음
+- Unity vs UE5의 **실제 선택 기준** — 라이선스 비용, 팀의 기존 숙련도, 타깃 플랫폼 중 무엇이 결정적인지 1차 인터뷰 없음 (점유율은 위 절에서 확보, *왜 고르는지*는 여전히 미수집)
 - 2023년 런타임 요금 사태 이후의 **신뢰 회복 여부** — 위키에 자료 전무. [[player-trust-design|신뢰 설계]]를 개발사↔플랫폼 관계에 적용해 볼 만한 케이스이나 근거 미수집
 - Unity Technologies(회사)의 재무·전략 — 커버리지 밖

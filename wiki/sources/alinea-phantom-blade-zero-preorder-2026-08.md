@@ -5,9 +5,9 @@ source_url: "https://alineaanalytics.substack.com/p/phantom-blade-zero-is-on-tra
 source_author: "Rhys Elliott (Alinea Analytics)"
 source_published: 2026-08-21
 sources: []
-related: ["[[launch-metrics|흥행 예측 지표]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[sony-interactive-entertainment|소니 인터랙티브 엔터테인먼트]]", "[[crimson-desert|붉은사막]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[alinea-q4-games-to-watch-2026-09]]"]
+related: ["[[launch-metrics|흥행 예측 지표]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[sony-interactive-entertainment|소니 인터랙티브 엔터테인먼트]]", "[[crimson-desert|붉은사막]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[alinea-q4-games-to-watch-2026-09]]", "[[phantom-blade-zero|Phantom Blade Zero]]", "[[alinea-phantom-blade-zero-ff-resonance-2026-10]]", "[[phantom-blade-zero-launch-4m-2026-11]]"]
 created: 2026-08-24
-updated: 2026-10-06
+updated: 2026-11-02
 confidence: high
 ---
 
@@ -33,6 +33,10 @@ confidence: high
 > ⚠️ **저자 본인이 붙인 캐비엣:** *"AAA·AA의 위시리스트는 할인을 기다리는 북마크일 뿐이고 출시 시점 구매 의도를 보여주지 않는다."* 지역 분포는 관심의 대리 지표로는 쓸 만하지만, 절대 수치를 구매 예측으로 환산하면 안 된다. → [[launch-metrics]]의 "가짜 신호" 절과 정확히 같은 경고이며, **160만이라는 최다 기록도 그 자체로는 흥행 근거가 아니다**.
 
 > 📌 **후속 수치 (2026-09-29)**: 출시 약 한 달 전 Steam 사전 판매 **38.6만 장 · \$18.5M**, 위시리스트 **240만**, 위시리스트 대비 사전 주문 약 16% — [[alinea-q4-games-to-watch-2026-09]]
+
+> 📌 **출시 직전 (2026-10-27)**: Steam+PS5 디지털 사전 판매 **85만 장 · \$43M**(Steam 73.8%), Metacritic 88, 중화권 판매량 62.5% — [[alinea-phantom-blade-zero-ff-resonance-2026-10]]
+
+> 📌 **출시 결과 (2026-11-02)**: 공식 **72시간 400만 장**(전 플랫폼), Steam 동접 피크 83만(Wukong의 약 3분의 1, 4일 연속 상승). 이 글의 판정 "다음 Wukong은 아니지만 같은 구간"이 맞았다 — [[phantom-blade-zero-launch-4m-2026-11]]
 
 ## 출시일 정렬 궤도 비교 — 이 글의 방법론
 

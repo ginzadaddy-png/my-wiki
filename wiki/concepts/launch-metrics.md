@@ -1,10 +1,10 @@
 ---
 title: "흥행 예측 지표"
 type: concept
-sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]", "[[zukowski-golden-age-week-2026-08]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[alinea-mortal-shell-2-launch-2026-08]]", "[[zukowski-demos-wishlist-conversion]]", "[[carless-steam-demo-ccu-2026-09]]", "[[alinea-wardogs-launch-2026-09]]", "[[alinea-q4-games-to-watch-2026-09]]", "[[alinea-gears-e-day-launch-2026-10]]"]
+sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]", "[[zukowski-golden-age-week-2026-08]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[alinea-mortal-shell-2-launch-2026-08]]", "[[zukowski-demos-wishlist-conversion]]", "[[carless-steam-demo-ccu-2026-09]]", "[[alinea-wardogs-launch-2026-09]]", "[[alinea-q4-games-to-watch-2026-09]]", "[[alinea-gears-e-day-launch-2026-10]]", "[[alinea-phantom-blade-zero-ff-resonance-2026-10]]", "[[phantom-blade-zero-launch-4m-2026-11]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[forecasting-vs-launch-metrics|예측 vs 측정 비교]]", "[[audience-age-segmentation|연령대별 발견 경로]]", "[[wardogs|Wardogs]]"]
 created: 2026-04-20
-updated: 2026-10-12
+updated: 2026-11-02
 confidence: high
 ---
 
@@ -398,3 +398,11 @@ Wardogs의 Steam 리뷰는 74% 긍정이지만 **5시간 이상 플레이어는 
 > ⚠️ 모두 출시 전 판정이다. 다섯 게임의 출시 후 결과로 맞는지 확인해야 하고, Alinea는 같은 방식의 과거 적중률을 내놓지 않았다.
 
 > 📌 **첫 사후 확인 — Gears of War: E-Day** ([[alinea-gears-e-day-launch-2026-10]]): 출시 전 사전 판매 12만 장으로 Wardogs(56.7만)보다 약하다고 판정됐는데, 실제로 출시 9일차 판매 23만 장(Steam 16.8만 · Xbox 6.2만)에 그쳤다. 판정 방향은 맞았다. 다만 Game Pass 접근 170만·\$30 업그레이드 72.2만이 따로 있어, Xbox 1st party는 사전 판매만으로 *관심 규모*를 잴 수 없다 — 돈을 내는 경로가 판매 밖에도 있다
+
+> 📌 **두 번째 사후 확인 — Phantom Blade Zero** ([[alinea-phantom-blade-zero-ff-resonance-2026-10]]): D-70에 Wukong 궤도의 73%로 "다음 Wukong은 아니지만 같은 구간"이라 판정됐고, 출시 직전 Steam+PS5 사전 판매 85만 장·\$43M(Steam만 약 62.7만 장), Metacritic 88로 이어졌다. 판정의 갈림길로 꼽힌 품질 변수를 통과했다. WeGame 판매가 빠져 있어 실제 총량은 더 크다. **출시 뒤 공식 발표는 72시간 400만 장**(전 플랫폼)으로, 출시 직전 사전 판매의 약 4.7배다. Steam 동접은 출시 후 4일 연속 올라 83만(Wukong 241만의 약 3분의 1)에 닿았다 — *같은 구간이지만 Wukong은 아니다*라는 판정이 판매·동접 양쪽에서 맞았다 ([[phantom-blade-zero-launch-4m-2026-11]])
+
+## 데모 플레이어 → 구매 전환 — 기대가 갈리는 출시일수록 데모가 듣는다 ([[alinea-phantom-blade-zero-ff-resonance-2026-10]])
+
+Final Fantasy Resonance(2026-10-22, 5일 미만 40만 장·\$20M)는 데모(09-03) 플레이어 65만 명 가운데 **약 4분의 1이 구매**했고, **구매자의 약 45%가 데모 경험자**다. Alinea는 보통 데모 → 구매 전환을 **10%대 초반**으로 본다. 위 인디 데모의 데모 → 위시리스트 전환과는 지표가 달라 직접 비교할 수 없지만, *기존 팬이 "이번엔 내가 원하는 FF인가"를 확인하는 도구*로서 데모가 판매를 끌어올린 사례다 — 클래식 턴제 회귀처럼 프랜차이즈 팬의 기대가 갈리는 출시일수록 데모의 값이 커진다.
+
+> ⚠️ 데모 수치 일부가 원문 안에서 서로 맞지 않고(출시 후 첫 데모 Steam 약 10만 명 vs 전 플랫폼 6.27만 명), "10%대 초반" 기준선의 표본은 공개되지 않았다

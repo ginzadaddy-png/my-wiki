@@ -1,10 +1,10 @@
 ---
 title: "게임 개발에서의 생성형 AI"
 type: concept
-sources: ["[[gamedev-leadership-dynamics]]", "[[gi-tencent-live-service-strategy-2026-09]]", "[[carless-ai-decompilation-demos-2026-10]]"]
+sources: ["[[gamedev-leadership-dynamics]]", "[[gi-tencent-live-service-strategy-2026-09]]", "[[carless-ai-decompilation-demos-2026-10]]", "[[zukowski-ai-cloners-2026-10]]", "[[carless-ai-signifier-engines-2026-10]]"]
 related: ["[[tencent|텐센트]]", "[[studio-culture|스튜디오 문화]]", "[[dev-org-structure|개발 조직 구조]]", "[[data-driven-development|데이터 기반 개발]]", "[[ai-asset-pipeline|AI 게임 에셋 산업화 파이프라인]]", "[[ai-disclosure-player-sentiment|AI 디스클로저 플레이어 정서]]"]
 created: 2026-04-23
-updated: 2026-10-26
+updated: 2026-11-02
 confidence: high
 ---
 
@@ -66,6 +66,10 @@ confidence: high
 ## 베끼는 비용도 낮아진다 — 클론·디컴파일 ([[carless-ai-decompilation-demos-2026-10]])
 
 AI는 만드는 쪽만이 아니라 *베끼는 쪽*의 비용도 낮춘다. 2026-10에는 AI 클론 우려로 위시리스트 25만–57만 규모의 게임들이 공개 데모·플레이테스트를 거두었고, 디컴파일로 코드를 훔쳤다는 Steam 저작권 신고도 나왔다. Carless는 위험을 *구현이 쉬운 밈형 컨셉*에 한정하고, 복잡한 게임은 데모를 유지하라고 권한다. 대응은 [[steam-next-fest|Steam Next Fest]] 「클론 공포와 데모」 절 참조.
+
+결과 데이터도 나왔다([[zukowski-ai-cloners-2026-10]]). Needle In A Haystack 사건에서 디컴파일 의혹 클론과 기습 출시한 클론은 품질·노출 부족으로 정체했고, 원작을 추월한 것은 *먼저 데모를 낸* 클론이었다. 베끼는 비용이 낮아져도 결과를 가른 것은 품질과 노출 순서였다.
+
+공급 쪽에서는 바이브 코딩이 **엔진 선택**까지 바꾸는 신호가 보인다([[carless-ai-signifier-engines-2026-10]]). 2026-10 Next Fest 데모에서 엔진 미탐지(Three.js 같은 웹 프레임워크로 추정)가 17.7%, MCP 연동이 있는 Godot이 17.4%로 커졌지만, 이 둘은 피크 CCU 상위 100에서 합쳐 13%뿐이다. Carless의 결론: 바이브 코딩 게임은 차트를 위협하지 않고, **진짜 경쟁자는 AI 코드 도움을 "메스처럼" 쓰는 숙련된 1인·초소형 팀**이다.
 
 ## 역할 변화
 

@@ -4,11 +4,20 @@ type: concept
 sources: []
 related: ["[[index|전체 카탈로그]]", "[[overview|위키 소개]]"]
 created: 2026-09-03
-updated: 2026-10-26
+updated: 2026-11-02
 confidence: high
 ---
 
 이 위키에 새로 추가·갱신된 내용을 **주단위**로 정리합니다. 개설(2026-04) 이후 전 기록을 리더 친화 하이라이트로 압축했으며, 최신 주가 위에 옵니다. 새 페이지는 링크로 바로 이동할 수 있고, 전체 목록은 [[index|전체 카탈로그]]에서 볼 수 있습니다.
+
+## 2026-11 1주차 (~11-02)
+
+- **새 엔티티 1** — [[phantom-blade-zero|Phantom Blade Zero]]. 출시 72시간 400만 장·Steam 동접 83만. 출시 10주 전 "Wukong급은 아니지만 같은 구간"이라던 예측이 그대로 맞은 사례
+- **새 소스 5** — GameDiscoverCo "2026년 10월 Steam Next Fest 결산" · GameDiscoverCo "Next Fest의 숨은 AI 신호" · Alinea "Phantom Blade Zero 상승, FF Resonance 데모 전환" · How To Market A Game "AI 클론이 왔다, 인디는 끝났나" · Phantom Blade Zero 출시 성과 보도 종합
+- **읽을거리** — Next Fest는 화제를 만드는 곳이 아니라 키우는 곳. 데모가 66% 늘어난 판에서 상위 10%의 팔로워 증가는 절반 가까이 줄어, 축제 전에 데모로 관심을 모아 두는 쪽이 상위권 차지. [[steam-next-fest|Steam Next Fest]]에 「축제는 화제를 키우는 곳이다」 추가
+- **읽을거리** — 클론에게 진 이유는 클론이 아니라 노출 순서. 데모를 먼저 낸 클론이 팔로워를 가져갔고, 숨겼다가 먼저 출시한 클론은 452 팔로워에서 멈춤. 지난주 「클론 공포와 데모」의 결과편으로 [[steam-next-fest|Steam Next Fest]]·[[ai-gamedev|게임 개발에서의 생성형 AI]]에 반영
+- **주요 갱신** — [[unity-engine|Unity 엔진]]에 「인디 데모 시장의 점유율」 신설. Unreal은 전체 데모의 12.3%지만 피크 동접 상위 100에서는 28%. 늘어난 데모는 주로 저동접 구간에서 나오고 상위권은 여전히 Unity·Unreal이 나눠 가짐. [[ai-disclosure-player-sentiment|AI 디스클로저 플레이어 정서]]에는 AI 공시 세 회차 추이 추가
+- **주요 갱신** — [[launch-metrics|런치 메트릭]]에 PBZ 출시 결과와 「데모 플레이어 → 구매 전환」 추가. 동접이 출시 후 4일 연속 오른 드문 패턴이고, FF Resonance 데모 전환은 25%. [[game-market-trends|시장 구조 변화]]에는 Steam 출시 수 전망(2027년 약 3.5만 개) 반영
 
 ## 2026-10 4주차 (~10-26)
 

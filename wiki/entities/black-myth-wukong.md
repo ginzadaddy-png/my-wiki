@@ -4,10 +4,10 @@ type: entity
 relations:
   developedBy: [game-science]
   platform: [ps5, pc]
-sources: ["[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[unreal-engine-5]]"]
-related: ["[[game-science|Game Science]]", "[[unreal-engine-5|Unreal Engine 5]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[launch-metrics|런치 메트릭]]", "[[game-market-trends|시장 구조 변화]]", "[[physical-retail-retention|물리 유통 잔존율 3층]]", "[[soulslike|소울라이크]]"]
+sources: ["[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[phantom-blade-zero-launch-4m-2026-11]]", "[[unreal-engine-5]]"]
+related: ["[[game-science|Game Science]]", "[[unreal-engine-5|Unreal Engine 5]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[launch-metrics|런치 메트릭]]", "[[game-market-trends|시장 구조 변화]]", "[[physical-retail-retention|물리 유통 잔존율 3층]]", "[[soulslike|소울라이크]]", "[[phantom-blade-zero|Phantom Blade Zero]]"]
 created: 2026-08-31
-updated: 2026-08-31
+updated: 2026-11-02
 confidence: medium
 ---
 
@@ -21,6 +21,7 @@ confidence: medium
 |---|---|---|
 | 스팀 누적 판매 | **약 1,700만 장** (절반 이상 중국, Alinea 추정) | [[alinea-phantom-blade-zero-preorder-2026-08]] |
 | 스팀 사전주문 | 약 393,000 | 같은 관측창의 Phantom Blade Zero 비교 기준선 |
+| Steam 동접 피크 | **2,415,714** (2024 출시) · 첫 4일 1,000만 장 | [[phantom-blade-zero]] 출시 성과(동접 83만 · 72시간 400만 장)의 기준선 — [[phantom-blade-zero-launch-4m-2026-11]] |
 | PS 물리(패키지) 비중 | **10.8%** — 10종 추정 중 **최하단** | [[alinea-ps-physical-fc27-odyssey-2026-07]] |
 | 개발 규모 | 약 140명 | [[proprietary-engine-vs-ue5]]·[[unreal-engine-5]] |
 

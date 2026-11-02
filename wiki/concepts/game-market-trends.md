@@ -1,10 +1,10 @@
 ---
 title: "게임 시장 트렌드"
 type: concept
-sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[bain-gaming-report-2026]]", "[[newzoo-pc-console-2026]]", "[[newzoo-ggmr-2026-preview]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[alinea-steam-record-year-2026]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[sony-ir-1q-fy2026]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[circana-us-physical-lowest-2026-07]]", "[[gi-newzoo-console-gta6-2026-08]]", "[[carless-hit-pc-genres-2021-2025]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]"]
+sources: ["[[gdc26-newzoo-market-analysis]]", "[[sensortower-2026-report]]", "[[matthew-ball-2026-report]]", "[[gdc26-idg-finding-signal-noise]]", "[[missing-middle-paradigm-shift-2026]]", "[[bain-gaming-report-2026]]", "[[newzoo-pc-console-2026]]", "[[newzoo-ggmr-2026-preview]]", "[[ukyou-sweden-steam-2025]]", "[[capcom-fy26-ir]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zukowski-2025-year-review]]", "[[alinea-steam-record-year-2026]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[sony-ir-1q-fy2026]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[circana-us-physical-lowest-2026-07]]", "[[gi-newzoo-console-gta6-2026-08]]", "[[carless-hit-pc-genres-2021-2025]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]", "[[alinea-phantom-blade-zero-ff-resonance-2026-10]]", "[[carless-ai-signifier-engines-2026-10]]", "[[phantom-blade-zero-launch-4m-2026-11]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[launch-metrics|흥행 예측 지표]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]", "[[gta-6|GTA 6]]", "[[call-of-duty|Call of Duty]]"]
 created: 2026-04-20
-updated: 2026-09-14
+updated: 2026-11-02
 confidence: high
 ---
 
@@ -123,6 +123,10 @@ AI 메모리 쇼크발 가격 인상으로 콘솔 출하가 꺾인다. S&P Globa
 - 신작 출시 수 +8%, 다운로드 +6%
 - **크리에이터 친화 협동 게임**(소규모 제작)이 AAA를 위협
 
+### Steam 출시 수 — 2027년 약 3.5만 개 전망 ([[carless-ai-signifier-engines-2026-10]])
+
+SteamDB 기준 2026-09 **2,875개(+76% YoY)**, 2026-10은 집계 중에 이미 3,114개(+53%)다. 연환산하면 **2027년 약 3.5만 개**로 2025년 약 2.1만의 1.7배다(두 달치 증가율의 단순 외삽). 같은 시기 Next Fest 데모도 7,300개로 6월 대비 +66% — 공급 폭증이 출시와 데모 양쪽에서 동시에 일어나고 있다 → [[steam-next-fest|Steam Next Fest]]
+
 ### 히트 PC 게임의 장르 구성 변동 2021 → 2025 ([[carless-hit-pc-genres-2021-2025]])
 
 GameDiscoverCo가 같은 방법으로 2021과 2025를 두 번 찍어 **순위 변동을 뺀** 시계열. 표본은 각 연도 신작 중 5만 장 이상 판매한 게임(2021년 261개 → 2025년 469개)의 상위 장르 태그다.
@@ -175,6 +179,8 @@ GameDiscoverCo가 같은 방법으로 2021과 2025를 두 번 찍어 **순위 �
 - **소니가 이 게임을 퍼스트파티급으로 대우하는 이유**: 재무 자료의 메시징은 중국·PC에서 멀어졌는데도 China Hero Project로 받치는 것은, *박스와 생태계*라는 핵심 가치 제안을 훼손하지 않으면서 **스팀과 중국에 한 발을 남기는**(싱글플레이 한정) 방식이다. 중국은 오늘날 AAA·AA 생태계의 성장 벡터로 취급된다
 - ⚠️ 중국 특유의 리스크: **만리방화벽 때문에 포럼·디스코드로 불만을 낼 수 없는 중국 플레이어는 그것을 스팀 이용자 리뷰로 낸다.** 흐릿한 화질·낮은 프레임 조합이 "최적화 불량" 리뷰 폭격의 전형적 방아쇠 — 리뷰 등급이 매출 배수로 직결되는 구조([[launch-metrics]])에서 실질 위험
 - ⚠️ 판매 수치는 Alinea 자체 추정이며 방법론 비공개. 출시 전 지표이므로 사후 검증 필요
+- **출시 직전 결과** ([[alinea-phantom-blade-zero-ff-resonance-2026-10]]): Steam+PS5 사전 판매 **85만 장·\$43M**, Metacritic 88. 중화권이 판매량 62.5%·매출 55.1%이고, **서구 6개국만 보면 Steam 매출의 84.4%를 놓친다**. 같은 게임이 Steam에선 중화권 75.9%, PS5에선 약 24.9%라 플랫폼마다 주력 시장이 다르다 → [[phantom-blade-zero|Phantom Blade Zero]]
+- **출시 결과** ([[phantom-blade-zero-launch-4m-2026-11]]): 공식 **72시간 400만 장**, Steam 동접 피크 83만(역대 14위), Metacritic 88. 판매 속도는 Wukong 첫 4일의 약 40% — 중국계 AAA가 *세대적 이상치 없이도* 판호·홈타운 히어로 조건만으로 수백만 장 규모에 닿는다는 두 번째 사례
 
 ## 미싱 미들(Missing Middle)의 부상 ([[missing-middle-paradigm-shift-2026]])
 

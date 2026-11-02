@@ -5,7 +5,7 @@ source_url: "https://howtomarketagame.com/2026/10/21/how-sloppy-is-the-october-2
 source_author: "Chris Zukowski (How To Market A Game)"
 source_published: 2026-10-21
 sources: []
-related: ["[[steam-next-fest|Steam Next Fest]]", "[[ai-disclosure-player-sentiment|AI 디스클로저 플레이어 정서]]", "[[carless-next-fest-june-2026]]", "[[zukowski-next-fest-strategy]]", "[[genre-tag-taxonomy|장르·태그 분류]]", "[[launch-metrics|흥행 예측 지표]]", "[[carless-ai-decompilation-demos-2026-10]]", "[[valve|Valve]]"]
+related: ["[[steam-next-fest|Steam Next Fest]]", "[[ai-disclosure-player-sentiment|AI 디스클로저 플레이어 정서]]", "[[carless-next-fest-june-2026]]", "[[zukowski-next-fest-strategy]]", "[[genre-tag-taxonomy|장르·태그 분류]]", "[[launch-metrics|흥행 예측 지표]]", "[[carless-ai-decompilation-demos-2026-10]]", "[[valve|Valve]]", "[[carless-next-fest-october-2026-results]]", "[[zukowski-ai-cloners-2026-10]]"]
 created: 2026-10-26
 updated: 2026-10-26
 confidence: medium

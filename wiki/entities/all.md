@@ -2,7 +2,7 @@
 title: "전체 개체 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-09-29
+updated: 2026-11-02
 ---
 
 ← [홈으로](../index.md)
@@ -148,6 +148,7 @@ graph 추론(플랫폼별 게임·독점작 질의)을 위한 플랫폼 노드.
 | [[granblue-fantasy-relink]] | [[cygames]], 4인 협동 액션 RPG — 28캐릭×3스타일, 동료 AI 2계층 + 어시스트 모드 아키텍처 공유 |
 | [[ratatan]] | [[tvt]], 리듬 액션·로그라이트, 2026-10-15 — 콘솔 심사로 연기, 10언어 1,200만 자 |
 | [[black-myth-wukong]] | [[game-science]], 2024-08, UE5 — 스팀 약 1,700만 장, 물리 비중 10.8% 최하단, 이상치라 상한선으로 쓸 수 없음 |
+| [[phantom-blade-zero]] | S-Game(베이징), 2026-10-29, PS5·PC — 공식 72시간 400만 장, Steam 동접 83만(역대 14위), 사전 판매 85만 장(Steam+PS5)·중화권 62.5%, Metacritic 88 |
 | [[mortal-shell-2]] | [[cold-symmetry]], 2026-08, 소울라이크 \$49.99 — 첫 주말 51만 장, 스팀 오디언스 91%가 신규(데모 경유 1/3) |
 | [[paralives]] | [[paralives-studio]], 라이프심 EA — 첫 달 100만 장, 환불률 6.5%(중앙값 9.5% 하회), 잔여 위시리스트 180만 |
 | [[dear-passengers]] | [[flexus]], friendslop — 트레일러 하나로 3일 만에 위시리스트 100만, WL:팔로워 35배(미검증 관심의 신호) |

@@ -2300,3 +2300,40 @@ title: "활동 로그"
 - `Deploy Quartz site to GitHub Pages` run **40264824093 success** (1m27s, 2026-10-26T03:35:29Z)
 - 빌드 검사 통과(458 파싱 · 964 emit) · 줄바꿈 churn 0
 - deck 신규·수정 없음 → 단독 배포본(`dist/`) 재생성 불필요 / 챗봇 재색인 해당 없음(delist) / Quartz repo 변경 없음
+
+## [2026-11-02] ingest | Source radar 11-02 후보 4건 — Carless 10월 Next Fest 결산 · Carless AI 신호와 엔진 점유율 · Alinea PBZ·FF Resonance · Zukowski AI 클론
+
+- Source:
+  - raw/articles/2026-10-27-carless-october-2026-next-fest-results.md (원문 https://newsletter.gamediscover.co/p/who-won-october-2026s-steam-next · Simon Carless · 2026-10-27)
+  - raw/articles/2026-10-30-carless-hidden-ai-signifier-next-fest.md (원문 https://newsletter.gamediscover.co/p/the-hidden-ai-signifier-in-next-fest · Simon Carless · 2026-10-30 · 일부 유료, 무료 구간만)
+  - raw/articles/2026-10-27-alinea-phantom-blade-zero-ff-resonance.md (원문 https://alineaanalytics.substack.com/p/phantom-blade-zero-rises-while-final · Rhys Elliott · 2026-10-27)
+  - raw/articles/2026-10-28-zukowski-ai-cloners.md (원문 https://howtomarketagame.com/2026/10/28/ai-cloners-are-here-are-indie-devs-cooked/ · Chris Zukowski · 2026-10-28)
+- 경위: 11-02 source radar 추천 6건 중 사용자가 1·3·4·5 지정. 강조축은 Claude 제안 승인 + **PBZ 엔티티 신설**(사용자 선택) — ① 공급 +66% vs 상위 성과 −44%·"화제 증폭기" ② unity-engine 미수집 칸에 엔진 점유율(전체 vs CCU 상위 100) + AI 공시 3회차 시계열 + Steam 출시 수 전망 ③ PBZ D-70 예측의 사후 확인·중화권 비중·FF Resonance 데모 전환 25% ④ 「클론 공포와 데모」 결과편. raw는 구조화 발췌 방식
+- 생성: wiki/sources/carless-next-fest-october-2026-results.md · wiki/sources/carless-ai-signifier-engines-2026-10.md · wiki/sources/alinea-phantom-blade-zero-ff-resonance-2026-10.md · wiki/sources/zukowski-ai-cloners-2026-10.md (4건 모두 confidence **medium** — 단일 소스·자체 추정) · wiki/entities/phantom-blade-zero.md (relations: platform [ps5, pc] — 개발·퍼블리셔 S-Game은 엔티티 부재로 비움)
+- 업데이트:
+  - concepts/steam-next-fest.md(타임라인 2026-10 결과 · 「축제는 화제를 키우는 곳이다」 · 클론 절 결과편 · Personal Calendar 정식 출시 60일 규칙) · concepts/unity-engine.md(「인디 데모 시장의 점유율」 신설, 남은 갭 문구) · concepts/ai-disclosure-player-sentiment.md(「세 회차 추이」) · concepts/game-market-trends.md(PBZ 출시 직전 결과 · 「Steam 출시 수 — 2027년 약 3.5만 개」) · concepts/launch-metrics.md(PBZ 두 번째 사후 확인 · 「데모 플레이어 → 구매 전환」) · concepts/ai-gamedev.md(클론 결과·바이브 코딩과 엔진 선택)
+  - entities/black-myth-wukong.md(related) · sources/alinea-phantom-blade-zero-preorder-2026-08.md(📌 출시 직전 수치) · sources/zukowski-next-fest-october-2026.md · sources/carless-ai-decompilation-demos-2026-10.md(related·연결)
+  - wiki/sources/all.md(215 → 219, updated 11-02) · wiki/entities/all.md(게임 행 추가, updated 11-02) · wiki/index.md(소스 219·게임 54·Last updated)
+- **원문 내 수치 충돌 기록**: Alinea FF Resonance 출시 후 첫 데모 Steam 약 10만 vs 전 플랫폼 6.27만 — 소스 페이지 「약점과 한계」·launch-metrics ⚠️에 명시(위키 간 모순 아님). AI 공시 10월 Carless 2,517 vs Zukowski 2,502는 거의 일치로 본문에 병기
+- 신규 entity 1건(phantom-blade-zero). Find The Needle·Worst Class Ever·FF Resonance·S-Game은 본문 언급만
+- **미커밋 상태** — 배포는 주간 LINT로 유예 (INGEST 절차 9번)
+
+## [2026-11-02] ingest | Phantom Blade Zero 출시 성과 — 72시간 400만 장·Steam 동접 83만 (보도 종합)
+
+- Source: raw/articles/2026-11-02-phantom-blade-zero-launch-sales-roundup.md (원문 대표 https://www.ithome.com/1/020/891.htm · S-GAME 공식 발표 보도 종합 · 2026-11-02. 보조: GamingBolt·VGChartz·Game World Observer·新京报·TechWeb·IT之家 1/019/624·1/020/678·1/020/840)
+- 경위: 같은 날 PBZ 엔티티 신설 직후 사용자 요청 — "이미 출시됐으니 출시 후 상업 성과 보강, 오늘 400만 장 돌파 소식". WebSearch(영·중) + WebFetch로 수집. X 공식 게시물(402)·GameSpot(403)은 직접 열람 실패 → 임베드·중국 매체 문구로 확인
+- 생성: wiki/sources/phantom-blade-zero-launch-4m-2026-11.md (confidence **medium** — 판매는 개발사 자체 발표, 동접은 SteamDB 다수 보도 교차)
+- 업데이트: entities/phantom-blade-zero.md(출시 72시간 행·「출시 후 지표」 절·핵심 인사이트 재작성) · concepts/launch-metrics.md(PBZ 사후 확인에 출시 결과) · concepts/game-market-trends.md(PBZ 출시 결과 bullet) · entities/black-myth-wukong.md(동접 피크 기준선 행) · sources/alinea-phantom-blade-zero-preorder-2026-08.md · sources/alinea-phantom-blade-zero-ff-resonance-2026-10.md(📌 출시 결과) · wiki/sources/all.md(219 → 220) · wiki/entities/all.md(PBZ 행) · wiki/index.md(소스 220)
+- 배제: 중국 매체·AI 기사의 "3일 매출 11억 위안+"는 산식 불일치(400만 × 268 = 10.72억)로 미사용. TechWeb 손익분기 160만 장은 근거 미공개 추정으로 표기만
+- 같은 세션 앞 ingest의 table 셀 alias wikilink 1건(zukowski-ai-cloners 타임라인)도 `[[slug]]` 형식으로 정정
+- **미커밋 상태** — 배포는 주간 LINT로 유예 (INGEST 절차 9번)
+
+## [2026-11-02] lint | 주간 정기 점검 (스케줄 루틴)
+
+- 빌드: **통과** (464 파싱 · 976 emit · 45초). frontmatter YAML 오류 0 → 자동 수정 없음
+- 모순 블록 17(신규 0) · 끊긴 wikilink 0 · 고립 0 · alias 슬래시 0 · `]](` 0 · frontmatter `\$` 0 · confidence 위반 0
+- 카탈로그 updated: sources·entities 11-02(이번 주 행 추가분 반영) / concepts 09-29 · comparisons 08-31 · reports 08-13은 이후 행 변경 없어 정상
+- 미페이지 개념(파일 수, 한·영 표기 합산): FC 23 · 가챠 19 · Overwatch 18 · Minecraft 17 · 메이플 16 · 리니지 16 · Battlefield 16 · 배틀패스 15 · Gears of War 13 · Resident Evil 13 · Ubisoft 13 · 클론 11 · Onimusha 9 · Final Fantasy 7 · S-Game 6
+- raw 미처리 **0건** — 126개 대조, 탐지 9건은 기처리분(fares·kasavin·tornqvist·vincke·zukowski `url:` 키 5 · TotK 2 · 매튜볼 gameres 1 · 인벤 Steam 마케팅 1)
+- 자동 갱신: `_ops/status.md` 6곳(INGEST 85→87 · 소스 215→220 · 엔티티 123→124 · 총 md 458→464 · 헤더 날짜 · 마지막 갱신) / `wiki/overview.md` 게임 53→54(Phantom Blade Zero 추가), 핵심 테마 변경 없음(신규 개념 없음)
+- changelog 2026-11 1주차 블록 초안 작성 — 사용자 승인 대기(미반영)

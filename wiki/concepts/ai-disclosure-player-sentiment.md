@@ -1,10 +1,10 @@
 ---
 title: "AI 디스클로저 플레이어 정서"
 type: concept
-sources: ["[[carless-steam-fans-ai-sentiment-2026-07]]", "[[bain-gaming-report-2026]]", "[[zukowski-next-fest-october-2026]]"]
+sources: ["[[carless-steam-fans-ai-sentiment-2026-07]]", "[[bain-gaming-report-2026]]", "[[zukowski-next-fest-october-2026]]", "[[carless-ai-signifier-engines-2026-10]]"]
 related: ["[[ai-gamedev|게임 개발에서의 생성형 AI]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[player-trust-design|플레이어 신뢰 설계]]"]
 created: 2026-07-13
-updated: 2026-10-26
+updated: 2026-11-02
 confidence: medium
 ---
 
@@ -48,3 +48,11 @@ Bain Gaming Report 2026(글로벌 게이머 n=5,339)은 정서가 *개선 방향
 - **장르**: Strategy RPG 54.5% · RTS 50.4% · 턴제 전략 47.5%가 위, 플랫포머 15–20%·연애 시뮬 16.8%가 아래
 
 > 💡 상위권 공시율이 낮다는 관측은 두 가지로 읽힌다. ① AI로 빠르게 만든 게임은 실제로 덜 팔린다 ② 상위권은 공시를 피할 유인이 더 크다. Zukowski는 ②의 가능성도 적었다. ②가 맞다면 위 "저항의 뿌리는 불투명성"과 정면으로 부딪힌다 — 숨기는 쪽이 단기적으로는 이기지만, 들켰을 때 잃는 신뢰가 가장 큰 쪽도 상위작이다. 자기신고 데이터라 어느 쪽인지 가를 수 없다.
+
+### 세 회차 추이 — 공시율이 오를수록 공시는 덜 말해 준다 ([[carless-ai-signifier-engines-2026-10]])
+
+| Next Fest | 2026-02 | 2026-06 | 2026-10 |
+|---|---|---|---|
+| AI 공시 데모 | 750 (21.2%) | 1,163 (26.5%) | **2,517 (34.4%)** |
+
+10월 공시 수는 Zukowski 집계(2,502개)와 거의 같다. GameDiscoverCo 분류로도 공시의 **약 70%가 비주얼 아트**인데, 대부분 아이콘·스토어 아트이지 게임 아트 전체가 아니다. 현지화 28% · 마케팅 26% · 음악 19%가 뒤를 잇는다. Carless는 공시를 "그냥 더해서 읽으면 안 된다"고 본다 — 코드 도우미 사용은 공시 대상이 아니라서 *실사용의 핵심*이 공시에 거의 안 잡힌다. 그래서 그는 **엔진 탐지**(미탐지 12.9% → 17.7%, Godot 12.6% → 17.4%)를 두 번째 신호로 쓴다 → [[unity-engine|Unity 엔진]]

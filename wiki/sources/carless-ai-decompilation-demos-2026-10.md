@@ -5,7 +5,7 @@ source_url: "https://newsletter.gamediscover.co/p/should-your-game-discovery-pla
 source_author: "Simon Carless (GameDiscoverCo)"
 source_published: 2026-10-20
 sources: []
-related: ["[[steam-next-fest|Steam Next Fest]]", "[[ai-gamedev|게임 개발에서의 생성형 AI]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[zukowski-next-fest-october-2026]]", "[[playtesting|플레이테스팅]]", "[[marketing-strategy|마케팅 전략]]", "[[valve|Valve]]"]
+related: ["[[steam-next-fest|Steam Next Fest]]", "[[ai-gamedev|게임 개발에서의 생성형 AI]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[zukowski-next-fest-october-2026]]", "[[playtesting|플레이테스팅]]", "[[marketing-strategy|마케팅 전략]]", "[[valve|Valve]]", "[[zukowski-ai-cloners-2026-10]]"]
 created: 2026-10-26
 updated: 2026-10-26
 confidence: medium
@@ -56,3 +56,4 @@ Needle In A Haystack 세부 장르가 사례다. 영상으로 컨셉이 먼저 �
 - [[steam-next-fest|Steam Next Fest]] — 데모 전략에 "클론 공포" 변수가 붙었다
 - [[ai-gamedev|게임 개발에서의 생성형 AI]] — AI가 만드는 쪽뿐 아니라 *베끼는 쪽*의 비용도 낮춘다
 - [[zukowski-next-fest-october-2026]] — 같은 주 Zukowski도 클론 사례에 과잉 반응하지 말라고 적었다
+- [[zukowski-ai-cloners-2026-10]] — 같은 사건의 결과편. 데모를 먼저 낸 클론이 원작을 추월했다
