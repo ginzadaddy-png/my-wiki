@@ -2337,3 +2337,10 @@ title: "활동 로그"
 - raw 미처리 **0건** — 126개 대조, 탐지 9건은 기처리분(fares·kasavin·tornqvist·vincke·zukowski `url:` 키 5 · TotK 2 · 매튜볼 gameres 1 · 인벤 Steam 마케팅 1)
 - 자동 갱신: `_ops/status.md` 6곳(INGEST 85→87 · 소스 215→220 · 엔티티 123→124 · 총 md 458→464 · 헤더 날짜 · 마지막 갱신) / `wiki/overview.md` 게임 53→54(Phantom Blade Zero 추가), 핵심 테마 변경 없음(신규 개념 없음)
 - changelog 2026-11 1주차 블록 초안 작성 — 사용자 승인 대기(미반영)
+
+## [2026-11-02] 배포 | 주간 LINT 배포 창구 — push 1건
+
+- push: **b542a6d** (11-02 ingest 2건 + 주간 lint + changelog 11월 1주차, 사용자 승인). 직전 push는 56a5b40(90b631a 배포 기록 커밋이 이번에 함께 올라감)
+- `Deploy Quartz site to GitHub Pages` run **41396097136 success** (1m27s, 2026-11-02T05:47:52Z)
+- 빌드 검사 통과(464 파싱 · 976 emit) · 끊긴 링크 0 · 줄바꿈 churn 0
+- deck 신규·수정 없음 → 단독 배포본(`dist/`) 재생성 불필요 / 챗봇 재색인 해당 없음(delist) / Quartz repo 변경 없음
