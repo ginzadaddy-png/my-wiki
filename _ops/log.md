@@ -2371,3 +2371,13 @@ title: "활동 로그"
 - raw 미처리 **0건** — 131개 대조, 탐지 3건은 기처리분(TotK 1 · 매튜볼 gameres 1 · 인벤 Steam 마케팅 1)
 - 자동 갱신: `_ops/status.md` 5곳(INGEST 87→88 · 소스 220→224 · 총 md 464→468 · 헤더 날짜 · 마지막 갱신) / `wiki/overview.md` 변경 없음(신규 엔티티·개념 없음)
 - changelog 2026-11 2주차 블록 반영(사용자 승인, updated 11-09)
+
+## [2026-11-09] 배포 | 주간 LINT 배포 창구 — push 1건 (토큰 만료 → 갱신 후 재실행으로 반영)
+
+- push: **7bb56dc** (11-09 ingest 4건 + 주간 lint + changelog 11월 2주차, 사용자 승인). 직전 push는 b542a6d(d6f2cda 배포 기록 커밋이 이번에 함께 올라감). 빌드 검사 통과(468 파싱 · 984 emit) · 줄바꿈 churn 0
+- **my-wiki `Update Quartz` run 42550091213 failure** — `actions/checkout`이 quartz repo를 받는 단계에서 `fatal: could not read Username for 'https://github.com'` 3회 재시도 후 실패 → quartz 쪽 Deploy run이 아예 생성되지 않음
+- 원인 추정: secret `QUARTZ_TOKEN`(2026-08-06 등록) 만료. 등록 후 95일 — 90일 만료 PAT이면 11-04경 만료. 11-02 run은 성공
+- 조치: 사용자가 PAT 재발급 후 `QUARTZ_TOKEN` 갱신 → 사용자 지시로 run 42550091213 재실행. 1차 갱신(02:41)은 붙여넣은 값이 잘못돼 같은 오류로 재실패(미리보기 창 복사 버튼이 제대로 복사하지 못함) → 직접 드래그 복사해 웹 Settings에서 재등록(02:48) 후 **success**(11s)
+- `Deploy Quartz site to GitHub Pages` run **42553049654 success** (1m16s, 2026-11-09T02:49:43Z)
+- 참고: quartz는 공개 repo라 정상 토큰이면 checkout은 통과함 — 같은 `could not read Username` 오류가 계속되면 권한이 아니라 *토큰 값 자체*가 잘못된 것
+- deck 신규·수정 없음 → 단독 배포본(`dist/`) 재생성 불필요 / 챗봇 재색인 해당 없음(delist) / Quartz repo 변경 없음
