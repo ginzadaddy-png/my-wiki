@@ -1,10 +1,10 @@
 ---
 title: "소니 인터랙티브 엔터테인먼트 (SIE)"
 type: entity
-sources: ["[[gi-sony-live-service-opportunity-cost-2026-08]]", "[[circana-us-physical-lowest-2026-07]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]"]
+sources: ["[[gi-sony-live-service-opportunity-cost-2026-08]]", "[[circana-us-physical-lowest-2026-07]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[alinea-ps-studios-top10-2026-11]]", "[[alinea-phantom-blade-zero-223m-2026-11]]"]
 related: ["[[live-service-design|라이브 서비스 설계]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[hit-driven-strategy|홈런 전략]]", "[[ps-plus|PlayStation Plus]]"]
 created: 2026-06-01
-updated: 2026-08-24
+updated: 2026-11-09
 confidence: high
 relations:
   parentOf: [team-asobi, sony-santa-monica, naughty-dog, sucker-punch-productions, insomniac-games]
@@ -15,6 +15,13 @@ relations:
 > 본 페이지는 Phase 3 graph 추론을 위해 산하 스튜디오 관계(parentOf)를 앵커링하려 생성. 내용은 각 스튜디오 페이지의 '소니 산하/퍼스트 파티' 명시를 종합.
 
 - **퍼블리싱**: 산하 스튜디오 및 일부 외부 스튜디오(예: [[arrowhead-game-studios|애로우헤드]]의 [[helldivers-2]])를 퍼블리싱. 단 애로우헤드는 *퍼블리싱 관계일 뿐 자회사가 아님*(텐센트 15% 보유 독립 스튜디오).
+
+## PS5 세대 퍼스트파티 매출 상위 (2026-11 시점, [[alinea-ps-studios-top10-2026-11]])
+
+Top 10 합계 65억 달러 이상 — PlayStation 84.7% · Steam 14.1% · Xbox 1.2%. 1위 God of War Ragnarök \$1.4B, 2위 [[marvel-spiderman-2|Spider-Man 2]] \$1.3B, 3위 Gran Turismo 7 \$841.9M, 4위 [[helldivers-2]] \$786.3M(Steam 66.1%). 세컨드파티 Helldivers 2가 유일한 Xbox 매출원이다. [[ghost-of-yotei]] 6위 · [[astro-bot]] 10위.
+
+- 구독 편입은 타이틀마다 갈랐다 — Horizon Forbidden West는 출시 1년 뒤 [[ps-plus|PS Plus]] 편입으로 카탈로그 매출 −58%, Gran Turismo 7은 미편입으로 크리스마스 주를 정가로 받아낸다 ([[alinea-phantom-blade-zero-223m-2026-11]])
+- Alinea 저자는 소니가 카탈로그 마진을 위해 패키지를 줄이는 중이라고 본다
 
 ## PS5 세대 퍼스트파티 파이프라인 (2026-08 시점)
 

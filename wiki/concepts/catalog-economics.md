@@ -1,10 +1,10 @@
 ---
 title: "카탈로그 이코노믹스 (Catalog Economics)"
 type: concept
-sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[alinea-steam-record-year-2026]]", "[[alinea-steam-15b-mid-market-2026-09]]", "[[bain-gaming-report-2026]]", "[[newzoo-pc-console-2026]]", "[[krafton-ir-fy2025-1q26]]", "[[krafton-ir-2q26]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[alinea-steam-september-2026]]", "[[carless-steam-daily-deals-end-2026-10]]"]
+sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[alinea-steam-record-year-2026]]", "[[alinea-steam-15b-mid-market-2026-09]]", "[[bain-gaming-report-2026]]", "[[newzoo-pc-console-2026]]", "[[krafton-ir-fy2025-1q26]]", "[[krafton-ir-2q26]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[alinea-steam-september-2026]]", "[[carless-steam-daily-deals-end-2026-10]]", "[[alinea-ps-studios-top10-2026-11]]", "[[alinea-phantom-blade-zero-223m-2026-11]]"]
 related: ["[[capcom|캡콤]]", "[[rockstar-games|록스타]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[bethesda-game-studios|베데스다]]", "[[fromsoftware|프롬소프트웨어]]", "[[nintendo|닌텐도]]", "[[nexon|넥슨]]", "[[krafton|크래프톤]]", "[[pearl-abyss|펄어비스]]", "[[larian-studios|라리안]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[live-service-design|라이브 서비스 설계]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[catalog-economics-3-publishers|3사 비교 (캡콤·닌텐도·Take-Two)]]", "[[nexon-ncsoft-mmo-recurrent-2026|한국 MMO recurrent]]", "[[hit-driven-strategy|홈런 전략]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[call-of-duty|Call of Duty]]", "[[pubg|PUBG]]", "[[mmorpg|MMO·MMORPG]]", "[[witcher-3|위쳐 3]]"]
 created: 2026-05-18
-updated: 2026-10-06
+updated: 2026-11-09
 confidence: high
 ---
 
@@ -53,6 +53,21 @@ Steam 9월 \$1.7B·3분기 \$5.5B·1–9월 \$16.5B로 위 \$15B 글의 흐름�
 - **Bodycam** — 2024년 얼리 액세스 출시작이 0.8 대형 업데이트로 출시 달(\$16M)보다 많은 \$24.2M을 벌었다
 
 두 사례 모두 *구작을 다시 띄우는 계기*를 회사가 만들었다. 같은 시기 Steam은 할인 노출을 플레이어별 추천으로 바꾼다고 발표했는데([[carless-steam-daily-deals-end-2026-10]]), 관련 있는 구작이 자주 보이는 구조라 카탈로그에 유리하게 작동할 수 있다 — 아직 시행 전이라 추정이다.
+
+## 콘솔 퍼스트파티의 카탈로그 — 연말 한 번에 몰린다 ([[alinea-ps-studios-top10-2026-11]], [[alinea-phantom-blade-zero-223m-2026-11]])
+
+PS5 세대 PlayStation Studios Top 10은 합계 65억 달러 이상이고, 2026년 한 해에만 Spider-Man 2 \$115.8M · Helldivers 2 \$81.1M · Ragnarök 약 \$60M · 하위 5개 합계 \$281.7M을 카탈로그로 벌었다. Ragnarök의 올해 판매(110만 장)는 올해 신작 Gears of War: E-Day·Saros보다 많다.
+
+Gran Turismo 7의 연도별 곡선이 이 모양을 잘 보여 준다.
+
+| 연도 | 매출 | 12월 / 평월 |
+|---|---|---|
+| 2023 | \$189.7M | 2.1배 |
+| 2024 | \$161.3M | — |
+| 2025 | \$119.1M | 2.8배 |
+| 2026(YTD) | \$74.7M | — |
+
+> 💡 **매출 총액은 줄어도 연말 배수는 커진다.** 카탈로그 매출이 *선물 시즌 한 번*에 점점 더 몰린다. GT7은 그 크리스마스 주를 **정가 \$59.99**로 받아냈고(2023·2025 12월 할인 없음), PS Plus에도 넣지 않았다 — 아래 닌텐도 "가격유지형"의 콘솔 퍼스트파티 판이다. Spider-Man 2도 12월 판매가 매년 11월보다 20–60% 높았고, 2024-12 판매가 2025-01 Steam판 출시 달보다 많았다. **새 플랫폼 출시보다 연말 시즌이 더 큰 이벤트**다.
 
 ## 수요 측 증거 — 왜 카탈로그가 도는가 ([[bain-gaming-report-2026]])
 

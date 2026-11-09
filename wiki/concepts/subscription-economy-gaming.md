@@ -1,10 +1,10 @@
 ---
 title: "구독 경제와 게이밍 — 소유에서 거주로"
 type: concept
-sources: ["[[ign-generations-in-play-2026]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[alinea-halo-campaign-evolved-2026-08]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[alinea-gears-e-day-launch-2026-10]]"]
+sources: ["[[ign-generations-in-play-2026]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[alinea-halo-campaign-evolved-2026-08]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[alinea-gears-e-day-launch-2026-10]]", "[[alinea-ps-studios-top10-2026-11]]", "[[alinea-phantom-blade-zero-223m-2026-11]]"]
 related: ["[[live-service-design|라이브 서비스 설계]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[reports/pc-console-pricing-playbook|PC·콘솔 패키지 게임 기준 가격 결정 가이드]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]", "[[ps-plus|PlayStation Plus]]", "[[call-of-duty|Call of Duty]]"]
 created: 2026-05-12
-updated: 2026-10-12
+updated: 2026-11-09
 confidence: high
 ---
 
@@ -147,6 +147,21 @@ Halo와 같은 조건(퍼스트파티 간판 IP·출시일 수록)의 두 번째
 **새로 보인 효과 — 플레이 시간 분포가 바뀐다.** Xbox 이용자의 17%가 1시간 안에 그만뒀다(Steam 6%). 5시간 이하는 54% vs 32%다. Forza Horizon 6도 11% vs 2%였고, PS Plus 수록작에서도 같은 모양이라고 한다. 공짜로 들어온 가벼운 이용자가 섞이면서 *평균* 플레이 시간과 잔존율이 내려간다. 구독 수록작의 리텐션 지표를 유료 판매작과 같은 기준으로 비교하면 안 된다는 뜻이다 ([[player-retention|플레이어 리텐션]]).
 
 > ⚠️ 여전히 잠식 단독 효과로 분리되지 않는다. 같은 주 Minecraft Dungeons II·Wardogs와 겹쳤고, Xbox 기기 기반 자체가 줄고 있다. 수치는 모두 Alinea 추정이다.
+
+### 세 번째 실측 — PS Plus 쪽, 출시 1년 뒤 편입 ([[alinea-ps-studios-top10-2026-11]])
+
+Halo·Gears가 *데이원* 수록이었다면 Horizon Forbidden West는 **출시 약 1년 뒤** [[ps-plus|PS Plus]]에 들어갔다. 그래도 잠식은 났다.
+
+| 구간 (출시 달 제외) | PS 매출 |
+|---|---|
+| 편입 전 | 약 \$67.2M (주간 약 \$1.23M) |
+| 편입 후 19개월 | \$28.1M (주간 약 \$610K) — **−58%** |
+
+2026-10-21 재편입 때도 주간 매출이 다시 약 3분의 1 줄었다. 반대 선택도 같은 주에 나왔다 — Gran Turismo 7은 PS Plus에 넣지 않았고, 매출은 매년 줄지만 크리스마스 주를 정가로 받아내고 있다([[alinea-phantom-blade-zero-223m-2026-11]]).
+
+> 💡 **"출시 1년 뒤면 괜찮다"는 가정이 깨진다.** 위 Halo·Gears는 데이원이라 *출시 판매 자체*가 깎였다. Horizon은 출시 판매를 다 거둔 뒤에도 *카탈로그 꼬리*가 절반 넘게 잘렸다. 대신 편입은 Ragnarök 670만·TLOU Part I 780만 같은 접근을 만든다 — [[ps-plus|PS Plus]] 페이지의 "다음 작품의 관객을 넓힌다"는 효과와 맞바꾸는 거래다. 언제 넣느냐는 *그 IP의 다음 작품이 언제 나오느냐*로 정하는 편이 맞다.
+
+> ⚠️ 반사실이 없다. 출시 2년 차는 원래 매출이 줄어드는 구간이라 −58% 전부를 구독 탓으로 볼 수 없다. Alinea 추정이고, 독자 댓글은 Horizon 판매가 과소 추적됐을 가능성을 지적한다.
 
 ## 반례 — Game Pass의 정체 (2026-07)
 

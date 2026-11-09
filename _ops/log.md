@@ -2344,3 +2344,30 @@ title: "활동 로그"
 - `Deploy Quartz site to GitHub Pages` run **41396097136 success** (1m27s, 2026-11-02T05:47:52Z)
 - 빌드 검사 통과(464 파싱 · 976 emit) · 끊긴 링크 0 · 줄바꿈 churn 0
 - deck 신규·수정 없음 → 단독 배포본(`dist/`) 재생성 불필요 / 챗봇 재색인 해당 없음(delist) / Quartz repo 변경 없음
+
+## [2026-11-09] ingest | Source radar 11-09 후보 4건 — Alinea PS Studios Top 10 · Carless Probably Stolen · Alinea PBZ 5일 $223M · Sensor Tower GTA 6 사전 주문
+
+- Source:
+  - raw/articles/2026-11-06-alinea-top10-playstation-studios.md (원문 https://alineaanalytics.substack.com/p/this-gens-top-10-playstation-studios · Rhys Elliott · 2026-11-06)
+  - raw/articles/2026-11-03-carless-probably-stolen-750k.md (원문 https://newsletter.gamediscover.co/p/how-probably-stolen-traded-up-to · Simon Carless · 2026-11-03 · 무료)
+  - raw/articles/2026-11-03-alinea-phantom-blade-zero-223m.md (원문 https://alineaanalytics.substack.com/p/phantom-blade-zero-made-223m-on-steam · Rhys Elliott · 2026-11-03)
+  - raw/articles/2026-11-05-gi-sensortower-gta6-preorders-8m.md (원문 https://www.gamesindustry.biz/sensor-tower-gta-6-pre-orders-almost-reach-8m-74-bought-on-playstation-5 · Sophie McEvoy · 2026-11-05 · WebFetch 차단 → 크롬으로 본문 확인)
+- 경위: 11-09 source radar 추천 7건 중 사용자가 상위 4건 지정("상위 4건 ingest"). 강조축은 사용자 별도 지정 없어 레이더 보고의 추천 사유를 그대로 채택 — ① PS Plus 쪽 첫 잠식 실측(Horizon −58%)과 GT7 미편입 대비 ② 묵은 데모 재작업 + 플레이테스트 깊이(20시간+ 25%) ③ 리뷰 엠바고가 지역 구성을 바꿈(중국 68% → 45%) ④ GTA 6 사전 주문 에디션 구성(Ultimate 89%). raw는 구조화 발췌 방식
+- 생성: wiki/sources/alinea-ps-studios-top10-2026-11.md · wiki/sources/carless-probably-stolen-2026-11.md · wiki/sources/alinea-phantom-blade-zero-223m-2026-11.md · wiki/sources/gi-sensortower-gta6-preorders-2026-11.md (4건 모두 confidence **medium** — 단일 소스·자체 추정 또는 퍼블리셔 발표)
+- 업데이트:
+  - concepts/subscription-economy-gaming.md(「세 번째 실측 — PS Plus 쪽, 출시 1년 뒤 편입」) · concepts/catalog-economics.md(「콘솔 퍼스트파티의 카탈로그 — 연말 한 번에 몰린다」) · concepts/launch-metrics.md(「리뷰 엠바고가 누가 사는가를 바꾼다」 · 「플레이테스트 깊이 — 묵은 데모를 다시 만들 근거」) · concepts/console-retail-strategy.md(GTA 6 사전 주문 📌 · Ragnarök 패키지 27.5% 📌) · concepts/game-pricing-strategy.md(PBZ 출시 후 📌 · 「인디 사례 — 권장가를 반쯤 무시한 수동 가격」) · concepts/roguelike.md(「런 길이는 짧지 않아도 된다」)
+  - entities/ps-plus.md(「잠식 — PS Plus 쪽 첫 실측」·인용 표 행·한계 항목) · entities/phantom-blade-zero.md(5일 행·출시 후 지역 구조·한계) · entities/gta-6.md(전망 수치 표 3행·사전주문 실측 문단) · entities/sony-interactive-entertainment.md(「PS5 세대 퍼스트파티 매출 상위」)
+  - wiki/sources/all.md(220 → 224, updated 11-09) · wiki/index.md(소스 224·Last updated)
+- **원문 내 불일치 기록**: Alinea Ragnarök 2026 매출 \$60M vs \$57.1M · Alinea PBZ 430만(11-03) vs 공식 400만(11-02) · Carless 55위안 "59% 할인"은 \$20 기준일 때만 맞음(\$17.99 기준 약 54%) — 각 소스 페이지 「약점과 한계」에 명시(위키 간 모순 아님)
+- 신규 entity 없음. Gran Turismo 7·Horizon Forbidden West·Stellar Blade·Probably Stolen·tinyBuild는 본문 언급만
+- **미커밋 상태** — 배포는 주간 LINT로 유예 (INGEST 절차 9번)
+
+## [2026-11-09] lint | 주간 정기 점검 (스케줄 루틴)
+
+- 빌드: **통과** (468 파싱 · 984 emit · 41초). frontmatter YAML 오류 0 → 자동 수정 없음
+- 모순 블록 17(신규 0) · 끊긴 wikilink 0 · 고립 0 · alias 슬래시 0 · `]](` 0 · frontmatter `\$` 0 · confidence 위반 0
+- 카탈로그 updated: sources 11-09(이번 주 행 추가) / entities 11-02 · concepts 09-29 · comparisons 08-31 · reports 08-13은 이후 행 변경 없어 정상
+- 미페이지 개념(파일 수): FC 23 · 가챠 19 · Overwatch 18 · Minecraft 17 · 메이플 16 · 리니지 16 · Battlefield 16 · 배틀패스 15 · Gears of War 15 · Resident Evil 13 · Ubisoft 13 · 클론 11 · S-Game 7 · Gran Turismo 6 · 엠바고 6
+- raw 미처리 **0건** — 131개 대조, 탐지 3건은 기처리분(TotK 1 · 매튜볼 gameres 1 · 인벤 Steam 마케팅 1)
+- 자동 갱신: `_ops/status.md` 5곳(INGEST 87→88 · 소스 220→224 · 총 md 464→468 · 헤더 날짜 · 마지막 갱신) / `wiki/overview.md` 변경 없음(신규 엔티티·개념 없음)
+- changelog 2026-11 2주차 블록 반영(사용자 승인, updated 11-09)

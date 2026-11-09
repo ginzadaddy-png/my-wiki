@@ -1,14 +1,14 @@
 ---
 title: "GTA 6"
 type: entity
-sources: ["[[gi-newzoo-console-gta6-2026-08]]", "[[newzoo-ggmr-2026-preview]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]", "[[newzoo-pc-console-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[remedy-control-resonant-pricing-2026-08]]", "[[ps-physical-digital-share-2026]]", "[[game-marketing-strategy-2026]]"]
+sources: ["[[gi-newzoo-console-gta6-2026-08]]", "[[newzoo-ggmr-2026-preview]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]", "[[newzoo-pc-console-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[remedy-control-resonant-pricing-2026-08]]", "[[ps-physical-digital-share-2026]]", "[[game-marketing-strategy-2026]]", "[[gi-sensortower-gta6-preorders-2026-11]]"]
 related: ["[[game-market-trends|시장 구조 변화]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[marketing-strategy|마케팅·출시 전략]]", "[[rockstar-games|록스타 게임즈]]", "[[take-two-interactive|테이크투 인터랙티브]]", "[[gta5|GTA5]]", "[[nintendo-switch-2|Nintendo Switch 2]]"]
 relations:
   developedBy: [rockstar-games]
   publishedBy: [take-two-interactive]
   platform: [ps5, xbox-series]
 created: 2026-09-14
-updated: 2026-09-14
+updated: 2026-11-09
 confidence: low
 ---
 
@@ -35,6 +35,9 @@ confidence: low
 | PC판 | 콘솔 + 약 18개월 | 〃 |
 | 풀게임 지출 리프트 | **+17.5%** — Newzoo가 "전 비즈니스 모델 중 최고 성장률"로 지목 | [[gi-newzoo-console-gta6-2026-08]] |
 | 사전주문 | 공개 첫 주 **\$260M** (Newzoo 추정) | 〃 |
+| 사전주문 (출시 2주 전) | **771만 장 · \$751M** — PS5 74% · Xbox 26% (디지털, Sensor Tower) | [[gi-sensortower-gta6-preorders-2026-11]] |
+| 에디션 구성 (8월) | 사전주문의 **89%가 \$100 Ultimate** · 11% \$80 Standard | 〃 |
+| 출시 시점 전망 | 사전주문 약 2,500만 (Sensor Tower, 8월) · 판매 2,500만–5,000만+ (애널리스트) | 〃 |
 | 가격 | 기본 **\$80** · 프리미엄 에디션 \$100 | [[remedy-control-resonant-pricing-2026-08]] |
 | 하드웨어 파급 | 넷플릭스 시사 직후 영국 PS5 **+33%** · Xbox **+34%** (NIQ) | [[gi-newzoo-ggmr-2026-release-2026-09]] |
 
@@ -53,6 +56,8 @@ Rosier는 GTA 6 출시가 **"다른 게임들에 잠식적(cannibalistic)일 것
 ### ③ 가격 상단
 
 Rosier의 관찰 둘. **"GTA 6는 하나뿐이라 가격 탄력성이 매우 낮다"** — 다들 너무 오래 기다렸다. 그리고 상단 가격 인상이 시장 전체를 들어 올린다는 것. 단 그는 *이것이 아무나 할 수 있다는 뜻은 아니다*라는 단서를 곧바로 단다.
+
+사전주문 단계 실측은 이 관찰과 맞는다 — 출시 2주 전 디지털 771만 장의 장당 평균이 약 \$97로 Ultimate 가격에 붙어 있다 ([[gi-sensortower-gta6-preorders-2026-11]]).
 
 에디션 구성은 위키가 **"순한 버전"**으로 평가하는 쪽이다 — 살 만한 \$80 기본가로 신규 유입을 지키고, 비싼 에디션으로 열성 팬의 사전주문만 짜낸다. 기본가를 지키면서 위를 벌리는 이 구조는 신규 IP에도 이식하기 쉽다 ([[pc-console-pricing-playbook]]).
 

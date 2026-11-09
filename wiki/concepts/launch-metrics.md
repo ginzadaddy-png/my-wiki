@@ -1,10 +1,10 @@
 ---
 title: "흥행 예측 지표"
 type: concept
-sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]", "[[zukowski-golden-age-week-2026-08]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[alinea-mortal-shell-2-launch-2026-08]]", "[[zukowski-demos-wishlist-conversion]]", "[[carless-steam-demo-ccu-2026-09]]", "[[alinea-wardogs-launch-2026-09]]", "[[alinea-q4-games-to-watch-2026-09]]", "[[alinea-gears-e-day-launch-2026-10]]", "[[alinea-phantom-blade-zero-ff-resonance-2026-10]]", "[[phantom-blade-zero-launch-4m-2026-11]]"]
+sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]", "[[zukowski-golden-age-week-2026-08]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[alinea-mortal-shell-2-launch-2026-08]]", "[[zukowski-demos-wishlist-conversion]]", "[[carless-steam-demo-ccu-2026-09]]", "[[alinea-wardogs-launch-2026-09]]", "[[alinea-q4-games-to-watch-2026-09]]", "[[alinea-gears-e-day-launch-2026-10]]", "[[alinea-phantom-blade-zero-ff-resonance-2026-10]]", "[[phantom-blade-zero-launch-4m-2026-11]]", "[[alinea-phantom-blade-zero-223m-2026-11]]", "[[carless-probably-stolen-2026-11]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[forecasting-vs-launch-metrics|예측 vs 측정 비교]]", "[[audience-age-segmentation|연령대별 발견 경로]]", "[[wardogs|Wardogs]]"]
 created: 2026-04-20
-updated: 2026-11-02
+updated: 2026-11-09
 confidence: high
 ---
 
@@ -406,3 +406,23 @@ Wardogs의 Steam 리뷰는 74% 긍정이지만 **5시간 이상 플레이어는 
 Final Fantasy Resonance(2026-10-22, 5일 미만 40만 장·\$20M)는 데모(09-03) 플레이어 65만 명 가운데 **약 4분의 1이 구매**했고, **구매자의 약 45%가 데모 경험자**다. Alinea는 보통 데모 → 구매 전환을 **10%대 초반**으로 본다. 위 인디 데모의 데모 → 위시리스트 전환과는 지표가 달라 직접 비교할 수 없지만, *기존 팬이 "이번엔 내가 원하는 FF인가"를 확인하는 도구*로서 데모가 판매를 끌어올린 사례다 — 클래식 턴제 회귀처럼 프랜차이즈 팬의 기대가 갈리는 출시일수록 데모의 값이 커진다.
 
 > ⚠️ 데모 수치 일부가 원문 안에서 서로 맞지 않고(출시 후 첫 데모 Steam 약 10만 명 vs 전 플랫폼 6.27만 명), "10%대 초반" 기준선의 표본은 공개되지 않았다
+
+## 리뷰 엠바고가 "누가 사는가"를 바꾼다 ([[alinea-phantom-blade-zero-223m-2026-11]])
+
+[[phantom-blade-zero|Phantom Blade Zero]]의 사전 판매는 내내 중국 쏠림이었다 — Steam 매출의 약 68%. State of Play(08-18)는 모든 지역 매출을 2–4배 올렸지만 이 비중을 바꾸지 못했다. 바꾼 것은 리뷰 엠바고 해제(10-26)였다. 미국 일 매출이 \$106K → \$899K로 4일 만에 약 8.5배가 됐고, 출시일에 처음으로 미국+기타 지역이 중국을 넘었다. 출시 5일 누적 중국 비중은 **45%**, 중화권 밖 매출 \$123M이 중화권(약 \$100M)보다 컸다.
+
+> 💡 **출시 전 지역 구성을 출시 후 구성으로 읽으면 안 된다.** 쇼케이스는 이미 관심 있는 시장을 키우고, 리뷰는 망설이던 시장을 연다. 위 "D-70 궤도 비교"처럼 사전 판매로 흥행 *규모*를 판정할 수는 있어도, 사전 판매의 *지역 분할*은 리뷰 뒤에 크게 달라질 수 있다. 품질 신호가 아직 없는 시장의 몫은 출시 전 데이터에서 과소 평가된다.
+
+## 플레이테스트 깊이 — 묵은 데모를 다시 만들 근거 ([[carless-probably-stolen-2026-11]])
+
+Probably Stolen(1인 개발 + 외주, tinyBuild, 2026-10-28)은 출시 5일 **75만 장**, 최고 동접 16.5만이다. 출시 전날까지 위시리스트 추가는 57.9만으로, 5일 판매가 위시리스트 총량을 넘었다(첫 주 중앙값 약 0.15배 — [[carless-wishlist-conversions-2025-10]]).
+
+| 출시 전 신호 | 수치 |
+|---|---|
+| 플레이테스트 참여 | 18만 명 — 그중 **4.5만 명(25%)이 20시간+** |
+| 플레이테스트 활성화 국가 | 24.6만 중 중국 51% · 미국 17% |
+| 데모 동접 | 상시 1–2만, 최고 4만 |
+
+전신 Deepspace Emporium은 "프로그래머 아트" 수준의 데모로 Next Fest에 나갔던 게임이다. 퍼블리셔는 그 데모의 루프를 보고 계약한 뒤 비주얼·배경(사이버펑크)·시스템 깊이를 바꿨다.
+
+> 💡 **"참여자 수"보다 "얼마나 오래 했나"가 루프의 증거다.** 위 "데모는 몇 명보다 얼마나 깊이"와 같은 결론을 플레이테스트에서 확인한 사례다. 4명 중 1명이 20시간을 넘긴 루프라면, 원래 버전에서 부족했던 것은 루프가 아니라 포장일 수 있다. 다만 수치는 전부 퍼블리셔 발표이고, 판매에는 위시리스트 없이 바로 산 구매가 섞여 있어 전환율로 읽으면 안 된다.

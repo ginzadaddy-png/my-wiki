@@ -1,12 +1,12 @@
 ---
 title: "PlayStation Plus"
 type: entity
-sources: ["[[alinea-mortal-shell-2-launch-2026-08]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[matthew-ball-2026-report]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]", "[[alinea-ps-july-2026-cod-catalog]]"]
+sources: ["[[alinea-mortal-shell-2-launch-2026-08]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[matthew-ball-2026-report]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-ps-studios-top10-2026-11]]", "[[alinea-phantom-blade-zero-223m-2026-11]]"]
 related: ["[[subscription-economy-gaming|구독 경제]]", "[[game-pass|Xbox Game Pass]]", "[[sony-interactive-entertainment|소니 인터랙티브 엔터테인먼트]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[ip-adaptation-design|IP 각색·확장 설계]]"]
 relations:
   platform: [ps5, ps4]
 created: 2026-09-14
-updated: 2026-09-14
+updated: 2026-11-09
 confidence: medium
 ---
 
@@ -20,6 +20,7 @@ confidence: medium
 |---|---|---|
 | 오디언스 구성 | 전작 구독 노출 -> 후속작 구매층이 달라짐 | [[mortal-shell-2]] |
 | 재유입 | 출시 2년 반 뒤 편입으로 2주 80만 명 | [[helldivers-2]] |
+| 잠식 | 출시 1년 뒤 편입에도 카탈로그 매출 −58% (Horizon FW) | [[subscription-economy-gaming]] |
 | 발견 장치 | 화제 발생 시 금전 마찰 0의 증폭 경로 | [[subscription-economy-gaming]] · [[ip-adaptation-design]] |
 | 가격 | 단일 요금을 3티어로 쪼개며 올린 사례 | [[game-pricing-strategy]] |
 | 락인 | 중고 디스크 진입 -> 구독·친구 목록으로 묶임 | [[console-retail-strategy]] |
@@ -53,6 +54,20 @@ confidence: medium
 
 구독 수록 여부가 증폭률을 약 5배 갈랐다. 화제를 만드는 일과 그 화제를 받아낼 마찰 없는 경로를 갖추는 일은 별개라는 뜻이다.
 
+## 잠식 — PS Plus 쪽 첫 실측 ([[alinea-ps-studios-top10-2026-11]])
+
+위 핵심 인사이트에서 "PS Plus는 잠식 질문에 거의 안 쓰인다"고 적었는데, 2026-11에 첫 수치가 나왔다. Horizon Forbidden West는 출시 약 1년 뒤 편입돼 19개월 수록됐고, 출시 달을 뺀 PS 매출이 편입 전 약 \$67.2M → 편입 후 \$28.1M(**−58%**)이었다. 2026-10 재편입 때도 주간 매출이 약 3분의 1 줄었다.
+
+| 타이틀 | 편입 시점 | 첫 접근 |
+|---|---|---|
+| God of War Ragnarök | 약 2년 전 (Extra) | 670만 |
+| Spider-Man 2 | 2026-02 (Extra) | 630만 |
+| The Last of Us Part I | 출시 약 2년 뒤 (Extra) | 780만 |
+| Helldivers 2 | 2026-08 (Extra) | 신규 160만 |
+| Gran Turismo 7 | **미편입** | — |
+
+GT7을 넣지 않은 것은 프리미엄 매출 보호로 읽힌다 — 매년 크리스마스 주에 정가로 연 중앙값 주의 3–5배를 판다([[alinea-phantom-blade-zero-223m-2026-11]]). 즉 소니는 **타이틀마다 "판매로 둘지, 구독으로 넓힐지"를 갈라** 쓰고 있다.
+
 ## 가격 — 단일 요금을 쪼개며 올린 사례
 
 [[matthew-ball-2026-report|매튜 볼]]이 "가격 상한 올리기"의 배경 사례로 드는 것 중 하나다.
@@ -72,6 +87,7 @@ confidence: medium
 
 ## 약점과 한계 (비판적 읽기)
 
+- **잠식 수치는 하나다.** Horizon −58%는 반사실 없는 전후 비교이고, 출시 2년 차의 자연 감소와 분리되지 않는다
 - **가입자 수가 없다.** [[game-pass]] 페이지는 규모를 숫자로 적을 수 있지만(출처 귀속 논쟁이 있을지언정), PS Plus는 위키가 가진 자료 안에 가입자 수·티어별 구성이 전혀 없다. 규모를 모르는 채 효과만 기록한 페이지다
 - **구독 카피를 판매와 같은 줄에 놓으면 안 된다.** Ark·Oblivion의 "구독 400~600만"은 데이 원 포함으로 접근한 계정 수이며 카피당 실수령은 유료 판매와 전혀 다르다 ([[alinea-remakes-remasters-ranking-2026-07]]). 이 페이지의 80만·+94% 같은 수치도 전부 *접근·복귀 계정*이지 매출이 아니다
 - **Mortal Shell 2 사례는 인과를 단정하지 않는다.** 스팀 9% vs PS5 44%의 차이에 구독 노출 말고도 플랫폼별 장르 인구 구성·전작 판매 분포가 섞여 있다. 원 소스도 구독을 *주된* 설명으로 들 뿐 분해는 하지 않는다

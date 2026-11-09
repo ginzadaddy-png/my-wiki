@@ -22,11 +22,13 @@ sources: [
   "[[naavik-licensed-ip-value-2026-09]]",
   "[[carless-steam-daily-deals-end-2026-10]]",
   "[[alinea-q4-games-to-watch-2026-09]]",
-  "[[alinea-fc27-top-seller-2026-10]]"
+  "[[alinea-fc27-top-seller-2026-10]]",
+  "[[alinea-phantom-blade-zero-223m-2026-11]]",
+  "[[carless-probably-stolen-2026-11]]"
 ]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[launch-metrics|흥행 예측 지표]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[free-to-play|F2P·부분유료 모델]]"]
 created: 2026-04-28
-updated: 2026-10-12
+updated: 2026-11-09
 confidence: high
 ---
 
@@ -154,6 +156,11 @@ confidence: high
 - 이 게임의 스팀 위시리스트 29%가 중국이고 흥행의 상당 부분이 중국에 걸려 있다. 즉 **인하는 접근성 확보가 아니라 주력 시장 침투 가격**이다
 - 폴란드만 미국보다 크게 비싸다 — 원 소스도 이유를 설명하지 못한다. PPP 기반 추천값을 그대로 쓰지 않고 손을 댔을 때 생기는 이상값의 예로 참고
 - ⚠️ 출시 전 가격 표이므로 실판매 성과와의 인과는 아직 확인 불가
+- 📌 **출시 후 (2026-11, [[alinea-phantom-blade-zero-223m-2026-11]])**: 출시 5일 중화권 비중은 판매량 55% · 매출 45%다. 10%p 차이가 이 인하폭의 크기다. 중국 가격은 \$40.31(−32.8%)로 출시 전 표와 거의 같다
+
+### 인디 사례 — 권장가를 반쯤 무시한 수동 가격 ([[carless-probably-stolen-2026-11]])
+
+Probably Stolen(2026-10, 출시 5일 75만 장)은 미국 \$17.99에 중국 55위안(\$8.25, 약 −54%), CIS·중동·남아시아·중남미 약 \$7–8로 매겼다. 퍼블리셔 tinyBuild는 Steam 권장가를 반쯤 무시하고 "대부분 수동"으로, 체감(sentiment) 기준으로 정했다고 밝힌다. 플레이테스트 활성화의 51%가 중국이었다 — 위 PBZ처럼 **주력 시장을 깊게 깎은** 쪽이고, 인하폭은 인디 기준(40–60%)의 상단이다. 저자 Carless는 대부분 지역에서 \$5–15인 "싸지만 깊은 게임"을 새 표준으로 본다.
 
 ## 세일 전략
 

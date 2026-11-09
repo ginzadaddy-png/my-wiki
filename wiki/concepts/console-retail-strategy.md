@@ -1,10 +1,10 @@
 ---
 title: "콘솔 리테일·유통 전략"
 type: concept
-sources: ["[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[sony-ir-1q-fy2026]]", "[[matthew-ball-2026-report]]", "[[capcom-fy26-ir]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[circana-us-physical-lowest-2026-07]]", "[[alinea-ps-first-party-kojima-2026-09]]", "[[alinea-ps-physical-revenues-2026-10]]"]
+sources: ["[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[ps-physical-digital-share-2026]]", "[[sony-ir-1q-fy2026]]", "[[matthew-ball-2026-report]]", "[[capcom-fy26-ir]]", "[[naavik-xbox-strategy-reset-2026-07]]", "[[sp-kagan-console-shipments-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-mw4-preorder-digital-push-2026-08]]", "[[circana-us-physical-lowest-2026-07]]", "[[alinea-ps-first-party-kojima-2026-09]]", "[[alinea-ps-physical-revenues-2026-10]]", "[[gi-sensortower-gta6-preorders-2026-11]]", "[[alinea-ps-studios-top10-2026-11]]"]
 related: ["[[game-pricing-strategy|게임 가격 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[webshop-direct-monetization|웹샵·D2C 직접 수익화]]", "[[audience-expansion|오디언스 확장]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[2026-08-03-console-retail-arpu-focus|콘솔 물리 유통 폐지는 옳은가 — 확장 vs 수익]]", "[[call-of-duty|Call of Duty]]", "[[gta-6|GTA 6]]"]
 created: 2026-08-03
-updated: 2026-10-26
+updated: 2026-11-09
 confidence: high
 ---
 
@@ -60,6 +60,8 @@ confidence: high
 2. **일부러 희소하게 만든다** — 사전주문 기간을 못 박고(FC 27은 7/23~8/31) 이후엔 업그레이드도 막아, 망설임을 그 자리에서 결제로 바꾼다
 
 > ⚠️ 비싼 티어가 한 번 당연해지면 **다음 사이클의 출발점**이 된다. 밀어붙이고 → 반발하면 조금 물러서고 → 새 선을 굳히는 패턴이 반복된다. GTA 6는 순한 버전이다 — 살 만한 \$80 기본가로 신규 유입을 지키고 비싼 에디션으로 열성 팬을 짜내는 구성.
+
+> 📌 **GTA 6 사전 주문 실측 (2026-11, [[gi-sensortower-gta6-preorders-2026-11]])**: 출시 2주 전 디지털 사전 주문 771만 장·\$751M — 장당 평균 약 \$97. 8월 Sensor Tower 집계로는 사전 주문의 **89%가 \$100 Ultimate**였다. "순한 버전"이라도 사전 주문 단계에서는 비싼 에디션이 주력 상품이 된다. 사전 주문자는 가장 열성적인 층이라 출시 후 전체 판매의 에디션 구성은 이보다 낮아질 것이다.
 
 ## 왜 지금인가 — 압박받는 상황에서 나온 대응
 
@@ -151,6 +153,8 @@ confidence: high
 > 💡 **패키지 비중을 가르는 것은 유통 정책이 아니라 수익 모델이다.** 프리미엄 싱글플레이는 38~47%에 머무는데 라이브서비스는 8%다. 소장·선물·중고 되팔이가 성립하는 완결형 작품과, 시즌을 따라가려고 즉시 내려받는 서비스형 게임은 애초에 구매 동기가 다르다. 위 [패키지 비중은 장르와 이용자층에 따라 갈린다](#패키지-비중은-장르와-이용자층에-따라-갈린다)에 **수익 모델이라는 분할선**이 하나 더 붙는 셈이다.
 
 > ⚠️ 전부 Alinea 자체 추정치이며 gross 기준이다. 지역별 분포도 합산돼 있어 단일 수치로 읽으면 오독 위험이 있다.
+
+> 📌 **후속 (2026-11, [[alinea-ps-studios-top10-2026-11]])**: God of War Ragnarök은 PS 판매의 약 27.5%가 패키지였다. Alinea 저자는 소니가 카탈로그 마진을 위해 패키지를 줄이는 중이라고 읽는다 — "중고 디스크가 없어지면 D2C 매출이 늘어난다".
 
 ## 2026 신작 연간 — 일본 타이틀과 스포츠가 양 끝 ([[alinea-ps-physical-revenues-2026-10]])
 

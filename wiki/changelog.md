@@ -4,11 +4,20 @@ type: concept
 sources: []
 related: ["[[index|전체 카탈로그]]", "[[overview|위키 소개]]"]
 created: 2026-09-03
-updated: 2026-11-02
+updated: 2026-11-09
 confidence: high
 ---
 
 이 위키에 새로 추가·갱신된 내용을 **주단위**로 정리합니다. 개설(2026-04) 이후 전 기록을 리더 친화 하이라이트로 압축했으며, 최신 주가 위에 옵니다. 새 페이지는 링크로 바로 이동할 수 있고, 전체 목록은 [[index|전체 카탈로그]]에서 볼 수 있습니다.
+
+## 2026-11 2주차 (~11-09)
+
+- **새 소스 4** — Alinea "PS5 세대 PlayStation Studios 매출 Top 10" · GameDiscoverCo "Probably Stolen, 5일 75만 장" · Alinea "Phantom Blade Zero 5일 \$223M" · Sensor Tower "GTA 6 사전 주문 771만 장"
+- **읽을거리** — 출시 1년 뒤 PS Plus에 넣어도 판매는 줄어듦. Horizon 후속작이 편입 후 −58%로, PS Plus 쪽 첫 잠식 실측. 데이원만 피하면 된다는 가정이 흔들림. [[subscription-economy-gaming|구독 경제]]·[[ps-plus|PlayStation Plus]]에 반영
+- **읽을거리** — 쇼케이스는 이미 관심 있는 시장을 키우고, 리뷰는 망설이던 시장을 엶. PBZ는 리뷰 엠바고가 풀리자 미국 일 매출이 4일 만에 8.5배, 중국 비중은 68%에서 45%로 하락. [[launch-metrics|런치 메트릭]]에 「리뷰 엠바고가 누가 사는가를 바꾼다」 추가
+- **읽을거리** — 재미는 있는데 눈에 안 띄던 데모를 루프는 두고 겉만 다시 만든 1인 개발작이 5일 75만 장. 근거는 플레이테스터 18만 명 중 4분의 1의 20시간+ 플레이. [[launch-metrics|런치 메트릭]]·[[roguelike|로그라이크]]·[[game-pricing-strategy|가격 전략]]에 반영
+- **주요 갱신** — [[console-retail-strategy|콘솔 리테일·유통 전략]]에 GTA 6 사전 주문 구성 추가. 9할이 \$100 Ultimate이고 PS5가 74%. 사전 주문자는 가장 열성적인 층이라 전체 판매로 일반화는 금물. [[gta-6|GTA 6]]에도 실측 반영
+- **주요 갱신** — [[catalog-economics|카탈로그 이코노믹스]]에 「콘솔 퍼스트파티의 카탈로그 — 연말 한 번에 몰린다」 추가. [[sony-interactive-entertainment|소니 인터랙티브 엔터테인먼트]]에 PS5 세대 퍼스트파티 매출 상위 반영
 
 ## 2026-11 1주차 (~11-02)
 

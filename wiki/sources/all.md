@@ -1,13 +1,17 @@
 ---
 title: "소스 전체 목록"
 created: 2026-04-16
-updated: 2026-11-02
+updated: 2026-11-09
 ---
 
-총 220개 | 최신순 정렬
+총 224개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [alinea-ps-studios-top10-2026-11](alinea-ps-studios-top10-2026-11.md) | Alinea — PS5 세대 PlayStation Studios 매출 Top 10 (Elliott) — 합계 \$6.5B+·PS 84.7% · Steam 14.1% · Xbox 1.2%·Ragnarök \$1.4B·Spider-Man 2 \$1.3B·GT7 \$841.9M·Helldivers 2 \$786.3M·Horizon FW 출시 1년 뒤 PS Plus 편입으로 카탈로그 매출 −58%·Spider-Man 2 12월 계절성·패키지 축소 논지 | 2026-11-06 |
+| [gi-sensortower-gta6-preorders-2026-11](gi-sensortower-gta6-preorders-2026-11.md) | Sensor Tower — GTA 6 사전 주문 (GamesIndustry.biz) — 출시 2주 전 디지털 771만 장·\$751M·PS5 74%·장당 평균 약 \$97·8월 사전 주문 89%가 \$100 Ultimate·MW2 대비 +148%·출시 시점 약 2,500만 전망 | 2026-11-05 |
+| [alinea-phantom-blade-zero-223m-2026-11](alinea-phantom-blade-zero-223m-2026-11.md) | Alinea — Phantom Blade Zero 5일 \$223M (Elliott) — 430만 장(Steam 310만 · PS 120만)·2026 신작 매출 10위·중화권 판매량 55% · 매출 45%·중화권 밖 \$123M·State of Play는 비중 유지, 리뷰 엠바고 해제 뒤 미국 일 매출 4일 8.5배·GT7 연도별 매출과 크리스마스 정가 피크·Forza Motorsport 비교 | 2026-11-03 |
+| [carless-probably-stolen-2026-11](carless-probably-stolen-2026-11.md) | GameDiscoverCo — Probably Stolen 5일 75만 장 (Carless) — 1인 개발 + 외주·tinyBuild·위시리스트 57.9만 < 5일 판매·동접 16.5만·플레이테스트 18만 중 25%가 20시간+·활성화 중국 51%·전신 Deepspace Emporium의 비주얼·배경·시스템 재작업·중국 55위안 수동 가격·"싸지만 깊은 게임" | 2026-11-03 |
 | [phantom-blade-zero-launch-4m-2026-11](phantom-blade-zero-launch-4m-2026-11.md) | Phantom Blade Zero 출시 성과 (IT之家 외 보도 종합) — 공식 72시간 400만 장(전 플랫폼)·Steam 동접 43만→83만 4일 연속 상승·역대 14위·Wukong 241만의 약 3분의 1·Metacritic 88·Steam 평가 79%→89%·PS Store 98% 지역 톱10·사전 판매 85만의 약 4.7배·손익분기 160만(추정) 통과·매출 추정은 산식 불일치로 제외 | 2026-11-02 |
 | [carless-ai-signifier-engines-2026-10](carless-ai-signifier-engines-2026-10.md) | GameDiscoverCo — Next Fest의 숨은 AI 신호, 엔진 점유율 (Carless) — AI 공시 21.2%→26.5%→34.4%·공시 70%가 아트(대부분 아이콘·스토어)·코드 도우미는 공시 밖·Unity 46%·미탐지 17.7%·Godot 17.4%·Unreal 12.3%·CCU 상위 100은 Unity 53% · Unreal 28%·2027 Steam 출시 약 3.5만 개 전망·일부 유료 | 2026-10-30 |
 | [zukowski-ai-cloners-2026-10](zukowski-ai-cloners-2026-10.md) | Zukowski — AI 클론이 왔다, 인디는 끝났나 — Needle In A Haystack 팔로워 추이·플레이테스트 신청 2.3만·데모 먼저 낸 클론이 10-05 추월·기습 출시 클론 452 팔로워에서 정체·원작은 선두보다 약 2만 위시리스트 뒤·클론 위험 3조건·바이럴이면 곧장 데모 | 2026-10-28 |

@@ -1,10 +1,10 @@
 ---
 title: "로그라이크"
 type: concept
-sources: ["[[kasavin-hades-ea]]", "[[gdc25-balatro-marketing]]", "[[carless-genres-ruled-steam-2025-06]]", "[[gdc19-slay-the-spire-metrics]]", "[[gdc22-returnal-procedural-world]]", "[[carless-hit-pc-genres-2021-2025]]"]
+sources: ["[[kasavin-hades-ea]]", "[[gdc25-balatro-marketing]]", "[[carless-genres-ruled-steam-2025-06]]", "[[gdc19-slay-the-spire-metrics]]", "[[gdc22-returnal-procedural-world]]", "[[carless-hit-pc-genres-2021-2025]]", "[[carless-probably-stolen-2026-11]]"]
 related: ["[[balatro|발라트로]]", "[[supergiant-games|슈퍼자이언트]]", "[[soulslike|소울라이크]]", "[[pcg-pure-vs-hybrid|완전 절차생성 vs 하이브리드]]", "[[game-balance|게임 밸런싱]]", "[[data-driven-development|데이터 기반 개발]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[mda-framework|MDA 프레임워크]]", "[[hades|Hades]]"]
 created: 2026-06-16
-updated: 2026-08-31
+updated: 2026-11-09
 confidence: high
 ---
 
@@ -70,5 +70,9 @@ confidence: high
 - Hack and Slash가 매출 렌즈에서 판매량 렌즈 대비 크게 상승(#12 → #5)한다. Carless 추정으로는 고가 ARPG·[[soulslike|소울라이크]]·일부 로그라이크에 이 태그가 함께 붙기 때문
 
 > 💡 위 "신규 진입 친화" 판단과 이 순위 데이터는 **같은 방향이지만 다른 함의**를 갖는다. 분포가 healthy했던 것은 *경쟁이 덜한 자리*였다는 뜻이고, 1·2위로 올라선 지금은 *가장 붐비는 자리*이기도 하다. 진입 장벽이 낮은 것과 눈에 띄기 쉬운 것은 별개다.
+
+### 런 길이는 짧지 않아도 된다 — Probably Stolen ([[carless-probably-stolen-2026-11]])
+
+상점 운영 로그라이트 Probably Stolen(2026-10, 1인 개발 + 외주)은 출시 5일 75만 장이다. 런 하나가 스피드런형 2–5시간, 완주형 10–15시간으로 *30분 런*이 아니고, 플레이테스트 참여자 4명 중 1명이 20시간을 넘겼다. 위조품 판별·악성 AI 손님 가려내기 같은 다른 장르의 판별 메카닉을 로그라이트 구조 위에 쌓았다. Carless는 이를 **"좁지만 아주 깊은 게임"**이라 부르고, 대부분 지역 \$5–15의 "싸지만 깊은 게임"을 새 표준으로 본다. 위 1·2위 순위가 *짧고 싼 게임이 많이 팔려서*만이 아니라는 사례다.
 
 > 💡 **핵심 인사이트:** 로그라이크의 본질은 난이도가 아니라 **재생성(re-generation)**. 절차적 생성·빌드 시너지·메타 진행성이 결합해 "매번 다른 한 판"을 값싸게 양산하고, 이것이 인디가 적은 예산으로 긴 플레이타임과 healthy한 시장 분포를 동시에 얻는 이유다.
