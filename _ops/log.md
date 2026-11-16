@@ -2430,3 +2430,10 @@ title: "활동 로그"
 - raw 미처리 **0건** — 134개 대조, 탐지 9건은 전부 기처리분(TotK 중복 클립 2 · 매튜볼 gameres 1 · 05-07 인터뷰 묶음 5 · 인벤 Steam 마케팅 1)
 - 자동 갱신: `_ops/status.md` 6곳(INGEST 88→90 · 소스 224→226 · 보고서 6→7 · 총 md 468→471 · 헤더 날짜 · 마지막 갱신) / `wiki/overview.md` 변경 없음(신규 엔티티·개념 없음)
 - changelog 2026-11 3주차 블록 반영(사용자 승인, updated 11-16)
+
+## [2026-11-16] 배포 | 주간 LINT 배포 창구 — push 1건
+
+- push: **287375f** (11-16 ingest 3건 + 주간 lint + changelog 11월 3주차, 사용자 승인). 직전 push는 7bb56dc(bcd9ea0 배포 기록 커밋이 이번에 함께 올라감). 빌드 검사 통과(471 파싱 · 990 emit) · 줄바꿈 churn 0
+- my-wiki `Update Quartz` run 43834413440 success (11s) — QUARTZ_TOKEN 정상
+- `Deploy Quartz site to GitHub Pages` run **43834436926 success** (1m33s, 2026-11-16T08:49:56Z)
+- deck 신규·수정 없음 → 단독 배포본(`dist/`) 재생성 불필요 / 챗봇 재색인 해당 없음(delist) / Quartz repo 변경 없음
