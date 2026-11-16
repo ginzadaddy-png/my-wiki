@@ -1,10 +1,10 @@
 ---
 title: "Fortnite"
 type: entity
-sources: []
-related: ["[[epic-games|Epic Games]]", "[[unreal-engine-5|Unreal Engine 5]]", "[[live-service-design|라이브 서비스 설계]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[marketing-strategy|마케팅 전략]]", "[[pubg|PUBG]]"]
+sources: ["[[alinea-gta6-engagement-whirlpool-2026-11]]"]
+related: ["[[epic-games|Epic Games]]", "[[unreal-engine-5|Unreal Engine 5]]", "[[live-service-design|라이브 서비스 설계]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[marketing-strategy|마케팅 전략]]", "[[pubg|PUBG]]", "[[gta-6|GTA 6]]"]
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-11-16
 confidence: medium
 relations:
   developedBy: [epic-games]
@@ -69,6 +69,10 @@ relations:
 > 2. *Chapter 5 매출 둔화* (2024) — *시즌 8년차의 retention 한계*
 > 3. *UEFN 크리에이터 의존도* — *Fortnite 매출 40% 분배*가 *Fortnite 자체 매출 줄이는 trade-off*
 > 4. *콘솔 의존* — Switch·PS·Xbox 매출이 큰 비중. *플랫폼 정책 변화*에 노출
+
+## 콘솔 MAU와 GTA 6 노출 (2026-11)
+
+[[alinea-gta6-engagement-whirlpool-2026-11]] 기준 2026년 1–10월 PlayStation + Xbox 월평균 MAU는 **4,790만**(PlayStation 72.3%)으로 양 플랫폼 1위다 (Alinea 추정). 같은 달 GTA 5도 하는 이용자가 15–20%라, 비율은 [[roblox|Roblox]]보다 낮아도 [[gta-6|GTA 6]] 출시 때 옮겨 갈 절대 수는 가장 크다. 저자는 콘텐츠 업데이트마다 DAU가 튀는 Fortnite의 패턴을 근거로 대부분 돌아온다고 본다 — 출시 전 예측이다.
 
 ## 비교 — 라이브 서비스 4게임
 

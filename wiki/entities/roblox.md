@@ -1,10 +1,10 @@
 ---
 title: "Roblox"
 type: entity
-sources: ["[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[newzoo-pc-console-2026]]", "[[ign-generations-in-play-2026]]", "[[matthew-ball-2026-report]]", "[[alinea-ps-july-2026-cod-catalog]]"]
+sources: ["[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[newzoo-pc-console-2026]]", "[[ign-generations-in-play-2026]]", "[[matthew-ball-2026-report]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-gta6-engagement-whirlpool-2026-11]]"]
 related: ["[[player-retention|플레이어 리텐션]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[engagement-loop|인게이지먼트 루프]]", "[[live-service-design|라이브 서비스 설계]]", "[[evergreen-ip|에버그린 IP]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[epic-games|에픽게임즈]]", "[[fortnite|포트나이트]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[game-market-trends|시장 구조 변화]]"]
 created: 2026-09-08
-updated: 2026-09-08
+updated: 2026-11-16
 confidence: medium
 ---
 
@@ -40,6 +40,8 @@ confidence: medium
 |---|---|---|
 | 프랜차이즈 순위 | **플레이타임 기준 1위** (▲52%, Fortnite·CoD 추월) | [[newzoo-pc-console-2026]] — *플레이타임* 기준이지 매출 기준 아님 |
 | 장르 기여 | Sandbox ▲36% 중 **Roblox가 58% 점유** | [[newzoo-pc-console-2026]] |
+| 콘솔 월평균 MAU | **2,290만** (PlayStation 67.1%) — Fortnite·Minecraft 다음 3위 | [[alinea-gta6-engagement-whirlpool-2026-11]] — 2026년 1–10월, PlayStation + Xbox만 |
+| GTA 5 중복 플레이 | 같은 달 **20–25%** — 콘솔 상위 라이브 게임 중 최고 | 〃 — GTA 6 출시 때 비율로는 가장 취약하다는 근거 |
 | 성인 이용자 비중 | 약 20% | [[roblox-retention-algorithm-tradeoff-2026-08]] |
 | 창작자 매출 분배 | **25%** | [[fortnite]] 대비 — UEFN은 40% |
 | 한때 밸류에이션 | 약 **\$1,000억** | "플랫폼이지 게임사가 아니다"라는 성장 서사에 매겨진 값 |

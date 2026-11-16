@@ -4,11 +4,13 @@ type: report
 sources: ["[[nexon-ir-2q26]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[nexon-cmb-2026-transformation]]", "[[gdc26-arc-raiders-reset]]", "[[embark-soderlund-quarter-budget]]"]
 related: ["[[nexon|넥슨]]", "[[arc-raiders|아크 레이더스]]", "[[embark-studios|엠바크 스튜디오]]", "[[mint-rocket|민트로켓]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]", "[[extraction-genre-design|익스트랙션 장르 설계]]", "[[game-market-trends|게임 시장 트렌드]]"]
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-11-11
 confidence: high
 ---
 
 넥슨 2026년도 2분기 결산설명자료(2026-08-13, 일본어판 41매 — 이정헌 대표·우에무라 시로 CFO)를 읽고 정리한 분석. 숫자 출처는 전부 [[nexon-ir-2q26|해당 IR 자료]]다.
+
+> ⚠️ 모순: 이 글의 읽기 세 가지가 다음 분기 수치와 어긋났다 — 이익률 하락이 구조적이라는 것(Q3 영업이익은 가이던스 -40 – -14%와 달리 +11%), 지역이 서구로 분산됐다는 것(북미·유럽 비중 21% → 10%), ARC Raiders 매출 기여가 견고하다는 것. 아래 수치는 그대로 맞고 해석이 과했다. 고쳐 쓴 내용은 [[reports/nexon-ir-3q26-analysis|3분기 분석]] 참조.
 
 **한 줄 요약**: 메이플 프랜차이즈(+63%)와 [[arc-raiders|ARC Raiders]]가 실적을 끌었고, 던파(-44%)·FC의 부진을 덮었다. 매출은 가이던스를 넘겼지만 영업이익은 전년 대비 -17% — 잘 팔리는 제품일수록 수수료·크리에이터 보상이 많이 붙는 쪽으로 매출 구성이 바뀌고 있어서다. 그리고 주당 415엔, 총 약 3,240억엔(약 20억 달러) 특별배당이라는 대형 자본정책이 함께 나왔다.
 

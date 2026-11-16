@@ -1,14 +1,14 @@
 ---
 title: "GTA 6"
 type: entity
-sources: ["[[gi-newzoo-console-gta6-2026-08]]", "[[newzoo-ggmr-2026-preview]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]", "[[newzoo-pc-console-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[remedy-control-resonant-pricing-2026-08]]", "[[ps-physical-digital-share-2026]]", "[[game-marketing-strategy-2026]]", "[[gi-sensortower-gta6-preorders-2026-11]]"]
+sources: ["[[gi-newzoo-console-gta6-2026-08]]", "[[newzoo-ggmr-2026-preview]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]", "[[newzoo-pc-console-2026]]", "[[naavik-ai-memory-console-economics-2026-07]]", "[[remedy-control-resonant-pricing-2026-08]]", "[[ps-physical-digital-share-2026]]", "[[game-marketing-strategy-2026]]", "[[gi-sensortower-gta6-preorders-2026-11]]", "[[alinea-gta6-engagement-whirlpool-2026-11]]"]
 related: ["[[game-market-trends|시장 구조 변화]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[marketing-strategy|마케팅·출시 전략]]", "[[rockstar-games|록스타 게임즈]]", "[[take-two-interactive|테이크투 인터랙티브]]", "[[gta5|GTA5]]", "[[nintendo-switch-2|Nintendo Switch 2]]"]
 relations:
   developedBy: [rockstar-games]
   publishedBy: [take-two-interactive]
   platform: [ps5, xbox-series]
 created: 2026-09-14
-updated: 2026-11-09
+updated: 2026-11-16
 confidence: low
 ---
 
@@ -53,6 +53,8 @@ confidence: low
 
 Rosier는 GTA 6 출시가 **"다른 게임들에 잠식적(cannibalistic)일 것"**이라고 직접 인정한다. 수많은 스튜디오가 출시일을 옮긴 이유가 이것이다. [[marketing-strategy|마케팅 전략]]은 여기서 실무 결론을 뽑는다 — 2026년은 GTA 6로 양분되고 **Q2(4–6월)가 황금 런치 윈도우**, Q4 이후는 니치 타겟팅이 필수다.
 
+출시 9일 전 Alinea는 잠식 대상을 **신작이 아니라 라이브 게임** 쪽에서 계량했다 ([[alinea-gta6-engagement-whirlpool-2026-11]]). PlayStation + Xbox 월평균 MAU 상위 게임 가운데 같은 달 [[gta5|GTA 5]]도 하는 비율이 [[roblox]] 20–25% · Minecraft 약 20% · [[fortnite]] 15–20% · Rocket League 약 15%다. 저자 전망은 출시 직후 DAU 급락 뒤 대부분 회복이고, 오래가는 피해는 GTA 6판 GTA Online이 나올 때 생긴다는 것이다. 출시 전 예측이라 실측으로 확인해야 한다.
+
 ### ③ 가격 상단
 
 Rosier의 관찰 둘. **"GTA 6는 하나뿐이라 가격 탄력성이 매우 낮다"** — 다들 너무 오래 기다렸다. 그리고 상단 가격 인상이 시장 전체를 들어 올린다는 것. 단 그는 *이것이 아무나 할 수 있다는 뜻은 아니다*라는 단서를 곧바로 단다.
@@ -76,7 +78,7 @@ Rosier의 관찰 둘. **"GTA 6는 하나뿐이라 가격 탄력성이 매우 낮
 - **Switch 2의 기여분이 분리되지 않는다.** 두 동인을 묶어 말할 뿐 각각이 얼마인지가 없다. 하드웨어 사이클과 단일 소프트 사이클은 지속 기간이 전혀 다른데 합산돼 있다
 - **NIQ의 영국 하드웨어 +33·34%는 기저가 없다.** 직전 주가 비수기였다면 같은 증가율도 뜻이 다르다. 단일 시장·단기 수치라 효과의 크기를 가늠하는 데는 못 쓴다
 - **\$80이 상단 앵커를 실제로 올렸는지는 아직 모른다.** [[price-distribution-middle-vs-barbell|가격 분포 비교]]가 이 가설을 기각한 근거는 *표본이 없다*는 방법론이었지 틀렸다는 판정이 아니다. 2026-11 이후 밴드별 실측으로만 갈린다
-- **관객 겹침이 얇다는 신호가 하나 있다.** 스팀에서 CoD를 한 사람 중 GTA 5도 하는 비율은 약 6%(콘솔 10%)다. "모두가 기다린다"는 전제를 그대로 받으면 안 된다
+- **관객 겹침이 얇다는 신호가 하나 있다.** 스팀에서 CoD를 한 사람 중 GTA 5도 하는 비율은 약 6%(콘솔 10%)다. "모두가 기다린다"는 전제를 그대로 받으면 안 된다. 다만 겹침은 상대에 따라 크게 다르다 — 콘솔 F2P 라이브 게임 쪽은 15–25%로 CoD의 두 배 안팎이다 ([[alinea-gta6-engagement-whirlpool-2026-11]]). 둘 다 GTA 5 플레이를 GTA 6 수요의 대리 지표로 쓴 값이다
 
 ## 관련 페이지
 

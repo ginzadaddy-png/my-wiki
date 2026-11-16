@@ -1,13 +1,15 @@
 ---
 title: "소스 전체 목록"
 created: 2026-04-16
-updated: 2026-11-09
+updated: 2026-11-16
 ---
 
-총 224개 | 최신순 정렬
+총 226개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [alinea-gta6-engagement-whirlpool-2026-11](alinea-gta6-engagement-whirlpool-2026-11.md) | Alinea — GTA 6 출시로 가장 흔들릴 콘솔 라이브 게임 (Elliott) — PS + Xbox 월평균 MAU Fortnite 4,790만 · Minecraft 2,420만 · Roblox 2,290만 · GTA 5 2,280만 · Rocket League 2,060만·같은 달 GTA 5 중복 플레이 15–25%(Roblox 최고)·DAU 급락 뒤 대부분 회복 전망·GTA Online이 예외·리메이크 3단계(포트 · 그래픽 갱신 · 전면 재해석)·오카리나 리메이크와 세대 승계 | 2026-11-10 |
+| [nexon-ir-3q26](nexon-ir-3q26.md) | 넥슨 3Q26 IR (결산설명자료) — 매출 1,383.8억엔(+17%) · 영업이익 417.9억엔(+11%, 고정환율 0%)·가이던스 상단 초과·메이플 +72% 분기 최고(MapleStory Classic 중국 약 4배)·FC 반등·던파 -33%·vertical +24% · horizontal -4%·북미·유럽 비중 21% → 10%·프로젝트 6건 중단·Arad: Idle RPG 2027 상반기 연기·특별배당 11월 25일 지급 | 2026-11-10 |
 | [alinea-ps-studios-top10-2026-11](alinea-ps-studios-top10-2026-11.md) | Alinea — PS5 세대 PlayStation Studios 매출 Top 10 (Elliott) — 합계 \$6.5B+·PS 84.7% · Steam 14.1% · Xbox 1.2%·Ragnarök \$1.4B·Spider-Man 2 \$1.3B·GT7 \$841.9M·Helldivers 2 \$786.3M·Horizon FW 출시 1년 뒤 PS Plus 편입으로 카탈로그 매출 −58%·Spider-Man 2 12월 계절성·패키지 축소 논지 | 2026-11-06 |
 | [gi-sensortower-gta6-preorders-2026-11](gi-sensortower-gta6-preorders-2026-11.md) | Sensor Tower — GTA 6 사전 주문 (GamesIndustry.biz) — 출시 2주 전 디지털 771만 장·\$751M·PS5 74%·장당 평균 약 \$97·8월 사전 주문 89%가 \$100 Ultimate·MW2 대비 +148%·출시 시점 약 2,500만 전망 | 2026-11-05 |
 | [alinea-phantom-blade-zero-223m-2026-11](alinea-phantom-blade-zero-223m-2026-11.md) | Alinea — Phantom Blade Zero 5일 \$223M (Elliott) — 430만 장(Steam 310만 · PS 120만)·2026 신작 매출 10위·중화권 판매량 55% · 매출 45%·중화권 밖 \$123M·State of Play는 비중 유지, 리뷰 엠바고 해제 뒤 미국 일 매출 4일 8.5배·GT7 연도별 매출과 크리스마스 정가 피크·Forza Motorsport 비교 | 2026-11-03 |

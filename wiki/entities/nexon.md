@@ -1,12 +1,12 @@
 ---
 title: "넥슨 (Nexon)"
 type: entity
-sources: ["[[gdc26-arc-raiders-reset]]", "[[cgdc-dave-the-diver]]", "[[gamedev-leadership-dynamics]]", "[[gdc2026-embark-character-pipeline]]", "[[multiproject-innersource-report]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[nexon-cmb-2026-transformation]]", "[[nexon-ir-2q26]]", "[[naavik-mobile-mmorpg-collapse-2026-10]]"]
+sources: ["[[gdc26-arc-raiders-reset]]", "[[cgdc-dave-the-diver]]", "[[gamedev-leadership-dynamics]]", "[[gdc2026-embark-character-pipeline]]", "[[multiproject-innersource-report]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[nexon-cmb-2026-transformation]]", "[[nexon-ir-2q26]]", "[[nexon-ir-3q26]]", "[[naavik-mobile-mmorpg-collapse-2026-10]]"]
 related: ["[[embark-studios|엠바크 스튜디오]]", "[[mint-rocket|민트로켓]]", "[[arc-raiders|아크 레이더스]]", "[[dave-the-diver|데이브 더 다이버]]", "[[live-service-design|라이브 서비스 설계]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]", "[[mmorpg|MMO·MMORPG]]"]
 relations:
   parentOf: [embark-studios, mint-rocket]
 created: 2026-05-26
-updated: 2026-10-12
+updated: 2026-11-11
 confidence: high
 ---
 
@@ -29,6 +29,8 @@ confidence: high
 
 DICE 출신 [[embark-studios|패트릭 수더룬드]]가 2018년 설립한 스웨덴 자회사. F2P 모회사가 *\$40 프리미엄 모델*로 [[arc-raiders|아크 레이더스]] 출시 — 넥슨 *역사상 최대 글로벌 론칭*: 1,400만장 · 동접 96만(2026년 1월). 이후 월 30%씩 하락해 4월 기준 -80%. 단 매출 기준으로는 기여가 이어져 [[nexon-ir-2q26|2Q26 IR]] 기준 **누적 1,630만 장·누적 매출 ¥88B+, 분기 매출 ¥18.3B(전사 매출의 약 15%)**. 북미·유럽 매출 비중을 1년 만에 8%→21%로 끌어올린 주역. 2026-10 최대 업데이트 "Frozen Trail" + 텐센트 중국 진출(7월 클로즈드 알파 목표 초과) 예정.
 
+[[nexon-ir-3q26|3Q26 IR]]에서 이 그림이 한 번 꺾였다. 누적 판매는 1,700만 장을 넘었지만 **북미·유럽 비중이 21% → 10%로 내려왔다**(북미·유럽 PC·콘솔 매출 Q1 ¥40.5B → Q2 ¥21.5B → Q3 ¥9.7B). 유료 판매작은 받은 돈을 서비스 기간에 나눠 매출로 잡는데, 상반기 매출에 들어 있던 출시 분기 판매분이 줄어든 것이다. Q4 북미·유럽 가이던스는 전년比 -67 – -64%. 연간 비중은 FY25 14% → FY26 약 18%(추정)로 늘지만, 유료 판매작 하나로는 분기 비중이 유지되지 않는다는 점이 드러났다. 다음 서구 후보(NAKWON·Vindictus: Defying Fate)는 2027년이다.
+
 > 💡 **핵심 인사이트:** 넥슨이 *F2P 한국 퍼블리셔*에서 *글로벌 프리미엄 게임 퍼블리셔*로 전환 중이라는 신호. 자회사 자율성 부여 + 본사 IP·라이브 운영 노하우 결합. 단 이 프리미엄 성장 베팅은 *2026 CMB*(아래 5번째 축)에서 규율 대상이 됐다 — First Descendant는 *완성도 재정비*, 반대로 아크 레이더스(엠바크)의 *소수정예 AAA 노하우*는 전사 확산 템플릿으로 채택.
 
 ### 3. 멀티 프로젝트 — 자회사 포트폴리오 모델 ([[multi-project-development]])
@@ -43,6 +45,8 @@ DICE 출신 [[embark-studios|패트릭 수더룬드]]가 2018년 설립한 스�
 
 [[nexon-ir-2q26|2Q26 IR]]이 이 모델의 새 국면을 보여줬다 — **메이플 프랜차이즈 +63%로 분기 사상 최고**인데, 견인이 본편이 아니라 *확장 타이틀*(UGC 플랫폼 MapleStory Worlds +123%·방치형 Idle RPG)이다. 같은 분기 던파 프랜차이즈는 -44%. 넥슨은 이 "본편 라이브 + UGC + 방치형" 3단 구성을 **메이플 성공모델**로 명명하고 던파에 복제 중(Arad: Idle RPG·DnF Classic·Project OVERKILL·DnF: ARAD 4종 개발).
 
+[[nexon-ir-3q26|3Q26 IR]]에서 메이플은 **+72%로 분기 최고를 다시 경신**했고, 이번에는 본편 쪽도 움직였다. 구버전을 다시 연 **MapleStory Classic**이 대만(7월) 2배·중국(8월) 약 4배를 만들었고 한국 PC 본편도 +19%. 메이플 모델은 본편 + UGC + 방치형에 *클래식*을 더한 4단이 됐다 — 엔씨 리니지 클래식에 이은 클래식 서버의 두 번째 실측이다 ([[remaster-rerelease-strategy|재발매 전략]]). FC 프랜차이즈도 한 분기 만에 반등해 FC온라인이 분기 최고 매출. 그 결과 3분기 성장은 전부 기존 프랜차이즈에서 나왔다 — **3대 프랜차이즈(vertical) +24%, 그 외(horizontal) -4%**로 상반기와 정반대다. 반면 던파는 -33%로 가이던스를 밑돌았고(중국 모바일 매출 -55%), Q4에는 "수익화보다 인게이지먼트 안정화 우선"을 내걸었다. 복제의 첫 타자 Arad: Idle RPG가 2027년 상반기로 밀려 던파 확장 4종은 전부 2027년 이후다.
+
 시장 쪽에서 보면 이 전략의 배경이 분명해진다. 모바일 MMORPG 시장은 2021→2025년 매출 −47%였고, 일본 퍼블리셔 감소분의 약 64%를 넥슨·ASOBIMO·Marvelous가 차지했다. 같은 분석이 넥슨의 두 타이틀을 *붕괴 속 대안*으로 든다 — **마비노기 모바일**(원신풍 비주얼·생활 중심 + MMO 경제, 프랜차이즈 2025 매출 4배)과 **메이플스토리 키우기**(이용자 54%가 메이플 첫 경험, 젊은 층이 다수). 앞은 장르를 다시 만든 경로, 뒤는 IP를 짧은 루프 형식으로 옮긴 경로다. 수치는 넥슨 발표이고 인과는 증명되지 않았다 ([[naavik-mobile-mmorpg-collapse-2026-10]] · [[mmorpg]]).
 
 ### 5. 2026 Transformation Plan — 성장 목표 철회와 재편 ([[nexon-cmb-2026-transformation]])
@@ -56,10 +60,13 @@ DICE 출신 [[embark-studios|패트릭 수더룬드]]가 2018년 설립한 스�
 - **투톱**: 쇠더룬드 회장(비전·구조 재설정) + 이정헌 대표(라이브 운영·일상 경영)
 - **주주환원**(Q1 2026 IR): 2026 배당 ¥60/주 + ¥300억 자사주 매입(5/15~7/31, 완료). 파이프라인 신작 15+개 승인(던파 클래식 2027 등)
 - **특별배당**([[nexon-ir-2q26|2Q26 IR]]): **주당 ¥415, 총 약 ¥324B(약 20억 달러)** — 기준일 2026-09-30. 투자유가증권 매각(원금 ¥106B+매각익 ¥142B)으로 수중자금 ¥842B. 방침 공식화: 전년도 영업이익 33%+ 환원, ROE 최저 10%→중장기 15%. IPO 이후 누적 환원 ¥900B 돌파 전망
+- **3분기 진척 보고**([[nexon-ir-3q26|3Q26 IR]]): CMB 약속에 처음 숫자가 붙었다 — **프로젝트 6건 중단**(Durango World 포함 — 타이틀은 IR 자료 밖 확인) 후 인원·예산 재배치, 모든 신규 프로젝트에 실적 목표, 단계별 승인 절차, 인원 9,894명(전년 +1%, 계획 하회). 인건비가 +3%에 묶이면서 Q3 영업이익 ¥41.8B(+11%)로 가이던스 상단(¥32.3B)을 크게 넘겼다. 특별배당은 11월 25일 지급, 2026년 주주환원 합계 ¥410.5B(2025년 ¥132.5B). 연간 가이던스 상단은 매출 ¥530.6B(+12%)·영업이익 ¥142.9B(+15%) — 단 **고정환율 영업이익은 9개월 누적 -0%**로, 이익 성장은 환율 효과다
 
-> 💡 **핵심 인사이트:** [[catalog-economics|MMO recurrent]] 바닥(메이플 22년 최고매출·현금 >¥800B)이 견고해 *"재편"을 감당할 여력*이 있는 것이지, recurrent 자체가 ¥750B 성장을 만들어주는 건 아니었다. 목표는 *신작 IP·M&A 성장 베팅* 위에 세워졌고 그 가정이 무너져 철회됐다 — **recurrent = 안정적 floor ≠ 성장 ceiling**. 성장은 신작에서 나오되, [[nexon-ir-2q26|2Q26]]이 조건을 붙였다: *기존 IP 위에 얹은 신작*(Worlds·Idle RPG·ARC Raiders)이 가장 빠르다. 넥슨의 회복탄력성(vs 엔씨)과 성장 좌절은 *같은 recurrent 구조의 앞뒷면*이다.
+> 💡 **핵심 인사이트:** [[catalog-economics|MMO recurrent]] 바닥(메이플 22년 최고매출·현금 >¥800B)이 견고해 *"재편"을 감당할 여력*이 있는 것이지, recurrent 자체가 ¥750B 성장을 만들어주는 건 아니었다. 목표는 *신작 IP·M&A 성장 베팅* 위에 세워졌고 그 가정이 무너져 철회됐다 — **recurrent = 안정적 floor ≠ 성장 ceiling**. 성장은 신작에서 나오되, [[nexon-ir-2q26|2Q26]]이 조건을 붙였다: *기존 IP 위에 얹은 신작*(Worlds·Idle RPG·ARC Raiders)이 가장 빠르다. 넥슨의 회복탄력성(vs 엔씨)과 성장 좌절은 *같은 recurrent 구조의 앞뒷면*이다. [[nexon-ir-3q26|3Q26]]은 한 걸음 더 나갔다 — 분기 성장이 전부 기존 프랜차이즈(메이플 +72%·FC)에서 나왔다. 본편만 운영하면 천장이 낮지만, 같은 IP에 새 형태(UGC·방치형·클래식)를 계속 얹으면 그 IP가 성장 엔진이 된다. 다만 같은 구조의 던파는 -33%라 IP마다 답이 다르다.
 
 > ⚠️ 모순: 종전 이 페이지와 [[nexon-ncsoft-mmo-recurrent-2026]]에 있던 "vertical(3대 프랜차이즈) **매출** FY23 ¥139.4B→FY25 ¥130.8B 감소"는 오독 — [[nexon-ir-2q26|2Q26 IR]] 3페이지에서 동일 수치 시리즈(139.4/140.2/130.8/93.1)가 **조정후영업이익**(감손 등 제외) 차트로 명시됐다. FY26 H1 조정영업이익 ¥93.1B는 FY25 연간의 71%를 반기에 달성한 수치로 오히려 회복 중이며, 메이플 프랜차이즈 +63%가 보여주듯 vertical도 확장 타이틀로 성장 가능.
+
+> ⚠️ 모순: [[nexon-ir-2q26|2Q26]] 기준으로 쓴 "북미·유럽 비중 8%→21%"와 "ARC Raiders 매출 기여 지속"은 [[nexon-ir-3q26|3Q26]]에서 분기 기준으로 되돌아왔다(북미·유럽 10%, 한국+중국 67% → 77%). 2분기 수치는 맞고, 유료 판매작의 매출 인식 구조를 감안하지 않고 한 분기 수치를 추세로 읽은 것이 과했다. 상세는 [[reports/nexon-ir-3q26-analysis|3분기 분석]] 8절.
 
 ## 추가 조사 주제
 

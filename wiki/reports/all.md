@@ -2,7 +2,7 @@
 title: "보고서 카탈로그"
 type: catalog
 created: 2026-05-12
-updated: 2026-08-13
+updated: 2026-11-11
 ---
 
 ← [홈으로](../index.md)
@@ -19,3 +19,4 @@ updated: 2026-08-13
 | PC·콘솔 패키지 게임 기준 가격 결정 가이드 | 가격을 정하는 절차 — 가격 결정력·포지션·실수령 검산·채널과 SKU·시간축 곡선 (의사결정 순서도 포함) | [[game-pricing-strategy]], [[missing-middle-paradigm-shift-2026]], [[zrconsulting-steam-forecaster-2026]], [[console-retail-strategy]], [[capcom-fy26-ir]] | <a href="https://ginzadaddy-png.github.io/quartz/reports/pc-console-pricing-playbook">pc-console-pricing-playbook</a> | — (아티클) |
 | 소규모 팀은 어떻게 대작을 만들어내는가 | 의사결정 비용 관점 — 정렬 표면·5메커니즘·규모 재현·반례(Mimimi·HD2) 종합 (장문 보고서) | [[small-team-development]], [[helldivers-2]], [[gdc-helldivers2-team-scaling]], [[pilestedt-helldivers2-preproduction-lesson]] | <a href="https://ginzadaddy-png.github.io/quartz/reports/how-small-teams-ship-big-games">how-small-teams-ship-big-games</a> | <a href="https://ginzadaddy-png.github.io/quartz/reports/how-small-teams-ship-big-games-deck.html" target="_blank" rel="noopener">전체 화면 열기 ↗</a> |
 | 넥슨 FY2026 2분기 IR 분석 | 메이플 확장 +63%·ARC Raiders 서구 돌파·특별배당 3,240억엔 — 저마진 성장 구조 전환·던파 복제 파이프라인·기존 논지 교정 (분석 보고서) | [[nexon-ir-2q26]], [[nexon-ncsoft-mmo-recurrent-2026]], [[nexon-cmb-2026-transformation]] | <a href="https://ginzadaddy-png.github.io/quartz/reports/nexon-ir-2q26-analysis">nexon-ir-2q26-analysis</a> | — (아티클) |
+| 넥슨 FY2026 3분기 IR 분석 | 클래식이 올린 메이플 +72%·서구 비중 21% → 10%·던파 -33%와 확장 신작 2027년 연기 — 성장 축이 신규 IP에서 기존 프랜차이즈로 교체·고정환율 영업이익 제자리·2분기 논지 수정 (분석 보고서) | [[nexon-ir-3q26]], [[nexon-ir-2q26]], [[nexon-cmb-2026-transformation]] | <a href="https://ginzadaddy-png.github.io/quartz/reports/nexon-ir-3q26-analysis">nexon-ir-3q26-analysis</a> | — (아티클) |

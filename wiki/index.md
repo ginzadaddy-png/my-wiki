@@ -1,16 +1,16 @@
 # Game Dev Wiki
 
-Last updated 2026-11-09
+Last updated 2026-11-16
 
 ![[overview#^wiki-intro]]
 
 <div class="wiki-stats">
-  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">224</span></a></div>
+  <div class="stat-card"><a href="sources/all.md" class="internal"><span class="stat-label">소스</span><span class="stat-num">226</span></a></div>
   <div class="stat-card"><a href="entities/all.md#스튜디오" class="internal"><span class="stat-label">스튜디오</span><span class="stat-num">55</span></a></div>
   <div class="stat-card"><a href="entities/all.md#게임" class="internal"><span class="stat-label">게임</span><span class="stat-num">54</span></a></div>
   <div class="stat-card"><a href="concepts/all.md" class="internal"><span class="stat-label">개념</span><span class="stat-num">82</span></a></div>
   <div class="stat-card"><a href="comparisons/all.md" class="internal"><span class="stat-label">비교 분석</span><span class="stat-num">22</span></a></div>
-  <div class="stat-card"><a href="reports/all.md" class="internal"><span class="stat-label">보고서</span><span class="stat-num">6</span></a></div>
+  <div class="stat-card"><a href="reports/all.md" class="internal"><span class="stat-label">보고서</span><span class="stat-num">7</span></a></div>
   <div class="stat-card"><a href="decisions/all.md" class="internal"><span class="stat-label">결정·가설</span><span class="stat-num">1</span></a></div>
 </div>
 
@@ -166,6 +166,7 @@ Last updated 2026-11-09
 - [[reports/how-small-teams-ship-big-games|소규모 팀은 어떻게 대작을 만드는가 — 의사결정 비용·정렬 표면·5메커니즘·반례]]
 - [[reports/pc-console-pricing-playbook|PC·콘솔 패키지 게임 기준 가격 결정 가이드 — 가격 결정력·포지션·실수령 검산·의사결정 순서도]]
 - [[reports/nexon-ir-2q26-analysis|넥슨 FY2026 2분기 IR 분석 — 메이플 확장 +63%·ARC Raiders 서구 돌파·특별배당 3,240억엔]]
+- [[reports/nexon-ir-3q26-analysis|넥슨 FY2026 3분기 IR 분석 — 클래식이 올린 메이플 +72%·서구 비중 10%로 후퇴·던파 확장 신작 2027년 연기]]
 
 </div>
 

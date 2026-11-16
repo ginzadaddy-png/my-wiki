@@ -1,10 +1,10 @@
 ---
 title: "구작 재발매·리마스터 전략"
 type: concept
-sources: ["[[alinea-remakes-remasters-ranking-2026-07]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-steam-record-year-2026]]", "[[capcom-fy26-ir]]", "[[cedec2026-silent-hill-producing]]", "[[catalog-economics-cross-company-2026]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-halo-campaign-evolved-2026-08]]"]
+sources: ["[[alinea-remakes-remasters-ranking-2026-07]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-steam-record-year-2026]]", "[[capcom-fy26-ir]]", "[[cedec2026-silent-hill-producing]]", "[[catalog-economics-cross-company-2026]]", "[[alinea-ps-physical-fc27-odyssey-2026-07]]", "[[alinea-halo-campaign-evolved-2026-08]]", "[[nexon-ir-3q26]]", "[[alinea-gta6-engagement-whirlpool-2026-11]]"]
 related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[ip-adaptation-design|IP 각색·확장 설계]]", "[[subscription-economy-gaming|구독 경제]]", "[[proprietary-engine-strategy|자체 엔진 전략]]", "[[reports/pc-console-pricing-playbook|PC·콘솔 패키지 게임 기준 가격 결정 가이드]]", "[[capcom|캡콤]]", "[[konami|코나미]]", "[[bethesda-game-studios|베데스다]]", "[[call-of-duty|Call of Duty]]", "[[halo|Halo]]"]
 created: 2026-08-10
-updated: 2026-08-18
+updated: 2026-11-16
 confidence: high
 ---
 
@@ -19,6 +19,8 @@ confidence: high
 | **리메이크** | 엔진·설계까지 새로 | 최고 (신작에 근접) | Resident Evil 4 · Silent Hill 2 · Dead Space |
 
 셋은 *같은 가격대에 놓일 수 없는데* 시장에서 자주 같은 가격대에 놓인다. 아래 실패 사례 대부분이 여기서 나온다.
+
+**리메이크 층은 다시 둘로 갈린다** ([[alinea-gta6-engagement-whirlpool-2026-11]]). Elliott은 *새로 만든 부분의 크기*로 나눈다 — 아트와 편의 기능만 새로 하고 설계 뼈대는 그대로 둔 **그래픽 중심 갱신**(The Last of Us Part I · Demon's Souls · 오카리나 오브 타임)과, 설계·레이아웃까지 다시 지은 **전면 재해석**(Resident Evil 2·4 · FF7 리메이크 · Silent Hill 2). The Game Awards도 후자만 GOTY 후보에 올려 왔다. 위 표가 비용 기준이라면 이 구분은 창작 기여 기준이고, 저자도 경계가 흐릿하다고 인정한다.
 
 ## 가격이 진입 스위치다 — \$40 vs \$50의 25배 ([[alinea-ps-july-2026-cod-catalog]])
 
@@ -131,6 +133,8 @@ Elliott이 꼽은 구조적 압력 셋:
 
 > ⚠️ **자기무력화 함정:** 2번이 바로 가장 흔한 실패 경로다. **부푼 예산을 리메이크에 그대로 얹으면 리메이크의 유일한 이점(낮은 제작비)이 사라진다.** 리메이크는 "AAA를 싸게 만드는 법"이 아니라 "*싸게 만들어야만 성립하는* 별도 규율"이다. [[small-team-development|범위 통제]]가 신작보다 오히려 더 엄격해야 한다.
 
+**네 번째 동기 — 세대 승계** ([[alinea-gta6-engagement-whirlpool-2026-11]]). [[nintendo|닌텐도]]의 아오누마 에이지는 오카리나 오브 타임 리메이크(Switch 2, 2026-11)의 이유로 젊은 스태프가 원작의 구조와 개발 방식을 직접 다시 지으며 배우는 것을 들었다. FromSoftware가 Elden Ring Nightreign을 차기 리더들에게 맡긴 것도 같은 맥락이다. 리메이크가 매출 사업이면서 **사내 교육 과정**으로도 쓰인다는 뜻이고, 장기 고용이 기본인 일본 스튜디오에서 이 가치가 더 크다. 다만 근거는 발언 하나와 사례 하나다.
+
 한 가지 더 — 성공한 퍼블리셔들은 리메이크를 **신규 IP의 대체재가 아니라 혁신을 조달하는 재원**으로 쓴다. 대체재로 쓰는 순간 [[catalog-economics|카탈로그]]에 넣을 신규 자산의 공급이 끊겨, 몇 세대 뒤 채굴할 광맥 자체가 사라진다.
 
 ## 위키 안의 재발매 사례 지도
@@ -143,6 +147,7 @@ Elliott이 꼽은 구조적 압력 셋:
 | [[gta5\|GTA V]] | 3회 cross-gen 재발매 | 13년차에도 월 84.6만 장 |
 | CoD BO1·BO2 이식 | 최저 비용 이식 + \$40 | 손대지 않고 가격만 맞춘 극단 사례 |
 | [[ncsoft\|엔씨]] 리니지 클래식 | MMO판 재발매 (클래식 서버) | 패키지 재발매의 라이브 서비스 대응물 |
+| [[nexon\|넥슨]] MapleStory Classic | MMO판 재발매 — 지역별 순차 개방 (대만 7월 · 중국 8월 · 서구 10월) | 중국 PC 메이플 매출 약 4배 · 대만 2배 ([[nexon-ir-3q26]]). 클래식 서버의 두 번째 실측이지만 출시 몇 달 치 수치 |
 
 ## 커버리지 밖
 

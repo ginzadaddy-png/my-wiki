@@ -1,10 +1,10 @@
 ---
 title: "MMO·MMORPG"
 type: concept
-sources: ["[[nexon-ncsoft-mmo-recurrent-2026]]", "[[nexon-ir-2q26]]", "[[nexon-cmb-2026-transformation]]", "[[pearl-abyss-ir-1q26]]", "[[pearl-abyss-blackspace-engine-gdc2025]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]", "[[carless-genres-ruled-steam-2025-06]]", "[[newzoo-pc-console-2026]]", "[[naavik-mobile-mmorpg-collapse-2026-10]]"]
+sources: ["[[nexon-ncsoft-mmo-recurrent-2026]]", "[[nexon-ir-2q26]]", "[[nexon-ir-3q26]]", "[[nexon-cmb-2026-transformation]]", "[[pearl-abyss-ir-1q26]]", "[[pearl-abyss-blackspace-engine-gdc2025]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]", "[[carless-genres-ruled-steam-2025-06]]", "[[newzoo-pc-console-2026]]", "[[naavik-mobile-mmorpg-collapse-2026-10]]"]
 related: ["[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]", "[[free-to-play|F2P·부분유료 모델]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[proprietary-engine-strategy|자체 엔진 전략]]", "[[evergreen-ip|에버그린 IP]]", "[[nexon|넥슨]]", "[[ncsoft|엔씨소프트]]", "[[pearl-abyss|펄어비스]]", "[[aion-2|아이온2]]", "[[genshin-impact|원신]]", "[[audience-age-segmentation|연령대별 오디언스 세분화]]"]
 created: 2026-09-29
-updated: 2026-10-12
+updated: 2026-11-11
 confidence: medium
 ---
 
@@ -29,7 +29,7 @@ confidence: medium
 
 | 회사 | 받치는 바닥 | 바닥의 최근 추세 | 성장이 나온 곳 |
 |---|---|---|---|
-| [[nexon]] | 메이플스토리·던전앤파이터 | 던파 프랜차이즈 Q1 −26% · Q2 −44% | 신작 아크 레이더스, 메이플 확장 타이틀 |
+| [[nexon]] | 메이플스토리·던전앤파이터 | 던파 프랜차이즈 Q1 −26% · Q2 −44% · Q3 −33% | 상반기는 신작 아크 레이더스, 3분기는 메이플 확장 타이틀·클래식 |
 | [[ncsoft]] | 리니지 모바일 3종 | 모바일 ₩213.5B → ₩182.8B | 아이온2 ₩136.8B, 리니지 클래식 |
 | [[pearl-abyss]] | 검은사막 | 2026 가이던스 전년 대비 −8–10% | 붉은사막(1Q26 매출의 81%) |
 
@@ -37,12 +37,14 @@ confidence: medium
 
 > ⚠️ 반례에 가까운 것이 하나 있다. 2Q26 메이플 프랜차이즈가 **+63%로 분기 최고**를 찍었다. 다만 끌어올린 것은 본편이 아니라 확장 타이틀이었다 — MapleStory Worlds(UGC 플랫폼) +123%, 방치형 RPG. 한국 PC 본편은 +7%였다 ([[nexon-ir-2q26]]). 오래된 IP도 자랄 수 있지만 *본편 밖에서* 자란다.
 
+> ⚠️ 3Q26에는 반례가 더 커졌다. 메이플 프랜차이즈가 **+72%**로 분기 최고를 다시 썼고, 이번에는 본편 쪽도 움직였다 — 한국 PC 본편 +19%, 구버전을 다시 연 MapleStory Classic으로 중국 PC 메이플 약 4배. 넥슨 3분기 성장은 전부 기존 프랜차이즈에서 나왔다(3대 프랜차이즈 +24%, 그 외 −4%). 같은 분기 던파는 −33%였다 ([[nexon-ir-3q26]]). "천장은 안 된다"는 *본편만 운영할 때*의 이야기이고, 새 형태를 계속 얹는 IP와 그러지 못한 IP가 갈린다고 읽는 편이 정확하다.
+
 ## 운영 중인 MMO를 다시 키우는 네 가지 방법
 
 위키 자료에 실제로 나온 것만 모았다.
 
-1. **클래식 서버 — MMO판 재발매.** 엔씨 리니지 클래식이 출시 90일에 ₩1,924억을 벌었고, 넥슨은 던파 클래식을 2027년에 낸다. 패키지 게임의 리마스터에 해당하는 자리다 ([[remaster-rerelease-strategy|재발매 전략]])
-2. **같은 IP를 다른 형태로.** 메이플의 UGC 플랫폼·방치형 RPG가 위 +63%를 만들었고, 넥슨은 이 조합을 던파에 그대로 옮기는 중이다(Arad: Idle RPG 등)
+1. **클래식 서버 — MMO판 재발매.** 엔씨 리니지 클래식이 출시 90일에 ₩1,924억을 벌었고, 넥슨은 던파 클래식을 2027년에 낸다. 패키지 게임의 리마스터에 해당하는 자리다 ([[remaster-rerelease-strategy|재발매 전략]]). 두 번째 실측이 넥슨 MapleStory Classic이다 — 대만(2026-07) 메이플 매출 2배, 중국(2026-08) 약 4배, 10월에는 서구판 출시 ([[nexon-ir-3q26]]). 다만 둘 다 출시 몇 달 치 수치라 얼마나 이어지는지는 아직 모른다
+2. **같은 IP를 다른 형태로.** 메이플의 UGC 플랫폼·방치형 RPG가 위 +63%를 만들었고, 넥슨은 이 조합을 던파에 그대로 옮기는 중이다(Arad: Idle RPG 등 — 단 2027년 상반기로 연기)
 3. **확장팩·시즌 주기.** Newzoo는 2026 상반기 기성 라이브 서비스 대부분이 보합이거나 줄었고, 자란 소수가 WoW처럼 *그해 확장·시즌이 있던* 타이틀이라고 본다 ([[gi-newzoo-ggmr-2026-release-2026-09]]). 다만 구조적 성장인지 캘린더 효과인지는 구분되지 않는다
 4. **후속작.** [[aion-2|아이온2]]가 엔씨 반등을 이끌었다. 다만 MMO 신작은 출시 초에 매출이 몰렸다가 줄어드는 것이 보통이라, 이 매출이 얼마나 이어지느냐가 엔씨가 리니지 밖으로 나갈 수 있는지를 가른다
 

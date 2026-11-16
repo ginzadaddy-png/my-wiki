@@ -1,10 +1,10 @@
 ---
 title: "카탈로그 이코노믹스 (Catalog Economics)"
 type: concept
-sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[alinea-steam-record-year-2026]]", "[[alinea-steam-15b-mid-market-2026-09]]", "[[bain-gaming-report-2026]]", "[[newzoo-pc-console-2026]]", "[[krafton-ir-fy2025-1q26]]", "[[krafton-ir-2q26]]", "[[pearl-abyss-ir-1q26]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[alinea-steam-september-2026]]", "[[carless-steam-daily-deals-end-2026-10]]", "[[alinea-ps-studios-top10-2026-11]]", "[[alinea-phantom-blade-zero-223m-2026-11]]"]
+sources: ["[[capcom-fy26-ir]]", "[[catalog-economics-cross-company-2026]]", "[[nexon-ncsoft-mmo-recurrent-2026]]", "[[alinea-steam-record-year-2026]]", "[[alinea-steam-15b-mid-market-2026-09]]", "[[bain-gaming-report-2026]]", "[[newzoo-pc-console-2026]]", "[[krafton-ir-fy2025-1q26]]", "[[krafton-ir-2q26]]", "[[pearl-abyss-ir-1q26]]", "[[nexon-ir-3q26]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[alinea-steam-september-2026]]", "[[carless-steam-daily-deals-end-2026-10]]", "[[alinea-ps-studios-top10-2026-11]]", "[[alinea-phantom-blade-zero-223m-2026-11]]"]
 related: ["[[capcom|캡콤]]", "[[rockstar-games|록스타]]", "[[cd-projekt-red|CD 프로젝트 레드]]", "[[bethesda-game-studios|베데스다]]", "[[fromsoftware|프롬소프트웨어]]", "[[nintendo|닌텐도]]", "[[nexon|넥슨]]", "[[krafton|크래프톤]]", "[[pearl-abyss|펄어비스]]", "[[larian-studios|라리안]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[marketing-strategy|마케팅 전략]]", "[[ip-adaptation-design|IP 적응 설계]]", "[[live-service-design|라이브 서비스 설계]]", "[[dev-talent-pipeline|개발 인재 파이프라인]]", "[[catalog-economics-3-publishers|3사 비교 (캡콤·닌텐도·Take-Two)]]", "[[nexon-ncsoft-mmo-recurrent-2026|한국 MMO recurrent]]", "[[hit-driven-strategy|홈런 전략]]", "[[hit-driven-vs-catalog-economics|홈런 vs 카탈로그 전략]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]", "[[long-tail-survival-economics|롱테일 생존 경제학]]", "[[call-of-duty|Call of Duty]]", "[[pubg|PUBG]]", "[[mmorpg|MMO·MMORPG]]", "[[witcher-3|위쳐 3]]"]
 created: 2026-05-18
-updated: 2026-11-09
+updated: 2026-11-11
 confidence: high
 ---
 
@@ -194,14 +194,16 @@ Alinea 79%가 *매출*, Bain 2/3가 *수요·설문*이라면, Newzoo 2026은 **
 
 [[nexon-ncsoft-mmo-recurrent-2026|넥슨·엔씨 IR 종합]]. 패키지 카탈로그와 근본이 다른 *라이브 서비스 MMO* 축. 유닛을 다시 파는 게 아니라 *같은 게임을 수십 년 운영*해 아이템·시즌패스 recurrent를 만든다. 같은 모델의 **회복탄력형(넥슨)**과 **취약형(엔씨)**을 나란히 보여준다.
 
-- **[[nexon|넥슨]] — 복수 장수 IP 분산**: FY2025 ¥475.1B(+6%). 메이플스토리(2003) franchise +43%로 *22년 역사상 최고 연매출*, 던파(2005) 중국 텐센트 *10년 재계약*. 신작 프리미엄([[arc-raiders|아크 레이더스]])이 라이브 카탈로그 위에 얹힘 → Q1 2026 분기 최고 ¥152.2B(+34%). **단 vertical(3대 프랜차이즈) 매출은 FY23 ¥139.4B→FY25 ¥130.8B로 감소, 성장은 전부 horizontal(신작 +188% YoY)**
+- **[[nexon|넥슨]] — 복수 장수 IP 분산**: FY2025 ¥475.1B(+6%). 메이플스토리(2003) franchise +43%로 *22년 역사상 최고 연매출*, 던파(2005) 중국 텐센트 *10년 재계약*. 신작 프리미엄([[arc-raiders|아크 레이더스]])이 라이브 카탈로그 위에 얹힘 → Q1 2026 분기 최고 ¥152.2B(+34%), 이 분기 성장은 horizontal(신작 +188% YoY)이 만들었다. **Q3 2026에는 반대로 vertical(3대 프랜차이즈) +24%·horizontal −4%** — 메이플 +72%(클래식·UGC·방치형)와 FC가 끌었다 ([[nexon-ir-3q26]])
 - **[[ncsoft|엔씨]] — 집중형 trough → 신작·클래식 반등**: 리니지(1998)가 모바일 매출을 *100% 점유*(franchise ~70%). FY2024 **26년 만의 첫 연간 영업손실**(user fatigue). 그러나 **Q1 2026 매출 ₩557.4B(+55%)·영업이익 +2,070%**로 반등 — [[aion-2|아이온2]] (신작, PC 매출 3배)+**리니지 클래식(클래식 서버 재출시, 90일 ₩1,924억)** 쌍끌이. 단 기존 리니지 모바일은 계속 하향
 
 > 💡 **핵심 인사이트:** MMO recurrent의 long-tail은 *연 단위가 아니라 수십 년 단위*(메이플 22년·리니지 27년)지만, 위력은 재발매가 아니라 *live-ops 지속 투자*에서 나오고 리스크는 *프랜차이즈 집중*이다. 넥슨식 *복수 장수 IP + 신작 파이프라인* 분산이 회복탄력형, 엔씨식 *단일 IP 의존*이 취약형. [[live-service-design|라이브 서비스 설계]]가 이 모델의 게임 디자인 실체.
 
-> ⚠️ **recurrent = floor ≠ ceiling:** [[nexon-cmb-2026-transformation|넥슨 2026 CMB]]에서 2027 매출 ¥750B(₩7조) 목표를 철회한 사건이 이 모델의 한계를 드러낸다. 넥슨 공식 IR이 이를 하드 데이터로 확증 — **vertical(3대 프랜차이즈) 매출이 FY23 ¥139.4B → FY25 ¥130.8B로 감소**하는 동안 전체 매출은 신작(horizontal +188% YoY)이 끌어올렸다. 견고한 recurrent 바닥(메이플 최고매출·현금 >¥800B)은 *회복탄력성*을 주지만 *성장 엔진*은 아니다. 즉 recurrent 카탈로그는 *안정적 바닥을 깔되 top-line 성장은 별도 리스크 축(신작·M&A)*이라는 점이 패키지 카탈로그와의 또 다른 차이.
+> ⚠️ **recurrent = floor ≠ ceiling:** [[nexon-cmb-2026-transformation|넥슨 2026 CMB]]에서 2027 매출 ¥750B(₩7조) 목표를 철회한 사건이 이 모델의 한계를 드러낸다. Q1 2026 전체 매출은 신작(horizontal +188% YoY)이 끌어올렸다. 견고한 recurrent 바닥(메이플 최고매출·현금 >¥800B)은 *회복탄력성*을 주지만 *성장 엔진*은 아니다. 즉 recurrent 카탈로그는 *안정적 바닥을 깔되 top-line 성장은 별도 리스크 축(신작·M&A)*이라는 점이 패키지 카탈로그와의 또 다른 차이.
 
-> 💡 **MMO판 "재발매형" — 클래식 서버 재출시:** 패키지 카탈로그의 재발매형(캡콤 리메이크·Skyrim SE)에 대응하는 MMO 고유 메커니즘이 2026년 동시 부상. [[ncsoft|엔씨]] **리니지 클래식**(구버전 서버 재출시, 출시 90일 ₩1,924억)과 넥슨 **던파 클래식**(2027 예정)이 대표. *같은 IP의 과거 버전을 별도 서비스로 다시 파는* 구조로, recurrent 모델 안에서 카탈로그를 재점화하는 방식이다.
+> ⚠️ 모순: 이 절에 있던 "vertical(3대 프랜차이즈) **매출**이 FY23 ¥139.4B → FY25 ¥130.8B로 감소"는 오독이라 삭제했다 — 같은 수치가 [[nexon-ir-2q26|2Q26 IR]]에서 *조정후영업이익*으로 확인됐다([[nexon|넥슨]] 페이지 모순 블록 참조). 그리고 [[nexon-ir-3q26|3Q26]]은 floor ≠ ceiling에 조건을 붙인다. 3분기 넥슨 성장은 전부 기존 프랜차이즈에서 나왔다(vertical +24%, 메이플 +72%). 본편만 운영하면 천장이 낮다는 말은 그대로지만, 같은 IP에 새 형태(UGC·방치형·클래식)를 계속 얹으면 그 IP가 성장 엔진이 된다. 같은 구조의 던파는 −33%라 IP마다 갈린다.
+
+> 💡 **MMO판 "재발매형" — 클래식 서버 재출시:** 패키지 카탈로그의 재발매형(캡콤 리메이크·Skyrim SE)에 대응하는 MMO 고유 메커니즘이 2026년 동시 부상. [[ncsoft|엔씨]] **리니지 클래식**(구버전 서버 재출시, 출시 90일 ₩1,924억)과 넥슨 **던파 클래식**(2027 예정)이 대표. *같은 IP의 과거 버전을 별도 서비스로 다시 파는* 구조로, recurrent 모델 안에서 카탈로그를 재점화하는 방식이다. 넥슨 **MapleStory Classic**이 두 번째 실측을 더했다 — 대만(2026-07) 메이플 매출 2배, 중국(2026-08) 약 4배, 10월 서구판 출시 ([[nexon-ir-3q26]]). 출시 몇 달 치 수치라 지속성은 미검증.
 
 > ⚠️ 이 5번째 모델은 앞 4모델과 *경쟁이 아니라 다른 카테고리*다. 한국 인디·중견에게 직접 이식은 어렵지만(수십 년 live-ops 인프라 필요), *"신작을 SKU로 팔 것인가 / 라이브로 운영할 것인가"*라는 상위 분기 자체가 catalog 진입 설계의 첫 결정임을 보여준다.
 
@@ -211,7 +213,7 @@ Alinea 79%가 *매출*, Bain 2/3가 *수요·설문*이라면, Newzoo 2026은 **
 
 | 회사 | catalog 변종 | 매출 엔진 | 2026 성장 신호 | floor≠ceiling 대응 |
 |---|---|---|---|---|
-| [[nexon]] | 다IP MMO recurrent | 메이플·던파 등 복수 장수 IP + 신작 horizontal | Q1 2026 ¥152.2B(+34%), 성장은 신작(+188%) | **7조 목표 철회** — floor를 성장으로 착각 안 함 |
+| [[nexon]] | 다IP MMO recurrent | 메이플·던파 등 복수 장수 IP + 신작 horizontal | Q1 2026 ¥152.2B(+34%)는 신작(+188%)이, Q3 2026 ¥138.4B(+17%)는 기존 프랜차이즈(+24%)가 견인 | **7조 목표 철회** — floor를 성장으로 착각 안 함 |
 | [[ncsoft]] | 집중형 MMO recurrent | 리니지 단일 의존 → 신작·클래식 반등 | Q1 2026 매출 +55%·영익 +2,070%(아이온2+리니지 클래식) | trough(FY24 첫 적자) 후 반등, 지속성 미검증 |
 | [[krafton]] | 단일 메가IP + Big Franchise 포트폴리오 | PUBG 프랜차이즈 심화 + M&A·인큐베이션 | 1H26 매출 2.66조(+73.3%, 역대 최대 반기), **[[subnautica-2]] EA 22일 500만장+로 두 번째 축 결실** | **7조 목표 유지** — floor 재투자 베팅이 2번째 Franchise IP로 실증 |
 | [[pearl-abyss]] | recurrent floor + 프리미엄 패키지 런치 | 검은사막 live-ops + 붉은사막 1회성 패키지 | 1Q26 매출 3,285억(+419.8%), 붉은사막 81% | floor(검은사막) 위에 프리미엄 런치로 천장 돌파 |

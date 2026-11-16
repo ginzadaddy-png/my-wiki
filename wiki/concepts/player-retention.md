@@ -1,10 +1,10 @@
 ---
 title: "플레이어 리텐션"
 type: concept
-sources: ["[[roblox-retention-algorithm-tradeoff-2026-08]]"]
+sources: ["[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[alinea-gta6-engagement-whirlpool-2026-11]]"]
 related: ["[[engagement-loop|인게이지먼트 루프]]", "[[live-service-design|라이브 서비스 설계]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[launch-metrics|흥행 예측 지표]]", "[[data-driven-development|데이터 기반 개발]]", "[[early-access-strategy|얼리 액세스 전략]]", "[[audience-discovery-systems|오디언스 발견 시스템]]"]
 created: 2026-06-22
-updated: 2026-08-10
+updated: 2026-11-16
 confidence: medium
 ---
 
@@ -67,6 +67,16 @@ GameAnalytics **Q1 2024 실측 중앙값**(10,000+ 프로젝트, 27억 MAU):
 > ⚠️ **다만 리텐션 목적함수가 실패했다는 뜻은 아니다.** Roblox는 EU VLOP 지정·아동 안전 규제 때문에 이 변경을 되돌릴 수 없는 상태이며, 회사 자신도 트레이드오프를 의도한 선택이라고 밝혔다. 회수 여부는 아직 관측되지 않았다 — *비용은 확인됐고 편익은 미검증*인 진행 중 사례로 다룰 것.
 
 **리텐션의 원인 축이 하나 더 있다**: 이 페이지는 리텐션의 원인을 루프 설계와 신뢰로 보지만, 플랫폼에 얹혀 있는 게임에서는 **플랫폼 추천 알고리즘의 목적함수**가 그만큼 큰 변수다. 내 게임을 바꾸지 않아도 플랫폼이 목적함수를 바꾸면 노출과 매출이 같이 움직인다 → [[audience-discovery-systems|오디언스 발견 시스템]]
+
+## 바깥에서 오는 이탈 — 대형 출시와 중복 플레이율 ([[alinea-gta6-engagement-whirlpool-2026-11]])
+
+리텐션을 흔드는 원인이 게임 밖에 있는 경우다. [[gta-6|GTA 6]] 출시 직전 Alinea는 콘솔 MAU 상위 라이브 게임 이용자가 같은 달 GTA 5도 하는 비율을 냈다 — [[roblox|Roblox]] 20–25% · Minecraft 약 20% · [[fortnite|Fortnite]] 15–20% · Rocket League 약 15%.
+
+- **중복 플레이율은 경쟁작 출시 충격을 미리 재는 지표**로 쓸 수 있다. 장르가 달라도 같은 시간을 두고 다투면 겹친다
+- 저자 전망은 DAU 급락 뒤 대부분 회복이다. 라이브 서비스 이용자는 원래 떠났다 돌아오기를 반복하고, 업데이트가 복귀 계기가 된다
+- 오래가는 손실은 상대가 **또 하나의 라이브 서비스**(GTA Online)를 내놓을 때 생긴다고 본다
+
+> ⚠️ 출시 전 예측이고 MAU 기준이다. 접속 시간·결제 변화는 제시되지 않았다. 출시 후 실측이 나오면 이 절을 갱신할 것.
 
 ---
 

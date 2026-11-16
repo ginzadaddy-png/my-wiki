@@ -2381,3 +2381,52 @@ title: "활동 로그"
 - `Deploy Quartz site to GitHub Pages` run **42553049654 success** (1m16s, 2026-11-09T02:49:43Z)
 - 참고: quartz는 공개 repo라 정상 토큰이면 checkout은 통과함 — 같은 `could not read Username` 오류가 계속되면 권한이 아니라 *토큰 값 자체*가 잘못된 것
 - deck 신규·수정 없음 → 단독 배포본(`dist/`) 재생성 불필요 / 챗봇 재색인 해당 없음(delist) / Quartz repo 변경 없음
+
+## [2026-11-11] ingest+report | 넥슨 FY2026 3분기 IR (결산설명자료)
+
+- 트리거: 사용자 지시 — Downloads의 IR PDF(Ypoh.pdf, 일본어판 41매, 2026-11-10 발표)를 2분기 때와 동일하게 분석·정리 → 소스 요약 + 분석 보고서 + 관련 페이지 반영
+- Source: 로컬 PDF (raw/ 미적재, PyMuPDF 텍스트 추출로 직접 ingest — 2Q26 선례와 동일). 공식 출처: Nexon IR Library (쇠더룬드 회장·이정헌 대표·우에무라 시로 CFO)
+- 핵심: Q3 매출 ¥138.4B(+17%, 고정환율 +9%)·영업이익 ¥41.8B(+11%, 고정환율 0%) 모두 가이던스 상단 초과(영업이익은 상단 대비 약 +30%). 메이플 프랜차이즈 +72% 분기 최고 — MapleStory Classic(대만 2배·중국 약 4배)·한국 PC 본편 +19%. FC 반등. 던파 -33% 가이던스 하회, Arad: Idle RPG 2027 상반기로 연기. vertical +24% · horizontal -4%로 성장 축 교체. 북미·유럽 비중 21% → 10%. 프로젝트 6건 중단·인원 9,894명. Q4 가이던스 매출 -13 – -4%·영업이익 ¥4.0–11.7B. 특별배당 11-25 지급
+- 생성(source 1): **nexon-ir-3q26** (confidence high, 「약점과 한계」 포함)
+- 생성(report 1): **reports/nexon-ir-3q26-analysis** — 순수 아티클(deck 없음). 실적·성장 축 교체·지역·Q4 가이던스·자본정책·파이프라인·경영 변혁·논지 업데이트·약점과 한계·다음 분기 확인 사항 10절
+- 업데이트(entity 4): nexon (2·4·5축에 3분기 문단 + 핵심 인사이트 보강 + 모순 블록) · arc-raiders (1,700만 장·분기 매출 하락·이연 인식 설명 + 모순 블록) · embark-studios (누적 판매·3분기 표현 변화) · mint-rocket (파이프라인 변동 없음·데이브 모바일 언급 부재)
+- 업데이트(concept 3): mmorpg (표 Q3 행·반례 블록·클래식 서버 두 번째 실측·Arad Idle 연기) · catalog-economics (아래 오독 잔재 삭제 + 모순 블록 + 클래식 실측 + 한국 4사 표 넥슨 셀) · remaster-rerelease-strategy (재발매 사례 지도에 MapleStory Classic 행)
+- 업데이트(2Q26 2건): reports/nexon-ir-2q26-analysis (상단에 모순 블록 — 3분기 분석으로 연결) · sources/nexon-ir-2q26 (Q3 가이던스 사후 검증 + related)
+- ⚠️ 모순 ①: 2Q26 분석의 읽기 세 가지가 3분기 수치와 어긋남 — "이익률 하락이 구조적"(실제 Q3 영업이익률 30.2%, 인건비 +3%로 상쇄) · "서구 비중 8% → 21% 지역 분산"(분기 10%로 후퇴, 한국+중국 67% → 77%) · "ARC Raiders 매출 기여 견고"(상반기 매출에 출시 분기 판매분 이연 인식 포함). 수치는 맞고 한 분기를 추세로 읽은 해석이 과했음. nexon·arc-raiders·2Q26 보고서·3Q26 소스·보고서에 ⚠️ 블록
+- ⚠️ 모순 ②(잔재 정리): 08-13에 nexon·nexon-ncsoft-mmo-recurrent-2026에서 교정한 "vertical 매출 FY23 ¥139.4B→FY25 ¥130.8B 감소" 오독이 **catalog-economics 2곳에 그대로 남아 있었음** — 이번에 삭제하고 모순 블록으로 경위 기록
+- 추정치 표기: vertical 비중 약 78%(증감률 역산)·FY26 북미·유럽 비중 약 18%·Q4 광고선전비 약 ¥13.5B·FY26 ROE 약 14%는 자료 수치로 계산한 값이라 본문에 *추정*으로 명시
+- 자료 밖: ARC Raiders 3분기 매출·누적 매출 미공개, 중단 6건 내역 미공개, 영업CF 반감(¥123.0B → ¥60.5B) 사유 미기재, 데이브 더 다이버 모바일 언급 없음
+- 카탈로그: sources/all(224 → 225, updated 11-11) · reports/all(6 → 7, updated 11-11) · index.md(소스 225·보고서 7·보고서 pill·Last updated)
+- **미커밋 상태** — 배포는 주간 LINT로 유예 (INGEST 절차 9번)
+
+## [2026-11-11] 보강 | 넥슨 3Q26 분석 — 파이프라인에서 빠진 타이틀 3건의 사정 (사용자 제공 사실)
+
+- 경위: 보고서 6절이 "2분기 목록에 있다가 빠진 3건의 이유는 자료만으로 알 수 없다"고 써 둔 부분을 사용자가 사실관계로 채움. **IR 자료 밖 정보**라 본문에 출처가 다르다는 점을 명시
+- 반영한 사실: ① 데이브 더 다이버 모바일 — 2026-09-17 글로벌 출시됨(출시작이라 목록에서 빠짐) ② Durango World — 개발 중단, "6건 중단"에 포함 ③ Project RX — 정식 제목 "파레이돌리아"(IR과 별도 공개, 일본어판 표기 ファレイドリア)
+- 업데이트: reports/nexon-ir-3q26-analysis (6절 표 행·문단 재작성, 7절 중단 bullet, 9절 한계 7번 수정 + 8번 신설 "6절 내용은 IR 밖 사실") · sources/nexon-ir-3q26 (파이프라인 bullet + "자료 밖에서 확인한 것" bullet) · entities/mint-rocket (출시 확정 → 출시, 3분기 문단) · entities/nexon (5축 6건 중단에 타이틀)
+- 남은 빈자리: 중단 6건 중 나머지 타이틀, 데이브 더 다이버 모바일 초기 성과(3분기 자료에 언급 없음)
+- **미커밋 상태** 유지
+
+## [2026-11-16] ingest | Alinea — GTA 6 출시로 가장 흔들릴 콘솔 라이브 게임
+
+- 트리거: 2026-11-16 source radar 추천 2번 → 사용자 지정 ingest ("2번만"), 강조점 없음(요약대로 진행)
+- Source: raw/articles/2026-11-10-alinea-gta6-engagement-whirlpool.md (구조화 발췌. WebFetch가 substack 호스트 차단 → 크롬으로 원문 확인)
+- 핵심: PS + Xbox 2026년 1–10월 월평균 MAU — Fortnite 4,790만 · Minecraft 2,420만 · Roblox 2,290만 · GTA 5 2,280만 · Rocket League 2,060만. 같은 달 GTA 5 중복 플레이 15–25%(Roblox 최고). 저자 전망은 DAU 급락 뒤 대부분 회복, 예외는 GTA 6판 GTA Online. 후반부는 리메이크 3단계(포트·리마스터 / 그래픽 중심 갱신 / 전면 재해석)와 오카리나 리메이크의 세대 승계 목적(아오누마 발언)
+- 생성(source 1): **alinea-gta6-engagement-whirlpool-2026-11** (confidence medium, 「약점과 한계」 포함)
+- 업데이트(entity 4): gta-6 (② 출시 일정 절에 라이브 게임 중복률 문단 + 한계 bullet 보강) · gta5 (13년차 콘솔 MAU 절 신설) · fortnite (콘솔 MAU·GTA 6 노출 절 신설, sources 첫 등재) · roblox (규모 지표 표에 콘솔 MAU·중복률 2행)
+- 업데이트(concept 2): remaster-rerelease-strategy (리메이크 층을 그래픽 중심 갱신·전면 재해석으로 나누는 문단 + 네 번째 동기 "세대 승계") · player-retention ("바깥에서 오는 이탈" 절 신설)
+- 신규 entity·concept 없음 — Minecraft·Rocket League·오카리나 오브 타임은 페이지가 없어 plain text
+- 모순 없음. gta-6 한계 절의 "CoD 플레이어의 GTA 5 중복 6–10%"와는 대상 게임이 달라 상충이 아니라 보완(F2P 라이브 게임 쪽 겹침은 15–25%)
+- 후속 확인: GTA 6 출시(11-19) 뒤 Alinea가 DAU·MAU 실측을 예고 — 나오면 gta-6·player-retention 해당 절 갱신 대상
+- 카탈로그: sources/all(225 → 226, updated 11-16) · index.md(소스 226 · Last updated)
+- **미커밋 상태** — 배포는 주간 LINT로 유예 (INGEST 절차 9번)
+
+## [2026-11-16] lint | 주간 정기 점검 (스케줄 루틴)
+
+- 빌드: **통과** (471 파싱 · 990 emit · 50초). frontmatter YAML 오류 0 → 자동 수정 없음
+- 모순 블록 24(신규 6 — 전부 11-11 넥슨 3Q26 ingest에서 기록한 2분기 읽기 정정·오독 잔재 정리) · 끊긴 wikilink 0 · 고립 0 · alias 슬래시 0 · `]](` 0 · frontmatter `\$` 0 · confidence 위반 0 · 줄바꿈 churn 0
+- 카탈로그 updated: sources 11-16 · reports 11-11(이번 주 행 추가) / entities 11-02 · concepts 09-29 · comparisons 08-31은 이후 행 변경 없어 정상
+- 미페이지 개념(파일 수): Minecraft 21 · 가챠 19 · 리니지 17 · 던파 15 · Gears of War 15 · Horizon 15 · Overwatch 10 · Battlefield 11 · Resident Evil 11 · 클래식 서버 10 · MapleStory 9 · Rocket League 6
+- raw 미처리 **0건** — 134개 대조, 탐지 9건은 전부 기처리분(TotK 중복 클립 2 · 매튜볼 gameres 1 · 05-07 인터뷰 묶음 5 · 인벤 Steam 마케팅 1)
+- 자동 갱신: `_ops/status.md` 6곳(INGEST 88→90 · 소스 224→226 · 보고서 6→7 · 총 md 468→471 · 헤더 날짜 · 마지막 갱신) / `wiki/overview.md` 변경 없음(신규 엔티티·개념 없음)
+- changelog 2026-11 3주차 블록 반영(사용자 승인, updated 11-16)

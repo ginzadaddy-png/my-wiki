@@ -1,10 +1,10 @@
 ---
 title: "그랜드 테프트 오토 V"
 type: entity
-sources: ["[[open-world-linearization-gta5]]"]
+sources: ["[[open-world-linearization-gta5]]", "[[alinea-gta6-engagement-whirlpool-2026-11]]"]
 related: ["[[rockstar-games|록스타 게임즈]]", "[[open-world-design|오픈월드 설계]]", "[[gta-6|GTA 6]]"]
 created: 2026-04-16
-updated: 2026-06-01
+updated: 2026-11-16
 confidence: high
 relations:
   developedBy: [rockstar-games]
@@ -22,3 +22,6 @@ Rockstar Games, 2013. 오픈월드 범죄 액션. 역대 가장 많이 팔린 �
 
 ## 위키 맥락
 "자유를 제한하지 않으면서 방향을 제시하는" 오픈월드 설계 기법의 핵심 사례. 히트맨의 3층 가이던스와 대비됨.
+
+## 13년차 라이브 지표 — 콘솔 MAU 4위
+[[alinea-gta6-engagement-whirlpool-2026-11]]: 2026년 1–10월 PlayStation + Xbox 월평균 MAU **2,280만**(PlayStation 83.8%)으로 Fortnite·Minecraft·Roblox 다음이다 (Alinea 추정). [[gta-6|GTA 6]] 출시 뒤에는 GTA Online의 콘솔 지출이 한동안 멈출 것으로 저자는 본다. 다른 라이브 게임 이용자가 같은 달 GTA 5도 하는 비율(15–25%)이 GTA 6 충격을 가늠하는 지표로 쓰인다.

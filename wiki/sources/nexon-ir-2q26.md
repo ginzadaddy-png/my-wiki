@@ -5,9 +5,9 @@ source_url: "https://www.nexon.co.jp/en/ir/library/"
 source_author: "Nexon IR (결산설명자료, 이정헌 대표·우에무라 시로 CFO)"
 source_published: 2026-08-13
 sources: []
-related: ["[[nexon|넥슨]]", "[[arc-raiders|아크 레이더스]]", "[[embark-studios|엠바크 스튜디오]]", "[[mint-rocket|민트로켓]]", "[[nexon-ncsoft-mmo-recurrent-2026|한국 MMO recurrent]]", "[[nexon-cmb-2026-transformation|넥슨 2026 CMB]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]"]
+related: ["[[nexon|넥슨]]", "[[arc-raiders|아크 레이더스]]", "[[embark-studios|엠바크 스튜디오]]", "[[mint-rocket|민트로켓]]", "[[nexon-ncsoft-mmo-recurrent-2026|한국 MMO recurrent]]", "[[nexon-cmb-2026-transformation|넥슨 2026 CMB]]", "[[nexon-ir-3q26|넥슨 3Q26 IR]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]"]
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-11-11
 confidence: high
 ---
 
@@ -24,7 +24,7 @@ confidence: high
 - **던파 프랜차이즈 -44%**: 중국 4월 신시즌 부진(MAU·과금유저·ARPPU 모두 감소), 한국도 감소. FC 프랜차이즈도 가이던스 하회(월드컵 특수 부재 + FC모바일 4월 기술 장애)
 - **지역 구성 급변**: 북미·유럽 +170%로 비중 21%(1년 전 약 8%), 중국은 고정환율 -40%로 비중 16%. 한국 51%
 - **특별배당 415엔/주(약 3,240억엔)** + 연간 보통배당 60엔 + 자사주 300억엔 완료. 전년도 영업이익 33%+ 환원 방침, ROE 10%→중장기 15%. 투자유가증권 매각(원금 1,060억+매각익 1,420억엔)으로 수중자금 8,420억엔
-- **Q3 가이던스**: 매출 +2–12% vs 영업이익 -40 – -14% — 매출연동비(수수료·로열티·크리에이터 보상)·클라우드·UA 증가로 이익률 하락이 구조화
+- **Q3 가이던스**: 매출 +2–12% vs 영업이익 -40 – -14% — 매출연동비(수수료·로열티·크리에이터 보상)·클라우드·UA 증가로 이익률 하락이 구조화. **사후 검증**: 실제 Q3는 매출 +17%·영업이익 +11%로 상단을 크게 넘겼다 ([[nexon-ir-3q26]])
 - **전략 서사**: ① 메이플 성공모델(본편+UGC+방치형)을 던파에 복제 — Arad: Idle RPG·DnF Classic·Project OVERKILL·DnF: ARAD 개발 중 ② [[embark-studios|엠바크]]의 소수정예·신기술 개발을 "글로벌 전개의 돌파구"로 공식 규정
 
 > ⚠️ 모순: 기존 [[nexon-ncsoft-mmo-recurrent-2026]]·[[nexon|넥슨]] 페이지의 "vertical(3대 프랜차이즈) 매출 FY23 139.4→FY25 130.8십억엔 감소" 기술은 오독으로 확인. 이번 자료 3페이지에서 동일 수치 시리즈(139.4/140.2/130.8/93.1)가 **조정후영업이익**(감손 등 기타비용 제외) 차트로 명시됨. 또한 Q2 메이플 +63%는 vertical도 확장 타이틀을 통해 성장할 수 있음을 보여줌 — "recurrent 본편 = floor" 논지는 유지되나 "vertical 매출 감소" 하드 데이터는 폐기.
