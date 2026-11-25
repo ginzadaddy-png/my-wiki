@@ -1,10 +1,10 @@
 ---
 title: "장르 태그 분류 체계"
 type: concept
-sources: ["[[carless-hit-pc-genres-2021-2025]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-next-fest-june-2026]]", "[[steam-page-optimization-guide-2026]]"]
+sources: ["[[carless-hit-pc-genres-2021-2025]]", "[[carless-genres-ruled-steam-2025-06]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-next-fest-june-2026]]", "[[steam-page-optimization-guide-2026]]", "[[carless-pc-trends-beyond-tags-2026-11]]"]
 related: ["[[audience-discovery-systems|오디언스 발견 시스템]]", "[[steam-next-fest|Steam Next Fest]]", "[[steam-revenue-forecasting|스팀 매출 예측]]", "[[roguelike|로그라이크]]", "[[soulslike|소울라이크]]", "[[game-market-trends|시장 구조 변화]]", "[[marketing-strategy|마케팅 전략]]"]
 created: 2026-08-31
-updated: 2026-08-31
+updated: 2026-11-24
 confidence: medium
 ---
 
@@ -58,6 +58,16 @@ confidence: medium
 - 모노컬처가 사라진 시장에서는 단일 대형 태그 클러스터를 노리기보다 *특정 필터버블을 정조준*하는 쪽이 유효하다 ([[audience-discovery-systems|오디언스 발견 시스템]]).
 
 **여기서 이해충돌이 생긴다.** 노출에 유리한 태그(붐비는 대형 태그)와 자기 게임을 정확히 설명하는 태그가 다를 때, 개발사는 전자를 고르는 쪽으로 기운다. 그 선택이 다시 집계 데이터로 들어와 *"이 장르가 성장 중"* 이라는 관측을 만든다. 태그 관행 변화가 장르 이동으로 보이는 1번 문제의 발생 원인이 바로 이 지점이다.
+
+## 태그 바깥의 분류 — GameDiscoverCo Trends ([[carless-pc-trends-beyond-tags-2026-11]])
+
+태그 목록은 느리게 자란다. 2023–2025년 3년 동안 추가된 태그는 8개였고 2026년 5월에 약 25개가 한꺼번에 들어왔다. 그 사이에 생긴 작은 유행은 태그로 잡히지 않는다. Carless는 이를 메우려고 트렌드 **1,400개**(트렌드당 게임 3–73개)짜리 분류를 따로 만들었다.
+
+- 지금 가장 뜨거운 것은 검문·검사 시뮬, 자동차 서바이벌, 추출 슈터 두 갈래 순이다. 모두 태그로는 Simulation·Survival·Shooter 안에 묻히는 크기다
+- "뜨겁다"는 최근 1년 성공작과 위시리스트 많은 출시 예정작을 합친 값이다. 만드는 사람이 몰린 곳도 순위가 오르므로 수요와 공급이 섞여 있다
+- 저자 스스로 이 분류를 주관적이라고 하고, 유행을 따라갈지 피할지에는 답하지 않는다
+
+위 "태그 데이터가 휘는 지점"에 비추면 이 분류는 문제를 풀지 않고 옮긴다. 개발사와 이용자가 붙이던 이름을 분석 업체 한 곳이 붙이게 되고, 기준은 공개돼 있지 않다.
 
 ## 실무 함의
 

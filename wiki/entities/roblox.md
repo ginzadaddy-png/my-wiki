@@ -1,10 +1,10 @@
 ---
 title: "Roblox"
 type: entity
-sources: ["[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[newzoo-pc-console-2026]]", "[[ign-generations-in-play-2026]]", "[[matthew-ball-2026-report]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-gta6-engagement-whirlpool-2026-11]]"]
-related: ["[[player-retention|플레이어 리텐션]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[engagement-loop|인게이지먼트 루프]]", "[[live-service-design|라이브 서비스 설계]]", "[[evergreen-ip|에버그린 IP]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[epic-games|에픽게임즈]]", "[[fortnite|포트나이트]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[game-market-trends|시장 구조 변화]]"]
+sources: ["[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[newzoo-pc-console-2026]]", "[[ign-generations-in-play-2026]]", "[[matthew-ball-2026-report]]", "[[alinea-ps-july-2026-cod-catalog]]", "[[alinea-gta6-engagement-whirlpool-2026-11]]", "[[eu-digital-fairness-act-2026-11]]"]
+related: ["[[player-retention|플레이어 리텐션]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[engagement-loop|인게이지먼트 루프]]", "[[live-service-design|라이브 서비스 설계]]", "[[evergreen-ip|에버그린 IP]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[epic-games|에픽게임즈]]", "[[fortnite|포트나이트]]", "[[console-retail-strategy|콘솔 리테일·유통 전략]]", "[[game-market-trends|시장 구조 변화]]", "[[monetization-regulation|게임 수익화 규제]]"]
 created: 2026-09-08
-updated: 2026-11-16
+updated: 2026-11-17
 confidence: medium
 ---
 
@@ -33,6 +33,8 @@ confidence: medium
 - CFO는 트레이드오프가 **13세 미만 층에서 예상보다 크게** 작용했다고 인정
 
 되돌릴 수 없는 이유가 이 사건의 핵심이다 — EU VLOP(초대형 온라인 플랫폼) 지정이 임박한 상태라 원위치는 과징금 위험을 뜻한다. 즉 **가치관이 바뀐 결과가 아니라 강제되기 전에 먼저 움직인 것**이다.
+
+2026-11 EU 집행위가 Digital Fairness Act를 제안하면서 이 선제 대응의 배경이 구체화됐다 — 미성년자 대상 유료 가상 화폐 기본 비활성화, 유료 루트박스·pay-to-win 금지가 원안에 들어 있다. Roblox처럼 미성년 이용자가 많고 가상 화폐(Robux)가 중심인 플랫폼이 가장 넓게 걸린다 ([[eu-digital-fairness-act-2026-11]] · [[monetization-regulation|게임 수익화 규제]]). 다만 제안 단계이고, 출처 가운데 Roblox를 직접 거론한 것은 없다 — 조항을 이 플랫폼에 대입한 위키의 읽기다.
 
 ## 규모·위치 지표
 

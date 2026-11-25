@@ -4,11 +4,20 @@ type: concept
 sources: []
 related: ["[[index|전체 카탈로그]]", "[[overview|위키 소개]]"]
 created: 2026-09-03
-updated: 2026-11-16
+updated: 2026-11-25
 confidence: high
 ---
 
 이 위키에 새로 추가·갱신된 내용을 **주단위**로 정리합니다. 개설(2026-04) 이후 전 기록을 리더 친화 하이라이트로 압축했으며, 최신 주가 위에 옵니다. 새 페이지는 링크로 바로 이동할 수 있고, 전체 목록은 [[index|전체 카탈로그]]에서 볼 수 있습니다.
+
+## 2026-11 4주차 (~11-24)
+
+- **새 개념 1** — [[monetization-regulation|게임 수익화 규제]]. 사후 벌금에서 설계 요건으로 넘어가는 흐름. EU Digital Fairness Act 제안이 미성년자 대상 유료 루트박스 금지·가상 화폐 실제 금액 표시·접속 유도 장치 끄기 기능을 요구
+- **새 소스 5** — EU Digital Fairness Act 제안과 업계 반응 종합 · Lober "DFA가 게임 설계에 닿는 지점" · Alinea "GTA 6 4일 4,490만 장" · GamesIndustry.biz GTA 6 출시 수치 묶음 · GameDiscoverCo "스팀 태그 너머의 PC 게임 트렌드"
+- **읽을거리** — GTA 6 출시 실측. 공식 첫날 \$3.79B·출시 전 3,250만 장, Alinea 추정 4일 4,490만 장. 같은 범위를 잰 Sensor Tower 추정은 공식보다 장수 25%·금액 38% 적어 숫자 세 벌이 서로 안 맞음. [[gta-6|GTA 6]]에 「출시 실측」 신설
+- **읽을거리** — 사전 주문 궤도는 가장 큰 출시의 끝을 맞히지 못함. 추정치를 읽을 때 무엇을 재는 숫자인지부터 갈라야 한다는 사례. [[launch-metrics|런치 메트릭]]에 반영
+- **읽을거리** — 불신이 법안이 됨. 규제가 겨누는 로그인 보상·연속 접속·루트박스는 위키가 리텐션 설계로 다뤄 온 장치와 같은 것. [[engagement-loop|인게이지먼트 루프]]·[[free-to-play|F2P·부분유료 모델]]·[[player-trust-design|플레이어 신뢰 설계]]·[[live-service-design|라이브 서비스 설계]]에 반영
+- **주요 갱신** — [[genre-tag-taxonomy|장르 태그 분류 체계]]에 「태그 바깥의 분류」 추가. [[roblox|Roblox]]·[[electronic-arts|Electronic Arts]]에 EU 규제 노출 반영
 
 ## 2026-11 3주차 (~11-16)
 

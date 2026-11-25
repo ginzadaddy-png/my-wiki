@@ -2437,3 +2437,82 @@ title: "활동 로그"
 - my-wiki `Update Quartz` run 43834413440 success (11s) — QUARTZ_TOKEN 정상
 - `Deploy Quartz site to GitHub Pages` run **43834436926 success** (1m33s, 2026-11-16T08:49:56Z)
 - deck 신규·수정 없음 → 단독 배포본(`dist/`) 재생성 불필요 / 챗봇 재색인 해당 없음(delist) / Quartz repo 변경 없음
+
+## [2026-11-17] 운영 | source radar 대상에 파사본 위클리(사내 메일) 추가
+
+- 트리거: 사용자 지시 — 주간 소스 레이더가 Outlook의 「파사본 위클리」 메일에 걸린 소스도 대상으로 삼을 것. 단 메일 본문은 인용하지 않고 링크된 원문을 추적해 확인
+- 변경: CLAUDE.md 작업 5 (대상 표 1행 + 「파사본 위클리 처리 규칙」 절 신설 + 절차 1번 문구) · 스케줄 작업 `source-radar` SKILL.md (대상 1행 + 처리 규칙)
+- 규칙 요지: 메일은 소스가 아니라 발굴 경로 · 쓰는 것은 원문 URL뿐 · 요약과 Comment는 인용·판정 근거 모두 금지 · 티어는 원문 매체 기준 · source_url은 원문 URL
+- 시범 실행: 11-16 호(11-13분 합본) 링크 5건 추적 — WebFetch 4건 성공, Eurogamer 1건은 크롬으로 확인. 위키 파일 변경 없음(보고만)
+- 미확인: 무인 스케줄 실행에서 Outlook 커넥터가 권한 확인 없이 호출되는지는 다음 자동 실행에서 확인 필요
+- **미커밋 상태**
+
+## [2026-11-17] ingest | EU Digital Fairness Act 제안 — 게임 수익화 조항과 업계 반응 (리서치 종합)
+
+- 트리거: 사용자 지시 — 11-16 source radar에서 추천 5번·스킵으로 나뉘어 있던 EU 규제 건을 기존 자료 + 추가 리서치로 묶어 ingest. 파사본 위클리 시범에서 나온 나머지 후보는 패스. 강조점 없음(계획대로 진행)
+- Source: raw/articles/2026-11-11-eu-digital-fairness-act-research.md (구조화 발췌, 출처 10건 — EC 보도자료 IP/26/2407 · EC Q&A · Video Games Europe·EGDF 공동성명 · GamesIndustry.biz 2건(Lober 조문 해설 · Fahey 의견) · Eurogamer · Game Developer · PocketGamer.biz · TNW · Mobilegamer.biz)
+- 접근: EC 프레스 코너는 JS 렌더링, GamesIndustry.biz·Eurogamer는 WebFetch 차단 → 크롬으로 확인. 나머지는 WebFetch
+- 핵심: 2026-11-11 집행위 제안. 규정 형식으로 27개국 직접 적용 · 미성년자(18세 미만) 대상 유료 루트박스·pay-to-win 금지 · 유료 가상 화폐 실제 금액 표시와 미성년자 기본 비활성화 · 로그인 보상·연속 접속·무관한 푸시 알림 끄기 기능 · 집행위 직접 집행과 매출 최대 6% 과징금(CPC 개정안). 쟁점은 "미성년자 대상" 판정에 연령 등급을 쓰는 것. 업계 공동성명은 "게임 오버"·긴급 재검토 요구. 해설은 공유지의 비극(Fahey)·세계 확산(Osborn)
+- 생성(source 1): **eu-digital-fairness-act-2026-11** (confidence medium — 제안 단계 + 법안 원문 미확인, 「약점과 한계」 포함)
+- 생성(concept 1): **monetization-regulation** "게임 수익화 규제" — engagement-loop(FTC·벨기에·영국)와 roblox(EU 선제 대응)에 흩어진 규제 내용을 모으고 DFA를 "설계 요건형" 사례로 배치 (confidence medium, 「약점과 한계」 포함)
+- 업데이트(concept 4): engagement-loop (규제 사례에 DFA bullet) · free-to-play (불신 절에 "불신이 법안이 됐다" bullet + 관련 페이지) · live-service-design (피로 원인 절 끝에 ⚠️ 블록) · player-trust-design (다크 패턴 절에 bullet)
+- 업데이트(entity 2): roblox (2026 Q2 절에 DFA 문단 — 출처가 Roblox를 직접 거론하지 않았다는 단서 포함) · electronic-arts (risk 4번 "EU 규제 노출")
+- 모순 없음. 단 출처 간 불일치 1건을 source 한계 절에 기록 — 6% 과징금이 EC 1차 자료에서는 CPC 개정안 맥락, 해설·업계 성명에서는 DFA 위반 과징금
+- 미확인: 법안 원문 71쪽, EC 팩트시트·미니사이트, BEUC 공식 논평(검색 요약으로만 확인), GamesIndustry.biz의 독일 게임산업협회 성명 기사 2건(제목만)
+- 커버리지 밖으로 남긴 것: 한국 확률형 아이템 확률 공개·중국 미성년자 결제 한도·일본 컴플리트 가챠 금지 등 아시아 선행 규제 — monetization-regulation 한계 절에 명시, 후속 조사 후보
+- 후속 확인: 유럽의회·이사회 논의 경과, 업계 수정 요구 반영 여부
+- 카탈로그: sources/all(226 → 227, updated 11-17) · concepts/all(행 추가, updated 11-17) · index.md(소스 227 · 개념 83 · pill 추가 · Last updated). `_ops/status.md` 통계는 주간 LINT에서 갱신
+- **미커밋 상태** — 배포는 주간 LINT로 유예 (INGEST 절차 9번)
+
+## [2026-11-24] ingest | Alinea — GTA 6 4일 4,490만 장·다른 게임이 받은 충격
+
+- 트리거: 11-24 source radar 추천 1번, 사용자 지정("1,2,6,9 ingest"). 강조점 별도 지시 없음 — radar 보고의 요약대로 진행
+- Source: raw/articles/2026-11-23-alinea-gta6-449m-launch.md (구조화 발췌. WebFetch 본문 전체 확인, 차트 이미지 미확인)
+- 생성(source 1): **alinea-gta6-launch-449m-2026-11** (confidence medium, 「약점과 한계」 포함 — 추정 방법 비공개 · 공식 수치와 기준 다름 · 4일은 회복 판정에 짧음)
+- 업데이트(entity 2): gta-6 (출시됨으로 서두 수정 · 「출시 실측」 절 신설 + ⚠️ 모순 블록 · 잠식 절에 4일 실측 · 가격 절에 장당 평균 · 한계 절 교체 · confidence low → medium) · entities/all (gta-6 행 · updated 11-24)
+- 업데이트(source 1): alinea-gta6-engagement-whirlpool-2026-11 (출시 전 예측에 채점 결과 한 줄 + related)
+- 업데이트(concept 1): launch-metrics (아래 묶음 건과 함께 절 1개 추가)
+- **미커밋 상태**
+
+## [2026-11-24] ingest | GTA 6 출시 수치 묶음 — Newzoo 사전구매자·공식 발표·Sensor Tower·Circana (GamesIndustry.biz 4건)
+
+- 트리거: 11-24 source radar 추천 2번, 사용자 지정
+- Source: raw/articles/2026-11-23-gi-gta6-launch-numbers.md (구조화 발췌, 기사 4건 — Newzoo 사전구매자 분석 11-17 · Rockstar 첫날 발표 11-20 · Sensor Tower 추정 11-20 · Circana 출시일 참여 11-23). GamesIndustry.biz는 WebFetch 차단 → 크롬으로 4건 본문 확인
+- 발굴 경로: source radar 직접 스캔 + 파사본 위클리 11/18·11/23 호의 원문 링크 (메일 본문은 쓰지 않음)
+- 생성(source 1): **gi-gta6-launch-numbers-2026-11** (confidence medium, 「약점과 한계」 포함)
+- 업데이트(entity 1): gta-6 (위 건과 같은 편집에 포함 — 공식 수치 · 사전구매자 구성 · AAA 출시 회피 2개)
+- 업데이트(concept 1): launch-metrics (절 추가 "사전 주문 궤도는 가장 큰 출시의 끝을 맞히지 못했다" + ⚠️ 블록, sources 2건, updated)
+- ⚠️ 모순 기록 2곳(gta-6 · 이 source): Sensor Tower 추정이 공식 발표보다 장수 25% · 금액 38% 적음 / 공식 첫날 \$3.79B와 Alinea 4일 \$4.0B 이상은 범위가 달라 직접 비교 불가 / 공식 금액 ÷ 공식 장수 = 장당 약 \$117
+- **미커밋 상태**
+
+## [2026-11-24] ingest | GameDiscoverCo — 스팀 태그 너머의 PC 게임 트렌드 분류
+
+- 트리거: 11-24 source radar 추천 6번, 사용자 지정
+- Source: raw/articles/2026-11-17-carless-pc-trends-beyond-steam-tag.md (구조화 발췌. WebFetch 본문 전체 확인, 순위표 이미지 2장 미확인 — 가장 뜨거운 8개의 5–8위 순서와 카테고리 4위 이하·수치 없음)
+- 생성(source 1): **carless-pc-trends-beyond-tags-2026-11** (confidence medium, 「약점과 한계」 포함 — 기준 비공개 · 유료 상품 소개 · 수요와 공급이 섞인 지표)
+- 업데이트(concept 1): genre-tag-taxonomy (절 추가 "태그 바깥의 분류", sources, updated)
+- 모순 없음
+- **미커밋 상태**
+
+## [2026-11-24] ingest | Lober — EU Digital Fairness Act가 게임 설계에 닿는 지점 (GamesIndustry.biz 기고)
+
+- 트리거: 11-24 source radar 추천 9번, 사용자 지정
+- Source: raw/articles/2026-11-20-gi-lober-dfa-game-design.md (구조화 발췌. 크롬으로 본문 전체 확인)
+- 생성(source 1): **gi-lober-dfa-game-design-2026-11** (confidence low — 단일 필자의 조문 해석, 수치·사례 없음, 필자가 업계 쪽 로펌 변호사. 「약점과 한계」 포함)
+- 업데이트(concept 1): monetization-regulation (하위 절 추가 "조문을 게임에 대 보면" + ⚠️ 모순 블록, 한계 절 보강, sources, updated)
+- 업데이트(source 1): eu-digital-fairness-act-2026-11 (기존 위키 연결 한 줄 + related, updated)
+- ⚠️ 모순 기록 2곳(이 source · monetization-regulation): "유럽 회사가 더 불리한가" — Fahey(약한 논거) 대 Lober(집행이 가까운 회사부터 닿는다)
+- 미확인: 법안 원문(이번에도 필자 요약에 의존), GamesIndustry.biz 11-23 "EU opens consultation" 뉴스(제목만)
+- 카탈로그(4건 공통): sources/all(227 → 231, updated 11-24) · index.md(소스 231 · Last updated 11-24). 개념·엔티티 신규 없음 → concepts/all 변경 없음. `_ops/status.md` 통계는 주간 LINT에서 갱신
+- **미커밋 상태** — 배포는 주간 LINT로 유예 (INGEST 절차 9번)
+
+## [2026-11-25] lint | 주간 정기 점검 (스케줄 루틴)
+
+- 빌드: **통과** (477 파싱 · 1,002 emit · 43초). frontmatter YAML 오류 0 → 자동 수정 없음
+- 모순 블록 28(신규 4 — GTA 6 출시 수치 불일치 2 · DFA "유럽 회사가 더 불리한가" 2) · 끊긴 wikilink 0 · 고립 0(ps4·xbox-one은 카탈로그에서만 링크) · alias 슬래시 0 · frontmatter `\$` 0 · confidence 위반 0 · 줄바꿈 churn 0
+- `]](` 2건 발견 — monetization-regulation.md 11행(engagement-loop·roblox wikilink 뒤 괄호). 사용자 승인 후 공백 넣어 수정
+- 카탈로그 updated: sources 11-24 · entities 11-24 · concepts 11-17 · reports 11-11 / comparisons 08-31은 이후 행 변경 없어 정상
+- 미페이지 개념(파일 수): Minecraft 19 · Horizon 19 · 가챠 16 · Battlefield 15 · Overwatch 14 · 리니지 14 · 던파 13 · Gears of War 13 · Resident Evil 13 · 배틀패스 13 · MapleStory 12 · 클래식 서버 8 / 데이터 벤더 엔티티 없음(Alinea 85 · Newzoo 35 · Sensor Tower 20 · Circana 17)
+- raw 미처리 **0건** — 139개 대조, 탐지 9건은 전부 기처리분(지난주와 동일)
+- 자동 갱신: `_ops/status.md` 6곳(INGEST 90→95 · 소스 226→231 · 개념 82→83 · 총 md 471→477 · 헤더 날짜 · 마지막 갱신) / `wiki/overview.md` 핵심 테마 1줄 추가(monetization-regulation), 커버리지 변경 없음
+- changelog 2026-11 4주차 블록 반영(사용자 승인, updated 11-25)

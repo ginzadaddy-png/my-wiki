@@ -1,10 +1,10 @@
 ---
 title: "F2P·부분유료 모델"
 type: concept
-sources: ["[[missing-middle-paradigm-shift-2026]]", "[[gdc26-arc-raiders-reset]]", "[[ign-generations-in-play-2026]]", "[[newzoo-pc-console-2026]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]", "[[gdc26-rules-of-the-game]]", "[[alinea-steam-dlc-attach-rates-2026-05]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[bain-gaming-report-2026]]", "[[newzoo-free-to-play-2026]]", "[[alinea-steam-september-2026]]"]
-related: ["[[live-service-design|라이브 서비스 설계]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[engagement-loop|인게이지먼트 루프]]", "[[webshop-direct-monetization|웹샵·D2C 직접 수익화]]", "[[subscription-economy-gaming|구독 경제]]", "[[mmorpg|MMO·MMORPG]]", "[[arc-raiders|아크 레이더스]]", "[[marathon|Marathon]]", "[[fortnite|Fortnite]]", "[[genshin-impact|원신]]", "[[roblox|Roblox]]", "[[hoyoverse|HoYoverse]]"]
+sources: ["[[missing-middle-paradigm-shift-2026]]", "[[gdc26-arc-raiders-reset]]", "[[ign-generations-in-play-2026]]", "[[newzoo-pc-console-2026]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]", "[[gdc26-rules-of-the-game]]", "[[alinea-steam-dlc-attach-rates-2026-05]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[bain-gaming-report-2026]]", "[[newzoo-free-to-play-2026]]", "[[alinea-steam-september-2026]]", "[[eu-digital-fairness-act-2026-11]]"]
+related: ["[[live-service-design|라이브 서비스 설계]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[mid-price-sweet-spot|중가 프리미엄 스위트스폿]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[engagement-loop|인게이지먼트 루프]]", "[[webshop-direct-monetization|웹샵·D2C 직접 수익화]]", "[[subscription-economy-gaming|구독 경제]]", "[[mmorpg|MMO·MMORPG]]", "[[arc-raiders|아크 레이더스]]", "[[marathon|Marathon]]", "[[fortnite|Fortnite]]", "[[genshin-impact|원신]]", "[[roblox|Roblox]]", "[[hoyoverse|HoYoverse]]", "[[monetization-regulation|게임 수익화 규제]]"]
 created: 2026-09-29
-updated: 2026-10-06
+updated: 2026-11-17
 confidence: medium
 ---
 
@@ -45,6 +45,7 @@ confidence: medium
 - **반대 방향으로도 번진다.** Ravenswatch: Merlin은 프리미엄 게임에, 이미 외형 DLC를 팔던 위에, *플레이 가능한 캐릭터*를 유료로 얹었다. 오디언스는 이를 *"F2P에 맞는 모델"*로 읽었고, DLC 부속 판매율은 9%로 비교군 아래쪽이었다 ([[alinea-steam-dlc-attach-rates-2026-05]])
 - **피로의 원인**으로 위키가 꼽는 것은 기간 한정 배틀패스(FOMO)·인위적 대기 시간·기계적인 이벤트 달력이다 ([[live-service-design]])
 - **약탈하지 않는 쪽의 비용**: Roblox가 추천 기준을 *시간당 매출*에서 *장기 잔존*으로 바꾸자 수익화가 가이던스보다 2% 모자랐고, 다음 분기 부킹 전망은 전년 대비 14–18% 감소로 잡혔다. 편익은 오래 걸려 오고 비용은 분기 단위로 먼저 온다 ([[roblox-retention-algorithm-tradeoff-2026-08]])
+- **불신이 법안이 됐다.** 2026-11 EU 집행위가 낸 Digital Fairness Act 제안은 위 "무엇을 파는가" 표의 장치 대부분을 겨눈다 — 미성년자 대상 유료 루트박스·pay-to-win 금지, 유료 재화의 실제 금액 표시와 미성년자 기본 비활성화, 접속 유도 장치를 끄는 기능. 네덜란드 게임협회는 원안대로면 F2P가 미성년자에게 사실상 막힌다고 본다. 제안 단계이고 정의가 모호해 범위는 바뀔 수 있다 ([[eu-digital-fairness-act-2026-11]] · [[monetization-regulation|게임 수익화 규제]])
 
 ## 누가 F2P로 들어오나 — 세대
 
@@ -98,6 +99,6 @@ Steam 쪽 실측도 같은 방향이다. 2026년 9월 Steam 매출 상위 500종
 
 - [[live-service-design|라이브 서비스 설계]] · [[engagement-loop|인게이지먼트 루프]] · [[player-trust-design|플레이어 신뢰 설계]]
 - [[game-pricing-strategy|게임 가격 전략]] · [[mid-price-sweet-spot|중가 프리미엄 스위트스폿]] · [[subscription-economy-gaming|구독 경제]]
-- [[webshop-direct-monetization|웹샵·D2C 직접 수익화]] · [[mmorpg|MMO·MMORPG]]
+- [[webshop-direct-monetization|웹샵·D2C 직접 수익화]] · [[mmorpg|MMO·MMORPG]] · [[monetization-regulation|게임 수익화 규제]]
 - [[arc-raiders|아크 레이더스]] · [[marathon|Marathon]] — F2P를 떠난 두 사례
 - [[fortnite|Fortnite]] · [[genshin-impact|원신]] · [[apex-legends|Apex Legends]] · [[league-of-legends|League of Legends]] — F2P를 운영하는 쪽

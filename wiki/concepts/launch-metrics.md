@@ -1,10 +1,10 @@
 ---
 title: "흥행 예측 지표"
 type: concept
-sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]", "[[zukowski-golden-age-week-2026-08]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[alinea-mortal-shell-2-launch-2026-08]]", "[[zukowski-demos-wishlist-conversion]]", "[[carless-steam-demo-ccu-2026-09]]", "[[alinea-wardogs-launch-2026-09]]", "[[alinea-q4-games-to-watch-2026-09]]", "[[alinea-gears-e-day-launch-2026-10]]", "[[alinea-phantom-blade-zero-ff-resonance-2026-10]]", "[[phantom-blade-zero-launch-4m-2026-11]]", "[[alinea-phantom-blade-zero-223m-2026-11]]", "[[carless-probably-stolen-2026-11]]"]
+sources: ["[[firstlook-signals-of-success]]", "[[gdc25-balatro-marketing]]", "[[gdc25-steam-new-rules]]", "[[steam-next-fest-wishlist-benchmarks-2025]]", "[[zukowski-next-fest-strategy]]", "[[ign-generations-in-play-2026]]", "[[zrconsulting-steam-forecaster-2026]]", "[[carless-steam-reviews-purchase-2026-07]]", "[[gamesight-creator-count-prediction-2026-07]]", "[[zukowski-golden-age-week-2026-08]]", "[[alinea-phantom-blade-zero-preorder-2026-08]]", "[[alinea-mortal-shell-2-launch-2026-08]]", "[[zukowski-demos-wishlist-conversion]]", "[[carless-steam-demo-ccu-2026-09]]", "[[alinea-wardogs-launch-2026-09]]", "[[alinea-q4-games-to-watch-2026-09]]", "[[alinea-gears-e-day-launch-2026-10]]", "[[alinea-phantom-blade-zero-ff-resonance-2026-10]]", "[[phantom-blade-zero-launch-4m-2026-11]]", "[[alinea-phantom-blade-zero-223m-2026-11]]", "[[carless-probably-stolen-2026-11]]", "[[gi-gta6-launch-numbers-2026-11]]", "[[alinea-gta6-launch-449m-2026-11]]"]
 related: ["[[marketing-strategy|마케팅 전략]]", "[[indie-business-strategy|인디 비즈니스 전략]]", "[[game-market-trends|게임 시장 트렌드]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[audience-discovery-systems|오디언스 발견 시스템]]", "[[steam-revenue-forecasting|Steam 매출 예측 모델]]", "[[creator-economy-trust|크리에이터 경제와 신뢰]]", "[[forecasting-vs-launch-metrics|예측 vs 측정 비교]]", "[[audience-age-segmentation|연령대별 발견 경로]]", "[[wardogs|Wardogs]]"]
 created: 2026-04-20
-updated: 2026-11-09
+updated: 2026-11-24
 confidence: high
 ---
 
@@ -426,3 +426,21 @@ Probably Stolen(1인 개발 + 외주, tinyBuild, 2026-10-28)은 출시 5일 **75
 전신 Deepspace Emporium은 "프로그래머 아트" 수준의 데모로 Next Fest에 나갔던 게임이다. 퍼블리셔는 그 데모의 루프를 보고 계약한 뒤 비주얼·배경(사이버펑크)·시스템 깊이를 바꿨다.
 
 > 💡 **"참여자 수"보다 "얼마나 오래 했나"가 루프의 증거다.** 위 "데모는 몇 명보다 얼마나 깊이"와 같은 결론을 플레이테스트에서 확인한 사례다. 4명 중 1명이 20시간을 넘긴 루프라면, 원래 버전에서 부족했던 것은 루프가 아니라 포장일 수 있다. 다만 수치는 전부 퍼블리셔 발표이고, 판매에는 위시리스트 없이 바로 산 구매가 섞여 있어 전환율로 읽으면 안 된다.
+
+## 사전 주문 궤도는 가장 큰 출시의 끝을 맞히지 못했다 — GTA 6 ([[gi-gta6-launch-numbers-2026-11]])
+
+위 "출시일 정렬 궤도 비교"는 선행작과 겹쳐 볼 수 있을 때 쓰는 도구다. [[gta-6|GTA 6]]는 겹쳐 볼 선행작이 없는 경우였고, 추정은 빗나갔다.
+
+| 시점 | 수치 | 누구 |
+|---|---|---|
+| 출시 2주 전 | 디지털 사전 주문 771만 장 | Sensor Tower |
+| 8월 전망 | 출시 때 약 2,500만 장 | Sensor Tower |
+| 출시일 추정 | 사전 주문 + 첫날 2,450만 장 · 약 \$2.36B | Sensor Tower |
+| 공식 발표 | 출시 전 판매 **3,250만 장** · 첫날 \$3.79B | Rockstar |
+| 4일 추정 | 4,490만 장 · \$4.0B 이상 | Alinea ([[alinea-gta6-launch-449m-2026-11]]) |
+
+- 같은 범위를 잰 추정이 공식 발표보다 장수로 25%, 금액으로 38% 적었다. 업체는 8월 전망을 출시일까지 유지했다
+- 2주 전 771만에서 출시 전 3,250만까지의 간격은 패키지 판매와 마지막 2주 몰림으로 설명해야 하는데, 디지털 스토어만 보는 추적으로는 둘 다 잡히지 않는다
+- 사전구매자 구성은 따로 쓸모가 있었다. Newzoo는 사전구매자의 16%가 직전 1년간 정가 게임을 사지 않았다는 점을 들어 "다른 게임 몫을 뺏는 것이 아니라 새 지출"이라고 읽었다. **누가 사는가**를 보면 총량 추정이 못 주는 답(잠식인가 확대인가)을 얻는다
+
+> ⚠️ 공식 수치와 추정의 범위가 서로 다르다. "첫날 소매 매출"이 소비자 판매인지 유통 출하 포함인지 밝혀지지 않았고, 공식 금액을 공식 장수로 나누면 장당 약 \$117로 최고가 에디션을 넘는다. 추정이 틀렸다고 단정하기 전에 **같은 것을 쟀는지**부터 확인해야 한다. 표본도 이 한 건이다.

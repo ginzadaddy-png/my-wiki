@@ -1,13 +1,18 @@
 ---
 title: "소스 전체 목록"
 created: 2026-04-16
-updated: 2026-11-16
+updated: 2026-11-24
 ---
 
-총 226개 | 최신순 정렬
+총 231개 | 최신순 정렬
 
 | 파일 | 제목 | 날짜 |
 |------|------|------|
+| [alinea-gta6-launch-449m-2026-11](alinea-gta6-launch-449m-2026-11.md) | Alinea — GTA 6 4일 4,490만 장·\$4.0B 이상 (Elliott) — PS5 75.1%·일요일 DAU 약 4,080만·PS5 미국 1,110만 · 중국 160만(회색 시장)·Call of Duty DAU −42%(4일 뒤 −41%) · Fortnite −28% · FC 27 −27%·EA의 \$70→\$35 맞대응·출시 전 예측 채점 | 2026-11-23 |
+| [gi-gta6-launch-numbers-2026-11](gi-gta6-launch-numbers-2026-11.md) | GTA 6 출시 수치 묶음 (GamesIndustry.biz 4건) — 공식 출시 전 3,250만 장 · 첫날 \$3.79B·Sensor Tower 추정 2,450만 · \$2.36B(빗나감)·Newzoo 사전구매자: GTA 이력 52% · 1년간 정가 게임 미구매 16% · 여성 15% 미만·Circana 출시일 미국 PS5 61% 참여 · 평균 513분·AAA 출시 회피 2개(전년 10개) | 2026-11-23 |
+| [gi-lober-dfa-game-design-2026-11](gi-lober-dfa-game-design-2026-11.md) | Lober — EU Digital Fairness Act가 게임 설계에 닿는 지점 (GamesIndustry.biz 기고) — 가상 화폐를 쓸 때도 실제 금액 표시·2차 화폐 포함·pay-to-win 정의는 좁고 pay-to-progress는 DLC까지·다른 EU 법 6개와 중복·집행이 가까운 회사부터 닿는다는 반론·의견 제출 2027-01-14 | 2026-11-20 |
+| [carless-pc-trends-beyond-tags-2026-11](carless-pc-trends-beyond-tags-2026-11.md) | GameDiscoverCo — 스팀 태그 너머의 PC 게임 트렌드 (Carless) — 태그 추가 2023–2025년 8개 · 2026-05 약 25개·Trends 분류 1,400개(트렌드당 게임 3–73개)·가장 뜨거운 것: 검문·검사 시뮬 · 자동차 서바이벌 · 추출 슈터 두 갈래·카테고리 1위 Vampire Survivors류·기준 비공개 | 2026-11-17 |
+| [eu-digital-fairness-act-2026-11](eu-digital-fairness-act-2026-11.md) | EU Digital Fairness Act 제안 — 게임 수익화 조항과 업계 반응 (리서치 종합 10건) — 규정 형식으로 27개국 직접 적용·미성년자 대상 유료 루트박스·pay-to-win 금지·유료 가상 화폐 기본 비활성화와 실제 금액 표시·로그인 보상·연속 접속 끄기 기능·집행위 직접 집행과 매출 6% 과징금·"미성년자 대상" 판정에 연령 등급·업계 공동성명 "게임 오버"·Fahey 공유지의 비극·법안 원문 미확인 | 2026-11-11 |
 | [alinea-gta6-engagement-whirlpool-2026-11](alinea-gta6-engagement-whirlpool-2026-11.md) | Alinea — GTA 6 출시로 가장 흔들릴 콘솔 라이브 게임 (Elliott) — PS + Xbox 월평균 MAU Fortnite 4,790만 · Minecraft 2,420만 · Roblox 2,290만 · GTA 5 2,280만 · Rocket League 2,060만·같은 달 GTA 5 중복 플레이 15–25%(Roblox 최고)·DAU 급락 뒤 대부분 회복 전망·GTA Online이 예외·리메이크 3단계(포트 · 그래픽 갱신 · 전면 재해석)·오카리나 리메이크와 세대 승계 | 2026-11-10 |
 | [nexon-ir-3q26](nexon-ir-3q26.md) | 넥슨 3Q26 IR (결산설명자료) — 매출 1,383.8억엔(+17%) · 영업이익 417.9억엔(+11%, 고정환율 0%)·가이던스 상단 초과·메이플 +72% 분기 최고(MapleStory Classic 중국 약 4배)·FC 반등·던파 -33%·vertical +24% · horizontal -4%·북미·유럽 비중 21% → 10%·프로젝트 6건 중단·Arad: Idle RPG 2027 상반기 연기·특별배당 11월 25일 지급 | 2026-11-10 |
 | [alinea-ps-studios-top10-2026-11](alinea-ps-studios-top10-2026-11.md) | Alinea — PS5 세대 PlayStation Studios 매출 Top 10 (Elliott) — 합계 \$6.5B+·PS 84.7% · Steam 14.1% · Xbox 1.2%·Ragnarök \$1.4B·Spider-Man 2 \$1.3B·GT7 \$841.9M·Helldivers 2 \$786.3M·Horizon FW 출시 1년 뒤 PS Plus 편입으로 카탈로그 매출 −58%·Spider-Man 2 12월 계절성·패키지 축소 논지 | 2026-11-06 |

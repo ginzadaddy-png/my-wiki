@@ -5,9 +5,9 @@ source_url: "https://alineaanalytics.substack.com/p/the-games-most-at-risk-from-
 source_author: "Rhys Elliott (Alinea Analytics)"
 source_published: 2026-11-10
 sources: []
-related: ["[[gta-6|GTA 6]]", "[[gta5|GTA V]]", "[[fortnite|Fortnite]]", "[[roblox|Roblox]]", "[[player-retention|플레이어 리텐션]]", "[[live-service-design|라이브 서비스 설계]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[nintendo|닌텐도]]", "[[nintendo-switch-2|Nintendo Switch 2]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[gi-sensortower-gta6-preorders-2026-11]]", "[[alinea-ps-studios-top10-2026-11]]"]
+related: ["[[gta-6|GTA 6]]", "[[gta5|GTA V]]", "[[fortnite|Fortnite]]", "[[roblox|Roblox]]", "[[player-retention|플레이어 리텐션]]", "[[live-service-design|라이브 서비스 설계]]", "[[remaster-rerelease-strategy|구작 재발매·리마스터 전략]]", "[[nintendo|닌텐도]]", "[[nintendo-switch-2|Nintendo Switch 2]]", "[[alinea-remakes-remasters-ranking-2026-07]]", "[[gi-sensortower-gta6-preorders-2026-11]]", "[[alinea-ps-studios-top10-2026-11]]", "[[alinea-gta6-launch-449m-2026-11]]"]
 created: 2026-11-16
-updated: 2026-11-16
+updated: 2026-11-24
 confidence: medium
 ---
 
@@ -68,3 +68,4 @@ confidence: medium
 - [[gta-6]] — "관객 겹침이 얇다"는 기존 신호(CoD 플레이어의 GTA 5 중복 6–10%)와 나란히 놓을 새 수치
 - [[alinea-remakes-remasters-ranking-2026-07]] — 같은 저자의 리메이크 성공 3조건. 이번 글은 그 위에 *창작 기여도* 축을 더한다
 - [[gi-sensortower-gta6-preorders-2026-11]] — 같은 시기 사전주문 추정
+- [[alinea-gta6-launch-449m-2026-11]] — 출시 4일 뒤 같은 저자의 채점. 급락은 맞았고(Call of Duty −42% · Fortnite −28%), 회복은 Fortnite·FC 27만 진행 중이며 Call of Duty는 −41%에 머물렀다. 이 글이 가장 취약하다고 본 Roblox의 수치는 후속 글에 없다

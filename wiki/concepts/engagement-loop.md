@@ -1,10 +1,10 @@
 ---
 title: "인게이지먼트 루프"
 type: concept
-sources: ["[[roblox-retention-algorithm-tradeoff-2026-08]]"]
-related: ["[[player-retention|플레이어 리텐션]]", "[[live-service-design|라이브 서비스 설계]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[mda-framework|MDA 프레임워크]]", "[[game-balance|게임 밸런싱]]", "[[mobile-gamedev|모바일 게임 개발]]"]
+sources: ["[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[eu-digital-fairness-act-2026-11]]"]
+related: ["[[player-retention|플레이어 리텐션]]", "[[live-service-design|라이브 서비스 설계]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[mda-framework|MDA 프레임워크]]", "[[game-balance|게임 밸런싱]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[monetization-regulation|게임 수익화 규제]]"]
 created: 2026-06-22
-updated: 2026-08-10
+updated: 2026-11-17
 confidence: medium
 ---
 
@@ -43,6 +43,7 @@ confidence: medium
 - **규제 사례** — FTC가 Epic Games에 총 **\$520M**(\$275M COPPA 벌금 + \$245M 다크패턴 환불, 2022-12) 부과, "dark patterns"를 공식 명시. ([FTC 보도자료](https://www.ftc.gov/news-events/news/press-releases/2022/12/fortnite-video-game-maker-epic-games-pay-more-half-billion-dollars-over-ftc-allegations))
 - **루트박스 규제 분기**(양측 병기): **벨기에(2018)** — 신법이 아니라 기존 도박법 *재해석*, 실효성 낮음(상위 iPhone 게임 82.0%가 여전히 운영, Xiao 2023). **영국 DCMS** — 도박 *불분류* 유지(자율규제, 조건부).
 - **WHO ICD-11 게이밍 장애(6C51**, 2022-01-01 발효) = 통제력 손상·우선순위 증가·부정적 결과에도 지속의 *행동* 기준(시간량 아님) ↔ **Aarseth et al.(2017, 33인)** 반론: 근거 부족·정상 게이머 위양성·낙인·도덕적 공황 → 학계 미해결. WHO 채택 입장과 반론을 *병기*해야 함.
+- **EU Digital Fairness Act 제안**(2026-11): 위 사례들과 달리 사후 제재가 아니라 **설계 요건**이다. 미성년자 대상 유료 루트박스·pay-to-win 금지, 유료 가상 화폐 기본 비활성화, 그리고 로그인 보상·연속 접속·활동과 무관한 푸시 알림을 **이용자가 끌 수 있어야 한다**는 조항이 들어 있다. 위 "라이브서비스 케이던스"의 첫 층(일일 로그인)이 직접 대상이다. 제안 단계이고 시행은 빨라야 2028–2029년경 전망 ([[eu-digital-fairness-act-2026-11]] · [[monetization-regulation|게임 수익화 규제]])
 
 ### 규제보다 먼저 걷어냈을 때의 비용 ([[roblox-retention-algorithm-tradeoff-2026-08]])
 

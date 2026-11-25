@@ -1,10 +1,10 @@
 ---
 title: "Electronic Arts (EA)"
 type: entity
-sources: ["[[alinea-fc27-top-seller-2026-10]]"]
-related: ["[[respawn-entertainment|Respawn Entertainment]]", "[[bioware|BioWare]]", "[[apex-legends|Apex Legends]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]", "[[game-pricing-strategy|게임 가격 전략]]"]
+sources: ["[[alinea-fc27-top-seller-2026-10]]", "[[eu-digital-fairness-act-2026-11]]"]
+related: ["[[respawn-entertainment|Respawn Entertainment]]", "[[bioware|BioWare]]", "[[apex-legends|Apex Legends]]", "[[catalog-economics|카탈로그 이코노믹스]]", "[[live-service-design|라이브 서비스 설계]]", "[[publisher-deal-structures|퍼블리셔 딜 구조]]", "[[multi-project-development|멀티 프로젝트 개발]]", "[[studio-acquisition-outcomes|스튜디오 인수·통합의 사후 성적]]", "[[game-pricing-strategy|게임 가격 전략]]", "[[monetization-regulation|게임 수익화 규제]]"]
 created: 2026-06-01
-updated: 2026-10-12
+updated: 2026-11-17
 confidence: medium
 relations:
   parentOf: [respawn-entertainment, bioware]
@@ -49,6 +49,7 @@ relations:
 > 1. *라이브 서비스 push 과잉* — Anthem(2019) 실패, [[apex-legends|Apex]] 매출 둔화(2023~) 인정. 싱글 스튜디오 자율성 침식 우려
 > 2. *2024 대규모 정리해고* — 전사 약 5%(670명) 감원. 산하 스튜디오(Respawn 포함) 영향
 > 3. *스튜디오 폐쇄 이력* — Visceral(2017, Star Wars 싱글 취소) 등 *단발 싱글 IP 정리* 패턴
+> 4. *EU 규제 노출* — 2026-11 Digital Fairness Act 제안은 미성년자 대상 유료 루트박스를 금지하고 성인에게도 끄는 기능을 요구한다. Ultimate Team의 카드 팩이 정면 대상이다. George Osborn은 Ultimate Team이 한 모드로 분리돼 있어 연령 게이트로 대응할 여지가 있다고 보면서도, EA가 오래 의존한 모델이라 떠나기 어렵다고 본다 ([[eu-digital-fairness-act-2026-11]] · [[monetization-regulation|게임 수익화 규제]]). 제안 단계
 
 ## 관련 위키 페이지
 

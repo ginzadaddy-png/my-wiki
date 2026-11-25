@@ -2,7 +2,7 @@
 title: "전체 개념 목록"
 type: concept
 created: 2026-04-22
-updated: 2026-09-29
+updated: 2026-11-17
 ---
 
 ← [홈으로](../index.md)
@@ -56,6 +56,7 @@ updated: 2026-09-29
 | [[publisher-deal-structures]] | **퍼블리셔 딜 구조** — Rev share·Recoup-first·MG·Marketing fee 5종 비교·stress test |
 | [[mobile-gamedev]] | **모바일 게임 개발** — 4대 현장 벽, 상업 성립 4요소, 원신 쇼크의 역설 |
 | [[free-to-play]] | **F2P·부분유료 모델** — 배틀패스·가챠·외형, F2P를 떠난 사례와 장르가 진 불신, 서구 시장 약세 |
+| [[monetization-regulation]] | **게임 수익화 규제** — 사후 벌금에서 설계 요건으로·EU Digital Fairness Act 제안·루트박스·가상 화폐·접속 유도 장치 |
 | [[mmorpg]] | **MMO·MMORPG** — 수십 년 운영하는 사업 구조, 바닥은 되지만 천장은 안 된다, 클래식 서버 |
 | [[genre-tag-taxonomy]] | **장르 태그 분류 체계** — 태그는 장르 사실이 아닌 마케팅 산물·관행 변화와 장르 이동의 미분리·렌즈 격차가 드러내는 단가 |
 | [[audience-discovery-systems]] | **오디언스 발견 시스템** — Intent vs Algorithm, Seek→Feed, 표면 alignment 함정 |

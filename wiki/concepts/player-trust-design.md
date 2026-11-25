@@ -1,10 +1,10 @@
 ---
 title: "플레이어 신뢰 설계"
 type: concept
-sources: ["[[gdc26-rules-of-the-game]]"]
-related: ["[[mda-framework|MDA 프레임워크]]", "[[game-balance|게임 밸런싱]]", "[[playtesting|플레이테스팅]]", "[[marketing-strategy|마케팅 전략]]", "[[engagement-loop|인게이지먼트 루프]]", "[[accessibility-design|접근성 설계]]", "[[free-to-play|F2P·부분유료 모델]]"]
+sources: ["[[gdc26-rules-of-the-game]]", "[[eu-digital-fairness-act-2026-11]]"]
+related: ["[[mda-framework|MDA 프레임워크]]", "[[game-balance|게임 밸런싱]]", "[[playtesting|플레이테스팅]]", "[[marketing-strategy|마케팅 전략]]", "[[engagement-loop|인게이지먼트 루프]]", "[[accessibility-design|접근성 설계]]", "[[free-to-play|F2P·부분유료 모델]]", "[[monetization-regulation|게임 수익화 규제]]"]
 created: 2026-04-22
-updated: 2026-08-03
+updated: 2026-11-17
 confidence: high
 ---
 
@@ -45,6 +45,7 @@ confidence: high
 
 - 불투명한 게임 내 통화, 루트 박스, 페이투윈 구조 등 착취적 지출
 - **장르 오염 효과**: F2P라는 레이블 자체가 신뢰 적자를 만든다. 같은 장르의 다른 게임이 쌓아온 불신을 그대로 상속받는다
+- **오염이 규제로 굳는다**: 위 세 가지(불투명한 통화·루트 박스·페이투윈)가 2026-11 EU Digital Fairness Act 제안의 규제 대상 그대로다. 몇몇이 쓴 신뢰를 장르 전체가 법적 의무로 갚게 되는 경로다 ([[eu-digital-fairness-act-2026-11]] · [[monetization-regulation|게임 수익화 규제]])
 
 ## 외부 변수
 

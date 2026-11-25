@@ -1,10 +1,10 @@
 ---
 title: "라이브 서비스 설계"
 type: concept
-sources: ["[[missing-middle-paradigm-shift-2026]]", "[[ukyou-mobile-liveservice-survival]]", "[[ukyou-mobile-liveservice-walls]]", "[[ign-generations-in-play-2026]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[gi-sony-live-service-opportunity-cost-2026-08]]", "[[gi-tencent-live-service-strategy-2026-09]]", "[[gi-sega-super-game-cancelled-2026-09]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]"]
-related: ["[[helldivers-2|헬다이버스 2]]", "[[arc-raiders|아크 레이더스]]", "[[arrowhead-game-studios|애로우헤드]]", "[[embark-studios|엠바크 스튜디오]]", "[[community-management|커뮤니티 운영]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[player-retention|플레이어 리텐션]]", "[[engagement-loop|인게이지먼트 루프]]", "[[free-to-play|F2P·부분유료 모델]]"]
+sources: ["[[missing-middle-paradigm-shift-2026]]", "[[ukyou-mobile-liveservice-survival]]", "[[ukyou-mobile-liveservice-walls]]", "[[ign-generations-in-play-2026]]", "[[roblox-retention-algorithm-tradeoff-2026-08]]", "[[gi-sony-live-service-opportunity-cost-2026-08]]", "[[gi-tencent-live-service-strategy-2026-09]]", "[[gi-sega-super-game-cancelled-2026-09]]", "[[gi-newzoo-ggmr-2026-release-2026-09]]", "[[eu-digital-fairness-act-2026-11]]"]
+related: ["[[helldivers-2|헬다이버스 2]]", "[[arc-raiders|아크 레이더스]]", "[[arrowhead-game-studios|애로우헤드]]", "[[embark-studios|엠바크 스튜디오]]", "[[community-management|커뮤니티 운영]]", "[[player-trust-design|플레이어 신뢰 설계]]", "[[subscription-economy-gaming|구독 경제와 게이밍]]", "[[game-utility-systems|게임 유틸리티 시스템]]", "[[mobile-gamedev|모바일 게임 개발]]", "[[player-retention|플레이어 리텐션]]", "[[engagement-loop|인게이지먼트 루프]]", "[[free-to-play|F2P·부분유료 모델]]", "[[monetization-regulation|게임 수익화 규제]]"]
 created: 2026-04-23
-updated: 2026-09-14
+updated: 2026-11-17
 confidence: high
 ---
 
@@ -18,6 +18,8 @@ confidence: high
 - **인위적 타이머·노가다**: F2P 수익화를 위한 크래프팅 대기시간 → "유저 시간 기만"
 - **기계적 이벤트 캘린더**: 달력에 자동 이벤트를 박는 방식 → 생동감 없음
 - **메타 일방 너프**: 유저가 발견한 공략법을 "의도되지 않은 플레이"로 차단 → 성취감 훼손
+
+> ⚠️ **이 피로 원인들이 규제 대상이 되고 있다.** 2026-11 EU Digital Fairness Act 제안은 로그인 보상·연속 접속·활동과 무관한 푸시 알림처럼 정해진 간격으로 접속을 유도하는 장치를 **이용자가 끌 수 있어야 한다**고 요구한다. 원안대로면 FOMO 설계는 평판 문제에서 법적 의무 문제로 바뀐다. 제안 단계 ([[eu-digital-fairness-act-2026-11]] · [[monetization-regulation|게임 수익화 규제]])
 
 ## 비약탈적 모델의 기준 ([[helldivers-2]])
 
